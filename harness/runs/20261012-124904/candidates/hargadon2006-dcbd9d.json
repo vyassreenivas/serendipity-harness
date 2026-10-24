@@ -1,0 +1,221 @@
+{
+ "paper_id": "hargadon2006-dcbd9d",
+ "file": "papers/pdf/Hargadon and Bechky - 2006 - When Collections of Creatives Become Creative Collectives.pdf",
+ "about": [
+  "An ethnographic field study of professional service firms that builds a model of momentary collective creativity, in which help seeking, help giving, reflective reframing and reinforcing set off fleeting interactions that link people's past experiences to current problems in unexpected, non-obvious ways."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Fleeting, unpredictable creative moment",
+   "definition": "The authors treat creative insight as a rare, transient moment set off by a fleeting coincidence of behaviours. They say it is hard to predict when such moments will happen; it is not a stable property of people or firms.",
+   "applies_when": "An account describes a breakthrough as a passing, chance coincidence of people or actions at a particular moment that could not have been planned or predicted.",
+   "does_not_apply_when": "The account credits the result to a stable, ongoing capability, such as a creative individual or a firm-wide practice, rather than a momentary coincidence.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p002:04",
+    "hargadon2006-dcbd9d:p012:03",
+    "hargadon2006-dcbd9d:p012:04"
+   ],
+   "pdf_pages": [
+    2,
+    12
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Another's remark sparks recall",
+   "definition": "One person's comment or half-remembered idea prompts another to recall past experience that had until then not seemed relevant. That recall redirects the search for a solution.",
+   "applies_when": "The interviewee describes a casual comment, question or partial memory from someone else that unexpectedly brought a relevant memory or idea to mind and changed direction.",
+   "does_not_apply_when": "The relevant knowledge was searched for deliberately and found directly, for example by looking it up in a database.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p010:03",
+    "hargadon2006-dcbd9d:p007:05"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Help seeking through informal networks",
+   "definition": "People actively ask others for help through hallway conversations, ad hoc meetings and personal networks. These requests can chain into unique and often unexpected paths that link distant people.",
+   "applies_when": "The person reached out informally to contacts about a problem, and the conversations led on to unanticipated people or knowledge.",
+   "does_not_apply_when": "The person is merely present in a group, or uses formal codified sources without reaching out to anyone.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p008:03",
+    "hargadon2006-dcbd9d:p008:04"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Willing, timely help giving",
+   "definition": "The people who are asked actually give time and attention, and do so promptly. In one case a colleague stopped his own work to help, and this led to the recognition that his old software could solve her problem.",
+   "applies_when": "The account shows someone dropping their own work or devoting unplanned time to another's problem, and this yielded an unexpected solution.",
+   "does_not_apply_when": "The help request is ignored, deflected, or slowed by formal permission or paperwork.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p009:02",
+    "hargadon2006-dcbd9d:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reflective reframing",
+   "definition": "Participants mindfully build on one another's contributions and reconsider whether there is a better question to ask. This lets new frames of the problem make past experiences newly relevant and turns unrealistic ideas into realistic ones.",
+   "applies_when": "The account describes a shift in how a problem was defined during an interaction, so that previously irrelevant knowledge suddenly applied (e.g., 'this is the same problem we faced with frozen foods').",
+   "does_not_apply_when": "A question is answered as given, without the problem being redefined.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p010:01",
+    "hargadon2006-dcbd9d:p010:04",
+    "hargadon2006-dcbd9d:p012:02"
+   ],
+   "pdf_pages": [
+    10,
+    12
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c05"
+  },
+  {
+   "group": "background",
+   "label": "Diverse past experiences to recombine",
+   "definition": "Creative solutions are built by bringing together existing ideas from people's varied prior experience, such as splints, IV bags and pumps. The relevance of this prior knowledge is rarely obvious beforehand.",
+   "applies_when": "The interviewee draws on knowledge from an unrelated earlier domain or project, held by themselves or others, that turned out to be useful in a new setting.",
+   "does_not_apply_when": "The solution is a straightforward replication of a known solution in the same domain.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p003:03",
+    "hargadon2006-dcbd9d:p003:04",
+    "hargadon2006-dcbd9d:p009:02"
+   ],
+   "pdf_pages": [
+    3,
+    9
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Openness to not knowing what others bring",
+   "definition": "People deliberately convene diverse others, such as in a brainstorm, precisely because they cannot know in advance what experiences those others will contribute.",
+   "applies_when": "The person describes deliberately gathering people with different backgrounds in the hope that something unforeseen would surface.",
+   "does_not_apply_when": "People are chosen because they hold specific, known expertise for a predefined answer.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p010:02",
+    "hargadon2006-dcbd9d:p007:05"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Reinforcing culture and rewards",
+   "definition": "Shared norms, credit and promotion practices that expect and reward asking for and giving help make these collective moments more likely. Where such norms are absent, help seeking is stigmatised.",
+   "applies_when": "The account mentions norms such as 'you are expected to ask for help', or rewards, status or invitations that encourage collaborative problem solving.",
+   "does_not_apply_when": "The account describes rewards for solitary achievement only.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p011:03",
+    "hargadon2006-dcbd9d:p011:04",
+    "hargadon2006-dcbd9d:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Stigma and hierarchy inhibit",
+   "definition": "The social costs of admitting ignorance, and strong status hierarchies, inhibit help seeking. This makes such moments rarer; psychological safety can mitigate these costs.",
+   "applies_when": "The interviewee reports reluctance to ask for help because it would look weak, or describes hierarchy blocking exchange.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p014:05",
+    "hargadon2006-dcbd9d:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Codified databases miss non-obvious links",
+   "definition": "Knowledge databases retrieve information by expected keywords and do not make unanticipated connections. Non-obvious links therefore arise in social interaction instead.",
+   "applies_when": "The person contrasts finding things through formal repositories with discovering unexpected connections through conversation.",
+   "does_not_apply_when": "The problem is well known and the stored solution fits directly.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p014:04",
+    "hargadon2006-dcbd9d:p014:05"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Missed connections",
+   "definition": "Valuable knowledge can go unnoticed even when the person who holds it is sitting right next to you. The result is duplicated effort; the process happens only when knowledge is made available at the right time.",
+   "applies_when": "The account describes learning later that someone nearby had the needed knowledge but the connection never happened.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p015:02",
+    "hargadon2006-dcbd9d:p007:05"
+   ],
+   "pdf_pages": [
+    7,
+    15
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c11"
+  },
+  {
+   "group": "account",
+   "label": "Individual-genius narratives mask collective process",
+   "definition": "Popular framing of creativity as individual accomplishment shapes how people later explain their work. It can mask what was actually a collective process.",
+   "applies_when": "The interviewee attributes a breakthrough solely to one person's insight, while the narrative reveals multiple contributors and interactions.",
+   "does_not_apply_when": "The interviewee explicitly credits collective interaction.",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p016:02",
+    "hargadon2006-dcbd9d:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    16
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "Costs of collective search",
+   "definition": "Pursuing collective creative interactions can cost time, cause missed deadlines or reinventing the wheel, and is unnecessary when a better solution is not needed.",
+   "applies_when": "The person reports time lost or delays from exploratory consulting with others instead of using available solutions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon2006-dcbd9d:p015:02",
+    "hargadon2006-dcbd9d:p015:03"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "hargadon2006-dcbd9d:c13"
+  }
+ ],
+ "removed": []
+}

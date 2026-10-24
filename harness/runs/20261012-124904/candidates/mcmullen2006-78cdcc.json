@@ -1,0 +1,184 @@
+{
+ "paper_id": "mcmullen2006-78cdcc",
+ "file": "papers/pdf/McMullen and Shepherd - 2006 - Entrepreneurial Action and the Role of Uncertainty in the Theory of the Entrepreneur.pdf",
+ "about": [
+  "A conceptual paper modelling entrepreneurial action as a two-stage process: attention to a third-person opportunity, then evaluation of whether it is a first-person opportunity. Both stages depend on knowledge (how much uncertainty is perceived) and motivation (willingness to bear it). The paper addresses discovery without search only in passing, through its treatment of Kirzner's alertness and of discovery versus deliberate search."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "type",
+   "label": "Discovery versus deliberate search",
+   "definition": "The authors separate two routes to an opportunity. Scanning and deliberate search start from known ignorance ('I know what I don't know'). Discovery starts from complete ignorance ('I don't know what I don't know'): the person is not consciously investigating the matter and may be busy with other activities.",
+   "applies_when": "The person says they came upon the opportunity while not looking for it, or while occupied with something unrelated, and had no prior awareness that they lacked this information.",
+   "does_not_apply_when": "The person consciously recognised a need for information and went looking for it, for example by scanning, researching or shopping around. That is deliberate search, not discovery.",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p015:04",
+    "mcmullen2006-78cdcc:p016:01"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing without search (alertness)",
+   "definition": "This is Kirzner's entrepreneurial alertness as the authors present it: the ability to learn without deliberate search, that is, to notice opportunities others have overlooked. Kirzner admits we cannot explain how some people get flashes of superior foresight.",
+   "applies_when": "The account describes suddenly seeing or 'flashing on' an opportunity that others had passed over, without having searched for it.",
+   "does_not_apply_when": "The opportunity was found through a planned search process.",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p014:04",
+    "mcmullen2006-78cdcc:p015:02"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c02"
+  },
+  {
+   "group": "condition",
+   "label": "Heightened sensitivity from a personal goal",
+   "definition": "Dissatisfaction or a desire (the paper's example is wanting a better athletic shoe) shifts a person's strategy and makes them more sensitive to their surroundings. This can lead to deliberate search. It can also work as a discovery heuristic: a sudden awareness of something one had previously ignored, such as fan technology used in other products.",
+   "applies_when": "A prior need, frustration or desire made the person attend to things they had overlooked before, and this led them to notice an opportunity.",
+   "does_not_apply_when": "The need led to systematic searching, such as visiting stores; code that as deliberate search.",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p010:02",
+    "mcmullen2006-78cdcc:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c03"
+  },
+  {
+   "group": "background",
+   "label": "Domain-specific prior knowledge",
+   "definition": "Without some domain-specific knowledge, a person may not even recognise that a change offers a possibility for action. Knowledge relevant to a particular opportunity narrows uncertainty enough for the person to see it.",
+   "applies_when": "The person's existing expertise, experience or local knowledge is what let them recognise the significance of a change or event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p010:01",
+    "mcmullen2006-78cdcc:p007:02",
+    "mcmullen2006-78cdcc:p007:03"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Environmental or technological change",
+   "definition": "Environmental change, and technological change in particular, is presented as a usual source of business opportunities. Different people can see different opportunities in the same change.",
+   "applies_when": "The account names a new technology or a change in the environment as the starting point for noticing an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p009:02",
+    "mcmullen2006-78cdcc:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Stimulus thrust on one in normal business",
+   "definition": "In Knight's view as the authors present it, the decision scenario arrives in the normal course of running an existing business, such as forecasting demand or projecting costs. No escape from ignorance is required.",
+   "applies_when": "The opportunity arose from day-to-day operations of an existing business rather than from an unexpected discovery.",
+   "does_not_apply_when": "The opportunity emerged from complete ignorance, outside the person's current activities.",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p015:03",
+    "mcmullen2006-78cdcc:p015:04"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Evaluating third-person into first-person opportunity",
+   "definition": "Once someone believes an opportunity exists for someone, they must judge whether it is feasible for them to pursue and whether pursuing it is desirable to them. Only then do they act.",
+   "applies_when": "After noticing an opportunity, the person describes weighing whether they personally could pull it off and whether it was worth it to them before committing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p011:01",
+    "mcmullen2006-78cdcc:p011:02",
+    "mcmullen2006-78cdcc:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Motivation needed for noticing to lead to action",
+   "definition": "However clearly a person sees an opportunity, alertness without motivation will not produce entrepreneurial action. Seeing the answer is not enough if the prize does not seem worth the effort.",
+   "applies_when": "The person noticed an opportunity but explains acting, or not acting, by whether they were motivated enough.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p015:02",
+    "mcmullen2006-78cdcc:p011:04"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Overcoming doubt through learning or encouragement",
+   "definition": "A person who recognises an opportunity may doubt they have the knowledge or motivation to exploit it. Learning efforts or encouragement from others can help them overcome that doubt and act.",
+   "applies_when": "The person describes learning, or receiving encouragement from others, that resolved their doubts and led them to pursue the opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c09"
+  },
+  {
+   "group": "account",
+   "label": "Post hoc attribution of alertness",
+   "definition": "Alertness can only be said to exist after the fact, for whoever succeeded. Retrospective accounts are prone to post hoc rationalisation and to observers wrongly crediting people with risk tolerance or superior abilities.",
+   "applies_when": "The person explains a successful outcome by their own special foresight or alertness looking back, or others credit them with such qualities after the fact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p014:02",
+    "mcmullen2006-78cdcc:p019:01"
+   ],
+   "pdf_pages": [
+    14,
+    19
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Opportunities obvious and abundant",
+   "definition": "This is Schumpeter's view, which the authors present and then criticise: possibilities are always present and widely known. Entrepreneurs differ from others not by discovering anything but by actually 'doing the thing'.",
+   "applies_when": "The account suggests the opportunity was widely known or obvious, and the venture came from the person's willingness to act rather than from a lucky discovery.",
+   "does_not_apply_when": "The person stresses that the opportunity was unknown to them or to others until it was stumbled upon.",
+   "passage_ids": [
+    "mcmullen2006-78cdcc:p012:02",
+    "mcmullen2006-78cdcc:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "mcmullen2006-78cdcc:c11"
+  }
+ ],
+ "removed": []
+}

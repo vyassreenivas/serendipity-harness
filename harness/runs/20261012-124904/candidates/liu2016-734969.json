@@ -1,0 +1,303 @@
+{
+ "paper_id": "liu2016-734969",
+ "file": "papers/pdf/Liu and de Rond - 2016 - Good Night, and Good Luck - Perspectives on Luck in Management Scholarship.pdf",
+ "about": [
+  "A systematic review of how luck is used in management scholarship, identifying perspectives on luck (attribution, randomness, counterfactual, undeserved, serendipity, leveler), with a dedicated section on luck as serendipity."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Serendipity as prepared mind recombining chance observations",
+   "definition": "Serendipity is a capability of recombining observations arising by chance and exercising practical judgment to deduce sets of observations that appear meaningfully related; chance favors the prepared mind.",
+   "applies_when": "An account describes noticing chance events or observations and linking them together into a meaningful insight or opportunity.",
+   "does_not_apply_when": "Gains are pure windfall with no contribution from the person's noticing or judgment (pure luck baseline).",
+   "passage_ids": [
+    "liu2016-734969:p026:02",
+    "liu2016-734969:p025:02"
+   ],
+   "pdf_pages": [
+    25,
+    26
+   ],
+   "candidate_id": "liu2016-734969:c01"
+  },
+  {
+   "group": "type",
+   "label": "True serendipity",
+   "definition": "One seeks A but finds B, where B is ultimately the more highly valued outcome (e.g., penicillin, Viagra).",
+   "applies_when": "The person was pursuing one goal and by chance found something different that became more valuable, such as a different venture idea or market.",
+   "does_not_apply_when": "The original goal stayed the same and chance only altered the route (pseudo-serendipity).",
+   "passage_ids": [
+    "liu2016-734969:p026:02",
+    "liu2016-734969:p027:01"
+   ],
+   "pdf_pages": [
+    26,
+    27
+   ],
+   "candidate_id": "liu2016-734969:c02"
+  },
+  {
+   "group": "type",
+   "label": "Pseudo-serendipity",
+   "definition": "A is sought and A is found, but via an unusual, surprising route enabled by chance events, without deviating from the original target.",
+   "applies_when": "Chance events help the person reach the goal they were already pursuing by an unexpected path.",
+   "does_not_apply_when": "Chance led to a different end than the one sought (true serendipity).",
+   "passage_ids": [
+    "liu2016-734969:p026:03",
+    "liu2016-734969:p027:01"
+   ],
+   "pdf_pages": [
+    26,
+    27
+   ],
+   "candidate_id": "liu2016-734969:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance from design of one's own activity",
+   "definition": "The unexpected opportunity arises as an unintended consequence of how an activity or study was designed (e.g., Viagra side effects from trial design).",
+   "applies_when": "The surprising finding emerges as a by-product of the person's own planned procedures or setup.",
+   "does_not_apply_when": "The chance event came from outside and was purely random (e.g., a spore wafting in).",
+   "passage_ids": [
+    "liu2016-734969:p027:02"
+   ],
+   "pdf_pages": [
+    27
+   ],
+   "candidate_id": "liu2016-734969:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Pure random chance occurrence",
+   "definition": "The unexpected input is a random variation independent of the person's design, such as a contaminant drifting in or a fortunate office-sharing arrangement.",
+   "applies_when": "The account cites an accidental external event or encounter (e.g., a chance colleague pointing out a flaw) that set things off.",
+   "does_not_apply_when": "The event followed from the structure of the person's own activity.",
+   "passage_ids": [
+    "liu2016-734969:p027:02",
+    "liu2016-734969:p027:01"
+   ],
+   "pdf_pages": [
+    27
+   ],
+   "candidate_id": "liu2016-734969:c05"
+  },
+  {
+   "group": "type",
+   "label": "Pure luck without serendipity",
+   "definition": "Luck that cannot meaningfully be attributed to the beneficiary; windfall gains independent of the person, the baseline case without serendipity.",
+   "applies_when": "An outcome is described as fortunate with no role for the person's actions, preparation, or recognition.",
+   "does_not_apply_when": "The person actively noticed, recombined, or acted on the chance event.",
+   "passage_ids": [
+    "liu2016-734969:p027:02",
+    "liu2016-734969:p028:01"
+   ],
+   "pdf_pages": [
+    27,
+    28
+   ],
+   "candidate_id": "liu2016-734969:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Luck favors those in motion",
+   "definition": "Hard work, persistence and experimentation expose people to chance events and exclude failing alternatives, so favorable outcomes come from effort joined by chance.",
+   "applies_when": "The person describes stumbling onto an opportunity because they kept trying, experimenting or exposing themselves to new situations.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p028:01",
+    "liu2016-734969:p028:02"
+   ],
+   "pdf_pages": [
+    28
+   ],
+   "candidate_id": "liu2016-734969:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Looking inward at accidentally acquired resources",
+   "definition": "People or firms happen to hold resources or capabilities (often acquired by accident) and recognize and recombine them into unique advantage.",
+   "applies_when": "The person recognizes the value of skills, assets or exposure they came by through lucky circumstances and builds a venture on them (e.g., Gates leaving Harvard to found Microsoft).",
+   "does_not_apply_when": "The opportunity is spotted in the external environment rather than in one's own endowments (alertness, looking outward).",
+   "passage_ids": [
+    "liu2016-734969:p028:02",
+    "liu2016-734969:p029:01",
+    "liu2016-734969:p029:02"
+   ],
+   "pdf_pages": [
+    28,
+    29
+   ],
+   "candidate_id": "liu2016-734969:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Alertness to weak signals and quick response",
+   "definition": "Luck favors those who pay attention to weak signals, see what others do not, and recognize and respond quickly to grasp opportunities; closest to serendipity's origins.",
+   "applies_when": "The person notices seemingly distracting or irrelevant information, links it, and acts quickly on the opportunity.",
+   "does_not_apply_when": "The value lies in one's own existing resources (looking inward).",
+   "passage_ids": [
+    "liu2016-734969:p029:02",
+    "liu2016-734969:p029:03"
+   ],
+   "pdf_pages": [
+    29
+   ],
+   "candidate_id": "liu2016-734969:c09"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting venture strategy",
+   "definition": "Serendipitous linking of information that seemed a distraction from the original goal leads the venture to change direction, as Honda shifted from heavyweight to lightweight motorcycles.",
+   "applies_when": "An unplanned observation causes the venture to abandon its initial plan for a different product or market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p029:03"
+   ],
+   "pdf_pages": [
+    29
+   ],
+   "candidate_id": "liu2016-734969:c10"
+  },
+  {
+   "group": "role",
+   "label": "Starting a venture from lucky series of events",
+   "definition": "A chain of lucky circumstances (schooling, connections, contracts) combined with a decision to act enabled the founding of a venture.",
+   "applies_when": "A founder narrates a series of lucky events and connections that came together to make founding possible, plus a decision to seize it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p029:01",
+    "liu2016-734969:p029:02"
+   ],
+   "pdf_pages": [
+    29
+   ],
+   "candidate_id": "liu2016-734969:c11"
+  },
+  {
+   "group": "background",
+   "label": "Entrepreneurs without resources combining overlooked factors",
+   "definition": "Opportunities exist even for those without valuable resources, such as entrepreneurs, who make meaningful combinations of seemingly irrelevant factors omitted by others.",
+   "applies_when": "A founder with few resources builds an opportunity by connecting factors others ignored.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p030:01"
+   ],
+   "pdf_pages": [
+    30
+   ],
+   "candidate_id": "liu2016-734969:c12"
+  },
+  {
+   "group": "background",
+   "label": "Network structure enabling serendipity",
+   "definition": "Serendipitous discoveries may owe more to the network the actor is embedded in, giving access to relevant pieces, than to the actor alone.",
+   "applies_when": "The account shows connections or network position supplying the pieces that made the serendipitous combination possible.",
+   "does_not_apply_when": "The account credits only the individual's perceptiveness.",
+   "passage_ids": [
+    "liu2016-734969:p031:02"
+   ],
+   "pdf_pages": [
+    31
+   ],
+   "candidate_id": "liu2016-734969:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Situational factors over star actors",
+   "definition": "Detailed contextual analysis of serendipitous outcomes tends to undermine the role of the individual and show that situational factors played more important roles.",
+   "applies_when": "Evidence suggests the outcome was produced mainly by context or circumstance rather than the actor's recognition.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p031:02"
+   ],
+   "pdf_pages": [
+    31
+   ],
+   "candidate_id": "liu2016-734969:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Atypical opportunities and insensitivity to norms",
+   "definition": "Opportunities remain unexploited when they seem atypical or acting against the norm is risky; luck may favor those less sensitive to what others think who can pursue contrarian strategies.",
+   "applies_when": "The person pursues an opportunity others overlooked due to norms, peer pressure or biases, acting against the crowd.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p030:03",
+    "liu2016-734969:p031:01"
+   ],
+   "pdf_pages": [
+    30,
+    31
+   ],
+   "candidate_id": "liu2016-734969:c15"
+  },
+  {
+   "group": "account",
+   "label": "Affirming success stories downplaying luck",
+   "definition": "In retrospect people construct positive stories emphasizing how human intention and intellect trumped uncertainty, underestimating luck and mistaking luck for skill.",
+   "applies_when": "A narrator explains outcomes mainly through their own skill or vision, omitting or minimizing chance.",
+   "does_not_apply_when": "The narrator explicitly acknowledges chance events, as Gates does.",
+   "passage_ids": [
+    "liu2016-734969:p017:01",
+    "liu2016-734969:p017:02"
+   ],
+   "pdf_pages": [
+    17
+   ],
+   "candidate_id": "liu2016-734969:c16"
+  },
+  {
+   "group": "account",
+   "label": "Self-serving attribution of luck",
+   "definition": "People attribute their successes to skill or effort and failures to bad luck; luck attributions are subjective and can change over time as events unfold.",
+   "applies_when": "An account credits skill for successes and luck for setbacks, or reinterprets an event as lucky or unlucky later.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p007:02",
+    "liu2016-734969:p006:03"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "liu2016-734969:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Path-dependent early luck",
+   "definition": "Small chance advantages in initial conditions are amplified by rich-get-richer dynamics, so outcomes reflect early luck rather than skill or recognition.",
+   "applies_when": "Venture success is explained by being at the right place at the right time with advantages compounding.",
+   "does_not_apply_when": "The person actively recognized and recombined chance events.",
+   "passage_ids": [
+    "liu2016-734969:p015:02",
+    "liu2016-734969:p016:03"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "liu2016-734969:c18"
+  },
+  {
+   "group": "rival",
+   "label": "Timing and external events as randomness",
+   "definition": "Outcomes may be driven by uncontrollable external events and timing rather than actors' choices.",
+   "applies_when": "Success or failure is attributed to timing or external conditions beyond control.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2016-734969:p010:03",
+    "liu2016-734969:p011:01"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "candidate_id": "liu2016-734969:c19"
+  }
+ ],
+ "removed": []
+}

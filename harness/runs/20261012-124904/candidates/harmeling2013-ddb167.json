@@ -1,0 +1,352 @@
+{
+ "paper_id": "harmeling2013-ddb167",
+ "file": "papers/pdf/Harmeling and Sarasvathy - 2013 - When Contingency Is a Resource Educating Entrepreneurs in the Balkans the Bronx and Beyond.pdf",
+ "about": [
+  "An inductive, counterfactual case study of two founders of entrepreneurship education ventures (NFTE and the Osijek program) showing how entrepreneurs respond to personal and historical contingencies and use them as resources in venture creation."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Contingency as sufficient but unnecessary trigger",
+   "definition": "Contingency is defined as a sufficient, yet unnecessary, trigger to entrepreneurial action; its essence is that it is not necessity.",
+   "applies_when": "An account describes an unplanned event that set entrepreneurial action in motion but which was not required for the venture to exist.",
+   "does_not_apply_when": "The event is presented as a necessary precondition or inevitable structural force (e.g., rules of the game) rather than one of many possible triggers.",
+   "passage_ids": [
+    "harmeling2013-ddb167:p003:01",
+    "harmeling2013-ddb167:p020:03"
+   ],
+   "pdf_pages": [
+    3,
+    20
+   ],
+   "candidate_id": "harmeling2013-ddb167:c01"
+  },
+  {
+   "group": "type",
+   "label": "Personal vs historical contingency",
+   "definition": "The authors distinguish contingencies that happen to the individual (a mugging) from those that are historical or societal (a war).",
+   "applies_when": "The triggering event is either a private personal occurrence or a large-scale societal/historical event affecting many.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p003:02",
+    "harmeling2013-ddb167:p014:01"
+   ],
+   "pdf_pages": [
+    3,
+    14
+   ],
+   "candidate_id": "harmeling2013-ddb167:c02"
+  },
+  {
+   "group": "type",
+   "label": "Negative contingencies along the path",
+   "definition": "Rejections, resistance and setbacks encountered while developing the venture are treated as negative contingencies that could have triggered quitting but were leveraged.",
+   "applies_when": "The account describes unexpected setbacks or rejections mid-venture and how the founder dealt with them.",
+   "does_not_apply_when": "The unexpected event is helpful (a positive contingency such as a supportive stakeholder).",
+   "passage_ids": [
+    "harmeling2013-ddb167:p015:03",
+    "harmeling2013-ddb167:p016:01"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "harmeling2013-ddb167:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Positive contingency: chance transformative stakeholder",
+   "definition": "A lucky encounter with a stakeholder who 'clicks' with the founder and helps turn a fledgling venture into a viable one.",
+   "applies_when": "The founder describes luckily meeting someone (e.g., a principal, a foundation director) who understood and backed the idea, after which 'things started to roll'.",
+   "does_not_apply_when": "The support was secured through routine, planned selling to existing power blocs.",
+   "passage_ids": [
+    "harmeling2013-ddb167:p016:02",
+    "harmeling2013-ddb167:p014:03",
+    "harmeling2013-ddb167:p027:01"
+   ],
+   "pdf_pages": [
+    14,
+    16,
+    27
+   ],
+   "candidate_id": "harmeling2013-ddb167:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Traumatic or devastating initial event",
+   "definition": "A negative shock, such as being mugged or a war destroying the local economy, serves as the initial contingency from which the venture eventually emerges.",
+   "applies_when": "The founding story begins with an unwanted, disruptive event that the founder responds to.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p011:03",
+    "harmeling2013-ddb167:p014:01",
+    "harmeling2013-ddb167:p015:02"
+   ],
+   "pdf_pages": [
+    11,
+    14,
+    15
+   ],
+   "candidate_id": "harmeling2013-ddb167:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected insight from others",
+   "definition": "An unexpected remark or reaction (students saying class was boring except for business talk) gives the founder a key insight that redirects their efforts.",
+   "applies_when": "Someone's unanticipated feedback reveals a possibility the founder had not seen.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p022:01",
+    "harmeling2013-ddb167:p022:02"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "harmeling2013-ddb167:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Leveraging contingency as a resource",
+   "definition": "Entrepreneurs treat contingencies as resources to be exploited rather than obstacles to avoid or triggers to adapt to or quit; what they do with the event matters more than the event itself.",
+   "applies_when": "The founder actively uses an unexpected event, good or bad, as an input for building the venture.",
+   "does_not_apply_when": "The founder avoids, defends against, or merely adapts to the event, or quits.",
+   "passage_ids": [
+    "harmeling2013-ddb167:p003:02",
+    "harmeling2013-ddb167:p016:01",
+    "harmeling2013-ddb167:p021:01"
+   ],
+   "pdf_pages": [
+    3,
+    16,
+    21
+   ],
+   "candidate_id": "harmeling2013-ddb167:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Improvised experiment in response to crisis",
+   "definition": "Out of desperation, the founder tries something spontaneous (an impromptu sales-pitch lesson) whose success reveals the power of their agency and launches the venture.",
+   "applies_when": "The account describes an unplanned, improvised action taken in a difficult moment that unexpectedly worked and became the venture's core.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p023:01",
+    "harmeling2013-ddb167:p015:02"
+   ],
+   "pdf_pages": [
+    15,
+    23
+   ],
+   "candidate_id": "harmeling2013-ddb167:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Leveraging contingencies into a new vision",
+   "definition": "Accumulated contingencies are reworked into a new vision of what to do (teach entrepreneurship rather than standard content; build a business school rather than wait for aid).",
+   "applies_when": "The founder reframes problems encountered into a new purpose or venture concept.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p011:03",
+    "harmeling2013-ddb167:p013:02"
+   ],
+   "pdf_pages": [
+    11,
+    13
+   ],
+   "candidate_id": "harmeling2013-ddb167:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Quiet persistence and incremental reshaping",
+   "definition": "Rather than heroic confrontation or acquiescence, founders make small, local changes through creative actions, persisting and reshaping bits of their model (including subterfuge) until opportunities open.",
+   "applies_when": "The founder keeps working within constraints, adjusting and refining while waiting or being rejected.",
+   "does_not_apply_when": "The response is sweeping heroic action or abandonment.",
+   "passage_ids": [
+    "harmeling2013-ddb167:p016:01",
+    "harmeling2013-ddb167:p016:03",
+    "harmeling2013-ddb167:p024:02"
+   ],
+   "pdf_pages": [
+    16,
+    24
+   ],
+   "candidate_id": "harmeling2013-ddb167:c10"
+  },
+  {
+   "group": "background",
+   "label": "Continuing prior activity and knowledge",
+   "definition": "Founders draw on what they were already doing or knew (Singer's ongoing business surveys and reading; Mariotti's import-export business experience) when responding to contingency.",
+   "applies_when": "The response builds on pre-existing projects, expertise or experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p015:03",
+    "harmeling2013-ddb167:p012:04",
+    "harmeling2013-ddb167:p022:01"
+   ],
+   "pdf_pages": [
+    12,
+    15,
+    22
+   ],
+   "candidate_id": "harmeling2013-ddb167:c11"
+  },
+  {
+   "group": "role",
+   "label": "Contingency starts and enables the venture",
+   "definition": "Contingencies act as valuable inputs in the construction of ventures, both initiating them and, via a positive contingency, enabling their transformation into viable enterprises.",
+   "applies_when": "An unexpected event is credited with starting the venture or moving it to viability.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p003:02",
+    "harmeling2013-ddb167:p016:03"
+   ],
+   "pdf_pages": [
+    3,
+    16
+   ],
+   "candidate_id": "harmeling2013-ddb167:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "Strengthened belief in own agency",
+   "definition": "Using contingency as a resource leads entrepreneurs to a transformative stance toward the environment and stronger beliefs in their own agency.",
+   "applies_when": "The founder describes realizing they could make a difference after acting on an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p003:02",
+    "harmeling2013-ddb167:p015:02"
+   ],
+   "pdf_pages": [
+    3,
+    15
+   ],
+   "candidate_id": "harmeling2013-ddb167:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Transformation of the environment",
+   "definition": "Ventures built from contingencies end up transforming the systems and environments in which the original negative contingencies arose.",
+   "applies_when": "The venture is described as changing institutions or conditions around it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p016:02",
+    "harmeling2013-ddb167:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "harmeling2013-ddb167:c14"
+  },
+  {
+   "group": "account",
+   "label": "Luck and 'click' narration",
+   "definition": "Founders narrate the decisive encounter as luck or a sudden 'click' after which things suddenly started to roll.",
+   "applies_when": "The interviewee uses language of luck, chance meeting, or an instant fit with someone.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p014:03",
+    "harmeling2013-ddb167:p027:01"
+   ],
+   "pdf_pages": [
+    14,
+    27
+   ],
+   "candidate_id": "harmeling2013-ddb167:c15"
+  },
+  {
+   "group": "rival",
+   "label": "Inevitability or timing",
+   "definition": "The breakthrough might be explained as inevitable, simply a matter of the timing being right.",
+   "applies_when": "The account attributes the success to the time being ripe rather than to how the founder used events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p016:02"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "harmeling2013-ddb167:c16"
+  },
+  {
+   "group": "rival",
+   "label": "Heroic personality",
+   "definition": "Success might be attributed to the charismatic, heroic, never-say-die personality of the founder triumphing over circumstances.",
+   "applies_when": "The account credits the founder's exceptional character or determination alone.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p016:02"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "harmeling2013-ddb167:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Institutional rules of the game",
+   "definition": "Baumol's view that institutions and reward structures determine entrepreneurial activity, a structural explanation that discounts contingency.",
+   "applies_when": "The account explains venture emergence through incentives, regulations or reward structures.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p005:03",
+    "harmeling2013-ddb167:p006:01",
+    "harmeling2013-ddb167:p008:01"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    8
+   ],
+   "candidate_id": "harmeling2013-ddb167:c18"
+  },
+  {
+   "group": "rival",
+   "label": "Chance events alone cannot explain performance",
+   "definition": "Serendipitous events and contingencies are roughly uniformly distributed across entrepreneurs, so they cannot by themselves explain performance; what entrepreneurs do with them does.",
+   "applies_when": "Someone attributes outcomes purely to luck, without reference to response.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p019:03"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "harmeling2013-ddb167:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Belief that agency can transform environment",
+   "definition": "Whether entrepreneurs believe their agency can influence an environment that is partly endogenous shapes whether they respond resourcefully rather than heroically, adaptively, or by quitting.",
+   "applies_when": "The account reveals the founder's beliefs about their capacity to change their surroundings in relation to how they responded to events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p017:01",
+    "harmeling2013-ddb167:p018:03"
+   ],
+   "pdf_pages": [
+    17,
+    18
+   ],
+   "candidate_id": "harmeling2013-ddb167:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Expertise in leveraging contingencies",
+   "definition": "Expert entrepreneurs, unlike novices, have learned to leverage contingent events; such responses can be taught.",
+   "applies_when": "Experience or training is linked to a founder's ability to exploit unexpected events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "harmeling2013-ddb167:p004:02",
+    "harmeling2013-ddb167:p019:02"
+   ],
+   "pdf_pages": [
+    4,
+    19
+   ],
+   "candidate_id": "harmeling2013-ddb167:c21"
+  }
+ ],
+ "removed": []
+}

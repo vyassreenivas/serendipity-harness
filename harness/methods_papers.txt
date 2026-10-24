@@ -1,0 +1,26 @@
+# Papers about research method, not about the construct. They are inventoried
+# like every other paper, but are not read for candidate codes.
+Aguinis and Solarino - 2019 - Transparency and Replicability in Qualitative Research - The Case of Interviews with Elite Informants.pdf
+Cornelissen et al - 2024 - Large Language Models and the Future of Organization Theory.pdf
+Duriau et al - 2007 - A Content Analysis of the Content Analysis Literature in Organization Studies - Research Themes Data Sources and Methodological Refinements.pdf
+Garcia Quevedo et al - 2026 - Enhancing Theorization Using Artificial Intelligence - Leveraging Large Language Models for Qualitative Analysis of Online Data.pdf
+Gioia et al - 2013 - Seeking Qualitative Rigor in Inductive Research - Notes on the Gioia Methodology.pdf
+Glick et al - 1990 - Studying Changes in Organizational Design and Effectiveness - Retrospective Event Histories and Periodic Assessments.pdf
+Golden - 1992 - The Past Is the Past - Or Is It - The Use of Retrospective Accounts as Indicators of Past Strategy.pdf
+Grodal et al - 2021 - Achieving Rigor in Qualitative Analysis - The Role of Active Categorization in Theory Building.pdf
+Harley and Cornelissen - 2022 - Rigor With or Without Templates - The Pursuit of Methodological Rigor in Qualitative Research.pdf
+Huber and Power - 1985 - Retrospective Reports of Strategic-Level Managers - Guidelines for Increasing Their Accuracy.pdf
+Locke et al - 2022 - Coding Practices and Iterativity - Beyond Templates for Analyzing Qualitative Data.pdf
+Mantere and Ketokivi - 2013 - Reasoning in Organization Science.pdf
+Miller et al - 1997 - Retrospective Reports in Organizational Research - A Reexamination of Recent Evidence.pdf
+Morris - 1994 - Computerized Content Analysis in Management Research - A Demonstration of Advantages and Limitations.pdf
+Nguyen and Welch - 2026 - Generative Artificial Intelligence in Qualitative Data Analysis - Analyzing or Just Chatting.pdf
+O'Kane et al - 2021 - Building Transparency and Trustworthiness in Inductive Research Through Computer-Aided Qualitative Data Analysis Software.pdf
+Pratt - 2025 - On the Evolution of Qualitative Methods in Organizational Research.pdf
+Pratt et al - 2020 - Editorial Essay - The Tumult over Transparency - Decoupling Transparency from Replication in Establishing Trustworthy Qualitative Research.pdf
+Pratt et al - 2022 - Moving Beyond Templates - A Bricolage Approach to Conducting Trustworthy Qualitative Research.pdf
+Schildt - 2026 - The Case for Artificial Intelligence in Qualitative Research.pdf
+Shepherd and Sutcliffe - 2011 - Inductive Top-Down Theorizing - A Source of New Theories of Organization.pdf
+Sætre and Van de Ven - 2021 - Generating Theory by Abduction.pdf
+Tranchero et al - 2024 - Theorizing with Large Language Models - NBER Working Paper 33033.pdf
+Fereday and Muir-Cochrane - 2006 - Demonstrating Rigor Using Thematic Analysis A Hybrid Approach of Inductive and Deductive Coding and Theme Development.pdf

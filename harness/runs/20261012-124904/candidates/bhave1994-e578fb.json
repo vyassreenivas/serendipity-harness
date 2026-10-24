@@ -1,0 +1,184 @@
+{
+ "paper_id": "bhave1994-e578fb",
+ "file": "papers/pdf/Bhave - 1994 - A Process Model of Entrepreneurial Venture Creation.pdf",
+ "about": [
+  "Bhave develops a grounded process model of venture creation from interviews with founders of 27 upstate New York businesses. The model separates internally stimulated opportunity recognition (an unmet need is met before any decision to start a business) from externally stimulated recognition (a decision to start, followed by a search). It then traces the venture through commitment, technology and organization set-up, the first sale and customer feedback."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "type",
+   "label": "Internally stimulated opportunity",
+   "definition": "Recognising the opportunity comes before the decision to start a venture. The person first meets an unmet need and works on solving it, often without realising a business could be built on it. Only later does the business possibility become apparent.",
+   "applies_when": "The founder describes stumbling into the business by solving a need for themselves or others, with no prior intention to start a firm.",
+   "does_not_apply_when": "The founder had already decided to become an entrepreneur and then searched for an opportunity; that is externally stimulated recognition.",
+   "passage_ids": [
+    "bhave1994-e578fb:p008:01",
+    "bhave1994-e578fb:p008:02",
+    "bhave1994-e578fb:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate search after deciding to start",
+   "definition": "Externally stimulated opportunity recognition: the decision to start comes first, prompted by personal or career circumstances. An 'opportunistic search' follows to find an opportunity that fits the person.",
+   "applies_when": "The founder says they decided to go out on their own and then looked for what business to start.",
+   "does_not_apply_when": "The opportunity arose from solving a need before any intention to start a business existed.",
+   "passage_ids": [
+    "bhave1994-e578fb:p006:02",
+    "bhave1994-e578fb:p006:03",
+    "bhave1994-e578fb:p008:01"
+   ],
+   "pdf_pages": [
+    6,
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Personal unmet need",
+   "definition": "The founder personally experiences a need that available vendors or means cannot easily fulfil. This prompts them to find their own solution.",
+   "applies_when": "The account starts with the founder being unable to find a satisfactory product or service for themselves, as with the violin repairer who trusted no one with his instruments.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "bhave1994-e578fb:p008:01",
+    "bhave1994-e578fb:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Casually expressed need of a contact",
+   "definition": "Someone in the founder's circle mentions a need in passing. The founder then takes up the challenge of meeting it.",
+   "applies_when": "An offhand remark from a friend or acquaintance about a problem sets the founder working on a solution, as when a doctor friend casually mentioned a need for certain measurements.",
+   "does_not_apply_when": "The need is the founder's own.",
+   "passage_ids": [
+    "bhave1994-e578fb:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c04"
+  },
+  {
+   "group": "background",
+   "label": "Expertise that reveals a solution",
+   "definition": "The founder's professional knowledge lets them see that a solution to an encountered need can be built.",
+   "applies_when": "The founder links recognising a feasible solution to their prior training or work, as with the electronics researcher who realised an instrument could be built.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "bhave1994-e578fb:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Meta-opportunity: solving before seeing a business",
+   "definition": "The person solves a need without clear business objectives. Realising that the need is widespread then makes the business possibility apparent, and over time it becomes attractive enough to commit to.",
+   "applies_when": "The founder describes realising only after solving a problem that many others shared it and that it could become a business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "bhave1994-e578fb:p008:02",
+    "bhave1994-e578fb:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Word of mouth turns help into business",
+   "definition": "Others learn that the person solves the need, and demand grows until the person begins charging for it.",
+   "applies_when": "The account describes word getting around, people asking for the help, and the informal favour turning into a paid service.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "bhave1994-e578fb:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Massaging or refining the opportunity",
+   "definition": "Once an opportunity is chosen, the entrepreneur elaborates and refines it until it becomes a good idea and a defined business concept.",
+   "applies_when": "The founder describes working an initial idea over and reshaping it into a viable concept.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "bhave1994-e578fb:p007:02",
+    "bhave1994-e578fb:p008:02"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "bhave1994-e578fb:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Filtering out distracting opportunities",
+   "definition": "Founders who decided to start first saw far more opportunities than they could pursue. They eliminated those that did not fit their knowledge, experience and resources.",
+   "applies_when": "The founder says that many opportunities came along and they deliberately turned them down because they lacked the relevant base.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "bhave1994-e578fb:p006:03",
+    "bhave1994-e578fb:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "bhave1994-e578fb:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Novel concept requiring market creation",
+   "definition": "Novel business concepts, including ones that grew out of internally stimulated recognition, could fail to match customer needs at first. The founder then had to develop the concept further and educate customers. The author poses as an open question whether this effort is greater when opportunities are internally stimulated.",
+   "applies_when": "The founder describes customers not understanding the new offering, which forced customer education, 'missionary work' or reworking the concept.",
+   "does_not_apply_when": "The novel concept met a well-recognised need and found ready acceptance, as in HM's case.",
+   "passage_ids": [
+    "bhave1994-e578fb:p009:03",
+    "bhave1994-e578fb:p010:01",
+    "bhave1994-e578fb:p016:03"
+   ],
+   "pdf_pages": [
+    9,
+    10,
+    16
+   ],
+   "candidate_id": "bhave1994-e578fb:c10"
+  },
+  {
+   "group": "role",
+   "label": "Redirection by strategic feedback",
+   "definition": "Feedback signalling a 'new approach to the problem', such as substitutes or radically different customer needs, challenges the business concept itself. It can call for a major reorientation of the venture.",
+   "applies_when": "The founder describes an unexpected market signal that forced a rethinking of the whole venture rather than small product tweaks.",
+   "does_not_apply_when": "The feedback only calls for operational changes to features or quality.",
+   "passage_ids": [
+    "bhave1994-e578fb:p012:03",
+    "bhave1994-e578fb:p013:01"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "bhave1994-e578fb:c11"
+  }
+ ],
+ "removed": []
+}

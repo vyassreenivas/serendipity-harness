@@ -1,0 +1,667 @@
+{
+ "about": "Codes from six papers added to the corpus after the draft (run 20261012-124904). Read in an interactive Claude Code session with the harness extraction prompt; candidates passed the same passage checks as an API run (run 20261021-003947, candidates/). Each candidate is matched to an existing draft code (maps; 'close' means it only leans on that code) or added as a new reference code (new_codes). The mapping was made by reading; the table is codebook/inapp_mapping_20261021.csv.",
+ "run": "20261021-003947",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026",
+ "maps": [
+  {
+   "candidate_id": "grimes2018-91eafb:c01",
+   "code": "role-08",
+   "match": "same idea",
+   "label": "Pivot after outside feedback",
+   "passage_ids": [
+    "grimes2018-91eafb:p017:04",
+    "grimes2018-91eafb:p018:01",
+    "grimes2018-91eafb:p012:02"
+   ]
+  },
+  {
+   "candidate_id": "grimes2018-91eafb:c02",
+   "code": "trigger-17",
+   "match": "close",
+   "label": "Feedback that sharpens the idea",
+   "passage_ids": [
+    "grimes2018-91eafb:p013:01",
+    "grimes2018-91eafb:p013:02"
+   ]
+  },
+  {
+   "candidate_id": "grimes2018-91eafb:c03",
+   "code": "condition-22",
+   "match": "close",
+   "label": "Psychological ownership of the idea",
+   "passage_ids": [
+    "grimes2018-91eafb:p004:03",
+    "grimes2018-91eafb:p004:04",
+    "grimes2018-91eafb:p022:03"
+   ]
+  },
+  {
+   "candidate_id": "grimes2018-91eafb:c05",
+   "code": "rival-06",
+   "match": "close",
+   "label": "Treating ideas as hypotheses to test",
+   "passage_ids": [
+    "grimes2018-91eafb:p014:04",
+    "grimes2018-91eafb:p015:02"
+   ]
+  },
+  {
+   "candidate_id": "grimes2018-91eafb:c06",
+   "code": "mechanism-37",
+   "match": "same idea",
+   "label": "Collective sensemaking with others",
+   "passage_ids": [
+    "grimes2018-91eafb:p018:03",
+    "grimes2018-91eafb:p018:04",
+    "grimes2018-91eafb:p024:03"
+   ]
+  },
+  {
+   "candidate_id": "grimes2018-91eafb:c07",
+   "code": "background-07",
+   "match": "same idea",
+   "label": "Breadth of prior experience",
+   "passage_ids": [
+    "grimes2018-91eafb:p019:03",
+    "grimes2018-91eafb:p019:04"
+   ]
+  },
+  {
+   "candidate_id": "grimes2018-91eafb:c09",
+   "code": "rival-06",
+   "match": "same idea",
+   "label": "Deliberate lean testing",
+   "passage_ids": [
+    "grimes2018-91eafb:p015:02"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c01",
+   "code": "role-08",
+   "match": "same idea",
+   "label": "Unanticipated opportunity after founding",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p021:03",
+    "kirtley2023-e70eaa:p022:01",
+    "kirtley2023-e70eaa:p029:03"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c02",
+   "code": "trigger-17",
+   "match": "same idea",
+   "label": "Casual conversation reveals an opportunity",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p022:01",
+    "kirtley2023-e70eaa:p022:02",
+    "kirtley2023-e70eaa:p014:02"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c03",
+   "code": "trigger-18",
+   "match": "same idea",
+   "label": "Unsolicited approach from outside",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p015:01",
+    "kirtley2023-e70eaa:p022:03",
+    "kirtley2023-e70eaa:p015:02"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c04",
+   "code": "type-02",
+   "match": "close",
+   "label": "Discovery during own product work",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p018:01",
+    "kirtley2023-e70eaa:p018:02",
+    "kirtley2023-e70eaa:p006:01"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c05",
+   "code": "role-08",
+   "match": "same idea",
+   "label": "Pivot that accumulates over steps",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p012:01",
+    "kirtley2023-e70eaa:p023:02",
+    "kirtley2023-e70eaa:p026:01"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c06",
+   "code": "mechanism-23",
+   "match": "same idea",
+   "label": "Expanding beliefs and language",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p018:02",
+    "kirtley2023-e70eaa:p021:03",
+    "kirtley2023-e70eaa:p022:02"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c07",
+   "code": "outcome-25",
+   "match": "same idea",
+   "label": "Considering a change and deciding against it",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p013:02",
+    "kirtley2023-e70eaa:p016:01"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c08",
+   "code": "mechanism-27",
+   "match": "same idea",
+   "label": "Acting in the market surfaces opportunities",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p029:04",
+    "kirtley2023-e70eaa:p028:04"
+   ]
+  },
+  {
+   "candidate_id": "kirtley2023-e70eaa:c09",
+   "code": "account-18",
+   "match": "same idea",
+   "label": "Pivot named only in hindsight",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p026:01",
+    "kirtley2023-e70eaa:p027:01"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c01",
+   "code": "role-02",
+   "match": "same idea",
+   "label": "Accidental user entrepreneur",
+   "passage_ids": [
+    "shah2007-30af0c:p004:01",
+    "shah2007-30af0c:p007:01",
+    "shah2007-30af0c:p009:03"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c02",
+   "code": "trigger-24",
+   "match": "same idea",
+   "label": "Requests from people who see the product",
+   "passage_ids": [
+    "shah2007-30af0c:p008:01",
+    "shah2007-30af0c:p008:02",
+    "shah2007-30af0c:p009:04"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c03",
+   "code": "background-02",
+   "match": "same idea",
+   "label": "Own unmet need as a user",
+   "passage_ids": [
+    "shah2007-30af0c:p008:01"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c04",
+   "code": "background-27",
+   "match": "same idea",
+   "label": "Sharing in a user community",
+   "passage_ids": [
+    "shah2007-30af0c:p008:03",
+    "shah2007-30af0c:p008:05",
+    "shah2007-30af0c:p010:01"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c06",
+   "code": "condition-17",
+   "match": "same idea",
+   "label": "Low opportunity cost",
+   "passage_ids": [
+    "shah2007-30af0c:p012:01"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c08",
+   "code": "condition-02",
+   "match": "same idea",
+   "label": "New or turbulent market",
+   "passage_ids": [
+    "shah2007-30af0c:p012:03"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c09",
+   "code": "background-11",
+   "match": "same idea",
+   "label": "Privileged knowledge from use",
+   "passage_ids": [
+    "shah2007-30af0c:p011:01"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c10",
+   "code": "role-02",
+   "match": "same idea",
+   "label": "Did not expect to start a company",
+   "passage_ids": [
+    "shah2007-30af0c:p009:03"
+   ]
+  },
+  {
+   "candidate_id": "shah2007-30af0c:c11",
+   "code": "role-01",
+   "match": "same idea",
+   "label": "Demand turns a hobby into a venture",
+   "passage_ids": [
+    "shah2007-30af0c:p008:02"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c01",
+   "code": "trigger-17",
+   "match": "same idea",
+   "label": "Idea from an informal dinner conversation",
+   "passage_ids": [
+    "plowman2007-c30eea:p002:02",
+    "plowman2007-c30eea:p013:03"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c02",
+   "code": "trigger-18",
+   "match": "close",
+   "label": "Unplanned contribution from a participant",
+   "passage_ids": [
+    "plowman2007-c30eea:p013:04",
+    "plowman2007-c30eea:p017:03"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c03",
+   "code": "role-08",
+   "match": "same idea",
+   "label": "Small change grows into radical change",
+   "passage_ids": [
+    "plowman2007-c30eea:p003:02",
+    "plowman2007-c30eea:p024:01",
+    "plowman2007-c30eea:p024:04"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c05",
+   "code": "mechanism-43",
+   "match": "same idea",
+   "label": "Amplifying through resources, language and symbols",
+   "passage_ids": [
+    "plowman2007-c30eea:p017:03",
+    "plowman2007-c30eea:p019:02",
+    "plowman2007-c30eea:p024:04"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c06",
+   "code": "mechanism-46",
+   "match": "same idea",
+   "label": "Leaders label the emerging pattern",
+   "passage_ids": [
+    "plowman2007-c30eea:p025:03",
+    "plowman2007-c30eea:p026:01",
+    "plowman2007-c30eea:p026:02"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c07",
+   "code": "outcome-03",
+   "match": "same idea",
+   "label": "Unexpected problem forces a new activity",
+   "passage_ids": [
+    "plowman2007-c30eea:p018:04",
+    "plowman2007-c30eea:p019:02"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c09",
+   "code": "condition-22",
+   "match": "same idea",
+   "label": "Welcoming surprise",
+   "passage_ids": [
+    "plowman2007-c30eea:p027:01",
+    "plowman2007-c30eea:p027:02"
+   ]
+  },
+  {
+   "candidate_id": "plowman2007-c30eea:c10",
+   "code": "background-06",
+   "match": "same idea",
+   "label": "Originators loosely tied to the organisation",
+   "passage_ids": [
+    "plowman2007-c30eea:p024:02",
+    "plowman2007-c30eea:p013:02"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c01",
+   "code": "definition-04",
+   "match": "same idea",
+   "label": "Unexpected discovery during purposeful action",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:02",
+    "oo2025-0f6dbd:p002:01"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c02",
+   "code": "type-01",
+   "match": "same idea",
+   "label": "Mertonian: unexpected solution to the problem at hand",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:03",
+    "oo2025-0f6dbd:p013:02"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c03",
+   "code": "type-02",
+   "match": "same idea",
+   "label": "Walpolian: solution to a problem not being worked on",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:03",
+    "oo2025-0f6dbd:p012:01"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c04",
+   "code": "role-16",
+   "match": "same idea",
+   "label": "Advancing current plans or redirecting the business",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:03"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c05",
+   "code": "mechanism-06",
+   "match": "same idea",
+   "label": "Connecting the dots",
+   "passage_ids": [
+    "oo2025-0f6dbd:p007:02",
+    "oo2025-0f6dbd:p008:01"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c06",
+   "code": "outcome-05",
+   "match": "same idea",
+   "label": "Serendipity story raises perceived innovativeness and funding",
+   "passage_ids": [
+    "oo2025-0f6dbd:p001:01",
+    "oo2025-0f6dbd:p016:03",
+    "oo2025-0f6dbd:p020:03"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c07",
+   "code": "account-09",
+   "match": "same idea",
+   "label": "Credit to the prepared mind",
+   "passage_ids": [
+    "oo2025-0f6dbd:p006:02",
+    "oo2025-0f6dbd:p021:02",
+    "oo2025-0f6dbd:p009:02"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c08",
+   "code": "account-01",
+   "match": "same idea",
+   "label": "Chance origins kept quiet",
+   "passage_ids": [
+    "oo2025-0f6dbd:p002:01",
+    "oo2025-0f6dbd:p002:02"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c09",
+   "code": "account-08",
+   "match": "same idea",
+   "label": "Told as 'invented by accident'",
+   "passage_ids": [
+    "oo2025-0f6dbd:p013:02",
+    "oo2025-0f6dbd:p012:01",
+    "oo2025-0f6dbd:p010:03"
+   ]
+  },
+  {
+   "candidate_id": "oo2025-0f6dbd:c10",
+   "code": "rival-01",
+   "match": "same idea",
+   "label": "Luck in a just world",
+   "passage_ids": [
+    "oo2025-0f6dbd:p006:02",
+    "oo2025-0f6dbd:p006:03"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c01",
+   "code": "definition-15",
+   "match": "same idea",
+   "label": "Unexpectedness, agency and value",
+   "passage_ids": [
+    "terveen2025-8db027:p001:03"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c02",
+   "code": "trigger-14",
+   "match": "same idea",
+   "label": "Chance encounter with a stranger",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p001:01"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c03",
+   "code": "mechanism-22",
+   "match": "same idea",
+   "label": "Feeling that it clicks leads to commitment",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p006:03",
+    "terveen2025-8db027:p008:02"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c04",
+   "code": "mechanism-23",
+   "match": "same idea",
+   "label": "Feeling off leads to rethinking the problem",
+   "passage_ids": [
+    "terveen2025-8db027:p007:01",
+    "terveen2025-8db027:p007:02",
+    "terveen2025-8db027:p008:03"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c05",
+   "code": "role-08",
+   "match": "same idea",
+   "label": "Encounter prompts a pivot",
+   "passage_ids": [
+    "terveen2025-8db027:p007:02"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c06",
+   "code": "outcome-16",
+   "match": "same idea",
+   "label": "Encounter leads to a collaborator or co-founder",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p006:03"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c07",
+   "code": "outcome-25",
+   "match": "same idea",
+   "label": "Missed serendipity still refines the problem",
+   "passage_ids": [
+    "terveen2025-8db027:p008:03",
+    "terveen2025-8db027:p002:03"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c08",
+   "code": "condition-02",
+   "match": "same idea",
+   "label": "Complex, ill-defined problem",
+   "passage_ids": [
+    "terveen2025-8db027:p001:01",
+    "terveen2025-8db027:p001:03",
+    "terveen2025-8db027:p004:04"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c09",
+   "code": "condition-11",
+   "match": "same idea",
+   "label": "Reflecting on how the encounter felt",
+   "passage_ids": [
+    "terveen2025-8db027:p001:02",
+    "terveen2025-8db027:p004:01"
+   ]
+  },
+  {
+   "candidate_id": "terveen2025-8db027:c10",
+   "code": "condition-10",
+   "match": "same idea",
+   "label": "Described in emotional, bodily terms",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p007:01"
+   ]
+  }
+ ],
+ "new_codes": [
+  {
+   "id": "mechanism-50",
+   "group": "mechanism",
+   "label": "Abstracting the idea to its core",
+   "definition": "Founders respond to criticism by moving the idea to a more abstract level so that the core survives while details change.",
+   "applies_when": "The founder restates the idea at a higher level (the purpose or need) after criticism of specifics.",
+   "does_not_apply_when": "",
+   "candidate_id": "grimes2018-91eafb:c04",
+   "passage_ids": [
+    "grimes2018-91eafb:p014:02",
+    "grimes2018-91eafb:p014:03",
+    "grimes2018-91eafb:p016:04"
+   ]
+  },
+  {
+   "id": "account-33",
+   "group": "account",
+   "label": "Visionary versus scientist self-image",
+   "definition": "Founders narrate themselves either as visionaries who hold to the idea or as scientists who test it.",
+   "applies_when": "The founder describes their stance toward the idea as visionary conviction or as experimental testing.",
+   "does_not_apply_when": "",
+   "candidate_id": "grimes2018-91eafb:c08",
+   "passage_ids": [
+    "grimes2018-91eafb:p015:02",
+    "grimes2018-91eafb:p015:03",
+    "grimes2018-91eafb:p016:02"
+   ]
+  },
+  {
+   "id": "account-34",
+   "group": "account",
+   "label": "Idea described as sparked or born",
+   "definition": "Founders describe the origin of their idea as a spark or birth, a sudden moment rather than a search.",
+   "applies_when": "The founder narrates the idea as sparked, born or arriving at a moment.",
+   "does_not_apply_when": "",
+   "candidate_id": "grimes2018-91eafb:c10",
+   "passage_ids": [
+    "grimes2018-91eafb:p008:02",
+    "grimes2018-91eafb:p008:03"
+   ]
+  },
+  {
+   "id": "condition-68",
+   "group": "condition",
+   "label": "Board resists tangents",
+   "definition": "Investors or board members discourage the founders from following side opportunities, even surprising ones.",
+   "applies_when": "The founder describes investors or a board pushing back on following an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "candidate_id": "kirtley2023-e70eaa:c10",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p014:02"
+   ]
+  },
+  {
+   "id": "condition-69",
+   "group": "condition",
+   "label": "Enjoyment of the activity",
+   "definition": "Users who enjoy the activity are more likely to keep innovating and to drift into founding.",
+   "applies_when": "The founder says they did it because they loved the activity or hobby.",
+   "does_not_apply_when": "",
+   "candidate_id": "shah2007-30af0c:c05",
+   "passage_ids": [
+    "shah2007-30af0c:p011:04"
+   ]
+  },
+  {
+   "id": "condition-70",
+   "group": "condition",
+   "label": "Small niche market",
+   "definition": "User entrepreneurship is more likely in niche markets that established firms ignore.",
+   "applies_when": "The founder describes a small or specialised market large firms did not serve.",
+   "does_not_apply_when": "",
+   "candidate_id": "shah2007-30af0c:c07",
+   "passage_ids": [
+    "shah2007-30af0c:p012:02"
+   ]
+  },
+  {
+   "id": "condition-71",
+   "group": "condition",
+   "label": "Unstable setting enables emergence",
+   "definition": "Decline, new leadership, a struggle over identity and ongoing conflict push an organisation away from stability, making it more likely that a small change emerges and is amplified.",
+   "applies_when": "The founder describes a period of crisis, turmoil or searching just before the unplanned change.",
+   "does_not_apply_when": "",
+   "candidate_id": "plowman2007-c30eea:c04",
+   "passage_ids": [
+    "plowman2007-c30eea:p014:03",
+    "plowman2007-c30eea:p024:02",
+    "plowman2007-c30eea:p014:04"
+   ]
+  },
+  {
+   "id": "condition-72",
+   "group": "condition",
+   "label": "Negative feedback limits the change",
+   "definition": "Complaints and resistance check the amplifying cycle and limit how far and fast change goes.",
+   "applies_when": "The founder describes pushback from neighbours, members or authorities that slowed or reshaped the change.",
+   "does_not_apply_when": "",
+   "candidate_id": "plowman2007-c30eea:c08",
+   "passage_ids": [
+    "plowman2007-c30eea:p023:02",
+    "plowman2007-c30eea:p023:05"
+   ]
+  },
+  {
+   "id": "account-35",
+   "group": "account",
+   "label": "Change described as organic",
+   "definition": "People describe the change as organic, as something that just grew, rather than as planned.",
+   "applies_when": "The founder says the venture or change 'just grew' or was 'organic'.",
+   "does_not_apply_when": "",
+   "candidate_id": "plowman2007-c30eea:c11",
+   "passage_ids": [
+    "plowman2007-c30eea:p014:01",
+    "plowman2007-c30eea:p017:02"
+   ]
+  }
+ ]
+}

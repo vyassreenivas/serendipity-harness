@@ -1,0 +1,662 @@
+{
+ "paper_id": "busch2023-0bee54",
+ "file": "papers/pdf/Busch - 2023 - Towards a Theory of Serendipity.pdf",
+ "about": [
+  "A systematic review that defines serendipity through three necessary conditions (agency, surprise, value), models it as a trigger-association-materialization process, and develops a multi-level theory of individual and organizational enablers and inhibitors for cultivating serendipity in organizations."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Agency condition",
+   "definition": "Serendipity requires human action: people act on, recombine, grasp, or make discoveries from chance events. Without such action it is not serendipity.",
+   "applies_when": "The account shows the person actively doing something with an unexpected event, such as noticing it, connecting it, or acting on it, and this contributes to the outcome.",
+   "does_not_apply_when": "The good outcome simply befell the person with no effort or action on their part. That is luck.",
+   "passage_ids": [
+    "busch2023-0bee54:p015:01",
+    "busch2023-0bee54:p015:02"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "busch2023-0bee54:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Surprise condition",
+   "definition": "Serendipity rests on something unexpected, unplanned, accidental or unusual. This covers both an objectively unplanned event and the actor's felt astonishment.",
+   "applies_when": "The person describes an event, piece of information or encounter as unexpected, unplanned or surprising to them.",
+   "does_not_apply_when": "The person went from a defined problem to a planned solution without surprises. That is structured problem-solving.",
+   "passage_ids": [
+    "busch2023-0bee54:p016:01"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "busch2023-0bee54:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Value condition",
+   "definition": "Serendipity yields something of relative worth, such as a beneficial discovery, opportunity, windfall or answer. The value is in the eye of the beholder and may only become apparent later.",
+   "applies_when": "The account presents the unexpected discovery as useful, beneficial or opening an opportunity, whether immediately or in hindsight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p016:02",
+    "busch2023-0bee54:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "busch2023-0bee54:c03"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as process and outcome",
+   "definition": "Serendipity is defined as a surprising discovery that results from unplanned moments in which decisions and actions lead to valuable outcomes. It is treated as a process plus its outcome, not a single event.",
+   "applies_when": "The account traces an unplanned moment through the person's decisions and actions to a valuable outcome.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p003:01",
+    "busch2023-0bee54:p016:03",
+    "busch2023-0bee54:p017:01"
+   ],
+   "pdf_pages": [
+    3,
+    16,
+    17
+   ],
+   "candidate_id": "busch2023-0bee54:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Serendipity trigger / weak cue",
+   "definition": "Serendipity is activated when a person encounters something unexpected, unplanned or unusual. This is often a weak cue, such as a subtle verbal, textual or visual prompt, that most people would not notice.",
+   "applies_when": "The person reports a specific unexpected event, remark, piece of information or encounter that set things in motion.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p017:02",
+    "busch2023-0bee54:p019:02"
+   ],
+   "pdf_pages": [
+    17,
+    19
+   ],
+   "candidate_id": "busch2023-0bee54:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounters with people",
+   "definition": "Chance or serendipitous encounters among people, including watercooler moments and meeting strangers, serve as serendipity triggers.",
+   "applies_when": "The account describes bumping into or randomly meeting someone who provided an unexpected idea, opportunity or information.",
+   "does_not_apply_when": "A meeting was deliberately planned to obtain a specific known resource.",
+   "passage_ids": [
+    "busch2023-0bee54:p024:01",
+    "busch2023-0bee54:p034:03",
+    "busch2023-0bee54:p007:01"
+   ],
+   "pdf_pages": [
+    7,
+    24,
+    34
+   ],
+   "candidate_id": "busch2023-0bee54:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Unlucky event as inflection point",
+   "definition": "An unexpected event that seems unlucky, such as a bankruptcy or recession, can be used through agency as an inflection point for serendipity. An example is founding a new, more successful company after bankruptcy.",
+   "applies_when": "The person describes a setback or misfortune that they then turned into a new opportunity or venture.",
+   "does_not_apply_when": "The setback simply ended activity, with no subsequent use made of it.",
+   "passage_ids": [
+    "busch2023-0bee54:p035:02",
+    "busch2023-0bee54:p035:03"
+   ],
+   "pdf_pages": [
+    35
+   ],
+   "candidate_id": "busch2023-0bee54:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing and bracketing weak cues",
+   "definition": "Serendipity requires not only noticing an unexpected cue but bracketing it: setting it apart as potentially meaningful rather than discarding it.",
+   "applies_when": "The person describes paying attention to and singling out something others overlooked or dismissed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p017:03",
+    "busch2023-0bee54:p021:01"
+   ],
+   "pdf_pages": [
+    17,
+    21
+   ],
+   "candidate_id": "busch2023-0bee54:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Association / connecting the dots",
+   "definition": "People imbue an unexpected event with meaning by forming mental connections between sensations, ideas or memories. They often link it to a problem, goal or identity, or make metaphorical leaps across domains.",
+   "applies_when": "The person describes realizing that an unexpected observation connects to a need, problem, goal or another field, i.e. 'connecting the dots'.",
+   "does_not_apply_when": "The person noticed the event but made no connection to any use.",
+   "passage_ids": [
+    "busch2023-0bee54:p017:03",
+    "busch2023-0bee54:p018:01",
+    "busch2023-0bee54:p019:01"
+   ],
+   "pdf_pages": [
+    17,
+    18,
+    19
+   ],
+   "candidate_id": "busch2023-0bee54:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Materialization / enactment",
+   "definition": "The potential opportunity must be put into effect. A specific possibility is enacted, for example by investing in it and building a product, which turns the association into a valuable outcome.",
+   "applies_when": "The account shows the person or organization acting to realize the connected idea, for example by investing, developing, prototyping or launching it.",
+   "does_not_apply_when": "The idea was recognized but never acted upon. The paper treats this as missed serendipity.",
+   "passage_ids": [
+    "busch2023-0bee54:p018:02",
+    "busch2023-0bee54:p019:02",
+    "busch2023-0bee54:p023:01"
+   ],
+   "pdf_pages": [
+    18,
+    19,
+    23
+   ],
+   "candidate_id": "busch2023-0bee54:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Incubation time lag",
+   "definition": "Trigger and association may occur simultaneously or be separated by a time lag. During this lag the significance of the trigger is realized later, and the original source may be forgotten.",
+   "applies_when": "The person describes realizing the significance of an earlier unexpected event only later, or an idea that seemed spontaneous but traces back to an earlier observation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p018:01",
+    "busch2023-0bee54:p034:02"
+   ],
+   "pdf_pages": [
+    18,
+    34
+   ],
+   "candidate_id": "busch2023-0bee54:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seeding/exposing to triggers",
+   "definition": "Social actors can expose themselves to potential triggers and seed weak cues, for example through networking. This makes unexpected events more likely to happen to them.",
+   "applies_when": "The person describes deliberately putting themselves in situations, networks or conversations that increased the chance of unexpected encounters.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p026:01",
+    "busch2023-0bee54:p031:02",
+    "busch2023-0bee54:p007:01"
+   ],
+   "pdf_pages": [
+    7,
+    26,
+    31
+   ],
+   "candidate_id": "busch2023-0bee54:c12"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge and experience (sagacity)",
+   "definition": "Prior expertise and experience allow people to identify connections between anomalies and what they know, and to see the universal in the particular. An example is Fleming recognizing mould.",
+   "applies_when": "The person attributes their ability to see the value of an unexpected event to prior expertise, domain knowledge or past experience.",
+   "does_not_apply_when": "Experience led to rigid use of methods and to overlooking the opportunity. That is functional fixedness.",
+   "passage_ids": [
+    "busch2023-0bee54:p021:03",
+    "busch2023-0bee54:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    21
+   ],
+   "candidate_id": "busch2023-0bee54:c13"
+  },
+  {
+   "group": "background",
+   "label": "Social embedding and diverse networks",
+   "definition": "The nature, depth and extent of social ties support fortunate encounters when they increase the amount and diversity of interactions. Associations thrive when people with diverse perspectives interact.",
+   "applies_when": "The account links an unexpected opportunity to the person's network, diverse contacts, or a community or space that brought different people together.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p023:03",
+    "busch2023-0bee54:p023:04",
+    "busch2023-0bee54:p024:02"
+   ],
+   "pdf_pages": [
+    23,
+    24
+   ],
+   "candidate_id": "busch2023-0bee54:c14"
+  },
+  {
+   "group": "background",
+   "label": "Collective, multi-person serendipity",
+   "definition": "Serendipity often emerges from the skills and interactions of several people. An individual's discovery may need others to realize its broader relevance and to develop it.",
+   "applies_when": "The person describes others helping to interpret, refine or carry forward an unexpected idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p023:03"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "busch2023-0bee54:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Detection qualities",
+   "definition": "Individual qualities such as alertness, curiosity and intuition help people notice unexpected triggers and opportunities.",
+   "applies_when": "The person describes being alert, curious or intuitive in spotting something unexpected.",
+   "does_not_apply_when": "The quality concerns interpreting or connecting information rather than noticing it. That falls under linking qualities.",
+   "passage_ids": [
+    "busch2023-0bee54:p021:01",
+    "busch2023-0bee54:p021:02"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "busch2023-0bee54:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Linking qualities",
+   "definition": "Qualities such as sagacity, generative doubt, framing, improvisation, creativity and analogous thinking help people interpret unexpected information and make associations.",
+   "applies_when": "The person describes improvising, thinking by analogy, or creatively reframing an unexpected event to find its use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p021:02",
+    "busch2023-0bee54:p021:03"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "busch2023-0bee54:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Inhibiting qualities",
+   "definition": "Functional fixedness (experienced people blocked from using tools or approaches in new ways) and self-censoring (not voicing ideas for fear of seeming irrational or illegitimate) limit the identification and articulation of weak cues.",
+   "applies_when": "The person describes dismissing an unexpected idea because of fixed ways of working, or holding back an idea for fear of how it would look.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p022:02",
+    "busch2023-0bee54:p022:03"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "busch2023-0bee54:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Enabling qualities",
+   "definition": "Self-efficacy, perseverance, social skill and cognitive flexibility help people articulate and integrate serendipitous observations. This matters because realizing such observations takes time, experimentation and openness.",
+   "applies_when": "The person describes persisting, adapting their thinking, or using social skill to push an unexpected idea through.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p022:03",
+    "busch2023-0bee54:p023:01"
+   ],
+   "pdf_pages": [
+    22,
+    23
+   ],
+   "candidate_id": "busch2023-0bee54:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Resource integration mechanisms",
+   "definition": "Effective evaluation and direct, flexible resourcing of unexpectedly emerging ideas, such as investment committees or flash evaluations, determine whether recognized opportunities are enacted.",
+   "applies_when": "The account mentions an organization, investor or support structure quickly evaluating and funding an unexpected idea, or failing to do so.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p023:01",
+    "busch2023-0bee54:p023:02",
+    "busch2023-0bee54:p023:03"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "busch2023-0bee54:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Problem formulation breadth",
+   "definition": "Broadly defined problems or goals raise the likelihood of spotting unexpected opportunities. Overly specified problems, goals or plans create selective inattention and cast anomalies as deviations rather than opportunities.",
+   "applies_when": "The person describes working with an open, broad goal or 'north star' that let them pick up unexpected opportunities. Also code when tight plans made them ignore anomalies.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p024:02",
+    "busch2023-0bee54:p024:03",
+    "busch2023-0bee54:p035:02"
+   ],
+   "pdf_pages": [
+    24,
+    35
+   ],
+   "candidate_id": "busch2023-0bee54:c21"
+  },
+  {
+   "group": "condition",
+   "label": "Psychological safety",
+   "definition": "A belief that one can speak up without punishment makes people more open to sharing half-formed and unexpected ideas. This reduces self-censoring.",
+   "applies_when": "The account describes a setting where people felt safe to voice unusual or undeveloped ideas, which allowed an unexpected opportunity to surface.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p025:01",
+    "busch2023-0bee54:p025:02"
+   ],
+   "pdf_pages": [
+    25
+   ],
+   "candidate_id": "busch2023-0bee54:c22"
+  },
+  {
+   "group": "condition",
+   "label": "Power dynamics and politics",
+   "definition": "Power dynamics shape what counts as a problem or an acceptable solution. Ideas not in the ruling group's interest may be suppressed, so unexpected ideas fail to be integrated.",
+   "applies_when": "The person describes an unexpected idea being blocked, ignored or suppressed due to politics or lack of power.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p024:03",
+    "busch2023-0bee54:p024:04",
+    "busch2023-0bee54:p025:02"
+   ],
+   "pdf_pages": [
+    24,
+    25
+   ],
+   "candidate_id": "busch2023-0bee54:c23"
+  },
+  {
+   "group": "condition",
+   "label": "Event strength",
+   "definition": "The more novel, disruptive and critical an event, the more likely it is to break expectations and change behaviour, and so to trigger serendipity.",
+   "applies_when": "The person describes an unexpected event as highly novel, disruptive or critical in a way that jolted their thinking.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p025:03",
+    "busch2023-0bee54:p020:02"
+   ],
+   "pdf_pages": [
+    20,
+    25
+   ],
+   "candidate_id": "busch2023-0bee54:c24"
+  },
+  {
+   "group": "condition",
+   "label": "Timing and development phase",
+   "definition": "Events are more likely to become serendipitous outcomes when they match the organization's priorities and challenges at that time. This is especially so in early phases, when alertness is higher.",
+   "applies_when": "The person notes that an unexpected event came at the right moment for their venture's current needs, or in an early stage when they were open to new information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p025:03",
+    "busch2023-0bee54:p026:01"
+   ],
+   "pdf_pages": [
+    25,
+    26
+   ],
+   "candidate_id": "busch2023-0bee54:c25"
+  },
+  {
+   "group": "condition",
+   "label": "Ill-defined problem settings",
+   "definition": "Serendipity is assumed to often emerge where problems cannot easily be defined in advance, because alertness tends to be higher than under structured search.",
+   "applies_when": "The account describes highly uncertain settings without clear problem definitions in which unexpected opportunities arose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p035:02"
+   ],
+   "pdf_pages": [
+    35
+   ],
+   "candidate_id": "busch2023-0bee54:c26"
+  },
+  {
+   "group": "condition",
+   "label": "Physical and virtual space design",
+   "definition": "Organizations can facilitate unexpected encounters through space design, such as atriums and central coffee shops, and through practices like random coffee trials or learning lunches.",
+   "applies_when": "The person mentions a shared space, event or matching practice that caused them to bump into someone unexpectedly.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p024:01"
+   ],
+   "pdf_pages": [
+    24
+   ],
+   "candidate_id": "busch2023-0bee54:c27"
+  },
+  {
+   "group": "type",
+   "label": "Types by initial intent and outcome",
+   "definition": "Types are distinguished by whether the actor was searching for something (with a defined problem or none) and whether they found a solution to that problem or to a different one.",
+   "applies_when": "Code the type according to whether the person was looking for something and whether the discovery solved their original problem or a different one.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p020:01",
+    "busch2023-0bee54:p029:02"
+   ],
+   "pdf_pages": [
+    20,
+    29
+   ],
+   "candidate_id": "busch2023-0bee54:c28"
+  },
+  {
+   "group": "type",
+   "label": "Foreground vs background serendipity",
+   "definition": "Foreground serendipity confirms a person's immediate focus or direction. Background serendipity triggers latent interests and may change that focus or direction.",
+   "applies_when": "Code foreground when the unexpected find advanced the existing direction. Code background when it redirected the person toward a latent interest.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "busch2023-0bee54:c29"
+  },
+  {
+   "group": "type",
+   "label": "Weak to strong serendipity continuum",
+   "definition": "Serendipity ranges from weak, everyday micro-serendipity to strong, depending on the degree of surprise (event strength relative to the initial situation) and the value achieved.",
+   "applies_when": "The account allows judging how far the discovery departed from the person's initial situation, from minor everyday to radical.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p020:02",
+    "busch2023-0bee54:p034:04"
+   ],
+   "pdf_pages": [
+    20,
+    34
+   ],
+   "candidate_id": "busch2023-0bee54:c30"
+  },
+  {
+   "group": "role",
+   "label": "Opportunity identification for ventures",
+   "definition": "Serendipity can inform how ventures identify new opportunities, products, services and market spaces. It is credited as essential to many organizations' success.",
+   "applies_when": "The person describes an unexpected discovery giving rise to the venture idea, a new product or a new market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p002:01",
+    "busch2023-0bee54:p031:03",
+    "busch2023-0bee54:p032:01"
+   ],
+   "pdf_pages": [
+    2,
+    31,
+    32
+   ],
+   "candidate_id": "busch2023-0bee54:c31"
+  },
+  {
+   "group": "role",
+   "label": "Redirection and pivots",
+   "definition": "Serendipity involves flexibly redirecting effort toward an end not initially intended. Support organizations might celebrate effective pivots that explore potentiality even after commitment to one path.",
+   "applies_when": "The person describes changing the venture's direction or goals in response to an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p006:02",
+    "busch2023-0bee54:p032:01",
+    "busch2023-0bee54:p032:02"
+   ],
+   "pdf_pages": [
+    6,
+    32
+   ],
+   "candidate_id": "busch2023-0bee54:c32"
+  },
+  {
+   "group": "outcome",
+   "label": "New potentiality from materialization",
+   "definition": "Enacting one possibility opens a new space of possibilities, so serendipity can repeat in an ongoing cycle as the system evolves.",
+   "applies_when": "The account shows one serendipitous outcome leading to new situations and further unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p018:03",
+    "busch2023-0bee54:p019:01"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ],
+   "candidate_id": "busch2023-0bee54:c33"
+  },
+  {
+   "group": "outcome",
+   "label": "Innovation and new products",
+   "definition": "Serendipity leads to tangible value through innovation in processes, products and services, such as the potato washing machine or Velcro.",
+   "applies_when": "The person reports that a new product, service or process resulted from an unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p003:03",
+    "busch2023-0bee54:p019:02"
+   ],
+   "pdf_pages": [
+    3,
+    19
+   ],
+   "candidate_id": "busch2023-0bee54:c34"
+  },
+  {
+   "group": "outcome",
+   "label": "Adoption needed for success",
+   "definition": "For a serendipitous innovation to succeed, it often needs broader adoption by others.",
+   "applies_when": "The account shows that a serendipitous innovation's success depended on uptake by users or markets.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p018:03"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "busch2023-0bee54:c35"
+  },
+  {
+   "group": "outcome",
+   "label": "Missed serendipity",
+   "definition": "Serendipity is lost when the same unexpected event is not met by agency: no detection, functional fixedness, or failure to invest. Serendipity gained is when it is met by agency.",
+   "applies_when": "The person describes an unexpected opportunity they or others noticed but did not pursue or capitalize on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p027:02",
+    "busch2023-0bee54:p028:01"
+   ],
+   "pdf_pages": [
+    27,
+    28
+   ],
+   "candidate_id": "busch2023-0bee54:c36"
+  },
+  {
+   "group": "account",
+   "label": "Rhetorical inflation of serendipity",
+   "definition": "In retrospect, people may make stories sound more serendipitous to convey significance or excitement. Hindsight and survivor bias may also be involved.",
+   "applies_when": "The person narrates events in a dramatized way that emphasizes chance, which may reflect storytelling rather than actual events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p032:02"
+   ],
+   "pdf_pages": [
+    32
+   ],
+   "candidate_id": "busch2023-0bee54:c37"
+  },
+  {
+   "group": "account",
+   "label": "Airbrushing serendipity out",
+   "definition": "People may remove chance from their stories to appear in control, crediting deliberate strategy rather than luck, especially where lack of control is stigmatized.",
+   "applies_when": "The person frames outcomes as fully planned or downplays the role of unexpected events, or the account shows signs of crediting strategy over chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p032:02",
+    "busch2023-0bee54:p012:02",
+    "busch2023-0bee54:p032:03"
+   ],
+   "pdf_pages": [
+    12,
+    32
+   ],
+   "candidate_id": "busch2023-0bee54:c38"
+  },
+  {
+   "group": "rival",
+   "label": "Luck",
+   "definition": "Luck involves value and surprise but no agency: good things happening by chance, not through one's own efforts.",
+   "applies_when": "The account presents a favourable outcome from chance where the person did nothing to recognize or act on it.",
+   "does_not_apply_when": "The person actively noticed, connected and acted on the chance event. That is serendipity.",
+   "passage_ids": [
+    "busch2023-0bee54:p029:03"
+   ],
+   "pdf_pages": [
+    29
+   ],
+   "candidate_id": "busch2023-0bee54:c39"
+  },
+  {
+   "group": "rival",
+   "label": "Targeted innovation / structured problem-solving",
+   "definition": "Structured problem-solving moves from a defined problem to a solution with few surprises. It involves agency and value but lacks surprise.",
+   "applies_when": "The person describes a planned search that went from identified problem to solution as expected.",
+   "does_not_apply_when": "The problem/solution combination emerged unexpectedly, or an unexpected solution was found.",
+   "passage_ids": [
+    "busch2023-0bee54:p029:01",
+    "busch2023-0bee54:p029:02"
+   ],
+   "pdf_pages": [
+    29
+   ],
+   "candidate_id": "busch2023-0bee54:c40"
+  },
+  {
+   "group": "rival",
+   "label": "Initial privilege and path dependence",
+   "definition": "Outcomes may stem from initial privileges or blind luck amplified over time through path-dependent processes, rather than serendipity. Conversely, bad starting situations can produce zemblanity.",
+   "applies_when": "The account suggests success traces to advantaged starting conditions that compounded over time.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-0bee54:p030:03",
+    "busch2023-0bee54:p031:01"
+   ],
+   "pdf_pages": [
+    30,
+    31
+   ],
+   "candidate_id": "busch2023-0bee54:c41"
+  }
+ ],
+ "removed": []
+}

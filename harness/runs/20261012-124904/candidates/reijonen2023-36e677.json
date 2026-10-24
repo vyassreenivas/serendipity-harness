@@ -1,0 +1,634 @@
+{
+ "paper_id": "reijonen2023-36e677",
+ "file": "papers/pdf/Reijonen and Heroum - 2023 - Critical Events and the Interplay Between Serendipity and Effectuation.pdf",
+ "about": [
+  "The paper examines, through three immigrant entrepreneurs' narratives in Finland, how critical events form part of serendipitous processes and how effectuation enables individuals to act on unexpected opportunities and create unforeseen ventures."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Valuable discovery by chance",
+   "definition": "Serendipity is finding something valuable by chance, or encountering resources such as information, people or objects in unplanned ways.",
+   "applies_when": "The account describes coming across a person, piece of information or object unplanned that turned out to be valuable.",
+   "does_not_apply_when": "The encounter was deliberately sought out or planned in advance.",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:02",
+    "reijonen2023-36e677:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "reijonen2023-36e677:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Not mere luck",
+   "definition": "Although contingency triggers it, serendipity is not equated with luck; chance plays a peripheral role and serendipity is better seen as a capability than a coincidence.",
+   "applies_when": "The person frames the chance event as something they recognised and made use of through their own abilities rather than as pure good fortune.",
+   "does_not_apply_when": "The account presents the outcome as simply luck with no recognition or action by the person; that is luck, not serendipity in this sense.",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "reijonen2023-36e677:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Agency in serendipity",
+   "definition": "A defining feature of serendipity is that outcomes result partly from purposeful human action, expressed here through effectual thinking and action.",
+   "applies_when": "The account shows the person's deliberate choices and actions shaping what came of an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p005:02",
+    "reijonen2023-36e677:p014:02"
+   ],
+   "pdf_pages": [
+    5,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c03"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as a process",
+   "definition": "Serendipity is best understood as a process and associated outcome rather than a single event: an unexpected observation, a meaningful connection and subsequent action.",
+   "applies_when": "The account traces a sequence from an unexpected event through recognising its meaning to acting on it.",
+   "does_not_apply_when": "An isolated chance occurrence with no subsequent connection-making or action.",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:03",
+    "reijonen2023-36e677:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "reijonen2023-36e677:c04"
+  },
+  {
+   "group": "definition",
+   "label": "Subjective unexpectedness and value",
+   "definition": "The unexpectedness and benefits of serendipity are primarily subjectively defined; the event is unanticipated, anomalous and holds potential for long-term value.",
+   "applies_when": "The person themselves describes an event as surprising and as having turned out valuable for them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p004:03",
+    "reijonen2023-36e677:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "reijonen2023-36e677:c05"
+  },
+  {
+   "group": "type",
+   "label": "Everyday micro serendipity",
+   "definition": "Less significant serendipitous insights that occur frequently in everyday life, such as useful information retrieval or professional collaboration.",
+   "applies_when": "The account mentions small, frequent chance finds or encounters with modest benefit.",
+   "does_not_apply_when": "The chance event produced a radical professional change such as founding an unforeseen venture (a serendipitous critical event).",
+   "passage_ids": [
+    "reijonen2023-36e677:p005:01",
+    "reijonen2023-36e677:p014:04"
+   ],
+   "pdf_pages": [
+    5,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c06"
+  },
+  {
+   "group": "type",
+   "label": "Serendipitous critical event",
+   "definition": "A rare serendipitous event with clear temporal boundaries that is contingent, causally necessary/sufficient for the outcome, and produces radical change in a person's professional life, such as unforeseen venture creation.",
+   "applies_when": "A bounded, unplanned episode (e.g., a conversation or request) is described as what changed the person's career path toward a venture they would otherwise not have started.",
+   "does_not_apply_when": "A general triggering event (e.g., access to financing, poor economy) that alters intention without being a contingent, bounded episode with radical change; not all triggering events are critical events.",
+   "passage_ids": [
+    "reijonen2023-36e677:p005:02",
+    "reijonen2023-36e677:p003:01",
+    "reijonen2023-36e677:p003:02"
+   ],
+   "pdf_pages": [
+    3,
+    5
+   ],
+   "candidate_id": "reijonen2023-36e677:c07"
+  },
+  {
+   "group": "type",
+   "label": "Strategic serendipity",
+   "definition": "A prepared mind, knowledge, skills and awareness that together enable acting on unanticipated events; considerable preparation can be necessary to recognise and seize them.",
+   "applies_when": "The person describes having prepared themselves in ways that let them recognise and seize unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:03",
+    "reijonen2023-36e677:p014:03"
+   ],
+   "pdf_pages": [
+    3,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c08"
+  },
+  {
+   "group": "type",
+   "label": "Unfortunate serendipity",
+   "definition": "Serendipitous events may be either fortunate or unfortunate.",
+   "applies_when": "An unexpected negative event is described as leading to something valuable being found or pursued.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "reijonen2023-36e677:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Unplanned conversation with a team",
+   "definition": "An impromptu or unplanned discussion with entrepreneurs or a startup team that reveals a match between one's expertise and their needs.",
+   "applies_when": "The account describes chatting with people (e.g., at an incubator or event) without intent, and being invited into or seeing a role in their venture.",
+   "does_not_apply_when": "A planned meeting to recruit partners or pitch.",
+   "passage_ids": [
+    "reijonen2023-36e677:p008:02",
+    "reijonen2023-36e677:p009:03",
+    "reijonen2023-36e677:p010:01"
+   ],
+   "pdf_pages": [
+    8,
+    9,
+    10
+   ],
+   "candidate_id": "reijonen2023-36e677:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected request from a contact",
+   "definition": "A friend or customer asks for something unusual (e.g., a product modification) that exposes an unknown market need.",
+   "applies_when": "An unsolicited request from someone in the person's network introduces a new element or customer group.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p009:01",
+    "reijonen2023-36e677:p010:03"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "reijonen2023-36e677:c11"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected market signal",
+   "definition": "Unanticipated evidence of demand, such as a social media post drawing buyers, that reveals market interest.",
+   "applies_when": "People unexpectedly ask to buy something or show interest the person had not anticipated.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p009:01",
+    "reijonen2023-36e677:p010:03"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "reijonen2023-36e677:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognising potential / connecting dots",
+   "definition": "Bisociation: noticing weak cues and connecting disparate information to a potential solution or opportunity, e.g., recognising that one's expertise matches what is needed.",
+   "applies_when": "The person describes realising how an unexpected event relates to their skills, resources or a possible business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p005:03",
+    "reijonen2023-36e677:p012:01",
+    "reijonen2023-36e677:p011:01"
+   ],
+   "pdf_pages": [
+    5,
+    11,
+    12
+   ],
+   "candidate_id": "reijonen2023-36e677:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seizing the moment",
+   "definition": "Enactment: acting on the opportunity when it arises, such as joining a team or starting to offer a product.",
+   "applies_when": "The person takes concrete action on the unexpected opportunity.",
+   "does_not_apply_when": "Recognising potential without acting on it.",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:03",
+    "reijonen2023-36e677:p012:01",
+    "reijonen2023-36e677:p008:03"
+   ],
+   "pdf_pages": [
+    3,
+    8,
+    12
+   ],
+   "candidate_id": "reijonen2023-36e677:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Amplifying effects",
+   "definition": "Extending the results of the serendipitous event, e.g., involving new partners in an original idea, finding suppliers, developing further products or seeking investors.",
+   "applies_when": "After acting, the person builds on the opportunity to widen its consequences.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p012:01",
+    "reijonen2023-36e677:p013:01",
+    "reijonen2023-36e677:p008:03"
+   ],
+   "pdf_pages": [
+    8,
+    12,
+    13
+   ],
+   "candidate_id": "reijonen2023-36e677:c15"
+  },
+  {
+   "group": "mechanism",
+   "label": "Curiosity-driven investigation",
+   "definition": "Following an unexpected signal by researching the phenomenon and actively tracking down resources (e.g., locating an importer).",
+   "applies_when": "The person describes becoming curious and actively digging into an unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p009:01",
+    "reijonen2023-36e677:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "reijonen2023-36e677:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Exploiting contingencies",
+   "definition": "An effectual principle of treating unexpected situations as opportunities to be seized rather than avoided, without a predefined goal.",
+   "applies_when": "The person uses an unplanned situation or setback as a basis for moving forward.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p005:03",
+    "reijonen2023-36e677:p012:02",
+    "reijonen2023-36e677:p013:01"
+   ],
+   "pdf_pages": [
+    5,
+    12,
+    13
+   ],
+   "candidate_id": "reijonen2023-36e677:c17"
+  },
+  {
+   "group": "mechanism",
+   "label": "Experimentation / try and see",
+   "definition": "Proceeding with practical trials and an openness to 'giving it a try' rather than a fixed plan, supporting the serendipitous process throughout.",
+   "applies_when": "The person describes trying things out, testing, or joining something 'to see how it goes'.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p014:01",
+    "reijonen2023-36e677:p014:03",
+    "reijonen2023-36e677:p008:03"
+   ],
+   "pdf_pages": [
+    8,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c18"
+  },
+  {
+   "group": "mechanism",
+   "label": "Leveraging alliances and precommitments",
+   "definition": "Teaming up with others met through the event, forming partnerships and support to control an unpredictable future and amplify effects.",
+   "applies_when": "The person forms partnerships or draws others into the venture following the unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p012:02",
+    "reijonen2023-36e677:p013:03",
+    "reijonen2023-36e677:p014:01"
+   ],
+   "pdf_pages": [
+    12,
+    13,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c19"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind / alertness",
+   "definition": "Prior interests, experience and alertness that enable detecting the unusual and identifying meaning in unexpected situations; sagacity integrates prior knowledge with a prepared mind.",
+   "applies_when": "The account shows prior engagement (e.g., developing an idea, interest in startups, desire to experiment) that made the person ready to notice the opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:02",
+    "reijonen2023-36e677:p003:03",
+    "reijonen2023-36e677:p013:02"
+   ],
+   "pdf_pages": [
+    3,
+    13
+   ],
+   "candidate_id": "reijonen2023-36e677:c20"
+  },
+  {
+   "group": "background",
+   "label": "Prior expertise",
+   "definition": "Professional knowledge and experience that enable recognising how one could contribute and that make others interested in collaboration.",
+   "applies_when": "The person's earlier job skills or expertise are what made the unexpected encounter meaningful.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p010:04",
+    "reijonen2023-36e677:p011:01",
+    "reijonen2023-36e677:p014:03"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c21"
+  },
+  {
+   "group": "background",
+   "label": "Social networks",
+   "definition": "Friendships, community and networks increase the likelihood of encountering serendipity and bring together resources to act on it.",
+   "applies_when": "The unexpected opportunity came through or was developed with friends, contacts, customers or community.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:03",
+    "reijonen2023-36e677:p013:03",
+    "reijonen2023-36e677:p010:03"
+   ],
+   "pdf_pages": [
+    3,
+    10,
+    13
+   ],
+   "candidate_id": "reijonen2023-36e677:c22"
+  },
+  {
+   "group": "background",
+   "label": "Available means and resources",
+   "definition": "Resources at hand (skills, facilities, team capabilities) whose availability and assessment often determine whether potential is recognised and acted upon.",
+   "applies_when": "The person explains they acted because they or the team already had what was needed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p014:01",
+    "reijonen2023-36e677:p013:01",
+    "reijonen2023-36e677:p008:03"
+   ],
+   "pdf_pages": [
+    8,
+    13,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c23"
+  },
+  {
+   "group": "role",
+   "label": "Starting an unforeseen venture",
+   "definition": "The serendipitous process initiates the critical event and drives the trajectory toward a venture the person never anticipated, including making non-entrepreneurs into entrepreneurs.",
+   "applies_when": "Someone who had not planned a venture, or not this venture, ends up founding it following an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p013:02",
+    "reijonen2023-36e677:p015:01",
+    "reijonen2023-36e677:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    13,
+    15
+   ],
+   "candidate_id": "reijonen2023-36e677:c24"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the career path",
+   "definition": "Critical serendipitous events radically altered participants' career paths, turning them away from prior plans.",
+   "applies_when": "The account contrasts the person's original plans (e.g., corporate job, original startup) with the new direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p013:02",
+    "reijonen2023-36e677:p010:02",
+    "reijonen2023-36e677:p011:03"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    13
+   ],
+   "candidate_id": "reijonen2023-36e677:c25"
+  },
+  {
+   "group": "outcome",
+   "label": "Radical professional change",
+   "definition": "The outcome of the process is unexpected and produces radical change in the person's professional role, such as running a new venture.",
+   "applies_when": "The person describes a life- or career-changing result of the chance event.",
+   "does_not_apply_when": "Small everyday benefits from chance finds.",
+   "passage_ids": [
+    "reijonen2023-36e677:p014:01",
+    "reijonen2023-36e677:p014:03"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c26"
+  },
+  {
+   "group": "outcome",
+   "label": "Multiple parallel ventures",
+   "definition": "Serendipity can lead to one unexpected business running while an original venture continues in development with the new partners.",
+   "applies_when": "The person ends up with an additional, unplanned venture alongside their original one.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p008:03",
+    "reijonen2023-36e677:p009:04"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "reijonen2023-36e677:c27"
+  },
+  {
+   "group": "account",
+   "label": "Counterfactual necessity",
+   "definition": "Retrospective accounts that the venture would not have happened without the event, because the person was unaware of the need, focused elsewhere, or did not see themselves as an entrepreneur.",
+   "applies_when": "The person says they never thought of the idea before or would otherwise be doing something else.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p011:03",
+    "reijonen2023-36e677:p008:03",
+    "reijonen2023-36e677:p010:02"
+   ],
+   "pdf_pages": [
+    8,
+    10,
+    11
+   ],
+   "candidate_id": "reijonen2023-36e677:c28"
+  },
+  {
+   "group": "account",
+   "label": "Not seeing oneself as entrepreneur",
+   "definition": "Narrators repeatedly state they never imagined becoming entrepreneurs or saw themselves as supporters rather than visionaries.",
+   "applies_when": "The person emphasises surprise at having become an entrepreneur.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p010:01",
+    "reijonen2023-36e677:p009:03"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "reijonen2023-36e677:c29"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective identification",
+   "definition": "Serendipitous and critical events can only be identified retrospectively, with narrators emphasising events they now see as meaningful.",
+   "applies_when": "The person reconstructs a past moment as a turning point in hindsight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p003:02",
+    "reijonen2023-36e677:p006:02"
+   ],
+   "pdf_pages": [
+    3,
+    6
+   ],
+   "candidate_id": "reijonen2023-36e677:c30"
+  },
+  {
+   "group": "rival",
+   "label": "Effectuation alone",
+   "definition": "Effectuation starts from existing means and searches for problems to solve, rather than from an unexpected event and recognition of weak signals; it does not explain how unexpected observations are recognised and connected.",
+   "applies_when": "The venture arises from deliberately combining resources at hand without any unexpected triggering event.",
+   "does_not_apply_when": "An unexpected event and its recognition are present; effectuation then supports rather than replaces serendipity.",
+   "passage_ids": [
+    "reijonen2023-36e677:p005:03",
+    "reijonen2023-36e677:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "reijonen2023-36e677:c31"
+  },
+  {
+   "group": "rival",
+   "label": "Ordinary triggering event",
+   "definition": "Triggering events such as access to financing, market acceptance or poor economy can alter entrepreneurial intention without being contingent critical events.",
+   "applies_when": "The account attributes starting up to a general change in circumstances rather than a bounded unexpected episode.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p002:04",
+    "reijonen2023-36e677:p003:01",
+    "reijonen2023-36e677:p003:02"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "reijonen2023-36e677:c32"
+  },
+  {
+   "group": "condition",
+   "label": "Affordable loss / low risk",
+   "definition": "Individuals capitalised on unexpected opportunities because they could do so within available means and affordable loss, avoiding large investments; safety nets lower perceived risk.",
+   "applies_when": "The person says they acted because little money was at stake, failure would not ruin them, or a safety net existed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p014:01",
+    "reijonen2023-36e677:p010:02",
+    "reijonen2023-36e677:p015:03"
+   ],
+   "pdf_pages": [
+    10,
+    14,
+    15
+   ],
+   "candidate_id": "reijonen2023-36e677:c33"
+  },
+  {
+   "group": "condition",
+   "label": "Incubators and encounter spaces",
+   "definition": "Environments fostering encounters among like-minded people, such as incubators, events and entrepreneurship societies, prepare the mind and create chance meetings.",
+   "applies_when": "The chance encounter happened in an incubator, startup event or entrepreneurial community.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p013:03",
+    "reijonen2023-36e677:p015:01",
+    "reijonen2023-36e677:p015:02"
+   ],
+   "pdf_pages": [
+    13,
+    15
+   ],
+   "candidate_id": "reijonen2023-36e677:c34"
+  },
+  {
+   "group": "condition",
+   "label": "Effectual thinking as enabler",
+   "definition": "Effectual thinking fosters a prepared mind, helps connect dots and lowers the threshold for entrepreneurial action, acting as an antecedent and enabler throughout the serendipity process.",
+   "applies_when": "The person's means-driven, goal-open, experimental approach makes them more likely to notice and act on the unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p006:01",
+    "reijonen2023-36e677:p014:03",
+    "reijonen2023-36e677:p015:01"
+   ],
+   "pdf_pages": [
+    6,
+    14,
+    15
+   ],
+   "candidate_id": "reijonen2023-36e677:c35"
+  },
+  {
+   "group": "condition",
+   "label": "Supportive environment and institutions",
+   "definition": "Feeling welcomed by community, plus formal support like advisors, public funding and startup visas, makes acting on unexpected opportunities more feasible.",
+   "applies_when": "The person credits community support, advisors, funding or permits for being able to pursue the opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p009:02",
+    "reijonen2023-36e677:p011:01",
+    "reijonen2023-36e677:p007:03"
+   ],
+   "pdf_pages": [
+    7,
+    9,
+    11
+   ],
+   "candidate_id": "reijonen2023-36e677:c36"
+  },
+  {
+   "group": "condition",
+   "label": "No predefined goal",
+   "definition": "Pursuing opportunities without fixed end goals, with general aspirations, allows adaptive response to emerging circumstances.",
+   "applies_when": "The person describes being open-ended rather than following a fixed plan when the opportunity arose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reijonen2023-36e677:p014:01",
+    "reijonen2023-36e677:p012:02"
+   ],
+   "pdf_pages": [
+    12,
+    14
+   ],
+   "candidate_id": "reijonen2023-36e677:c37"
+  }
+ ],
+ "removed": []
+}

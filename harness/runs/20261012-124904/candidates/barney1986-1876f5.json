@@ -1,0 +1,168 @@
+{
+ "paper_id": "barney1986-1876f5",
+ "file": "papers/pdf/Barney - 1986 - Strategic Factor Markets - Expectations, Luck, and Business Strategy.pdf",
+ "about": [
+  "Barney argues that firms earn above-normal returns from strategies only when they hold more accurate expectations than others about the value of the resources they acquire, and that otherwise such returns reflect luck, defined as unexpected good fortune."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Luck as unexpected returns",
+   "definition": "Luck is the gap between actual and expected returns. Any result better than expected is by definition unexpected, a surprise, and reflects good fortune rather than the ability to anticipate value.",
+   "applies_when": "An account describes an outcome turning out better than the person expected or planned when committing resources, and frames the surplus as a surprise.",
+   "does_not_apply_when": "The person had a well-founded expectation of that value beforehand. That is superior insight, not luck.",
+   "passage_ids": [
+    "barney1986-1876f5:p005:02",
+    "barney1986-1876f5:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "barney1986-1876f5:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Stumbling onto information",
+   "definition": "While gathering information, a firm may stumble onto information that gives it an edge over others. Because this information did not come from systematic methods, the author treats it as stochastic in origin and as luck.",
+   "applies_when": "The person describes coming across valuable information by chance or through unplanned, nonsystematic means rather than through deliberate, systematic analysis.",
+   "does_not_apply_when": "The information came from systematic, publicly available analysis methods, which other firms would also obtain.",
+   "passage_ids": [
+    "barney1986-1876f5:p010:01",
+    "barney1986-1876f5:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "barney1986-1876f5:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Resource later revealed valuable for new use",
+   "definition": "A resource acquired for one purpose may later turn out to be valuable for a different strategy. That value was unanticipated at acquisition, so returns from it reflect luck unless the firm foresaw it.",
+   "applies_when": "An account describes an asset, skill or holding obtained for one reason that only later proved useful for a different venture or strategy.",
+   "does_not_apply_when": "The person acquired the resource expecting that later use, which is foresight.",
+   "passage_ids": [
+    "barney1986-1876f5:p006:03",
+    "barney1986-1876f5:p007:01",
+    "barney1986-1876f5:p008:04"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    8
+   ],
+   "candidate_id": "barney1986-1876f5:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Unanticipated synergy",
+   "definition": "Firms relying only on public information may still be lucky and acquire a partner or asset that has a synergy nobody anticipated.",
+   "applies_when": "The person reports an acquisition or partnership that produced complementary benefits they had not foreseen.",
+   "does_not_apply_when": "The firm deliberately discovered the synergy beforehand by examining its own resources.",
+   "passage_ids": [
+    "barney1986-1876f5:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "barney1986-1876f5:c04"
+  },
+  {
+   "group": "rival",
+   "label": "Superior expectations versus luck",
+   "definition": "Above-normal returns come either from consistently more accurate expectations about a strategy's value or from luck. The author contrasts the two as rival explanations of the same success.",
+   "applies_when": "The person explains a success by their own foresight or special insight rather than chance, or a coder must weigh foresight against chance as the explanation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "barney1986-1876f5:p009:02",
+    "barney1986-1876f5:p004:03",
+    "barney1986-1876f5:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5,
+    9
+   ],
+   "candidate_id": "barney1986-1876f5:c05"
+  },
+  {
+   "group": "rival",
+   "label": "Insight from own resources",
+   "definition": "Analysing the skills and capabilities a firm already controls, such as know-how, a unique mix of experience or management teamwork, can systematically produce better expectations. The author presents this as a non-luck source of advantage.",
+   "applies_when": "An account attributes recognising an opportunity to deliberate reflection on the person's own unique skills, experience or team.",
+   "does_not_apply_when": "The recognition came by chance rather than through inward analysis.",
+   "passage_ids": [
+    "barney1986-1876f5:p010:02",
+    "barney1986-1876f5:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "barney1986-1876f5:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Imperfect expectations enable luck",
+   "definition": "The less accurate a firm's expectations, the larger the role luck can play in its returns. With perfect foresight there can be no surprises. Uncertainty in the environment produces the differing expectations that open room for luck.",
+   "applies_when": "The account describes high uncertainty or limited foresight as the setting in which an unexpected gain occurred.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "barney1986-1876f5:p005:03",
+    "barney1986-1876f5:p004:02"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "barney1986-1876f5:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Above-normal returns from luck",
+   "definition": "Luck can let firms obtain resources for less than their eventual value, so they earn above-normal returns even without superior insight. This can happen, for example, when many firms underestimate a strategy's value.",
+   "applies_when": "The person reports gaining unusually high value because resources or opportunities were cheap relative to what they later proved worth, without having foreseen it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "barney1986-1876f5:p005:02",
+    "barney1986-1876f5:p009:02"
+   ],
+   "pdf_pages": [
+    5,
+    9
+   ],
+   "candidate_id": "barney1986-1876f5:c08"
+  },
+  {
+   "group": "account",
+   "label": "Success misread as excellence",
+   "definition": "Above-normal performance may not always signal strategic or managerial excellence. Firms that currently enjoy high returns might simply have been lucky.",
+   "applies_when": "An account attributes venture success to skill or management quality, or acknowledges that the success may have come from luck rather than from excellence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "barney1986-1876f5:p011:01"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "barney1986-1876f5:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Luck is uncontrollable",
+   "definition": "Because luck is by definition out of a firm's control, the author holds that managers should focus on becoming consistently better informed than others.",
+   "applies_when": "The person describes chance as beyond their control and redirects effort toward deliberate information or capability building.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "barney1986-1876f5:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "barney1986-1876f5:c10"
+  }
+ ],
+ "removed": []
+}

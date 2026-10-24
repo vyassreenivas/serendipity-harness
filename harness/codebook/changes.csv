@@ -1,0 +1,25 @@
+version,date,code,change_type,what_changed,why,evidence,status
+0.2-calibration,2026-10-11,worksheet,add,Added candidate_code and almost_fit columns,Coders need a recorded place for material no core code fits (Saetre and Van de Ven 2021: noticing anomalies),No worksheet column existed; only free notes,proposed
+0.2-calibration,2026-10-11,worksheet,add,Added definition column for DEF2 DEF3 DEF4 DEF6,These four core codes had no column to be entered in,Worksheet of 2026-10-10 had no DEF column,proposed
+0.2-calibration,2026-10-11,worksheet,add,Rival column required on supported episodes; 'none' allowed,Rigor requires weighing competing explanations (Harley and Cornelissen 2022),Rival column was optional,proposed
+0.2-calibration,2026-10-11,worksheet,add,Added prior_expectation column (stated / label only / not stated),Founder interviews are retrospective accounts (Golden 1992; Miller et al. 1997); surprise needs evidence of what was expected,Instructions already said missing expectation means unresolved but nothing recorded it,proposed
+0.2-calibration,2026-10-11,worksheet,reword,Column headers use plain words instead of three-letter prefixes,Prefixes were hard to read for coders and will be for readers,Researcher request 2026-10-11,proposed
+0.2-calibration,2026-10-11,core_codes,add,"Each code now carries its source paper, PDF page, quotation, match grade, other backing papers, status and version",A coder or reader should see where each code comes from,Kit of 2026-10-10 listed meaning only,proposed
+0.2-calibration,2026-10-11,core_codes,add,Added empty example_from_interviews field,A codebook entry should carry example text from the data (MacQueen et al. 1998); to be filled from the calibration round,No Starter Story examples exist yet,proposed
+0.2-calibration,2026-10-11,BND17,drop,Removed from the coders' list; kept as a statement in the coding instructions,Its own guidance calls it a researcher memo and not something a coder applies,BND17 evidence_and_distinction text,proposed
+0.2-calibration,2026-10-11,DEF4,reword,Removed pointer to OUT11,OUT11 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,TYP4,reword,Removed pointer to OUT12; kept the rule in words,OUT12 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,TRG1,reword,Replaced pointer to MEC8 with an instruction to use the notes,MEC8 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,TRG3,reword,Removed pointer to MEC5; kept the rule in words,MEC5 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,TRG5,reword,Removed pointer to BND13,BND13 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,TRG6,reword,Replaced pointer to MEC14 with OUT4,MEC14 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,TRG8,reword,Removed pointer to LOC8,LOC8 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,MEC1,reword,Replaced pointer to ACC6 with an instruction to use the notes,ACC6 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,MEC6,reword,Replaced pointers to MEC7 and MEC10 with an instruction to say which in the notes,MEC7 and MEC10 are not core codes,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,MEC11,reword,Replaced pointer to BND16 with an instruction to use the notes,BND16 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,LOC7,reword,Removed pointer to BND22,BND22 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,LOC9,reword,Removed pointer to MEC14,MEC14 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,OUT4,reword,Removed pointer to MEC14,MEC14 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,RIV2,reword,Removed pointer to RIV17,RIV17 is not a core code,Kit wording check 2026-10-11,proposed
+0.2-calibration,2026-10-11,RIV4,reword,Coders name effectuation or bricolage in the notes; removed pointers to MEC25 and MEC27,The worksheet takes code IDs only so two theories under one ID could not be separated; MEC25 and MEC27 are not core codes,Review finding F8 of 2026-10-03,proposed
+0.2-calibration,2026-10-11,ACC1,reword,Removed a note to the researchers from the coder guidance,The guidance contained an unfinished task: its source quotation is about private-equity performance and does not support a rule about founder narratives,Review finding F4 of 2026-10-03; source still to be replaced,proposed

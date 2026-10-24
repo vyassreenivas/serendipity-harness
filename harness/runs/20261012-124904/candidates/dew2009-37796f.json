@@ -1,0 +1,544 @@
+{
+ "paper_id": "dew2009-37796f",
+ "file": "papers/pdf/Dew - 2009 - Serendipity in Entrepreneurship.pdf",
+ "about": [
+  "A conceptual paper defining serendipity in entrepreneurship as search leading to unintended discovery, locating it as the intersection of search, contingency and prior knowledge, distinguishing it from systematic exploration, spontaneous recognition, pre-discovery and luck, and discussing conditions and implications for venture practice."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Search leading to unintended discovery",
+   "definition": "Serendipity is search that leads to an unintended discovery: while engaged in some search effort, the person accidentally discovers something they were not looking for.",
+   "applies_when": "The account describes someone actively pursuing one goal or opportunity and, in the course of it, coming across a different opportunity they had not been seeking.",
+   "does_not_apply_when": "The person found exactly what they were searching for by a planned route (systematic exploration), or came across something without any prior search effort (spontaneous recognition).",
+   "passage_ids": [
+    "dew2009-37796f:p001:02",
+    "dew2009-37796f:p002:01",
+    "dew2009-37796f:p004:01"
+   ],
+   "pdf_pages": [
+    1,
+    2,
+    4
+   ],
+   "candidate_id": "dew2009-37796f:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Three-part combination: search, contingency, sagacity",
+   "definition": "Serendipity requires the interaction of three elements: an activity (search, the person is already on a journey), an event (a contingency or accident), and a resource (sagacity or prior knowledge). It is a tripod; all three are needed.",
+   "applies_when": "An account contains all three: ongoing effort or search, an unexpected event, and the person's existing knowledge being used to see the significance of the event.",
+   "does_not_apply_when": "One of the three elements is missing; then the episode belongs to exploration, recognition, pre-discovery or luck instead.",
+   "passage_ids": [
+    "dew2009-37796f:p005:01",
+    "dew2009-37796f:p008:02",
+    "dew2009-37796f:p015:03"
+   ],
+   "pdf_pages": [
+    5,
+    8,
+    15
+   ],
+   "candidate_id": "dew2009-37796f:c02"
+  },
+  {
+   "group": "type",
+   "label": "Pseudoserendipity",
+   "definition": "A situation where someone is looking for something in particular and finds it, but the route by which they discover it is accidental and unanticipated (e.g., Goodyear and vulcanization).",
+   "applies_when": "The person reaches the very goal they were pursuing, but only via an accident or unexpected route.",
+   "does_not_apply_when": "The discovery is something other than what was sought; that is serendipity proper.",
+   "passage_ids": [
+    "dew2009-37796f:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "dew2009-37796f:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic exploration",
+   "definition": "Opportunity discovery resulting from purposeful search within one's knowledge corridors (search plus prior knowledge) without a significant role for contingency.",
+   "applies_when": "The entrepreneur describes deliberately and methodically searching areas they know, finding an opportunity by design, with no chance event involved.",
+   "does_not_apply_when": "A contingent, unanticipated event shaped what was found; then it is serendipity.",
+   "passage_ids": [
+    "dew2009-37796f:p006:03",
+    "dew2009-37796f:p008:02"
+   ],
+   "pdf_pages": [
+    6,
+    8
+   ],
+   "candidate_id": "dew2009-37796f:c04"
+  },
+  {
+   "group": "rival",
+   "label": "Spontaneous recognition",
+   "definition": "Recognizing an opportunity from information that arrives contingently (e.g., via social contacts) combined with prior knowledge, in the absence of any search activity.",
+   "applies_when": "Someone with relevant knowledge happens to receive information and recognizes an opportunity, without having been engaged in any quest or search.",
+   "does_not_apply_when": "The person was vigorously pursuing some other goal when the contingency arose; that is serendipity.",
+   "passage_ids": [
+    "dew2009-37796f:p007:01",
+    "dew2009-37796f:p007:02",
+    "dew2009-37796f:p008:03"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "dew2009-37796f:c05"
+  },
+  {
+   "group": "rival",
+   "label": "Pre-discovery",
+   "definition": "Search plus contingency without prior knowledge: the person suspects they have found something but lacks the knowledge to evaluate it on the spot; its value is realized only later once complementary knowledge exists.",
+   "applies_when": "An account describes stumbling on something during work that seemed significant but could not be understood or commercialized until much later.",
+   "does_not_apply_when": "The person's existing knowledge let them immediately discern the implications; that is serendipity.",
+   "passage_ids": [
+    "dew2009-37796f:p008:01",
+    "dew2009-37796f:p008:02",
+    "dew2009-37796f:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "dew2009-37796f:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck",
+   "definition": "A favorable chance happening beyond the entrepreneur's control that impacts them positively; it presupposes no search or prior knowledge and simply happens to you.",
+   "applies_when": "Success is attributed to a fortunate event that befell the person without any effort, search, or use of their knowledge.",
+   "does_not_apply_when": "The fortunate event occurred during an energetic quest and was recognized through alertness and exploited; that is serendipity.",
+   "passage_ids": [
+    "dew2009-37796f:p008:03",
+    "dew2009-37796f:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "dew2009-37796f:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "Contingent event as trigger",
+   "definition": "An event that was not logically necessary, by chance or without known cause, representing the exogenous environment, acts as the trigger for discovery—e.g., a chance conversation, anomalous result, or unanticipated encounter.",
+   "applies_when": "The account identifies a specific unanticipated event (chance meeting, odd result, unexpected call) that set off the discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p005:02",
+    "dew2009-37796f:p012:03",
+    "dew2009-37796f:p013:01"
+   ],
+   "pdf_pages": [
+    5,
+    12,
+    13
+   ],
+   "candidate_id": "dew2009-37796f:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Unlucky incident or constraint as trigger",
+   "definition": "Unlike luck, the contingent component of serendipity can be unfortunate—an unlucky incident or constraint (e.g., running out of printer ribbon, having only blue paint) can spark the discovery.",
+   "applies_when": "A problem, setback, frustration or constraint encountered during a pursuit leads the person to notice a new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p009:01",
+    "dew2009-37796f:p003:03",
+    "dew2009-37796f:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    3,
+    9
+   ],
+   "candidate_id": "dew2009-37796f:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance social encounter",
+   "definition": "A contingent interaction with another person—such as an unexpected buyer call or a chance meeting while on other business—reveals an opportunity.",
+   "applies_when": "The account describes an unplanned meeting or contact with someone that exposed a market or need the entrepreneur had not been seeking.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p004:01",
+    "dew2009-37796f:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "dew2009-37796f:c10"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge as sagacity",
+   "definition": "An individual's idiosyncratic stock of knowledge (the prepared mind), built from life and work experience, enables them to find an event anomalous and discern its implications.",
+   "applies_when": "The person explains they recognized the significance of the event because of knowledge from prior jobs, experience, or long work in a field.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p005:01",
+    "dew2009-37796f:p002:03",
+    "dew2009-37796f:p004:03"
+   ],
+   "pdf_pages": [
+    2,
+    4,
+    5
+   ],
+   "candidate_id": "dew2009-37796f:c11"
+  },
+  {
+   "group": "background",
+   "label": "Being on an active journey",
+   "definition": "Serendipity presupposes a vigorous, resource-consuming quest; the entrepreneur is already engaged in effort (e.g., writing a business plan, entering a market) when the accident occurs.",
+   "applies_when": "The account emphasizes that the discovery came while the person was actively working on some venture or goal.",
+   "does_not_apply_when": "The person was idle or not pursuing anything; then it is luck or spontaneous recognition.",
+   "passage_ids": [
+    "dew2009-37796f:p008:03",
+    "dew2009-37796f:p015:03"
+   ],
+   "pdf_pages": [
+    8,
+    15
+   ],
+   "candidate_id": "dew2009-37796f:c12"
+  },
+  {
+   "group": "background",
+   "label": "Existing resources recombined",
+   "definition": "Serendipity can lead to discovering new combinations of existing resources with new ones, revealing synergies with current operations.",
+   "applies_when": "A chance event leads the entrepreneur to see how assets or capabilities they already have can be combined with something new.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "dew2009-37796f:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognizing through alertness and flexibly exploiting",
+   "definition": "Lucky discoveries of an unanticipated kind are recognized through alertness and then flexibly exploited; surprises become opportunities only if seized instrumentally and combined imaginatively with extant inputs.",
+   "applies_when": "The person describes noticing an unexpected event, realizing it mattered, and acting on it by combining it with what they already had.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p008:03",
+    "dew2009-37796f:p014:01"
+   ],
+   "pdf_pages": [
+    8,
+    14
+   ],
+   "candidate_id": "dew2009-37796f:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Leveraging a constraint creatively",
+   "definition": "Taking a serendipitous constraint and toying with it until it is turned into a creative result.",
+   "applies_when": "The account describes experimenting with a limitation imposed by circumstance and turning it into a new product or approach.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p001:02"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "dew2009-37796f:c15"
+  },
+  {
+   "group": "mechanism",
+   "label": "Tailoring fits / shaping the context",
+   "definition": "Expert entrepreneurs leverage serendipities by actively creating a context that attributes value to the conjectured opportunity—designing and developing market and institutional infrastructures (interfering, orchestrating, tailoring).",
+   "applies_when": "After a chance discovery, the entrepreneur works to build markets, partners or institutions that make the opportunity valuable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p014:01",
+    "dew2009-37796f:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "dew2009-37796f:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Semi-endogenizing contingency through networking",
+   "definition": "Entrepreneurs may deliberately engage in networking, boundary-spanning, or wandering behaviors that make contingencies (and hence serendipities) more likely to happen to them.",
+   "applies_when": "The person describes deliberately getting out, meeting people, or circulating in order to encounter unexpected information or chances.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "dew2009-37796f:c17"
+  },
+  {
+   "group": "role",
+   "label": "Founding a venture",
+   "definition": "Serendipity can lead to the discovery of the venture the entrepreneur actually wants to start, such as an underserved market discovered while planning something else.",
+   "applies_when": "A chance event during other work becomes the basis for starting a new business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "dew2009-37796f:c18"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the venture",
+   "definition": "Serendipity redirects a venture: searching for one opportunity and discovering another, so a firm may end up in a different market or business than planned.",
+   "applies_when": "The venture changes direction, market or product because of an unexpected discovery during execution of the original plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p004:01",
+    "dew2009-37796f:p001:01",
+    "dew2009-37796f:p015:02"
+   ],
+   "pdf_pages": [
+    1,
+    4,
+    15
+   ],
+   "candidate_id": "dew2009-37796f:c19"
+  },
+  {
+   "group": "role",
+   "label": "Advancing existing operations",
+   "definition": "Serendipitous discovery of strategic interactions between resources can advance an existing business, e.g., increasing capital efficiency through synergies.",
+   "applies_when": "A chance discovery improves or extends the existing business rather than founding or redirecting it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "dew2009-37796f:c20"
+  },
+  {
+   "group": "outcome",
+   "label": "Amplified or lost serendipities",
+   "definition": "Small serendipities may be amplified into far-reaching consequences, or may be lost—swallowed by other processes and left unattended so they have no meaningful impact.",
+   "applies_when": "An account notes a chance event that had outsized consequences, or one that was noticed but went nowhere.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p009:02",
+    "dew2009-37796f:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "dew2009-37796f:c21"
+  },
+  {
+   "group": "outcome",
+   "label": "Acting on serendipity or not",
+   "definition": "Some serendipities become venues for action and some do not; whether they are acted upon may matter for them to be considered serendipitous by others.",
+   "applies_when": "The person discusses deciding whether or not to pursue an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "dew2009-37796f:c22"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective storytelling",
+   "definition": "Serendipity may be a tool for generating good entrepreneurial stories out of vaguely understood complex situations; events may be selected retrospectively for their meaningfulness.",
+   "applies_when": "The narrator frames past events as a chance turning point in a story that seems constructed after the fact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "dew2009-37796f:c23"
+  },
+  {
+   "group": "account",
+   "label": "Denying or not recognizing serendipity",
+   "definition": "The serendipity of events often goes unrecognized or is denied, as when Columbus refused to accept he had not found what he sought.",
+   "applies_when": "The narrator insists an outcome was planned or intended although the account suggests an unintended discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p001:01",
+    "dew2009-37796f:p001:02"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "dew2009-37796f:c24"
+  },
+  {
+   "group": "account",
+   "label": "Luck plus merit framing",
+   "definition": "Popular images of entrepreneurship combine merit with lucky accidents; attributing success to happy accidents makes entrepreneurs relatable and outcomes seem fair.",
+   "applies_when": "The person narrates success as a mix of their own effort/skill and good fortune, or downplays merit with references to luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p011:03",
+    "dew2009-37796f:p012:01",
+    "dew2009-37796f:p012:02"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "dew2009-37796f:c25"
+  },
+  {
+   "group": "rival",
+   "label": "Spurious post-hoc explanation",
+   "definition": "Underestimating chance lets people construct explanations of success from something special in a firm's history, which may be entirely spurious when success was due to luck.",
+   "applies_when": "An account attributes outcomes wholly to strategy or skill in a way that ignores evident chance events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p013:01",
+    "dew2009-37796f:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "dew2009-37796f:c26"
+  },
+  {
+   "group": "rival",
+   "label": "Predictable system behavior",
+   "definition": "Some apparent serendipities may not be serendipitous but predictable consequences of the system's behavior or prior interactions.",
+   "applies_when": "An event called accidental appears to follow predictably from earlier interactions or recurring patterns.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p010:01",
+    "dew2009-37796f:p016:02"
+   ],
+   "pdf_pages": [
+    10,
+    16
+   ],
+   "candidate_id": "dew2009-37796f:c27"
+  },
+  {
+   "group": "condition",
+   "label": "Flexible plans and vision",
+   "definition": "Leaving freedom in plans makes leveraging serendipity possible; relentless predefinition through business planning or rigid vision restricts it. Vision should be a flexible umbrella and evolving plans expected.",
+   "applies_when": "The entrepreneur describes holding plans loosely, allowing plans to change, or conversely being locked into a fixed plan that prevented pursuing a surprise.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p011:01",
+    "dew2009-37796f:p015:02",
+    "dew2009-37796f:p015:03"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "dew2009-37796f:c28"
+  },
+  {
+   "group": "condition",
+   "label": "Organizational autonomy",
+   "definition": "Organizational constraints on employees affect whether they have sufficient autonomy to pursue serendipitously discovered opportunities.",
+   "applies_when": "Mention of freedom or lack of freedom within an organization to follow up unexpected findings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p011:01"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "dew2009-37796f:c29"
+  },
+  {
+   "group": "condition",
+   "label": "Retaining knowledge from failures",
+   "definition": "Institutions that retain knowledge from experiments, including ones that went 'wrong', fund future serendipities; valuing failure and waste as option value.",
+   "applies_when": "The account describes keeping shelved ideas, past failed projects or stored knowledge that later enabled a chance discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "dew2009-37796f:c30"
+  },
+  {
+   "group": "condition",
+   "label": "Experience and expertise",
+   "definition": "More experienced entrepreneurs have larger pools of prior knowledge, better ability to access and filter it, richer networks, and spare cognitive capacity from routinization, making them more likely to encounter and exploit serendipity.",
+   "applies_when": "The person attributes their ability to spot or exploit a chance event to their experience or expertise.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p014:02",
+    "dew2009-37796f:p014:03",
+    "dew2009-37796f:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "dew2009-37796f:c31"
+  },
+  {
+   "group": "condition",
+   "label": "Openness to experience",
+   "definition": "Personality traits such as intellectual curiosity and a taste for the unexpected and for surprise increase receptiveness to contingent events and the likelihood of viewing them as opportunities.",
+   "applies_when": "The person describes themselves as curious, seeking new experiences, or welcoming surprises.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p014:03"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "dew2009-37796f:c32"
+  },
+  {
+   "group": "condition",
+   "label": "Slack for continued search",
+   "definition": "Because serendipity relies on resource-consuming search, entrepreneurs need to cut themselves enough slack to fund continuing search activity even in early, resource-scarce stages.",
+   "applies_when": "The account mentions reserving time, money or attention for ongoing exploration beyond core plans.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p015:03"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "dew2009-37796f:c33"
+  },
+  {
+   "group": "condition",
+   "label": "Predisposition to exploit contingency",
+   "definition": "Expert entrepreneurs following effectual logic acknowledge and appropriate contingency rather than trying to avoid it.",
+   "applies_when": "The person expresses an attitude of embracing surprises and using them rather than avoiding deviations from plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "dew2009-37796f:p013:03",
+    "dew2009-37796f:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "dew2009-37796f:c34"
+  }
+ ],
+ "removed": []
+}

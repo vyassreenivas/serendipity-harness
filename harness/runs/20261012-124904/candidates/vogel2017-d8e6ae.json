@@ -1,0 +1,196 @@
+{
+ "paper_id": "vogel2017-d8e6ae",
+ "file": "papers/pdf/Vogel - 2017 - From Venture Idea to Venture Opportunity.pdf",
+ "about": [
+  "A conceptual framework tracing the early venture process from triggers and paths of venture idea generation (intentional, accidental discovery, legacy) through incubation and evaluation of a venture concept to exploitation."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "type",
+   "label": "Accidental discovery path",
+   "definition": "A path of venture idea generation in which the idea arises unintentionally, purely by accident, while looking for something else or not looking for anything specific.",
+   "applies_when": "The person describes coming up with the venture idea by accident rather than through deliberate search for an idea.",
+   "does_not_apply_when": "The person was actively searching for an idea (intentional idea generation) or received the idea from someone else (legacy).",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p010:01"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Mishap while working on something else",
+   "definition": "An unplanned event during other work, such as a forgotten dough turning to flakes or noticing an unexpected material property, sets off the venture idea.",
+   "applies_when": "An account describes an unplanned occurrence or accident during an unrelated task that revealed something new and led to a business idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognising commercial potential of accident",
+   "definition": "After the accidental finding, the person has the insight that it can be combined or turned into a business, and moves to commercialise it.",
+   "applies_when": "The person describes realising an accidental result could become a product or business, often after positive reactions from users.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Intentional idea generation",
+   "definition": "The person actively searches for a venture idea because of a desire to start, a resource to commercialise, or a customer need, often using techniques like brainstorming or design thinking.",
+   "applies_when": "The account shows deliberate search for an idea or market for a technology.",
+   "does_not_apply_when": "The idea came unintentionally while doing something else (accidental discovery).",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p009:03",
+    "vogel2017-d8e6ae:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c04"
+  },
+  {
+   "group": "type",
+   "label": "Legacy: idea received from others",
+   "definition": "Receiving a venture idea from someone else, either through deliberate external search (e.g., crowdsourcing) or without seeking it, as when a friend suggests opening a business.",
+   "applies_when": "The account says the venture idea came from another person, whether solicited or unsolicited.",
+   "does_not_apply_when": "The person generated the idea themselves, intentionally or by accident.",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p010:02",
+    "vogel2017-d8e6ae:p010:03",
+    "vogel2017-d8e6ae:p011:01"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Triggers: resource push, market pull, desire to start",
+   "definition": "Idea generation is set off by a resource to commercialise, a recognised customer segment or need, or simply the wish to be an entrepreneur; these are not mutually exclusive.",
+   "applies_when": "An account identifies what started the idea search or generation: a technology/resource at hand, a noticed need, or a desire to start a business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p008:03",
+    "vogel2017-d8e6ae:p009:01",
+    "vogel2017-d8e6ae:p009:02"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c06"
+  },
+  {
+   "group": "background",
+   "label": "Builds on prior ideas",
+   "definition": "Idea generation rarely happens in a void; venture ideas build on existing own idea sets and others' ideas and take time to form.",
+   "applies_when": "The person describes the idea emerging from earlier ideas or variations they or others had.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p009:01",
+    "vogel2017-d8e6ae:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c07"
+  },
+  {
+   "group": "role",
+   "label": "Idea as starting point needing incubation",
+   "definition": "An initial idea, however generated, is necessary but not sufficient; the entrepreneur must incubate it by collecting missing knowledge, shaping and refining the venture concept, and evaluating desirability and feasibility before exploitation.",
+   "applies_when": "The account describes an initial insight followed by work to refine, test and evaluate it before launching.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p007:02",
+    "vogel2017-d8e6ae:p011:01",
+    "vogel2017-d8e6ae:p011:03"
+   ],
+   "pdf_pages": [
+    7,
+    11
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Social ties in incubation",
+   "definition": "Accumulating missing knowledge about the venture idea often involves the entrepreneur's social ties.",
+   "applies_when": "The person uses contacts to gather information to develop the venture concept.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Individual and external factors shape paths",
+   "definition": "Prior experience, cognitive style, external pressure and environment may modify the likelihood of different idea-generation paths, including accidental discovery.",
+   "applies_when": "The account links the way the idea arose to experience, environment or pressure.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p019:01",
+    "vogel2017-d8e6ae:p019:02"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c10"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective bias in idea origin accounts",
+   "definition": "Retrospective accounts of idea generation are prone to recall bias and post hoc rationalisation.",
+   "applies_when": "An account of how the idea arose appears reconstructed or rationalised after the fact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p016:01",
+    "vogel2017-d8e6ae:p017:02"
+   ],
+   "pdf_pages": [
+    16,
+    17
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Path-breaking poorly specified opportunities",
+   "definition": "Some of the most path-breaking venture opportunities came about because they could not be understood well enough to be specified during incubation.",
+   "applies_when": "The person moved to exploitation with a venture they could not fully specify beforehand.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vogel2017-d8e6ae:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "vogel2017-d8e6ae:c12"
+  }
+ ],
+ "removed": []
+}

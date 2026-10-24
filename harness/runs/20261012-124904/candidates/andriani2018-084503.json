@@ -1,0 +1,296 @@
+{
+ "paper_id": "andriani2018-084503",
+ "file": "papers/pdf/Andriani et al - 2018 - Measuring Exaptation and Its Impact on Innovation, Search and Problem-Solving.pdf",
+ "about": [
+  "The paper measures how often existing drugs acquire new, unplanned functions (exaptation) in the US pharmaceutical industry, links these to radical innovation and new markets, and discusses serendipity, context and problem-solving as distinct from deliberate, foresight-driven search."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unforeseen possibility revealed in existing thing",
+   "definition": "Serendipity is unintentional: it reveals possibilities and connections hidden in an existing entity once that entity is exposed to a new context. In this sense serendipity uncovers potential new uses (exaptations).",
+   "applies_when": "An account describes an existing product, resource or capability that unexpectedly turned out to serve a purpose nobody intended, discovered without deliberately seeking it.",
+   "does_not_apply_when": "The new use came from planned extension to similar, adjacent applications. The paper treats such adaptive uses as mostly deliberate.",
+   "passage_ids": [
+    "andriani2018-084503:p004:01",
+    "andriani2018-084503:p003:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "andriani2018-084503:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Exposure to a new context",
+   "definition": "New functions surface when an artifact meets new contexts, users or conditions. Examples are a drug given to patients with different physiology, or a radar part carried in a pocket, producing an unexpected effect.",
+   "applies_when": "The account describes an unexpected effect or observation that arose because a product or resource was used by new people, in a new setting, or alongside new conditions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p010:02",
+    "andriani2018-084503:p019:02",
+    "andriani2018-084503:p005:02"
+   ],
+   "pdf_pages": [
+    5,
+    10,
+    19
+   ],
+   "candidate_id": "andriani2018-084503:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing unusual patterns and affordances",
+   "definition": "Distant opportunities come from observing what an artifact affords in a context. People notice an unusual pattern and associate it with a novel function of the artifact.",
+   "applies_when": "A person reports noticing an odd or unexpected result and linking it to a new use or market for something they already had.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p029:01",
+    "andriani2018-084503:p023:02",
+    "andriani2018-084503:p024:01"
+   ],
+   "pdf_pages": [
+    23,
+    24,
+    29
+   ],
+   "candidate_id": "andriani2018-084503:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Solution-to-need matching (inverse problem-solving)",
+   "definition": "Rather than defining a problem and then searching for a solution, the person starts from an existing solution and finds a need it meets. Exposure to information-rich contexts can trigger a serendipitous association between a solution and a need the person was not pursuing. The question becomes: what problem have I solved?",
+   "applies_when": "An account describes realising that something already in hand solves a problem the person was not working on, or working backwards from a result to the problem it solves.",
+   "does_not_apply_when": "The person first identified a need, formulated a problem and then searched for a solution. The paper calls this type 1 problem-solving.",
+   "passage_ids": [
+    "andriani2018-084503:p024:01",
+    "andriani2018-084503:p026:01",
+    "andriani2018-084503:p027:01"
+   ],
+   "pdf_pages": [
+    24,
+    26,
+    27
+   ],
+   "candidate_id": "andriani2018-084503:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Modifying the artifact and building a niche",
+   "definition": "Discovering a latent function is not enough on its own. Often the original artifact is then modified to optimise it for the new function. In more radical cases, a new niche or market is built around it.",
+   "applies_when": "After an unexpected discovery, the account describes redesigning the product, or deliberately building a market around the newly found use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p006:02",
+    "andriani2018-084503:p005:02"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "andriani2018-084503:c05"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind / cognitive substrate",
+   "definition": "Serendipitous discovery depends on the discoverer's intuition, attention and prior knowledge, so chance favours the prepared mind. However, preparedness is not a theory of what to expect, and prior frameworks can also make people misread or miss what they found, as with Fleming and penicillin.",
+   "applies_when": "An account credits prior expertise, attention or earlier work with enabling the person to recognise an unexpected finding. It also applies when prior assumptions led them to misinterpret or underrate the finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p025:01",
+    "andriani2018-084503:p025:02",
+    "andriani2018-084503:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    25
+   ],
+   "candidate_id": "andriani2018-084503:c06"
+  },
+  {
+   "group": "role",
+   "label": "Strategy follows the serendipitous discovery",
+   "definition": "Resource allocation and strategic decisions tend to come after serendipitous innovations rather than before them. Raytheon set its strategy to enter kitchen appliances only after it discovered the magnetron could cook.",
+   "applies_when": "An account describes a firm or founder redirecting strategy, or entering a new business, as a consequence of an unexpected discovery rather than a prior plan.",
+   "does_not_apply_when": "The strategy was set first and the discovery was the result of targeted search under that strategy.",
+   "passage_ids": [
+    "andriani2018-084503:p024:02",
+    "andriani2018-084503:p025:01"
+   ],
+   "pdf_pages": [
+    24,
+    25
+   ],
+   "candidate_id": "andriani2018-084503:c07"
+  },
+  {
+   "group": "role",
+   "label": "Ventures formed to market new uses",
+   "definition": "Entrepreneurs, especially effectual ones, and organisational venturing such as spin-outs and start-ups explore the diversity of uses of existing artifacts and then bring those uses to market.",
+   "applies_when": "A venture is founded or spun out specifically to exploit an unexpected new use of an existing technology or resource.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p030:02"
+   ],
+   "pdf_pages": [
+    30
+   ],
+   "candidate_id": "andriani2018-084503:c08"
+  },
+  {
+   "group": "outcome",
+   "label": "Radical innovation and new markets",
+   "definition": "Serendipitous exaptations are strongly associated with radical innovation: about 95% of radical uses are exaptive. They can create entirely new markets or industries, as with Marsilid and the antidepressant market, or the microwave oven.",
+   "applies_when": "An unexpected discovery led to a new-to-the-world product, a new market, or a major industry shift.",
+   "does_not_apply_when": "The new use is incremental and close to the original market.",
+   "passage_ids": [
+    "andriani2018-084503:p017:02",
+    "andriani2018-084503:p003:01",
+    "andriani2018-084503:p020:01"
+   ],
+   "pdf_pages": [
+    3,
+    17,
+    20
+   ],
+   "candidate_id": "andriani2018-084503:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "New phenomena opening new trajectories",
+   "definition": "Some rare serendipitous discoveries reveal new underlying phenomena. These open new areas of knowledge and new trajectories of research, innovation and commerce.",
+   "applies_when": "An account describes an unexpected finding that changed fundamental understanding and spawned a new line of work or field.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p023:01",
+    "andriani2018-084503:p019:02"
+   ],
+   "pdf_pages": [
+    19,
+    23
+   ],
+   "candidate_id": "andriani2018-084503:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Unrealistic needs become realistic",
+   "definition": "Some needs are deemed impossible to meet or have not yet been conceived, so they are never turned into problems to solve. Serendipity can show that such needs can be met after all, turning them into perceived opportunities.",
+   "applies_when": "An unexpected discovery made a previously unimaginable or seemingly impossible offering feasible, creating an opportunity no one was pursuing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p028:01",
+    "andriani2018-084503:p028:02"
+   ],
+   "pdf_pages": [
+    28
+   ],
+   "candidate_id": "andriani2018-084503:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Shadow options and optionality",
+   "definition": "Each artifact holds latent options, which the paper calls shadow options, that organisations can convert into new markets. Under optionality, options are generated serendipitously and rationality is then used to choose which ones to pursue.",
+   "applies_when": "An account describes accumulating unexpected possibilities from existing assets and then deliberately selecting which ones to develop.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p029:01",
+    "andriani2018-084503:p028:02"
+   ],
+   "pdf_pages": [
+    28,
+    29
+   ],
+   "candidate_id": "andriani2018-084503:c12"
+  },
+  {
+   "group": "type",
+   "label": "New-phenomenon vs same-phenomenon discovery",
+   "definition": "Exaptations based on the same underlying phenomenon as the original use could in principle be foreseen by analogy or deduction. Those based on a new, unknown phenomenon cannot be foreseen and happen by serendipity. These are rare but the most radical.",
+   "applies_when": "The coder can distinguish whether the unexpected use rests on a known principle that could have been reasoned out, or on a genuinely surprising new mechanism.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p022:02",
+    "andriani2018-084503:p023:01",
+    "andriani2018-084503:p019:02"
+   ],
+   "pdf_pages": [
+    19,
+    22,
+    23
+   ],
+   "candidate_id": "andriani2018-084503:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Foresight, analogy and deliberate search",
+   "definition": "An opposing account holds that distant opportunities are found through superior cognition, foresight, analogical reasoning, or a normative problem-finding theory of the firm, not through serendipity. The authors argue this view has limits for distant opportunities.",
+   "applies_when": "The account explains the opportunity as the product of deliberate analysis, analogy from another domain, or planned problem formulation.",
+   "does_not_apply_when": "The opportunity arose unplanned from contact with a new context.",
+   "passage_ids": [
+    "andriani2018-084503:p021:02",
+    "andriani2018-084503:p024:02",
+    "andriani2018-084503:p022:01"
+   ],
+   "pdf_pages": [
+    21,
+    22,
+    24
+   ],
+   "candidate_id": "andriani2018-084503:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate adjacent extension",
+   "definition": "Adaptive new uses come from deliberately extending a product to adjacent targets that are functionally similar to the original use. This is a mostly planned process rather than a serendipitous one.",
+   "applies_when": "The account describes a new application obtained by systematically trying the product on closely related problems or markets.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p018:01",
+    "andriani2018-084503:p020:02"
+   ],
+   "pdf_pages": [
+    18,
+    20
+   ],
+   "candidate_id": "andriani2018-084503:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Multiplying contexts and users",
+   "definition": "Serendipitous new uses become more likely when resources are exposed to more contexts. The paper names several ways to do this: broad user experimentation, hybrid producer and user models, modular limited-life projects, free-time rules such as 3M's 15% rule, and permeable links to external networks and communities.",
+   "applies_when": "The account mentions broad user experimentation, open collaboration, slack time for side projects, or external networks that brought the product into contact with new uses.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p029:02",
+    "andriani2018-084503:p030:01",
+    "andriani2018-084503:p030:02"
+   ],
+   "pdf_pages": [
+    29,
+    30
+   ],
+   "candidate_id": "andriani2018-084503:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Undirected search in distant areas",
+   "definition": "Search that is undirected and far from the original use is more likely than targeted search to land in unexplored, less contested areas. Such search is also more likely to tap different underlying phenomena.",
+   "applies_when": "The account describes wandering into a market or application far from the original one through untargeted exploration.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andriani2018-084503:p022:01",
+    "andriani2018-084503:p018:01"
+   ],
+   "pdf_pages": [
+    18,
+    22
+   ],
+   "candidate_id": "andriani2018-084503:c17"
+  }
+ ],
+ "removed": []
+}

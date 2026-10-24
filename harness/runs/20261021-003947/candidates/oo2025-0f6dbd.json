@@ -1,0 +1,177 @@
+{
+ "paper_id": "oo2025-0f6dbd",
+ "file": "papers/pdf/Oo et al - 2025 - The Aha Moment - The Effects of Serendipity and Innovation on Crowdfunding Performance.pdf",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026; Kirtley and Shah replies corrected after reading the cited passages in full",
+ "reply_sha256": "a00d78344d080c18bb448bc94fb268704d070f2e8afcfd9d083c8598a11b477f",
+ "about": [
+  "Whether crowdfunding campaigns that describe their product as a serendipitous invention raise more money than matched non-serendipitous ones, through higher perceived innovativeness."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unexpected discovery during purposeful action",
+   "definition": "A serendipitous invention is an unexpected discovery of a new product or feature that arises while working on purpose to solve a problem.",
+   "applies_when": "The founder found something unexpected while actively working on a problem.",
+   "does_not_apply_when": "Pure luck with no effort or preparation, such as winning a lottery.",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:02",
+    "oo2025-0f6dbd:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "oo2025-0f6dbd:c01"
+  },
+  {
+   "group": "type",
+   "label": "Mertonian: unexpected solution to the problem at hand",
+   "definition": "The discovery solves the problem the inventor was already working on, but in an unexpected way.",
+   "applies_when": "The founder found an unexpected route to the solution they were already seeking.",
+   "does_not_apply_when": "The discovery solved a different problem from the one being worked on (Walpolian).",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:03",
+    "oo2025-0f6dbd:p013:02"
+   ],
+   "pdf_pages": [
+    5,
+    13
+   ],
+   "candidate_id": "oo2025-0f6dbd:c02"
+  },
+  {
+   "group": "type",
+   "label": "Walpolian: solution to a problem not being worked on",
+   "definition": "The discovery solves a problem the inventor was not trying to solve, taking them down a new path.",
+   "applies_when": "While working on one thing, the founder found a solution to a different problem.",
+   "does_not_apply_when": "The discovery advanced the original goal (Mertonian).",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:03",
+    "oo2025-0f6dbd:p012:01"
+   ],
+   "pdf_pages": [
+    5,
+    12
+   ],
+   "candidate_id": "oo2025-0f6dbd:c03"
+  },
+  {
+   "group": "role",
+   "label": "Advancing current plans or redirecting the business",
+   "definition": "A serendipitous invention can push the venture's current plans forward in unforeseen ways or shift the business in a new direction.",
+   "applies_when": "The founder says the discovery either sped up the existing plan or changed the business's direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "oo2025-0f6dbd:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "oo2025-0f6dbd:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Connecting the dots",
+   "definition": "The inventor links separate pieces of knowledge to see a novel solution in an unexpected event.",
+   "applies_when": "The founder describes putting together pieces of knowledge to see what the unexpected event made possible.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "oo2025-0f6dbd:p007:02",
+    "oo2025-0f6dbd:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "oo2025-0f6dbd:c05"
+  },
+  {
+   "group": "outcome",
+   "label": "Serendipity story raises perceived innovativeness and funding",
+   "definition": "Products presented as serendipitous inventions are seen as more original and useful, which leads to more crowdfunding success.",
+   "applies_when": "The founder says the story of how the product was found helped win backers, customers or funding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "oo2025-0f6dbd:p001:01",
+    "oo2025-0f6dbd:p016:03",
+    "oo2025-0f6dbd:p020:03"
+   ],
+   "pdf_pages": [
+    1,
+    16,
+    20
+   ],
+   "candidate_id": "oo2025-0f6dbd:c06"
+  },
+  {
+   "group": "account",
+   "label": "Credit to the prepared mind",
+   "definition": "Observers credit the inventor's insight, effort and talent for a serendipitous invention rather than luck.",
+   "applies_when": "The founder frames the discovery as owed to their own preparation or skill in spotting it.",
+   "does_not_apply_when": "The founder frames it as pure luck that anyone could have had.",
+   "passage_ids": [
+    "oo2025-0f6dbd:p006:02",
+    "oo2025-0f6dbd:p021:02",
+    "oo2025-0f6dbd:p009:02"
+   ],
+   "pdf_pages": [
+    6,
+    9,
+    21
+   ],
+   "candidate_id": "oo2025-0f6dbd:c07"
+  },
+  {
+   "group": "account",
+   "label": "Chance origins kept quiet",
+   "definition": "Founders may hide or delay telling the chance origin of an invention because admitting luck seems to diminish the creative act.",
+   "applies_when": "The founder says they played down, hid or only later told the accidental origin of their product.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "oo2025-0f6dbd:p002:01",
+    "oo2025-0f6dbd:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "oo2025-0f6dbd:c08"
+  },
+  {
+   "group": "account",
+   "label": "Told as 'invented by accident'",
+   "definition": "Founders tell the origin in words like 'by accident' or 'serendipity struck', and these words mark the story as serendipitous.",
+   "applies_when": "The founder uses words such as accident, by chance or serendipity for how the product came about, in the context of its invention.",
+   "does_not_apply_when": "The same words are used about something else, such as accidental damage or being lucky to find a supplier.",
+   "passage_ids": [
+    "oo2025-0f6dbd:p013:02",
+    "oo2025-0f6dbd:p012:01",
+    "oo2025-0f6dbd:p010:03"
+   ],
+   "pdf_pages": [
+    10,
+    12,
+    13
+   ],
+   "candidate_id": "oo2025-0f6dbd:c09"
+  },
+  {
+   "group": "rival",
+   "label": "Luck in a just world",
+   "definition": "Observers may instead attribute an accidental invention to random luck and see it as less deserving, a situational rather than personal cause.",
+   "applies_when": "The account treats the discovery as random chance owed to circumstances, not to the founder.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "oo2025-0f6dbd:p006:02",
+    "oo2025-0f6dbd:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "oo2025-0f6dbd:c10"
+  }
+ ],
+ "removed": []
+}

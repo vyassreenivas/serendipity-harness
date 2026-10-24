@@ -1,0 +1,485 @@
+{
+ "paper_id": "merton2004-6e601e",
+ "file": "papers/pdf/Merton and Barber - 2004 - The Diverse Significance of Serendipity in Science.pdf",
+ "about": [
+  "A sociological review of how scientists, inventors and commentators have understood the role of accident and serendipity in discovery: its definition, the prepared mind, its bearing on merit, and the conditions (planning, research organization, theory) that make it more or less likely."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Finding what was not sought",
+   "definition": "Serendipity is making discoveries, by accident and sagacity, of things one was not looking for, often while searching for something else.",
+   "applies_when": "The account describes coming upon a valuable result, idea or opportunity while pursuing a different goal.",
+   "does_not_apply_when": "The result was the planned target of a deliberate search; that is ordinary planned discovery.",
+   "passage_ids": [
+    "merton2004-6e601e:p007:02",
+    "merton2004-6e601e:p032:02",
+    "merton2004-6e601e:p033:01"
+   ],
+   "pdf_pages": [
+    7,
+    32,
+    33
+   ],
+   "candidate_id": "merton2004-6e601e:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "A chance discovery requires both the chance phenomenon and an appropriate, intelligent observer who perceives its significance; the observation alone is not a discovery.",
+   "applies_when": "The person stresses that the chance event mattered only because they recognised its significance.",
+   "does_not_apply_when": "Pure luck with no recognition or interpretation by the person.",
+   "passage_ids": [
+    "merton2004-6e601e:p015:03",
+    "merton2004-6e601e:p016:01",
+    "merton2004-6e601e:p040:01"
+   ],
+   "pdf_pages": [
+    15,
+    16,
+    40
+   ],
+   "candidate_id": "merton2004-6e601e:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Art of profiting from the unexpected",
+   "definition": "Langmuir defines serendipity as the art of profiting from unexpected occurrences, an active capacity rather than a passive event.",
+   "applies_when": "The person describes deliberately turning an unexpected occurrence to advantage.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p034:01",
+    "merton2004-6e601e:p035:01"
+   ],
+   "pdf_pages": [
+    34,
+    35
+   ],
+   "candidate_id": "merton2004-6e601e:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Unanticipated anomalous datum",
+   "definition": "The trigger is an unexpected observation that seems inconsistent with prevailing theory or established facts, provoking curiosity and the urge to make sense of it.",
+   "applies_when": "An account reports a surprising fact that contradicted expectations and prompted puzzlement.",
+   "does_not_apply_when": "Unexpected but unsurprising events that fit existing expectations.",
+   "passage_ids": [
+    "merton2004-6e601e:p040:01",
+    "merton2004-6e601e:p008:01"
+   ],
+   "pdf_pages": [
+    8,
+    40
+   ],
+   "candidate_id": "merton2004-6e601e:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Hint from another person",
+   "definition": "The pregnant hint may come from someone else, such as a patient reporting an unexpected side effect, rather than from one's own observation.",
+   "applies_when": "The unexpected lead is reported by a customer, user or other third party and then followed up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "merton2004-6e601e:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Byproduct of planned work",
+   "definition": "Unexpected results arise as byproducts of planned work aimed at a different product, and may become more important than the primary aim.",
+   "applies_when": "A side result of a planned project becomes valuable or replaces the original aim.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p037:02",
+    "merton2004-6e601e:p037:03",
+    "merton2004-6e601e:p038:01"
+   ],
+   "pdf_pages": [
+    37,
+    38
+   ],
+   "candidate_id": "merton2004-6e601e:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Pursue the unexpected, drop the plan",
+   "definition": "Keeping and studying the anomalous fact and abandoning the prior hypothesis or plan, pursuing the unexpected result as a new path.",
+   "applies_when": "The person abandons an original idea to follow an unexpected result.",
+   "does_not_apply_when": "The anomaly is noticed but dismissed to stick to the plan.",
+   "passage_ids": [
+    "merton2004-6e601e:p007:02",
+    "merton2004-6e601e:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "merton2004-6e601e:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Active noticing vs. passive seeing",
+   "definition": "Others may passively see the same occurrence; the discoverer actively notices it and takes the hint rather than discarding it.",
+   "applies_when": "The account contrasts the person's attention to an event others overlooked or would have thrown away.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p040:03",
+    "merton2004-6e601e:p041:01",
+    "merton2004-6e601e:p016:01"
+   ],
+   "pdf_pages": [
+    16,
+    40,
+    41
+   ],
+   "candidate_id": "merton2004-6e601e:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Follow-up and repetition",
+   "definition": "The accident's contribution depends on subjecting it to repetition, planned experimentation and perseverance, often despite initial disbelief.",
+   "applies_when": "The person repeated, tested or persistently worked through an unexpected finding before acting on it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p032:01",
+    "merton2004-6e601e:p008:02",
+    "merton2004-6e601e:p020:01"
+   ],
+   "pdf_pages": [
+    8,
+    20,
+    32
+   ],
+   "candidate_id": "merton2004-6e601e:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Association of unrelated facts",
+   "definition": "Free association and connecting apparently unrelated facts or similarities turns a chance observation into a discovery.",
+   "applies_when": "The person links the unexpected event to a seemingly unrelated area of knowledge.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p018:02",
+    "merton2004-6e601e:p019:01",
+    "merton2004-6e601e:p019:02"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ],
+   "candidate_id": "merton2004-6e601e:c10"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind / stock of knowledge",
+   "definition": "Chance favours the prepared mind; the gift of serendipity depends on accumulated, even forgotten, knowledge and training that lets the unexpected trigger catalysis.",
+   "applies_when": "The person attributes recognising the opportunity to prior knowledge, training or experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p007:01",
+    "merton2004-6e601e:p017:01",
+    "merton2004-6e601e:p017:02"
+   ],
+   "pdf_pages": [
+    7,
+    17
+   ],
+   "candidate_id": "merton2004-6e601e:c11"
+  },
+  {
+   "group": "background",
+   "label": "Shared reflection with peers",
+   "definition": "Chance observations are more likely to be perceived when reflection is shared with others of similar interests.",
+   "applies_when": "Others in the person's network helped notice or interpret the unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p019:02"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "merton2004-6e601e:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Loose commitment to theory",
+   "definition": "Clinging to preconceived ideas blocks recognition of the unexpected; limited commitment to existing theory enables it.",
+   "applies_when": "The person describes openness to evidence that contradicted their assumptions, or rigidity that made them miss it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p007:02",
+    "merton2004-6e601e:p008:01",
+    "merton2004-6e601e:p023:02"
+   ],
+   "pdf_pages": [
+    7,
+    8,
+    23
+   ],
+   "candidate_id": "merton2004-6e601e:c13"
+  },
+  {
+   "group": "condition",
+   "label": "General rather than detailed planning",
+   "definition": "Detailed planning is unsuited to divergent, uncertain domains; general planning leaves freedom to profit from unexpected occurrences.",
+   "applies_when": "The person kept goals broad and flexible, allowing room to follow unplanned turns.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p035:01",
+    "merton2004-6e601e:p036:01",
+    "merton2004-6e601e:p036:02"
+   ],
+   "pdf_pages": [
+    35,
+    36
+   ],
+   "candidate_id": "merton2004-6e601e:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Controlled sloppiness",
+   "definition": "Somewhat untidy work, with awareness of loose ends, lets unexpected results arise and be traced, whereas compulsive tidiness closes off surprises.",
+   "applies_when": "The person kept loose ends or unresolved questions around that later proved valuable.",
+   "does_not_apply_when": "Indiscriminate carelessness, which produces bad accidents as well as good.",
+   "passage_ids": [
+    "merton2004-6e601e:p036:03",
+    "merton2004-6e601e:p037:01",
+    "merton2004-6e601e:p031:03"
+   ],
+   "pdf_pages": [
+    31,
+    36,
+    37
+   ],
+   "candidate_id": "merton2004-6e601e:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Personal qualities and leisure",
+   "definition": "Alertness, flexibility, self-confidence, pride of work, perseverance and time set aside for reflection make chance observations more likely to be recognised and acted upon.",
+   "applies_when": "The person credits alertness, persistence or reflective downtime for catching an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p019:01",
+    "merton2004-6e601e:p019:02",
+    "merton2004-6e601e:p022:01"
+   ],
+   "pdf_pages": [
+    19,
+    22
+   ],
+   "candidate_id": "merton2004-6e601e:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Early-stage field",
+   "definition": "Accidental discovery is thought more frequent in the early, pioneering stages of a field, declining as systematic knowledge grows.",
+   "applies_when": "The person relates chance findings to working in a new or nascent area.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p004:01",
+    "merton2004-6e601e:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-6e601e:c17"
+  },
+  {
+   "group": "role",
+   "label": "Origin of a new path",
+   "definition": "Unexpected results become the starting point of a new line of investigation, or a chain of accidents links one project to the next.",
+   "applies_when": "An unexpected event started a new project or led into the next one.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p008:01",
+    "merton2004-6e601e:p034:02",
+    "merton2004-6e601e:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    8,
+    34
+   ],
+   "candidate_id": "merton2004-6e601e:c18"
+  },
+  {
+   "group": "role",
+   "label": "Redirection of effort",
+   "definition": "Unexpected encounters may deflect a person from intended goals toward other useful things they had not been seeking.",
+   "applies_when": "The person's efforts shifted to a different target after an unplanned encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p011:02",
+    "merton2004-6e601e:p011:03",
+    "merton2004-6e601e:p032:02"
+   ],
+   "pdf_pages": [
+    11,
+    32
+   ],
+   "candidate_id": "merton2004-6e601e:c19"
+  },
+  {
+   "group": "outcome",
+   "label": "New theory or extended theory",
+   "definition": "The serendipitous datum becomes the occasion for developing a new theory or extending an existing one.",
+   "applies_when": "The unexpected fact led to a new explanation or reframing of how things work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p040:01",
+    "merton2004-6e601e:p041:02"
+   ],
+   "pdf_pages": [
+    40,
+    41
+   ],
+   "candidate_id": "merton2004-6e601e:c20"
+  },
+  {
+   "group": "outcome",
+   "label": "Patchwork eclecticism",
+   "definition": "Serendipity without systematisation can yield a mass of unrelated ad hoc ideas rather than coherent development.",
+   "applies_when": "Following chance leads produced scattered, unintegrated outcomes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p029:01",
+    "merton2004-6e601e:p041:02"
+   ],
+   "pdf_pages": [
+    29,
+    41
+   ],
+   "candidate_id": "merton2004-6e601e:c21"
+  },
+  {
+   "group": "account",
+   "label": "Crediting merit over luck",
+   "definition": "Narrators minimise luck and stress talent, toil and preparation, insisting chance comes only to those who deserve it.",
+   "applies_when": "The person downplays luck and emphasises hard work or competence when explaining a chance discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p015:01",
+    "merton2004-6e601e:p022:02",
+    "merton2004-6e601e:p023:01"
+   ],
+   "pdf_pages": [
+    15,
+    22,
+    23
+   ],
+   "candidate_id": "merton2004-6e601e:c22"
+  },
+  {
+   "group": "account",
+   "label": "Modest attribution to luck",
+   "definition": "Narrators attribute their own success to fortuitous incident rather than intelligence, sometimes out of modesty.",
+   "applies_when": "The person self-effacingly says they were just lucky.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p008:02",
+    "merton2004-6e601e:p016:02"
+   ],
+   "pdf_pages": [
+    8,
+    16
+   ],
+   "candidate_id": "merton2004-6e601e:c23"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as stigma",
+   "definition": "Imputing serendipity can be used to discredit, implying mere luck, passivity, lack of plan and unreliability.",
+   "applies_when": "The person or others treat chance success as undeserved or a sign of incompetence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p015:01",
+    "merton2004-6e601e:p026:02",
+    "merton2004-6e601e:p021:02"
+   ],
+   "pdf_pages": [
+    15,
+    21,
+    26
+   ],
+   "candidate_id": "merton2004-6e601e:c24"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective streamlining",
+   "definition": "Polished accounts of results falsify the actual process, hiding the role of chance and unplanned movement from observations.",
+   "applies_when": "The person presents a tidy planned story while details reveal unplanned turns.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p003:01",
+    "merton2004-6e601e:p006:02"
+   ],
+   "pdf_pages": [
+    3,
+    6
+   ],
+   "candidate_id": "merton2004-6e601e:c25"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic search and planning",
+   "definition": "Discoveries may instead be explained by deliberate, systematic methods or a guiding theory, with chance playing a small part.",
+   "applies_when": "The account shows the outcome resulted from a persistent targeted search.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p010:03",
+    "merton2004-6e601e:p011:01",
+    "merton2004-6e601e:p028:01"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    28
+   ],
+   "candidate_id": "merton2004-6e601e:c26"
+  },
+  {
+   "group": "rival",
+   "label": "Determinism / inevitability",
+   "definition": "Discoveries are viewed as determined or inevitable, likely to be made by someone anyway, so the accident is only timing.",
+   "applies_when": "The person says the outcome would have happened anyway, accident only affected when.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p010:02",
+    "merton2004-6e601e:p024:02"
+   ],
+   "pdf_pages": [
+    10,
+    24
+   ],
+   "candidate_id": "merton2004-6e601e:c27"
+  },
+  {
+   "group": "rival",
+   "label": "Mythologised accident stories",
+   "definition": "Popular accident stories are exaggerated or fabricated because they appeal to imagination and wishes for easy success.",
+   "applies_when": "An accident narrative appears embellished or second-hand relative to evidence of effort.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-6e601e:p012:02",
+    "merton2004-6e601e:p025:01",
+    "merton2004-6e601e:p022:01"
+   ],
+   "pdf_pages": [
+    12,
+    22,
+    25
+   ],
+   "candidate_id": "merton2004-6e601e:c28"
+  }
+ ],
+ "removed": []
+}

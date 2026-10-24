@@ -1,0 +1,255 @@
+{
+ "paper_id": "hargadon1997-2239c7",
+ "file": "papers/pdf/Hargadon - 1997 - Technology Brokering and Innovation in a Product Development Firm.pdf",
+ "about": [
+  "An ethnography of the design firm IDEO that models how a firm acts as a technology broker: it gains access to solutions across industries, then acquires, stores and retrieves them by analogy to create new product combinations. Serendipity appears only in passing, in the firm's founding access, in haphazard search and unplanned encounters, and in exploiting chance discoveries."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "background",
+   "label": "Serendipitous early access to industries",
+   "definition": "When IDEO was a small start-up, its access to disparate industries and technological knowledge came about by chance rather than design. Its roots in Silicon Valley gave it mechanical know-how that its naive electronics clients lacked.",
+   "applies_when": "A founder describes the venture's initial knowledge advantage or client base as something that happened to fall into place, such as being in the right place or industry at the right time, rather than as a deliberately built network.",
+   "does_not_apply_when": "Access is deliberately cultivated later, for example by actively seeking to expand the network once the firm is established; code that as deliberate network expansion instead.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p016:02"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "hargadon1997-2239c7:c01"
+  },
+  {
+   "group": "role",
+   "label": "Shift from chance to deliberate access",
+   "definition": "As the firm grew and became well connected, expanding its network and industry knowledge became something it pursued on purpose. Chance access at the start-up stage thus gave way to a deliberate strategy that sustained the venture's development.",
+   "applies_when": "An account describes an early chance-based advantage being turned into a deliberate strategy or explicit network-building practice as the venture grows.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p016:01",
+    "hargadon1997-2239c7:p016:02",
+    "hargadon1997-2239c7:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "hargadon1997-2239c7:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Failed experiment seen as opportunity",
+   "definition": "An unexpected result, such as a failed experiment aimed at one goal, is recognised as having potential for a new product in a wholly different industry. The authors' example is DuPont's useless photographic film solution becoming automotive lacquer.",
+   "applies_when": "Someone reports that a failure or by-product from one project was recognised as valuable for a different market or use.",
+   "does_not_apply_when": "A solution is deliberately searched for and found for a known problem through planned search.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p033:02",
+    "hargadon1997-2239c7:p033:03"
+   ],
+   "pdf_pages": [
+    33
+   ],
+   "candidate_id": "hargadon1997-2239c7:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Brokering routines enable exploiting serendipity",
+   "definition": "Organisations with routines for sharing problems and solutions across units and industries are better able to take advantage of serendipitous discoveries.",
+   "applies_when": "An account credits internal practices for sharing knowledge, matching problems to solutions, or cross-unit communication with turning a chance finding into a product.",
+   "does_not_apply_when": "The chance finding is exploited purely by one individual, with no organisational routine involved.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p033:03"
+   ],
+   "pdf_pages": [
+    33
+   ],
+   "candidate_id": "hargadon1997-2239c7:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Haphazard, unfocused search",
+   "definition": "Besides focused project research, designers constantly engage in less focused and often haphazard searches that are fun and supply knowledge for future, unknown projects. Examples include field trips to a junkyard, browsing catalogues, and walks to the hardware store.",
+   "applies_when": "A person describes exploring, browsing or visiting places without a specific problem in mind and picking up ideas that later prove useful.",
+   "does_not_apply_when": "Search is targeted at a current, defined design problem, such as tearing down competitor products for a specific project.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p021:01",
+    "hargadon1997-2239c7:p021:02"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "hargadon1997-2239c7:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Unplanned encounters and overheard talk",
+   "definition": "Unplanned informal conversations bring a relevant past solution to a current problem. These include hallway chats in an open office, encounters while walking between buildings, and a designer overhearing a meeting and interrupting with a relevant old report.",
+   "applies_when": "An account describes a solution, lead or idea arriving through a chance conversation, an overheard discussion, or a casual encounter.",
+   "does_not_apply_when": "Help is obtained through a scheduled brainstorm or a formal request directed at a known expert.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p021:03",
+    "hargadon1997-2239c7:p026:02",
+    "hargadon1997-2239c7:p026:03"
+   ],
+   "pdf_pages": [
+    21,
+    26
+   ],
+   "candidate_id": "hargadon1997-2239c7:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Solutions and problems rarely coincide",
+   "definition": "Valuable solutions seldom arrive at the same time as the problems they solve, to the people working on them, or in readily recognisable forms. Connecting them therefore requires memory and retrieval across time and people.",
+   "applies_when": "An account notes that a useful idea was encountered long before, or by someone other than the person who needed it, and had to be connected later.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p003:02",
+    "hargadon1997-2239c7:p017:03"
+   ],
+   "pdf_pages": [
+    3,
+    17
+   ],
+   "candidate_id": "hargadon1997-2239c7:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Analogical recognition of past solutions",
+   "definition": "People recognise the potential of a solution they saw earlier by drawing an analogy between it and a current problem. They abstract useful features from the original context and ignore features that do not transfer, as in seeing a laptop hinge in a toy dragon's wing.",
+   "applies_when": "A person describes suddenly seeing that something encountered elsewhere could solve a present problem by noticing a similarity.",
+   "does_not_apply_when": "The solution is copied directly from a similar product in the same industry, without any reframing.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p024:02",
+    "hargadon1997-2239c7:p024:03",
+    "hargadon1997-2239c7:p026:03"
+   ],
+   "pdf_pages": [
+    24,
+    26
+   ],
+   "candidate_id": "hargadon1997-2239c7:c08"
+  },
+  {
+   "group": "background",
+   "label": "Hobbies and personal backgrounds",
+   "definition": "Individuals' prior jobs, training, hobbies and personal backgrounds supply solutions beyond those met in client work. Examples include model airplanes, farming, sailing and toys.",
+   "applies_when": "An account traces an idea to the person's hobby, upbringing, prior job or personal interest outside their current work.",
+   "does_not_apply_when": "The knowledge was acquired through current client projects.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p016:03",
+    "hargadon1997-2239c7:p017:01",
+    "hargadon1997-2239c7:p017:02"
+   ],
+   "pdf_pages": [
+    16,
+    17
+   ],
+   "candidate_id": "hargadon1997-2239c7:c09"
+  },
+  {
+   "group": "background",
+   "label": "Stockpiled artifacts awaiting a problem",
+   "definition": "Collections of objects, parts, prototypes and curiosities are kept as reminders of potentially useful technologies, 'patiently awaiting the appropriate problem'. One example is the shared technology cabinet.",
+   "applies_when": "A person describes keeping or browsing collected objects or materials without a current use, which later spark a solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p022:02",
+    "hargadon1997-2239c7:p022:03",
+    "hargadon1997-2239c7:p023:01"
+   ],
+   "pdf_pages": [
+    22,
+    23
+   ],
+   "candidate_id": "hargadon1997-2239c7:c10"
+  },
+  {
+   "group": "background",
+   "label": "Network position spanning industries",
+   "definition": "Occupying a structural hole between otherwise unconnected industries gives a broker early exposure to solutions in one area that would be valuable in another. In Burt's words, brokers are 'assured of being the first to see new opportunities'.",
+   "applies_when": "An account explains spotting an opportunity by having ties to several disconnected industries or groups.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p003:01",
+    "hargadon1997-2239c7:p015:01",
+    "hargadon1997-2239c7:p015:02"
+   ],
+   "pdf_pages": [
+    3,
+    15
+   ],
+   "candidate_id": "hargadon1997-2239c7:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Routinised brokering rather than chance",
+   "definition": "The authors frame IDEO's innovation as routine: network position plus organisational routines for acquiring, storing and retrieving knowledge systematically produce new combinations. This offers an explanation for apparently lucky connections that does not rely on serendipity.",
+   "applies_when": "An account attributes an apparently fortunate connection to systematic practices such as brainstorms, knowledge catalogues or the deliberate involvement of experts.",
+   "does_not_apply_when": "The person emphasises genuine chance or unexpectedness in the encounter.",
+   "passage_ids": [
+    "hargadon1997-2239c7:p009:04",
+    "hargadon1997-2239c7:p017:03",
+    "hargadon1997-2239c7:p027:01"
+   ],
+   "pdf_pages": [
+    9,
+    17,
+    27
+   ],
+   "candidate_id": "hargadon1997-2239c7:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "New combinations of existing ideas",
+   "definition": "Connecting previously unconnected solutions and problems yields products that are new combinations of existing knowledge from disparate industries.",
+   "applies_when": "An account describes a product or venture offering built by combining an idea from one domain with needs or components in another.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p002:02",
+    "hargadon1997-2239c7:p002:03",
+    "hargadon1997-2239c7:p034:01"
+   ],
+   "pdf_pages": [
+    2,
+    34
+   ],
+   "candidate_id": "hargadon1997-2239c7:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Fragmented knowledge and broadly applicable new technology",
+   "definition": "Brokering is especially likely in environments where knowledge and communication between domains are fragmented. It is also especially likely when new technologies with wide potential application are not yet widely diffused.",
+   "applies_when": "An account links an opportunity to an emerging technology that other industries had not yet adopted, or to gaps in knowledge between domains.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p032:02",
+    "hargadon1997-2239c7:p032:03"
+   ],
+   "pdf_pages": [
+    32
+   ],
+   "candidate_id": "hargadon1997-2239c7:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Norms for asking and giving help",
+   "definition": "Strong norms for sharing knowledge and asking for help, which the authors call an 'attitude of wisdom', make connections between people with problems and people with solutions more likely. Reward systems and hiring practices reinforce these norms.",
+   "applies_when": "An account credits a culture of openness, help-seeking or reciprocal sharing with surfacing a useful idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "hargadon1997-2239c7:p028:01",
+    "hargadon1997-2239c7:p028:02",
+    "hargadon1997-2239c7:p030:02"
+   ],
+   "pdf_pages": [
+    28,
+    30
+   ],
+   "candidate_id": "hargadon1997-2239c7:c15"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,463 @@
+{
+ "paper_id": "ma2002-d85f40",
+ "file": "papers/pdf/Ma - 2002 - Competitive Advantage What's Luck Got to Do with It.pdf",
+ "about": [
+  "A conceptual paper on luck as a source of firm competitive advantage. It offers a typology of luck (pure luck, prepared luck, useful weeds, skunk work), the external sources of luck, and the internal mechanisms by which firms can induce, recognise and exploit lucky breaks.",
+  "This final part of Hao Ma's paper on luck and competitive advantage contains only the tail of the reference list and three end-of-article application questions, such as the link between the luck typology and competitive advantage, and profiting from 'useful weeds' and skunk-work initiatives."
+ ],
+ "bearing": [
+  "partial",
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Luck as serendipitous happening",
+   "definition": "The author treats luck as serendipitous happenings that are unpredictable beforehand and often unfathomable even to those who benefit. Luck arises from both chance events and human endeavour.",
+   "applies_when": "An account describes an unpredictable, unplanned happening that benefited the venture, and the person treats it as luck or chance.",
+   "does_not_apply_when": "The benefit was planned and foreseen from the start, with no chance element.",
+   "passage_ids": [
+    "ma2002-d85f40:p001:03",
+    "ma2002-d85f40:p001:04",
+    "ma2002-d85f40:p011:11"
+   ],
+   "pdf_pages": [
+    1,
+    11
+   ],
+   "candidate_id": "ma2002-d85f40:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as opportunity seized",
+   "definition": "Luck is usually opportunities knocking on those who are looking for them, notice them and act on them. Serendipity counts only when the opportunity is seized and its potential realised.",
+   "applies_when": "The person describes noticing a chance opportunity and acting on it, and the benefit came from that action.",
+   "does_not_apply_when": "A windfall arrived without any noticing or action by the person; code that as pure luck.",
+   "passage_ids": [
+    "ma2002-d85f40:p003:05",
+    "ma2002-d85f40:p003:06"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "ma2002-d85f40:c02"
+  },
+  {
+   "group": "type",
+   "label": "Pure luck",
+   "definition": "Factors outside the firm produce an advantage spontaneously, beyond the firm's purposeful control or manipulation. Examples are fertile land, oil underneath it, or a windfall gain from someone else's loss.",
+   "applies_when": "An account describes an external windfall that benefited the venture without any foresight or action on its part.",
+   "does_not_apply_when": "The firm had positioned itself or acted to capture the event; code that as prepared luck.",
+   "passage_ids": [
+    "ma2002-d85f40:p002:03",
+    "ma2002-d85f40:p002:04",
+    "ma2002-d85f40:p002:07"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "ma2002-d85f40:c03"
+  },
+  {
+   "group": "type",
+   "label": "Prepared luck",
+   "definition": "External changes act as mere opportunities or threats. Whether a firm turns out lucky depends on its position, endowments, capabilities and action at the time. Here random forces validate foresight and purposeful action.",
+   "applies_when": "The person describes an external change that benefited the venture because of prior preparation, foresight or quick action.",
+   "does_not_apply_when": "The gain required no action or capability of the firm (pure luck).",
+   "passage_ids": [
+    "ma2002-d85f40:p002:13",
+    "ma2002-d85f40:p002:14",
+    "ma2002-d85f40:p011:11"
+   ],
+   "pdf_pages": [
+    2,
+    11
+   ],
+   "candidate_id": "ma2002-d85f40:c04"
+  },
+  {
+   "group": "type",
+   "label": "Useful weeds",
+   "definition": "Self-initiated activities by individuals inside the firm, such as experiments or improvisations pursued for whatever motives. They sometimes yield accidental innovations, for example a spilled liquid that was tasted or a 'failed' weak adhesive.",
+   "applies_when": "An account describes an accidental discovery made by an individual during side activity, personal experimentation or a failed project.",
+   "does_not_apply_when": "The work was an organised, secret group effort pursuing a deliberate goal; code that as skunk work.",
+   "passage_ids": [
+    "ma2002-d85f40:p003:10",
+    "ma2002-d85f40:p003:12",
+    "ma2002-d85f40:p003:14"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "ma2002-d85f40:c05"
+  },
+  {
+   "group": "type",
+   "label": "Skunk work",
+   "definition": "Individuals or informal groups work voluntarily and secretively on their own initiative, independent of or against the formal agenda. This is a semi-grass-roots effort that may bring lucky breaks or disaster.",
+   "applies_when": "The person describes a secret or informal side project pursued outside official plans that led to an unexpected venture or breakthrough.",
+   "does_not_apply_when": "The initiative was organisation-wide and explicitly endorsed by top management (managerial initiative).",
+   "passage_ids": [
+    "ma2002-d85f40:p003:17",
+    "ma2002-d85f40:p004:01",
+    "ma2002-d85f40:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "ma2002-d85f40:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Unique historical or crisis events",
+   "definition": "International, political, economic or military events can bring luck. Examples include the oil crisis, the Gulf War, 9/11 and a city fire.",
+   "applies_when": "A venture's opportunity is attributed to an unexpected major event or crisis.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p005:12",
+    "ma2002-d85f40:p005:13",
+    "ma2002-d85f40:p002:07"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "ma2002-d85f40:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "Shifts in culture, taste or technology",
+   "definition": "Changes in social-cultural trends, customer tastes or technology can spell luck for some firms and disaster for others. For example, technological change gives lucky breaks to small but ambitious firms.",
+   "applies_when": "An account attributes the venture's opportunity to an unforeseen change in trends, customer preferences or technology.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p006:06",
+    "ma2002-d85f40:p005:02",
+    "ma2002-d85f40:p007:01"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    7
+   ],
+   "candidate_id": "ma2002-d85f40:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Regulation or deregulation",
+   "definition": "New government rules or deregulation can unexpectedly create markets or openings for certain firms. Examples are mandatory fire equipment after a fire and bank expansion after deregulation.",
+   "applies_when": "A venture's opportunity arose from an unexpected regulatory change.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p007:11",
+    "ma2002-d85f40:p007:15",
+    "ma2002-d85f40:p005:03"
+   ],
+   "pdf_pages": [
+    5,
+    7
+   ],
+   "candidate_id": "ma2002-d85f40:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Asymmetric information or rival ignorance",
+   "definition": "Private information, or a rival's ignorance and negligence, can open a window of opportunity. An example is a seller not knowing about the IBM deal.",
+   "applies_when": "The person describes benefiting by chance from knowing something others did not, or from a rival's oversight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p005:04",
+    "ma2002-d85f40:p005:10",
+    "ma2002-d85f40:p005:12"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "ma2002-d85f40:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Faltering competitor or dream expediter",
+   "definition": "Luck can arrive when a competitor falters, for example through bankruptcy or the death of a founder. It can also arrive through the unexpected appearance of a badly needed partner, supplier, complementor or talented person.",
+   "applies_when": "An account credits the venture's progress to a competitor's unexpected failure, or to a chance encounter with a key partner or person.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p008:10",
+    "ma2002-d85f40:p008:12",
+    "ma2002-d85f40:p009:03"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "ma2002-d85f40:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Alertness and scanning",
+   "definition": "Being constantly alert, scanning the environment and spotting trends helps a firm recognise chance opportunities and capture windfall gains.",
+   "applies_when": "The person describes habitually watching for opportunities and spotting one when it appeared.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p006:03",
+    "ma2002-d85f40:p007:14",
+    "ma2002-d85f40:p011:14"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    11
+   ],
+   "candidate_id": "ma2002-d85f40:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Quick decisive action on chance",
+   "definition": "Luck favours those in action. Seizing an opportunity quickly and aggressively, with a sense of urgency, turns a chance event into advantage.",
+   "applies_when": "An account describes rapid action on an unexpected opportunity, such as borrowing funds immediately or acting aggressively.",
+   "does_not_apply_when": "The person noticed the opportunity but did not act on it.",
+   "passage_ids": [
+    "ma2002-d85f40:p007:14",
+    "ma2002-d85f40:p008:04",
+    "ma2002-d85f40:p008:05"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "ma2002-d85f40:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Commercialising unintended innovations",
+   "definition": "Accidental discoveries remain 'weeds' until they are channelled toward the right customer markets or activities. Managers must notice them and proactively exploit their commercial potential.",
+   "applies_when": "The person describes taking an accidental invention or discovery and finding a market or use for it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p003:11",
+    "ma2002-d85f40:p003:15",
+    "ma2002-d85f40:p003:16"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "ma2002-d85f40:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Championing and seducing elites",
+   "definition": "Grass-roots initiatives need champions and middle managers who spot them, frame them as future advantage, and win resources and protection from decision-makers.",
+   "applies_when": "An account describes someone sponsoring, protecting or selling a chance-born initiative to gain support and resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p009:06",
+    "ma2002-d85f40:p009:11",
+    "ma2002-d85f40:p010:12"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "ma2002-d85f40:c15"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind and position",
+   "definition": "Whether chance yields advantage depends on the firm's existing position, endowments, capabilities and foresight. Luck favours the prepared mind.",
+   "applies_when": "The person links the ability to benefit from a chance event to prior knowledge, skills or resources already held.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p002:13",
+    "ma2002-d85f40:p003:06",
+    "ma2002-d85f40:p007:04"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    7
+   ],
+   "candidate_id": "ma2002-d85f40:c16"
+  },
+  {
+   "group": "background",
+   "label": "Expert contacts",
+   "definition": "Maintaining active contacts with experts helps firms make sense of events, predict threats and gain from lucky opportunities.",
+   "applies_when": "An account mentions relying on expert networks or contacts to interpret an unexpected event and exploit it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p006:04",
+    "ma2002-d85f40:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "ma2002-d85f40:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Organisational slack",
+   "definition": "A certain level of slack is needed to allow self-initiated actions, experiments and improvisation, from which unexpected gains sometimes come.",
+   "applies_when": "The person mentions having free time, resources or leeway to experiment, which led to an accidental discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p003:07",
+    "ma2002-d85f40:p003:08"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "ma2002-d85f40:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Open-mindedness and tolerance for error",
+   "definition": "Open-mindedness, tolerance for errors and a culture that dares people to experiment and fail make serendipitous gains more likely to be realised.",
+   "applies_when": "An account credits openness to failure or experimentation with enabling an unexpected success.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p003:17",
+    "ma2002-d85f40:p004:09",
+    "ma2002-d85f40:p004:10"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "ma2002-d85f40:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Structure as hotbed of innovation",
+   "definition": "Structures and cultures that encourage autonomous innovation make useful weeds and skunk work more likely. One example is letting a new product become its own division.",
+   "applies_when": "The person describes an organisational setting whose autonomy or structure fostered side initiatives that led to new ventures.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p011:01",
+    "ma2002-d85f40:p011:03",
+    "ma2002-d85f40:p009:16"
+   ],
+   "pdf_pages": [
+    9,
+    11
+   ],
+   "candidate_id": "ma2002-d85f40:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Proactive versus passive posture",
+   "definition": "Some firms wait passively for lucky breaks, while others seek them proactively. A proactive firm is more aware of when it could get lucky and better at exploiting luck. Waiting for luck passively is a disservice.",
+   "applies_when": "An account contrasts actively seeking chance opportunities with simply waiting for them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p001:11",
+    "ma2002-d85f40:p001:12",
+    "ma2002-d85f40:p004:13"
+   ],
+   "pdf_pages": [
+    1,
+    4
+   ],
+   "candidate_id": "ma2002-d85f40:c21"
+  },
+  {
+   "group": "condition",
+   "label": "Overconfidence and complacency",
+   "definition": "Arrogance, ignorance, negligence, overconfidence or complacency in the face of luck reduce the ability to benefit from it. Failing firms are often clueless in times of change rather than unlucky.",
+   "applies_when": "The person describes missing or squandering a chance opportunity through complacency, arrogance or inattention.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p002:10",
+    "ma2002-d85f40:p008:05",
+    "ma2002-d85f40:p011:14"
+   ],
+   "pdf_pages": [
+    2,
+    8,
+    11
+   ],
+   "candidate_id": "ma2002-d85f40:c22"
+  },
+  {
+   "group": "outcome",
+   "label": "Competitive advantage and new products",
+   "definition": "Serendipity can yield competitive advantage in the form of new products, processes, knowledge or capabilities, and sometimes whole new businesses. It can equally result in waste, redundancy and failure.",
+   "applies_when": "An account links a chance event or discovery to a new product, business line or advantage, or to wasted effort.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p003:08",
+    "ma2002-d85f40:p003:10",
+    "ma2002-d85f40:p003:13"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "ma2002-d85f40:c23"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the venture",
+   "definition": "Accidental or skunk-work innovations may not fit the current business scope. They can call for new strategic directions and change the course of the firm.",
+   "applies_when": "A chance discovery or opportunity is described as changing the venture's direction or strategy.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p003:13",
+    "ma2002-d85f40:p009:16",
+    "ma2002-d85f40:p009:07"
+   ],
+   "pdf_pages": [
+    3,
+    9
+   ],
+   "candidate_id": "ma2002-d85f40:c24"
+  },
+  {
+   "group": "account",
+   "label": "Luck as deserved or earned",
+   "definition": "Beneficiaries often believe they deserved their luck. What outsiders see as luck may be the outcome of systematic, visionary effort duly rewarded, so that 'luck is created'.",
+   "applies_when": "The person narrates a lucky outcome as earned or deserved, or as the product of their own effort and vision.",
+   "does_not_apply_when": "The person attributes the outcome purely to chance.",
+   "passage_ids": [
+    "ma2002-d85f40:p004:09",
+    "ma2002-d85f40:p011:13",
+    "ma2002-d85f40:p011:15"
+   ],
+   "pdf_pages": [
+    4,
+    11
+   ],
+   "candidate_id": "ma2002-d85f40:c25"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective reframing as lucky",
+   "definition": "Events can be reinterpreted afterwards as lucky incidents. New Coke, for example, came to be seen as providing lessons and publicity.",
+   "applies_when": "The person reframes a setback or mistake, in hindsight, as a lucky turn.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p007:06",
+    "ma2002-d85f40:p007:07"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "ma2002-d85f40:c26"
+  },
+  {
+   "group": "rival",
+   "label": "Vision and insider knowledge, not chance",
+   "definition": "Luck can be read as vision meeting opportunity. To those who know the behind-the-scenes story, success is never an entirely random process.",
+   "applies_when": "An account suggests that an apparently lucky outcome is better explained by foresight, planning or insider knowledge.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ma2002-d85f40:p006:10",
+    "ma2002-d85f40:p006:11"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "ma2002-d85f40:c27"
+  }
+ ],
+ "removed": []
+}

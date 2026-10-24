@@ -1,0 +1,210 @@
+{
+ "paper_id": "merton2004-7b63d1",
+ "file": "papers/pdf/Merton and Barber - 2004 - A Note on Serendipity in the Humanities.pdf",
+ "about": [
+  "A chapter by Merton and Barber surveying how humanists (collectors, literary scholars, essayists) have interpreted serendipity: as innate trait or gift, as inexplicable faculty, as luck versus merit and hard work, and as a general outlook on life."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Looking for one thing, finding another",
+   "definition": "Serendipity is defined as the faculty of making happy accidental discoveries while searching for something else.",
+   "applies_when": "The account describes setting out to find or do one thing and instead coming upon something valuable that was not sought.",
+   "does_not_apply_when": "The person found exactly what they were looking for. That is a different kind of happy accident, coded separately as unexpectedly locating a sought item.",
+   "passage_ids": [
+    "merton2004-7b63d1:p003:01",
+    "merton2004-7b63d1:p004:01",
+    "merton2004-7b63d1:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "merton2004-7b63d1:c01"
+  },
+  {
+   "group": "type",
+   "label": "Unexpectedly locating a desired item",
+   "definition": "A frequent kind of happy accident among collectors is unexpectedly finding a desired item, or recognizing a valuable item before others do.",
+   "applies_when": "The person reports stumbling on something they already wanted, or spotting value that others had missed.",
+   "does_not_apply_when": "The thing found was not sought at all. That fits the 'looking for one thing, finding another' code.",
+   "passage_ids": [
+    "merton2004-7b63d1:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "merton2004-7b63d1:c02"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as innate gift or trait",
+   "definition": "Discoveries are narrated as the product of a natural personal quality, gift or 'cleverness', comparable to perfect pitch. This framing obscures the person's appreciation of the significance of what they found.",
+   "applies_when": "The person explains a lucky find by saying they have a knack, gift or natural talent for such finds.",
+   "does_not_apply_when": "The person attributes the find to preparation, effort or skill.",
+   "passage_ids": [
+    "merton2004-7b63d1:p003:01",
+    "merton2004-7b63d1:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "merton2004-7b63d1:c03"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as inexplicable sixth sense",
+   "definition": "Serendipity is narrated as a mysterious, extrasensory 'radar', clairvoyance or premonition that cannot be explained. The authors note that people tend to dress up discoveries and forget the misses.",
+   "applies_when": "The person describes an uncanny instinct or sixth sense that led them to an opportunity, and presents it as unexplainable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p003:03",
+    "merton2004-7b63d1:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "merton2004-7b63d1:c04"
+  },
+  {
+   "group": "background",
+   "label": "Prepared knowledge of where to look",
+   "definition": "Making accidental discoveries requires preparation: knowing in a general way where to look and what to look for. This preparedness is less visible when the knowledge is unsystematic.",
+   "applies_when": "The account shows that prior domain knowledge or experience let the person recognize or seek out the unexpected find.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "merton2004-7b63d1:c05"
+  },
+  {
+   "group": "account",
+   "label": "Drama or fun conceals effort",
+   "definition": "The human drama of a lucky find, or the enjoyment of browsing, can hide the knowledge, skill and effort the discovery actually required.",
+   "applies_when": "The narrative emphasizes the excitement or luck of a find while downplaying, or later revealing, the work and expertise behind it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "merton2004-7b63d1:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Persistence and merit over luck",
+   "definition": "Success is explained mainly by persistence, detective skill, scholarship, a network of friendships and fervor, rather than by luck or serendipity.",
+   "applies_when": "The person or the narrator attributes the outcome primarily to persistence, skill or relationships, with luck playing a minor part.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p004:02",
+    "merton2004-7b63d1:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "merton2004-7b63d1:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Curiosity and open mind",
+   "definition": "Minds free of prejudice and driven by lively curiosity, spontaneity, imagination and a sense of adventure are more likely to make unexpected discoveries.",
+   "applies_when": "The account credits curiosity, openness or adventurousness with leading the person to an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p005:01",
+    "merton2004-7b63d1:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "merton2004-7b63d1:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Routine and conventionality inhibit",
+   "definition": "Routine, rigid method and timid, conventional work in a rut suppress serendipity.",
+   "applies_when": "The person describes how routine, rigid procedures or a conventional setting kept them from noticing or pursuing unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "merton2004-7b63d1:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Hard work and active search",
+   "definition": "Serendipity requires travel and labor: one must go out, look about and dig. Good luck does not come without hard work.",
+   "applies_when": "The account links a lucky break to extensive active searching, travel or effort that put the person where it happened.",
+   "does_not_apply_when": "The find came while the person was passive. That fits the inexplicable-gift accounts rather than this code.",
+   "passage_ids": [
+    "merton2004-7b63d1:p005:02",
+    "merton2004-7b63d1:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "merton2004-7b63d1:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Selecting among many clues",
+   "definition": "Searchers face many promising clues and must select which ones to follow. That selection is made uncertainly, and the excitement comes when a guess proves right.",
+   "applies_when": "The person describes choosing which of several leads to pursue, under uncertainty, and following a trail that turned out well.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p006:01",
+    "merton2004-7b63d1:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-7b63d1:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Pure chance and coincidence",
+   "definition": "Chance and unknown causes govern much of life, and people's successes are in large part due to them. People resist admitting this because of vanity or an illusion of control.",
+   "applies_when": "The person attributes outcomes to chance or coincidence beyond their control, or the account reveals reluctance to credit chance for success.",
+   "does_not_apply_when": "Chance combined with the person's recognition or effort fits the definition and mechanism codes.",
+   "passage_ids": [
+    "merton2004-7b63d1:p007:01",
+    "merton2004-7b63d1:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-7b63d1:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Serendipitous mindset reframing difficulties",
+   "definition": "A 'serendipitaceous' mind, prepared for the worst yet optimistic, finds that obstacles are less formidable than feared. Experience then appears as a series of happy accidents, which helps the person overcome difficulties.",
+   "applies_when": "The person describes approaching setbacks expecting the worst but finding that problems turned into opportunities or were not the obstacles they had seemed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7b63d1:p007:02",
+    "merton2004-7b63d1:p007:03",
+    "merton2004-7b63d1:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "merton2004-7b63d1:c13"
+  }
+ ],
+ "removed": []
+}

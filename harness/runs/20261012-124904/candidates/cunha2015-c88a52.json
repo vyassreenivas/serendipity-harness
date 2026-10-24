@@ -1,0 +1,317 @@
+{
+ "paper_id": "cunha2015-c88a52",
+ "file": "papers/pdf/Cunha et al - 2015 - The Dialectics of Serendipity.pdf",
+ "about": [
+  "Re-analyses Honda's entry into the US motorcycle market with alternate templates to argue that organizational serendipity is a dialectical synthesis of preparation and openness to novelty, articulated through generative doubt."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Luck transformed into discovery",
+   "definition": "Serendipity is the accidental discovery of something that, post hoc, turns out to be valuable; luck becomes serendipity only when it is framed as opportunity and turned into practical action.",
+   "applies_when": "An account describes an accidental or unplanned event that the person framed as an opportunity and acted on, producing something valuable.",
+   "does_not_apply_when": "Luck that is noticed but not framed as opportunity or acted upon; the authors say such luck 'amounts to nothing useful'.",
+   "passage_ids": [
+    "cunha2015-c88a52:p002:01",
+    "cunha2015-c88a52:p002:04",
+    "cunha2015-c88a52:p008:04"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Framing the unexpected as opportunity",
+   "definition": "It is the way an event is framed, recognizing and accepting an unexpected observation as an opportunity, that turns it into serendipity.",
+   "applies_when": "The person describes interpreting a surprise or anomaly as a potential opportunity rather than a distraction or error.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p002:01",
+    "cunha2015-c88a52:p005:05",
+    "cunha2015-c88a52:p008:04"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Generative doubt",
+   "definition": "Purposeful search for understanding stimulated by recognizing the limits of existing understanding; doubt that questions assumptions and routines and revises schemas, linking preparation and openness.",
+   "applies_when": "The person acknowledges not knowing (e.g., 'we were in the dark') and uses that uncertainty to question assumptions, revise plans, or seek new understanding.",
+   "does_not_apply_when": "Paralyzing uncertainty or doubt that leads to inaction rather than search and learning.",
+   "passage_ids": [
+    "cunha2015-c88a52:p002:03",
+    "cunha2015-c88a52:p005:04",
+    "cunha2015-c88a52:p007:06"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    7
+   ],
+   "candidate_id": "cunha2015-c88a52:c03"
+  },
+  {
+   "group": "background",
+   "label": "Preparation and deep competence",
+   "definition": "Accumulated expertise, plans and routines in a focused domain allow people to perceive and assimilate the unexpected when it emerges; chance favors the prepared mind.",
+   "applies_when": "The account credits deep prior expertise, familiarity with a market or technology, or existing plans as what enabled noticing or exploiting an unexpected opportunity.",
+   "does_not_apply_when": "Deliberately seeking out novelty or new territory, which the authors treat as the separate openness perspective.",
+   "passage_ids": [
+    "cunha2015-c88a52:p002:05",
+    "cunha2015-c88a52:p002:06",
+    "cunha2015-c88a52:p005:06"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "cunha2015-c88a52:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Openness and exposure to novelty",
+   "definition": "Deliberately exposing oneself to novelty—exploring new territories, challenging assumptions, adjusting incrementally to unfolding events—to create chances for serendipitous discovery.",
+   "applies_when": "The person describes actively exploring, experimenting, or entering unfamiliar settings and adapting to what they found there.",
+   "does_not_apply_when": "Opportunities found by deepening an existing core competence (preparation).",
+   "passage_ids": [
+    "cunha2015-c88a52:p003:01",
+    "cunha2015-c88a52:p006:02",
+    "cunha2015-c88a52:p007:06"
+   ],
+   "pdf_pages": [
+    3,
+    6,
+    7
+   ],
+   "candidate_id": "cunha2015-c88a52:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Filtering opportunities by plans",
+   "definition": "Existing plans and strategic intentions act as a filter that situates chance events inside or outside the scope of opportunity, so that not every opportunity is treated as relevant.",
+   "applies_when": "The person describes dismissing or selecting unexpected opportunities by checking them against their goals, plans or core competence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p006:06",
+    "cunha2015-c88a52:p005:05",
+    "cunha2015-c88a52:p008:02"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Peripheral vision and local adjustment",
+   "definition": "The capacity to discern unfolding changes and tackle them locally, moving information from frontline observations up and back, rather than relying on central plans.",
+   "applies_when": "Frontline or field actors notice local unexpected developments and respond on the spot, sometimes deviating from headquarters' strategy.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p006:02",
+    "cunha2015-c88a52:p006:03",
+    "cunha2015-c88a52:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cunha2015-c88a52:c07"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting strategy at bifurcation points",
+   "definition": "Serendipitous encounters are potential juncture points—strategic bifurcations that push strategizing in unexpected directions and stretch or renew strategy; small events can trigger large changes.",
+   "applies_when": "An unexpected event leads the venture to change direction, product, market or strategy.",
+   "does_not_apply_when": "Minor curiosities that do not alter course.",
+   "passage_ids": [
+    "cunha2015-c88a52:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cunha2015-c88a52:c08"
+  },
+  {
+   "group": "outcome",
+   "label": "Revealing hidden opportunities and threats",
+   "definition": "Serendipity reveals valuable resources and opportunities where none apparently existed and exposes threats incubating at the periphery of attention.",
+   "applies_when": "An account reports that a chance event uncovered a new resource, market, product idea, or a looming threat.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "cunha2015-c88a52:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Unplanned competences built on existing ones",
+   "definition": "Combining preparation and openness updates competences, allowing construction of unplanned competences on top of existing ones and turning unexpected deviations into the action repertoire.",
+   "applies_when": "The person describes how an unexpected discovery added new capabilities or routines to what they already did well.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p006:04",
+    "cunha2015-c88a52:p007:06",
+    "cunha2015-c88a52:p008:05"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Too much preparation: rigidity",
+   "definition": "Excessive focus on core competence and a priori predictions turns competences into rigidities and impedes attention to fortuitous opportunities.",
+   "applies_when": "The person describes ignoring or dismissing unexpected possibilities because of strong commitment to the plan or existing technology.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p002:07",
+    "cunha2015-c88a52:p006:01",
+    "cunha2015-c88a52:p008:06"
+   ],
+   "pdf_pages": [
+    2,
+    6,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Too much openness: drift",
+   "definition": "Embracing novelty without focus risks drifting from opportunity to opportunity, investing in options without cumulative potential and making it hard to tell happenstance from opportunity.",
+   "applies_when": "The person describes chasing many unexpected opportunities without a guiding focus, scattering resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p003:03",
+    "cunha2015-c88a52:p008:06"
+   ],
+   "pdf_pages": [
+    3,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Organizational context favoring serendipity",
+   "definition": "Prospective/innovation strategies, organic designs giving members initiative, cultures letting employees act as change agents, legitimated doubt, and spaces encouraging chance encounters make serendipity more likely.",
+   "applies_when": "The account mentions autonomy, initiative, frontline empowerment, tolerance of doubt and failure, or physical settings fostering chance encounters as enabling discoveries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p003:01",
+    "cunha2015-c88a52:p003:02",
+    "cunha2015-c88a52:p008:03"
+   ],
+   "pdf_pages": [
+    3,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Awareness of the bigger picture",
+   "definition": "When people understand the broader organizational direction, their local observations of unexpected events can be framed as serendipitous discoveries and acted on.",
+   "applies_when": "The person links recognizing an unexpected event's value to their understanding of the venture's overall goals.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p008:05",
+    "cunha2015-c88a52:p002:04"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate planning explanation",
+   "definition": "Success can alternatively be explained as the result of calculated decisions and carefully cultivated competitive advantages (e.g., economies of scale), discounting serendipity.",
+   "applies_when": "Outcomes are attributed to premeditated strategy and planned advantages rather than chance discoveries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p003:07",
+    "cunha2015-c88a52:p004:01",
+    "cunha2015-c88a52:p005:06"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    5
+   ],
+   "candidate_id": "cunha2015-c88a52:c15"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective streamlined narratives",
+   "definition": "Accounts differ: analytical retrospective versions streamline events into deliberate strategy, while insiders' accounts highlight miscalculation, serendipity and learning; what matters may overshadow what really happened.",
+   "applies_when": "A narrator either rationalizes events as planned or foregrounds mistakes, surprises and luck when telling the story afterwards.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p004:01",
+    "cunha2015-c88a52:p004:03",
+    "cunha2015-c88a52:p003:06"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "cunha2015-c88a52:c16"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as effort, not mystery",
+   "definition": "The authors contest the view of serendipity as a mysterious, pure-luck discovery, presenting it as a practical accomplishment and effortful process.",
+   "applies_when": "A person describes a lucky break either as pure mystery/luck or emphasizes the effort and readiness behind it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p001:02",
+    "cunha2015-c88a52:p005:05",
+    "cunha2015-c88a52:p008:06"
+   ],
+   "pdf_pages": [
+    1,
+    5,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Zemblanity: negative unexpected outcomes",
+   "definition": "The opposite of serendipity, where unexpected events lead to negative outcomes; mentioned as a possibility the study did not address.",
+   "applies_when": "An unexpected event leads to harmful or unwelcome consequences for the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2015-c88a52:p008:01",
+    "cunha2015-c88a52:p007:05"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "cunha2015-c88a52:c18"
+  }
+ ],
+ "removed": []
+}

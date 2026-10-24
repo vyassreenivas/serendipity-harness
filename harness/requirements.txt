@@ -1,0 +1,4 @@
+pypdf==6.9.2
+# Needed only for the stages that call a model (toy).
+anthropic==0.86.0
+pydantic>=2

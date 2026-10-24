@@ -1,0 +1,446 @@
+{
+ "paper_id": "wareham2022-c310ad",
+ "file": "papers/pdf/Wareham et al - 2022 - Systematizing Serendipity for Big Science Infrastructures.pdf",
+ "about": [
+  "The paper studies ATTRACT, an EU program funding 170 proof-of-concept projects, to identify how big-science researchers serendipitously find alternative commercial applications of their technologies (combining technologies, applying to another field, using AI/ML) and which antecedents and program features enable these modes."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unanticipated beneficial discovery",
+   "definition": "Serendipity is the unanticipated discovery of something beneficial, specifically technologies finding applications outside their original intended use.",
+   "applies_when": "Account describes a technology or finding turning out to be useful for something it was not originally meant for, and this was not anticipated.",
+   "does_not_apply_when": "The use was the planned target from the outset (pseudo-serendipity) or is a routine extension of existing research.",
+   "passage_ids": [
+    "wareham2022-c310ad:p002:04",
+    "wareham2022-c310ad:p001:03"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "wareham2022-c310ad:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity combines accident with sagacity (a prepared mind, perception and sound judgment); in entrepreneurship, directed search, favourable accidents and prior knowledge. It is a capability requiring focused attention, not mere luck.",
+   "applies_when": "Account shows a chance event paired with the person's perception, judgment or prior knowledge that let them recognize its value.",
+   "does_not_apply_when": "The person attributes the outcome purely to luck with no role for their own attention or knowledge.",
+   "passage_ids": [
+    "wareham2022-c310ad:p002:04"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "wareham2022-c310ad:c02"
+  },
+  {
+   "group": "type",
+   "label": "Pseudo-serendipity vs serendipity",
+   "definition": "de Rond distinguishes pseudo-serendipity, where the solution was intended in the first place, from serendipity proper, where the solution is completely unanticipated or accidental.",
+   "applies_when": "Account indicates whether the person was looking for the solution they found (pseudo) or found something wholly unanticipated (serendipity).",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p002:05",
+    "wareham2022-c310ad:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "wareham2022-c310ad:c03"
+  },
+  {
+   "group": "type",
+   "label": "Exaptation: franklins and miltons",
+   "definition": "Exaptation is the emergence of unanticipated functionalities; franklins are existing structures co-opted for an unintended use, miltons are discoveries without a currently known function that may later be co-opted.",
+   "applies_when": "Account describes repurposing an existing tool/technology for a new role (franklin) or holding a discovery with no known use that later finds one (milton).",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "wareham2022-c310ad:c04"
+  },
+  {
+   "group": "type",
+   "label": "Yaqub's four archetypes",
+   "definition": "Walpolian (targeted search yields a solution to a different problem), Mertonian (targeted problem solved via unexpected route), Bushian (untargeted exploration solves a known problem), Stephanian (untargeted research yields an unsought solution with later application).",
+   "applies_when": "Account allows classification by whether the inquiry was targeted and whether the solution addressed the original, a different, or a future problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "wareham2022-c310ad:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Combining different technologies",
+   "definition": "Technologies or knowledge from different (adjacent or distant) domains are combined, integrated or assembled to produce a new application, from assembling off-the-shelf components to merging disjoint disciplines.",
+   "applies_when": "Account describes creating a new application by merging technologies or knowledge from different fields or assembling existing components.",
+   "does_not_apply_when": "A single technology is simply moved into a new field without combination (applying to another field), or improved within its own domain.",
+   "passage_ids": [
+    "wareham2022-c310ad:p006:02",
+    "wareham2022-c310ad:p007:02"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "wareham2022-c310ad:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Applying technology to another field",
+   "definition": "Technology or knowledge from one domain is used in a new research domain or application area, exposing it to a field where new use cases emerge; closest to classic notions of finding new uses for existing things.",
+   "applies_when": "Account describes taking an existing technology into a field it had not been used in to find a new use.",
+   "does_not_apply_when": "The technology is extended within its original domain (baseline extension).",
+   "passage_ids": [
+    "wareham2022-c310ad:p006:03",
+    "wareham2022-c310ad:p007:03"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "wareham2022-c310ad:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Using AI or machine learning",
+   "definition": "Computational advances in AI/ML are used to extend or find new uses for existing technologies, e.g., extracting patterns from sensor data; in the sample mostly to improve efficacy rather than discover new applications.",
+   "applies_when": "Account describes applying AI/ML to existing technology or data to create new capability or use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p006:03",
+    "wareham2022-c310ad:p007:03",
+    "wareham2022-c310ad:p013:06"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c08"
+  },
+  {
+   "group": "rival",
+   "label": "Extending extant research",
+   "definition": "Improving existing technologies to be more effective or efficient within the same domain is normal research advancement, not serendipity.",
+   "applies_when": "Account describes making a technology more powerful/efficient or operable in harsher conditions while staying in the same application area.",
+   "does_not_apply_when": "The technology is moved to a new field or combined with others for a new application.",
+   "passage_ids": [
+    "wareham2022-c310ad:p006:03",
+    "wareham2022-c310ad:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "wareham2022-c310ad:c09"
+  },
+  {
+   "group": "rival",
+   "label": "Methodical problem-solving",
+   "definition": "Some projects started from identifying a problem and methodically working to resolve it, contrasting with burst-like surprise insight.",
+   "applies_when": "Account describes the venture idea originating from a deliberately identified need pursued through systematic effort.",
+   "does_not_apply_when": "The idea arose from a surprise insight or anomaly.",
+   "passage_ids": [
+    "wareham2022-c310ad:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "wareham2022-c310ad:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Surprise personal insight",
+   "definition": "Consistent with traditional notions, some ideas originated from a surprise personal insight (21% of projects).",
+   "applies_when": "Account describes a sudden unexpected realization as the origin of the idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "wareham2022-c310ad:c11"
+  },
+  {
+   "group": "trigger",
+   "label": "Anomalies in research",
+   "definition": "Ideas came from anomalies or unclear results in ongoing or previous research that needed revisiting.",
+   "applies_when": "Account describes an unexpected or unclear result prompting the idea for a new application.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p009:02",
+    "wareham2022-c310ad:p012:07"
+   ],
+   "pdf_pages": [
+    9,
+    12
+   ],
+   "candidate_id": "wareham2022-c310ad:c12"
+  },
+  {
+   "group": "trigger",
+   "label": "Environmental cue in process model",
+   "definition": "In McCay-Peet and Toms' process, a trigger (environmental cue sparking interest) is connected to prior knowledge, followed up to a valuable outcome, with surprise noticed afterwards.",
+   "applies_when": "Account describes a cue that caught attention, was linked to the person's experience, and was then followed up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p003:03",
+    "wareham2022-c310ad:p003:04"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "wareham2022-c310ad:c13"
+  },
+  {
+   "group": "background",
+   "label": "Ideas from day-to-day work",
+   "definition": "Scientists and engineers develop many ideas about novel applications in their daily work, mostly as extensions of their research; most had the idea before the funding call.",
+   "applies_when": "Account traces the venture idea to the person's routine work and research activity before any formal program.",
+   "does_not_apply_when": "The idea was sparked by an external call or program (activated ideas).",
+   "passage_ids": [
+    "wareham2022-c310ad:p007:06",
+    "wareham2022-c310ad:p013:01",
+    "wareham2022-c310ad:p009:02"
+   ],
+   "pdf_pages": [
+    7,
+    9,
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c14"
+  },
+  {
+   "group": "background",
+   "label": "Prior relationships with partners",
+   "definition": "Most teams knew their partners and had collaborated before; pre-existing relationships between infrastructures and industrial suppliers were leveraged.",
+   "applies_when": "Account mentions pre-existing collaborators or supplier ties forming the basis of the venture team.",
+   "does_not_apply_when": "Partners met for the first time through the program.",
+   "passage_ids": [
+    "wareham2022-c310ad:p008:01",
+    "wareham2022-c310ad:p004:07"
+   ],
+   "pdf_pages": [
+    4,
+    8
+   ],
+   "candidate_id": "wareham2022-c310ad:c15"
+  },
+  {
+   "group": "background",
+   "label": "De-risked deep technology",
+   "definition": "Technologies from big-science infrastructures are already developed and operated at scale, making them de-risked, yet they are specialized, interdependent enabling technologies far from markets whose alternate applications are less apparent.",
+   "applies_when": "Account draws on sophisticated pre-existing infrastructure technology as the basis for a new application, or notes difficulty seeing its applications.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p004:07",
+    "wareham2022-c310ad:p013:05",
+    "wareham2022-c310ad:p013:06"
+   ],
+   "pdf_pages": [
+    4,
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Organizational enablers of serendipity",
+   "definition": "Prior literature lists conditions conducive to serendipity: boundary spanning, mindfulness, social networks, teamwork, free space for creativity, play with ideas, and structures like databases, fairs and workshops.",
+   "applies_when": "Account mentions such settings or practices as enabling the unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "wareham2022-c310ad:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Individual serendipity strategies",
+   "definition": "Actionable strategies: varying routines, being observant, making mental space, relaxing boundaries, drawing on experience, seeking patterns, seizing opportunities; examining deviations, tolerating errors, leveraging networks.",
+   "applies_when": "Account describes the person deliberately doing such things that made a lucky find more likely.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p003:04"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "wareham2022-c310ad:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Social interactions and networks",
+   "definition": "Social relations with a wide range of actors increase chances of unexpected encounters; the program required multi-organization collaboration to promote serendipitous interactions.",
+   "applies_when": "Account credits interactions with diverse partners or networks for the idea or its development.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p013:02",
+    "wareham2022-c310ad:p007:04"
+   ],
+   "pdf_pages": [
+    7,
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Geographic proximity",
+   "definition": "Projects involving more countries were less likely to combine technologies or apply them to another field, likely due to coordination costs; colocation enables close iteration.",
+   "applies_when": "Account notes that nearby partners eased (or distant ones hindered) combining or transferring technologies.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p012:01",
+    "wareham2022-c310ad:p012:03",
+    "wareham2022-c310ad:p013:02"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Perceived unfundability",
+   "definition": "Teams pursuing combination or cross-field application often had not sought funding before, apparently believing such serendipitous ideas would not be fundable; without dedicated instruments they might cease to exist.",
+   "applies_when": "Account describes holding back from seeking funding because the unconventional idea seemed unlikely to be funded.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p012:03",
+    "wareham2022-c310ad:p012:05"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "wareham2022-c310ad:c21"
+  },
+  {
+   "group": "condition",
+   "label": "Cross-field applicable technology",
+   "definition": "Data acquisition and computing techniques are unbound to specific artifacts, increasing cross-field applicability and positively relating to all modes.",
+   "applies_when": "Account involves generic data/computing technology that was easily transferred to new uses.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "wareham2022-c310ad:c22"
+  },
+  {
+   "group": "condition",
+   "label": "Science-business tensions",
+   "definition": "Cultures antagonistic to commercialization, long scientific timescales versus short venture capital horizons, and deep-tech capital needs hinder pursuing alternate applications.",
+   "applies_when": "Account mentions cultural reluctance to commercialize, mismatch of timelines, or investor impatience as obstacles.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p004:04",
+    "wareham2022-c310ad:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    4
+   ],
+   "candidate_id": "wareham2022-c310ad:c23"
+  },
+  {
+   "group": "role",
+   "label": "Funding advances existing ideas",
+   "definition": "The program's main value was not sparking new ideas but providing resources, timely support and industrial brokering to move pre-existing ideas toward proof of concept; a few ideas were 'activated' by the call.",
+   "applies_when": "Account describes external funding or programs enabling development of an already-held idea, or a call prompting an idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p007:06",
+    "wareham2022-c310ad:p014:01",
+    "wareham2022-c310ad:p013:03"
+   ],
+   "pdf_pages": [
+    7,
+    13,
+    14
+   ],
+   "candidate_id": "wareham2022-c310ad:c24"
+  },
+  {
+   "group": "role",
+   "label": "Brokering industrial partners",
+   "definition": "Relationships with industrial partners providing complementary skills for later product development and commercialization were most important for taking technologies outside their original domain.",
+   "applies_when": "Account highlights industry partners brokered or brought in to help commercialize the new application.",
+   "does_not_apply_when": "Relationships among scientists for idea generation.",
+   "passage_ids": [
+    "wareham2022-c310ad:p013:03",
+    "wareham2022-c310ad:p013:04"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c25"
+  },
+  {
+   "group": "role",
+   "label": "Funding enables new research lines",
+   "definition": "Funding allowed teams to pursue lines they otherwise would not, such as integrating AI, a mode teams had the luxury of following only due to funding.",
+   "applies_when": "Account says resources allowed exploration of an unplanned direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p012:07"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "wareham2022-c310ad:c26"
+  },
+  {
+   "group": "account",
+   "label": "Protracted process not flash insight",
+   "definition": "Serendipity here departs from a romanticized flash-insight ideal and resembles a protracted, partially controlled process of systematic exploration under high uncertainty.",
+   "applies_when": "Account narrates the discovery as a long, effortful exploration across options rather than a single eureka moment.",
+   "does_not_apply_when": "Account narrates a sudden surprise insight.",
+   "passage_ids": [
+    "wareham2022-c310ad:p013:05"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "wareham2022-c310ad:c27"
+  },
+  {
+   "group": "account",
+   "label": "Ex post characterization",
+   "definition": "Typologies of serendipity mostly characterize unexpected outcomes after they occur, with researchers narrating in proposals how they came up with new applications.",
+   "applies_when": "Account retrospectively frames how an unexpected application came about.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "wareham2022-c310ad:p003:02",
+    "wareham2022-c310ad:p006:02"
+   ],
+   "pdf_pages": [
+    3,
+    6
+   ],
+   "candidate_id": "wareham2022-c310ad:c28"
+  }
+ ],
+ "removed": []
+}

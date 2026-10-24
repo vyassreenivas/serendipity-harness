@@ -1,0 +1,402 @@
+{
+ "paper_id": "trott2024-e8e576",
+ "file": "papers/pdf/Trott et al - 2024 - How Cognitive Bias Prevents Serendipity in New Product Development.pdf",
+ "about": [
+  "A conceptual paper proposing a process model of serendipity in new product development (unexpected result, noticing, association, organizational action) and arguing that cognitive biases hinder serendipity, so NPD tasks should be debiased to enable it."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Serendipity as complete process",
+   "definition": "Serendipity has only taken place once an unexpected event is noticed, associated with something to create new value, and acted on organizationally; the unexpected observation alone is not serendipity.",
+   "applies_when": "An account describes an unexpected occurrence that was noticed, connected to a new use or meaning, and then acted on.",
+   "does_not_apply_when": "An unexpected event occurred but was not noticed, linked or acted on; that is only a potential serendipitous event.",
+   "passage_ids": [
+    "trott2024-e8e576:p004:01",
+    "trott2024-e8e576:p008:01"
+   ],
+   "pdf_pages": [
+    4,
+    8
+   ],
+   "candidate_id": "trott2024-e8e576:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as purposeful, not luck",
+   "definition": "Although commonly treated as luck or good fortune because outcomes are unplanned, serendipity is better seen as resulting from purposeful actions.",
+   "applies_when": "The person frames a surprising valuable discovery as arising from their own actions or search rather than pure luck.",
+   "does_not_apply_when": "The person attributes the outcome solely to good fortune with no action involved (the lay luck view the authors contest).",
+   "passage_ids": [
+    "trott2024-e8e576:p001:04",
+    "trott2024-e8e576:p003:01"
+   ],
+   "pdf_pages": [
+    1,
+    3
+   ],
+   "candidate_id": "trott2024-e8e576:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected result of action",
+   "definition": "An NPD action yields a result of an unexpected type, which represents a potential serendipitous event, in contrast to expected results that drive conventional progress.",
+   "applies_when": "An account describes a test, experiment or action producing a result different in kind from what was expected.",
+   "does_not_apply_when": "The result's details were unknown but its type was as expected; this is conventional progress.",
+   "passage_ids": [
+    "trott2024-e8e576:p004:01"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "trott2024-e8e576:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Anomaly inconsistent with theory",
+   "definition": "Serendipitous events are noticed because the observation is incongruent with theoretical predictions, expectations or established facts (theory-led serendipity).",
+   "applies_when": "The person noticed something because it contradicted what they expected or believed should happen.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:04",
+    "trott2024-e8e576:p002:05"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "trott2024-e8e576:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Errors and accidents",
+   "definition": "Loosely directed work lets errors creep in that turn out to be a source of serendipity (error-borne serendipity, happy accidents, intelligent mistakes).",
+   "applies_when": "A mistake, accident or sloppy experiment produced the surprising valuable finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:04",
+    "trott2024-e8e576:p005:01"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "trott2024-e8e576:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Weak external signals",
+   "definition": "Subtle, weak signals from outside are critical for serendipity; early detection and amplification of them increases its likelihood.",
+   "applies_when": "The account describes picking up a faint or subtle signal from the market or environment that later mattered.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p009:01",
+    "trott2024-e8e576:p008:05",
+    "trott2024-e8e576:p006:03"
+   ],
+   "pdf_pages": [
+    6,
+    8,
+    9
+   ],
+   "candidate_id": "trott2024-e8e576:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing",
+   "definition": "Perceiving and attending to the unexpected event; a key activity of serendipity that cognitive biases can block.",
+   "applies_when": "The person describes the moment they registered or paid attention to something surprising.",
+   "does_not_apply_when": "Making sense of or connecting the event to a use is association, not noticing.",
+   "passage_ids": [
+    "trott2024-e8e576:p002:01",
+    "trott2024-e8e576:p007:02"
+   ],
+   "pdf_pages": [
+    2,
+    7
+   ],
+   "candidate_id": "trott2024-e8e576:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Novel association",
+   "definition": "Making a new connection that infers a meaningful relation or new value from the unexpected event, e.g., recombining disparate observations in 'combinatorial play'.",
+   "applies_when": "The person links the surprising observation to another idea, need or use to see new value.",
+   "does_not_apply_when": "Merely registering the event without connecting it to new value is noticing.",
+   "passage_ids": [
+    "trott2024-e8e576:p002:01",
+    "trott2024-e8e576:p002:03",
+    "trott2024-e8e576:p009:02"
+   ],
+   "pdf_pages": [
+    2,
+    9
+   ],
+   "candidate_id": "trott2024-e8e576:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Organizational action on finding",
+   "definition": "The final step: the team or organization acts on the associated unexpected finding, e.g., keeping anomalous results alive through further analysis or experimentation.",
+   "applies_when": "The account shows the team pursuing, testing or developing the unexpected finding further.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p004:01",
+    "trott2024-e8e576:p008:05"
+   ],
+   "pdf_pages": [
+    4,
+    8
+   ],
+   "candidate_id": "trott2024-e8e576:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Intentional observation 'eyes wide open'",
+   "definition": "Serendipity as a practice relying on intentional observation, discovering while looking for something with eyes wide open; linked to organizational improvisation in new ventures.",
+   "applies_when": "The person describes actively searching or improvising while staying open to whatever came up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:05"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "trott2024-e8e576:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Experimenting with incomplete knowledge",
+   "definition": "Taking action with incomplete knowledge (intelligent mistakes) to raise the chance of unexpected results, followed by expert review of what arises.",
+   "applies_when": "The person deliberately tried things without full knowledge and then carefully examined surprising outcomes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p005:01",
+    "trott2024-e8e576:p009:01"
+   ],
+   "pdf_pages": [
+    5,
+    9
+   ],
+   "candidate_id": "trott2024-e8e576:c11"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind / deep knowledge and curiosity",
+   "definition": "Recognizing anomalies requires deep knowledge to understand and explain them and curiosity to make sense of them; without a prepared mind the opportunity is missed. The authors problematize this as insufficient given cognitive biases.",
+   "applies_when": "The person's expertise, training or curiosity let them interpret a surprising event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:05",
+    "trott2024-e8e576:p002:06",
+    "trott2024-e8e576:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "trott2024-e8e576:c12"
+  },
+  {
+   "group": "background",
+   "label": "Network position",
+   "definition": "Network-emergent serendipity arises from a person's position within a collaborative network.",
+   "applies_when": "The unexpected input came through the person's place in a network of collaborators.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:04"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "trott2024-e8e576:c13"
+  },
+  {
+   "group": "background",
+   "label": "Individual perceptual variation",
+   "definition": "Observer-led serendipity: events are noticed because of natural variation in individual perceptions and biases.",
+   "applies_when": "The person noticed something others missed because of their particular way of seeing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:04"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "trott2024-e8e576:c14"
+  },
+  {
+   "group": "role",
+   "label": "Contributes to radical innovation",
+   "definition": "Serendipity is a likely contributor to radical new product development and breakthroughs.",
+   "applies_when": "An unexpected discovery led to a fundamentally new product or direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p001:04",
+    "trott2024-e8e576:p008:04"
+   ],
+   "pdf_pages": [
+    1,
+    8
+   ],
+   "candidate_id": "trott2024-e8e576:c15"
+  },
+  {
+   "group": "role",
+   "label": "Opportunity recognition",
+   "definition": "Serendipity is related to opportunity seeking and recognition and can emerge from complexity, uncertainty and emergent market opportunities.",
+   "applies_when": "The account ties an unexpected event to recognizing a new business opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p008:04"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "trott2024-e8e576:c16"
+  },
+  {
+   "group": "outcome",
+   "label": "New venture performance",
+   "definition": "Serendipity is a key mechanism through which organizational improvisation positively relates to new venture performance.",
+   "applies_when": "The person links unexpected discoveries to improved venture results.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:05"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "trott2024-e8e576:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Missed serendipity",
+   "definition": "Many serendipitous results are missed because signals were weak and biases prevented noticing and association; unexpected finds can be ignored or dismissed.",
+   "applies_when": "The person describes an unexpected signal or finding that was overlooked, ignored or dismissed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p008:05",
+    "trott2024-e8e576:p009:02"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "trott2024-e8e576:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Overconfidence / no search",
+   "definition": "Action-oriented biases like overconfidence end search early; unexpected results are less likely noticed when actions lack deliberate search for new information.",
+   "applies_when": "Confidence in a current plan led people not to look for or heed new information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p005:02",
+    "trott2024-e8e576:p005:04"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "trott2024-e8e576:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Anchoring to original concept",
+   "definition": "Stability biases (anchoring, need for closure) make people persevere with familiar options; novel association is less likely if new information outside the original specification is not evaluated.",
+   "applies_when": "People stuck to initial estimates or specifications and disregarded information beyond them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p005:04",
+    "trott2024-e8e576:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "trott2024-e8e576:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Fixed evaluation criteria / inattentional blindness",
+   "definition": "Narrow focused attention causes failure to notice subtle signals; noticing is less likely when evaluation criteria are fixed in advance.",
+   "applies_when": "Tight focus or predetermined criteria meant something unexpected went unseen.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p006:02",
+    "trott2024-e8e576:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "trott2024-e8e576:c21"
+  },
+  {
+   "group": "condition",
+   "label": "Team homogeneity vs diversity",
+   "definition": "Pattern-recognition biases toward the familiar reduce novel association when team members share similar past experiences; team diversity raises the likelihood of association.",
+   "applies_when": "The account mentions team similarity or diverse perspectives affecting whether new connections were made.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p006:06",
+    "trott2024-e8e576:p009:03"
+   ],
+   "pdf_pages": [
+    6,
+    9
+   ],
+   "candidate_id": "trott2024-e8e576:c22"
+  },
+  {
+   "group": "condition",
+   "label": "Unchallenged assumptions",
+   "definition": "Confirmation bias, amplified by clear goals, reduces novel association when current assumptions about the concept are not challenged.",
+   "applies_when": "People favored evidence fitting their beliefs or goals, or conversely actively challenged assumptions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p006:06",
+    "trott2024-e8e576:p007:01",
+    "trott2024-e8e576:p007:02"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "trott2024-e8e576:c23"
+  },
+  {
+   "group": "condition",
+   "label": "Permission to pursue anomalies",
+   "definition": "Debiasing tasks and giving teams a remit to seek anomalous results and keep them alive, within a governance framework that tolerates intelligent mistakes and failure, enables serendipity; rigid rational stage-gate management hinders it.",
+   "applies_when": "The organization allowed or forbade exploration of anomalies, tolerated failure, or imposed rigid processes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p008:05",
+    "trott2024-e8e576:p009:01",
+    "trott2024-e8e576:p008:04"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "trott2024-e8e576:c24"
+  },
+  {
+   "group": "condition",
+   "label": "More unexpected events not sufficient",
+   "definition": "The authors challenge the idea that increasing unexpected occurrences alone leads to serendipity; noticing and association must also occur.",
+   "applies_when": "An account shows many chance encounters or exposures yielding nothing because they were not noticed or connected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "trott2024-e8e576:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "trott2024-e8e576:c25"
+  }
+ ],
+ "removed": []
+}

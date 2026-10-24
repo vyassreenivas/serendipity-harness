@@ -1,0 +1,346 @@
+{
+ "paper_id": "austin2012-0c5916",
+ "file": "papers/pdf/Austin - 2012 - Accidental Innovation Supporting Valuable Unpredictability in the Creative Process.pdf",
+ "about": [
+  "A grounded-theory study of 20 makers (artists and business teams) examining when and how innovators stay open to, rely on, and deliberately induce accidents to obtain valuable unpredictable outcomes, and what this implies for designing digital systems."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident as outcome outside intention",
+   "definition": "An accident is an outcome that breaks from intention and accepted chains of logic, falling outside the cone of possibilities the maker foresaw from an action.",
+   "applies_when": "Person describes acting while expecting one result and getting something else they had not anticipated and could not have predicted.",
+   "does_not_apply_when": "The result was within what the person expected or planned, even if it was valuable.",
+   "passage_ids": [
+    "austin2012-0c5916:p014:01",
+    "austin2012-0c5916:p014:02",
+    "austin2012-0c5916:p017:04"
+   ],
+   "pdf_pages": [
+    14,
+    17
+   ],
+   "candidate_id": "austin2012-0c5916:c01"
+  },
+  {
+   "group": "type",
+   "label": "Intentional accident",
+   "definition": "A maker deliberately sets in motion events expected to produce outcomes not predictable in detail; it is intentional because arranged, and accidental because results cannot be controlled or anticipated.",
+   "applies_when": "Person describes deliberately creating conditions (randomness, pushing to extremes, crises) so that something unforeseen will turn up.",
+   "does_not_apply_when": "The unexpected event simply happened to the person without them arranging conditions for it.",
+   "passage_ids": [
+    "austin2012-0c5916:p010:03",
+    "austin2012-0c5916:p007:05",
+    "austin2012-0c5916:p015:05"
+   ],
+   "pdf_pages": [
+    7,
+    10,
+    15
+   ],
+   "candidate_id": "austin2012-0c5916:c02"
+  },
+  {
+   "group": "type",
+   "label": "Collaborative serendipity",
+   "definition": "Accidents arising when team members or parties juxtapose very different ideas or trajectories of action and discover unexpected synergies.",
+   "applies_when": "Account describes an unexpected valuable idea emerging from combining different people's contributions or crossing paths in collaboration.",
+   "does_not_apply_when": "The unexpected find came from an individual's own work or search alone.",
+   "passage_ids": [
+    "austin2012-0c5916:p014:05",
+    "austin2012-0c5916:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "austin2012-0c5916:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Incorporating accidents into ongoing action",
+   "definition": "Makers open to accident notice unplanned variation and fold accidental outcomes into their intentional actions going forward.",
+   "applies_when": "Person describes noticing something unplanned and choosing to build on it rather than correct it.",
+   "does_not_apply_when": "Unplanned variation is treated as an error to eliminate.",
+   "passage_ids": [
+    "austin2012-0c5916:p004:04",
+    "austin2012-0c5916:p006:05"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "austin2012-0c5916:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Pushing to extremes / try-storming",
+   "definition": "Deliberately going further than normal or generating many radical alternatives (e.g., seven ways to solve a problem) to surface unexpected valuable results.",
+   "applies_when": "Person describes forcing extra options, experimenting with crazy ideas, or overshooting usual settings and stumbling on something good.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "austin2012-0c5916:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seeking crises or problems",
+   "definition": "Makers put themselves into situations of accident, crisis or problem to counter the loss of innovativeness that comes with mastery and to avoid becoming established.",
+   "applies_when": "Person describes welcoming or creating crises or difficult situations as a source of new direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p010:01"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "austin2012-0c5916:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Inefficient random search of collections",
+   "definition": "Makers search loosely organised stores of ideas so that, while looking for one thing, they encounter others that send them in new directions, often used to jolt themselves when stuck.",
+   "applies_when": "Person describes browsing unorganised material and stumbling upon an unrelated idea that proved useful.",
+   "does_not_apply_when": "Systematic, efficient retrieval of a known item for a predefined purpose (reuse).",
+   "passage_ids": [
+    "austin2012-0c5916:p012:03",
+    "austin2012-0c5916:p012:04",
+    "austin2012-0c5916:p012:05"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "austin2012-0c5916:c07"
+  },
+  {
+   "group": "background",
+   "label": "Collection rather than reuse",
+   "definition": "Accumulating interesting ideas, images or objects without a specific purpose and organising them loosely, which keeps them in the maker's 'back head' and facilitates valuable accidents.",
+   "applies_when": "Person describes gathering things that caught their interest with no planned use and later drawing on them unexpectedly.",
+   "does_not_apply_when": "Knowledge stored and indexed for specific foreseen uses to economise time or money.",
+   "passage_ids": [
+    "austin2012-0c5916:p012:02",
+    "austin2012-0c5916:p012:04",
+    "austin2012-0c5916:p015:06"
+   ],
+   "pdf_pages": [
+    12,
+    15
+   ],
+   "candidate_id": "austin2012-0c5916:c08"
+  },
+  {
+   "group": "background",
+   "label": "Intentionally accidental arrangement of prior knowledge",
+   "definition": "The prepared mind depends not only on prior knowledge but on arranging it randomly so it is traversed often and kept available; the authors extend Dew's view that serendipity occurs when purposeful search meets contingency in the presence of prior knowledge.",
+   "applies_when": "Account links a discovery to prior knowledge the person deliberately kept circulating or revisiting, or to search that actively sought contingency.",
+   "does_not_apply_when": "Prior knowledge simply possessed and passively applied when a chance event occurred.",
+   "passage_ids": [
+    "austin2012-0c5916:p014:04",
+    "austin2012-0c5916:p014:05"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "austin2012-0c5916:c09"
+  },
+  {
+   "group": "background",
+   "label": "Expertise and techniques lowering cost of failure",
+   "definition": "Skills, evolved techniques, cheap materials and technologies let makers produce original outcomes cheaply, reducing the cost of nonvaluable accidents and allowing openness to accident.",
+   "applies_when": "Person explains they could afford to experiment or follow chance because their skills, tools or cheap materials made failures inexpensive.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p010:05",
+    "austin2012-0c5916:p014:03",
+    "austin2012-0c5916:p017:03"
+   ],
+   "pdf_pages": [
+    10,
+    14,
+    17
+   ],
+   "candidate_id": "austin2012-0c5916:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Cost of failure controls openness",
+   "definition": "Potential benefit of original outcomes motivates openness to accident, but the cost of unproductive accidents determines whether makers can act on it.",
+   "applies_when": "Person describes wanting novelty but avoiding experiments because failures are too expensive, or embracing accidents because failures are cheap.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p007:02",
+    "austin2012-0c5916:p007:04",
+    "austin2012-0c5916:p007:05"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "austin2012-0c5916:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Conduciveness to innovation",
+   "definition": "Openness to accident is greatest where originality is beneficial and cheap to produce, and lowest where original outcomes are not valued or costly (e.g., replication, quality control).",
+   "applies_when": "Account shows the setting's value placed on novelty and cost of trying shaping whether chance outcomes are welcomed or suppressed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p004:04",
+    "austin2012-0c5916:p006:04",
+    "austin2012-0c5916:p006:05"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "austin2012-0c5916:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Financial cushion / subsidy",
+   "definition": "A maker whose costs are subsidised can experiment and stay open to accident, whereas one surviving solely on product revenues focuses on efficiency and risk avoidance.",
+   "applies_when": "Person attributes ability or inability to experiment to financial slack, subsidy, or dependence on immediate revenue.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p007:05"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "austin2012-0c5916:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Organisational size and systematisation",
+   "definition": "Larger organisations organise knowledge for efficient reuse due to coordination burdens, which members fear reduces their chances of benefiting from serendipity.",
+   "applies_when": "Person describes growth, formal systems or efficient databases crowding out chance discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p013:02",
+    "austin2012-0c5916:p013:04"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "austin2012-0c5916:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Planning and variation-reduction methods",
+   "definition": "Stage-gate, Six Sigma and similar predictability-seeking approaches may kill projects early or suppress variation, forfeiting emergent value from accidents.",
+   "applies_when": "Account shows formal controls, gates or efficiency drives eliminating unexpected avenues.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p003:02",
+    "austin2012-0c5916:p015:04"
+   ],
+   "pdf_pages": [
+    3,
+    15
+   ],
+   "candidate_id": "austin2012-0c5916:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Mastery narrows the cone of expectation",
+   "definition": "As expertise grows, makers more reliably achieve what they intend, which narrows expectations and can interfere with originality unless accidents are sought.",
+   "applies_when": "Person notes that growing skill or routine made them predictable and that they needed chance to find something new.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p014:02",
+    "austin2012-0c5916:p010:01"
+   ],
+   "pdf_pages": [
+    10,
+    14
+   ],
+   "candidate_id": "austin2012-0c5916:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Time to recognise value (slow convergence)",
+   "definition": "Makers want to control how fast work converges to a final outcome because time is needed to recognise value in accidental results.",
+   "applies_when": "Person describes resisting deadlines or premature decisions to leave room to notice and evaluate unexpected outcomes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p013:04",
+    "austin2012-0c5916:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "austin2012-0c5916:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Fast cheap iteration",
+   "definition": "Iterative processes and tools that allow rapid, cheap trying increase the number of attempts and thus the opportunities for valuable accidents.",
+   "applies_when": "Account describes rapid prototyping or quick iteration leading to more unexpected enhancements.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p012:01",
+    "austin2012-0c5916:p017:03"
+   ],
+   "pdf_pages": [
+    12,
+    17
+   ],
+   "candidate_id": "austin2012-0c5916:c18"
+  },
+  {
+   "group": "outcome",
+   "label": "New predictive logic",
+   "definition": "Escaping the cone of expectation produces original outcomes, and a valuable accidental outcome may suggest a new predictive logic and new direction.",
+   "applies_when": "Person describes an unexpected result that changed how they think about what is possible or reoriented their work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p014:02",
+    "austin2012-0c5916:p012:04"
+   ],
+   "pdf_pages": [
+    12,
+    14
+   ],
+   "candidate_id": "austin2012-0c5916:c19"
+  },
+  {
+   "group": "outcome",
+   "label": "Most accidents not valuable",
+   "definition": "Makers acknowledge accidents produce valuable outcomes only rarely; nonvaluable accidents are far more numerous and some are costly or dangerous.",
+   "applies_when": "Person notes many chance outcomes were useless or harmful and only a few paid off.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p007:03",
+    "austin2012-0c5916:p014:03"
+   ],
+   "pdf_pages": [
+    7,
+    14
+   ],
+   "candidate_id": "austin2012-0c5916:c20"
+  },
+  {
+   "group": "role",
+   "label": "Accident-enabled new commercial offering",
+   "definition": "Tools enabling cheap try-and-undo experimentation gave rise to a commercially valuable form of work that had not existed previously.",
+   "applies_when": "Account links chance-rich experimentation to the emergence of a new product or service category.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "austin2012-0c5916:p012:01"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "austin2012-0c5916:c21"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,311 @@
+{
+ "paper_id": "sarasvathy2001-f6e40d",
+ "file": "papers/pdf/Sarasvathy - 2001 - Causation and Effectuation.pdf",
+ "about": [
+  "Sarasvathy's 2001 paper sets out effectuation, a decision logic that starts from the means an entrepreneur already has, against causation, which starts from a goal, as an explanation of how firms and markets are created; it treats seizing contingencies and serendipitous events as part of venture formation."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Chance suggestion from acquaintance",
+   "definition": "The venture journey begins with a casual suggestion someone makes by chance, for example a friend who tastes the food at a social occasion.",
+   "applies_when": "The account says the idea or start of the venture came from an offhand remark or suggestion by a friend or acquaintance in a social setting.",
+   "does_not_apply_when": "The suggestion was asked for deliberately, for example through market research or focus groups.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected misfortune forcing self-employment",
+   "definition": "An unplanned misfortune pushes a person to earn a living on their own, and that sets off the entrepreneurial journey.",
+   "applies_when": "The account ties the start of the venture to an unforeseen negative event, such as job loss or hardship, that made self-employment necessary.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Contingent problem solving / dare",
+   "definition": "A venture starts with no prior intention to found a business: the person responds to a local problem, sometimes on a dare, and only later sees the business potential. Example: Fatjo hauling his community's garbage, which led to BFI.",
+   "applies_when": "The account describes the founder handling an immediate problem or challenge for others, with business potential recognised only later.",
+   "does_not_apply_when": "The founder set out from the start to build a business around that problem.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p006:04",
+    "sarasvathy2001-f6e40d:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seizing and exploiting contingencies",
+   "definition": "Entrepreneurs do not predict unexpected events; they seize and exploit them as they arise and build on them to shape the venture and the market.",
+   "applies_when": "The account shows the entrepreneur acting quickly on an unexpected event or opportunity and building the venture around it.",
+   "does_not_apply_when": "The person exploits expertise they already had, such as specialist technical knowledge, according to a plan; the author contrasts this with exploiting contingencies.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p011:04",
+    "sarasvathy2001-f6e40d:p009:04",
+    "sarasvathy2001-f6e40d:p007:04"
+   ],
+   "pdf_pages": [
+    7,
+    9,
+    11
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Means-driven imagining of possible effects",
+   "definition": "The entrepreneur starts from the means at hand and imagines several possible effects or businesses they could create, rather than choosing means to reach a goal already set.",
+   "applies_when": "The account shows the entrepreneur asking what they could make with the resources, skills and contacts they have, instead of starting from a fixed goal.",
+   "does_not_apply_when": "A specific goal was fixed first and the entrepreneur then gathered the means to reach it (causation).",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p004:01",
+    "sarasvathy2001-f6e40d:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Listening to early customers to define market",
+   "definition": "Whoever buys first becomes the target customer, and the entrepreneur defines the segment and offering by continually listening to those early customers.",
+   "applies_when": "The account describes the offering or target market being shaped by what the first actual customers turned out to want.",
+   "does_not_apply_when": "The segment was chosen in advance through surveys or segmentation analysis.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p006:02",
+    "sarasvathy2001-f6e40d:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Stakeholder precommitments and alliances",
+   "definition": "The entrepreneur gets partners, friends, family and customers to commit resources, which builds the venture through a growing network that reduces uncertainty.",
+   "applies_when": "The account describes others joining or committing resources early, and these commitments shaping what the venture becomes.",
+   "does_not_apply_when": "Resources came through standard financing based on a full business plan.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p008:01",
+    "sarasvathy2001-f6e40d:p011:03",
+    "sarasvathy2001-f6e40d:p011:05"
+   ],
+   "pdf_pages": [
+    8,
+    11
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c07"
+  },
+  {
+   "group": "background",
+   "label": "Who I am, what I know, whom I know",
+   "definition": "Entrepreneurs start from three kinds of means: their own traits, tastes and abilities; the knowledge corridors they are in; and their social networks. These means combine with contingencies to produce the effect.",
+   "applies_when": "The account links the opportunity or the response to an unexpected event to the founder's identity, knowledge or personal network.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p009:01",
+    "sarasvathy2001-f6e40d:p008:02"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c08"
+  },
+  {
+   "group": "role",
+   "label": "Redirection to a different business",
+   "definition": "Unexpected discoveries along the way lead the entrepreneur to drop the original idea and build a quite different venture, possibly in another industry.",
+   "applies_when": "The account describes a pivot set off by an unforeseen finding, for example customers valuing something other than the product.",
+   "does_not_apply_when": "A planned extension of the original strategy.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p006:01",
+    "sarasvathy2001-f6e40d:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c09"
+  },
+  {
+   "group": "role",
+   "label": "Goals constructed over time",
+   "definition": "The founder's goals are not fixed in advance; they are changed, shaped and constructed over time by making use of contingencies as they arise.",
+   "applies_when": "The account says the venture's aims emerged or changed through events rather than being set at the start.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p006:04",
+    "sarasvathy2001-f6e40d:p021:01"
+   ],
+   "pdf_pages": [
+    6,
+    21
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Creation of new markets and opportunities",
+   "definition": "Exploiting contingencies creates new markets and opportunities, rather than only identifying existing ones.",
+   "applies_when": "The account presents the venture as having created a market or industry that did not exist before.",
+   "does_not_apply_when": "The venture captured share in a market that already existed.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p008:03",
+    "sarasvathy2001-f6e40d:p019:03",
+    "sarasvathy2001-f6e40d:p010:04"
+   ],
+   "pdf_pages": [
+    8,
+    10,
+    19
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Pleasant surprise and learning",
+   "definition": "Something expected to be a non-starter succeeds unexpectedly; actors are pleasantly surprised and learn from it (Honda's small motorcycles).",
+   "applies_when": "The account reports an unexpected success of something the actors had discounted, followed by learning or a change of course.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p014:01",
+    "sarasvathy2001-f6e40d:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Absence of rigid planning",
+   "definition": "Formal planning processes can eliminate probable non-starters before they are tried, so a lack of planning leaves room for surprises to be found and exploited.",
+   "applies_when": "The account notes that an unplanned trial, or a missing screening process, let an unexpected opportunity surface.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p014:01",
+    "sarasvathy2001-f6e40d:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Ignorance and unconstrained curiosity",
+   "definition": "Not knowing expert objections, together with unconstrained curiosity and immersion in the phenomena, makes surprise and discovery more likely.",
+   "applies_when": "The account credits lack of expertise, naivety or open-ended immersion with leading to an unexpected idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p014:02",
+    "sarasvathy2001-f6e40d:p014:03"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Generalized aspiration with limited resources",
+   "definition": "Effectuation, and with it the use of contingencies, is more suitable when the entrepreneur has only a general aspiration and limited resources rather than a clear specific goal.",
+   "applies_when": "The account describes a founder with vague aims and scarce means who stays open to whatever emerges.",
+   "does_not_apply_when": "The founder had a clear, specific venture goal; the author says causation may then be better.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p008:04",
+    "sarasvathy2001-f6e40d:p005:04"
+   ],
+   "pdf_pages": [
+    5,
+    8
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Affordable loss experimentation",
+   "definition": "Fixing in advance how much loss is affordable, and trying many strategies within that limit, keeps options open and lets the entrepreneur act on contingencies at low cost.",
+   "applies_when": "The account describes small, low-cost bets or trials limited by what the founder could afford to lose.",
+   "does_not_apply_when": "Decisions were based on calculating expected returns.",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p011:03",
+    "sarasvathy2001-f6e40d:p019:01"
+   ],
+   "pdf_pages": [
+    11,
+    19
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c16"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective coherence of living forward",
+   "definition": "Ventures are lived forward in an unsettled, emergent and contingent way, but later accounts portray them as settled and causally coherent; actors make sense of their actions retrospectively.",
+   "applies_when": "The account shows the narrator reconstructing a coherent story after the fact, or acknowledging that its meaning became clear only later.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p014:05",
+    "sarasvathy2001-f6e40d:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Recognized need / visionary planning",
+   "definition": "Official histories attribute ventures to a visionary recognition of an obvious need. The author argues the need was only a necessary condition, and that active seizing of contingencies supplied sufficiency.",
+   "applies_when": "The account explains the venture solely as foresight of an existing need or as executing a plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p007:01",
+    "sarasvathy2001-f6e40d:p008:03"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c18"
+  },
+  {
+   "group": "rival",
+   "label": "Inevitable market forces / environmental selection",
+   "definition": "Mainstream economics explains new ventures as the inevitable outcome of market forces, stochastic processes or environmental selection rather than contingent action by actors.",
+   "applies_when": "The account explains the venture as an inevitable result of market conditions or selection rather than of contingent events and actions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2001-f6e40d:p021:01",
+    "sarasvathy2001-f6e40d:p018:04"
+   ],
+   "pdf_pages": [
+    18,
+    21
+   ],
+   "candidate_id": "sarasvathy2001-f6e40d:c19"
+  }
+ ],
+ "removed": []
+}

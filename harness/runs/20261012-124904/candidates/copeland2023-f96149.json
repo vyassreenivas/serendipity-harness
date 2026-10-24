@@ -1,0 +1,2184 @@
+{
+ "paper_id": "copeland2023-f96149",
+ "file": "papers/pdf/Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.pdf",
+ "about": [
+  "Part 1 of an edited volume on serendipity research: the introduction, chapters on serendipity in Mongolian language and culture, in knowledge organisation and libraries, and in management and organisation studies, and the opening of a chapter on serendipity in entrepreneurship, strategy and innovation that defines serendipity, distinguishes its types and models how it is cultivated.",
+  "This part covers the end of Busch and Grimes' review of serendipity in entrepreneurship, strategy and innovation, followed by Copeland's chapter on serendipity in the philosophy of science and Arfini's chapter on serendipity and ignorance. Busch and Grimes present serendipity as a trigger–bisociation–enactment process with individual and systemic enablers and constraints; Copeland and Arfini add sagacity, potential value, abduction and aching ignorance.",
+  "This part of an edited volume on serendipity contains chapters on designing serendipity into personalization systems (Reviglio), the cognitive study of accidents, noticing and enactment (Ross), luck, collective serendipity and credit in the history of vaccination (Sand & Chiapperino), and networks and institutionalised serendipity, including the founding of the venture Spark Collaboration (Soto).",
+  "This final part closes Soto's chapter on institutionalising serendipity, with post-conflict Colombian vignettes including an ex-combatant's stalled entrepreneurial funding, and contains Erdelez's epilogue on serendipity in information behaviour, including small business managers stumbling on crucial information."
+ ],
+ "bearing": [
+  "central",
+  "central",
+  "central",
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity is discovery made through both accident and sagacity, at the intersection of chance and wisdom. It is neither pure luck nor pure skill.",
+   "applies_when": "The account shows a chance element combined with the person's own insight, judgement or skill in recognising what the chance event offered.",
+   "does_not_apply_when": "The account credits only luck or only skill. Pure luck accounts lack the sagacity element.",
+   "passage_ids": [
+    "copeland2023-f96149:p010:01",
+    "copeland2023-f96149:p019:02",
+    "copeland2023-f96149:p017:01"
+   ],
+   "pdf_pages": [
+    10,
+    17,
+    19
+   ],
+   "candidate_id": "copeland2023-f96149:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Unsought discovery",
+   "definition": "Following Walpole, serendipity is discovering things one was not in quest of. Finding something one was looking for does not count.",
+   "applies_when": "The person describes finding something valuable that they were not searching for.",
+   "does_not_apply_when": "The person found exactly what they were deliberately searching for.",
+   "passage_ids": [
+    "copeland2023-f96149:p010:01",
+    "copeland2023-f96149:p067:02"
+   ],
+   "pdf_pages": [
+    10,
+    67
+   ],
+   "candidate_id": "copeland2023-f96149:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Valuable discovery from agentic response",
+   "definition": "Busch and Grimes define serendipity as a surprising and valuable discovery that comes from agentic responses to unplanned events. It requires controllable elements such as an open mind, not merely something happening to someone.",
+   "applies_when": "An unplanned event is followed by the person's active response, and that response leads to a surprising, valuable discovery.",
+   "does_not_apply_when": "The unplanned event simply benefits the person with no action or sensemaking on their part.",
+   "passage_ids": [
+    "copeland2023-f96149:p084:02"
+   ],
+   "pdf_pages": [
+    84
+   ],
+   "candidate_id": "copeland2023-f96149:c03"
+  },
+  {
+   "group": "definition",
+   "label": "Effortful process, not sudden event",
+   "definition": "Serendipity is an effortful process leading to an accidental discovery. The effort includes staying alert to opportunities, assessing them when encountered and testing how they fit existing practice. It unfolds over time and is not a single eureka moment.",
+   "applies_when": "The account describes serendipity unfolding over time through alertness, assessment and testing after a chance encounter.",
+   "does_not_apply_when": "The account describes only an instantaneous 'aha' with no follow-up effort.",
+   "passage_ids": [
+    "copeland2023-f96149:p067:02",
+    "copeland2023-f96149:p075:02",
+    "copeland2023-f96149:p086:03"
+   ],
+   "pdf_pages": [
+    67,
+    75,
+    86
+   ],
+   "candidate_id": "copeland2023-f96149:c04"
+  },
+  {
+   "group": "definition",
+   "label": "Recognising the out-of-place as useful",
+   "definition": "Burrows and Verhoeven describe serendipity as the ability to recognise a relationship that at first seems out of place but later proves useful. It arises from attentive meandering through an unfamiliar environment.",
+   "applies_when": "The person picks up pieces of information while wandering or exploring, and these later 'add up' and prove useful.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p061:01",
+    "copeland2023-f96149:p060:03"
+   ],
+   "pdf_pages": [
+    60,
+    61
+   ],
+   "candidate_id": "copeland2023-f96149:c05"
+  },
+  {
+   "group": "type",
+   "label": "Thunderbolt serendipity",
+   "definition": "No search is under way. The actor unexpectedly comes across a new problem and its solution at the same time, which is often seen as an opportunity. The rolling suitcase is the example given.",
+   "applies_when": "The person was not trying to solve any particular problem and suddenly saw both a need and a way to meet it, for example a business idea.",
+   "does_not_apply_when": "The person was already searching for a solution to a known problem; that points to the Archimedes or Post-it types.",
+   "passage_ids": [
+    "copeland2023-f96149:p085:01"
+   ],
+   "pdf_pages": [
+    85
+   ],
+   "candidate_id": "copeland2023-f96149:c06"
+  },
+  {
+   "group": "type",
+   "label": "Archimedes serendipity",
+   "definition": "A search for a solution to a known problem is under way, and the solution comes from an entirely unexpected place.",
+   "applies_when": "The person was working on a known problem and the answer arrived from an unrelated, unexpected source.",
+   "does_not_apply_when": "The unexpected find solved a different problem from the one being worked on; that is the Post-it type.",
+   "passage_ids": [
+    "copeland2023-f96149:p085:02"
+   ],
+   "pdf_pages": [
+    85
+   ],
+   "candidate_id": "copeland2023-f96149:c07"
+  },
+  {
+   "group": "type",
+   "label": "Post-it note serendipity",
+   "definition": "While searching for a solution to a known problem, the actor stumbles on a solution to a different or previously unrecognised problem. The 3M weak glue is the example given.",
+   "applies_when": "The person was pursuing one goal and the outcome turned out to solve a different problem.",
+   "does_not_apply_when": "The unexpected find solved the original problem; that is the Archimedes type.",
+   "passage_ids": [
+    "copeland2023-f96149:p085:02"
+   ],
+   "pdf_pages": [
+    85
+   ],
+   "candidate_id": "copeland2023-f96149:c08"
+  },
+  {
+   "group": "type",
+   "label": "Collective serendipity",
+   "definition": "Discovery made possible only by collective information encountering. Inputs noticed by many people are passed along and matched with a chance meeting.",
+   "applies_when": "The discovery depended on information gathered and passed on by several people in a network or community, then matched by someone in a chance encounter.",
+   "does_not_apply_when": "A single individual both encountered and recognised the opportunity.",
+   "passage_ids": [
+    "copeland2023-f96149:p043:01",
+    "copeland2023-f96149:p044:01",
+    "copeland2023-f96149:p040:03"
+   ],
+   "pdf_pages": [
+    40,
+    43,
+    44
+   ],
+   "candidate_id": "copeland2023-f96149:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter or conversation",
+   "definition": "An unplanned meeting or conversation acts as a trigger element. For example, learning someone's affiliation lets a person match it with knowledge they hold, which sets off a chain of serendipitous events.",
+   "applies_when": "An unplanned meeting, or a detail learned in conversation, sets off the discovery.",
+   "does_not_apply_when": "The meeting was deliberately arranged in order to obtain that specific information.",
+   "passage_ids": [
+    "copeland2023-f96149:p040:02",
+    "copeland2023-f96149:p040:03",
+    "copeland2023-f96149:p042:01"
+   ],
+   "pdf_pages": [
+    40,
+    42
+   ],
+   "candidate_id": "copeland2023-f96149:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Errors and mistakes",
+   "definition": "Honest mistakes and errors, especially when practice is pushed to its limits, can open opportunities for unplanned discovery. The AstraZeneca half-dose 'useful mistake' is the example given.",
+   "applies_when": "A mistake, error or failed experiment led to a new, valuable insight or direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p074:01",
+    "copeland2023-f96149:p074:02",
+    "copeland2023-f96149:p065:01"
+   ],
+   "pdf_pages": [
+    65,
+    74
+   ],
+   "candidate_id": "copeland2023-f96149:c11"
+  },
+  {
+   "group": "trigger",
+   "label": "Anomalies and deviations",
+   "definition": "Unanticipated, anomalous data or observations, if investigated rather than normalised or dismissed, can lead to serendipitous discovery.",
+   "applies_when": "The person noticed something odd or inconsistent and chose to investigate it rather than ignore it.",
+   "does_not_apply_when": "The anomaly was explained away or treated as noise.",
+   "passage_ids": [
+    "copeland2023-f96149:p071:02",
+    "copeland2023-f96149:p070:01"
+   ],
+   "pdf_pages": [
+    70,
+    71
+   ],
+   "candidate_id": "copeland2023-f96149:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing and connecting weak cues",
+   "definition": "After the trigger, the person notices and brackets weak cues, then makes the socio-cognitive effort to connect that information to a potential problem or solution. The model's stages are trigger, connection-making (bisociation) and enactment.",
+   "applies_when": "The person describes noticing a faint signal and linking it to a problem or solution they could act on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p085:02",
+    "copeland2023-f96149:p086:01",
+    "copeland2023-f96149:p086:02"
+   ],
+   "pdf_pages": [
+    85,
+    86
+   ],
+   "candidate_id": "copeland2023-f96149:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Improvising on fleeting opportunity",
+   "definition": "To take advantage of fleeting serendipitous opportunities, actors must merge planning and execution and move fast with the resources available. Honda's US entry and IKEA's open warehouse are the examples given.",
+   "applies_when": "The person acted quickly on an unexpected opening without time to make a new plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p073:02",
+    "copeland2023-f96149:p073:03"
+   ],
+   "pdf_pages": [
+    73
+   ],
+   "candidate_id": "copeland2023-f96149:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bricolage with materials",
+   "definition": "Close familiarity with materials and willingness to explore alternative uses lead to serendipitous discoveries. Entrepreneurs make discoveries, and can even scale, through creative engagement with resources at hand.",
+   "applies_when": "The person tinkered with available materials or resources in unconventional ways and discovered new possibilities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p073:03",
+    "copeland2023-f96149:p074:01"
+   ],
+   "pdf_pages": [
+    73,
+    74
+   ],
+   "candidate_id": "copeland2023-f96149:c15"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seizing and acting on opportunities",
+   "definition": "Strategies identified by Makri et al. include looking for patterns, drawing on previous experience and seizing opportunities to extract value from connections made. Serendipity requires action and agency, not only perspicacity.",
+   "applies_when": "The person recognised the value of a connection and took action to exploit it.",
+   "does_not_apply_when": "The person noticed the opportunity but did not act on it.",
+   "passage_ids": [
+    "copeland2023-f96149:p052:02",
+    "copeland2023-f96149:p073:02"
+   ],
+   "pdf_pages": [
+    52,
+    73
+   ],
+   "candidate_id": "copeland2023-f96149:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Urge to share the finding",
+   "definition": "A marker of a serendipitous experience is that it compels the discoverer to want to share the finding with someone suitable. Passing news along is part of how collective serendipity spreads.",
+   "applies_when": "The person describes feeling compelled to share an unexpected finding, or searching for the right person to pass it to.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p040:03",
+    "copeland2023-f96149:p039:02"
+   ],
+   "pdf_pages": [
+    39,
+    40
+   ],
+   "candidate_id": "copeland2023-f96149:c17"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge used to explore the unknown",
+   "definition": "Serendipity involves a paradoxical blend of exploitation and exploration: discovery depends on previous knowledge, which is used to reach into unknown territory.",
+   "applies_when": "The person's existing expertise or experience let them recognise the value of something unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p076:01",
+    "copeland2023-f96149:p076:02"
+   ],
+   "pdf_pages": [
+    76
+   ],
+   "candidate_id": "copeland2023-f96149:c18"
+  },
+  {
+   "group": "background",
+   "label": "Structured but open environment",
+   "definition": "Serendipity is most likely where there is enough structure to make encounters relevant but not so much that the unexpected is suppressed. Multiple perspectives and the ability to meander through them also help.",
+   "applies_when": "The person describes an environment that was organised enough to make encounters relevant yet varied enough to allow surprises.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p047:01",
+    "copeland2023-f96149:p054:03",
+    "copeland2023-f96149:p053:02"
+   ],
+   "pdf_pages": [
+    47,
+    53,
+    54
+   ],
+   "candidate_id": "copeland2023-f96149:c19"
+  },
+  {
+   "group": "role",
+   "label": "Emergent rather than planned strategy",
+   "definition": "Entrepreneurial success comes less from anticipatory planning than from complex, unpredictable interactions. Strategies are often emergent, and opportunity discovery and innovations are often matters of serendipity rather than planning. The resources, partners or co-founders a venture will need are hard to determine in advance.",
+   "applies_when": "Key aspects of the venture, such as the opportunity, partners, co-founders or resources, arose unexpectedly rather than from a plan.",
+   "does_not_apply_when": "The venture followed a deliberate plan that anticipated these elements.",
+   "passage_ids": [
+    "copeland2023-f96149:p084:01",
+    "copeland2023-f96149:p084:02",
+    "copeland2023-f96149:p025:01"
+   ],
+   "pdf_pages": [
+    25,
+    84
+   ],
+   "candidate_id": "copeland2023-f96149:c20"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting strategy toward the unplanned",
+   "definition": "Following serendipity can mean adopting a strategy other than the planned one. Honda's improvised US strategy worked because its people were determined and pragmatic, not because they were prescient.",
+   "applies_when": "The venture changed direction to follow an unexpected opportunity instead of the original plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p075:03",
+    "copeland2023-f96149:p076:01"
+   ],
+   "pdf_pages": [
+    75,
+    76
+   ],
+   "candidate_id": "copeland2023-f96149:c21"
+  },
+  {
+   "group": "role",
+   "label": "Learning the market through exposure",
+   "definition": "Instead of planning, digital entrepreneurs expose themselves to the market in order to learn about it through serendipitous discoveries.",
+   "applies_when": "The founder deliberately put the product or idea in front of the market to discover unexpected information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p074:03"
+   ],
+   "pdf_pages": [
+    74
+   ],
+   "candidate_id": "copeland2023-f96149:c22"
+  },
+  {
+   "group": "outcome",
+   "label": "Innovation and dynamic capability",
+   "definition": "Serendipity can lead to innovations and opportunities and help build dynamic capabilities, letting firms extract new value from existing knowledge and technologies. Sensing opportunities is described as close to serendipity.",
+   "applies_when": "An unexpected discovery resulted in a new product, a new use of existing knowledge or a capacity to sense opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p068:03",
+    "copeland2023-f96149:p083:01"
+   ],
+   "pdf_pages": [
+    68,
+    83
+   ],
+   "candidate_id": "copeland2023-f96149:c23"
+  },
+  {
+   "group": "outcome",
+   "label": "Drift and zemblanity",
+   "definition": "Organisations that embrace serendipity risk drift, chasing one opportunity after another or reacting to threats unsystematically. Zemblanity is named as serendipity's unfortunate twin.",
+   "applies_when": "Chasing unexpected opportunities led to loss of direction or a string of unproductive pivots.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p066:01",
+    "copeland2023-f96149:p066:02",
+    "copeland2023-f96149:p075:01"
+   ],
+   "pdf_pages": [
+    66,
+    75
+   ],
+   "candidate_id": "copeland2023-f96149:c24"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective narration erasing failure",
+   "definition": "Serendipity is often told in retrospect, and such narration erases failed attempts. Luck may also be recast after the fact as managerial prescience.",
+   "applies_when": "The person tells the story as a clean success, or presents a lucky outcome as foresight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p065:03",
+    "copeland2023-f96149:p067:01",
+    "copeland2023-f96149:p021:02"
+   ],
+   "pdf_pages": [
+    21,
+    65,
+    67
+   ],
+   "candidate_id": "copeland2023-f96149:c25"
+  },
+  {
+   "group": "account",
+   "label": "Luck versus serendipity framing",
+   "definition": "Calling an event 'luck' or 'serendipity' represents it very differently and has different consequences. Crediting serendipity can be seen as relying on luck rather than skill, which taints credit. Even so, practitioners frequently credit serendipity for their success.",
+   "applies_when": "The person weighs whether to call an event luck or serendipity, worries it lessens their credit, or explicitly credits serendipity for success.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p076:03",
+    "copeland2023-f96149:p019:02",
+    "copeland2023-f96149:p084:03"
+   ],
+   "pdf_pages": [
+    19,
+    76,
+    84
+   ],
+   "candidate_id": "copeland2023-f96149:c26"
+  },
+  {
+   "group": "rival",
+   "label": "Simple luck",
+   "definition": "Popular usage conflates serendipity with simple luck, chance or coincidence. The authors present serendipity as distinct from 'pure' luck.",
+   "applies_when": "The account presents the event as fortune alone, with no recognition or response by the person.",
+   "does_not_apply_when": "The person's sagacity or active response played a part.",
+   "passage_ids": [
+    "copeland2023-f96149:p019:02",
+    "copeland2023-f96149:p021:03",
+    "copeland2023-f96149:p035:01"
+   ],
+   "pdf_pages": [
+    19,
+    21,
+    35
+   ],
+   "candidate_id": "copeland2023-f96149:c27"
+  },
+  {
+   "group": "rival",
+   "label": "Directed rational search",
+   "definition": "In non-serendipitous problem solving, the actor has a clear problem and a directed search for solutions that filters out peripheral information. Effectual or garbage-can processes instead start from existing means and look for problems.",
+   "applies_when": "The outcome is better explained by a deliberate, focused search, or by starting from existing means and looking for problems to apply them to.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p085:03",
+    "copeland2023-f96149:p086:02"
+   ],
+   "pdf_pages": [
+    85,
+    86
+   ],
+   "candidate_id": "copeland2023-f96149:c28"
+  },
+  {
+   "group": "rival",
+   "label": "Pseudo-serendipity",
+   "definition": "Some researchers call it pseudo-serendipity when one finds, by chance, something that serves a goal one already had. On this narrow view, 'true' serendipity requires a change in objective. Busch and Grimes reject this narrow view.",
+   "applies_when": "The chance find advanced a goal the person already held, with no change in objective.",
+   "does_not_apply_when": "The objective itself changed because of the unexpected find.",
+   "passage_ids": [
+    "copeland2023-f96149:p085:03"
+   ],
+   "pdf_pages": [
+    85
+   ],
+   "candidate_id": "copeland2023-f96149:c29"
+  },
+  {
+   "group": "rival",
+   "label": "Engineered or algorithmic serendipity",
+   "definition": "Recommendation systems produce results that appear novel but are tightly defined by algorithms. Critics argue this is not genuine serendipity, which cannot be manufactured.",
+   "applies_when": "The 'unexpected' encounter was in fact produced by a recommender or curated system designed to predict the person's interests.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p051:03",
+    "copeland2023-f96149:p060:02"
+   ],
+   "pdf_pages": [
+    51,
+    60
+   ],
+   "candidate_id": "copeland2023-f96149:c30"
+  },
+  {
+   "group": "condition",
+   "label": "Generative doubt",
+   "definition": "Cultivating the experience of not knowing, a 'learn-it-all' rather than 'know-it-all' attitude, keeps people open to serendipitous surprises.",
+   "applies_when": "The person or team embraced uncertainty and not knowing, questioned assumptions or stayed open to learning.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p072:01",
+    "copeland2023-f96149:p072:02"
+   ],
+   "pdf_pages": [
+    72
+   ],
+   "candidate_id": "copeland2023-f96149:c31"
+  },
+  {
+   "group": "condition",
+   "label": "Peripheral vision versus focus",
+   "definition": "Strong focus and attachment to a dominant logic create selective inattention that filters out anomalies as noise. Attending to areas outside one's usual focus, such as new users, uses, geographies or technologies, increases the chance of unexpected discovery.",
+   "applies_when": "The person looked beyond their core focus to peripheral markets or users, or conversely describes narrow focus making them miss signals.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p072:03",
+    "copeland2023-f96149:p073:01",
+    "copeland2023-f96149:p072:02"
+   ],
+   "pdf_pages": [
+    72,
+    73
+   ],
+   "candidate_id": "copeland2023-f96149:c32"
+  },
+  {
+   "group": "condition",
+   "label": "Supportive culture, safety and power",
+   "definition": "Cultures tolerant of happy accidents, psychologically safe environments and participative politics make serendipitous observations more likely to be noticed and acted on. Coercive, obedience-oriented organisations suppress them.",
+   "applies_when": "The account mentions whether the organisation's culture, power structure or safety allowed people to raise and pursue unexpected observations.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p069:02",
+    "copeland2023-f96149:p070:02",
+    "copeland2023-f96149:p070:03"
+   ],
+   "pdf_pages": [
+    69,
+    70
+   ],
+   "candidate_id": "copeland2023-f96149:c33"
+  },
+  {
+   "group": "condition",
+   "label": "Exposure and setting the stage",
+   "definition": "Serendipity cannot be controlled, but its probability can be raised by creating contexts that make it more likely ('planned luck'). Examples include varying routines, exploration and serendipity-friendly spaces. Exposure gives no guarantee.",
+   "applies_when": "The person deliberately put themselves in situations likely to produce unexpected encounters, such as events, new routines, open innovation or incubators.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p066:02",
+    "copeland2023-f96149:p071:02",
+    "copeland2023-f96149:p052:02"
+   ],
+   "pdf_pages": [
+    52,
+    66,
+    71
+   ],
+   "candidate_id": "copeland2023-f96149:c34"
+  },
+  {
+   "group": "condition",
+   "label": "Individual enablers",
+   "definition": "Individual traits increase the chances of serendipitous encounters and the capacity to capitalise on them. Those named include curiosity and alertness, extroversion, positive emotions, humility, re-framing, creativity, social skill and perseverance.",
+   "applies_when": "The account attributes the encounter, its recognition or its follow-through to such personal traits.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p086:01",
+    "copeland2023-f96149:p025:02"
+   ],
+   "pdf_pages": [
+    25,
+    86
+   ],
+   "candidate_id": "copeland2023-f96149:c35"
+  },
+  {
+   "group": "condition",
+   "label": "Systemic enablers and networks",
+   "definition": "Organisational and systemic factors also enable serendipity. Those named include expanded networks, expanded search, the physical and virtual task environment, collaboration, corporate culture and systematic evaluation.",
+   "applies_when": "The account credits networks, team collaboration, the work environment or organisational evaluation routines for the serendipity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p086:01",
+    "copeland2023-f96149:p086:02"
+   ],
+   "pdf_pages": [
+    86
+   ],
+   "candidate_id": "copeland2023-f96149:c36"
+  },
+  {
+   "group": "condition",
+   "label": "Physical co-presence and privilege",
+   "definition": "Context affects serendipity. Working from home during the pandemic reduced serendipitous face-to-face contact. Privilege shapes who has access to chance encounters and who can follow up on them.",
+   "applies_when": "The person mentions that the presence or absence of in-person contact, or their social position, affected access to or pursuit of chance encounters.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p066:02",
+    "copeland2023-f96149:p075:01",
+    "copeland2023-f96149:p029:01"
+   ],
+   "pdf_pages": [
+    29,
+    66,
+    75
+   ],
+   "candidate_id": "copeland2023-f96149:c37"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as a process",
+   "definition": "Serendipity is not a single chance event. It is a process and related outcome: a trigger, a bisociation linking the trigger to something relevant, and enactment of that link into an unanticipated outcome. It requires sagacity and proactive decisions.",
+   "applies_when": "An account describes an unexpected moment that the person noticed, connected to something relevant, and then actively turned into a result.",
+   "does_not_apply_when": "The account describes a lucky event with no noticing, linking or follow-up action; that is a random chance encounter, not the serendipity process.",
+   "passage_ids": [
+    "copeland2023-f96149:p099:01",
+    "copeland2023-f96149:p099:02"
+   ],
+   "pdf_pages": [
+    99
+   ],
+   "candidate_id": "copeland2023-f96149:c38"
+  },
+  {
+   "group": "definition",
+   "label": "Sagacity distinguishes serendipity from luck",
+   "definition": "Serendipity combines accident with sagacity: the skill or wisdom to recognise value in a chance encounter. Sagacity separates the serendipitous from the merely lucky, and more chance encounters alone are not enough.",
+   "applies_when": "The person's own perceptiveness, knowledge or judgement is shown to be what made a chance event valuable.",
+   "does_not_apply_when": "Success is attributed purely to being in the right place at the right time, with no recognition work by the person.",
+   "passage_ids": [
+    "copeland2023-f96149:p117:01",
+    "copeland2023-f96149:p123:01",
+    "copeland2023-f96149:p127:02"
+   ],
+   "pdf_pages": [
+    117,
+    123,
+    127
+   ],
+   "candidate_id": "copeland2023-f96149:c39"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected observation or weak cue",
+   "definition": "Serendipity is set off by a trigger: an unexpected observation, encounter or peripheral weak cue that 'imposes itself' on the person.",
+   "applies_when": "An account names a specific unplanned observation, encounter or surprising piece of information that started things.",
+   "does_not_apply_when": "The input was deliberately sought through goal-directed search.",
+   "passage_ids": [
+    "copeland2023-f96149:p099:02",
+    "copeland2023-f96149:p116:02",
+    "copeland2023-f96149:p087:01"
+   ],
+   "pdf_pages": [
+    87,
+    99,
+    116
+   ],
+   "candidate_id": "copeland2023-f96149:c40"
+  },
+  {
+   "group": "type",
+   "label": "Zemblanity (negative serendipity)",
+   "definition": "Zemblanity is the faculty of making unlucky discoveries by design. Some people or organisations may cultivate environments that foster it, setting themselves up for failure.",
+   "applies_when": "An account describes how the person's own setup or habits repeatedly produced unlucky unexpected outcomes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p102:01"
+   ],
+   "pdf_pages": [
+    102
+   ],
+   "candidate_id": "copeland2023-f96149:c41"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bisociation: connecting the dots",
+   "definition": "Bisociation is the act of linking previously unrelated events, skills or information, typically a problem with an unexpected solution. Sometimes the problem and the solution are 'seen' at the same moment.",
+   "applies_when": "The person describes connecting an unexpected input to a problem, need or idea they had, or suddenly seeing a problem and its solution together.",
+   "does_not_apply_when": "The solution was found by goal-directed search for a known problem with no unexpected input.",
+   "passage_ids": [
+    "copeland2023-f96149:p092:02",
+    "copeland2023-f96149:p092:03"
+   ],
+   "pdf_pages": [
+    92
+   ],
+   "candidate_id": "copeland2023-f96149:c42"
+  },
+  {
+   "group": "mechanism",
+   "label": "Incubation before the eureka moment",
+   "definition": "There can be a lag between the trigger and the bisociation, called an incubation period. Persistence and sagacity eventually produce a sudden 'eureka' understanding.",
+   "applies_when": "An account describes an observation that only later, sometimes much later, clicked into an insight.",
+   "does_not_apply_when": "The connection was made immediately on encountering the trigger.",
+   "passage_ids": [
+    "copeland2023-f96149:p093:01",
+    "copeland2023-f96149:p093:02"
+   ],
+   "pdf_pages": [
+    93
+   ],
+   "candidate_id": "copeland2023-f96149:c43"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reframing and bricolage",
+   "definition": "Looking at a situation or object from a different perspective, or making the best of what is at hand, lets people see an opportunity in an unexpected situation. Entrepreneurial narratives reframe the improbable as possible.",
+   "applies_when": "The person describes reinterpreting an unexpected situation, constraint or available resource as an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p093:03",
+    "copeland2023-f96149:p094:01"
+   ],
+   "pdf_pages": [
+    93,
+    94
+   ],
+   "candidate_id": "copeland2023-f96149:c44"
+  },
+  {
+   "group": "mechanism",
+   "label": "Analogous thinking",
+   "definition": "Relationships known in one domain are carried over to surface problem–solution pairs in another, perhaps unrelated, domain. This facilitates bisociation.",
+   "applies_when": "The person links an unexpected observation to their venture by analogy with another field or domain.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p094:01"
+   ],
+   "pdf_pages": [
+    94
+   ],
+   "candidate_id": "copeland2023-f96149:c45"
+  },
+  {
+   "group": "mechanism",
+   "label": "Acting on intuition",
+   "definition": "Intuition, a fast and unconscious way of processing information, acts as a filter that helps form bisociations. Mindfully acting on gut feeling supports better solutions.",
+   "applies_when": "The person reports following a gut feeling about an unexpected encounter, person or idea.",
+   "does_not_apply_when": "The person ran a deliberate analytic assessment instead (see systematic evaluation).",
+   "passage_ids": [
+    "copeland2023-f96149:p094:02"
+   ],
+   "pdf_pages": [
+    94
+   ],
+   "candidate_id": "copeland2023-f96149:c46"
+  },
+  {
+   "group": "mechanism",
+   "label": "Abduction after surprise",
+   "definition": "Surprise at an unexpected fact prompts 'why is that so?' reasoning. The person proposes and tests hypotheses and runs further investigation; that work, not the lucky event alone, makes the discovery.",
+   "applies_when": "An account shows the person puzzling over a surprising fact and experimenting or investigating to explain and exploit it.",
+   "does_not_apply_when": "The person simply received a ready-made answer without a surprise-driven question.",
+   "passage_ids": [
+    "copeland2023-f96149:p146:03",
+    "copeland2023-f96149:p147:01"
+   ],
+   "pdf_pages": [
+    146,
+    147
+   ],
+   "candidate_id": "copeland2023-f96149:c47"
+  },
+  {
+   "group": "mechanism",
+   "label": "Appraising potential value",
+   "definition": "Through heuristic appraisal, often unconscious, the person judges the promise or feasibility of a chance observation. This includes deciding, in light of time and resources, whether to follow it up or keep going in the current direction.",
+   "applies_when": "The person describes weighing whether an unexpected lead was worth pursuing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p126:01",
+    "copeland2023-f96149:p126:02"
+   ],
+   "pdf_pages": [
+    126
+   ],
+   "candidate_id": "copeland2023-f96149:c48"
+  },
+  {
+   "group": "mechanism",
+   "label": "Flash vs systematic evaluation",
+   "definition": "Organisations filter unexpected insights either by quick, gut-based flash evaluation or by systematic analysis of risk, timing and further information. Some firms 'place bets' on unexpectedly emerging ideas.",
+   "applies_when": "An account describes how an unexpected idea was screened or assessed before investment, quickly or analytically.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p098:03",
+    "copeland2023-f96149:p099:01"
+   ],
+   "pdf_pages": [
+    98,
+    99
+   ],
+   "candidate_id": "copeland2023-f96149:c49"
+  },
+  {
+   "group": "mechanism",
+   "label": "Social skill to win buy-in",
+   "definition": "Recognised serendipitous opportunities can still fail to be enacted because innovation needs buy-in. Social skill, the ability to induce cooperation, helps overcome fear of change, power dynamics and vested interests.",
+   "applies_when": "The person describes persuading others or securing cooperation and resources to act on an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p097:02",
+    "copeland2023-f96149:p097:03"
+   ],
+   "pdf_pages": [
+    97
+   ],
+   "candidate_id": "copeland2023-f96149:c50"
+  },
+  {
+   "group": "mechanism",
+   "label": "Perseverance and experimentation",
+   "definition": "Turning unexpected inputs into solutions often requires continued experimentation and perseverance through negative outcomes. This allows enough incubation time for peripheral information to be connected and implemented.",
+   "applies_when": "The person kept pursuing or testing an unexpected idea despite setbacks or opposition.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p098:01"
+   ],
+   "pdf_pages": [
+    98
+   ],
+   "candidate_id": "copeland2023-f96149:c51"
+  },
+  {
+   "group": "mechanism",
+   "label": "Iterative problem formulation and prototyping",
+   "definition": "Problems are approached repeatedly, in several ways and in rapid succession, through quick prototypes, with low commitment to any one solution. Iterations are treated as necessary steps rather than failures, letting serendipitous solutions emerge.",
+   "applies_when": "An account describes rapid iteration or prototyping in which an unexpected solution or direction surfaced.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p095:03",
+    "copeland2023-f96149:p096:01"
+   ],
+   "pdf_pages": [
+    95,
+    96
+   ],
+   "candidate_id": "copeland2023-f96149:c52"
+  },
+  {
+   "group": "mechanism",
+   "label": "Exaptation of stored ideas",
+   "definition": "Characteristics or ideas developed for another use, or none, are co-opted for a new role. Loosely organised stocks of ideas are 'searched' when something relevant comes along.",
+   "applies_when": "The person repurposes something built or kept for another purpose after an unexpected match appears.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p095:02",
+    "copeland2023-f96149:p095:03"
+   ],
+   "pdf_pages": [
+    95
+   ],
+   "candidate_id": "copeland2023-f96149:c53"
+  },
+  {
+   "group": "background",
+   "label": "Social embeddedness and networks",
+   "definition": "Ties into a community provide resources, legitimacy, emotional support and learning, all of which help serendipity surface. The value of networks is often surfaced by serendipitous encounters and only recognised post hoc. Over-embeddedness in homogeneous networks constrains access to novel information.",
+   "applies_when": "An unexpected opportunity came through the person's contacts or community.",
+   "does_not_apply_when": "A tie was formed deliberately to obtain a known resource.",
+   "passage_ids": [
+    "copeland2023-f96149:p090:03",
+    "copeland2023-f96149:p091:01"
+   ],
+   "pdf_pages": [
+    90,
+    91
+   ],
+   "candidate_id": "copeland2023-f96149:c54"
+  },
+  {
+   "group": "background",
+   "label": "Collaboration and diversity",
+   "definition": "Serendipity often emerges through collaboration among people with diverse skills. Others from different areas help reveal the broader relevance of an unexpected moment.",
+   "applies_when": "Someone else, especially from another field, helps the person see or develop the value of an unexpected observation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p094:02",
+    "copeland2023-f96149:p094:03",
+    "copeland2023-f96149:p095:01"
+   ],
+   "pdf_pages": [
+    94,
+    95
+   ],
+   "candidate_id": "copeland2023-f96149:c55"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "Background knowledge, interests and individual characteristics prepare a person to recognise an unexpected event as a valuable opportunity.",
+   "applies_when": "The person's prior expertise, interests or experience is what let them recognise the value of a chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p144:01",
+    "copeland2023-f96149:p123:01"
+   ],
+   "pdf_pages": [
+    123,
+    144
+   ],
+   "candidate_id": "copeland2023-f96149:c56"
+  },
+  {
+   "group": "background",
+   "label": "Aching ignorance",
+   "definition": "Serendipity exploits not ignorance in general but a felt, directed ignorance the person wants to overcome, such as a frustrated, unresolved problem. This orientation drives recognition of a relevant chance input.",
+   "applies_when": "The person was already wrestling with a specific unresolved problem or gap when the unexpected input arrived.",
+   "does_not_apply_when": "The person was merely uninformed or indifferent about the topic, or chose to remain ignorant.",
+   "passage_ids": [
+    "copeland2023-f96149:p143:01",
+    "copeland2023-f96149:p145:02",
+    "copeland2023-f96149:p145:03"
+   ],
+   "pdf_pages": [
+    143,
+    145
+   ],
+   "candidate_id": "copeland2023-f96149:c57"
+  },
+  {
+   "group": "condition",
+   "label": "Curiosity, alertness and inexperience",
+   "definition": "Alertness and curiosity are paramount for noticing unexpected moments. Inexperienced founders tend to be more open and alert, while experienced ones focus narrowly and filter out 'distractions'.",
+   "applies_when": "The person describes being curious or alert to surroundings, or notes that being new to a field helped them notice something.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p089:01",
+    "copeland2023-f96149:p089:02"
+   ],
+   "pdf_pages": [
+    89
+   ],
+   "candidate_id": "copeland2023-f96149:c58"
+  },
+  {
+   "group": "condition",
+   "label": "Positive vs negative emotions",
+   "definition": "Positive, especially other-oriented, emotions broaden attention and integrative thinking and increase receptivity to triggers. Negative emotions reduce receptiveness to novel information.",
+   "applies_when": "An account links the person's mood or emotional state to noticing or missing an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p089:02"
+   ],
+   "pdf_pages": [
+    89
+   ],
+   "candidate_id": "copeland2023-f96149:c59"
+  },
+  {
+   "group": "condition",
+   "label": "Humility and self-awareness",
+   "definition": "Humility, openness to alternative ideas, questioning one's own assumptions, and self-awareness or mindfulness increase receptivity to serendipitous triggers.",
+   "applies_when": "The person describes being open to being wrong, questioning assumptions, or reflective practices that helped them notice something.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p089:03",
+    "copeland2023-f96149:p090:01"
+   ],
+   "pdf_pages": [
+    89,
+    90
+   ],
+   "candidate_id": "copeland2023-f96149:c60"
+  },
+  {
+   "group": "condition",
+   "label": "Extroverted and introverted practices",
+   "definition": "Extroverted displays increase the number and diversity of encounters and the sharing of novel information. Introverted practices such as meditation, reading or browsing also support noticing weak cues.",
+   "applies_when": "An account credits frequent socialising, or solitary reading, browsing or reflection, with surfacing an unexpected input.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p088:02",
+    "copeland2023-f96149:p088:03"
+   ],
+   "pdf_pages": [
+    88
+   ],
+   "candidate_id": "copeland2023-f96149:c61"
+  },
+  {
+   "group": "condition",
+   "label": "Improvisation",
+   "definition": "Improvisation, reacting intentionally, quickly and creatively to a situation, rests on skills, confidence and self-efficacy. It raises the propensity to acknowledge serendipitous clues.",
+   "applies_when": "The person describes quickly and creatively reacting in the moment to an unexpected situation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p090:01"
+   ],
+   "pdf_pages": [
+    90
+   ],
+   "candidate_id": "copeland2023-f96149:c62"
+  },
+  {
+   "group": "condition",
+   "label": "Broad vs narrow goals",
+   "definition": "Narrowly defined problems or overly structured goals constrain serendipity. Broader, aspirational goals, wider search and a 'north star' purpose combined with emergent strategy increase openness to the unexpected.",
+   "applies_when": "The person contrasts having a broad mission or loose goals with tightly specified targets, in relation to noticing unexpected options.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p090:01",
+    "copeland2023-f96149:p096:03",
+    "copeland2023-f96149:p097:01"
+   ],
+   "pdf_pages": [
+    90,
+    96,
+    97
+   ],
+   "candidate_id": "copeland2023-f96149:c63"
+  },
+  {
+   "group": "condition",
+   "label": "Contrarian theory of value",
+   "definition": "A firm-specific, contrarian theory of value helps a company recognise and pursue unexpected value that others miss. Theories of value that become narrow and conventional limit serendipity.",
+   "applies_when": "The venture's distinctive view of where value lies is credited with spotting an unexpected opportunity, or a narrow view is blamed for missing one.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p096:01",
+    "copeland2023-f96149:p096:02"
+   ],
+   "pdf_pages": [
+    96
+   ],
+   "candidate_id": "copeland2023-f96149:c64"
+  },
+  {
+   "group": "condition",
+   "label": "Cognitive biases constrain serendipity",
+   "definition": "Underestimating the unexpected, self-censoring under pressure to appear rational, illusion of control, and functional fixedness from deep expertise all suppress attention to weak cues.",
+   "applies_when": "The person describes dismissing an unexpected idea as illegitimate, overlooking it because of habits or expertise, or later discounting chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p087:01",
+    "copeland2023-f96149:p087:02",
+    "copeland2023-f96149:p088:01"
+   ],
+   "pdf_pages": [
+    87,
+    88
+   ],
+   "candidate_id": "copeland2023-f96149:c65"
+  },
+  {
+   "group": "condition",
+   "label": "Resource scarcity reduces fixedness",
+   "definition": "Serendipity may be less constrained where resources are lacking and there are no established methods or tools to 'unlearn', as with MPesa emerging where reliable ATMs were absent.",
+   "applies_when": "The person describes how lacking established infrastructure or methods opened them to an unconventional solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p088:01",
+    "copeland2023-f96149:p088:02"
+   ],
+   "pdf_pages": [
+    88
+   ],
+   "candidate_id": "copeland2023-f96149:c66"
+  },
+  {
+   "group": "condition",
+   "label": "Open-design incubators and accelerators",
+   "definition": "Third-party organisations such as incubators and accelerators can foster serendipity for entrepreneurs through open designs: elevating commitment, flexible space, cultivating open-mindedness and adaptive programmes. Highly structured programmes may 'lock in' founders instead.",
+   "applies_when": "An account credits an incubator, accelerator or support organisation with unplanned connections or opportunities.",
+   "does_not_apply_when": "The support programme simply delivered pre-specified resources as planned.",
+   "passage_ids": [
+    "copeland2023-f96149:p091:02"
+   ],
+   "pdf_pages": [
+    91
+   ],
+   "candidate_id": "copeland2023-f96149:c67"
+  },
+  {
+   "group": "condition",
+   "label": "Co-location and designed collisions",
+   "definition": "Physical or virtual proximity and designed spaces or practices, such as atria, random coffee pairings and event matching, increase unplanned encounters.",
+   "applies_when": "The person met someone or learned something unexpected because of a shared space, co-working setting, event or random pairing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p091:03",
+    "copeland2023-f96149:p092:01",
+    "copeland2023-f96149:p095:01"
+   ],
+   "pdf_pages": [
+    91,
+    92,
+    95
+   ],
+   "candidate_id": "copeland2023-f96149:c68"
+  },
+  {
+   "group": "condition",
+   "label": "Psychological safety and culture",
+   "definition": "Cultures where people feel safe, blame is withheld and diverse ideas are welcome reduce self-censorship and increase the enactment of unexpected ideas.",
+   "applies_when": "The person describes a team or organisational climate that made it safe to share half-formed or unexpected ideas, or the opposite.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p098:01",
+    "copeland2023-f96149:p098:02"
+   ],
+   "pdf_pages": [
+    98
+   ],
+   "candidate_id": "copeland2023-f96149:c69"
+  },
+  {
+   "group": "condition",
+   "label": "Time and freedom from pressure",
+   "definition": "Serendipitous encounters are more likely when work proceeds at an unforced pace with freedom to follow new directions. Chance events take time to develop into discoveries, and rushing or over-planning precludes them.",
+   "applies_when": "An account links slack time, freedom to explore, or absence of pressure to an unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p129:01",
+    "copeland2023-f96149:p129:02",
+    "copeland2023-f96149:p130:01"
+   ],
+   "pdf_pages": [
+    129,
+    130
+   ],
+   "candidate_id": "copeland2023-f96149:c70"
+  },
+  {
+   "group": "condition",
+   "label": "Unequal access to serendipity",
+   "definition": "The possibility of encountering serendipity is not equally distributed. Financial and other pressures sap attention, and context sets different base levels of serendipity.",
+   "applies_when": "The person notes that financial strain or disadvantaged circumstances limited, or privilege enabled, their chance to notice or pursue unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p102:01"
+   ],
+   "pdf_pages": [
+    102
+   ],
+   "candidate_id": "copeland2023-f96149:c71"
+  },
+  {
+   "group": "role",
+   "label": "Opportunity discovery in early firm formation",
+   "definition": "Serendipity plays a major role in opportunity discovery, especially in the early stages of firm formation.",
+   "applies_when": "The venture idea or founding opportunity arose from an unexpected encounter or observation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p089:01"
+   ],
+   "pdf_pages": [
+    89
+   ],
+   "candidate_id": "copeland2023-f96149:c72"
+  },
+  {
+   "group": "role",
+   "label": "Reshaping the opportunity and pivots",
+   "definition": "Under high uncertainty, discovering, constructing and reconstructing the opportunity, its partners, resources and co-founders, is often serendipitous. This leads to radical changes in the problem–solution dyad and to emergent strategy.",
+   "applies_when": "An unexpected event redirected the venture's problem, solution, partners or strategy, for example through a pivot.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p101:02"
+   ],
+   "pdf_pages": [
+    101
+   ],
+   "candidate_id": "copeland2023-f96149:c73"
+  },
+  {
+   "group": "role",
+   "label": "Growth: internationalisation and acquisitions",
+   "definition": "In established firms, attention to weak signals enables quick response to emerging opportunities such as internationalisation. Much of acquisition value can emerge serendipitously, for example from unexpectedly discovered technology.",
+   "applies_when": "An unexpected discovery during expansion, internationalisation or acquisition advanced the business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p101:02",
+    "copeland2023-f96149:p097:02"
+   ],
+   "pdf_pages": [
+    97,
+    101
+   ],
+   "candidate_id": "copeland2023-f96149:c74"
+  },
+  {
+   "group": "outcome",
+   "label": "Serendipity as a dynamic capability",
+   "definition": "The ability to integrate and reconfigure competencies to facilitate triggers, bisociation and enactment can become a dynamic capability. It enhances absorptive capacity and strategic advantage.",
+   "applies_when": "The person describes building routines or structures to repeatedly benefit from unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p099:03",
+    "copeland2023-f96149:p100:01",
+    "copeland2023-f96149:p103:01"
+   ],
+   "pdf_pages": [
+    99,
+    100,
+    103
+   ],
+   "candidate_id": "copeland2023-f96149:c75"
+  },
+  {
+   "group": "account",
+   "label": "Airbrushing chance from the narrative",
+   "definition": "Because of an illusion of control, people frequently airbrush serendipity out of their narratives of change. They minimise its past role and discount future serendipity.",
+   "applies_when": "The person narrates a success as fully planned while details reveal unplanned events, or explicitly downplays luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p087:02",
+    "copeland2023-f96149:p088:01"
+   ],
+   "pdf_pages": [
+    87,
+    88
+   ],
+   "candidate_id": "copeland2023-f96149:c76"
+  },
+  {
+   "group": "account",
+   "label": "Aha/eureka narration",
+   "definition": "Serendipity stories typically include surprise, an 'aha' or 'eureka', and an emotional valence of elation as a new direction opens up.",
+   "applies_when": "The person recounts a sudden moment of realisation with surprise or excitement.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p124:02",
+    "copeland2023-f96149:p149:01"
+   ],
+   "pdf_pages": [
+    124,
+    149
+   ],
+   "candidate_id": "copeland2023-f96149:c77"
+  },
+  {
+   "group": "account",
+   "label": "Difficulty tracing the source",
+   "definition": "The delay between the trigger and the bisociation can make it hard for people to recall and properly attribute the original source of an idea.",
+   "applies_when": "The person cannot pinpoint where the idea came from, or gives vague origins.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p093:02"
+   ],
+   "pdf_pages": [
+    93
+   ],
+   "candidate_id": "copeland2023-f96149:c78"
+  },
+  {
+   "group": "rival",
+   "label": "Blind luck or privilege masking as skill",
+   "definition": "Blind luck, social connections, inherited wealth and unintended consequences may explain success instead of skilled serendipity. Much of success is 'unexplained variance'.",
+   "applies_when": "The outcome can be attributed to fortune, inherited resources or connections without any noticing or enactment by the person.",
+   "does_not_apply_when": "The person actively recognised and acted on the unexpected input.",
+   "passage_ids": [
+    "copeland2023-f96149:p102:01",
+    "copeland2023-f96149:p087:02"
+   ],
+   "pdf_pages": [
+    87,
+    102
+   ],
+   "candidate_id": "copeland2023-f96149:c79"
+  },
+  {
+   "group": "rival",
+   "label": "Innate genius or personality explanations",
+   "definition": "Accounts often explain discoveries by the 'right kind of person': genius, maverick, novice or persistence traits. Copeland criticises this for sidestepping the reasoning and skills involved.",
+   "applies_when": "An account attributes the outcome solely to the founder's innate traits or genius.",
+   "does_not_apply_when": "The account shows specific recognition and reasoning practices.",
+   "passage_ids": [
+    "copeland2023-f96149:p127:01",
+    "copeland2023-f96149:p127:03",
+    "copeland2023-f96149:p128:01"
+   ],
+   "pdf_pages": [
+    127,
+    128
+   ],
+   "candidate_id": "copeland2023-f96149:c80"
+  },
+  {
+   "group": "rival",
+   "label": "Mere receipt of new information",
+   "definition": "Simply encountering true, previously unknown information, as from the hypothetical 'Serendipity Machine', a newsfeed or a newsletter, is not serendipity. Without surprise, a felt question and follow-up work, it does not become a discovery.",
+   "applies_when": "The person merely learned a new fact without it answering a felt problem or prompting action.",
+   "does_not_apply_when": "The information prompted surprise, investigation and use.",
+   "passage_ids": [
+    "copeland2023-f96149:p141:01",
+    "copeland2023-f96149:p141:02",
+    "copeland2023-f96149:p147:01"
+   ],
+   "pdf_pages": [
+    141,
+    147
+   ],
+   "candidate_id": "copeland2023-f96149:c81"
+  },
+  {
+   "group": "definition",
+   "label": "Valuable finding not sought, by accident and sagacity",
+   "definition": "Serendipity is finding valuable or agreeable things one was not looking for. It requires both an accident that brings something unsought and the sagacity to recognise its value.",
+   "applies_when": "An account describes coming across something useful that the person was not looking for, and the person recognising its worth.",
+   "does_not_apply_when": "The thing was actively searched for and found as planned, or it came by chance but its value went unrecognised.",
+   "passage_ids": [
+    "copeland2023-f96149:p158:02",
+    "copeland2023-f96149:p202:01",
+    "copeland2023-f96149:p202:02"
+   ],
+   "pdf_pages": [
+    158,
+    202
+   ],
+   "candidate_id": "copeland2023-f96149:c82"
+  },
+  {
+   "group": "definition",
+   "label": "Surprise as marker",
+   "definition": "Surprise and unexpectedness are key experiential markers of a serendipitous accident. Serendipitous surprise opens further exploration rather than closing a problem.",
+   "applies_when": "The person reports being surprised or caught off guard by an event that then opened new possibilities.",
+   "does_not_apply_when": "Surprise at a solved problem with no further exploration; the author calls this insight, not serendipity.",
+   "passage_ids": [
+    "copeland2023-f96149:p185:03",
+    "copeland2023-f96149:p186:01"
+   ],
+   "pdf_pages": [
+    185,
+    186
+   ],
+   "candidate_id": "copeland2023-f96149:c83"
+  },
+  {
+   "group": "definition",
+   "label": "Recognised only in hindsight",
+   "definition": "Serendipity is a subjective experience that is discernible only in hindsight. It counts as serendipity only once a fortuitous outcome is recognised and retold, and the same events may be judged serendipitous by one person but not by another.",
+   "applies_when": "The person labels events as serendipitous only after they turned out well, or revises whether something was serendipitous.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p162:03",
+    "copeland2023-f96149:p188:03",
+    "copeland2023-f96149:p216:03"
+   ],
+   "pdf_pages": [
+    162,
+    188,
+    216
+   ],
+   "candidate_id": "copeland2023-f96149:c84"
+  },
+  {
+   "group": "type",
+   "label": "Natural vs artificial serendipity",
+   "definition": "Natural serendipity occurs unpredictably in the world. Artificial serendipity is cultivated by deliberately creating conditions in which it can occur.",
+   "applies_when": "The account distinguishes chance happenings from situations deliberately arranged to make unexpected encounters likely.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p158:02",
+    "copeland2023-f96149:p162:03"
+   ],
+   "pdf_pages": [
+    158,
+    162
+   ],
+   "candidate_id": "copeland2023-f96149:c85"
+  },
+  {
+   "group": "type",
+   "label": "Walpolian, Bushian, Mertonian, Stephanian",
+   "definition": "Serendipity types distinguished by the state of search. Walpolian: searching in one problem space and finding the answer in another. Bushian: no search underway. Mertonian: stuck on the problem being worked on. Stephanian: the information solves a problem not yet posed and is revived later.",
+   "applies_when": "An account indicates whether the person was searching for something else, searching for nothing, stuck on the problem at hand, or later reused an earlier encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p183:01",
+    "copeland2023-f96149:p184:01",
+    "copeland2023-f96149:p187:03"
+   ],
+   "pdf_pages": [
+    183,
+    184,
+    187
+   ],
+   "candidate_id": "copeland2023-f96149:c86"
+  },
+  {
+   "group": "type",
+   "label": "Collective, emergent serendipity",
+   "definition": "Serendipity can be an emergent property of a long collective process involving many actors, such as folk knowledge, patrons and later technical advances. On this view it is not confined to one person's moment of discovery.",
+   "applies_when": "Success is described as depending on many people and contributions over time, each adding unforeseen pieces.",
+   "does_not_apply_when": "The account centres on a single individual's moment of insight.",
+   "passage_ids": [
+    "copeland2023-f96149:p198:01",
+    "copeland2023-f96149:p203:03",
+    "copeland2023-f96149:p204:03"
+   ],
+   "pdf_pages": [
+    198,
+    203,
+    204
+   ],
+   "candidate_id": "copeland2023-f96149:c87"
+  },
+  {
+   "group": "type",
+   "label": "Microserendipity",
+   "definition": "Small, identifiable moments in which an accident in interaction with materials or the environment is noticed and changes what a person does.",
+   "applies_when": "A small, everyday chance occurrence in a task is noticed and changes the person's course of action.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p178:02",
+    "copeland2023-f96149:p180:01"
+   ],
+   "pdf_pages": [
+    178,
+    180
+   ],
+   "candidate_id": "copeland2023-f96149:c88"
+  },
+  {
+   "group": "trigger",
+   "label": "Accident as disruption",
+   "definition": "The trigger is an accident: an unanticipated disruption to a planned trajectory that introduces novelty and forces a change in what is known. The accident may be material or come from social interaction.",
+   "applies_when": "An unplanned event interrupts what the person was doing and introduces something new to them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p180:03",
+    "copeland2023-f96149:p188:01"
+   ],
+   "pdf_pages": [
+    180,
+    188
+   ],
+   "candidate_id": "copeland2023-f96149:c89"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter with people or circulating knowledge",
+   "definition": "The trigger can be an accidental meeting or exposure to rumours or folk knowledge held by others. Examples are Jenner hearing dairy rumours and conversations with strangers producing unexpected discoveries.",
+   "applies_when": "An unplanned conversation, meeting or piece of hearsay supplies the key idea or opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p203:03",
+    "copeland2023-f96149:p222:02"
+   ],
+   "pdf_pages": [
+    203,
+    222
+   ],
+   "candidate_id": "copeland2023-f96149:c90"
+  },
+  {
+   "group": "mechanism",
+   "label": "Act of noticing",
+   "definition": "Without conscious noticing, environmental opportunities are lost however rich they are. Many helpful accidents go unnoticed, which the author calls missed serendipity.",
+   "applies_when": "The person describes consciously spotting something unusual or relevant, or realising later that they had missed it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p185:02",
+    "copeland2023-f96149:p192:03"
+   ],
+   "pdf_pages": [
+    185,
+    192
+   ],
+   "candidate_id": "copeland2023-f96149:c91"
+  },
+  {
+   "group": "mechanism",
+   "label": "Enacting and following up",
+   "definition": "Noticing is not enough. Serendipity arises when the person acts to capture and exploit what was noticed. After noticing, a person can disregard it, respond passively, or change course to enact it.",
+   "applies_when": "The person changes plans, invests effort or follows up on the unexpected find.",
+   "does_not_apply_when": "The person notices but does nothing or sets it aside; the author does not count this as serendipity.",
+   "passage_ids": [
+    "copeland2023-f96149:p186:02",
+    "copeland2023-f96149:p186:03",
+    "copeland2023-f96149:p187:01"
+   ],
+   "pdf_pages": [
+    186,
+    187
+   ],
+   "candidate_id": "copeland2023-f96149:c92"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bridging network gaps",
+   "definition": "Serendipity most often occurs when people from disconnected parts of a network connect, or when new meaning is given to an existing connection. Ideas that are commonplace in one cluster are novel in another.",
+   "applies_when": "An opportunity arises from linking with someone outside one's usual circle, or from seeing an existing tie in a new light.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p217:02",
+    "copeland2023-f96149:p218:02"
+   ],
+   "pdf_pages": [
+    217,
+    218
+   ],
+   "candidate_id": "copeland2023-f96149:c93"
+  },
+  {
+   "group": "mechanism",
+   "label": "Striking up conversations openly",
+   "definition": "Deliberately talking with strangers and approaching known people with curiosity, open to any outcome rather than a specific goal, repeatedly yields unexpected discoveries.",
+   "applies_when": "The person describes initiating casual conversations or small talk without a set aim, and these led to opportunities.",
+   "does_not_apply_when": "Purely goal-directed networking for a specific outcome.",
+   "passage_ids": [
+    "copeland2023-f96149:p222:01",
+    "copeland2023-f96149:p222:02",
+    "copeland2023-f96149:p219:02"
+   ],
+   "pdf_pages": [
+    219,
+    222
+   ],
+   "candidate_id": "copeland2023-f96149:c94"
+  },
+  {
+   "group": "mechanism",
+   "label": "Generous unpaid help yielding introductions",
+   "definition": "Freely sharing know-how and helping others without asking for payment built relationships. These relationships led to serendipitous introductions, including the introduction to a future co-founder.",
+   "applies_when": "Help given without expectation of return leads to an unexpected referral or partnership.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p223:02",
+    "copeland2023-f96149:p223:03"
+   ],
+   "pdf_pages": [
+    223
+   ],
+   "candidate_id": "copeland2023-f96149:c95"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind from expertise",
+   "definition": "Sagacity built over years of deep involvement in a field lets a person recognise the significance of an accidental observation that a layperson would miss. The prepared mind is relational, prepared for a particular event.",
+   "applies_when": "The person's prior expertise or long immersion in a domain is what let them see the value of the chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p182:02",
+    "copeland2023-f96149:p182:03"
+   ],
+   "pdf_pages": [
+    182
+   ],
+   "candidate_id": "copeland2023-f96149:c96"
+  },
+  {
+   "group": "background",
+   "label": "Weak and dormant ties",
+   "definition": "New information most often arrives through weak or dormant ties rather than close ties, because close contacts tend to know each other and share the same information.",
+   "applies_when": "The opportunity came via an acquaintance, an old contact or someone met only loosely.",
+   "does_not_apply_when": "The information came from close friends or the immediate team.",
+   "passage_ids": [
+    "copeland2023-f96149:p218:02"
+   ],
+   "pdf_pages": [
+    218
+   ],
+   "candidate_id": "copeland2023-f96149:c97"
+  },
+  {
+   "group": "background",
+   "label": "Network position and privilege",
+   "definition": "An organisation's reputation, one's professional profile and accumulated privilege shape how likely serendipity is and how large its results are. Serendipity is a multiplier of the skills, resources and networks one already has.",
+   "applies_when": "The account credits an institutional affiliation, reputation or existing network for amplifying a lucky break.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p224:03",
+    "copeland2023-f96149:p225:01"
+   ],
+   "pdf_pages": [
+    224,
+    225
+   ],
+   "candidate_id": "copeland2023-f96149:c98"
+  },
+  {
+   "group": "background",
+   "label": "Life trajectory and context",
+   "definition": "One's accumulated experiences, relationships and social contexts shape the ability to observe, to explore unlikely paths, and the potential impact of discoveries.",
+   "applies_when": "The person links their ability to spot or pursue an opportunity to their background or circumstances.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p217:03"
+   ],
+   "pdf_pages": [
+    217
+   ],
+   "candidate_id": "copeland2023-f96149:c99"
+  },
+  {
+   "group": "role",
+   "label": "Serendipity in founding a venture",
+   "definition": "Unplanned events, such as a widely read blog post, a contact who happened to be in the author's hometown, and an introduction offered in thanks, led to co-founding the venture Spark Collaboration.",
+   "applies_when": "A venture's founding, a co-founder match or a first client is traced to chance encounters or unanticipated responses.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p223:02",
+    "copeland2023-f96149:p223:03",
+    "copeland2023-f96149:p216:01"
+   ],
+   "pdf_pages": [
+    216,
+    223
+   ],
+   "candidate_id": "copeland2023-f96149:c100"
+  },
+  {
+   "group": "role",
+   "label": "Process over time, not a eureka moment",
+   "definition": "Serendipity unfolds as a longer process involving multiple people and points in time. Hunches that do not connect stay hunches.",
+   "applies_when": "The account describes an opportunity assembling gradually across several encounters over time.",
+   "does_not_apply_when": "A single sudden flash of insight.",
+   "passage_ids": [
+    "copeland2023-f96149:p218:01",
+    "copeland2023-f96149:p188:03"
+   ],
+   "pdf_pages": [
+    188,
+    218
+   ],
+   "candidate_id": "copeland2023-f96149:c101"
+  },
+  {
+   "group": "outcome",
+   "label": "Unexpected spread and scale",
+   "definition": "A small initiative unexpectedly spread far through others' networks. The results included many inquiries, adoption by organisations the author never met, awards and press found by accident.",
+   "applies_when": "The person describes their idea or venture being picked up widely in ways they did not plan or anticipate.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p223:02",
+    "copeland2023-f96149:p224:01"
+   ],
+   "pdf_pages": [
+    223,
+    224
+   ],
+   "candidate_id": "copeland2023-f96149:c102"
+  },
+  {
+   "group": "outcome",
+   "label": "Epistemic opening",
+   "definition": "Serendipitous surprise begins exploration and reduces ignorance. It makes clear what one does not know and redirects action, rather than providing closure.",
+   "applies_when": "The chance event opened new questions or directions rather than only solving a problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p185:03",
+    "copeland2023-f96149:p186:01"
+   ],
+   "pdf_pages": [
+    185,
+    186
+   ],
+   "candidate_id": "copeland2023-f96149:c103"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective smoothing and survivorship bias",
+   "definition": "Serendipity stories are reconstructed backwards from validated successes. They smooth out messy chance into linear narratives and ignore accidents that led nowhere.",
+   "applies_when": "An account presents a neat success story built backwards from the outcome, or the person acknowledges that unsuccessful accidents go unmentioned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p179:01",
+    "copeland2023-f96149:p179:02",
+    "copeland2023-f96149:p186:02"
+   ],
+   "pdf_pages": [
+    179,
+    186
+   ],
+   "candidate_id": "copeland2023-f96149:c104"
+  },
+  {
+   "group": "account",
+   "label": "Effortless-discovery myth",
+   "definition": "Popular accounts portray discovery as falling into a person's lap without effort, as in the milkmaid myth. Historians contest this: the person probably learned from others and may have been searching.",
+   "applies_when": "A narrative stresses a single chance tip received with no effort, which may hide prior search or other sources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p202:02",
+    "copeland2023-f96149:p202:03",
+    "copeland2023-f96149:p203:02"
+   ],
+   "pdf_pages": [
+    202,
+    203
+   ],
+   "candidate_id": "copeland2023-f96149:c105"
+  },
+  {
+   "group": "account",
+   "label": "Lone-hero credit attribution",
+   "definition": "Singling out one individual as the discoverer forcibly reduces a collective process. Success achieved partly through luck is retold as the person's merit, an instance of moral luck.",
+   "applies_when": "Credit for success is narrated as belonging to one founder or person despite contributions from others or from luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p204:03",
+    "copeland2023-f96149:p208:01",
+    "copeland2023-f96149:p210:01"
+   ],
+   "pdf_pages": [
+    204,
+    208,
+    210
+   ],
+   "candidate_id": "copeland2023-f96149:c106"
+  },
+  {
+   "group": "rival",
+   "label": "Mere luck",
+   "definition": "Luck is a significant event beyond one's control. Not all luck is serendipity, for example luck in gambling, and some authors treat serendipity as replaceable by luck if no sagacity is involved.",
+   "applies_when": "Outcomes are explained by fortunate circumstances alone, with no noticing or exploiting by the person.",
+   "does_not_apply_when": "The person recognised and acted on the chance event.",
+   "passage_ids": [
+    "copeland2023-f96149:p198:02",
+    "copeland2023-f96149:p198:03"
+   ],
+   "pdf_pages": [
+    198
+   ],
+   "candidate_id": "copeland2023-f96149:c107"
+  },
+  {
+   "group": "rival",
+   "label": "It was actually sought",
+   "definition": "What looks like an unsought find may have been the result of an ongoing search, even if the answer turned up in an unexpected place. In that case the case is not serendipity in the Walpolean sense.",
+   "applies_when": "Evidence suggests the person was already on the lookout for a solution of that kind.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p203:02",
+    "copeland2023-f96149:p203:03"
+   ],
+   "pdf_pages": [
+    203
+   ],
+   "candidate_id": "copeland2023-f96149:c108"
+  },
+  {
+   "group": "rival",
+   "label": "Constructed or manipulative serendipity",
+   "definition": "Encounters that feel serendipitous may be engineered by algorithms or others to increase engagement. This creates an illusion of serendipity rather than genuine chance.",
+   "applies_when": "An apparent chance encounter was actually targeted or arranged by someone else for their own ends.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p170:03",
+    "copeland2023-f96149:p171:01"
+   ],
+   "pdf_pages": [
+    170,
+    171
+   ],
+   "candidate_id": "copeland2023-f96149:c109"
+  },
+  {
+   "group": "condition",
+   "label": "Frustrated mind at an impasse",
+   "definition": "A mind aware of its ignorance and stuck at an impasse, working persistently and experimenting, is most receptive to accidents. A smooth flow state tends to absorb accidents without noticing them.",
+   "applies_when": "The person was stuck or frustrated with a problem and actively trying things when the chance event occurred.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p184:01",
+    "copeland2023-f96149:p184:03",
+    "copeland2023-f96149:p183:02"
+   ],
+   "pdf_pages": [
+    183,
+    184
+   ],
+   "candidate_id": "copeland2023-f96149:c110"
+  },
+  {
+   "group": "condition",
+   "label": "Hyper goal-orientation restricts serendipity",
+   "definition": "Hyper goal-oriented work and defining a problem too clearly reduce serendipity. Unstructured time, such as coffee breaks or small talk, fosters it.",
+   "applies_when": "The account credits informal, unplanned time or loosely defined goals for an unexpected breakthrough, or blames rigid focus for missed ones.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p221:01",
+    "copeland2023-f96149:p221:02"
+   ],
+   "pdf_pages": [
+    221
+   ],
+   "candidate_id": "copeland2023-f96149:c111"
+  },
+  {
+   "group": "condition",
+   "label": "Institutionalising serendipity",
+   "definition": "Serendipity can be made more likely through structured processes, such as Randomised Coffee Trials that pair co-workers at random, or through spatial design that increases encounters.",
+   "applies_when": "An organisation or person sets up routines or spaces to create random meetings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p216:01",
+    "copeland2023-f96149:p223:01",
+    "copeland2023-f96149:p219:03"
+   ],
+   "pdf_pages": [
+    216,
+    219,
+    223
+   ],
+   "candidate_id": "copeland2023-f96149:c112"
+  },
+  {
+   "group": "condition",
+   "label": "Resources and time to follow up",
+   "definition": "Two people may make the same accidental observation, but only the one with the time and resources to follow it up experiences serendipity.",
+   "applies_when": "Having or lacking time, money or support determined whether a chance find was pursued.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p186:03"
+   ],
+   "pdf_pages": [
+    186
+   ],
+   "candidate_id": "copeland2023-f96149:c113"
+  },
+  {
+   "group": "condition",
+   "label": "Structural constraints",
+   "definition": "Disability, structural poverty and network inequality can make serendipity nearly impossible. These constraints are unevenly distributed.",
+   "applies_when": "Lack of resources or a marginal position is described as limiting chances to encounter or exploit opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p225:01",
+    "copeland2023-f96149:p225:02"
+   ],
+   "pdf_pages": [
+    225
+   ],
+   "candidate_id": "copeland2023-f96149:c114"
+  },
+  {
+   "group": "condition",
+   "label": "Curiosity and openness mindset",
+   "definition": "Curiosity, sagacity, openness to experience, tolerance of uncertainty and a prepared mind for the unexpected make serendipity more likely.",
+   "applies_when": "The person displays or describes curiosity, openness or comfort with uncertainty as enabling chance discoveries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p164:02",
+    "copeland2023-f96149:p162:02"
+   ],
+   "pdf_pages": [
+    162,
+    164
+   ],
+   "candidate_id": "copeland2023-f96149:c115"
+  },
+  {
+   "group": "condition",
+   "label": "Mix of familiar and new collaborators",
+   "definition": "In the Broadway study the author cites, the best-performing shows had casts mixing actors who had worked together before with new ones. Too much familiarity lost the spark, and too little meant actors could not click.",
+   "applies_when": "A team combining old and new collaborators is linked to unexpected success.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p219:02",
+    "copeland2023-f96149:p219:03"
+   ],
+   "pdf_pages": [
+    219
+   ],
+   "candidate_id": "copeland2023-f96149:c116"
+  },
+  {
+   "group": "condition",
+   "label": "Alternating openness and goal progress",
+   "definition": "Initiatives develop through alternating between openness to discovering the unknown and progress on the known. Goal-directed work interspersed with open modes is more conducive to serendipity.",
+   "applies_when": "The account describes a venture advancing through both planned, goal-oriented actions and open, exploratory interactions that produced unexpected encounters.",
+   "does_not_apply_when": "The account describes purely goal-directed work with no open or exploratory periods.",
+   "passage_ids": [
+    "copeland2023-f96149:p226:02"
+   ],
+   "pdf_pages": [
+    226
+   ],
+   "candidate_id": "copeland2023-f96149:c117"
+  },
+  {
+   "group": "condition",
+   "label": "Goal-oriented mode crowds out serendipity",
+   "definition": "A narrow focus on efficiently completing a task, such as a checklist visit or maximising patients seen, leaves little space for serendipity. Sometimes more is achieved by being less focused.",
+   "applies_when": "The person describes being too task-focused or productivity-driven for side conversations, and so missing or blocking unexpected connections.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p228:01",
+    "copeland2023-f96149:p228:03",
+    "copeland2023-f96149:p230:01"
+   ],
+   "pdf_pages": [
+    228,
+    230
+   ],
+   "candidate_id": "copeland2023-f96149:c118"
+  },
+  {
+   "group": "condition",
+   "label": "Structured unstructured time",
+   "definition": "Deliberately building unstructured time or down time, such as chatting at a bakery, dinners or shared living space, creates preconditions for serendipity. It cannot force serendipity.",
+   "applies_when": "An unexpected connection or insight arose during deliberately allotted informal time, breaks, meals or shared downtime rather than formal meetings.",
+   "does_not_apply_when": "The connection came from a formal meeting or an explicit, intentional attempt to build the relationship.",
+   "passage_ids": [
+    "copeland2023-f96149:p228:01",
+    "copeland2023-f96149:p228:02",
+    "copeland2023-f96149:p231:01"
+   ],
+   "pdf_pages": [
+    228,
+    231
+   ],
+   "candidate_id": "copeland2023-f96149:c119"
+  },
+  {
+   "group": "trigger",
+   "label": "Casual encounter reveals opportunity",
+   "definition": "Unexpected encounters form new relationships that reveal new opportunities and can develop into new projects or collaborations.",
+   "applies_when": "A chance meeting or casual conversation led to a new relationship that opened a project, collaboration or opportunity.",
+   "does_not_apply_when": "The contact was sought out deliberately for a specific purpose.",
+   "passage_ids": [
+    "copeland2023-f96149:p226:02",
+    "copeland2023-f96149:p229:01"
+   ],
+   "pdf_pages": [
+    226,
+    229
+   ],
+   "candidate_id": "copeland2023-f96149:c120"
+  },
+  {
+   "group": "definition",
+   "label": "Spontaneous, not consciously engineered",
+   "definition": "The serendipitous connection happens spontaneously and unexpectedly. It is not the product of a conscious effort to bring people together, and explicit attempts may even fail.",
+   "applies_when": "The person says a connection or breakthrough just happened unexpectedly, often after direct efforts had failed.",
+   "does_not_apply_when": "The outcome followed directly from a planned, explicit attempt.",
+   "passage_ids": [
+    "copeland2023-f96149:p227:03",
+    "copeland2023-f96149:p227:02"
+   ],
+   "pdf_pages": [
+    227
+   ],
+   "candidate_id": "copeland2023-f96149:c121"
+  },
+  {
+   "group": "mechanism",
+   "label": "Chance plus sagacity",
+   "definition": "Unexpected discoveries come from a combination of chance and sagacity: noticing an opening and acting on it, as when Maria noticed her tent companion's interest and switched the language setting.",
+   "applies_when": "The account shows someone noticing an unforeseen cue and taking a small action that converted it into a connection or opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p230:02",
+    "copeland2023-f96149:p227:02"
+   ],
+   "pdf_pages": [
+    227,
+    230
+   ],
+   "candidate_id": "copeland2023-f96149:c122"
+  },
+  {
+   "group": "background",
+   "label": "Latent value of existing ties",
+   "definition": "Existing network ties judged insignificant can carry latent value for others, and that value becomes clear only when an unexpected request activates them.",
+   "applies_when": "A person discovers that an existing acquaintance, previously thought unimportant, can help with a venture problem such as unblocking funding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p229:03",
+    "copeland2023-f96149:p229:02"
+   ],
+   "pdf_pages": [
+    229
+   ],
+   "candidate_id": "copeland2023-f96149:c123"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity for one, straightforward for other",
+   "definition": "The same event can be serendipitous from one party's perspective but a straightforward, goal-directed turn of events from the other's. The ex-combatant saved a contact for later need.",
+   "applies_when": "The account shows one party deliberately seeking or saving a contact while the other experiences the outcome as unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p229:03",
+    "copeland2023-f96149:p230:02"
+   ],
+   "pdf_pages": [
+    229,
+    230
+   ],
+   "candidate_id": "copeland2023-f96149:c124"
+  },
+  {
+   "group": "outcome",
+   "label": "Material help for venture",
+   "definition": "A chance encounter and the activation of a latent tie led to concrete progress on an entrepreneurial project, with stalled government funding moved along.",
+   "applies_when": "A serendipitous connection produced tangible resources or the removal of a bureaucratic barrier for a venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p229:02",
+    "copeland2023-f96149:p230:02"
+   ],
+   "pdf_pages": [
+    229,
+    230
+   ],
+   "candidate_id": "copeland2023-f96149:c125"
+  },
+  {
+   "group": "condition",
+   "label": "Unequal access to serendipity",
+   "definition": "Serendipity rests on networks and inputs that are unevenly distributed across hierarchies. Encouraging individual sagacity alone is insufficient, and agents with limited ties gain less.",
+   "applies_when": "The person describes limited networks, scarce time or a lower position that restricts chances for useful unexpected encounters, or privileged networks that enable them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p230:01",
+    "copeland2023-f96149:p230:03",
+    "copeland2023-f96149:p229:03"
+   ],
+   "pdf_pages": [
+    229,
+    230
+   ],
+   "candidate_id": "copeland2023-f96149:c126"
+  },
+  {
+   "group": "condition",
+   "label": "Openness to strangers and weak ties",
+   "definition": "Being open to conversations with strangers and people from distant fields develops weak ties, and an exploring attitude helps make the most of them.",
+   "applies_when": "The person reports habitually talking to strangers or people outside their field, which led to useful unexpected connections.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p230:03"
+   ],
+   "pdf_pages": [
+    230
+   ],
+   "candidate_id": "copeland2023-f96149:c127"
+  },
+  {
+   "group": "trigger",
+   "label": "Stumbling on crucial business information",
+   "definition": "Small business managers often came across information crucial to their businesses unexpectedly, without actively searching for it.",
+   "applies_when": "A founder or manager describes encountering key business information, such as on competitors, by chance while not looking for it.",
+   "does_not_apply_when": "The information was found through goal-oriented searching.",
+   "passage_ids": [
+    "copeland2023-f96149:p234:02",
+    "copeland2023-f96149:p237:02"
+   ],
+   "pdf_pages": [
+    234,
+    237
+   ],
+   "candidate_id": "copeland2023-f96149:c128"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "Serendipitous discovery requires observation skills and knowledge from education and experience to interpret what is encountered. This is the sagacity in Walpole's definition.",
+   "applies_when": "The person's prior knowledge or expertise let them recognise the significance of an unexpected encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p236:02"
+   ],
+   "pdf_pages": [
+    236
+   ],
+   "candidate_id": "copeland2023-f96149:c129"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipity-proneness and expectation",
+   "definition": "Some people are more serendipity-prone. They expect and welcome serendipity, and positive past experiences make them more open to it and thus luckier.",
+   "applies_when": "The person describes expecting or welcoming unexpected finds as a regular part of how they work, often because of past positive experiences.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p236:02",
+    "copeland2023-f96149:p237:01"
+   ],
+   "pdf_pages": [
+    236,
+    237
+   ],
+   "candidate_id": "copeland2023-f96149:c130"
+  },
+  {
+   "group": "condition",
+   "label": "Conducive environments",
+   "definition": "Environments such as water coolers, libraries, conferences, trade shows and the design of information systems raise the chances of unexpected discoveries and connections.",
+   "applies_when": "An unexpected discovery or connection occurred at a conference, trade show, shared break area or similar setting.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p236:03"
+   ],
+   "pdf_pages": [
+    236
+   ],
+   "candidate_id": "copeland2023-f96149:c131"
+  },
+  {
+   "group": "role",
+   "label": "Long-term redirection",
+   "definition": "Serendipity can change the direction of a path over the long term, as with a book found in the library stacks that redirected a doctoral student's research career. Business innovations are often attributed to serendipity as their trigger.",
+   "applies_when": "An unexpected find is described as changing the direction or focus of a venture or career.",
+   "does_not_apply_when": "The find had only immediate, task-level value without changing direction.",
+   "passage_ids": [
+    "copeland2023-f96149:p237:02",
+    "copeland2023-f96149:p237:03"
+   ],
+   "pdf_pages": [
+    237
+   ],
+   "candidate_id": "copeland2023-f96149:c132"
+  },
+  {
+   "group": "account",
+   "label": "Vivid, emotional recall",
+   "definition": "People recall serendipitous events vividly and with excitement. Their feelings shift from negative or neutral to positive, both about the content found and the unexpected way it was found.",
+   "applies_when": "The person narrates an unexpected find with marked excitement, vivid detail or a described shift to positive feelings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p237:01",
+    "copeland2023-f96149:p237:02",
+    "copeland2023-f96149:p227:03"
+   ],
+   "pdf_pages": [
+    227,
+    237
+   ],
+   "candidate_id": "copeland2023-f96149:c133"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck",
+   "definition": "Critics treat serendipity as just pure luck that cannot be influenced. The author argues that it is not entirely chance and depends on skills and environments.",
+   "applies_when": "The person attributes the event solely to luck, with no role for their own noticing, knowledge or setting.",
+   "does_not_apply_when": "The account shows the person's sagacity or a designed environment contributing.",
+   "passage_ids": [
+    "copeland2023-f96149:p236:01",
+    "copeland2023-f96149:p237:01"
+   ],
+   "pdf_pages": [
+    236,
+    237
+   ],
+   "candidate_id": "copeland2023-f96149:c134"
+  },
+  {
+   "group": "rival",
+   "label": "Fake serendipity",
+   "definition": "Encounters that seem serendipitous may be artificially generated by tracking systems and AI, for example customised ads, rather than arising naturally.",
+   "applies_when": "An apparently chance find came via algorithmic recommendations or targeted ads based on the person's data.",
+   "does_not_apply_when": "The encounter arose without algorithmic targeting.",
+   "passage_ids": [
+    "copeland2023-f96149:p237:03",
+    "copeland2023-f96149:p238:01"
+   ],
+   "pdf_pages": [
+    237,
+    238
+   ],
+   "candidate_id": "copeland2023-f96149:c135"
+  },
+  {
+   "group": "outcome",
+   "label": "Negative serendipity outcomes",
+   "definition": "Serendipity's appeal can lead people astray, for example through bizarre or sensational content spreading misinformation, or through consumerism.",
+   "applies_when": "An unexpected encounter led to misleading information or poor decisions because its surprise made it appealing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "copeland2023-f96149:p237:03",
+    "copeland2023-f96149:p238:01"
+   ],
+   "pdf_pages": [
+    237,
+    238
+   ],
+   "candidate_id": "copeland2023-f96149:c136"
+  }
+ ],
+ "removed": []
+}

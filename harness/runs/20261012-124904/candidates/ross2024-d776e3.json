@@ -1,0 +1,41 @@
+{
+ "paper_id": "ross2024-d776e3",
+ "file": "papers/pdf/Ross - 2024 - Serendipity - The Role of Chance and Accidents in Creativity.pdf",
+ "about": [
+  "A review arguing that serendipity, the combination of chance and the skill to exploit it, offers a lens on how individual, emotional and environmental factors interact in creativity, and discussing how hard it is to study empirically."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Luck combined with skill",
+   "definition": "Serendipity needs both a chance event and the skill to make the most of it. Chance on its own, without the skill to exploit it, is not enough to support creative outcomes.",
+   "applies_when": "The account describes an unexpected or lucky event together with the person's ability or effort that turned it to advantage.",
+   "does_not_apply_when": "Pure luck that the person did nothing to exploit, or a planned, skill-only achievement with no chance element.",
+   "passage_ids": [
+    "ross2024-d776e3:p001:01"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "ross2024-d776e3:c01"
+  },
+  {
+   "group": "condition",
+   "label": "Individual, emotional, environmental interplay",
+   "definition": "The author presents serendipity as a point where individual, emotional and environmental factors interact to shape the creative process.",
+   "applies_when": "The account links a chance-based outcome to a mix of personal traits or skills, emotional states, and features of the person's surroundings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "ross2024-d776e3:p001:01"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "ross2024-d776e3:c02"
+  }
+ ],
+ "removed": []
+}

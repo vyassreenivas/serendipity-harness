@@ -1,0 +1,202 @@
+{
+ "paper_id": "felin2021-6b1db3",
+ "file": "papers/pdf/Felin et al - 2021 - Resource Origins and Search.pdf",
+ "about": [
+  "The paper proposes that firm-specific 'search images', derived from specifying functional needs and formulating problems, let firms and entrepreneurs recognize dormant resources others overlook, and treats luck or serendipity as an alternative explanation that search images partly account for as the 'prepared mind'."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "rival",
+   "label": "Pure luck as explanation",
+   "definition": "The authors raise luck or serendipity as a persuasive alternative explanation for finding valuable resources: firms may simply stumble onto proverbial $500 bills that markets failed to see. They argue it cannot ground a forward-looking theory.",
+   "applies_when": "An account attributes finding a valuable resource, use or opportunity to accident, chance or stumbling upon it, with no prior problem or need guiding recognition.",
+   "does_not_apply_when": "The person had a formulated problem or functional need beforehand that made the encounter meaningful; code that as prepared mind or search image instead.",
+   "passage_ids": [
+    "felin2021-6b1db3:p015:03"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "felin2021-6b1db3:c01"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind via search image",
+   "definition": "Luck favors the prepared mind. A search image, meaning a specified function or formulated problem carried in one's head before search, is the prior that explains why some actors benefit from encounters that others also had.",
+   "applies_when": "The person describes already having a specific problem or need in mind before a chance encounter, and says this is what made them see its value.",
+   "does_not_apply_when": "General expertise or knowledge without a specific sought function; or deliberate search with no chance encounter involved.",
+   "passage_ids": [
+    "felin2021-6b1db3:p015:03",
+    "felin2021-6b1db3:p015:04"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "felin2021-6b1db3:c02"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective appearance of luck",
+   "definition": "Discoveries enabled by search images look driven by luck in retrospect. Uses that seem plainly obvious afterward were not obvious before the problem was formulated.",
+   "applies_when": "The narrator calls a discovery lucky or obvious in hindsight, while also describing the prior problem or need that set up the recognition.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p015:04",
+    "felin2021-6b1db3:p012:04"
+   ],
+   "pdf_pages": [
+    12,
+    15
+   ],
+   "candidate_id": "felin2021-6b1db3:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter or proximity",
+   "definition": "An unplanned encounter or circumstance, such as the geographic proximity of Apple and Xerox Parc, Newton seeing an apple fall, or Archimedes bathing, supplies the occasion for discovery. The encounter alone is insufficient, because others had the same encounter without the insight.",
+   "applies_when": "An account names a chance meeting, location, observation or exposure that put the person in contact with a resource or idea.",
+   "does_not_apply_when": "The contact came from systematic scanning or exhaustive search.",
+   "passage_ids": [
+    "felin2021-6b1db3:p015:04",
+    "felin2021-6b1db3:p011:02",
+    "felin2021-6b1db3:p015:03"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "felin2021-6b1db3:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Problem formulation and functional need",
+   "definition": "Actors deliberately specify a functional need or formulate a problem, and hypothesize the properties of a solution. This creates a search image that makes matching resources 'light up'.",
+   "applies_when": "The founder describes defining a problem or a needed function first, then recognizing something in the environment as the solution.",
+   "does_not_apply_when": "Starting from a known resource and asking what it could be used for; that is exaptation or redeployment.",
+   "passage_ids": [
+    "felin2021-6b1db3:p011:03",
+    "felin2021-6b1db3:p012:03",
+    "felin2021-6b1db3:p010:03"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    12
+   ],
+   "candidate_id": "felin2021-6b1db3:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognizing dormant value others missed",
+   "definition": "With a search image, actors see value in resources or technologies that many others had observed without recognizing it, as when Apple saw value in the Xerox Parc GUI and mouse.",
+   "applies_when": "The account says others had seen the same thing but the person saw its value because it solved their problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p012:01",
+    "felin2021-6b1db3:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "felin2021-6b1db3:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Exhaustive or scanning search",
+   "definition": "Existing explanations of resource discovery include faster sequential inspection, information acquisition, better environmental representation and search for complements. These are presented as costlier alternatives to search images.",
+   "applies_when": "The person describes systematically scanning, evaluating many options or gathering information to find a resource.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p004:02",
+    "felin2021-6b1db3:p004:03",
+    "felin2021-6b1db3:p005:02"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "felin2021-6b1db3:c07"
+  },
+  {
+   "group": "type",
+   "label": "Exaptation: new use of known resource",
+   "definition": "Exaptation means finding new, unanticipated functions for an existing resource. The authors distinguish it from their focus, in which the resource itself is unknown and is the outcome of search.",
+   "applies_when": "An account describes discovering a surprising new use for a resource the person already had or knew.",
+   "does_not_apply_when": "The resource was unknown to the person and was found by searching for a function.",
+   "passage_ids": [
+    "felin2021-6b1db3:p006:01",
+    "felin2021-6b1db3:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "felin2021-6b1db3:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Functional fixedness",
+   "definition": "People tend to see their surroundings in functionally fixed ways, which hides latent uses. Proactive problem specification helps them get around this.",
+   "applies_when": "The person notes having overlooked something familiar until a new need reframed it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p011:03",
+    "felin2021-6b1db3:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "felin2021-6b1db3:c09"
+  },
+  {
+   "group": "role",
+   "label": "Enabling pivots",
+   "definition": "For entrepreneurial firms, even a search image that fails shortens search. It allows better-informed pivots and re-specification of later search.",
+   "applies_when": "A founder describes a failed targeted search leading to a redefined problem or a pivot.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p015:02"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "felin2021-6b1db3:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Novel resource acquisition beyond market price",
+   "definition": "Search images let firms identify dormant, latent resources not obvious to others, and so secure value even in seemingly efficient factor markets.",
+   "applies_when": "The account reports obtaining or using a resource others undervalued, which became valuable to the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p012:02",
+    "felin2021-6b1db3:p013:04",
+    "felin2021-6b1db3:p016:01"
+   ],
+   "pdf_pages": [
+    12,
+    13,
+    16
+   ],
+   "candidate_id": "felin2021-6b1db3:c11"
+  },
+  {
+   "group": "account",
+   "label": "Discovered and constructed",
+   "definition": "The resources that emerge can be seen both as discovered, by seeing what others overlooked, and as created, through active cognitive effort to frame a problem.",
+   "applies_when": "The founder narrates an opportunity as both found and made through their own framing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "felin2021-6b1db3:p015:01"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "felin2021-6b1db3:c12"
+  }
+ ],
+ "removed": []
+}

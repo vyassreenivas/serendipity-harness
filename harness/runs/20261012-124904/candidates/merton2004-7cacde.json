@@ -1,0 +1,75 @@
+{
+ "paper_id": "merton2004-7cacde",
+ "file": "papers/pdf/Merton and Barber - 2004 - The Qualities of Serendipity.pdf",
+ "about": [
+  "This book chapter examines the linguistic qualities of the word 'serendipity': its oddity, whimsy, sound appeal and derived word forms. Along the way it notes how the word's meaning was defined and later broadened."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Happy accidental discovery",
+   "definition": "Serendipity refers to making happy, unexpected discoveries by chance, that is, unplanned discovery that turns out favourably.",
+   "applies_when": "An account describes coming upon something valuable or welcome that was not planned or sought, by chance.",
+   "does_not_apply_when": "The discovery was planned or deliberately searched for, or the chance event was not welcome or beneficial.",
+   "passage_ids": [
+    "merton2004-7cacde:p009:01",
+    "merton2004-7cacde:p014:01",
+    "merton2004-7cacde:p013:01"
+   ],
+   "pdf_pages": [
+    9,
+    13,
+    14
+   ],
+   "candidate_id": "merton2004-7cacde:c01"
+  },
+  {
+   "group": "type",
+   "label": "Serendipity as personal quality",
+   "definition": "In Walpole's original sense, serendipity is a quality or gift that some people possess which enables them to make happy accidental discoveries, rather than the discovery itself.",
+   "applies_when": "A person describes themselves or someone else as having a knack, gift or capacity for repeatedly stumbling on valuable things.",
+   "does_not_apply_when": "The account refers to a single fortunate event or found object rather than a person's enduring capacity; use the event/object type instead.",
+   "passage_ids": [
+    "merton2004-7cacde:p014:02",
+    "merton2004-7cacde:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "merton2004-7cacde:c02"
+  },
+  {
+   "group": "type",
+   "label": "Serendipity as event or object",
+   "definition": "Through use, the word came to cover the whole event of accidental discovery, and even the thing discovered, not only a quality of the discoverer.",
+   "applies_when": "An account names a specific fortunate chance occurrence, or the thing found by chance, as 'a serendipity' or 'an instance of serendipity'.",
+   "does_not_apply_when": "The account attributes the discovery to a stable trait or knack of the person, which is the personal-quality sense.",
+   "passage_ids": [
+    "merton2004-7cacde:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "merton2004-7cacde:c03"
+  },
+  {
+   "group": "account",
+   "label": "Passive endowment vs active accomplishment",
+   "definition": "The authors note an ambiguity in the actor's role in a happy accidental discovery. The discoverer can be seen as passively endowed with good fortune or as actively accomplishing the discovery.",
+   "applies_when": "A narrator frames a chance discovery either as something that simply happened to them through luck, or as something they actively achieved, or wavers between the two.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-7cacde:p014:01"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "merton2004-7cacde:c04"
+  }
+ ],
+ "removed": []
+}

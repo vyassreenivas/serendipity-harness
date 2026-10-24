@@ -1,0 +1,141 @@
+{
+ "paper_id": "denrell2015-5707ae",
+ "file": "papers/pdf/Denrell et al - 2015 - Chance Explanations in the Management Sciences.pdf",
+ "about": [
+  "A perspective essay arguing that random variation (chance, luck) should be treated as a core explanatory mechanism in management research, reviewing how chance models explain firm growth, performance persistence, survival, diffusion and judgment biases, and what this implies for managers."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "rival",
+   "label": "Success attributed to luck, not traits",
+   "definition": "Firm size, growth or profitability differences may arise purely from the luck of the draw among ex ante identical firms rather than from superior capabilities, strategy or management.",
+   "applies_when": "An account or interpretation explains a venture's growth or success as largely due to luck or random shocks rather than to the founders' skills or the venture's attributes.",
+   "does_not_apply_when": "The account credits a specific unexpected encounter that the founder noticed and acted on; that is an engaged chance event, not undifferentiated random variation.",
+   "passage_ids": [
+    "denrell2015-5707ae:p003:04",
+    "denrell2015-5707ae:p004:04",
+    "denrell2015-5707ae:p007:02"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    7
+   ],
+   "candidate_id": "denrell2015-5707ae:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Stumbling on a high-demand product",
+   "definition": "Companies that happen to stumble on products with high demand become both profitable and large, without needing economies of scale or superior efficiency.",
+   "applies_when": "A founder describes happening upon a product or offering that turned out to have unexpectedly high demand, which then drove profitability and growth.",
+   "does_not_apply_when": "The product was chosen through deliberate market research that predicted the demand.",
+   "passage_ids": [
+    "denrell2015-5707ae:p007:05",
+    "denrell2015-5707ae:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "denrell2015-5707ae:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Initial chance amplified by feedback",
+   "definition": "An initial chance event is amplified by positive feedback or rich-get-richer dynamics, producing substantial and persistent differences in outcomes; firms that captured opportunities are more likely to capture the next one.",
+   "applies_when": "An account shows an early lucky break leading to more attention, resources or opportunities, which compounded into lasting advantage.",
+   "does_not_apply_when": "The advantage stems from a stable quality difference present from the start rather than from an early fortunate event.",
+   "passage_ids": [
+    "denrell2015-5707ae:p015:01",
+    "denrell2015-5707ae:p007:03",
+    "denrell2015-5707ae:p013:05"
+   ],
+   "pdf_pages": [
+    7,
+    13,
+    15
+   ],
+   "candidate_id": "denrell2015-5707ae:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Exploiting lucky breaks deliberately",
+   "definition": "Even if initial product success is largely random, managers can promote demand by managing social influence for the products that happen to take off, e.g., through viral or big-seed marketing.",
+   "applies_when": "A founder describes noticing which offering unexpectedly took off and then deliberately pushing it, for example by encouraging users to spread it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2015-5707ae:p016:01"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "denrell2015-5707ae:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Flexibility and many small bets",
+   "definition": "In unpredictable environments managers should favour flexibility, real options, exploring currently unattractive options, many small bets and real-time market feedback rather than committing heavily to a few options.",
+   "applies_when": "An account describes keeping options open, running many small experiments, or building flexibility so as to be ready for unforeseen developments.",
+   "does_not_apply_when": "The venture followed a single committed plan designed in advance.",
+   "passage_ids": [
+    "denrell2015-5707ae:p015:05",
+    "denrell2015-5707ae:p016:02"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "denrell2015-5707ae:c05"
+  },
+  {
+   "group": "account",
+   "label": "Success misread as skill",
+   "definition": "High or exceptional performance is at best a weak signal of skill; when initial lucky breaks are reinforced, exceptional performance may even indicate lower skill, and people tend to underestimate the role of chance (fundamental attribution error).",
+   "applies_when": "A narrator attributes success to their own foresight or skill where the account shows a lucky break, or explicitly reflects on whether success reflected luck or skill.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2015-5707ae:p016:02",
+    "denrell2015-5707ae:p003:03"
+   ],
+   "pdf_pages": [
+    3,
+    16
+   ],
+   "candidate_id": "denrell2015-5707ae:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Selection-produced entrepreneurial optimism",
+   "definition": "Entrepreneurial overconfidence may not reflect bias: if entrepreneurs enter based on noisy demand signals, only those with high forecasts enter, so overestimation appears common among those observed.",
+   "applies_when": "An account explains a founder's decision to start a venture as following an unusually optimistic reading of demand, which later proved less extreme.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2015-5707ae:p012:02",
+    "denrell2015-5707ae:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "denrell2015-5707ae:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Survival via random accumulation",
+   "definition": "A venture's organizational capital may follow a random walk of demand shocks and competitor actions; failure occurs when accumulated unfavourable shocks hit a lower boundary, explaining why young firms' failure risk first rises then falls.",
+   "applies_when": "An account describes venture survival or failure as driven by an accumulation of unforeseen favourable or unfavourable shocks rather than by learning or skill.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2015-5707ae:p010:03",
+    "denrell2015-5707ae:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "denrell2015-5707ae:c08"
+  }
+ ],
+ "removed": []
+}

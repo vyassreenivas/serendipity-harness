@@ -1,0 +1,270 @@
+{
+ "paper_id": "cattani2005-691ffb",
+ "file": "papers/pdf/Cattani - 2005 - Preadaptation Firm Heterogeneity and Technological Performance.pdf",
+ "about": [
+  "The paper develops the notion of technological preadaptation—skills and knowledge a firm accumulated without foresight of later uses that by chance prove useful in a new domain—and shows in fiber optics (1970-1995) that having and especially leveraging such preadaptation raises technological performance."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Knowledge accumulated without foresight",
+   "definition": "Preadaptation is the part of a firm's prior experience built up for reasons unrelated to, and without anticipation of, the later application in which it proves useful.",
+   "applies_when": "An account describes skills, knowledge or assets developed for one purpose that later turned out to be useful for a new venture or domain nobody had anticipated at the time.",
+   "does_not_apply_when": "The knowledge was built deliberately after the new application was already known (adaptation, not preadaptation).",
+   "passage_ids": [
+    "cattani2005-691ffb:p002:01",
+    "cattani2005-691ffb:p003:02",
+    "cattani2005-691ffb:p005:02"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    5
+   ],
+   "candidate_id": "cattani2005-691ffb:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Chance usefulness for another function",
+   "definition": "Borrowed from biology: a feature that works in one function turns out by chance to work in another after relatively little adjustment; no role is assigned to foresight.",
+   "applies_when": "The person says something they had happened to fit a new use with only minor adjustment, stressing it was not planned for that use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p005:01",
+    "cattani2005-691ffb:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "cattani2005-691ffb:c02"
+  },
+  {
+   "group": "type",
+   "label": "Adaptation vs preadaptation",
+   "definition": "Efforts made after the new application is known (e.g., first lab experiments aimed at it) are adaptation, distinct from earlier unanticipated accumulation.",
+   "applies_when": "A coder can distinguish whether relevant capabilities were built before versus after the person became aware of the new opportunity.",
+   "does_not_apply_when": "Use preadaptation only for pre-awareness accumulation; post-awareness targeted development is adaptation.",
+   "passage_ids": [
+    "cattani2005-691ffb:p004:05",
+    "cattani2005-691ffb:p017:02"
+   ],
+   "pdf_pages": [
+    4,
+    17
+   ],
+   "candidate_id": "cattani2005-691ffb:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Watershed event revealing new use",
+   "definition": "A dividing event (e.g., the 1966 paper showing glass could transmit data) marks when a new application becomes conceivable, after which foresight and market feedback begin to guide search.",
+   "applies_when": "An account points to a specific event, publication or signal that suddenly made existing know-how relevant to a new possibility.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p006:03",
+    "cattani2005-691ffb:p006:04",
+    "cattani2005-691ffb:p007:03"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "cattani2005-691ffb:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Leveraging (using) preadaptation",
+   "definition": "Having relevant knowledge is distinct from actually drawing on it in the new domain; firms that build on their prior know-how perform better.",
+   "applies_when": "The person describes actively redeploying earlier, unrelated experience into the new venture, not merely possessing it.",
+   "does_not_apply_when": "The person had the relevant prior experience but did not use it or used it late (having without using).",
+   "passage_ids": [
+    "cattani2005-691ffb:p006:02",
+    "cattani2005-691ffb:p006:03",
+    "cattani2005-691ffb:p014:01"
+   ],
+   "pdf_pages": [
+    6,
+    14
+   ],
+   "candidate_id": "cattani2005-691ffb:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognising redeployment possibility",
+   "definition": "The transition period is when a firm begins to realize it can redeploy pre-existing skills to a new domain; foresight and strategy matter most here.",
+   "applies_when": "An account describes the moment of realizing that something one already had could be applied to a new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p006:04"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cattani2005-691ffb:c06"
+  },
+  {
+   "group": "background",
+   "label": "Unrelated prior investments",
+   "definition": "Past investments, even abandoned ones, can later prove useful, as Corning's divested integrated-circuit venture happened to supply knowledge for fiber optics.",
+   "applies_when": "An account cites earlier projects, failed or divested ventures, or side activities whose knowledge later fed a new venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p005:02",
+    "cattani2005-691ffb:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "cattani2005-691ffb:c07"
+  },
+  {
+   "group": "background",
+   "label": "Antiquated or trapped knowledge reused",
+   "definition": "Old technologies or knowledge that became a competency trap in its current use can become a source of advantage in a distinct domain.",
+   "applies_when": "The person describes outdated or stagnating know-how finding a fresh, unanticipated application.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p005:03",
+    "cattani2005-691ffb:p005:04",
+    "cattani2005-691ffb:p006:02"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "cattani2005-691ffb:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Transformative capacity and routines",
+   "definition": "Firms with routines to store, transform and retrieve knowledge are better able to realize new syntheses from in-house solutions.",
+   "applies_when": "An account mentions practices for keeping and retrieving past knowledge that enabled spotting or using an unexpected application.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cattani2005-691ffb:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Incentives shaping pursuit",
+   "definition": "Equally preadapted firms differ in whether, when and how quickly they act; e.g., AT&T saw fiber as a substitute threatening its network, while Corning saw a new growth market, and ITT entered late despite doing the groundwork.",
+   "applies_when": "The person explains acting on or ignoring a fortuitous fit because of existing business interests, incentives or timing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p015:05",
+    "cattani2005-691ffb:p017:02",
+    "cattani2005-691ffb:p017:03"
+   ],
+   "pdf_pages": [
+    15,
+    17
+   ],
+   "candidate_id": "cattani2005-691ffb:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Broad similarity of technological roots",
+   "definition": "Transferability depends on similarity, but preadaptation can apply across domains that look entirely distinct to users yet share technological roots.",
+   "applies_when": "An account notes that a seemingly unrelated market drew on the same underlying technical know-how.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p005:04"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "cattani2005-691ffb:c11"
+  },
+  {
+   "group": "role",
+   "label": "Starting a new domain",
+   "definition": "Redeployed preadapted knowledge can spur new technological fields or lineages when it taps unexploited niches with different needs.",
+   "applies_when": "Prior unanticipated know-how is described as the basis for creating a new venture, market or field.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p005:03",
+    "cattani2005-691ffb:p004:02"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "cattani2005-691ffb:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "Superior performance and advantage",
+   "definition": "Preadapted firms that consistently leveraged prior experience achieved higher technological performance; prior experience becomes advantage rather than constraint.",
+   "applies_when": "An account links unanticipated prior experience to success or advantage in the new venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p002:02",
+    "cattani2005-691ffb:p005:05",
+    "cattani2005-691ffb:p015:01"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    15
+   ],
+   "candidate_id": "cattani2005-691ffb:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Strategic foresight",
+   "definition": "Heterogeneity may stem from foresight rather than luck; realistically both play roles, and purposive behavior shows in differential leverage.",
+   "applies_when": "The person attributes the fit to deliberate anticipation and planning rather than to chance.",
+   "does_not_apply_when": "Do not code as rival when the person emphasizes the knowledge was built without foreseeing the use.",
+   "passage_ids": [
+    "cattani2005-691ffb:p002:03",
+    "cattani2005-691ffb:p015:03",
+    "cattani2005-691ffb:p015:04"
+   ],
+   "pdf_pages": [
+    2,
+    15
+   ],
+   "candidate_id": "cattani2005-691ffb:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck of environment",
+   "definition": "Raised and criticised: performance simply reflects random resource endowments that the environment happens to favor, leaving no role for strategy.",
+   "applies_when": "The person explains success as merely being in the right place with the right resources, with no action of their own.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p005:05",
+    "cattani2005-691ffb:p015:03"
+   ],
+   "pdf_pages": [
+    5,
+    15
+   ],
+   "candidate_id": "cattani2005-691ffb:c15"
+  },
+  {
+   "group": "rival",
+   "label": "Complementary assets",
+   "definition": "Success in a new domain may instead stem from possessing commercialization assets; the author treats this as not mutually exclusive.",
+   "applies_when": "The account credits distribution, manufacturing or other commercial assets rather than unanticipated technical know-how.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cattani2005-691ffb:p015:05",
+    "cattani2005-691ffb:p016:01"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "cattani2005-691ffb:c16"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,186 @@
+{
+ "paper_id": "cohen1990-c6e4e8",
+ "file": "papers/pdf/Cohen and Levinthal - 1990 - Absorptive Capacity A New Perspective on Learning and Innovation.pdf",
+ "about": [
+  "Cohen and Levinthal argue that a firm's ability to recognise the value of new external information, take it in and apply it commercially (absorptive capacity) depends on prior related and diverse knowledge, and that this capacity is cumulative and path-dependent and shapes R&D investment."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "background",
+   "label": "Prior related knowledge enables recognition",
+   "definition": "Already having knowledge related to new information is what lets a person or firm see its value, take it in and apply it to commercial ends. Without such knowledge, information may be met but not understood or used.",
+   "applies_when": "The account credits the person's or firm's existing related knowledge or experience with letting them see the worth of new or chance information and use it.",
+   "does_not_apply_when": "The person was merely exposed to the information. The author holds that exposure alone, without the contextual knowledge to make it intelligible, does not lead to use.",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p002:03",
+    "cohen1990-c6e4e8:p003:02",
+    "cohen1990-c6e4e8:p003:03"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c01"
+  },
+  {
+   "group": "background",
+   "label": "Diverse background widens receptivity",
+   "definition": "When it is uncertain where useful information will come from, a diverse knowledge background makes it more likely that incoming information will connect to something already known.",
+   "applies_when": "The account links the person's broad or varied background (several fields, roles or experiences) to being able to make use of information that turned up from an unexpected domain.",
+   "does_not_apply_when": "The information fit closely with the person's single, deep specialty. That is close related knowledge rather than breadth.",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Making novel associations and linkages",
+   "definition": "Prior and diverse knowledge lets people form associations and linkages that have never been considered before. The authors treat this as the basis of creativity and of 'insight', meaning the rapid solution of a problem.",
+   "applies_when": "The account describes connecting an encountered piece of information to existing knowledge in a new way, producing an idea or insight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p004:03",
+    "cohen1990-c6e4e8:p005:03",
+    "cohen1990-c6e4e8:p007:03"
+   ],
+   "pdf_pages": [
+    4,
+    5,
+    7
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Many exposed receptors under uncertainty",
+   "definition": "When information flows are somewhat random and it is unclear where outside knowledge will apply, it is better to expose a broad range of people to the environment than to rely on one central gatekeeper.",
+   "applies_when": "The account describes several team members, rather than one designated person, being in contact with outside information, and so picking up something that turned out to matter.",
+   "does_not_apply_when": "A single specialist monitors the outside world and translates technical information for others. The authors call this gatekeeping and say it suits information that is predictable or hard for others to take in.",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p006:02",
+    "cohen1990-c6e4e8:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c04"
+  },
+  {
+   "group": "background",
+   "label": "Knowing who knows what",
+   "definition": "Useful knowledge includes awareness of where complementary expertise sits inside and outside the organisation. A broad, active network of relationships, including with buyers and suppliers, strengthens this awareness.",
+   "applies_when": "The account shows someone using knowledge of who knows what, or their network of contacts, to make use of new information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p007:03",
+    "cohen1990-c6e4e8:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Lockout and blindness to opportunities",
+   "definition": "A person or firm that has not built related knowledge may not see the significance of signals, and so may fail to appreciate new opportunities when they arise. The authors call this lockout. Ideas too distant from the existing knowledge base can be neither appreciated nor taken up.",
+   "applies_when": "The account describes missing, dismissing or failing to see the value of information or an opportunity because it lay outside the person's or firm's knowledge base.",
+   "does_not_apply_when": "The opportunity was seen but deliberately turned down for other reasons, such as cost or strategy.",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p010:03",
+    "cohen1990-c6e4e8:p011:01",
+    "cohen1990-c6e4e8:p012:02"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    12
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Proactive opportunity orientation",
+   "definition": "Organisations with more expertise are more sensitive to emerging opportunities and set their aspirations by those opportunities. They act proactively rather than searching only after a performance failure.",
+   "applies_when": "The account describes actively scanning for and seizing opportunities independent of current performance, attributed to strong expertise.",
+   "does_not_apply_when": "The search for new options was set off by a failure such as falling profit or market share. The authors call this the reactive mode.",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p011:02",
+    "cohen1990-c6e4e8:p011:03",
+    "cohen1990-c6e4e8:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Overspecialisation narrows absorption",
+   "definition": "Excessive shared specialisation and learning by doing narrow the diversity of background. This can impede taking in outside knowledge and lead to the not-invented-here syndrome.",
+   "applies_when": "The account describes a narrowly focused team or person failing to take up outside ideas because everyone shares the same specialised knowledge or focus.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p007:02",
+    "cohen1990-c6e4e8:p008:02"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c08"
+  },
+  {
+   "group": "background",
+   "label": "Lucky insight from combined expertise",
+   "definition": "People who are creative, understand the state of the art and are closely coupled to the problems needing innovation may, 'if one is lucky', arrive at insights. This rests on firm-specific, tacit knowledge gained through experience inside the firm.",
+   "applies_when": "The account describes a lucky insight that the person explains by combining technical knowledge with close familiarity with a specific organisation's problems or needs.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Better judging the potential of advances",
+   "definition": "Related expertise lets a firm read intermediate signals and more accurately predict the nature and commercial potential of new developments. This in turn shapes its later investment.",
+   "applies_when": "The account shows prior expertise helping someone judge early on that a new development or piece of information had commercial potential, leading them to commit resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Investing to be a fast second",
+   "definition": "Firms may build general background knowledge, for example through basic research, not for specific results. The aim is to be able to exploit useful knowledge quickly when it appears, or to respond fast when competitors make a major advance.",
+   "applies_when": "The account describes building broad knowledge in advance so as to be ready to act quickly on developments that may arise.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1990-c6e4e8:p022:01"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "cohen1990-c6e4e8:c11"
+  }
+ ],
+ "removed": []
+}

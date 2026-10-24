@@ -1,0 +1,227 @@
+{
+ "paper_id": "baker2005-a11a8f",
+ "file": "papers/pdf/Baker and Nelson - 2005 - Creating Something from Nothing.pdf",
+ "about": [
+  "An inductive field study of 29 resource-constrained small firms that develops a definition and process model of entrepreneurial bricolage: making do by applying combinations of resources at hand to new problems and opportunities. Serendipity appears only in passing, as unexpected discoveries arising from combining what is at hand and as the folklore view of opportunity discovery that the authors set against enactment."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Resources behave unexpectedly",
+   "definition": "While carrying out a rough design with materials at hand, unexpected and idiosyncratic characteristics of those resources produce surprises. These surprises sometimes send people back to the drawing board but often trigger improvisation.",
+   "applies_when": "The account describes a plan or rough sketch hitting a snag because an available material, tool or input did not behave as anticipated, and the person then improvising a new approach.",
+   "does_not_apply_when": "The person abandons the effort or returns to formal planning after the surprise; the authors distinguish a 'return to the drawing board' from improvisation.",
+   "passage_ids": [
+    "baker2005-a11a8f:p032:03",
+    "baker2005-a11a8f:p033:01"
+   ],
+   "pdf_pages": [
+    32,
+    33
+   ],
+   "candidate_id": "baker2005-a11a8f:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recombination as a discovery process",
+   "definition": "Combining existing resources for purposes other than the ones they were intended for is treated as a discovery process rather than as joining known resources to get known outcomes. Development follows a meandering, path-dependent course driven by serendipitous combinations and by components put to unexpected uses.",
+   "applies_when": "Someone describes finding a new service, product or use by pasting together or reusing existing items (old components, failed parts, spare software) without a clear advance plan, and the result was not foreseen.",
+   "does_not_apply_when": "Resources are bought or built specifically for a planned task; the authors contrast this engineering model with bricolage.",
+   "passage_ids": [
+    "baker2005-a11a8f:p007:02",
+    "baker2005-a11a8f:p007:03",
+    "baker2005-a11a8f:p032:03"
+   ],
+   "pdf_pages": [
+    7,
+    32
+   ],
+   "candidate_id": "baker2005-a11a8f:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Social, interactive opportunity emergence",
+   "definition": "Opportunities emerge through give-and-take among several people who each know part of the resources at hand. They play around with components and talk repeatedly about different approaches, rather than one individual having an epiphany.",
+   "applies_when": "The account describes a possibility or opportunity emerging out of joint tinkering and repeated conversation among colleagues or partners.",
+   "does_not_apply_when": "A single entrepreneur reports a sudden individual insight or recognition of an opportunity; the authors contrast this with the Austrian view of lone alert individuals.",
+   "passage_ids": [
+    "baker2005-a11a8f:p031:03",
+    "baker2005-a11a8f:p032:01"
+   ],
+   "pdf_pages": [
+    31,
+    32
+   ],
+   "candidate_id": "baker2005-a11a8f:c03"
+  },
+  {
+   "group": "background",
+   "label": "Knowledge of resources at hand",
+   "definition": "Prior knowledge about the resources one already has at hand, together with vigilant alertness to other cheap or free resources, is what enables new combinations to be found. Alertness to resources matters as much as alertness to opportunities.",
+   "applies_when": "The person recognises that something they already have, or know about, can be combined to meet a problem, for example remembering a system from a former job.",
+   "does_not_apply_when": "The opportunity itself is the novel insight while the needed resources are sought elsewhere afterwards; that is the sequential view of discovering an opportunity first and then mobilising resources.",
+   "passage_ids": [
+    "baker2005-a11a8f:p031:01",
+    "baker2005-a11a8f:p031:02"
+   ],
+   "pdf_pages": [
+    31
+   ],
+   "candidate_id": "baker2005-a11a8f:c04"
+  },
+  {
+   "group": "background",
+   "label": "Accumulated odds-and-ends trove",
+   "definition": "Bricoleurs accumulate diverse physical items, skills and ideas on the principle that they 'may always come in handy', often by scavenging things others discard. Knowing what the trove contains shapes how new projects are approached.",
+   "applies_when": "The account mentions keeping or collecting miscellaneous parts, materials, skills or contacts with no specific project in mind and later drawing on them.",
+   "does_not_apply_when": "Inventory is acquired to meet the well-defined demands of a current project, as in the engineering model.",
+   "passage_ids": [
+    "baker2005-a11a8f:p008:01",
+    "baker2005-a11a8f:p016:02",
+    "baker2005-a11a8f:p017:01"
+   ],
+   "pdf_pages": [
+    8,
+    16,
+    17
+   ],
+   "candidate_id": "baker2005-a11a8f:c05"
+  },
+  {
+   "group": "background",
+   "label": "Hidden employee resources",
+   "definition": "When asked to solve problems without new money, employees call on resources that only they have at hand, such as favours from former coworkers or self-taught skills. Employers did not know about or anticipate these resources.",
+   "applies_when": "An employee unexpectedly brings personal contacts, past-job tools or amateur skills to solve a firm problem in a way the boss had not anticipated.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2005-a11a8f:p034:01",
+    "baker2005-a11a8f:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    34
+   ],
+   "candidate_id": "baker2005-a11a8f:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Testing received limitations",
+   "definition": "A conscious, often willful refusal to accept commonly held definitions, standards and practices about what inputs are and what they are for. The person insists on trying solutions and dealing with the results, and this is what lets novel services emerge from common inputs.",
+   "applies_when": "The person rejects or reframes the conventional view of a resource (for example, seeing waste or a nuisance as usable) and actively tries it out.",
+   "does_not_apply_when": "The firm sticks to standard procedures and equipment and declines work it is not formally equipped for; the authors' no-bricolage firms illustrate this.",
+   "passage_ids": [
+    "baker2005-a11a8f:p006:01",
+    "baker2005-a11a8f:p007:01",
+    "baker2005-a11a8f:p014:02"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    14
+   ],
+   "candidate_id": "baker2005-a11a8f:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Penurious environment",
+   "definition": "An environment presents new challenges, whether problems or opportunities, without providing new resources. Firms can respond by seeking resources, by avoiding the challenge, or by engaging in bricolage.",
+   "applies_when": "The account describes facing a new problem or opportunity with no new money or resources, and choosing to make do.",
+   "does_not_apply_when": "The firm responds by raising external funding or by avoiding the challenge (staying inert, downsizing, disbanding); these are the alternative paths.",
+   "passage_ids": [
+    "baker2005-a11a8f:p025:01",
+    "baker2005-a11a8f:p025:02"
+   ],
+   "pdf_pages": [
+    25
+   ],
+   "candidate_id": "baker2005-a11a8f:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Supervisor requests and permissions",
+   "definition": "Supervisors ask employees to solve problems without spending money and implicitly or explicitly remove assumed limitations, signalling tolerance for shortcuts. This licenses employees to engage in bricolage.",
+   "applies_when": "A boss asks someone to 'do whatever they can' with no budget and signals that imperfect workarounds are acceptable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2005-a11a8f:p022:03",
+    "baker2005-a11a8f:p023:01"
+   ],
+   "pdf_pages": [
+    22,
+    23
+   ],
+   "candidate_id": "baker2005-a11a8f:c09"
+  },
+  {
+   "group": "role",
+   "label": "Successive opportunities from by-products",
+   "definition": "One use of bricolage generates consequences, such as waste heat, clean water or visibility, that the entrepreneur then realises can be exploited. This leads venture activity into new and unrelated lines of business in a progression.",
+   "applies_when": "The person describes noticing that a by-product or result of an earlier project could support a new business line and then launching it.",
+   "does_not_apply_when": "New business lines are planned in advance, independently of the results of prior projects.",
+   "passage_ids": [
+    "baker2005-a11a8f:p014:01",
+    "baker2005-a11a8f:p024:02",
+    "baker2005-a11a8f:p024:03"
+   ],
+   "pdf_pages": [
+    14,
+    24
+   ],
+   "candidate_id": "baker2005-a11a8f:c10"
+  },
+  {
+   "group": "role",
+   "label": "Selective versus parallel bricolage",
+   "definition": "Firms that use bricolage across many domains at once become locked into a permissive community and identity that stalls growth. Firms that use it selectively or temporarily, and later enact limitations, are more likely to grow.",
+   "applies_when": "The account shows bricolage being used to start or transform a venture and then deliberately abandoned or confined to one or two domains, or else spreading across all areas of operation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2005-a11a8f:p021:01",
+    "baker2005-a11a8f:p021:02",
+    "baker2005-a11a8f:p026:02"
+   ],
+   "pdf_pages": [
+    21,
+    26
+   ],
+   "candidate_id": "baker2005-a11a8f:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Novel services and occasional innovation",
+   "definition": "Bricolage creates novel services from inputs others reject, sometimes with brilliant unforeseen results. Most results are one-time solutions, but occasionally they yield replicable product or process innovations.",
+   "applies_when": "An unplanned recombination yields a new service, product or replicable process; a coder should note whether it was a one-off fix or a reusable innovation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2005-a11a8f:p006:01",
+    "baker2005-a11a8f:p034:02"
+   ],
+   "pdf_pages": [
+    6,
+    34
+   ],
+   "candidate_id": "baker2005-a11a8f:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Serendipity or alertness as discovery",
+   "definition": "The view that opportunities are pre-existing objective phenomena, discovered through alertness or through 'the serendipity popular in entrepreneurial folklore', and then evaluated before resources are mobilised. The authors argue that such orderly sequences are the exception and that opportunities are mostly enacted through bricolage.",
+   "applies_when": "The person narrates an opportunity as already out there, found by luck or alertness and then pursued by gathering resources, rather than as constructed out of the resources at hand.",
+   "does_not_apply_when": "The opportunity emerged only because of the particular resources and activities of the firm; the authors call this enactment.",
+   "passage_ids": [
+    "baker2005-a11a8f:p030:02",
+    "baker2005-a11a8f:p030:03",
+    "baker2005-a11a8f:p031:01"
+   ],
+   "pdf_pages": [
+    30,
+    31
+   ],
+   "candidate_id": "baker2005-a11a8f:c13"
+  }
+ ],
+ "removed": []
+}

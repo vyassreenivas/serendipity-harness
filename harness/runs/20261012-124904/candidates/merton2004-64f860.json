@@ -1,0 +1,206 @@
+{
+ "paper_id": "merton2004-64f860",
+ "file": "papers/pdf/Merton and Barber - 2004 - Moral Implications of Serendipity.pdf",
+ "about": [
+  "A book chapter by Merton and Barber on how people in different social positions (collectors, doctors, scientists) interpret, explain and justify happy accidental discoveries (serendipity) as unexpected good luck that raises problems of merit, responsibility and reputation."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Happy accidental discovery",
+   "definition": "Serendipity refers to happy accidents: unexpected, unanticipated good fortune or discoveries that form important chance components in the success of a person's enterprise.",
+   "applies_when": "An account describes an unplanned, fortunate discovery or turn of events that contributed to the success of what the person was pursuing.",
+   "does_not_apply_when": "The outcome was anticipated and followed from planned effort, or the unexpected event was a misfortune. The authors set aside unexpected ill fortune as a separate problem.",
+   "passage_ids": [
+    "merton2004-64f860:p002:02",
+    "merton2004-64f860:p003:01",
+    "merton2004-64f860:p009:02"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    9
+   ],
+   "candidate_id": "merton2004-64f860:c01"
+  },
+  {
+   "group": "account",
+   "label": "Asking why and whether deserved",
+   "definition": "People overwhelmed by unexpected good fortune ask a two-fold 'why': what explains where the good fortune came from, and what they did to deserve it.",
+   "applies_when": "A person reflecting on a lucky break asks how it came about and whether they earned or deserved it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p003:03",
+    "merton2004-64f860:p004:03"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "merton2004-64f860:c02"
+  },
+  {
+   "group": "account",
+   "label": "Showing luck was earned",
+   "definition": "Because too much good luck is suspect, a fortunate person must show that the success was really earned through effort. Failing that, they must show it came from accidental circumstances that fructified their efforts beyond expectation, rather than from sloth. They must not appear 'merely lucky'.",
+   "applies_when": "A narrator stresses their striving, effort or competence alongside a lucky event, or frames the chance event as multiplying work they were already doing.",
+   "does_not_apply_when": "The narrator openly attributes the outcome to pure chance without any reference to their own effort or merit.",
+   "passage_ids": [
+    "merton2004-64f860:p005:02",
+    "merton2004-64f860:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "merton2004-64f860:c03"
+  },
+  {
+   "group": "account",
+   "label": "Luck evens out over time",
+   "definition": "A lucky person may defend against moral discomfort by reminding others that they have had their share of bad luck in the past, so that over the long run justice is being done.",
+   "applies_when": "A narrator balances a lucky break against earlier misfortunes to suggest the good fortune was due.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p005:03",
+    "merton2004-64f860:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "merton2004-64f860:c04"
+  },
+  {
+   "group": "account",
+   "label": "Pluck and luck",
+   "definition": "Secular doctrines, such as the idea of 'pluck and luck', imply that success requires both good personal qualities and some 'breaks'. These doctrines partly shift the burden of undeserved success away from the individual. The exemption holds only if the person makes the most of the resources available to them.",
+   "applies_when": "A narrator says success needs both personal qualities or preparation and some breaks, or that they made the most of the opportunities that came their way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p006:02",
+    "merton2004-64f860:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-64f860:c05"
+  },
+  {
+   "group": "account",
+   "label": "Explaining versus justifying luck",
+   "definition": "Those without professional responsibility, such as collectors, may try to explain the sources of their lucky finds but feel no need to justify them. Responsible professionals must justify unexpected success to protect their reputations.",
+   "applies_when": "A narrator either simply recounts how a lucky find happened, or defends its legitimacy to peers or stakeholders. The coder should note which of the two is happening.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p009:01",
+    "merton2004-64f860:p009:02",
+    "merton2004-64f860:p008:02"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "merton2004-64f860:c06"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as value inkblot",
+   "definition": "Serendipity can become an inkblot onto which people project broader value preferences. Their answers vary to whether happy accidents really happen, how they happen, and whether they are justified, even when they draw on the same facts.",
+   "applies_when": "A narrator's interpretation of a chance event (denying it, explaining its workings, or justifying it) reflects their wider values or worldview.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p009:03",
+    "merton2004-64f860:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "merton2004-64f860:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Structured uncertainty / low control",
+   "definition": "People whose roles give them little control over the conditions of success face structured uncertainty. They are therefore more exposed to chance success and failure, for example a door-to-door salesman as opposed to a railway switch operator.",
+   "applies_when": "The account describes work where the conditions of success are neither formulated nor insured, so outcomes depend heavily on chance.",
+   "does_not_apply_when": "The work is routinised, so that uncertainty has been rationally minimised.",
+   "passage_ids": [
+    "merton2004-64f860:p007:01",
+    "merton2004-64f860:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-64f860:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Working at the frontier of innovation",
+   "definition": "Activities aimed at innovating, at the frontier of knowledge, carry limited ability to predict results. In such work unexpected successes are especially salient and conspicuous.",
+   "applies_when": "The person is pursuing something novel where results cannot be predicted, and unexpected improvements emerge.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p008:01",
+    "merton2004-64f860:p008:03",
+    "merton2004-64f860:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "merton2004-64f860:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Responsibility makes luck problematic",
+   "definition": "Chance success becomes a problem only when the person holds themselves, and is held by others, responsible for skilled use of their knowledge. In that case unexplained luck threatens the basis on which others judge their competence.",
+   "applies_when": "A narrator who is accountable to peers, clients or investors expresses concern that a lucky result might be read as lack of skill.",
+   "does_not_apply_when": "The person faces chance outcomes without being accountable to others for results, as with hobbyists or collectors.",
+   "passage_ids": [
+    "merton2004-64f860:p007:02",
+    "merton2004-64f860:p009:01"
+   ],
+   "pdf_pages": [
+    7,
+    9
+   ],
+   "candidate_id": "merton2004-64f860:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Bittersweet undeserved success",
+   "definition": "Unanticipated good fortune can be hard to bear. It brings moral discomfort, self-doubt and the risk of denigration, because too much good luck is suspect and can damage how others evaluate the person.",
+   "applies_when": "A narrator expresses unease, self-doubt, or fear of others' ridicule or reassessment following a lucky success.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p003:01",
+    "merton2004-64f860:p005:02",
+    "merton2004-64f860:p006:01"
+   ],
+   "pdf_pages": [
+    3,
+    5,
+    6
+   ],
+   "candidate_id": "merton2004-64f860:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Missed discoveries and regret",
+   "definition": "Chance discoveries can also be missed. Missed discoveries may cause retrospective regret, and where reputation hinges on discovery they may even lead people to claim the discovery after the fact.",
+   "applies_when": "A narrator recounts a chance opportunity they failed to notice or act on, and the regret or reputational response that followed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-64f860:p009:01"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "merton2004-64f860:c12"
+  }
+ ],
+ "removed": []
+}

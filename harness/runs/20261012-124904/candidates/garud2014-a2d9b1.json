@@ -1,0 +1,153 @@
+{
+ "paper_id": "garud2014-a2d9b1",
+ "file": "papers/pdf/Garud et al - 2014 - Entrepreneurial Storytelling, Future Expectations, and the Paradox of Legitimacy.pdf",
+ "about": [
+  "A conceptual paper on how entrepreneurs' forward-looking stories build venture legitimacy by setting expectations, how unforeseen contingencies and shifts in collective expectations lead to disappointment and lost legitimacy, and how revised storytelling (replotting, reconfiguring links, pivoting) can restore it. It does not discuss serendipity as such but treats unexpected events and venture redirection."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Unforeseen venture-level contingencies",
+   "definition": "Uncertainties hidden by early stories surface as unforeseeable events: technologies do not perform as projected, partners pursue their own strategies, and customer preferences change as they try the offering. These push the venture off its projected path.",
+   "applies_when": "An account describes an unexpected technical, relational or customer development that the founders had not anticipated and that forced them to rethink the venture's direction.",
+   "does_not_apply_when": "The deviation stems from a broad, industry-wide shift in collective expectations (see legitimacy jolt), or from founders simply being over-optimistic in their projections.",
+   "passage_ids": [
+    "garud2014-a2d9b1:p007:02",
+    "garud2014-a2d9b1:p012:02"
+   ],
+   "pdf_pages": [
+    7,
+    12
+   ],
+   "candidate_id": "garud2014-a2d9b1:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Environmental legitimacy jolt",
+   "definition": "A shift or collective disappointment in field-wide expectations, such as the dot-com bust, that hits ventures tied to those expectations. The venture is affected even when its own progress is on plan.",
+   "applies_when": "An account describes an external, industry-wide change in sentiment or category meaning that unexpectedly altered how stakeholders viewed the venture.",
+   "does_not_apply_when": "The problem originates inside the venture, for example missed milestones or a failed technology.",
+   "passage_ids": [
+    "garud2014-a2d9b1:p008:01",
+    "garud2014-a2d9b1:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "garud2014-a2d9b1:c02"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the venture (pivot)",
+   "definition": "After unexpected setbacks, entrepreneurs replot the venture's story and modify aspirations, the business model and its structure, often keeping the same people and capabilities. Odeo becoming Twitter is the example given.",
+   "applies_when": "An account describes changing the venture's focus or business model in response to changed circumstances while retaining core team or resources.",
+   "does_not_apply_when": "The founders persist with the original plan despite setbacks (see escalation of commitment).",
+   "passage_ids": [
+    "garud2014-a2d9b1:p009:01",
+    "garud2014-a2d9b1:p009:03",
+    "garud2014-a2d9b1:p011:06"
+   ],
+   "pdf_pages": [
+    9,
+    11
+   ],
+   "candidate_id": "garud2014-a2d9b1:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reusing dead ends and prior elements",
+   "definition": "Reformulated plans selectively build on earlier ties, technologies and capabilities that would otherwise be seen as mistakes or dead ends, and add new ties, in order to pursue a modified goal.",
+   "applies_when": "An account describes salvaging a previously failed or abandoned element (a technology, relationship or skill) and putting it to a new use in the venture.",
+   "does_not_apply_when": "The element is dropped entirely to distance the venture from a discredited association.",
+   "passage_ids": [
+    "garud2014-a2d9b1:p009:05",
+    "garud2014-a2d9b1:p009:04"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "garud2014-a2d9b1:c04"
+  },
+  {
+   "group": "outcome",
+   "label": "Reframing around unintended benefits",
+   "definition": "A product is repositioned by stressing advantages it was not developed for, as with the enzyme Gemmase's environmental benefits. This new linkage helps mobilise new resources and commitment.",
+   "applies_when": "An account describes discovering or emphasising a benefit or use of the product that was not its original purpose, and using it to win support or redirect the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2014-a2d9b1:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "garud2014-a2d9b1:c05"
+  },
+  {
+   "group": "account",
+   "label": "Narrative reinterpretation of the past",
+   "definition": "Entrepreneurs continually reframe past events and future aspirations, renarrating what happened so the revised story builds on the past yet fits changed circumstances.",
+   "applies_when": "An interviewee retells earlier events in a new light to make sense of what transpired and to justify a new direction.",
+   "does_not_apply_when": "The interviewee blames outside factors or scapegoats others for failures. The authors treat this as an excuse that can backfire, not as reinterpretation.",
+   "passage_ids": [
+    "garud2014-a2d9b1:p012:02",
+    "garud2014-a2d9b1:p009:03"
+   ],
+   "pdf_pages": [
+    9,
+    12
+   ],
+   "candidate_id": "garud2014-a2d9b1:c06"
+  },
+  {
+   "group": "background",
+   "label": "Stakeholder involvement supplying new ideas",
+   "definition": "After setbacks, stakeholders become more involved, help make sense of what happened and what is now possible, and provide new ideas that entrepreneurs evaluate and co-create into a revised story.",
+   "applies_when": "An account describes investors, partners or other stakeholders contributing ideas that shaped a new venture direction after an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2014-a2d9b1:p010:01",
+    "garud2014-a2d9b1:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "garud2014-a2d9b1:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Pliability of prior commitments",
+   "definition": "Whether a venture can be redirected depends on how flexible earlier commitments are and how fungible start-up investments are. Lost credibility and stakeholder skepticism also constrain it.",
+   "applies_when": "An account mentions that prior commitments, sunk investments or damaged credibility enabled or limited the ability to change course.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2014-a2d9b1:p009:06",
+    "garud2014-a2d9b1:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "garud2014-a2d9b1:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Self-reinforcing stories blocking change",
+   "definition": "Dominant early stories can stop entrepreneurs from questioning prior assumptions even in a crisis. This produces cognitive and behavioural constraints and escalation of commitment to a failing course.",
+   "applies_when": "An account describes founders holding to the original plan or story despite clear signs it was failing, or being unable to see alternatives.",
+   "does_not_apply_when": "The founders deliberately chose to persist after considering alternatives and revising the story.",
+   "passage_ids": [
+    "garud2014-a2d9b1:p008:04",
+    "garud2014-a2d9b1:p010:03"
+   ],
+   "pdf_pages": [
+    8,
+    10
+   ],
+   "candidate_id": "garud2014-a2d9b1:c09"
+  }
+ ],
+ "removed": []
+}

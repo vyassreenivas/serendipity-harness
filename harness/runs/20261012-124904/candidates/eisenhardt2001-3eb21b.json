@@ -1,0 +1,232 @@
+{
+ "paper_id": "eisenhardt2001-3eb21b",
+ "file": "papers/pdf/Eisenhardt and Sull - 2001 - Strategy as Simple Rules.pdf",
+ "about": [
+  "A practitioner article arguing that in turbulent markets firms succeed by seizing unanticipated, fleeting opportunities. Firms do this by focusing on a few key processes guided by a handful of simple rules, rather than by defending positions or leveraging resources."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Unanticipated fleeting opportunity",
+   "definition": "Success in fast-moving markets comes from capturing opportunities that were not anticipated and that will not last long, rather than from planned positions or resources.",
+   "applies_when": "An account describes an opportunity that appeared unexpectedly and had to be acted on quickly before it disappeared.",
+   "does_not_apply_when": "The opportunity was identified through planned positioning or deliberate analysis of an attractive market.",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p004:03",
+    "eisenhardt2001-3eb21b:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c01"
+  },
+  {
+   "group": "condition",
+   "label": "Jumping into uncertainty",
+   "definition": "Managers deliberately enter chaotic, uncertain markets because that is where the richest opportunities lie, instead of avoiding uncertainty.",
+   "applies_when": "A founder or manager describes deliberately seeking out confusing, unstable or deregulating markets in order to encounter opportunities.",
+   "does_not_apply_when": "Entry into a stable, well-structured market chosen for its defensible position.",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p010:04",
+    "eisenhardt2001-3eb21b:p004:04",
+    "eisenhardt2001-3eb21b:p004:02"
+   ],
+   "pdf_pages": [
+    4,
+    10
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c02"
+  },
+  {
+   "group": "condition",
+   "label": "Positioning in opportunity flow",
+   "definition": "Firms choose key processes, such as product innovation, partnering, spinouts or market entry, that put them where the flow of opportunities is swiftest and deepest.",
+   "applies_when": "An account describes setting up an activity or process specifically so that more opportunities come the firm's way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p005:01",
+    "eisenhardt2001-3eb21b:p008:02"
+   ],
+   "pdf_pages": [
+    5,
+    8
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Probing and building on forays",
+   "definition": "Managers probe for opportunities through small moves, build on the forays that succeed, and shift flexibly among opportunities as circumstances dictate.",
+   "applies_when": "A person describes trying small experiments or moves, then expanding the ones that worked and moving on from others.",
+   "does_not_apply_when": "Large committed bets made according to a fixed plan.",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p004:02",
+    "eisenhardt2001-3eb21b:p010:04",
+    "eisenhardt2001-3eb21b:p010:05"
+   ],
+   "pdf_pages": [
+    4,
+    10
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reinforcing unexpected winners",
+   "definition": "Because no one can predict which initiatives will take off, managers back moves that gain traction even when those successes run counter to their preconceived notions of what should work.",
+   "applies_when": "An account shows a person recognising and backing a success that fell outside their core business or their expectations, as with Enron and fiber-optic cable.",
+   "does_not_apply_when": "Backing an initiative that went as originally expected.",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p011:03",
+    "eisenhardt2001-3eb21b:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Salvaging and recombining after failure",
+   "definition": "When a move fails, managers salvage the parts that worked and recombine them with other resources to create new opportunities.",
+   "applies_when": "A person describes rescuing a piece of a failed venture or deal and combining it with existing expertise to start something new.",
+   "does_not_apply_when": "Simply exiting a failed initiative without reuse, which the authors treat separately as cutting losses.",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c06"
+  },
+  {
+   "group": "background",
+   "label": "Abundant genetic material",
+   "definition": "Recombination works especially well for firms that have an abundance of technologies, products and expertise available for creative combinations.",
+   "applies_when": "An account credits a stock of existing technologies, products or know-how as what made a new combination or opportunity possible.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Initial moves unearth further opportunities",
+   "definition": "In chaotic markets an initial move rarely yields clear success by itself. Instead, it uncovers subsequent opportunities that may prove huge.",
+   "applies_when": "A person describes a first venture or move leading them to a later, larger opportunity they had not foreseen.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p011:05"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c08"
+  },
+  {
+   "group": "role",
+   "label": "Finishing strong",
+   "definition": "When a big opportunity is discovered, managers rapidly redeploy resources to reinforce and scale it rather than retreating tentatively.",
+   "applies_when": "An account describes rapidly scaling or committing resources once an emergent opportunity showed traction.",
+   "does_not_apply_when": "Tentative or cautious follow-up, which the authors identify as the key risk.",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p011:05",
+    "eisenhardt2001-3eb21b:p005:03"
+   ],
+   "pdf_pages": [
+    5,
+    11
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Simple rules enable seizing ideas",
+   "definition": "A few clear rules provide just enough structure that people are free to run with a great idea when it occurs to them. An example is the Yahoo! developer who built a hit soccer page overnight.",
+   "applies_when": "A person describes acting immediately on a spontaneous idea because they knew the boundaries they had to stay within.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p006:03",
+    "eisenhardt2001-3eb21b:p006:02",
+    "eisenhardt2001-3eb21b:p007:03"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Too many or too few rules",
+   "definition": "Thick rulebooks keep managers from seeing opportunities and moving quickly. Too few rules leave them chasing too many opportunities or confused about which to pursue.",
+   "applies_when": "An account attributes missed opportunities to rigid procedures, or attributes scattered, unproductive pursuit of opportunities to a lack of guidelines.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p008:03",
+    "eisenhardt2001-3eb21b:p009:01",
+    "eisenhardt2001-3eb21b:p009:02"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Boundary rules for screening opportunities",
+   "definition": "Rules about customers, geography or technology help managers sort quickly through many opportunities and decide which to pursue.",
+   "applies_when": "A person describes using explicit criteria to decide which unexpected opportunities to take up and which to pass on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p006:04",
+    "eisenhardt2001-3eb21b:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Industry structure or resources",
+   "definition": "Traditional explanations attribute success to an attractive industry structure or to unique, valuable resources. The authors argue these cannot explain firms like Yahoo!, which instead succeeded by seizing opportunities.",
+   "applies_when": "An account explains a venture's success by its market position or its superior resources rather than by opportunities it seized.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p004:01",
+    "eisenhardt2001-3eb21b:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c13"
+  },
+  {
+   "group": "account",
+   "label": "Seen as aimless opportunism",
+   "definition": "From the outside, opportunity-seizing firms appear to follow an 'if it works, anything goes' approach and to lack strategy, for example AOL being called the cockroach of the Internet. The authors argue the firms are in fact following a disciplined strategy.",
+   "applies_when": "A person describes how others viewed their shifting from opportunity to opportunity as having no strategy, or defends it as disciplined.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eisenhardt2001-3eb21b:p004:04",
+    "eisenhardt2001-3eb21b:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "eisenhardt2001-3eb21b:c14"
+  }
+ ],
+ "removed": []
+}

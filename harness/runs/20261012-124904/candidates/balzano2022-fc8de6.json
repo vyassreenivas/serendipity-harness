@@ -1,0 +1,696 @@
+{
+ "paper_id": "balzano2022-fc8de6",
+ "file": "papers/pdf/Balzano - 2022 - Serendipity in Management Studies.pdf",
+ "about": [
+  "A bibliometric and systematic literature review of management research on serendipity, organising it into conceptual boundaries, conditions and outcomes, foreign market entry, and networks and assets."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Search leading to unintended discovery",
+   "definition": "Serendipity is a search that ends in a discovery that was not intended, combining searching, contingency and prior knowledge.",
+   "applies_when": "The account describes actively looking or working on something and finding something valuable that was not the aim of the search.",
+   "does_not_apply_when": "A pure windfall with no searching or prior knowledge involved; the author separates serendipity from mere accidents and chance events.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p002:01",
+    "balzano2022-fc8de6:p013:02",
+    "balzano2022-fc8de6:p007:02"
+   ],
+   "pdf_pages": [
+    2,
+    7,
+    13
+   ],
+   "candidate_id": "balzano2022-fc8de6:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Distinct from pure chance or accident",
+   "definition": "Serendipity is a specific type of luck, a capability rather than an event, distinct from randomness, providence, accidental occurrences and chance events; accidental discoveries become serendipity only when capabilities extract value from them.",
+   "applies_when": "The person describes an unexpected occurrence and also their own ability or effort in exploiting it.",
+   "does_not_apply_when": "The person attributes the outcome purely to random fortune with no recognition or exploitation on their part.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "balzano2022-fc8de6:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Positive happy accident",
+   "definition": "Serendipity is positive in nature, concerned with 'happy accidents' and often linked to momentous turning points.",
+   "applies_when": "An unexpected event is narrated as beneficial and as a turning point for the business.",
+   "does_not_apply_when": "Unexpected negative outcomes the firm brings on itself (zemblanity).",
+   "passage_ids": [
+    "balzano2022-fc8de6:p013:02",
+    "balzano2022-fc8de6:p007:01"
+   ],
+   "pdf_pages": [
+    7,
+    13
+   ],
+   "candidate_id": "balzano2022-fc8de6:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Sagacity in searching",
+   "definition": "Serendipity emerges from searching with sagacity: the shrewdness to recognise the value of what is encountered.",
+   "applies_when": "The person describes noticing and grasping the significance of something unexpected while searching.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p007:01",
+    "balzano2022-fc8de6:p010:03"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c04"
+  },
+  {
+   "group": "type",
+   "label": "Systematic exploration, spontaneous recognition, prediscovery",
+   "definition": "Following Dew, different configurations of search, prior knowledge and contingency are distinguished as systematic exploration, spontaneous recognition and prediscovery.",
+   "applies_when": "The account can be characterised by which combination of active search, prior knowledge and chance produced the discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p007:01",
+    "balzano2022-fc8de6:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "balzano2022-fc8de6:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Synthesis of preparation and openness",
+   "definition": "Serendipity is an effortful, dialectical process that synthesises preparation and openness through generative doubt; a practical accomplishment combining the existing and the new.",
+   "applies_when": "The person describes being prepared while also open to and questioning around the unexpected, leading to a creative combination.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:01",
+    "balzano2022-fc8de6:p012:04",
+    "balzano2022-fc8de6:p016:01"
+   ],
+   "pdf_pages": [
+    8,
+    12,
+    16
+   ],
+   "candidate_id": "balzano2022-fc8de6:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Surprise",
+   "definition": "Serendipity emerges from surprise, not from the systematic application of what is already thought.",
+   "applies_when": "The account describes being surprised by something that departed from expectations and that sparked a new direction.",
+   "does_not_apply_when": "Results that follow straightforwardly from a planned approach.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "balzano2022-fc8de6:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "Errors and sloppiness",
+   "definition": "Serendipity is often induced by errors, so it may be enhanced by controlled 'sloppiness'.",
+   "applies_when": "A mistake or imprecise procedure led to an unexpected valuable finding.",
+   "does_not_apply_when": "Unfocused activity without capability to exploit; the author notes searching for serendipity does not mean more unfocused research.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p007:02",
+    "balzano2022-fc8de6:p007:03"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "balzano2022-fc8de6:c08"
+  },
+  {
+   "group": "type",
+   "label": "Technological recombination modes",
+   "definition": "In technological contexts serendipity can arise from combining different technologies, applying a technology to a different field, or using AI and machine learning.",
+   "applies_when": "An unexpected opportunity came from combining technologies or transferring a technology to a new domain.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p006:02",
+    "balzano2022-fc8de6:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "balzano2022-fc8de6:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Solution before problem",
+   "definition": "Firms may serendipitously discover a solution and only then identify the problem or need it addresses (need–solution pairs, Type 2 problem solving).",
+   "applies_when": "The person found something useful first and later realised what problem or market it could serve.",
+   "does_not_apply_when": "Top-down problem solving that starts with a stated problem and searches for a solution.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:02",
+    "balzano2022-fc8de6:p008:03",
+    "balzano2022-fc8de6:p012:02"
+   ],
+   "pdf_pages": [
+    8,
+    12
+   ],
+   "candidate_id": "balzano2022-fc8de6:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Normative firm-centric strategy",
+   "definition": "Critics argue that value creation is better explained by normative, firm-centric theories and planned problem formulation than by serendipity.",
+   "applies_when": "The account attributes the outcome to deliberate problem formulation and strategy rather than an unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:02",
+    "balzano2022-fc8de6:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "balzano2022-fc8de6:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Exaptation of existing traits",
+   "definition": "Existing discoveries or traits are co-opted for new uses or functions; sometimes such new uses can be anticipated.",
+   "applies_when": "Something developed for one purpose is repurposed for a different function or market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:02",
+    "balzano2022-fc8de6:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "balzano2022-fc8de6:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Intentional radical innovation",
+   "definition": "Some radical innovations arise from intention through innovation regimes coordinating and directing effort, not serendipity.",
+   "applies_when": "A breakthrough is described as the result of coordinated, directed intention.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:03",
+    "balzano2022-fc8de6:p008:04"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "balzano2022-fc8de6:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Entrepreneurial action",
+   "definition": "Entrepreneurial actions—creating, attracting and combining resources to capture emergent opportunities—increase the chances of serendipity.",
+   "applies_when": "The person was actively mobilising resources and pursuing opportunities when the unexpected arose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:01"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "balzano2022-fc8de6:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Complexity and rich projects",
+   "definition": "Complexity involving multiple actors, artifacts and practices open to evolution favours nonlinear dynamics and serendipitous outcomes.",
+   "applies_when": "The account describes involvement in rich, multi-actor projects from which unexpected outcomes emerged.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:01",
+    "balzano2022-fc8de6:p012:03"
+   ],
+   "pdf_pages": [
+    9,
+    12
+   ],
+   "candidate_id": "balzano2022-fc8de6:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Diversity and cross-boundary collaboration",
+   "definition": "Diversity, cross-organisational responsibilities, social intertwining and workplace collaborations combine diverse expertise and enhance serendipity.",
+   "applies_when": "The unexpected discovery came from interacting with people of different expertise or across organisational boundaries.",
+   "does_not_apply_when": "Mere co-location; the author notes collaborative buildings and interaction are insufficient conditions.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:01",
+    "balzano2022-fc8de6:p009:03",
+    "balzano2022-fc8de6:p011:04"
+   ],
+   "pdf_pages": [
+    9,
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Improvisation and informal structure",
+   "definition": "Organisational improvisation is positively related to serendipity in start-ups, and informal structures strengthen the link between serendipity and performance.",
+   "applies_when": "The venture improvised or operated informally, enabling it to act on unexpected events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "balzano2022-fc8de6:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Flexibility vs rigid plans",
+   "definition": "Adaptive paradigms and emergent strategies favour serendipity; rigid adherence to predefined plans hinders its emergence and the realisation of its value.",
+   "applies_when": "The person describes departing from or not having a fixed plan, or adapting strategy when something unexpected came up.",
+   "does_not_apply_when": "Strict execution of a predefined plan, which the author says inhibits serendipity.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p003:01",
+    "balzano2022-fc8de6:p010:03",
+    "balzano2022-fc8de6:p013:01"
+   ],
+   "pdf_pages": [
+    3,
+    10,
+    13
+   ],
+   "candidate_id": "balzano2022-fc8de6:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Cooperative climate and non-conformity",
+   "definition": "Cooperative work climates and non-conformity orientations influence whether serendipity emerges from internal and external information respectively.",
+   "applies_when": "The account refers to a cooperative atmosphere or a non-conforming attitude enabling unexpected discoveries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "balzano2022-fc8de6:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Identity threats",
+   "definition": "Identity threats during acquisitions can stimulate mobilising and mitigating actions that foster serendipitous value creation.",
+   "applies_when": "A perceived threat to identity prompted actions that led to unexpected value.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "balzano2022-fc8de6:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Communication and social media",
+   "definition": "Effective communication strategies and strategic use of social media increase the likelihood of serendipity by promoting connections.",
+   "applies_when": "Unexpected opportunities arose through communication channels or social media connections.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:04"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "balzano2022-fc8de6:c21"
+  },
+  {
+   "group": "condition",
+   "label": "Similar knowledge levels in encounters",
+   "definition": "Serendipitous encounters are more likely to generate new knowledge when the parties have similar levels of knowledge.",
+   "applies_when": "A chance meeting with someone of comparable expertise produced new knowledge or ideas.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:04",
+    "balzano2022-fc8de6:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c22"
+  },
+  {
+   "group": "condition",
+   "label": "Low prior knowledge",
+   "definition": "A low degree of knowledge can stimulate serendipity; firms with little prior international knowledge rely more on opportunity discovery than systematic strategy.",
+   "applies_when": "The person lacked prior experience in a domain and so relied on opportunities as they turned up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c23"
+  },
+  {
+   "group": "condition",
+   "label": "Opportunity search and openness to reformulation",
+   "definition": "Pronounced opportunity search and openness to reformulating strategy enhance chances of serendipitous internationalisation.",
+   "applies_when": "The person actively scanned for opportunities and was willing to change strategy.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c24"
+  },
+  {
+   "group": "condition",
+   "label": "SME resource limits",
+   "definition": "SMEs, with limited resources and difficulty anticipating the unexpected, are more exposed to serendipity in internationalisation than large firms.",
+   "applies_when": "A small venture's lack of resources or planning made it dependent on chance developments.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p011:01"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c25"
+  },
+  {
+   "group": "background",
+   "label": "Ecosystem embeddedness",
+   "definition": "Incubators, universities and regional networks foster network embeddedness, creating an environment for serendipity.",
+   "applies_when": "The person was embedded in an incubator, university or regional network where unexpected connections arose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p012:01"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "balzano2022-fc8de6:c26"
+  },
+  {
+   "group": "background",
+   "label": "Knowledge-rich regions and absorptive capacity",
+   "definition": "Serendipitous knowledge acquisition contributes to new venture formation especially in knowledge-rich areas with high absorptive capacity; effects vary with ambient knowledge.",
+   "applies_when": "The venture formed after picking up knowledge informally in a knowledge-dense setting.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p011:03",
+    "balzano2022-fc8de6:p015:02"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "balzano2022-fc8de6:c27"
+  },
+  {
+   "group": "background",
+   "label": "Prior experience and resource endowments",
+   "definition": "Discovery and exploitation of strategic opportunities arise from a combination of prior experience, resource endowments, serendipity and managerial cognition.",
+   "applies_when": "The account links the unexpected opportunity to the person's prior experience or existing resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c28"
+  },
+  {
+   "group": "mechanism",
+   "label": "Entrepreneurial attitude to exploit events",
+   "definition": "Fortuitous events are not important in themselves; the entrepreneurial attitude and capability to identify, adapt to and exploit them is the determinant of serendipitous value.",
+   "applies_when": "The person emphasises their readiness and prompt adaptation in response to an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:02",
+    "balzano2022-fc8de6:p010:03",
+    "balzano2022-fc8de6:p013:01"
+   ],
+   "pdf_pages": [
+    10,
+    13
+   ],
+   "candidate_id": "balzano2022-fc8de6:c29"
+  },
+  {
+   "group": "mechanism",
+   "label": "Managerial cognition and attention",
+   "definition": "Managerial cognition, intuition and attention are crucial to take advantage of opportunities arising serendipitously.",
+   "applies_when": "The account emphasises noticing, intuition or thinking that allowed the opportunity to be grasped.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p007:01",
+    "balzano2022-fc8de6:p008:03"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "balzano2022-fc8de6:c30"
+  },
+  {
+   "group": "trigger",
+   "label": "Third party informs or connects",
+   "definition": "Other actors can serendipitously trigger market entry by informing firms about opportunities or creating new links with customers or partners.",
+   "applies_when": "Someone unexpectedly told the person of an opportunity or introduced them to a customer or partner.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c31"
+  },
+  {
+   "group": "role",
+   "label": "Enabler of venture creation",
+   "definition": "Serendipity can enable the venture creation process itself and contribute to the formation of new business opportunities.",
+   "applies_when": "The venture originated in an unexpected discovery or encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:02",
+    "balzano2022-fc8de6:p007:03",
+    "balzano2022-fc8de6:p011:03"
+   ],
+   "pdf_pages": [
+    7,
+    10,
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c32"
+  },
+  {
+   "group": "role",
+   "label": "Enabler of internationalisation",
+   "definition": "Serendipitous encounters can lead firms to internationalise, sometimes without requisite resources, often early and with low strategic commitment, via an evolutionary approach.",
+   "applies_when": "Foreign market entry resulted from an unexpected encounter rather than a planned strategy.",
+   "does_not_apply_when": "Deliberate, planned market entry strategy.",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:01",
+    "balzano2022-fc8de6:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c33"
+  },
+  {
+   "group": "role",
+   "label": "Altering growth paths",
+   "definition": "Serendipity can significantly alter a firm's growth path and explain unexpected early growth after foreign entry.",
+   "applies_when": "An unexpected event redirected the venture's trajectory or caused unanticipated growth.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p011:01",
+    "balzano2022-fc8de6:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c34"
+  },
+  {
+   "group": "role",
+   "label": "Network and partnership formation",
+   "definition": "Networks, collaborations and encounters can develop serendipitously, resulting in profitable opportunities; networking is itself entrepreneurial action in which serendipity plays a role.",
+   "applies_when": "A key partner, collaborator or network tie arose by chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p011:01",
+    "balzano2022-fc8de6:p011:03",
+    "balzano2022-fc8de6:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c35"
+  },
+  {
+   "group": "role",
+   "label": "Acquiring strategic assets and knowledge",
+   "definition": "Serendipity can play a role in acquiring strategic assets, with external knowledge serendipitously influencing innovation through social interactions.",
+   "applies_when": "Key knowledge or resources were obtained through unplanned social interaction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p011:02",
+    "balzano2022-fc8de6:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "balzano2022-fc8de6:c36"
+  },
+  {
+   "group": "outcome",
+   "label": "New market niches",
+   "definition": "Serendipity can result in identifying new market niches.",
+   "applies_when": "An unexpected discovery revealed a new market niche.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p009:04"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "balzano2022-fc8de6:c37"
+  },
+  {
+   "group": "outcome",
+   "label": "Learning, innovation and performance",
+   "definition": "Serendipity induces learning and innovation and plays a critical role in business performance.",
+   "applies_when": "Unexpected events are credited with learning, innovation or improved performance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:01",
+    "balzano2022-fc8de6:p016:01",
+    "balzano2022-fc8de6:p012:01"
+   ],
+   "pdf_pages": [
+    8,
+    12,
+    16
+   ],
+   "candidate_id": "balzano2022-fc8de6:c38"
+  },
+  {
+   "group": "outcome",
+   "label": "Shaping cognitive frames",
+   "definition": "Serendipity can affect the cognitive frames of managers and entrepreneurs and shape their subsequent decisions.",
+   "applies_when": "The person describes how an unexpected event changed how they think or decide.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "balzano2022-fc8de6:c39"
+  },
+  {
+   "group": "outcome",
+   "label": "Value realisation not automatic",
+   "definition": "Realising serendipitous value is not automatic; it requires capabilities such as interorganisational learning, and firms differ in converting encounters into value.",
+   "applies_when": "The account notes an unexpected opportunity that required work or capability to turn into value, or was not converted.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p013:01",
+    "balzano2022-fc8de6:p009:02",
+    "balzano2022-fc8de6:p015:02"
+   ],
+   "pdf_pages": [
+    9,
+    13,
+    15
+   ],
+   "candidate_id": "balzano2022-fc8de6:c40"
+  },
+  {
+   "group": "rival",
+   "label": "Zemblanity",
+   "definition": "The logical reverse of serendipity: actively and unintentionally constructing one's own misfortune, generating vicious circles.",
+   "applies_when": "The person describes their own decisions unexpectedly leading to negative outcomes.",
+   "does_not_apply_when": "Positive unexpected discoveries (serendipity).",
+   "passage_ids": [
+    "balzano2022-fc8de6:p008:01",
+    "balzano2022-fc8de6:p013:02"
+   ],
+   "pdf_pages": [
+    8,
+    13
+   ],
+   "candidate_id": "balzano2022-fc8de6:c41"
+  },
+  {
+   "group": "condition",
+   "label": "Bahramdipity suppression",
+   "definition": "Serendipitous good outcomes can be suppressed by hierarchical power or toxic leadership that stifles dissent and individual discretion, leading to lost opportunities.",
+   "applies_when": "An unexpected opportunity was blocked or ignored due to leaders suppressing subordinates' ideas.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p013:02",
+    "balzano2022-fc8de6:p013:03",
+    "balzano2022-fc8de6:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "balzano2022-fc8de6:c42"
+  },
+  {
+   "group": "rival",
+   "label": "Ex post explanation of unexplained results",
+   "definition": "Serendipity is often invoked after the fact as a side comment to explain unexplained outcomes, without being theorised.",
+   "applies_when": "Luck or serendipity is cited as a catch-all explanation for outcomes otherwise unexplained.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p002:03",
+    "balzano2022-fc8de6:p003:03"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "balzano2022-fc8de6:c43"
+  },
+  {
+   "group": "mechanism",
+   "label": "Effectuation with contingencies",
+   "definition": "Entrepreneurs begin with a general aspiration and use resources at hand to take advantage of contingencies, with improvisation and experimentation linking to serendipitous opportunities.",
+   "applies_when": "The person describes starting with available means and leveraging whatever contingencies emerged.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "balzano2022-fc8de6:p014:04",
+    "balzano2022-fc8de6:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "balzano2022-fc8de6:c44"
+  }
+ ],
+ "removed": []
+}

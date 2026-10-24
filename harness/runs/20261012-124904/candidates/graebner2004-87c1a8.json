@@ -1,0 +1,294 @@
+{
+ "paper_id": "graebner2004-87c1a8",
+ "file": "papers/pdf/Graebner - 2004 - Momentum and Serendipity How Acquired Leaders Create Value in the Integration of Technology Firms.pdf",
+ "about": [
+  "A grounded multiple-case study of eight technology venture acquisitions showing that acquired leaders create expected value through momentum-preserving actions and serendipitous (unanticipated) value through cross-organizational responsibilities."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Serendipitous value as unanticipated windfall",
+   "definition": "Value or benefits that were not anticipated by the buyer before the deal; surprise gains that by definition come from an unexpected direction.",
+   "applies_when": "An account describes a benefit or gain that the parties say they had not planned for or expected when entering the deal or venture.",
+   "does_not_apply_when": "The benefit was the motive for the deal (expected value), even if it was exceeded; overshooting a planned target is not serendipitous.",
+   "passage_ids": [
+    "graebner2004-87c1a8:p003:03",
+    "graebner2004-87c1a8:p019:03",
+    "graebner2004-87c1a8:p026:02"
+   ],
+   "pdf_pages": [
+    3,
+    19,
+    26
+   ],
+   "candidate_id": "graebner2004-87c1a8:c01"
+  },
+  {
+   "group": "type",
+   "label": "Expected vs serendipitous value as independent",
+   "definition": "Performance has two independent dimensions: expected value (benefits that motivated the deal) and serendipitous value; a firm can succeed on one and fail on the other.",
+   "applies_when": "An account separates planned outcomes from unplanned gains, or notes unexpected gains despite failure on planned goals (or vice versa).",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p007:02",
+    "graebner2004-87c1a8:p019:03"
+   ],
+   "pdf_pages": [
+    7,
+    19
+   ],
+   "candidate_id": "graebner2004-87c1a8:c02"
+  },
+  {
+   "group": "type",
+   "label": "Serendipitous managerial/strategic value",
+   "definition": "Unexpected gains in strategy or management, such as new strategic directions, new sales channels, revitalized marketing, or identifying new acquisition targets.",
+   "applies_when": "Someone describes an unplanned strategic idea, new market approach, or management improvement arising from the combination.",
+   "does_not_apply_when": "The gain is a technology or product-development technique (technological serendipitous value).",
+   "passage_ids": [
+    "graebner2004-87c1a8:p007:03",
+    "graebner2004-87c1a8:p020:03",
+    "graebner2004-87c1a8:p024:01"
+   ],
+   "pdf_pages": [
+    7,
+    20,
+    24
+   ],
+   "candidate_id": "graebner2004-87c1a8:c03"
+  },
+  {
+   "group": "type",
+   "label": "Serendipitous technological value",
+   "definition": "Unexpected technological gains, such as discovering superior product development processes or unexpectedly useful technologies, arising when engineers from both firms share work.",
+   "applies_when": "An account reports unexpected learning about technology or development processes through joint engineering work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p020:04",
+    "graebner2004-87c1a8:p023:01",
+    "graebner2004-87c1a8:p024:01"
+   ],
+   "pdf_pages": [
+    20,
+    23,
+    24
+   ],
+   "candidate_id": "graebner2004-87c1a8:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Cross-organizational responsibilities",
+   "definition": "Serendipitous value emerges when acquired personnel are given tasks or roles spanning both the acquired and acquiring firms, either senior management over both or shared technical work.",
+   "applies_when": "A person describes holding a role or task that spans both organizations and through it finding new opportunities.",
+   "does_not_apply_when": "High-status positions that do not span both organizations; the author notes these may aid retention but need not lead to serendipitous value.",
+   "passage_ids": [
+    "graebner2004-87c1a8:p003:04",
+    "graebner2004-87c1a8:p019:04",
+    "graebner2004-87c1a8:p023:04"
+   ],
+   "pdf_pages": [
+    3,
+    19,
+    23
+   ],
+   "candidate_id": "graebner2004-87c1a8:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Exposure enables spotting opportunities",
+   "definition": "Cross-organizational roles give acquired leaders visibility into the other firm's activities, letting them use their unique experience and information to spot unanticipated opportunities for value creation.",
+   "applies_when": "Someone describes seeing a new opportunity because their position gave them a view into another organization's activities combined with their own knowledge.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p023:02",
+    "graebner2004-87c1a8:p003:04"
+   ],
+   "pdf_pages": [
+    3,
+    23
+   ],
+   "candidate_id": "graebner2004-87c1a8:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Status/authority to bring discoveries to fruition",
+   "definition": "Acquired personnel interacting from equal or higher status can have their ideas heard and executed, turning a discovered synergy into realized value.",
+   "applies_when": "An account notes that a person's authority or peer standing allowed their unexpected idea to be adopted or implemented.",
+   "does_not_apply_when": "The idea is spotted but ignored for lack of standing (see unrealized serendipitous potential).",
+   "passage_ids": [
+    "graebner2004-87c1a8:p023:03",
+    "graebner2004-87c1a8:p026:03"
+   ],
+   "pdf_pages": [
+    23,
+    26
+   ],
+   "candidate_id": "graebner2004-87c1a8:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Unanticipated resource recombination",
+   "definition": "Serendipitous value is created by identifying opportunities for unexpected reconfiguration or recombination of the two firms' resources, unlike planned synergies that recombine resources predictably.",
+   "applies_when": "An account describes combining resources (e.g., a sales force with another firm's product) in a way nobody had planned.",
+   "does_not_apply_when": "Recombination that was the planned purpose of the deal.",
+   "passage_ids": [
+    "graebner2004-87c1a8:p025:02",
+    "graebner2004-87c1a8:p026:01",
+    "graebner2004-87c1a8:p023:02"
+   ],
+   "pdf_pages": [
+    23,
+    25,
+    26
+   ],
+   "candidate_id": "graebner2004-87c1a8:c08"
+  },
+  {
+   "group": "background",
+   "label": "Unique experience and informal relationships",
+   "definition": "Acquired leaders draw on their own expertise and a broad, unusual combination of formal roles and informal relationships across organizations to leverage competencies across domains.",
+   "applies_when": "Someone attributes a discovery to their prior industry knowledge or to relationships spanning organizations (e.g., knowing a startup the buyer did not).",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p023:02",
+    "graebner2004-87c1a8:p020:03",
+    "graebner2004-87c1a8:p023:01"
+   ],
+   "pdf_pages": [
+    20,
+    23
+   ],
+   "candidate_id": "graebner2004-87c1a8:c09"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting strategy of the combined firm",
+   "definition": "Serendipitous insights can redirect the venture, e.g., dropping planned product development in favor of acquiring another start-up or entering a new customer segment.",
+   "applies_when": "An account describes an unexpected insight changing the firm's direction, product plans, or target market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p020:03",
+    "graebner2004-87c1a8:p020:04"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "graebner2004-87c1a8:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Opened eyes to new markets and ideas",
+   "definition": "Serendipitous discoveries reveal opportunities the firm was missing, such as new sales channels, better processes, or revitalized functions.",
+   "applies_when": "People describe having their eyes opened, learning something new from partners, or a problem area being unexpectedly fixed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p020:03",
+    "graebner2004-87c1a8:p023:01",
+    "graebner2004-87c1a8:p024:02"
+   ],
+   "pdf_pages": [
+    20,
+    23,
+    24
+   ],
+   "candidate_id": "graebner2004-87c1a8:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Exploration beyond planned synergies",
+   "definition": "Serendipitous value represents a more pronounced form of exploration involving entirely unanticipated recombinations, allowing exploration and exploitation to coexist.",
+   "applies_when": "An account frames unexpected gains as genuinely new directions alongside ongoing execution of planned work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p026:01",
+    "graebner2004-87c1a8:p026:04"
+   ],
+   "pdf_pages": [
+    26
+   ],
+   "candidate_id": "graebner2004-87c1a8:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Isolation blocks serendipity",
+   "definition": "When acquired leaders are denied roles and engineers are kept isolated, potential serendipitous value is never realized and advice goes unheeded.",
+   "applies_when": "An account describes recognized potential or offered ideas that went nowhere because the person was isolated or lacked access to decision makers.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p023:04",
+    "graebner2004-87c1a8:p024:01"
+   ],
+   "pdf_pages": [
+    23,
+    24
+   ],
+   "candidate_id": "graebner2004-87c1a8:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Management vacancies and early deals",
+   "definition": "Cross-organizational roles, and hence serendipity, are more likely when the buyer has open top-management positions, typical of its first few acquisitions; later acquirees find slots filled.",
+   "applies_when": "Someone got a spanning role because of an unfilled position or because they were early, enabling unexpected contributions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p024:01",
+    "graebner2004-87c1a8:p024:04",
+    "graebner2004-87c1a8:p025:01"
+   ],
+   "pdf_pages": [
+    24,
+    25
+   ],
+   "candidate_id": "graebner2004-87c1a8:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Structural pre-definition precludes serendipity",
+   "definition": "Solutions that predefine where innovation should happen (e.g., dedicated units) would not foster serendipitous discoveries, since these come from unexpected directions; flexible cross-organizational exposure is needed.",
+   "applies_when": "An account contrasts planned, designated innovation channels with discoveries arising from open, unplanned interaction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p026:02",
+    "graebner2004-87c1a8:p026:03"
+   ],
+   "pdf_pages": [
+    26
+   ],
+   "candidate_id": "graebner2004-87c1a8:c15"
+  },
+  {
+   "group": "account",
+   "label": "Described as fortuitous after the fact",
+   "definition": "Participants retrospectively describe decisions made for other reasons (e.g., desperation hires, keeping an employee) as turning out fortuitous.",
+   "applies_when": "A narrator says a choice made reluctantly or for unrelated reasons 'turned out' to be lucky or highly valuable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p024:02",
+    "graebner2004-87c1a8:p018:01"
+   ],
+   "pdf_pages": [
+    18,
+    24
+   ],
+   "candidate_id": "graebner2004-87c1a8:c16"
+  },
+  {
+   "group": "rival",
+   "label": "Richer resources explain windfalls",
+   "definition": "An alternative hypothesis that acquired firms with more resources or experienced management simply yield more windfalls; the author argues cross-organizational roles also matter.",
+   "applies_when": "An account attributes unexpected gains to the firm's inherent quality, resources, or experienced team rather than to positions enabling discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "graebner2004-87c1a8:p023:03"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "graebner2004-87c1a8:c17"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,387 @@
+{
+ "paper_id": "smith2025-07dc7b",
+ "file": "papers/pdf/Smith and Hilbolling - 2025 - Demystifying Serendipity.pdf",
+ "about": [
+  "A real-time longitudinal case study of a pharmaceutical company in a research consortium showing how serendipitous discoveries emerge and gain strategic value through four recurring mundane practices (deep-diving, listening in, connecting, implementing) bundled as 'serendipity work'."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Serendipity as effortful process, not eureka moment",
+   "definition": "Serendipity is not a sudden lucky event to a lone individual but an effortful, social process unfolding over a string of events and time, combining chance with agency.",
+   "applies_when": "The account describes a discovery as building gradually through ongoing work and multiple people rather than one sudden flash.",
+   "does_not_apply_when": "The account describes a momentary, isolated chance event with an instantaneous outcome; the authors call that chance or luck, not serendipity.",
+   "passage_ids": [
+    "smith2025-07dc7b:p003:01",
+    "smith2025-07dc7b:p003:04",
+    "smith2025-07dc7b:p028:01"
+   ],
+   "pdf_pages": [
+    3,
+    28
+   ],
+   "candidate_id": "smith2025-07dc7b:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Surprise, agency and value as necessary conditions",
+   "definition": "Following Busch, a serendipitous discovery requires surprise (unanticipated, outside planned scope), agency, and perceived value, which may be strategic, economic, personal or organizational.",
+   "applies_when": "An account shows something unexpected relative to plans, someone acting on it, and a perceived benefit.",
+   "does_not_apply_when": "The outcome was within planned objectives, or remained only an insight with no perceived value.",
+   "passage_ids": [
+    "smith2025-07dc7b:p010:04",
+    "smith2025-07dc7b:p010:03",
+    "smith2025-07dc7b:p029:03"
+   ],
+   "pdf_pages": [
+    10,
+    29
+   ],
+   "candidate_id": "smith2025-07dc7b:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Deep-diving",
+   "definition": "An actor immerses themselves in a new field to gain deep knowledge, usually prompted by planned everyday tasks; on its own it is myopic and does not yield discovery.",
+   "applies_when": "Someone describes having to learn a new topic from scratch in depth to complete an assigned task, which later feeds a discovery.",
+   "does_not_apply_when": "Broad, unfocused attention to others' work without task involvement (that is listening in).",
+   "passage_ids": [
+    "smith2025-07dc7b:p021:01",
+    "smith2025-07dc7b:p021:02",
+    "smith2025-07dc7b:p018:03"
+   ],
+   "pdf_pages": [
+    18,
+    21
+   ],
+   "candidate_id": "smith2025-07dc7b:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Listening in / peripheral attention",
+   "definition": "Attending to information without a specific focus and without deep task involvement, e.g. at status meetings, akin to peripheral vision and ambient awareness; often involves overhearing.",
+   "applies_when": "Someone picks up an unexpected cue by being present at a meeting, overhearing a colleague, or hearing a report outside their own domain.",
+   "does_not_apply_when": "Deliberate, focused monitoring of an already-pursued initiative (the later monitoring practice).",
+   "passage_ids": [
+    "smith2025-07dc7b:p021:02",
+    "smith2025-07dc7b:p021:03",
+    "smith2025-07dc7b:p022:01"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "smith2025-07dc7b:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Unfiltered presentation or casual overheard remark",
+   "definition": "Knowledge collides with others not through deliberate transfer but through unintentional, unfiltered presentations or casual conversations where the presenter does not consider other applications.",
+   "applies_when": "The spark comes from an offhand comment, status update or report not intended to inform the listener's purpose.",
+   "does_not_apply_when": "A deliberate, targeted knowledge transfer aimed at the recipient's problem.",
+   "passage_ids": [
+    "smith2025-07dc7b:p021:02",
+    "smith2025-07dc7b:p017:02",
+    "smith2025-07dc7b:p020:03"
+   ],
+   "pdf_pages": [
+    17,
+    20,
+    21
+   ],
+   "candidate_id": "smith2025-07dc7b:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Connecting new information to prior knowledge",
+   "definition": "Translating new information into meaningful, applicable knowledge by linking it to one's existing domain knowledge and imagining its use in one's own domain.",
+   "applies_when": "A person realizes how an overheard piece of information relates to their own problem, work or strategy.",
+   "does_not_apply_when": "Merely hearing information without forming an idea of its use.",
+   "passage_ids": [
+    "smith2025-07dc7b:p022:01",
+    "smith2025-07dc7b:p022:02",
+    "smith2025-07dc7b:p019:01"
+   ],
+   "pdf_pages": [
+    19,
+    22
+   ],
+   "candidate_id": "smith2025-07dc7b:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Implementing / acting on the hunch",
+   "definition": "A deliberate activity of pursuing an unexpected insight by putting it in motion, committing time, people or money, often deviating from original plans.",
+   "applies_when": "Someone allocates resources, changes plans, brings in new people or proposes new initiatives to pursue an unexpected insight.",
+   "does_not_apply_when": "The insight is discussed and admired but no action is taken (as in the patient-involvement vignette).",
+   "passage_ids": [
+    "smith2025-07dc7b:p022:03",
+    "smith2025-07dc7b:p022:04",
+    "smith2025-07dc7b:p019:02"
+   ],
+   "pdf_pages": [
+    19,
+    22
+   ],
+   "candidate_id": "smith2025-07dc7b:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Shift from listening in to monitoring and shaping",
+   "definition": "As strategic value becomes clearer, casual listening in turns into deliberate monitoring and active shaping of the discovery, making serendipity work more purposeful over time.",
+   "applies_when": "An actor describes watching an emerging development closely to steer it and prepare for its use.",
+   "does_not_apply_when": "Early, unfocused exposure before value is perceived.",
+   "passage_ids": [
+    "smith2025-07dc7b:p022:04",
+    "smith2025-07dc7b:p023:01",
+    "smith2025-07dc7b:p025:02"
+   ],
+   "pdf_pages": [
+    22,
+    23,
+    25
+   ],
+   "candidate_id": "smith2025-07dc7b:c08"
+  },
+  {
+   "group": "role",
+   "label": "Iterative episodes elevating a local fix to strategic value",
+   "definition": "Serendipity progresses through episodes: solving a task-related problem, exploring the discovery, linking it to strategic value, and shaping it until value materializes; each episode yields a potentiality enabling the next.",
+   "applies_when": "An account traces a modest problem-solving discovery that progressively opens bigger opportunities and becomes strategically important.",
+   "does_not_apply_when": "A single discovery moment immediately exploited.",
+   "passage_ids": [
+    "smith2025-07dc7b:p025:01",
+    "smith2025-07dc7b:p025:02",
+    "smith2025-07dc7b:p027:04"
+   ],
+   "pdf_pages": [
+    25,
+    27
+   ],
+   "candidate_id": "smith2025-07dc7b:c09"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting attention to previously deprioritized work",
+   "definition": "A serendipitous discovery can turn an activity initially seen as uninteresting into one of strategic value, prompting new resource allocation and pursuit beyond the original scope.",
+   "applies_when": "Something initially ignored or unprioritized becomes central after an unexpected insight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p015:02",
+    "smith2025-07dc7b:p020:03",
+    "smith2025-07dc7b:p017:01"
+   ],
+   "pdf_pages": [
+    15,
+    17,
+    20
+   ],
+   "candidate_id": "smith2025-07dc7b:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Opportunity beyond the original task",
+   "definition": "Discoveries yield opportunities transcending the problem originally set out to solve, e.g. new channels of access (to regulators, patients) not otherwise available.",
+   "applies_when": "An account describes gaining new access or possibilities that were not part of the original plan.",
+   "does_not_apply_when": "The outcome only fulfills the planned deliverable via a different route (a task-related discovery).",
+   "passage_ids": [
+    "smith2025-07dc7b:p018:02",
+    "smith2025-07dc7b:p025:01",
+    "smith2025-07dc7b:p010:02"
+   ],
+   "pdf_pages": [
+    10,
+    18,
+    25
+   ],
+   "candidate_id": "smith2025-07dc7b:c11"
+  },
+  {
+   "group": "outcome",
+   "label": "Unrealized or lost serendipity",
+   "definition": "A discovery may be recognized as valuable yet never acted upon, remaining a 'dead end'; serendipitous discoveries risk being overlooked or lost because they sit outside planned objectives.",
+   "applies_when": "People acknowledge a surprising valuable insight but nobody pursues it, or it fades.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p024:01",
+    "smith2025-07dc7b:p024:02",
+    "smith2025-07dc7b:p028:02"
+   ],
+   "pdf_pages": [
+    24,
+    28
+   ],
+   "candidate_id": "smith2025-07dc7b:c12"
+  },
+  {
+   "group": "background",
+   "label": "Distributed actors with complementary knowledge",
+   "definition": "Serendipity involves multiple actors: deep domain experts who recognize unusual effects, and peripheral actors with broad organizational awareness who link insights to strategy; not a lone genius.",
+   "applies_when": "The discovery depends on different people contributing different kinds of knowledge at different points.",
+   "does_not_apply_when": "A single individual makes and exploits the discovery alone.",
+   "passage_ids": [
+    "smith2025-07dc7b:p027:02",
+    "smith2025-07dc7b:p003:03",
+    "smith2025-07dc7b:p003:04"
+   ],
+   "pdf_pages": [
+    3,
+    27
+   ],
+   "candidate_id": "smith2025-07dc7b:c13"
+  },
+  {
+   "group": "background",
+   "label": "Seniority, network and access to resources",
+   "definition": "Connecting and implementing require actors with broad networks, long tenure and access to resources; such access is a key condition of implementing.",
+   "applies_when": "A senior or well-connected person is the one able to see the strategic use and mobilize resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p027:02",
+    "smith2025-07dc7b:p022:04",
+    "smith2025-07dc7b:p019:01"
+   ],
+   "pdf_pages": [
+    19,
+    22,
+    27
+   ],
+   "candidate_id": "smith2025-07dc7b:c14"
+  },
+  {
+   "group": "background",
+   "label": "Serendipity arrangement",
+   "definition": "Settings such as interorganizational, interdisciplinary consortia bring diverse knowledge together and create fertile ground for serendipitous discoveries.",
+   "applies_when": "The account situates discovery in a collaborative setting crossing organizational or disciplinary boundaries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p005:02",
+    "smith2025-07dc7b:p005:03",
+    "smith2025-07dc7b:p029:01"
+   ],
+   "pdf_pages": [
+    5,
+    29
+   ],
+   "candidate_id": "smith2025-07dc7b:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Planned work and routine tasks enable serendipity",
+   "definition": "Serendipity work practices are embedded in mundane activities directed at planned objectives; planned work facilitates rather than blocks serendipity.",
+   "applies_when": "The surprise emerges while doing routine assigned tasks or solving a planned deliverable problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p027:01",
+    "smith2025-07dc7b:p028:03",
+    "smith2025-07dc7b:p028:04"
+   ],
+   "pdf_pages": [
+    27,
+    28
+   ],
+   "candidate_id": "smith2025-07dc7b:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Prepared mind and slack for exploration",
+   "definition": "Prior literature cited: curiosity, open-mindedness, alertness, flexibility, autonomy, time to explore loose ends, experimental tinkering and exposure to diverse knowledge increase serendipity.",
+   "applies_when": "An account mentions curiosity, openness, time to tinker, or seeking diverse inputs as making the discovery possible.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p003:02",
+    "smith2025-07dc7b:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "smith2025-07dc7b:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Frequent repeated exposure",
+   "definition": "The ability to connect grows with frequency of listening in, as accumulated aggregate knowledge increases overlap and detection of potential.",
+   "applies_when": "Someone's recognition of an opportunity is credited to regular attendance or ongoing exposure to a stream of information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p022:03",
+    "smith2025-07dc7b:p022:01"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "smith2025-07dc7b:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Barriers: outside planned scope, no owner, no resources",
+   "definition": "Discoveries outside planned objectives are hard to integrate, may face self-censorship, and stall when no one knows how to mature them, sees them as significant enough, or has a unit or time to implement them.",
+   "applies_when": "An account explains a discovery stalling because it did not fit plans, lacked an owner, or lacked time/resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p004:01",
+    "smith2025-07dc7b:p004:02",
+    "smith2025-07dc7b:p024:02"
+   ],
+   "pdf_pages": [
+    4,
+    24
+   ],
+   "candidate_id": "smith2025-07dc7b:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Patience and long time horizons",
+   "definition": "Pursuing serendipity is lengthy and may need long incubation; industries comfortable with long timeframes may better sustain it, and dormant discoveries may be kept alive and revived later.",
+   "applies_when": "An account stresses sustained engagement over years or reviving an earlier idea later.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p028:02",
+    "smith2025-07dc7b:p028:03",
+    "smith2025-07dc7b:p004:02"
+   ],
+   "pdf_pages": [
+    4,
+    28
+   ],
+   "candidate_id": "smith2025-07dc7b:c20"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective eureka narrative and hindsight bias",
+   "definition": "Retrospective accounts rationalize past events into logical paths or credit a single chance moment, hiding the long prior work; the 'ah-ha' is only the tip of the iceberg.",
+   "applies_when": "A narrator tells the story as a single lucky moment or a planned logical path, omitting preceding efforts.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "smith2025-07dc7b:p005:01",
+    "smith2025-07dc7b:p027:03",
+    "smith2025-07dc7b:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    5,
+    27
+   ],
+   "candidate_id": "smith2025-07dc7b:c21"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck or chance",
+   "definition": "Luck or chance describes a momentary, isolated event with instantaneous outcome and no agency, which the authors distinguish from serendipity.",
+   "applies_when": "Outcomes are attributed solely to fortunate randomness without human matching, connecting or pursuit.",
+   "does_not_apply_when": "Chance is combined with active connecting and pursuit over time.",
+   "passage_ids": [
+    "smith2025-07dc7b:p003:04",
+    "smith2025-07dc7b:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "smith2025-07dc7b:c22"
+  }
+ ],
+ "removed": []
+}

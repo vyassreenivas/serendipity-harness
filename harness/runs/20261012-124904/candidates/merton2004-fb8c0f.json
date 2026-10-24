@@ -1,0 +1,247 @@
+{
+ "paper_id": "merton2004-fb8c0f",
+ "file": "papers/pdf/Merton and Barber - 2004 - Introduction The Travels and Adventures of Serendipity.pdf",
+ "about": [
+  "Shulman's introduction to Merton and Barber's book traces the history and ambiguous meaning of the word serendipity, Merton's 'serendipity pattern' in research, and how serendipity shaped Merton's own work."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "type",
+   "label": "Finding something other than sought",
+   "definition": "Serendipity as finding something of value while seeking something entirely different.",
+   "applies_when": "Account describes searching for one thing and discovering a different valuable thing along the way.",
+   "does_not_apply_when": "The person found what they were looking for, but in an unexpected place or way; code that as the sought object found unexpectedly.",
+   "passage_ids": [
+    "merton2004-fb8c0f:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "merton2004-fb8c0f:c01"
+  },
+  {
+   "group": "type",
+   "label": "Sought object found unexpectedly",
+   "definition": "Serendipity as finding a sought-after object in a place or manner where it was not at all expected.",
+   "applies_when": "Account describes obtaining what was being looked for through an unexpected route, place or manner.",
+   "does_not_apply_when": "What was found differs from what was sought; code that as finding something other than sought.",
+   "passage_ids": [
+    "merton2004-fb8c0f:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "merton2004-fb8c0f:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Discovery by happy accident",
+   "definition": "Serendipity always involves discovery and a 'happy accident', combining wisdom and luck in proportions that vary across uses of the word.",
+   "applies_when": "Account frames a discovery as a fortunate accident that also involved the person's insight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p003:01",
+    "merton2004-fb8c0f:p007:01"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "merton2004-fb8c0f:c03"
+  },
+  {
+   "group": "definition",
+   "label": "Unanticipated, anomalous, strategic datum",
+   "definition": "Merton's serendipity pattern: observing an unanticipated, anomalous and strategic datum that becomes the occasion for a new theory or for extending an existing one. All three elements are required.",
+   "applies_when": "Account describes an unexpected observation that contradicted expectations or established facts and that went on to set a new direction.",
+   "does_not_apply_when": "The surprise led to nothing of strategic importance; the pattern requires that the datum set a course.",
+   "passage_ids": [
+    "merton2004-fb8c0f:p010:02",
+    "merton2004-fb8c0f:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "merton2004-fb8c0f:c04"
+  },
+  {
+   "group": "rival",
+   "label": "Sagacity rather than accident",
+   "definition": "The source tale of the three princes was about sagacity and deduction rather than happy accident, which raises the question of how much serendipity is luck and how much is the searcher's prowess.",
+   "applies_when": "Account attributes the outcome mainly to the person's deduction or skill rather than to chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p007:01",
+    "merton2004-fb8c0f:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-fb8c0f:c05"
+  },
+  {
+   "group": "rival",
+   "label": "Mere luck or random effort",
+   "definition": "Critics such as Burch objected to linking serendipity with luck, with casual random efforts, and with 'fashionable' discoveries valued only for public relations.",
+   "applies_when": "Account presents the outcome as pure luck or as random, unfocused effort, or someone disputes that the outcome was serendipitous on these grounds.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-fb8c0f:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Selective pursuit of the unsought",
+   "definition": "'Serendipity management' is the skill of forgoing unpromising occurrences, however interesting, and relentlessly pursuing what was found but unsought and may pay great dividends.",
+   "applies_when": "Account describes judging which unexpected findings to drop and which to pursue persistently.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-fb8c0f:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "Credit for a serendipitous find may lie with the prepared mind of the interpreter who gives meaning to a chance input, as when Merton's prepared mind 'found its datum'.",
+   "applies_when": "Account links recognising a chance input to the person's prior preparation or knowledge.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p007:02",
+    "merton2004-fb8c0f:p011:02"
+   ],
+   "pdf_pages": [
+    7,
+    11
+   ],
+   "candidate_id": "merton2004-fb8c0f:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Openness to extraneous factors",
+   "definition": "Being open to factors extraneous to one's procedures enables serendipity; narrow specialization and early focus limit the ability to reach beyond daily practice.",
+   "applies_when": "Account shows breadth or openness to things outside one's focus enabling a find, or narrow focus preventing one.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-fb8c0f:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Resources enabling chance encounters",
+   "definition": "Prior investments, such as Merton spending his stipend on the OED, create the setting in which a chance encounter can happen; without them the find might never have occurred.",
+   "applies_when": "Account credits an earlier investment or resource choice with making a chance encounter possible.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p010:01"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "merton2004-fb8c0f:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected inquiry from another person",
+   "definition": "A friend's question, prompted by Merton's published address, unexpectedly sparked a major new project, an unanticipated consequence of earlier work.",
+   "applies_when": "Account describes another person's question or contact, prompted by the person's prior work, opening a new path.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "merton2004-fb8c0f:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Playful curiosity and tenacity",
+   "definition": "An unexpected spark becomes something when it is met with playful curiosity, learning, tenacity, comfort moving across domains, and willingness to err.",
+   "applies_when": "Account describes curious, persistent engagement with an unexpected spark, including tolerance of failed paths.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p012:01"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "merton2004-fb8c0f:c12"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting from intended path",
+   "definition": "Absorbing an unanticipated datum requires turning sharply away from one's intended path, so that other goals are set aside.",
+   "applies_when": "Account describes abandoning or shelving a planned project to pursue an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p013:02",
+    "merton2004-fb8c0f:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "merton2004-fb8c0f:c13"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective logical narration",
+   "definition": "Published accounts impose logical form after the fact and strip out the messy, chance-laden course of discovery.",
+   "applies_when": "Account of events is told as a tidy logical sequence, or the person notes that the real path was messier than the story told.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p011:01",
+    "merton2004-fb8c0f:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "merton2004-fb8c0f:c14"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as collapsed timeline",
+   "definition": "In serendipity narratives the search and the found object appear immediately linked, collapsing the long path from research to useful product.",
+   "applies_when": "A narrative presents the discovery and its useful application as directly and immediately connected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p005:01"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "merton2004-fb8c0f:c15"
+  },
+  {
+   "group": "outcome",
+   "label": "Unanticipated positive by-product",
+   "definition": "Pursuing one project can yield an unanticipated positive result elsewhere, such as Merton's digressive style that later flourished in OTSOG.",
+   "applies_when": "Account reports an unplanned benefit or capability arising from work aimed at something else.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-fb8c0f:p014:01",
+    "merton2004-fb8c0f:p010:01"
+   ],
+   "pdf_pages": [
+    10,
+    14
+   ],
+   "candidate_id": "merton2004-fb8c0f:c16"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,451 @@
+{
+ "paper_id": "yaqub2018-fd9c19",
+ "file": "papers/pdf/Yaqub - 2018 - Serendipity - Towards a Taxonomy and a Theory.pdf",
+ "about": [
+  "Develops a typology of serendipity in research (Walpolian, Mertonian, Bushian, Stephanian) and four mechanisms (theory-led, observer-led, error-borne, network-emergent), with implications for policy and measurement."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unexpected and beneficial discovery",
+   "definition": "Serendipity refers to researchers making discoveries that are both unexpected and beneficial; the result of research differs from what was expected yet yields value.",
+   "applies_when": "Account describes a finding or opportunity that was not anticipated and turned out to be valuable.",
+   "does_not_apply_when": "The outcome was expected or planned, or the unexpected event yielded nothing of value.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p001:01",
+    "yaqub2018-fd9c19:p001:02"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Deviation from expectations, not mere chance",
+   "definition": "An event is serendipitous only when it contrasts with theoretical expectations or prior experience; without such contrast it is mere chance.",
+   "applies_when": "The person notes that what happened was incongruent with what they predicted or knew, and that this mismatch is what made it noteworthy.",
+   "does_not_apply_when": "Simple random luck with no contrast to the person's expectations or knowledge.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p004:06",
+    "yaqub2018-fd9c19:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Coincidental simultaneity",
+   "definition": "Discoveries made simultaneously and independently (multiples) are sometimes called serendipitous but are better described as coincidences rather than serendipity.",
+   "applies_when": "Account labels something serendipitous solely because two parties arrived at the same thing at the same time independently.",
+   "does_not_apply_when": "There is an unexpected discovery whose value was recognised and exploited.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p002:07"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c03"
+  },
+  {
+   "group": "type",
+   "label": "Walpolian: search finds solution to a different problem",
+   "definition": "Discovery of things not being searched for: a targeted search in one problem space yields a solution to an entirely different problem.",
+   "applies_when": "Person was pursuing a specific goal and came upon something useful for a quite different problem or market.",
+   "does_not_apply_when": "The discovery solved the original targeted problem by an unexpected route (Mertonian).",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p002:06",
+    "yaqub2018-fd9c19:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c04"
+  },
+  {
+   "group": "type",
+   "label": "Mertonian: problem-in-hand solved by unexpected route",
+   "definition": "A targeted search solves the problem originally set, but via an unexpected route; unexpectedness lies in the approach rather than the finding.",
+   "applies_when": "Person achieves their original goal, but the way they got there came about by accident or an unanticipated path.",
+   "does_not_apply_when": "The solution addressed a different problem than the one targeted (Walpolian).",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p003:01",
+    "yaqub2018-fd9c19:p003:02",
+    "yaqub2018-fd9c19:p007:05"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c05"
+  },
+  {
+   "group": "type",
+   "label": "Bushian: untargeted search solves immediate problem",
+   "definition": "Exploratory or untargeted activity (or not research at all) leads to a solution to an existing need; like browsing shops without intent to buy and being reminded of a need.",
+   "applies_when": "Person was exploring with no particular goal and stumbled on something that met an already-existing need.",
+   "does_not_apply_when": "The problem did not yet exist or was not yet recognised (Stephanian), or the search was targeted.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p003:02",
+    "yaqub2018-fd9c19:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c06"
+  },
+  {
+   "group": "type",
+   "label": "Stephanian: solution awaiting a later problem",
+   "definition": "Untargeted inquiry produces a discovery for which no problem yet exists; it piques curiosity and is held until it solves a problem that emerges later ('answers to questions not yet posed').",
+   "applies_when": "Person found something interesting but without immediate use, kept it in mind, and later linked it to a newly encountered problem or need.",
+   "does_not_apply_when": "The discovery immediately addressed an existing need (Bushian).",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p003:05",
+    "yaqub2018-fd9c19:p003:06"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c07"
+  },
+  {
+   "group": "type",
+   "label": "Repurposing versus redevelopment",
+   "definition": "Distinguishes adding new uses to an already-established product (multi-purpose, Bushian) from changing a development path mid-course in favour of a different use (redevelopment, Walpolian).",
+   "applies_when": "Account describes either an existing product gaining a new use, or a project in development being redirected to another application.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p003:04",
+    "yaqub2018-fd9c19:p003:05"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Theory-led / prepared mind",
+   "definition": "Growth of theory or experience lets an observer recognise an event as incongruent with predictions; theory guides where to look and what counts as anomalous ('chance favours the prepared mind').",
+   "applies_when": "Person's prior knowledge or working hypothesis enabled them to see significance in an unexpected observation.",
+   "does_not_apply_when": "Noticing came from observation routines or tools rather than theoretical expectation (observer-led).",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p005:01",
+    "yaqub2018-fd9c19:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Observer-led perceptiveness",
+   "definition": "Individuals vary in what they notice; some see the significance (e.g., commercial importance) of something many others witnessed without noticing.",
+   "applies_when": "Person noticed an opportunity or meaning in something others also saw but overlooked.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p005:02",
+    "yaqub2018-fd9c19:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c10"
+  },
+  {
+   "group": "background",
+   "label": "Observation routines and systems",
+   "definition": "Systematic habits of recording and reporting observations, and structured observation environments, help individuals notice serendipitous discoveries independently of theory.",
+   "applies_when": "Account credits documentation habits, protocols, or professional reporting routines for catching an unexpected finding.",
+   "does_not_apply_when": "Noticing driven mainly by theoretical expectation.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p005:03",
+    "yaqub2018-fd9c19:p005:04",
+    "yaqub2018-fd9c19:p005:05"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Tinkering and playful experimentation",
+   "definition": "Trying out new practices and instruments, tinkering and playing with materials freely from theory, occasionally produces qualitatively new effects.",
+   "applies_when": "Person describes playing around, fiddling, or trying something just to see what happens, which revealed useful properties.",
+   "does_not_apply_when": "Systematic testing of a specific hypothesis.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p005:05",
+    "yaqub2018-fd9c19:p005:06"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c12"
+  },
+  {
+   "group": "trigger",
+   "label": "Errors, spills and mishaps",
+   "definition": "Mistakes such as dropping, spilling, overheating, forgetting things, contamination, methodological blunders and equipment malfunction frequently trigger serendipitous episodes.",
+   "applies_when": "An accident, mistake, malfunction or forgotten item led to the unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p006:02",
+    "yaqub2018-fd9c19:p006:03",
+    "yaqub2018-fd9c19:p010:04"
+   ],
+   "pdf_pages": [
+    6,
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Controlled sloppiness",
+   "definition": "Loosely directed inquiry that allows variation and errors to seep in, while remaining aware enough of the untidiness to trace unexpected results back to their source, fosters serendipity.",
+   "applies_when": "Person deliberately leaves room for variation or imprecision in their approach while tracking what was varied.",
+   "does_not_apply_when": "Fully uncontrolled activity where causes cannot be traced, or tightly controlled conditions.",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p006:01",
+    "yaqub2018-fd9c19:p010:04"
+   ],
+   "pdf_pages": [
+    6,
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c14"
+  },
+  {
+   "group": "background",
+   "label": "Networks as information source",
+   "definition": "Networks bring discoveries to the attention of those who can exploit them and help make sense of anomalies; diverse networks, weak ties and brokerage positions increase exposure to novelty.",
+   "applies_when": "Person learned of an opportunity or understood an unexpected result by contacting or hearing from others, often outside their field.",
+   "does_not_apply_when": "Contacts supply needed skills or resources for exploitation (teamwork role).",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p006:03",
+    "yaqub2018-fd9c19:p006:04"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c15"
+  },
+  {
+   "group": "background",
+   "label": "Networks as teamwork",
+   "definition": "Exploiting an observation may require the skills and resources of multiple people, sometimes across sectors; one person notices while others develop it.",
+   "applies_when": "Account describes a division of labour where one actor spotted something and others with different capabilities developed it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p006:05",
+    "yaqub2018-fd9c19:p006:06"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Groupthink inhibits serendipity",
+   "definition": "Homogeneous, cohesive and insular networks may discourage serendipity through groupthink or echo-chamber effects.",
+   "applies_when": "Person describes a closed, like-minded group dismissing or failing to pursue an unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p006:06",
+    "yaqub2018-fd9c19:p010:05"
+   ],
+   "pdf_pages": [
+    6,
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Efficiency pressure suppresses serendipity",
+   "definition": "Pursuit of efficiency and project-level funding may suppress error-borne serendipity, reduce methodological diversity, and make findings with no immediate utility appear wasteful.",
+   "applies_when": "Account mentions pressure to be efficient or stay on target limiting exploration or causing seemingly useless findings to be dropped.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p008:03",
+    "yaqub2018-fd9c19:p008:04",
+    "yaqub2018-fd9c19:p010:06"
+   ],
+   "pdf_pages": [
+    8,
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Commitment to target blocks pursuit",
+   "definition": "Investigators committed to search targets by patrons or evaluators may refuse to be distracted by new goals; discoveries may go unexploited if others cannot be convinced.",
+   "applies_when": "Person noticed something unexpected but did not pursue it due to obligations to funders/supervisors, or failed to persuade others of its worth.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p010:01",
+    "yaqub2018-fd9c19:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Craft specialisation limits scope",
+   "definition": "Specialists rarely change technique, which can restrict the scope for serendipity, though coordination among diverse specialists can compensate.",
+   "applies_when": "Account indicates narrow expertise limited recognising or exploiting an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Nascent and interdisciplinary fields",
+   "definition": "Serendipity may be more prevalent in early-stage, nascent, interdisciplinary and highly empirical fields where theory is ripe for discovery.",
+   "applies_when": "Person operates in a new or cross-disciplinary area and links that setting to unexpected discoveries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p008:04",
+    "yaqub2018-fd9c19:p008:05"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c21"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting development within an organisation",
+   "definition": "Serendipity can redirect a development path within a single firm, not only flow between organisations, relevant to entrepreneurship and management theory.",
+   "applies_when": "A firm changes the use or direction of its product/project in response to an unexpected finding.",
+   "does_not_apply_when": "Knowledge used by another organisation (spillover).",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p008:03",
+    "yaqub2018-fd9c19:p003:04"
+   ],
+   "pdf_pages": [
+    3,
+    8
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c22"
+  },
+  {
+   "group": "outcome",
+   "label": "Cascading, long-term impacts",
+   "definition": "Serendipitous discoveries can go on to solve many later problems over decades and even help give birth to whole industries; magnitude may matter more than frequency.",
+   "applies_when": "Account traces an unexpected discovery to a widening series of later applications or markets.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p007:06",
+    "yaqub2018-fd9c19:p008:06",
+    "yaqub2018-fd9c19:p009:01"
+   ],
+   "pdf_pages": [
+    7,
+    8,
+    9
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c23"
+  },
+  {
+   "group": "outcome",
+   "label": "Exploited by others, not discoverer",
+   "definition": "Results may be so unexpected that the original actor cannot make sense of or exploit them, while a rival party can; serendipity may be beneficial for some but not others.",
+   "applies_when": "An unexpected finding was capitalised on by a different person or firm than the one who produced it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p008:01",
+    "yaqub2018-fd9c19:p008:02",
+    "yaqub2018-fd9c19:p010:01"
+   ],
+   "pdf_pages": [
+    8,
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c24"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as a drawn-out episode",
+   "definition": "Serendipity is more procedural than a single flash; the classification depends on the time window, and it is better seen as a phase or episode.",
+   "applies_when": "Person narrates the discovery as unfolding over an extended period rather than a single moment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p009:02",
+    "yaqub2018-fd9c19:p008:05",
+    "yaqub2018-fd9c19:p008:06"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c25"
+  },
+  {
+   "group": "account",
+   "label": "Post-hoc hunch claims",
+   "definition": "Investigators may claim afterwards that they had an intuition or hunch preceding the serendipitous episode, which cannot be verified.",
+   "applies_when": "Person says they 'knew all along' or had a hunch before the unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c26"
+  },
+  {
+   "group": "account",
+   "label": "Tidying and downplaying serendipity",
+   "definition": "Formal narratives omit messy dead-ends and impose logical order, and people may downplay luck for fear their accomplishments seem mere accidents; others may overstate it.",
+   "applies_when": "Person presents events as planned and logical, minimises luck to protect credit, or explicitly says the discovery was 'just an accident'.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p009:02",
+    "yaqub2018-fd9c19:p009:03",
+    "yaqub2018-fd9c19:p009:04"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c27"
+  },
+  {
+   "group": "account",
+   "label": "Latent interests blur unexpectedness",
+   "definition": "People may hold latent as well as active interests, or know of multiple avenues but disclose only some, so whether a discovery was truly unsought depends on what was at the forefront of their concerns.",
+   "applies_when": "Account reveals the 'unexpected' opportunity related to a background interest or an avenue the person had been aware of.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "yaqub2018-fd9c19:p009:01",
+    "yaqub2018-fd9c19:p010:02"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "yaqub2018-fd9c19:c28"
+  }
+ ],
+ "removed": []
+}

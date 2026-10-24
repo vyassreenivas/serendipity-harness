@@ -1,0 +1,105 @@
+{
+ "source": "harness_v2/stage1_question/research_question.md, 'The anomaly group' (agreed 16 October 2026)",
+ "codes": [
+  {
+   "id": "ANO-TYP",
+   "group": "anomaly",
+   "overflows_from": "type",
+   "label": "Anomaly: type",
+   "applies_when": "The episode is serendipity, but no type code describes it",
+   "does_not_apply_when": "A type fits roughly: use it and note the doubt",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-RIV",
+   "group": "anomaly",
+   "overflows_from": "rival",
+   "label": "Anomaly: rival",
+   "applies_when": "The account fits another explanation that is not a rival code",
+   "does_not_apply_when": "The founder only denies chance: that is account",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-TRG",
+   "group": "anomaly",
+   "overflows_from": "trigger",
+   "label": "Anomaly: trigger",
+   "applies_when": "Something unexpected started it, but no trigger code names that kind of event",
+   "does_not_apply_when": "The trigger is unclear: leave trigger blank",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-BKG",
+   "group": "anomaly",
+   "overflows_from": "background",
+   "label": "Anomaly: background",
+   "applies_when": "The founder brought something relevant that no background code covers",
+   "does_not_apply_when": "It is a circumstance, not something the founder had: that is condition",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-MEC",
+   "group": "anomaly",
+   "overflows_from": "mechanism",
+   "label": "Anomaly: mechanism",
+   "applies_when": "The founder did something with the event that no mechanism code covers",
+   "does_not_apply_when": "",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-ROL",
+   "group": "anomaly",
+   "overflows_from": "role",
+   "label": "Anomaly: role",
+   "applies_when": "It played a part in the venture other than starting, redirecting or advancing it",
+   "does_not_apply_when": "",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-OUT",
+   "group": "anomaly",
+   "overflows_from": "outcome",
+   "label": "Anomaly: outcome",
+   "applies_when": "A result that no outcome code covers",
+   "does_not_apply_when": "",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-CND",
+   "group": "anomaly",
+   "overflows_from": "condition",
+   "label": "Anomaly: condition",
+   "applies_when": "A circumstance that made it easier or harder, not covered by a condition code",
+   "does_not_apply_when": "",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-ACC",
+   "group": "anomaly",
+   "overflows_from": "account",
+   "label": "Anomaly: account",
+   "applies_when": "A way of telling it that no account code covers",
+   "does_not_apply_when": "",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  },
+  {
+   "id": "ANO-NEW",
+   "group": "anomaly",
+   "overflows_from": "(none)",
+   "label": "Anomaly: new",
+   "applies_when": "Relevant to the research question, but no group asks about it",
+   "does_not_apply_when": "It belongs to a group: use that group's anomaly code",
+   "records": "a short label in the coder's words; the paragraphs it rests on; one line on why no code fits",
+   "core": true
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "paper_id": "busch2020-10a2b8",
+ "file": "papers/pdf/Busch and Barkema - 2020 - Planned Luck - How Incubators Can Facilitate Serendipity.pdf",
+ "about": [
+  "An explorative case study of a Kenyan incubator (T-Hub) showing how, under high uncertainty, a flexible social structure (cultivating reframing, elevating commitment, agile platform design, elevating emerging opportunities, enabled by community-enabling leadership) creates conditions for serendipitous encounters that benefit nascent entrepreneurs."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accidental discovery plus sagacity",
+   "definition": "Serendipity is making discoveries, by accident and sagacity, of things one was not looking for; it is not only accidental but also depends on being observant and open-minded.",
+   "applies_when": "An account describes finding something valuable that was not sought, together with the person noticing or recognising its value.",
+   "does_not_apply_when": "Pure blind luck with no noticing or action by the person; the authors say serendipity is not blind luck or pure randomness.",
+   "passage_ids": [
+    "busch2020-10a2b8:p005:03",
+    "busch2020-10a2b8:p006:01",
+    "busch2020-10a2b8:p022:02"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as a three-step process",
+   "definition": "Serendipity unfolds as a trigger (e.g., unexpected observation), a bisociation that connects it meaningfully to something else such as an emerging goal, and then following through.",
+   "applies_when": "An account shows an unexpected input, the person linking it to a need or goal, and then acting on it.",
+   "does_not_apply_when": "An unexpected event that is noticed but never connected or followed through.",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:02",
+    "busch2020-10a2b8:p022:03"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c02"
+  },
+  {
+   "group": "type",
+   "label": "Unexpected solution to known problem",
+   "definition": "The solution for a known problem or challenge comes from an unexpected place.",
+   "applies_when": "The entrepreneur had a recognised problem and the answer arrived from an unforeseen source or encounter.",
+   "does_not_apply_when": "The solution addressed a different or previously unrecognised problem (see next type).",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:02"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c03"
+  },
+  {
+   "group": "type",
+   "label": "Solution to a different problem",
+   "definition": "A person with an initial problem stumbles across a solution to an entirely different or previously unrecognised problem.",
+   "applies_when": "While pursuing one problem, the entrepreneur finds a solution relevant to another problem they had not identified.",
+   "does_not_apply_when": "The solution fits the problem originally pursued.",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:02"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c04"
+  },
+  {
+   "group": "type",
+   "label": "Problem and solution arrive together",
+   "definition": "No known problem exists, but the entrepreneur unexpectedly comes across a new opportunity, so the problem and solution arrive at the same time.",
+   "applies_when": "The entrepreneur was not seeking anything specific and encountered an opportunity or need-solution pair simultaneously, e.g., meeting a collaborator they did not know they needed.",
+   "does_not_apply_when": "A prior problem was already defined.",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:02",
+    "busch2020-10a2b8:p019:04"
+   ],
+   "pdf_pages": [
+    19,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Unplanned encounter with a person",
+   "definition": "Serendipity is always about an unexpected encounter; at the incubator this was typically bumping into or being seated near someone whose value was unknown in advance.",
+   "applies_when": "An account describes randomly running into, meeting, or sitting next to someone who later turned out to matter (co-founder, funder, client).",
+   "does_not_apply_when": "A targeted, planned introduction to a known needed contact.",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:03",
+    "busch2020-10a2b8:p019:03",
+    "busch2020-10a2b8:p013:01"
+   ],
+   "pdf_pages": [
+    13,
+    19,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected information or insight",
+   "definition": "Unexpected market-research results, new information, or encountering a new opportunity can trigger rethinking and a new direction.",
+   "applies_when": "An account describes surprising information (e.g., research not confirming viability) prompting a new idea or change.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p016:01",
+    "busch2020-10a2b8:p011:01"
+   ],
+   "pdf_pages": [
+    11,
+    16
+   ],
+   "candidate_id": "busch2020-10a2b8:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bisociation / connecting dots",
+   "definition": "Seeing bridges or matching pairs: connecting potential problems and potential solutions as they emerge rather than moving linearly from a planned problem to planned solution.",
+   "applies_when": "The person describes realising that an encounter or observation fit a need or idea of theirs.",
+   "does_not_apply_when": "Linear planned search from a defined problem to a defined solution.",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:02",
+    "busch2020-10a2b8:p022:03"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Following through on encounters",
+   "definition": "Acting on the unexpected encounter and turning it into a real opportunity or project, which is crucial to serendipity.",
+   "applies_when": "The account describes doing a project, forming a partnership, or getting funding after the chance meeting.",
+   "does_not_apply_when": "Encounter that went nowhere.",
+   "passage_ids": [
+    "busch2020-10a2b8:p022:02",
+    "busch2020-10a2b8:p020:03",
+    "busch2020-10a2b8:p019:03"
+   ],
+   "pdf_pages": [
+    19,
+    20,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reframing ideas and perceptions",
+   "definition": "Treating one's perceptions and ideas as open to interpretation and change, questioning assumptions and adjusting them to new situations, so new encounters can reshape problems and solutions.",
+   "applies_when": "The entrepreneur describes questioning assumptions or reinterpreting their idea after new information or encounters.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p017:02",
+    "busch2020-10a2b8:p018:01",
+    "busch2020-10a2b8:p022:04"
+   ],
+   "pdf_pages": [
+    17,
+    18,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Active networking openness",
+   "definition": "Entrepreneurs' agency—actively going to events, talking to people, sharing what they do—is a precondition with which incubator conditions combine to foster serendipity.",
+   "applies_when": "The entrepreneur describes proactively attending events, handing out cards, talking to many people without a fixed target.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p008:02",
+    "busch2020-10a2b8:p022:04",
+    "busch2020-10a2b8:p023:03"
+   ],
+   "pdf_pages": [
+    8,
+    22,
+    23
+   ],
+   "candidate_id": "busch2020-10a2b8:c11"
+  },
+  {
+   "group": "background",
+   "label": "Shared community and trust",
+   "definition": "Trust and belonging within a community (rituals, shared journeys) create an echo effect that lets strangers feel close and interact openly, supporting cooperation needed for serendipity.",
+   "applies_when": "An account notes being more open with someone because both belong to the same community or know the same people.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p018:02",
+    "busch2020-10a2b8:p019:02"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ],
+   "candidate_id": "busch2020-10a2b8:c12"
+  },
+  {
+   "group": "background",
+   "label": "Diverse co-located people",
+   "definition": "Physical and digital spaces bringing together diverse members at similar stages with complementary skills, so they can accidentally bump into each other.",
+   "applies_when": "The account refers to proximity in a shared space (coffee shop, seating, next-door organisation) enabling the connection.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p019:02",
+    "busch2020-10a2b8:p020:01",
+    "busch2020-10a2b8:p022:04"
+   ],
+   "pdf_pages": [
+    19,
+    20,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c13"
+  },
+  {
+   "group": "role",
+   "label": "Finding co-founders and collaborators",
+   "definition": "Serendipitous encounters lead entrepreneurs to co-founders and collaborators, contributing to venture formation; about 150 startups formed at the hub.",
+   "applies_when": "A founding team member or collaborator was met unexpectedly, especially one they did not know they needed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p023:02",
+    "busch2020-10a2b8:p019:04",
+    "busch2020-10a2b8:p008:01"
+   ],
+   "pdf_pages": [
+    8,
+    19,
+    23
+   ],
+   "candidate_id": "busch2020-10a2b8:c14"
+  },
+  {
+   "group": "role",
+   "label": "Pivoting the venture",
+   "definition": "Unexpected encounters lead nascent entrepreneurs to radically change ideas, needs or business models, or even close and start a more interesting project.",
+   "applies_when": "An account describes changing business direction after meeting someone or learning something unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p010:03",
+    "busch2020-10a2b8:p026:03",
+    "busch2020-10a2b8:p024:04"
+   ],
+   "pdf_pages": [
+    10,
+    24,
+    26
+   ],
+   "candidate_id": "busch2020-10a2b8:c15"
+  },
+  {
+   "group": "role",
+   "label": "Discovering what one needs",
+   "definition": "Under uncertainty, serendipity helps entrepreneurs find out what they need to know, what resources they need, and from whom, as a precursor to acquiring resources.",
+   "applies_when": "The entrepreneur says they only realised a need (skill, partner, resource) when they encountered it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p023:01",
+    "busch2020-10a2b8:p025:04"
+   ],
+   "pdf_pages": [
+    23,
+    25
+   ],
+   "candidate_id": "busch2020-10a2b8:c16"
+  },
+  {
+   "group": "outcome",
+   "label": "Tangible venture benefits",
+   "definition": "Outcomes include learning about new markets, meeting needed co-founders, running into major clients, funding for projects, and new products emerging.",
+   "applies_when": "Concrete benefits (market, client, funding, product) are traced to a chance encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p023:02",
+    "busch2020-10a2b8:p013:01",
+    "busch2020-10a2b8:p021:01"
+   ],
+   "pdf_pages": [
+    13,
+    21,
+    23
+   ],
+   "candidate_id": "busch2020-10a2b8:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Opportunity-inducing networks",
+   "definition": "In aggregate, serendipitous encounters produce unplanned networks whose value could not be known a priori.",
+   "applies_when": "The entrepreneur describes their network forming through unplanned connections rather than targeted ties.",
+   "does_not_apply_when": "Deliberately brokered ties with selected partners.",
+   "passage_ids": [
+    "busch2020-10a2b8:p023:03",
+    "busch2020-10a2b8:p024:02"
+   ],
+   "pdf_pages": [
+    23,
+    24
+   ],
+   "candidate_id": "busch2020-10a2b8:c18"
+  },
+  {
+   "group": "account",
+   "label": "Recognised in hindsight",
+   "definition": "People often realise only when looking back that an unexpected encounter was important.",
+   "applies_when": "The interviewee says the encounter seemed minor or unexpected at the time but in retrospect was crucial.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p013:01",
+    "busch2020-10a2b8:p019:04"
+   ],
+   "pdf_pages": [
+    13,
+    19
+   ],
+   "candidate_id": "busch2020-10a2b8:c19"
+  },
+  {
+   "group": "account",
+   "label": "Counterfactual proximity talk",
+   "definition": "People explain serendipitous outcomes by reflecting on whether they would have happened without being in the same place, noting it was much easier being next door.",
+   "applies_when": "An account asks 'would it have happened if…' and attributes the connection to co-location or membership.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p020:01",
+    "busch2020-10a2b8:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "busch2020-10a2b8:c20"
+  },
+  {
+   "group": "rival",
+   "label": "Planned goal-directed networking",
+   "definition": "An alternative view sees entrepreneurs as heroic goal-driven agents who plan networking and know in advance which ties they need; the authors argue this rarely fits uncertain nascent ventures.",
+   "applies_when": "The entrepreneur describes deliberately targeting a known contact for a pre-set goal.",
+   "does_not_apply_when": "Connection whose value was unknown beforehand.",
+   "passage_ids": [
+    "busch2020-10a2b8:p002:01",
+    "busch2020-10a2b8:p005:03",
+    "busch2020-10a2b8:p023:03"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    23
+   ],
+   "candidate_id": "busch2020-10a2b8:c21"
+  },
+  {
+   "group": "rival",
+   "label": "Network structure determinism",
+   "definition": "An alternative view treats entrepreneurs as passive actors whose outcomes are determined by existing network structure.",
+   "applies_when": "Outcomes are attributed solely to pre-existing ties or position, without agency or unexpected encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p002:01",
+    "busch2020-10a2b8:p005:02"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "busch2020-10a2b8:c22"
+  },
+  {
+   "group": "rival",
+   "label": "Luck as exogenous error",
+   "definition": "Prior research treats serendipity or luck as an exogenous feature of spontaneous encounters or uncontrollable error to be reduced; the authors argue it is partially endogenous and can be cultivated.",
+   "applies_when": "Someone attributes events to pure chance outside anyone's influence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p006:01",
+    "busch2020-10a2b8:p025:01"
+   ],
+   "pdf_pages": [
+    6,
+    25
+   ],
+   "candidate_id": "busch2020-10a2b8:c23"
+  },
+  {
+   "group": "condition",
+   "label": "Openness to the unexpected",
+   "definition": "An environment legitimising unexpected ideas (stories, encouragement to try new things, 'no right answer') and selecting open-minded members makes serendipity more likely.",
+   "applies_when": "The account refers to a culture or mindset of openness, questioning assumptions, or being encouraged to try new things.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p016:01",
+    "busch2020-10a2b8:p017:01",
+    "busch2020-10a2b8:p022:04"
+   ],
+   "pdf_pages": [
+    16,
+    17,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c24"
+  },
+  {
+   "group": "condition",
+   "label": "Motivation to cooperate",
+   "definition": "Serendipity depends not only on open-mindedness but on motivation to cooperate, fostered by trust and enlightened self-interest (being celebrated, running one's own initiatives).",
+   "applies_when": "People describe willingness to help others or being incentivised to contribute to the community.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p019:02",
+    "busch2020-10a2b8:p022:04",
+    "busch2020-10a2b8:p018:02"
+   ],
+   "pdf_pages": [
+    18,
+    19,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c25"
+  },
+  {
+   "group": "condition",
+   "label": "Flexible space and event design",
+   "definition": "Informal spaces, creative seating, mixers and fireside chats where random people meet in relaxed settings facilitate serendipitous encounters.",
+   "applies_when": "An encounter took place at an informal event, mixer, coffee shop, or through assigned seating.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p019:02",
+    "busch2020-10a2b8:p019:03",
+    "busch2020-10a2b8:p019:04"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "busch2020-10a2b8:c26"
+  },
+  {
+   "group": "condition",
+   "label": "Support to realise emerging ideas",
+   "definition": "Adaptive partnerships, programmes, introductions and funding for emerging ideas help turn coincidences into opportunities.",
+   "applies_when": "An encounter or idea was developed with funding, introductions or programmes offered after it emerged.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p020:03",
+    "busch2020-10a2b8:p022:03",
+    "busch2020-10a2b8:p023:01"
+   ],
+   "pdf_pages": [
+    20,
+    22,
+    23
+   ],
+   "candidate_id": "busch2020-10a2b8:c27"
+  },
+  {
+   "group": "condition",
+   "label": "Community-enabling leadership",
+   "definition": "Leaders who put community first, listen and adapt, and provide platforms without appropriating gains enable the conditions for serendipity.",
+   "applies_when": "The account credits leaders/hub managers for enabling members to act on emerging opportunities freely.",
+   "does_not_apply_when": "Centrally planned, over-structured programmes.",
+   "passage_ids": [
+    "busch2020-10a2b8:p021:03",
+    "busch2020-10a2b8:p023:01",
+    "busch2020-10a2b8:p025:03"
+   ],
+   "pdf_pages": [
+    21,
+    23,
+    25
+   ],
+   "candidate_id": "busch2020-10a2b8:c28"
+  },
+  {
+   "group": "condition",
+   "label": "High uncertainty context",
+   "definition": "Serendipity is especially important where goals are emergent and needed ties unknown, as in nascent ventures and emerging economies; potential serendipity goes unnoticed in environments that do not embrace it.",
+   "applies_when": "The entrepreneur describes not knowing their goals, needs or markets, or an environment receptive or hostile to unexpected events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2020-10a2b8:p006:01",
+    "busch2020-10a2b8:p022:01",
+    "busch2020-10a2b8:p022:03"
+   ],
+   "pdf_pages": [
+    6,
+    22
+   ],
+   "candidate_id": "busch2020-10a2b8:c29"
+  }
+ ],
+ "removed": []
+}

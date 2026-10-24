@@ -1,0 +1,290 @@
+{
+ "paper_id": "merton2004-8779d3",
+ "file": "papers/pdf/Merton and Barber - 2004 - Serendipity as Ideology and Politics of Science.pdf",
+ "about": [
+  "A chapter from Merton and Barber's history of the word serendipity, examining how research administrators, firms (G.E., Standard Oil, Merck, Pfizer), government officials and commentators used the idea of accidental discovery to argue about organizing research and to justify research to investors and the public."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Finding valuable things not sought",
+   "definition": "Serendipity is the knack or art of spotting and exploiting valuable things encountered while searching for something else. Like the Three Princes of Serendip, people do not find what they were looking for but find other things just as valuable.",
+   "applies_when": "An account describes setting out after one goal and instead finding and using something different but valuable.",
+   "does_not_apply_when": "The valuable result is the planned target of the search.",
+   "passage_ids": [
+    "merton2004-8779d3:p009:02",
+    "merton2004-8779d3:p015:02",
+    "merton2004-8779d3:p019:02"
+   ],
+   "pdf_pages": [
+    9,
+    15,
+    19
+   ],
+   "candidate_id": "merton2004-8779d3:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Asking 'What is it?' of the unexpected",
+   "definition": "A crucial step in an accidental discovery is when an alert person meets an unexpected phenomenon with curiosity, asks what it is, and follows it up instead of discarding it.",
+   "applies_when": "Someone notices a surprising result or anomaly, becomes curious about it, and investigates it further.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p013:01",
+    "merton2004-8779d3:p005:03"
+   ],
+   "pdf_pages": [
+    5,
+    13
+   ],
+   "candidate_id": "merton2004-8779d3:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Selecting promising over interesting leads",
+   "definition": "For Seery, the real skill of serendipity lies in letting go of occurrences that are merely interesting but unpromising, and relentlessly pursuing the unsought finding that may pay great dividends.",
+   "applies_when": "An actor describes choosing which unexpected lead to pursue based on its likely value, and dropping others.",
+   "does_not_apply_when": "The actor simply follows whatever is curious, without judging its likely value.",
+   "passage_ids": [
+    "merton2004-8779d3:p019:02",
+    "merton2004-8779d3:p020:01"
+   ],
+   "pdf_pages": [
+    19,
+    20
+   ],
+   "candidate_id": "merton2004-8779d3:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Failed aim yields other use",
+   "definition": "A planned effort fails at its intended purpose, and testing reveals an unexpected valuable property or use. Examples are a failed insecticide that proved to be a fungicide, and a medicinal sap that yielded an industrial enzyme.",
+   "applies_when": "An account tells of a product or idea that failed at its original purpose but turned out to be useful for something else.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p013:01",
+    "merton2004-8779d3:p015:03"
+   ],
+   "pdf_pages": [
+    13,
+    15
+   ],
+   "candidate_id": "merton2004-8779d3:c04"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind and training",
+   "definition": "Serendipity depends on a prepared mind that can recognize what has happened and what it may signify. That mind is built from accumulated knowledge, training, technical skill, imagination and love of the novel.",
+   "applies_when": "Someone attributes their ability to recognize an unexpected opportunity to their prior knowledge, expertise or experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p017:01",
+    "merton2004-8779d3:p014:01",
+    "merton2004-8779d3:p019:01"
+   ],
+   "pdf_pages": [
+    14,
+    17,
+    19
+   ],
+   "candidate_id": "merton2004-8779d3:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Autonomy and broad goals",
+   "definition": "Managers can raise the chance of serendipity by defining expectations loosely and planning programs broad enough to leave people free to follow leads they chance upon. In Langmuir's words, you cannot plan discoveries, but you can plan work likely to lead to them.",
+   "applies_when": "An account credits freedom, loose goals or permissive management with leaving room to pursue an unexpected lead.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p004:01",
+    "merton2004-8779d3:p006:01",
+    "merton2004-8779d3:p012:03"
+   ],
+   "pdf_pages": [
+    4,
+    6,
+    12
+   ],
+   "candidate_id": "merton2004-8779d3:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Narrow contracted tasks stifle",
+   "definition": "Kopanyi argues that work tied to specific assignments or contracts makes people plug on at the contracted task, so the most important unexpected outcome falls by the wayside.",
+   "applies_when": "Someone describes ignoring or dropping an unexpected opportunity because of a fixed mandate, contract or assigned target.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p007:01",
+    "merton2004-8779d3:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-8779d3:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Organizational flexibility to respond",
+   "definition": "Serendipity can be nurtured by the ability of a director or organization to shift focus quickly and respond in time, and in sufficient force, to a passing unexpected event.",
+   "applies_when": "An account describes an organization quickly redirecting resources to seize a chance event.",
+   "does_not_apply_when": "Only the individual's shift of attention is involved, with no organizational reallocation.",
+   "passage_ids": [
+    "merton2004-8779d3:p008:02",
+    "merton2004-8779d3:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "merton2004-8779d3:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Volume of effort",
+   "definition": "Wallis argues that if progress comes largely from serendipity, then sheer volume of high-quality effort raises the number of chance discoveries.",
+   "applies_when": "An account links unexpected finds to the amount or breadth of activity undertaken.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p009:02",
+    "merton2004-8779d3:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "merton2004-8779d3:c09"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting toward new product",
+   "definition": "An accidental discovery made during a project on one product redirects work toward a different, valuable product, as with Butyl found during motor-oil research and SR-406 found during farm-use research.",
+   "applies_when": "A chance finding leads the organization to develop a new product or line it had not planned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p014:02",
+    "merton2004-8779d3:p012:03"
+   ],
+   "pdf_pages": [
+    12,
+    14
+   ],
+   "candidate_id": "merton2004-8779d3:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Subsequent hard work needed",
+   "definition": "A serendipitous discovery has to be followed by extensive development work before its usefulness is proven. Firms stress this follow-on effort to justify the success.",
+   "applies_when": "An account stresses the long development effort that followed a lucky initial finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "merton2004-8779d3:c11"
+  },
+  {
+   "group": "account",
+   "label": "Downplaying luck to show competence",
+   "definition": "Organizations narrate serendipity so as to minimize luck. They present accidental finds as rare 'frosting' on reliable research, or as the product of competence that turns even accidents to advantage, so that they do not look erratic to investors.",
+   "applies_when": "An actor retelling a lucky break emphasizes their skill, rigor or planning to avoid looking merely lucky.",
+   "does_not_apply_when": "The actor openly celebrates luck as the source of success.",
+   "passage_ids": [
+    "merton2004-8779d3:p011:02",
+    "merton2004-8779d3:p012:02",
+    "merton2004-8779d3:p014:01"
+   ],
+   "pdf_pages": [
+    11,
+    12,
+    14
+   ],
+   "candidate_id": "merton2004-8779d3:c12"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as proof that unplanned work pays",
+   "definition": "Serendipity stories are used to persuade investors and the public to tolerate uncertainty, on the promise that unstructured exploration yields valuable results. An example is Merck's claim that 'our business is full of it.'",
+   "applies_when": "An actor uses chance-discovery stories to justify exploratory spending to investors or stakeholders.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p015:02",
+    "merton2004-8779d3:p016:01",
+    "merton2004-8779d3:p012:01"
+   ],
+   "pdf_pages": [
+    12,
+    15,
+    16
+   ],
+   "candidate_id": "merton2004-8779d3:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Zeitgeist / inevitability",
+   "definition": "Pfizer and Sarton argue that the accident is more apparent than real: the discovery was 'in the air' and would have been made anyway by someone. Luck only decides who achieves priority, and when.",
+   "applies_when": "An account suggests the opportunity was bound to be found by someone, so chance only affected who found it or when.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p017:01",
+    "merton2004-8779d3:p018:01",
+    "merton2004-8779d3:p018:02"
+   ],
+   "pdf_pages": [
+    17,
+    18
+   ],
+   "candidate_id": "merton2004-8779d3:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Insight, not accident",
+   "definition": "The crucial factor is the discoverer's acute insight and persistence. The accident merely brought the phenomenon and the capable person together.",
+   "applies_when": "An account credits the outcome to the person's insight or persistence rather than to the chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p017:03",
+    "merton2004-8779d3:p017:02"
+   ],
+   "pdf_pages": [
+    17
+   ],
+   "candidate_id": "merton2004-8779d3:c15"
+  },
+  {
+   "group": "type",
+   "label": "Negative serendipity (missed)",
+   "definition": "The Pfizer article describes negative serendipity: the opportunity missed, where valuable possibilities sit unrecognized because people are busy doing something else.",
+   "applies_when": "Someone describes failing to recognize or pursue an opportunity they had in front of them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-8779d3:p018:02"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "merton2004-8779d3:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Over-bureaucratization leaves progress to chance",
+   "definition": "Riemer argues that bureaucratization and the lack of systematic theory leave advancement to chance alone. On this view, reliance on serendipity is a symptom of an unhealthy organization, not of freedom.",
+   "applies_when": "An account presents chance discoveries as the only route to progress in a rigid or bureaucratic setting.",
+   "does_not_apply_when": "Chance discoveries are presented as the product of freedom.",
+   "passage_ids": [
+    "merton2004-8779d3:p007:02",
+    "merton2004-8779d3:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "merton2004-8779d3:c17"
+  }
+ ],
+ "removed": []
+}

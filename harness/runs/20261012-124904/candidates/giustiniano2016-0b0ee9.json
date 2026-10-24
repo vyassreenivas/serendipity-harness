@@ -1,0 +1,156 @@
+{
+ "paper_id": "giustiniano2016-0b0ee9",
+ "file": "papers/pdf/Giustiniano et al - 2016 - Organizational Zemblanity.pdf",
+ "about": [
+  "The paper introduces organizational zemblanity, the antonym of serendipity, meaning actors constructing their own misfortune in high-reliability systems, illustrated by the Costa Concordia disaster; it touches serendipity mainly as the contrasting pole."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accidental discovery that generates value",
+   "definition": "In management, serendipity refers to the accidental discovery of something that, looking back, turns out to create value.",
+   "applies_when": "An account describes an unplanned, chance finding or encounter that only afterwards is seen as having produced value.",
+   "does_not_apply_when": "Planned search that yields the expected result, or a chance event whose outcome is harmful (zemblanity).",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p002:05"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Preparedness and openness to novelty",
+   "definition": "Following Cunha et al., managerial serendipity is the state of being prepared for and open to novelty, a synthesis of preparation and openness amplified by generative doubt.",
+   "applies_when": "The person describes being ready for, and receptive to, unexpected novelty as part of how a lucky outcome came about.",
+   "does_not_apply_when": "Luck described as purely external with no preparation or openness on the person's part.",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p002:05",
+    "giustiniano2016-0b0ee9:p008:03"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Generative doubt",
+   "definition": "The motivated, conscious search for understanding prompted by the experience of not knowing; presented as the central mechanism that makes people ready for and responsive to serendipity.",
+   "applies_when": "An actor reports questioning their assumptions, or actively seeking to understand something puzzling or unknown, and this leads them to act on an unexpected event.",
+   "does_not_apply_when": "Overconfidence or a lack of self-questioning, which the paper links to zemblanity rather than serendipity.",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p002:05",
+    "giustiniano2016-0b0ee9:p007:06"
+   ],
+   "pdf_pages": [
+    2,
+    7
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Organization designed to embrace lucky events",
+   "definition": "Organizations can be made open and responsive to serendipity through structures, coordination mechanisms and improvised procedural, cognitive and normative variations that turn lucky events into value.",
+   "applies_when": "The account describes structures, routines or norms in the venture that helped it notice chance events and capitalize on them.",
+   "does_not_apply_when": "Rigid formalization and unquestioned hierarchy that suppress questioning, which the paper presents as conditions for zemblanity.",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p002:05",
+    "giustiniano2016-0b0ee9:p005:02"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Bold leadership enabling chance's offerings",
+   "definition": "Serendipity, nurtured by bold leadership, offers learning and innovation through a design that is prepared for what chance offers.",
+   "applies_when": "Leaders are described as having deliberately set up the conditions for the organization to be ready for and exploit unexpected opportunities.",
+   "does_not_apply_when": "Boldness that turns into excessive self-confidence and illusion of control, which the paper treats as leading to vicious circles.",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c05"
+  },
+  {
+   "group": "outcome",
+   "label": "Learning and innovation",
+   "definition": "Serendipity is presented as yielding learning and innovation, and as enabling and enriching good practice, in contrast to the escalating negative outcomes of zemblanity.",
+   "applies_when": "A chance discovery is described as producing new learning, innovation or improved practice for the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p005:02",
+    "giustiniano2016-0b0ee9:p002:04"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Zemblanity: self-made misfortune",
+   "definition": "Zemblanity is the opposite of serendipity: unhappy, unlucky and expected discoveries made by design. Actors construct their own misfortune through ill-conceived choices that the existing design allows, so 'bad luck' is socially constructed rather than simply happening.",
+   "applies_when": "An account frames an adverse surprise as luck, but shows it arose from the actors' own overconfident choices, a lack of self-questioning, or lax controls.",
+   "does_not_apply_when": "A fortunate unexpected discovery that creates value; or accidents caused purely by system complexity.",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p002:02",
+    "giustiniano2016-0b0ee9:p002:06",
+    "giustiniano2016-0b0ee9:p010:02"
+   ],
+   "pdf_pages": [
+    2,
+    10
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Absence of generative doubt escalates events",
+   "definition": "Without generative doubt, at either the individual or the collective level, a single event can escalate into a vicious spiral of bad choices. Excess discretion combined with formalized but ineffective controls makes this more likely.",
+   "applies_when": "An account describes actors who did not question their assumptions or their leader, so that an unexpected event led to escalating poor decisions.",
+   "does_not_apply_when": "Cases where doubt and questioning led actors to revise their course.",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p007:06",
+    "giustiniano2016-0b0ee9:p008:03",
+    "giustiniano2016-0b0ee9:p009:01"
+   ],
+   "pdf_pages": [
+    7,
+    8,
+    9
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c08"
+  },
+  {
+   "group": "account",
+   "label": "Attributing outcomes to divine hand or skill",
+   "definition": "Actors may narrate outcomes after the fact by crediting their instinct and skill, or a 'divine hand', while blaming others or external factors for failures. The paper reads this as a refusal of self-criticism.",
+   "applies_when": "A person explains an unexpected outcome by citing providence or their own instinct, while shifting blame elsewhere for the negative parts.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "giustiniano2016-0b0ee9:p007:01",
+    "giustiniano2016-0b0ee9:p006:04"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "giustiniano2016-0b0ee9:c09"
+  }
+ ],
+ "removed": []
+}

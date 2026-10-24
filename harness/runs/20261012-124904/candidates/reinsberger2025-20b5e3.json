@@ -1,0 +1,248 @@
+{
+ "paper_id": "reinsberger2025-20b5e3",
+ "file": "papers/pdf/Reinsberger et al - 2025 - Deliberate Exploratory Search in Technology Innovation.pdf",
+ "about": [
+  "A multiple case study of how organizations deliberately discover and develop need-solution pairs when searching for new applications of existing technologies through sequential expert search, positioned against the view that such pairs emerge mainly from serendipity."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Search leading to unintended discovery",
+   "definition": "Serendipity, as the paper takes it from the management literature, is search that leads to an unintended discovery. It is more than chance because it arises from the interplay of searching, contingency and prior knowledge.",
+   "applies_when": "The account describes someone actively searching who ends up finding something valuable they were not looking for.",
+   "does_not_apply_when": "The find was the intended target of the search (targeted search), or nothing was being searched for at all (pure chance).",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p005:04"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Agency, surprise and value",
+   "definition": "The paper cites three necessary conditions for serendipity: agency (intentional action, effort, a prepared mind), surprise (the discovery is unexpected), and value (the outcome is meaningful and worthwhile).",
+   "applies_when": "The person reports acting on an unexpected cue, the discovery surprised them, and it turned out to be worthwhile.",
+   "does_not_apply_when": "Any one of the three is missing, for example a passive windfall with no human effort, or a planned and expected result.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p005:05",
+    "reinsberger2025-20b5e3:p023:02"
+   ],
+   "pdf_pages": [
+    5,
+    23
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck",
+   "definition": "Luck is mostly passive, whereas serendipity requires human effort and preparedness.",
+   "applies_when": "The person describes a fortunate outcome that came to them without any action, search or preparedness on their part.",
+   "does_not_apply_when": "The person actively grasped, recombined or acted on the chance event. That is serendipity rather than luck.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p005:05"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate structured search",
+   "definition": "Need-solution pairs can also come from deliberate, structured, goal-oriented search (for example sequential expert interviews and learning practices) rather than from spontaneous or serendipitous encounters. Targeted innovation follows a more linear path from a defined problem to a solution.",
+   "applies_when": "The person attributes the venture's opportunity to a planned, systematic search process with defined steps and evaluation.",
+   "does_not_apply_when": "The person stresses that the key match was unexpected and unplanned, even if it happened during the search.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p002:06",
+    "reinsberger2025-20b5e3:p005:05",
+    "reinsberger2025-20b5e3:p023:02"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    23
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Unexpected need-solution association",
+   "definition": "Need-solution pairs are often described as arising when a solution unexpectedly aligns with a need that was not identified or pursued at the start, typically after exposure to information-rich environments.",
+   "applies_when": "The person recounts suddenly recognizing that an existing technology or idea fits a problem they had not been targeting.",
+   "does_not_apply_when": "The match was worked out against a need that had been defined in advance.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p005:04",
+    "reinsberger2025-20b5e3:p002:03",
+    "reinsberger2025-20b5e3:p023:01"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    23
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Serendipity revealing exaptation",
+   "definition": "Serendipity often uncovers potential exaptations by revealing features of a solution that, once placed in the right context and seen by the right observer, allow a new use to emerge. Until then these features stay invisible.",
+   "applies_when": "A technology or resource built for one purpose is unexpectedly seen to serve a different problem once it meets a new context or observer.",
+   "does_not_apply_when": "The new use was planned from the outset.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p005:06"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Casting a wide net",
+   "definition": "Search strategies that cast a wider net across possible problems and solutions, without fixing the problem early, increase the likelihood of serendipitous and valuable outcomes.",
+   "applies_when": "The person describes deliberately keeping the problem open or exploring broadly across domains before narrowing down.",
+   "does_not_apply_when": "The search was narrowly targeted at a predefined problem.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p004:04",
+    "reinsberger2025-20b5e3:p001:03"
+   ],
+   "pdf_pages": [
+    1,
+    4
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Structured action creates conditions for serendipity",
+   "definition": "Systematic and purposeful action, combined with openness to unexpected insights and adaptive learning, can create conditions that raise the likelihood of serendipitous outcomes.",
+   "applies_when": "The person describes a planned process that put them in a position to notice or receive unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p022:02"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Surprising information from an expert",
+   "definition": "Surprising information met during search, such as an expert revealing an unexpected constraint, can abruptly change the search direction and lead to a rethinking of applications.",
+   "applies_when": "The person recounts a conversation in which unexpected information immediately ruled out or opened up directions.",
+   "does_not_apply_when": "The information only confirmed what the person already expected.",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p019:04",
+    "reinsberger2025-20b5e3:p019:05"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Expert question revealing a new characteristic",
+   "definition": "An outside expert's question about an unconsidered feature of the technology (biocompatibility) triggered reflection and opened an entirely new and attractive domain (medical technology).",
+   "applies_when": "An outsider's question points to an overlooked property of the offering, and this redirects the venture toward a new market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p012:04",
+    "reinsberger2025-20b5e3:p015:07"
+   ],
+   "pdf_pages": [
+    12,
+    15
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Analogical domain crossing",
+   "definition": "With experts' help, searchers draw parallels between seemingly unrelated domains, uncovering latent needs and distant applications. Searchers sometimes nudge experts with an example analogy to prompt this.",
+   "applies_when": "The person describes finding an application by seeing a similarity to a different industry, or an expert pointing to an analogous distant field.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p019:02",
+    "reinsberger2025-20b5e3:p019:03",
+    "reinsberger2025-20b5e3:p014:01"
+   ],
+   "pdf_pages": [
+    14,
+    19
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c11"
+  },
+  {
+   "group": "background",
+   "label": "Outsider perspective reducing functional fixedness",
+   "definition": "External searchers without deep technical backgrounds are less constrained by how the organization traditionally uses or thinks about its technology. This widens the exploration of alternative uses.",
+   "applies_when": "The person credits a newcomer or an outsider's lack of entrenched assumptions with spotting new uses.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p007:02",
+    "reinsberger2025-20b5e3:p022:06"
+   ],
+   "pdf_pages": [
+    7,
+    22
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Technology immaturity and homogeneous expertise",
+   "definition": "Low technology readiness tended to go with more exploration and more novel discoveries. High readiness and homogeneous domain expertise anchored thinking in established uses and produced fewer surprising discoveries.",
+   "applies_when": "The person links how early-stage or ambiguous the offering was, or how diverse the contributors were, to how many unexpected applications emerged.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p020:04",
+    "reinsberger2025-20b5e3:p020:05",
+    "reinsberger2025-20b5e3:p020:06"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Unexpected spillovers",
+   "definition": "Beyond the intended applications, the search process produced unexpected spillovers, such as technological advancements and promising ideas redirected internally for further development, as well as valued market knowledge.",
+   "applies_when": "The person reports side benefits from an exploration process that were not its original goal.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p023:01",
+    "reinsberger2025-20b5e3:p014:03"
+   ],
+   "pdf_pages": [
+    14,
+    23
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c14"
+  },
+  {
+   "group": "account",
+   "label": "Value realized only in hindsight",
+   "definition": "Searchers often realized the significance of information only later or through repetition, for example an interview that seemed unhelpful at the time but turned out to be crucial.",
+   "applies_when": "The person narrates that something they once dismissed later proved decisive for the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "reinsberger2025-20b5e3:p020:01",
+    "reinsberger2025-20b5e3:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "reinsberger2025-20b5e3:c15"
+  }
+ ],
+ "removed": []
+}

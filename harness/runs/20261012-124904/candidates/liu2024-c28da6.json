@@ -1,0 +1,140 @@
+{
+ "paper_id": "liu2024-c28da6",
+ "file": "papers/pdf/Liu and Tsay - 2024 - A Normative Theory of Luck.pdf",
+ "about": [
+  "The paper develops a normative theory of luck using chance models, arguing that strong reinforcing mechanisms (e.g., the Matthew effect) can amplify early luck so that success, such as moderately high academic citations, becomes a misleading indicator of merit."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "account",
+   "label": "Post-hoc merit narrative",
+   "definition": "Even when success is largely due to luck, people cite something unique in a person's or organization's history to build a plausible but untrue story that the successful deserved their success. This reflects outcome and hindsight bias.",
+   "applies_when": "A person explains a success after the fact by pointing to their own foresight, skill or distinctive history, while the events described show that chance played a large part.",
+   "does_not_apply_when": "The account explicitly acknowledges the role of chance or fortunate circumstances in the outcome.",
+   "passage_ids": [
+    "liu2024-c28da6:p001:02",
+    "liu2024-c28da6:p001:03"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "liu2024-c28da6:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Luck mistaken for skill",
+   "definition": "People tend to attribute outcomes to individual skill or decisions rather than to randomness and circumstances. The authors argue luck should be the default explanation for complex outcomes until strong counterevidence emerges.",
+   "applies_when": "An account attributes a venture outcome to the founder's skill or strategy where chance events or circumstances could equally explain it.",
+   "does_not_apply_when": "Use a different code when the person describes actively noticing and acting on an unexpected event; this code concerns misattributing outcomes that were driven by chance.",
+   "passage_ids": [
+    "liu2024-c28da6:p001:03",
+    "liu2024-c28da6:p003:05",
+    "liu2024-c28da6:p004:01"
+   ],
+   "pdf_pages": [
+    1,
+    3,
+    4
+   ],
+   "candidate_id": "liu2024-c28da6:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Early luck amplified by reinforcement",
+   "definition": "Small initial differences due to chance, such as early recognition, are magnified by rich-get-richer dynamics until they can outweigh merit in determining eventual outcomes.",
+   "applies_when": "An account describes an early chance break, such as initial attention, a timely topic or a well-placed contact, that then snowballed into further attention, resources or success.",
+   "does_not_apply_when": "Success that grows steadily from quality or effort, with no initial chance advantage being compounded.",
+   "passage_ids": [
+    "liu2024-c28da6:p004:05",
+    "liu2024-c28da6:p008:04",
+    "liu2024-c28da6:p012:05"
+   ],
+   "pdf_pages": [
+    4,
+    8,
+    12
+   ],
+   "candidate_id": "liu2024-c28da6:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Early luck explains firm survival",
+   "definition": "Firm failure patterns attributed to the liability of newness and to learning can instead be produced by chance. Firms hit by early negative shocks exit, while those with early good luck accumulate resources that buffer them.",
+   "applies_when": "A venture's survival or failure is narrated as learning or capability development, but the account shows early favourable or unfavourable shocks that set its resource position.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2024-c28da6:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "liu2024-c28da6:c04"
+  },
+  {
+   "group": "background",
+   "label": "Favourable network position",
+   "definition": "Early luck can stem from occupying a favourable position in a network or clique, which brings initial recognition that is then reinforced, regardless of merit.",
+   "applies_when": "An account describes early recognition or support arising mainly from being embedded in a well-placed network or clique.",
+   "does_not_apply_when": "Recognition that arises broadly across many unconnected communities, which the authors link more to merit.",
+   "passage_ids": [
+    "liu2024-c28da6:p009:03",
+    "liu2024-c28da6:p010:02",
+    "liu2024-c28da6:p013:03"
+   ],
+   "pdf_pages": [
+    9,
+    10,
+    13
+   ],
+   "candidate_id": "liu2024-c28da6:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Right place, right time",
+   "definition": "Successful career outcomes may reflect being in the right place at the right time rather than individual characteristics.",
+   "applies_when": "A person attributes an advancement to timing or circumstance rather than to their own attributes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2024-c28da6:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "liu2024-c28da6:c06"
+  },
+  {
+   "group": "outcome",
+   "label": "Unreplicable exceptional luck",
+   "definition": "Exceptional success driven by early luck plus strong reinforcement tends not to be sustained and regresses toward the mean. Imitators cannot replicate another's luck.",
+   "applies_when": "An account describes a chance-driven breakthrough that could not be repeated, or an attempt to copy another's lucky success that disappointed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2024-c28da6:p004:06",
+    "liu2024-c28da6:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    4
+   ],
+   "candidate_id": "liu2024-c28da6:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipity mindset",
+   "definition": "The authors note in passing that other theories of luck study how a serendipity mindset could enhance the chance of important discoveries.",
+   "applies_when": "A person describes a disposition or orientation that made them more likely to encounter or recognise valuable chance discoveries.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "liu2024-c28da6:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "liu2024-c28da6:c08"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,394 @@
+{
+ "paper_id": "derond2014-e6da07",
+ "file": "papers/pdf/de Rond - 2014 - The Structure of Serendipity.pdf",
+ "about": [
+  "De Rond argues that serendipity is not chance but a capability to identify meaningful 'matching pairs' of events and put them to practical use, illustrated through four scientific discoveries and a typology (true vs pseudo-serendipity; random variation vs unintended consequence of design)."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Matching pairs put to use",
+   "definition": "Serendipity is identifying meaningful (not necessarily causal) pairings of two or more observations, events or pieces of information that are then put to practical or strategic use.",
+   "applies_when": "The person describes connecting an unexpected event or piece of information with something else they knew and then acting on that connection.",
+   "does_not_apply_when": "The account describes only a lucky event with no connecting or use; that is chance or luck, not serendipity in this author's sense.",
+   "passage_ids": [
+    "derond2014-e6da07:p002:02",
+    "derond2014-e6da07:p002:03",
+    "derond2014-e6da07:p010:02"
+   ],
+   "pdf_pages": [
+    2,
+    10
+   ],
+   "candidate_id": "derond2014-e6da07:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Capability not event",
+   "definition": "Serendipity is a human capability (agency), not a happening; chance is merely one raw material on which it relies.",
+   "applies_when": "The account attributes the outcome to the person's ability to see and use connections rather than to luck alone.",
+   "does_not_apply_when": "Attribution is purely to fortune, providence or probability.",
+   "passage_ids": [
+    "derond2014-e6da07:p001:01",
+    "derond2014-e6da07:p011:01"
+   ],
+   "pdf_pages": [
+    1,
+    11
+   ],
+   "candidate_id": "derond2014-e6da07:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Serendipity as mere luck",
+   "definition": "The popular view, criticized by the author, that serendipity is synonymous with chance, luck, happy accident or providence.",
+   "applies_when": "The person narrates the event as pure luck, a happy accident, or something that just happened to them.",
+   "does_not_apply_when": "The person also describes actively recognizing and combining the event with prior knowledge.",
+   "passage_ids": [
+    "derond2014-e6da07:p002:01",
+    "derond2014-e6da07:p002:02",
+    "derond2014-e6da07:p012:01"
+   ],
+   "pdf_pages": [
+    2,
+    12
+   ],
+   "candidate_id": "derond2014-e6da07:c03"
+  },
+  {
+   "group": "type",
+   "label": "True serendipity",
+   "definition": "Finding something different from what one was looking for, leading to a change in objective.",
+   "applies_when": "An unexpected finding causes the person to change goals or pursue a different product, use or direction.",
+   "does_not_apply_when": "The goal stays the same and only the route changes (pseudo-serendipity).",
+   "passage_ids": [
+    "derond2014-e6da07:p011:02",
+    "derond2014-e6da07:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "derond2014-e6da07:c04"
+  },
+  {
+   "group": "type",
+   "label": "Pseudo-serendipity",
+   "definition": "Finding what one was looking for, but by an unusual, surprising route enabled by chance; the objective remains unchanged.",
+   "applies_when": "Unplanned events or encounters help the person reach an original goal without deviating from it.",
+   "does_not_apply_when": "The unexpected event redirects the goal itself.",
+   "passage_ids": [
+    "derond2014-e6da07:p011:02",
+    "derond2014-e6da07:p010:03"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "candidate_id": "derond2014-e6da07:c05"
+  },
+  {
+   "group": "type",
+   "label": "Chance as random variation",
+   "definition": "The triggering chance event is a-causal, unrelated to any design, such as a contaminant spore or a lucky office-mate.",
+   "applies_when": "The trigger was a random occurrence unconnected to the person's own plans or setup.",
+   "does_not_apply_when": "The unexpected outcome arose from the way the person's own work or design was set up.",
+   "passage_ids": [
+    "derond2014-e6da07:p011:03",
+    "derond2014-e6da07:p012:01",
+    "derond2014-e6da07:p010:02"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    12
+   ],
+   "candidate_id": "derond2014-e6da07:c06"
+  },
+  {
+   "group": "type",
+   "label": "Unintended consequence of design",
+   "definition": "The unexpected outcome is causally related to a design process, e.g. products found to have uses other than those intended, or side effects arising from trial design.",
+   "applies_when": "A product, project or process yields an unintended use or effect because of how it was designed or tested.",
+   "does_not_apply_when": "The trigger was a random, unrelated occurrence.",
+   "passage_ids": [
+    "derond2014-e6da07:p007:01",
+    "derond2014-e6da07:p011:03"
+   ],
+   "pdf_pages": [
+    7,
+    11
+   ],
+   "candidate_id": "derond2014-e6da07:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "Anomaly or unexpected observation",
+   "definition": "An unanticipated, anomalous datum or side effect that becomes the occasion for new theory or direction.",
+   "applies_when": "The person notices something surprising or anomalous, such as an unexpected effect or result.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p004:01",
+    "derond2014-e6da07:p004:02",
+    "derond2014-e6da07:p007:02"
+   ],
+   "pdf_pages": [
+    4,
+    7
+   ],
+   "candidate_id": "derond2014-e6da07:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounters and conversations",
+   "definition": "Unplanned exchanges with others, such as a conversation over beer or sharing an office with an expert, that direct efforts.",
+   "applies_when": "The person describes a casual or unplanned conversation or encounter that supplied a key idea or correction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p008:01",
+    "derond2014-e6da07:p008:03",
+    "derond2014-e6da07:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "derond2014-e6da07:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Combinatorial recombination",
+   "definition": "Creatively recombining observations, events or existing technologies to deduce sets that appear meaningfully related.",
+   "applies_when": "The person describes combining disparate pieces of knowledge, technologies or events into a new idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p003:02",
+    "derond2014-e6da07:p010:02",
+    "derond2014-e6da07:p011:01"
+   ],
+   "pdf_pages": [
+    3,
+    10,
+    11
+   ],
+   "candidate_id": "derond2014-e6da07:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Sagacity and practical judgment",
+   "definition": "Judging and selecting which combinations are fruitful and recognizing the significance of a chance finding immediately.",
+   "applies_when": "The person recognized the significance or value of an unexpected finding and chose to pursue it.",
+   "does_not_apply_when": "The person noticed something but failed to see its significance (e.g. Columbus).",
+   "passage_ids": [
+    "derond2014-e6da07:p006:03",
+    "derond2014-e6da07:p008:02",
+    "derond2014-e6da07:p015:01"
+   ],
+   "pdf_pages": [
+    6,
+    8,
+    15
+   ],
+   "candidate_id": "derond2014-e6da07:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Commitment to exploit the finding",
+   "definition": "Putting the matched pair to practical use by investing resources to develop it, as Pfizer did by funding new trials.",
+   "applies_when": "After the unexpected discovery, the person or firm commits resources to test or develop it.",
+   "does_not_apply_when": "The finding is left dormant without development.",
+   "passage_ids": [
+    "derond2014-e6da07:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "derond2014-e6da07:c12"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge and training",
+   "definition": "Serendipity depends on the individual's total, even forgotten, stock of knowledge, which lets items pop to mind when an unexpected event occurs.",
+   "applies_when": "The person's prior expertise or experience was what let them recognize the meaning of the unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p011:02",
+    "derond2014-e6da07:p006:02",
+    "derond2014-e6da07:p013:03"
+   ],
+   "pdf_pages": [
+    6,
+    11,
+    13
+   ],
+   "candidate_id": "derond2014-e6da07:c13"
+  },
+  {
+   "group": "background",
+   "label": "Social others and networks",
+   "definition": "Breakthroughs depend on those around the innovator; bridging ties across groups and diverse contacts increase access to ideas.",
+   "applies_when": "Others, colleagues or contacts from different groups contributed knowledge essential to the discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p013:03",
+    "derond2014-e6da07:p013:01",
+    "derond2014-e6da07:p014:02"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "derond2014-e6da07:c14"
+  },
+  {
+   "group": "background",
+   "label": "Purposeful search / prepared mind",
+   "definition": "Lucky accidents happen to those who deserve them, typically after persistent search for something significant.",
+   "applies_when": "The unexpected find came during an ongoing, dedicated search or effort.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p004:03",
+    "derond2014-e6da07:p008:02"
+   ],
+   "pdf_pages": [
+    4,
+    8
+   ],
+   "candidate_id": "derond2014-e6da07:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Controlled sloppiness",
+   "definition": "A degree of sloppiness, untidiness, inefficiency, wandering and directionless activity makes serendipity more likely.",
+   "applies_when": "The person describes untidy, exploratory or loosely structured activity that allowed unexpected things to be noticed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p012:02",
+    "derond2014-e6da07:p006:01"
+   ],
+   "pdf_pages": [
+    6,
+    12
+   ],
+   "candidate_id": "derond2014-e6da07:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Diversity and boundary-spanning",
+   "definition": "Contact with dissimilar people, diverse disciplines and relationships spanning groups increases propensity for serendipity.",
+   "applies_when": "The person mentions exposure to diverse people, fields or groups outside their usual circle.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p013:01",
+    "derond2014-e6da07:p013:02",
+    "derond2014-e6da07:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "derond2014-e6da07:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Freedom, dissent and naivety",
+   "definition": "Freedom to act independently, dissent, refusal to be bound by prevailing paradigms, and even naivety and eccentricity facilitate unexpected discoveries.",
+   "applies_when": "The person worked against orthodoxy, outside assignments, or acted with freedom or naivety that enabled the discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p013:02",
+    "derond2014-e6da07:p010:03",
+    "derond2014-e6da07:p007:03"
+   ],
+   "pdf_pages": [
+    7,
+    10,
+    13
+   ],
+   "candidate_id": "derond2014-e6da07:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Abandoning projects too soon",
+   "definition": "Halting unpromising projects early may pre-empt serendipity; tenacity supports it.",
+   "applies_when": "The person describes persisting with, or prematurely dropping, a project that did or could have yielded an unexpected result.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p014:01",
+    "derond2014-e6da07:p012:02"
+   ],
+   "pdf_pages": [
+    12,
+    14
+   ],
+   "candidate_id": "derond2014-e6da07:c19"
+  },
+  {
+   "group": "outcome",
+   "label": "Redirected product use and value",
+   "definition": "Serendipity can redirect a venture to a new market or use, generating major commercial value (e.g. Viagra).",
+   "applies_when": "An unexpected finding led to a new product use or market and commercial success.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p007:02",
+    "derond2014-e6da07:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "derond2014-e6da07:c20"
+  },
+  {
+   "group": "outcome",
+   "label": "Recombinational capability as advantage",
+   "definition": "Differences in organizations' abilities to identify matching pairs may explain performance variance and competitive advantage.",
+   "applies_when": "An account links a firm's success to its ability to connect events or knowledge others missed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p013:03",
+    "derond2014-e6da07:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "derond2014-e6da07:c21"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective luck narratives",
+   "definition": "Discoverers and audiences often narrate discoveries as luck or accidents, though the seeds of discovery were brewing long before the credited chance observation.",
+   "applies_when": "The person tells a story of an accidental discovery, while the account reveals long prior groundwork.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p014:02",
+    "derond2014-e6da07:p005:01",
+    "derond2014-e6da07:p004:03"
+   ],
+   "pdf_pages": [
+    4,
+    5,
+    14
+   ],
+   "candidate_id": "derond2014-e6da07:c22"
+  },
+  {
+   "group": "rival",
+   "label": "Obviousness or inevitability",
+   "definition": "Seemingly serendipitous discoveries may have been obvious or inevitable given existing knowledge and technologies.",
+   "applies_when": "The discovery relied entirely on existing pieces such that others could readily have made it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2014-e6da07:p010:01",
+    "derond2014-e6da07:p015:01"
+   ],
+   "pdf_pages": [
+    10,
+    15
+   ],
+   "candidate_id": "derond2014-e6da07:c23"
+  }
+ ],
+ "removed": []
+}

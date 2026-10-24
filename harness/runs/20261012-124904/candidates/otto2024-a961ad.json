@@ -1,0 +1,366 @@
+{
+ "paper_id": "otto2024-a961ad",
+ "file": "papers/pdf/Otto et al - 2024 - Finding Creativity in Predictability Seizing Kairos in Chronos Through Temporal Work in Complex Innovation Processes.pdf",
+ "about": [
+  "An ethnographic and interview study of pharmaceutical drug discovery and development. It shows how actors use temporal work (entraining to, detraining from and reframing clock-time structures) to turn unexpected temporal tensions, including serendipitous anomalies, into opportune moments (kairos) for creative agency and new projects."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "background",
+   "label": "Serendipity arises within routine structure",
+   "definition": "Serendipitous, opportune moments are not outside planned routine work. They are created in and through it, and the reorientation they bring only happens against clear structures and expectations.",
+   "applies_when": "An account describes an unexpected discovery or insight that arose during planned, routine or schedule-driven work, or that stood out because it contradicted established expectations.",
+   "does_not_apply_when": "The insight is described as coming from free, unstructured slack time deliberately set aside for exploration.",
+   "passage_ids": [
+    "otto2024-a961ad:p005:01",
+    "otto2024-a961ad:p019:03"
+   ],
+   "pdf_pages": [
+    5,
+    19
+   ],
+   "candidate_id": "otto2024-a961ad:c01"
+  },
+  {
+   "group": "type",
+   "label": "Sudden moment vs unfolding process",
+   "definition": "The authors contrast kairos as a single eureka moment, serendipitous occasion or flash of insight with kairos as an abductive process unfolding through temporal work over time.",
+   "applies_when": "A coder can see whether the person narrates the opportunity as one sudden flash, or as a drawn-out process of doubt, exploration and reinterpretation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p003:04",
+    "otto2024-a961ad:p016:03",
+    "otto2024-a961ad:p016:04"
+   ],
+   "pdf_pages": [
+    3,
+    16
+   ],
+   "candidate_id": "otto2024-a961ad:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexplained anomaly or unexpected result",
+   "definition": "Unexpected positive or negative results or data anomalies that cannot be explained by established theory create a tension with the plan and carry potential for opportunity.",
+   "applies_when": "The person reports stumbling on irregular data, surprising experimental results or an anomaly that contradicted their assumptions.",
+   "does_not_apply_when": "The disruption is a planned contradiction between schedules, such as clashing work paces, rather than a new unforeseen event.",
+   "passage_ids": [
+    "otto2024-a961ad:p012:02",
+    "otto2024-a961ad:p014:05",
+    "otto2024-a961ad:p015:01"
+   ],
+   "pdf_pages": [
+    12,
+    14,
+    15
+   ],
+   "candidate_id": "otto2024-a961ad:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Enforced pause giving time to think",
+   "definition": "Unplanned stoppages, such as a COVID-19 lab closure or an indefinite wait, initially frustrate but give actors time to think, question hypotheses and develop new projects.",
+   "applies_when": "An account describes an externally imposed interruption or waiting time that turned into an occasion for reflection or a new idea.",
+   "does_not_apply_when": "The break was deliberately scheduled slack time.",
+   "passage_ids": [
+    "otto2024-a961ad:p012:02",
+    "otto2024-a961ad:p025:01"
+   ],
+   "pdf_pages": [
+    12,
+    25
+   ],
+   "candidate_id": "otto2024-a961ad:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance conversation with colleague or mentor",
+   "definition": "An incidental remark from someone outside the immediate task reveals the source of a problem or a new direction for the project.",
+   "applies_when": "The person recounts a casual chat or conversation in which another person offered information or advice that unlocked a stalled project.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p014:01",
+    "otto2024-a961ad:p018:03",
+    "otto2024-a961ad:p018:04"
+   ],
+   "pdf_pages": [
+    14,
+    18
+   ],
+   "candidate_id": "otto2024-a961ad:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Friction between conflicting paces",
+   "definition": "Tensions from inherent contradictions in schedules, such as fast computational versus slow lab work, can be a valuable opportunity and should not be smoothed over too early.",
+   "applies_when": "An account presents a clash between teams' or professions' rhythms as productive friction that opened new possibilities.",
+   "does_not_apply_when": "The disruption comes from a new unforeseen event rather than from contradictions built into the plan.",
+   "passage_ids": [
+    "otto2024-a961ad:p012:01",
+    "otto2024-a961ad:p007:05"
+   ],
+   "pdf_pages": [
+    7,
+    12
+   ],
+   "candidate_id": "otto2024-a961ad:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Detraining: enduring the tension",
+   "definition": "Actors momentarily detach from schedules and tolerate delay, doubt and ambiguity rather than getting back on track. This gives them time to question assumptions and explore the scope of the disruption.",
+   "applies_when": "The person describes persisting despite doubts, letting deadlines slip, working without clear timelines, or taking an unexpected development seriously instead of ignoring it.",
+   "does_not_apply_when": "The person speeds up or adjusts work to stay on the original schedule (entrainment).",
+   "passage_ids": [
+    "otto2024-a961ad:p009:01",
+    "otto2024-a961ad:p013:03",
+    "otto2024-a961ad:p016:02"
+   ],
+   "pdf_pages": [
+    9,
+    13,
+    16
+   ],
+   "candidate_id": "otto2024-a961ad:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Creative deviance after hours",
+   "definition": "An actor resists management's order to ignore an anomaly and pursues it secretly or after hours, driven by curiosity.",
+   "applies_when": "An account describes working on a dismissed finding on one's own time or without permission.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p015:01",
+    "otto2024-a961ad:p015:02",
+    "otto2024-a961ad:p019:04"
+   ],
+   "pdf_pages": [
+    15,
+    19
+   ],
+   "candidate_id": "otto2024-a961ad:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Creating temporal ambiguity to buy time",
+   "definition": "Actors give deliberately vague timelines, such as 'imminent' or 'late autumn', to shield a project from cancellation and gain time for exploration.",
+   "applies_when": "The person reports blurring deadlines or start dates to keep a project alive or gain room to explore.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p014:03",
+    "otto2024-a961ad:p014:04",
+    "otto2024-a961ad:p024:03"
+   ],
+   "pdf_pages": [
+    14,
+    24
+   ],
+   "candidate_id": "otto2024-a961ad:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reframing into a new hypothesis",
+   "definition": "Through abduction, actors develop a novel interpretation of the anomaly or tension. This changes their underlying assumptions and leads to a new course of action.",
+   "applies_when": "An account shows the person reinterpreting a puzzling fact into a new explanation, hypothesis or application.",
+   "does_not_apply_when": "The person resolves the puzzle and reverts to the original hypothesis.",
+   "passage_ids": [
+    "otto2024-a961ad:p014:05",
+    "otto2024-a961ad:p015:03",
+    "otto2024-a961ad:p016:03"
+   ],
+   "pdf_pages": [
+    14,
+    15,
+    16
+   ],
+   "candidate_id": "otto2024-a961ad:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Convincing superiors and rebuilding schedules",
+   "definition": "To seize the opportunity, actors share their new interpretation, persuade managers to allocate time and resources, and create new milestones, budgets and processes around the project.",
+   "applies_when": "The person describes pitching the new idea to superiors or backers and then setting up new plans, timelines or team structures for it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p009:02",
+    "otto2024-a961ad:p015:04",
+    "otto2024-a961ad:p019:05"
+   ],
+   "pdf_pages": [
+    9,
+    15,
+    19
+   ],
+   "candidate_id": "otto2024-a961ad:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Entrainment lets the opportunity lapse",
+   "definition": "When actors or managers treat unexpected developments as bothersome deviations and stick to the schedule, exploration is stopped and the opportunity is lost.",
+   "applies_when": "An account reports managers or the team dismissing interesting unexpected data, stopping exploration or killing a project to stay on timeline or budget.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p012:04",
+    "otto2024-a961ad:p013:02",
+    "otto2024-a961ad:p008:01"
+   ],
+   "pdf_pages": [
+    8,
+    12,
+    13
+   ],
+   "candidate_id": "otto2024-a961ad:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Reducing reliance on luck",
+   "definition": "Actors attribute slow discovery to lack of time or volume. They try to remove the need for serendipity through acceleration, scale or accurate modelling while staying on the original path.",
+   "applies_when": "The person describes a numbers game, more throughput or better models explicitly intended to move away from serendipitous findings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p013:01",
+    "otto2024-a961ad:p012:05",
+    "otto2024-a961ad:p023:04"
+   ],
+   "pdf_pages": [
+    12,
+    13,
+    23
+   ],
+   "candidate_id": "otto2024-a961ad:c13"
+  },
+  {
+   "group": "account",
+   "label": "Deviation framed as meaningful vs random",
+   "definition": "Actors either frame an unexpected event as a random, bothersome deviation or as a chance that could have happened any time, or construct it as meaningful, as happening for a reason and as a learning opportunity.",
+   "applies_when": "The way the person narrates a surprise shows whether they treated it as noise or as a meaningful learning opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p017:01",
+    "otto2024-a961ad:p017:03",
+    "otto2024-a961ad:p004:03"
+   ],
+   "pdf_pages": [
+    4,
+    17
+   ],
+   "candidate_id": "otto2024-a961ad:c14"
+  },
+  {
+   "group": "account",
+   "label": "Recognised only in hindsight",
+   "definition": "Key turning points or eureka moments are often only recognised and attributed retrospectively.",
+   "applies_when": "The person says they did not realise the significance at the time, only looking back.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p018:04",
+    "otto2024-a961ad:p020:05"
+   ],
+   "pdf_pages": [
+    18,
+    20
+   ],
+   "candidate_id": "otto2024-a961ad:c15"
+  },
+  {
+   "group": "account",
+   "label": "The right moment",
+   "definition": "Actors narrate success as choosing the right moment, when budget, patent duration, stakeholders and other factors align and 'the time is ripe'.",
+   "applies_when": "The person explains a decision or launch in terms of timing, ripeness or alignment of circumstances.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p018:03",
+    "otto2024-a961ad:p018:04"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "otto2024-a961ad:c16"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting toward new applications",
+   "definition": "An unexpected finding redirects a project toward different uses or indications than first intended, for example from a heart disease compound to applications in the eye area.",
+   "applies_when": "An account describes a project's goal or target market shifting because of an unexpected discovery.",
+   "does_not_apply_when": "The project continues toward its original goal after the surprise.",
+   "passage_ids": [
+    "otto2024-a961ad:p018:01",
+    "otto2024-a961ad:p015:03"
+   ],
+   "pdf_pages": [
+    15,
+    18
+   ],
+   "candidate_id": "otto2024-a961ad:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "New project or breakthrough product",
+   "definition": "Seizing the anomaly led to a newly funded project and eventually a first-in-class treatment that was a scientific and commercial success. In another case, a mentor's remark turned into an entirely new project.",
+   "applies_when": "The person links an unexpected event to the launch of a new project, venture or successful product.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p015:03",
+    "otto2024-a961ad:p015:05",
+    "otto2024-a961ad:p018:03"
+   ],
+   "pdf_pages": [
+    15,
+    18
+   ],
+   "candidate_id": "otto2024-a961ad:c18"
+  },
+  {
+   "group": "outcome",
+   "label": "Project kept alive on original path",
+   "definition": "Detrainment can end in an adaptive outcome. A chance explanation, such as leaking equipment, lets the team revert to its original assumptions and continue rather than terminate the project.",
+   "applies_when": "An unexpected input resolves a crisis so that the project survives without changing direction.",
+   "does_not_apply_when": "The unexpected input leads to new assumptions and a new direction (reframing).",
+   "passage_ids": [
+    "otto2024-a961ad:p014:01",
+    "otto2024-a961ad:p014:05"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "otto2024-a961ad:c19"
+  },
+  {
+   "group": "condition",
+   "label": "Unplanned latitude and temporal autonomy",
+   "definition": "Moments of detrainment create unplanned, often uncomfortable latitude that shields actors from schedule pressure and grants time to observe anomalies and think divergently. The authors distinguish this from slack time.",
+   "applies_when": "The person describes having room, time or freedom from deadlines that arose unplanned and allowed exploring something unexpected.",
+   "does_not_apply_when": "The time was formally allocated slack for exploration.",
+   "passage_ids": [
+    "otto2024-a961ad:p019:04",
+    "otto2024-a961ad:p020:03"
+   ],
+   "pdf_pages": [
+    19,
+    20
+   ],
+   "candidate_id": "otto2024-a961ad:c20"
+  },
+  {
+   "group": "condition",
+   "label": "Curiosity, scientific logic and champions",
+   "definition": "Pursuing unexpected developments depends on curiosity, actors' scientific professional identity, and emotionally invested idea champions. It also depends on an environment that tolerates divergence from managerial plans.",
+   "applies_when": "An account credits curiosity, a scientific mindset, a champion, or organisational tolerance of deviation for pursuing an unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "otto2024-a961ad:p015:02",
+    "otto2024-a961ad:p021:03",
+    "otto2024-a961ad:p021:05"
+   ],
+   "pdf_pages": [
+    15,
+    21
+   ],
+   "candidate_id": "otto2024-a961ad:c21"
+  }
+ ],
+ "removed": []
+}

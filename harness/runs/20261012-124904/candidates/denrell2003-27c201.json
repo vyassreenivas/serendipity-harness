@@ -1,0 +1,75 @@
+{
+ "paper_id": "denrell2003-27c201",
+ "file": "papers/pdf/Denrell - 2003 - Vicarious Learning Undersampling of Failure and the Myths of Management.pdf",
+ "about": [
+  "The paper shows that because observers mostly see surviving and successful organizations, risky, uninformed or focused practices wrongly appear to cause success. In passing it notes that people play down chance and recast lucky outcomes as vision or intuition."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "account",
+   "label": "Lucky success recast as vision",
+   "definition": "People tend to play down chance as an explanation for success. After the fact, a risky choice that happened to work out is described as competent or 'visionary' rather than lucky.",
+   "applies_when": "An account describes a risky move, such as a product launch, that happened to succeed, and the narrator presents it in hindsight as foresight, competence or vision with little or no mention of luck.",
+   "does_not_apply_when": "The narrator explicitly credits chance or luck for the outcome, or the account gives evidence that the outcome was actually anticipated through analysis beforehand.",
+   "passage_ids": [
+    "denrell2003-27c201:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "denrell2003-27c201:c01"
+  },
+  {
+   "group": "account",
+   "label": "Chance hit read as intuition",
+   "definition": "Firms that acted quickly without analysis, or followed one ideologically chosen option, and 'happened to' hit on the right product or strategy look in retrospect as if they succeeded through intuition or conviction.",
+   "applies_when": "A founder attributes success to gut feeling, quick intuitive action or single-minded conviction, while the account suggests the choice happened to match what customers wanted.",
+   "does_not_apply_when": "The success follows from deliberate evaluation of alternatives.",
+   "passage_ids": [
+    "denrell2003-27c201:p013:01",
+    "denrell2003-27c201:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "denrell2003-27c201:c02"
+  },
+  {
+   "group": "background",
+   "label": "Uninformed outsider stumbles on neglected area",
+   "definition": "Newcomers and outsiders know less about which technologies are promising, so they put resources into areas that informed firms avoid. This usually produces false starts, but occasionally such an area turns out to be promising and yields a radical innovation.",
+   "applies_when": "An account describes a newcomer or outsider who, through limited knowledge of the field, pursued an area others had dismissed, and that area unexpectedly proved valuable.",
+   "does_not_apply_when": "The outsider chose the area on the basis of superior information or deliberate analysis rather than lack of knowledge.",
+   "passage_ids": [
+    "denrell2003-27c201:p011:01",
+    "denrell2003-27c201:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "denrell2003-27c201:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Survivor-only evidence",
+   "definition": "Apparent links between a practice and success may arise only because failures are not observed. Only the successful risk-takers remain visible, and those who pursued the same course and failed are forgotten or dismissed as cranks rather than called visionaries.",
+   "applies_when": "An account draws lessons about what made a venture succeed from successful cases alone, for example praising persistent single-minded focus or risk-taking, without considering others who did the same and failed.",
+   "does_not_apply_when": "The account compares successes with failures that followed the same practice.",
+   "passage_ids": [
+    "denrell2003-27c201:p011:02",
+    "denrell2003-27c201:p005:02",
+    "denrell2003-27c201:p003:01"
+   ],
+   "pdf_pages": [
+    3,
+    5,
+    11
+   ],
+   "candidate_id": "denrell2003-27c201:c04"
+  }
+ ],
+ "removed": []
+}

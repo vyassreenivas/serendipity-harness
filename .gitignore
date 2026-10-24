@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+.venv/
+# Papers and interviews never go in this repository.
+harness/runs/*/pages/
+harness/runs/*/passages/
+harness/runs/*/segments/
+harness/runs/*/calls/
+harness/runs/*/private/
+harness/runs/*/model_coding/
+harness/runs/*/kit/
+harness_v2/outputs/*
+!harness_v2/outputs/README.md

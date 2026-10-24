@@ -1,0 +1,484 @@
+{
+ "paper_id": "garud2011-65d6ed",
+ "file": "papers/pdf/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.pdf",
+ "about": [
+  "A study of how 3M sustained innovation through interwoven relational and temporal practices (complexity arrangements) that let employees cultivate serendipitous, opportune moments (kairos) alongside scheduled work (chronos), traced through the microreplication platform and the BEF and Trizact journeys."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unpredictable eureka moment requiring prior engagement",
+   "definition": "Serendipitous moments and flashes of insight cannot be predicted or willed in advance, yet they depend on prior engagement: chance favors the prepared mind.",
+   "applies_when": "An account describes a sudden insight or lucky break that the person could not plan, but that rested on their earlier work or immersion in the area.",
+   "does_not_apply_when": "The insight was the planned output of a scheduled process, or arrived with no prior engagement in the domain.",
+   "passage_ids": [
+    "garud2011-65d6ed:p002:06"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "garud2011-65d6ed:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as kairos, not clock time",
+   "definition": "Serendipitous moments are opportune moments, times when 'the time is right', that cannot be scheduled by the clock or calendar. They are contrasted with chronos, the time of schedules.",
+   "applies_when": "A person describes something that happened at an unscheduled, favorable moment, or says the timing was right rather than planned.",
+   "does_not_apply_when": "The events were driven by deadlines, schedules or calendar-based planning (chronos).",
+   "passage_ids": [
+    "garud2011-65d6ed:p020:06",
+    "garud2011-65d6ed:p020:07",
+    "garud2011-65d6ed:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    20
+   ],
+   "candidate_id": "garud2011-65d6ed:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Mistake or failure that galvanizes action",
+   "definition": "An apparent mistake or setback, such as the founders' mine producing the wrong mineral, prompts actions that eventually lead to innovation. The authors call these 'accidental' innovations.",
+   "applies_when": "An account describes an unexpected failure or wrong result that the person turned into a new product or business direction.",
+   "does_not_apply_when": "The failure simply ended the effort without redirecting it.",
+   "passage_ids": [
+    "garud2011-65d6ed:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "garud2011-65d6ed:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance exposure to an outside invention",
+   "definition": "A person happens upon an external invention or idea, as Cobb did with Whitehead's light-tube patent while working on another project. Combined with their own capabilities, this lets them see a new possibility.",
+   "applies_when": "Someone describes coming across a technology, patent or idea from outside while doing something else, and immediately seeing how their own capabilities could apply to it.",
+   "does_not_apply_when": "The person ran a deliberate, targeted search for that technology.",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:02",
+    "garud2011-65d6ed:p016:03",
+    "garud2011-65d6ed:p014:01"
+   ],
+   "pdf_pages": [
+    14,
+    16
+   ],
+   "candidate_id": "garud2011-65d6ed:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Accidental observation during work",
+   "definition": "A noticed anomaly, such as paper looking brighter under the film, or a microscopic pattern seen on a lens surface, sparks new ideas or the insight behind a technology platform.",
+   "applies_when": "An account describes noticing an unexpected physical effect or pattern during routine work, which then generates ideas.",
+   "does_not_apply_when": "The observation was the intended result of a planned experiment.",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:01",
+    "garud2011-65d6ed:p016:05"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "garud2011-65d6ed:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "External development removes a constraint",
+   "definition": "A development outside the organization's control, such as backlit LCD laptops supplying the missing light source, suddenly makes a long-held capability commercially viable. In Cobb's words, 'the niche found us'.",
+   "applies_when": "A person describes a long-stalled product or idea becoming viable because a market or technology emerged elsewhere, unplanned by them.",
+   "does_not_apply_when": "The organization created the enabling condition itself.",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:06",
+    "garud2011-65d6ed:p017:06"
+   ],
+   "pdf_pages": [
+    16,
+    17
+   ],
+   "candidate_id": "garud2011-65d6ed:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bootlegging to test an idea",
+   "definition": "Employees informally borrow time, equipment, people or facilities without authorization in order to explore whether a serendipitous idea has merit.",
+   "applies_when": "An account describes using unauthorized or borrowed resources, or 'squirreling away' time, to try out an unexpected idea.",
+   "does_not_apply_when": "The work was formally funded and approved from the start.",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:04",
+    "garud2011-65d6ed:p010:04",
+    "garud2011-65d6ed:p016:01"
+   ],
+   "pdf_pages": [
+    10,
+    16
+   ],
+   "candidate_id": "garud2011-65d6ed:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Talking around to recruit collaborators",
+   "definition": "A person with a chance idea discusses it informally with people who have relevant expertise. They join, and through experimenting together the group realizes broader applications.",
+   "applies_when": "Someone describes spreading an idea through informal conversations, drawing in colleagues who then reshape it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p014:04",
+    "garud2011-65d6ed:p014:05",
+    "garud2011-65d6ed:p018:04"
+   ],
+   "pdf_pages": [
+    14,
+    18
+   ],
+   "candidate_id": "garud2011-65d6ed:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recombining stored intermediary outcomes",
+   "definition": "Insights and artifacts from earlier efforts, including ones that failed, are later combined with outcomes from other journeys to produce radically new solutions to problems that emerge.",
+   "applies_when": "An account describes reaching back to earlier, shelved work or abandoned products and combining them with something new.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p022:03",
+    "garud2011-65d6ed:p024:05"
+   ],
+   "pdf_pages": [
+    22,
+    24
+   ],
+   "candidate_id": "garud2011-65d6ed:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Experienced recognition of value",
+   "definition": "Someone with long domain experience recognizes the potential of an emergent idea and backs it, as manager Hong did when he saw the new abrasive.",
+   "applies_when": "A person says they recognized an idea's value because of their years in the field.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p018:05"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "garud2011-65d6ed:c10"
+  },
+  {
+   "group": "background",
+   "label": "Accumulated expertise from false starts",
+   "definition": "Niche applications and failed experiments build up expertise, toolkits, patents and intellectual property. These later enable a serendipitous opportunity to be exploited.",
+   "applies_when": "An account credits past failed or small projects with the knowledge and tools that made a later lucky break usable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p018:02",
+    "garud2011-65d6ed:p018:03",
+    "garud2011-65d6ed:p018:01"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "garud2011-65d6ed:c11"
+  },
+  {
+   "group": "background",
+   "label": "Technology platforms as preserved options",
+   "definition": "Platforms keep intermediary outcomes as potentially valuable options, giving a 'time to wait'. Ideas can mature instead of being abandoned, which preadapts the organization to an emergent future.",
+   "applies_when": "Someone describes keeping capabilities or prior work alive in a shared repository until a need appeared.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p022:02",
+    "garud2011-65d6ed:p022:04"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "garud2011-65d6ed:c12"
+  },
+  {
+   "group": "background",
+   "label": "Cross-domain interaction and cross-fertilization",
+   "definition": "Ongoing interactions among diverse people, technologies and units (fairs, rotations, symposia, cross-functional meetings) create the collisions from which opportune moments and new combinations arise.",
+   "applies_when": "An account traces an unexpected idea to contact with people or technologies from another domain or unit.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p020:04",
+    "garud2011-65d6ed:p020:05",
+    "garud2011-65d6ed:p012:03"
+   ],
+   "pdf_pages": [
+    12,
+    20
+   ],
+   "candidate_id": "garud2011-65d6ed:c13"
+  },
+  {
+   "group": "background",
+   "label": "Breadth of personal experience",
+   "definition": "Innovation is described as integrating one's experiences across many areas while keeping one's eyes open to see where learning can be applied.",
+   "applies_when": "A person links their insight to applying knowledge gained from diverse prior roles or areas.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p008:06"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "garud2011-65d6ed:c14"
+  },
+  {
+   "group": "role",
+   "label": "Starting a venture or platform",
+   "definition": "Serendipity can originate a venture: 3M's founding from a failed mine and the microreplication platform from a discovery made in exploration time.",
+   "applies_when": "An account traces the founding or origin of a business or product line to an accidental discovery or mistake.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p006:01",
+    "garud2011-65d6ed:p012:06"
+   ],
+   "pdf_pages": [
+    6,
+    12
+   ],
+   "candidate_id": "garud2011-65d6ed:c15"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting toward unexpected larger opportunities",
+   "definition": "Continued experimentation turns up unanticipated applications that become bigger than the original idea, such as aircraft rivet film becoming abrasives and then silicon wafer products.",
+   "applies_when": "Someone describes a project shifting to an unexpected application or market that outgrew the original aim.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:03",
+    "garud2011-65d6ed:p020:03",
+    "garud2011-65d6ed:p020:02"
+   ],
+   "pdf_pages": [
+    16,
+    20
+   ],
+   "candidate_id": "garud2011-65d6ed:c16"
+  },
+  {
+   "group": "outcome",
+   "label": "Mistakes become future serendipitous discoveries",
+   "definition": "Ideas labeled mistakes or dead-ends in real time can later yield serendipitous discoveries and solutions to future problems.",
+   "applies_when": "An account recalls something once judged a failure that later proved valuable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p024:05",
+    "garud2011-65d6ed:p020:07",
+    "garud2011-65d6ed:p002:06"
+   ],
+   "pdf_pages": [
+    2,
+    20,
+    24
+   ],
+   "candidate_id": "garud2011-65d6ed:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Making one's own luck",
+   "definition": "By organizing to create, cultivate and exploit favorable moments, an organization makes its own luck. Favorable moments become endogenous rather than purely external.",
+   "applies_when": "A person says they created the conditions for their luck, or that lucky moments arose from how they organized.",
+   "does_not_apply_when": "The luck is presented as purely external and unconnected to the person's practices.",
+   "passage_ids": [
+    "garud2011-65d6ed:p024:04"
+   ],
+   "pdf_pages": [
+    24
+   ],
+   "candidate_id": "garud2011-65d6ed:c18"
+  },
+  {
+   "group": "account",
+   "label": "Niche found us",
+   "definition": "Actors narrate a fortunate outcome as the opportunity finding them rather than them finding it, while still crediting a system of people and communication.",
+   "applies_when": "An interviewee says something like 'the opportunity came to us' or 'we didn't find it, it found us'.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:06",
+    "garud2011-65d6ed:p016:07"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "garud2011-65d6ed:c19"
+  },
+  {
+   "group": "account",
+   "label": "Sudden clarity after waiting",
+   "definition": "Insight is described not as a lightning flash but as something suddenly becoming clear. People wait for it, and it comes more often for some than for others.",
+   "applies_when": "An interviewee describes waiting for an idea and then sudden clarity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p008:07"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "garud2011-65d6ed:c20"
+  },
+  {
+   "group": "account",
+   "label": "Stumbling-onto-discovery narratives",
+   "definition": "Organizational lore tells of intrapreneurs stumbling onto discoveries, outsmarting managers and bootlegging. These stories form a memory that guides later behavior.",
+   "applies_when": "People retell stories about accidental discoveries as models for how innovation happens.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p026:02",
+    "garud2011-65d6ed:p022:07"
+   ],
+   "pdf_pages": [
+    22,
+    26
+   ],
+   "candidate_id": "garud2011-65d6ed:c21"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective linearity",
+   "definition": "Nonlinear journeys full of false starts and chance can appear linear when viewed retrospectively or through stage-gate frameworks.",
+   "applies_when": "An account presents a tidy, step-by-step development story that hides chance events and dead ends.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p020:07"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "garud2011-65d6ed:c22"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate market assessment and focus",
+   "definition": "Some progress came from managers carefully assessing market potential and deliberately focusing resources, as with the computer display filters, rather than from chance.",
+   "applies_when": "An account attributes a direction to systematic evaluation and planned focus.",
+   "does_not_apply_when": "The direction emerged from an unplanned event.",
+   "passage_ids": [
+    "garud2011-65d6ed:p016:06"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "garud2011-65d6ed:c23"
+  },
+  {
+   "group": "rival",
+   "label": "Foresight-driven mobilization",
+   "definition": "Cultivated foresight about technology and market trends mobilizes elements of the past in productive ways and triggers activity in the present. This is anticipatory rather than accidental.",
+   "applies_when": "An account explains an opportunity as anticipated through deliberate study of future trends.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p024:02",
+    "garud2011-65d6ed:p008:06"
+   ],
+   "pdf_pages": [
+    8,
+    24
+   ],
+   "candidate_id": "garud2011-65d6ed:c24"
+  },
+  {
+   "group": "condition",
+   "label": "Slack time and discretion",
+   "definition": "The 15% option gives discretion and slack so that employees can leverage serendipitous moments whenever they occur, rather than in a fixed schedule.",
+   "applies_when": "An account mentions having free time or discretion that allowed the person to follow up on an unexpected idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p020:06",
+    "garud2011-65d6ed:p010:05",
+    "garud2011-65d6ed:p022:03"
+   ],
+   "pdf_pages": [
+    10,
+    20,
+    22
+   ],
+   "candidate_id": "garud2011-65d6ed:c25"
+  },
+  {
+   "group": "condition",
+   "label": "Funding for nascent and ripe ideas",
+   "definition": "Seed grants (Genesis) let ideas incubate and stretch time out, while acceleration programs (Pacing Plus) compress time to catch short market windows.",
+   "applies_when": "An account cites small seed funding or fast-track funding as what let a chance idea progress.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p020:03",
+    "garud2011-65d6ed:p022:01"
+   ],
+   "pdf_pages": [
+    20,
+    22
+   ],
+   "candidate_id": "garud2011-65d6ed:c26"
+  },
+  {
+   "group": "condition",
+   "label": "Tolerance of mistakes and psychological safety",
+   "definition": "A culture that limits dictatorial management and tolerates mistakes provides the psychological safety that exploration requires.",
+   "applies_when": "An account mentions that management tolerated failure or left people free, enabling pursuit of an idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p012:05",
+    "garud2011-65d6ed:p012:06"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "garud2011-65d6ed:c27"
+  },
+  {
+   "group": "condition",
+   "label": "Schedule emphasis dampens opportune moments",
+   "definition": "Efficiency regimes such as Six Sigma, central control and short-term metrics diminish the dynamics that make opportune moments possible.",
+   "applies_when": "An account describes rigid schedules, efficiency drives or short-term targets crowding out the chance to pursue unexpected ideas.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p026:02",
+    "garud2011-65d6ed:p010:01",
+    "garud2011-65d6ed:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    10,
+    26
+   ],
+   "candidate_id": "garud2011-65d6ed:c28"
+  },
+  {
+   "group": "condition",
+   "label": "Ideas lost amid routines without retention",
+   "definition": "Ideas from opportune moments can be lost in daily routines unless mechanisms such as platforms and narratives keep them alive.",
+   "applies_when": "An account mentions an idea nearly forgotten, or kept alive through deliberate retention.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p002:01",
+    "garud2011-65d6ed:p006:01"
+   ],
+   "pdf_pages": [
+    2,
+    6
+   ],
+   "candidate_id": "garud2011-65d6ed:c29"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipity embedded in engaged work",
+   "definition": "Serendipitous moments arise in and through routine, engaged work and experimentation, not apart from it.",
+   "applies_when": "Someone describes a chance insight arising while doing their regular job or hands-on experimenting.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2011-65d6ed:p024:03",
+    "garud2011-65d6ed:p024:04"
+   ],
+   "pdf_pages": [
+    24
+   ],
+   "candidate_id": "garud2011-65d6ed:c30"
+  }
+ ],
+ "removed": []
+}

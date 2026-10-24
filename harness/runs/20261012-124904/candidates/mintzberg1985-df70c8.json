@@ -1,0 +1,234 @@
+{
+ "paper_id": "mintzberg1985-df70c8",
+ "file": "papers/pdf/Mintzberg and Waters - 1985 - Of Strategies Deliberate and Emergent.pdf",
+ "about": [
+  "Mintzberg and Waters set out a continuum from deliberate (realized as intended) to emergent (realized without or despite intentions) strategies and describe types along it: planned, entrepreneurial, ideological, umbrella, process, unconnected, consensus and imposed."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unintended order (emergent pattern)",
+   "definition": "A pattern or consistency in action that is realized despite, or in the absence of, prior intentions. It is unintended order, not chaos.",
+   "applies_when": "The account describes a consistent direction or pattern in the venture's actions that nobody planned or intended beforehand.",
+   "does_not_apply_when": "The pattern was intended in advance and realized as planned (deliberate strategy). Do not code random actions with no consistency, which the authors call no strategy at all.",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p002:03",
+    "mintzberg1985-df70c8:p003:03",
+    "mintzberg1985-df70c8:p016:01"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    16
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Planned, deliberate realization",
+   "definition": "The strategy forms exactly as intended. Precise, articulated intentions are shared and implemented without surprise in a predictable or controlled environment.",
+   "applies_when": "The account presents the venture's development as the carrying out of a detailed prior plan with no unexpected deviation.",
+   "does_not_apply_when": "The direction arose from unplanned events or from adapting to them.",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p003:02",
+    "mintzberg1985-df70c8:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Environmentally imposed direction",
+   "definition": "The environment or a powerful outside party forces a pattern of action on the organization, or restricts its options so far that choice becomes moot.",
+   "applies_when": "The account says outside forces such as clients, government or market imperatives dictated the venture's direction, leaving little choice.",
+   "does_not_apply_when": "Actors noticed an unexpected opportunity and chose to pursue it, rather than being forced into it.",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p013:01",
+    "mintzberg1985-df70c8:p013:02",
+    "mintzberg1985-df70c8:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reacting to new opportunities by reformulating vision",
+   "definition": "Because the entrepreneur both formulates and implements, he or she can react quickly to feedback or to new opportunities and threats and reformulate the vision. The details of the vision emerge en route.",
+   "applies_when": "A founder describes changing or reshaping the venture's vision in response to an opportunity or feedback that came up along the way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognizing and formalizing emergent patterns",
+   "definition": "Managers identify patterns they never intended in their own actions and then change their intentions, formalizing those patterns as deliberate strategy. Pattern recognition is a crucial managerial ability.",
+   "applies_when": "An actor describes noticing, after the fact, that something they had been doing unplanned was working, and then adopting it as the venture's explicit direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p016:01",
+    "mintzberg1985-df70c8:p017:01"
+   ],
+   "pdf_pages": [
+    16,
+    17
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Adjusting vision to others' initiatives",
+   "definition": "When actors stray outside the leader's boundaries, the leader can stop them, ignore them, or move the umbrella to cover their initiative. The authors see much effective strategic learning in this response.",
+   "applies_when": "A leader describes embracing an unplanned initiative by an employee or partner and changing the venture's direction to include it.",
+   "does_not_apply_when": "The leader suppresses the deviation instead of adopting it.",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p009:01"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Environmental change sparking new vision",
+   "definition": "When important aspects of the environment change, strong new visions can emerge quickly in entrepreneurial firms, followed by long periods of deliberate pursuit.",
+   "applies_when": "The account ties a new venture direction to an unforeseen shift in the market or environment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c07"
+  },
+  {
+   "group": "type",
+   "label": "Spontaneous collective convergence",
+   "definition": "Many actors converge on a common, probably unexpected pattern through mutual adjustment, without central intention. When the right idea comes along, consensus can crystallize almost instantly.",
+   "applies_when": "The account describes a new direction arising when one person's unplanned initiative was quickly followed by others, without any plan from above.",
+   "does_not_apply_when": "Convergence around a pre-existing shared belief system, which the authors call ideological strategy and treat as intended.",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p012:01",
+    "mintzberg1985-df70c8:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c08"
+  },
+  {
+   "group": "role",
+   "label": "Peripheral successes redirecting the organization",
+   "definition": "Unconnected or clandestine strategies pursued in enclaves can succeed and then be accepted, broadened and pervade the organization. The authors suspect much strategic adaptation arises this way.",
+   "applies_when": "A side project or individual's own initiative succeeds and becomes the venture's main direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p011:03",
+    "mintzberg1985-df70c8:p015:03"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Empirically discovered strengths",
+   "definition": "Distinctive competence often cannot be assessed on paper beforehand. It has to be discovered by taking actions that test where strengths and weaknesses really lie.",
+   "applies_when": "A founder describes learning what the venture is good at only by trying things and seeing what worked.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p016:02",
+    "mintzberg1985-df70c8:p012:03"
+   ],
+   "pdf_pages": [
+    12,
+    16
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Openness and willingness to learn",
+   "definition": "Emergent strategy depends on management being open, flexible, responsive and willing to learn, so it can act before everything is understood. Fixing intentions in advance blocks out messages from the environment.",
+   "applies_when": "An actor describes staying open to unanticipated signals, or being unwilling to lock in a plan, and as a result adapting to what came up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p016:02",
+    "mintzberg1985-df70c8:p015:03",
+    "mintzberg1985-df70c8:p016:01"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Articulated plans lock in direction",
+   "definition": "Articulating a strategy locks it in, and separating formulation from implementation builds commitments that impede change. A vision held by a single person is more flexible than a hierarchical plan.",
+   "applies_when": "An account contrasts the flexibility of a founder's unwritten vision with the rigidity of formal plans that made it hard to pursue unexpected directions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Small, personally controlled organizations",
+   "definition": "Adaptable entrepreneurial strategies appear most in young or small organizations under the personal control of one leader. As firms grow and formalize, decisive changes become less common.",
+   "applies_when": "The account links the ability to change course quickly to the venture being young, small or owner-controlled, or links lost adaptability to growth and formalization.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p005:03",
+    "mintzberg1985-df70c8:p006:03"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c13"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective claims of intention",
+   "definition": "Because individuals need not articulate their intentions, no one can be sure what they intended, or what they would later claim they intended. When intentions are malleable enough, everything can be made to seem deliberate.",
+   "applies_when": "A narrator presents in hindsight a pattern as having been planned all along, while the account suggests it built up one decision at a time.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-df70c8:p010:03",
+    "mintzberg1985-df70c8:p011:01",
+    "mintzberg1985-df70c8:p013:03"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    13
+   ],
+   "candidate_id": "mintzberg1985-df70c8:c14"
+  }
+ ],
+ "removed": []
+}

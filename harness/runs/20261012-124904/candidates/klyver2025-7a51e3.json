@@ -1,0 +1,323 @@
+{
+ "paper_id": "klyver2025-7a51e3",
+ "file": "papers/pdf/Klyver et al - 2025 - With Help from Strangers Entrepreneurs Networking for Serendipity.pdf",
+ "about": [
+  "A qualitative study of opportunity-based entrepreneurs in Nairobi showing how they form ties with strangers, either planned or by relying on serendipity, and what networking benefits (learning, legitimacy/referrals, identity) result."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Surprise, value and agency",
+   "definition": "Drawing on Busch, serendipity is making surprising and valuable discoveries. Unlike pure luck, which rests only on surprise and value, it also requires agency such as purposeful action, recombining observations or a prepared mind.",
+   "applies_when": "An account describes an unexpected, valuable discovery or connection that the entrepreneur's own action helped bring about or exploit.",
+   "does_not_apply_when": "The valuable surprise came with no action or effort by the entrepreneur. That is pure luck in the authors' framing.",
+   "passage_ids": [
+    "klyver2025-7a51e3:p003:01",
+    "klyver2025-7a51e3:p003:02",
+    "klyver2025-7a51e3:p013:05"
+   ],
+   "pdf_pages": [
+    3,
+    13
+   ],
+   "candidate_id": "klyver2025-7a51e3:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Networking as agency turning luck into serendipity",
+   "definition": "Forming ties with strangers is the agency that enacts luck and transforms it into serendipity. It happens either through previous ties, where the stranger is an indirect tie, or by reaching out to distant strangers with no linking ties.",
+   "applies_when": "The entrepreneur actively reaches out, directly or through a contact, and an unforeseen beneficial connection results.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p013:05"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "klyver2025-7a51e3:c02"
+  },
+  {
+   "group": "type",
+   "label": "Serendipitous vs planned tie initiation",
+   "definition": "Entrepreneurs form ties with strangers either in a planned way, with a particular resource, benefit or person in mind, or serendipitously, by seeking engagements with new contacts for unknown benefits and hoping for serendipity.",
+   "applies_when": "The account describes meeting a new contact without a predefined target or resource in mind and the contact proving useful. Examples: a friend of a friend, a chance meeting at an event, a job passed on by a friend.",
+   "does_not_apply_when": "The entrepreneur targeted a specific person or resource beforehand, for example cold-canvassing a named customer or messaging a celebrity. That is planned initiation.",
+   "passage_ids": [
+    "klyver2025-7a51e3:p006:01",
+    "klyver2025-7a51e3:p010:01",
+    "klyver2025-7a51e3:p005:04"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    10
+   ],
+   "candidate_id": "klyver2025-7a51e3:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Proactive pursuit of serendipity",
+   "definition": "Even serendipitous stranger ties arose from proactive behaviour. Entrepreneurs researched a range of potentially interesting people and engaged them, which let them access unknown but valuable resources serendipitously.",
+   "applies_when": "The entrepreneur describes actively putting themselves out there (contacting, challenging, attending, asking for help) without a set goal, and something valuable emerges.",
+   "does_not_apply_when": "The tie arose with no initiative at all from the entrepreneur.",
+   "passage_ids": [
+    "klyver2025-7a51e3:p010:01",
+    "klyver2025-7a51e3:p010:02",
+    "klyver2025-7a51e3:p011:04"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "candidate_id": "klyver2025-7a51e3:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Indirect ties and chance encounters",
+   "definition": "Serendipitous stranger ties were often formed through indirect ties, such as friends of friends or referrals, or through chance encounters at events, hubs or online arguments.",
+   "applies_when": "An account describes being introduced or referred by someone, or bumping into a person at an event or coworking hub, leading to a useful tie.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p010:01",
+    "klyver2025-7a51e3:p007:03",
+    "klyver2025-7a51e3:p010:05"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "klyver2025-7a51e3:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Uncertainty about resources and holders",
+   "definition": "When entrepreneurs do not know what resources they need or who holds them (egocentric uncertainty), extending the network to strangers becomes attractive. Networking then serves to create variation as an engine of serendipity.",
+   "applies_when": "The entrepreneur says they did not know what help they needed or where to find it, and so reached out broadly.",
+   "does_not_apply_when": "The entrepreneur sought a specific predefined resource from a known holder. That is causal networking.",
+   "passage_ids": [
+    "klyver2025-7a51e3:p002:01",
+    "klyver2025-7a51e3:p014:01",
+    "klyver2025-7a51e3:p013:03"
+   ],
+   "pdf_pages": [
+    2,
+    13,
+    14
+   ],
+   "candidate_id": "klyver2025-7a51e3:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Insufficient existing ties",
+   "definition": "Existing strong and weak ties may not have been built for business purposes and may be insufficient, especially when entrepreneurs move into domains where they lack contacts. This pushes them to strangers.",
+   "applies_when": "The entrepreneur reports that family and friends could not provide what the venture needed, prompting outreach to unknown people.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p001:04",
+    "klyver2025-7a51e3:p002:07"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "klyver2025-7a51e3:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Targeting high-status strangers",
+   "definition": "Although networking with strangers is a kind of lottery, entrepreneurs mainly approach strangers with high status or success. They perceive these people as likely to hold valuable resources that could change the venture's course, even when the specific resources are undefined.",
+   "applies_when": "The entrepreneur reaches out to prominent or successful people because they seem likely to help, without a specific request.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p013:01",
+    "klyver2025-7a51e3:p013:04"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "klyver2025-7a51e3:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Social skills provoke randomness",
+   "definition": "Citing Klyver and Arenius, randomness from networking may be better exploited by entrepreneurs with high social skills. These skills help them both provoke serendipitous events and tap the resources that emerge.",
+   "applies_when": "The account attributes the ability to create or capitalise on chance contacts to the entrepreneur's sociability or networking skill.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p003:03",
+    "klyver2025-7a51e3:p014:05"
+   ],
+   "pdf_pages": [
+    3,
+    14
+   ],
+   "candidate_id": "klyver2025-7a51e3:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Cultural norms and settings enabling outreach",
+   "definition": "In Nairobi there was no stigma about contacting anyone, at any time, for any purpose; communal values such as ubuntu may make reaching out to strangers legitimate. Incubators, coworking spaces and events expose entrepreneurs to a broad range of potential ties.",
+   "applies_when": "The account describes norms that make approaching strangers acceptable, or hubs, incubators or events where unplanned contacts arise.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p013:06",
+    "klyver2025-7a51e3:p014:04",
+    "klyver2025-7a51e3:p014:07"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "klyver2025-7a51e3:c10"
+  },
+  {
+   "group": "background",
+   "label": "Resource scarcity in context",
+   "definition": "Operating in a low-resource, high-uncertainty environment with institutional voids may compel entrepreneurs to seek diverse ties, including strangers, to tap new opportunities.",
+   "applies_when": "The entrepreneur links outreach to strangers to a lack of resources or to unstable institutions in their environment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p014:03",
+    "klyver2025-7a51e3:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    14
+   ],
+   "candidate_id": "klyver2025-7a51e3:c11"
+  },
+  {
+   "group": "role",
+   "label": "Breaking path dependency",
+   "definition": "Entrepreneurs turn to strangers for help and for serendipity in order to break network inertia, lock-in and path dependency. Strangers occasionally generate new paths and opportunities that can redirect the venture.",
+   "applies_when": "A stranger contact opens a new direction, market or opportunity that the entrepreneur's existing network would not have provided.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p013:04",
+    "klyver2025-7a51e3:p013:07",
+    "klyver2025-7a51e3:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    13
+   ],
+   "candidate_id": "klyver2025-7a51e3:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "Learning",
+   "definition": "Ties that started as strangers provided knowledge and information, for example how to make a profit, grow globally, market or manage.",
+   "applies_when": "The entrepreneur reports gaining know-how or advice from someone who was originally a stranger.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p011:02",
+    "klyver2025-7a51e3:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "klyver2025-7a51e3:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Legitimacy and referrals",
+   "definition": "Former strangers opened doors to third parties by vouching for the entrepreneur and referring clients or contacts, sometimes in chains of many new customers.",
+   "applies_when": "A once-unknown contact refers customers, introduces the entrepreneur to others or lends credibility.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p011:03",
+    "klyver2025-7a51e3:p007:04"
+   ],
+   "pdf_pages": [
+    7,
+    11
+   ],
+   "candidate_id": "klyver2025-7a51e3:c14"
+  },
+  {
+   "group": "outcome",
+   "label": "Entrepreneurial identity",
+   "definition": "Stranger ties, especially role models who remained strangers, helped form entrepreneurial identity through inspiration, confidence, vision and reassurance about the venture decision.",
+   "applies_when": "The entrepreneur credits a stranger or role model with inspiring them, building confidence or affirming the decision to start.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p011:03",
+    "klyver2025-7a51e3:p011:04",
+    "klyver2025-7a51e3:p012:03"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "klyver2025-7a51e3:c15"
+  },
+  {
+   "group": "outcome",
+   "label": "Serendipitous ties grow into lasting ties",
+   "definition": "None of the serendipitously initiated stranger ties stayed strangers; they developed into weak or strong ties, often business stakeholders. About half of planned ones remained strangers. The authors speculate serendipitous initiation is an effective way to develop ties.",
+   "applies_when": "A chance-initiated contact develops over time into a friendship, mentor or business partner relationship.",
+   "does_not_apply_when": "A contact remains a one-directional role model with no interaction. That pattern is typical of planned, online initiation.",
+   "passage_ids": [
+    "klyver2025-7a51e3:p011:01",
+    "klyver2025-7a51e3:p012:06"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "klyver2025-7a51e3:c16"
+  },
+  {
+   "group": "outcome",
+   "label": "Rarely financial resources",
+   "definition": "Former strangers rarely provided financial resources; their contribution was mainly other resources and influence.",
+   "applies_when": "The entrepreneur notes that a stranger helped in non-monetary ways rather than with money.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "klyver2025-7a51e3:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck",
+   "definition": "Luck rests only on surprise and value, without agency. The authors distinguish entrepreneurs' search for serendipity from such luck.",
+   "applies_when": "An account presents a valuable unexpected outcome as purely fortunate, with no action by the entrepreneur involved.",
+   "does_not_apply_when": "The entrepreneur's outreach or effort shaped the outcome. That counts as serendipity.",
+   "passage_ids": [
+    "klyver2025-7a51e3:p003:01",
+    "klyver2025-7a51e3:p013:05"
+   ],
+   "pdf_pages": [
+    3,
+    13
+   ],
+   "candidate_id": "klyver2025-7a51e3:c18"
+  },
+  {
+   "group": "rival",
+   "label": "Causal and effectual networking",
+   "definition": "Causal networking seeks predefined resources from targeted ties. Effectual networking starts from 'who you know'. Stranger networking differs from both: resources and holders are unknown, and it starts from 'who you could know'.",
+   "applies_when": "The account shows networking with a specific predefined goal (causal), or leveraging existing acquaintances (effectual), rather than open outreach to strangers.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "klyver2025-7a51e3:p013:08",
+    "klyver2025-7a51e3:p014:01",
+    "klyver2025-7a51e3:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    13,
+    14
+   ],
+   "candidate_id": "klyver2025-7a51e3:c19"
+  }
+ ],
+ "removed": []
+}

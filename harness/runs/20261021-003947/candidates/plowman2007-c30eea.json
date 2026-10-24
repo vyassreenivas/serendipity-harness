@@ -1,0 +1,194 @@
+{
+ "paper_id": "plowman2007-c30eea",
+ "file": "papers/pdf/Plowman et al - 2007 - Radical Change Accidentally - The Emergence and Amplification of Small Change.pdf",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026; Kirtley and Shah replies corrected after reading the cited passages in full",
+ "reply_sha256": "2f0879df3aa8da2d3a55d8cbc8f45da947facb4a5a6520324d70994ae72427ad",
+ "about": [
+  "How a small, unplanned change in a church (breakfasts for homeless people) was amplified by later actions in an unstable setting into radical organisational change that no one intended."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Idea from an informal dinner conversation",
+   "definition": "The initiating idea came up in a casual conversation among a few people, not in any planning process.",
+   "applies_when": "The founder traces the starting idea to a social or offhand conversation.",
+   "does_not_apply_when": "The idea came out of a planning meeting or formal strategy work.",
+   "passage_ids": [
+    "plowman2007-c30eea:p002:02",
+    "plowman2007-c30eea:p013:03"
+   ],
+   "pdf_pages": [
+    2,
+    13
+   ],
+   "candidate_id": "plowman2007-c30eea:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Unplanned contribution from a participant",
+   "definition": "Someone involved adds something nobody asked for, such as a volunteer doctor seeing patients, which pushes the activity in a new direction.",
+   "applies_when": "The founder describes a helper or participant who started doing something unplanned that opened a new line of activity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p013:04",
+    "plowman2007-c30eea:p017:03"
+   ],
+   "pdf_pages": [
+    13,
+    17
+   ],
+   "candidate_id": "plowman2007-c30eea:c02"
+  },
+  {
+   "group": "outcome",
+   "label": "Small change grows into radical change",
+   "definition": "A small change, made without intending a big shift, grows over time into a radical change in the whole organisation.",
+   "applies_when": "The founder describes a small first step that, without a plan, grew into a fundamental change in what the organisation is or does.",
+   "does_not_apply_when": "The large change was planned from the start.",
+   "passage_ids": [
+    "plowman2007-c30eea:p003:02",
+    "plowman2007-c30eea:p024:01",
+    "plowman2007-c30eea:p024:04"
+   ],
+   "pdf_pages": [
+    3,
+    24
+   ],
+   "candidate_id": "plowman2007-c30eea:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Unstable setting enables emergence",
+   "definition": "Decline, new leadership, a struggle over identity and ongoing conflict push an organisation away from stability, making it more likely that a small change emerges and is amplified.",
+   "applies_when": "The founder describes a period of crisis, turmoil or searching just before the unplanned change.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p014:03",
+    "plowman2007-c30eea:p024:02",
+    "plowman2007-c30eea:p014:04"
+   ],
+   "pdf_pages": [
+    14,
+    24
+   ],
+   "candidate_id": "plowman2007-c30eea:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Amplifying through resources, language and symbols",
+   "definition": "Later actions (getting resources, using new language, symbolic acts) enlarge the initial small change beyond what anyone intended.",
+   "applies_when": "The founder describes funding, naming or symbolic steps that made an unplanned activity bigger and more central.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p017:03",
+    "plowman2007-c30eea:p019:02",
+    "plowman2007-c30eea:p024:04"
+   ],
+   "pdf_pages": [
+    17,
+    19,
+    24
+   ],
+   "candidate_id": "plowman2007-c30eea:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Leaders label the emerging pattern",
+   "definition": "Leaders notice the pattern forming around small changes and give it a name and meaning, rather than directing it.",
+   "applies_when": "The founder describes recognising after the fact what was emerging and naming it to draw others in.",
+   "does_not_apply_when": "The leader designed and imposed the change from the start.",
+   "passage_ids": [
+    "plowman2007-c30eea:p025:03",
+    "plowman2007-c30eea:p026:01",
+    "plowman2007-c30eea:p026:02"
+   ],
+   "pdf_pages": [
+    25,
+    26
+   ],
+   "candidate_id": "plowman2007-c30eea:c06"
+  },
+  {
+   "group": "outcome",
+   "label": "Unexpected problem forces a new activity",
+   "definition": "The growth of the first activity creates an unforeseen problem whose solution becomes a new organisation or service.",
+   "applies_when": "The founder says a problem caused by their own growth led them to set up something new.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p018:04",
+    "plowman2007-c30eea:p019:02"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ],
+   "candidate_id": "plowman2007-c30eea:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Negative feedback limits the change",
+   "definition": "Complaints and resistance check the amplifying cycle and limit how far and fast change goes.",
+   "applies_when": "The founder describes pushback from neighbours, members or authorities that slowed or reshaped the change.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p023:02",
+    "plowman2007-c30eea:p023:05"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "plowman2007-c30eea:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Welcoming surprise",
+   "definition": "Leaders who accept that the world is unknowable welcome surprise as an opportunity instead of treating it as a failure of control.",
+   "applies_when": "The founder describes treating a surprise as an opportunity rather than a problem to be blamed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p027:01",
+    "plowman2007-c30eea:p027:02"
+   ],
+   "pdf_pages": [
+    27
+   ],
+   "candidate_id": "plowman2007-c30eea:c09"
+  },
+  {
+   "group": "background",
+   "label": "Originators loosely tied to the organisation",
+   "definition": "The people who start the small change are on the edge of the organisation and act informally.",
+   "applies_when": "The founder describes the first step being taken by newcomers or outsiders acting informally.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p024:02",
+    "plowman2007-c30eea:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    24
+   ],
+   "candidate_id": "plowman2007-c30eea:c10"
+  },
+  {
+   "group": "account",
+   "label": "Change described as organic",
+   "definition": "People describe the change as organic, as something that just grew, rather than as planned.",
+   "applies_when": "The founder says the venture or change 'just grew' or was 'organic'.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "plowman2007-c30eea:p014:01",
+    "plowman2007-c30eea:p017:02"
+   ],
+   "pdf_pages": [
+    14,
+    17
+   ],
+   "candidate_id": "plowman2007-c30eea:c11"
+  }
+ ],
+ "removed": []
+}

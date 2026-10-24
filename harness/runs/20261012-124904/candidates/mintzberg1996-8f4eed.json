@@ -1,0 +1,41 @@
+{
+ "paper_id": "mintzberg1996-8f4eed",
+ "file": "papers/pdf/Mintzberg et al - 1996 - The Honda Effect Revisited.pdf",
+ "about": [
+  "This excerpt is only the introduction to a CMR forum revisiting Pascale's 'Honda Effect' article, contrasting BCG's systematic explanation of Honda's US motorcycle success with Honda executives' own account; the substantive articles are not included in this part."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "rival",
+   "label": "Planned strategy explanation",
+   "definition": "Success is explained after the fact as the result of deliberate, systematic strategy formulation and implementation, as in the consulting report's version of Honda's success. This contrasts with the managers' own account of how the process actually unfolded.",
+   "applies_when": "An account attributes a venture's success to a deliberate plan or systematic analysis made in advance, rather than to unplanned events.",
+   "does_not_apply_when": "The person describes unexpected events or learning along the way as what drove the outcome.",
+   "passage_ids": [
+    "mintzberg1996-8f4eed:p001:01"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "mintzberg1996-8f4eed:c01"
+  },
+  {
+   "group": "account",
+   "label": "Competing versions of the same story",
+   "definition": "The same venture success can be narrated in two different ways: an outside analyst's version and the version told by the managers who ran the process.",
+   "applies_when": "An interviewee contrasts their insider account of how the venture developed with an official, outsider or analyst explanation of it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1996-8f4eed:p001:01"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "mintzberg1996-8f4eed:c02"
+  }
+ ],
+ "removed": []
+}

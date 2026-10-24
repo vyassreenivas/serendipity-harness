@@ -1,0 +1,205 @@
+{
+ "paper_id": "sarasvathy2008-b3d5c9",
+ "file": "papers/pdf/Sarasvathy - 2008 - Effectuation Elements of Entrepreneurial Expertise.pdf",
+ "about": [
+  "The opening chapters of Sarasvathy's book on effectuation, the decision logic expert entrepreneurs use under uncertainty: start from available means, bring in self-selected stakeholders and leverage contingencies and surprises rather than predicting the future."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "mechanism",
+   "label": "Leveraging surprises (lemonade)",
+   "definition": "Entrepreneurs acknowledge contingencies and make use of them, treating surprises as resources to build on rather than things to avoid, overcome or merely adapt to.",
+   "applies_when": "An account describes an unexpected event or surprise that the entrepreneur deliberately turned to the venture's advantage.",
+   "does_not_apply_when": "The entrepreneur only works around or adapts to a surprise to stay on the original plan; the author sets leveraging apart from avoiding, overcoming or adapting.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p021:01"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Contingency at the core of action",
+   "definition": "The particular contingencies of particular stakeholders are central to how entrepreneurship happens; contingency is part of intentional action and creative reaction, not noise around it.",
+   "applies_when": "An informant presents chance circumstances or particular situational contingencies as integral to how the venture came about, together with their own purposeful response.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c02"
+  },
+  {
+   "group": "account",
+   "label": "Contingency versus luck",
+   "definition": "The author separates the role of contingency in a venture's story from luck and raises the question of how the two differ.",
+   "applies_when": "An informant frames events either as acted-upon contingency or as plain luck, so the coder can tell which framing is used.",
+   "does_not_apply_when": "Attributions to pure luck with no action by the entrepreneur do not show contingency being worked with.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c03"
+  },
+  {
+   "group": "background",
+   "label": "Who I am, what I know, whom I know",
+   "definition": "Expert entrepreneurs start from their existing means: their identity, their knowledge and their network. They act right away from these rather than from a preset goal.",
+   "applies_when": "An account shows a venture direction emerging from the founder's existing identity, expertise or personal contacts rather than from a predefined goal.",
+   "does_not_apply_when": "The founder first fixed a goal and then searched for means to reach it; that is causal reasoning.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p020:01",
+    "sarasvathy2008-b3d5c9:p014:03",
+    "sarasvathy2008-b3d5c9:p021:01"
+   ],
+   "pdf_pages": [
+    14,
+    20,
+    21
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Stakeholder self-selection via commitment",
+   "definition": "Some of the people the entrepreneur interacts with choose to join the venture by making actual commitments. Who comes on board shapes the venture's goals.",
+   "applies_when": "An account describes people who joined or committed resources on their own initiative after an interaction, and whose joining changed the venture's direction.",
+   "does_not_apply_when": "The entrepreneur targeted stakeholders chosen in advance to fit a fixed plan.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p020:01",
+    "sarasvathy2008-b3d5c9:p021:01",
+    "sarasvathy2008-b3d5c9:p017:01"
+   ],
+   "pdf_pages": [
+    17,
+    20,
+    21
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c05"
+  },
+  {
+   "group": "role",
+   "label": "Commitments generate new means and goals",
+   "definition": "Each new stakeholder commitment brings new means and new goals to the venture, so the venture changes direction step by step until goals and network converge into a new market and firm.",
+   "applies_when": "An informant describes the venture's goals shifting or expanding because of a new partner's or stakeholder's commitment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p020:01",
+    "sarasvathy2008-b3d5c9:p021:01"
+   ],
+   "pdf_pages": [
+    20,
+    21
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Accreting constraints narrow possibilities",
+   "definition": "As resources build up in the stakeholder network, constraints accrete. They limit how future goals can change and who can still be admitted.",
+   "applies_when": "An account notes that later in the venture's development new chance inputs or partners could no longer redirect it because of commitments already made.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p021:01"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Opportunities fabricated, not found",
+   "definition": "The effectual entrepreneur fabricates opportunities from the mundane realities of her life and values. The market opportunity follows from what she and her stakeholders do rather than existing beforehand.",
+   "applies_when": "An informant describes the opportunity as something that took shape through their own actions and interactions rather than something spotted ready-made.",
+   "does_not_apply_when": "The opportunity is described as pre-existing and simply recognised or discovered; the author treats that as the rival discovery view.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p016:03",
+    "sarasvathy2008-b3d5c9:p017:01",
+    "sarasvathy2008-b3d5c9:p023:01"
+   ],
+   "pdf_pages": [
+    16,
+    17,
+    23
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c08"
+  },
+  {
+   "group": "rival",
+   "label": "Opportunity discovery and alertness",
+   "definition": "Received theories hold that opportunities exist beforehand and that entrepreneurs discover and exploit them, for example by alertness to disequilibrium or by seeing a profit opportunity and then pursuing it.",
+   "applies_when": "An account explains the venture as the result of spotting an existing market gap or profit opportunity and then pursuing it.",
+   "does_not_apply_when": "The opportunity emerged from interactions and actions rather than being spotted beforehand.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p014:03",
+    "sarasvathy2008-b3d5c9:p016:03",
+    "sarasvathy2008-b3d5c9:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    14,
+    16
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Human agency handles the unexpected",
+   "definition": "Relying on human agency, like a pilot rather than a computer, to handle unexpected events is the prime driver of opportunity. It is not the same as exploiting exogenous trends.",
+   "applies_when": "An informant describes personally steering through unexpected developments and treating their own action as what created the opportunity.",
+   "does_not_apply_when": "The venture is explained as riding exogenous technological or socio-economic trends.",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p012:02",
+    "sarasvathy2008-b3d5c9:p022:01"
+   ],
+   "pdf_pages": [
+    12,
+    22
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Unpredictable future and ambiguous goals",
+   "definition": "Effectual logic applies where the future cannot be predicted, preferences are unclear and the environment is not simply given. Under these conditions acting on contingencies replaces prediction.",
+   "applies_when": "An account describes high uncertainty, nascent or nonexistent markets, or unclear goals as the setting in which the founder acted on whatever came along.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p015:01",
+    "sarasvathy2008-b3d5c9:p004:01",
+    "sarasvathy2008-b3d5c9:p023:01"
+   ],
+   "pdf_pages": [
+    4,
+    15,
+    23
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c11"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective storytelling bias",
+   "definition": "Expert entrepreneurs are good storytellers, so their after-the-fact accounts of how they decided may be shaped by retrospective bias.",
+   "applies_when": "An informant's narrative appears reconstructed or polished after the fact, for example presenting a tidy story of how events unfolded.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sarasvathy2008-b3d5c9:p018:02"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "sarasvathy2008-b3d5c9:c12"
+  }
+ ],
+ "removed": []
+}

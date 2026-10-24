@@ -1,0 +1,100 @@
+{
+ "paper_id": "clough2019-7defac",
+ "file": "papers/pdf/Clough et al - 2019 - Turning Lead into Gold How Do Entrepreneurs Mobilize Resources to Exploit Opportunities.pdf",
+ "about": [
+  "A systematic review of research on how entrepreneurs mobilize human, social, financial and other resources through search, access and transfer. It mentions serendipity only in passing, as one way networks and founding teams form."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "background",
+   "label": "Ties formed in immediate surroundings",
+   "definition": "Some entrepreneurs do not deliberately build their networks. Their networks grow from whatever ties they happen to form in their immediate social surroundings, and these chance ties become a source of resources.",
+   "applies_when": "The account describes a useful contact or resource coming from someone the entrepreneur happened to meet in their everyday surroundings (neighbourhood, workplace, social circle) without setting out to find them.",
+   "does_not_apply_when": "The entrepreneur deliberately reached out to strangers or sought referrals to build the tie; that is proactive networking.",
+   "passage_ids": [
+    "clough2019-7defac:p008:01"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "clough2019-7defac:c01"
+  },
+  {
+   "group": "role",
+   "label": "Serendipitous founding team formation",
+   "definition": "Much entrepreneurial team formation happens serendipitously: cofounders and early team members come together by chance rather than through a planned search.",
+   "applies_when": "The account describes a cofounder or early team member joining the venture through a chance encounter or unplanned circumstance.",
+   "does_not_apply_when": "The cofounder was found through a deliberate search or a referral from investors' personal networks.",
+   "passage_ids": [
+    "clough2019-7defac:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "clough2019-7defac:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Proactive agentic networking",
+   "definition": "Some entrepreneurs deliberately and instrumentally form new ties by reaching out to strangers or getting referrals. In this way they can overcome a poor starting network position, rather than relying on chance ties.",
+   "applies_when": "The account shows the entrepreneur intentionally broadening their network, for example by cold outreach, asking for referrals, or cultivating investors through deliberate strategies such as negotiating with several partners in parallel.",
+   "does_not_apply_when": "The tie came about by chance in the entrepreneur's surroundings without deliberate effort; code that as serendipitous tie formation.",
+   "passage_ids": [
+    "clough2019-7defac:p008:01",
+    "clough2019-7defac:p008:02",
+    "clough2019-7defac:p007:03"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "clough2019-7defac:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Cofounders found via investor networks",
+   "definition": "High-ambition ventures sometimes find cofounders through the personal networks of their venture capital backers. This is a channel distinct from serendipitous team formation.",
+   "applies_when": "The account describes an investor or backer introducing or referring a cofounder or key team member.",
+   "does_not_apply_when": "The team member was met by chance without any intermediary's deliberate referral.",
+   "passage_ids": [
+    "clough2019-7defac:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "clough2019-7defac:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Low propensity for proactive networking",
+   "definition": "Entrepreneurs differ in how inclined they are to form new ties deliberately. Those with a low propensity rely on serendipitously formed ties for network growth.",
+   "applies_when": "The account indicates the entrepreneur did not actively seek new contacts and instead depended on whoever they happened to encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "clough2019-7defac:p008:01"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "clough2019-7defac:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Higher aspirations drive search beyond close ties",
+   "definition": "Entrepreneurs with higher initial aspiration levels are less satisfied with the resources of their closest contacts. They are therefore more likely to expand their options by deliberately forming ties with indirect contacts and strangers.",
+   "applies_when": "The account shows the entrepreneur deciding that close contacts were insufficient and actively seeking more distant contacts because of ambitious goals.",
+   "does_not_apply_when": "The entrepreneur stayed within existing close ties or acquired new ones by chance.",
+   "passage_ids": [
+    "clough2019-7defac:p008:05"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "clough2019-7defac:c06"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,153 @@
+{
+ "paper_id": "granovetter1973-32994d",
+ "file": "papers/pdf/Granovetter - 1973 - The Strength of Weak Ties.pdf",
+ "about": [
+  "Granovetter argues that weak interpersonal ties act as bridges between otherwise separate social circles, so they carry novel information, ideas and opportunities (for example job information) further than strong ties do, with consequences for diffusion, mobility and community organization."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Chance meeting reactivates dormant tie",
+   "definition": "An unplanned encounter, or contact through a mutual friend, revives a lapsed, sporadic tie such as an old college friend or former workmate. That revived tie then passes on crucial information.",
+   "applies_when": "The account describes bumping into, or being put back in touch with, someone the person had lost contact with, and that contact then supplies an important piece of information or an opportunity.",
+   "does_not_apply_when": "The information comes from a close, frequently seen contact, or from a deliberate search through formal channels such as advertisements or agencies.",
+   "passage_ids": [
+    "granovetter1973-32994d:p014:01",
+    "granovetter1973-32994d:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "granovetter1973-32994d:c01"
+  },
+  {
+   "group": "background",
+   "label": "Weak ties as source of novel information",
+   "definition": "Acquaintances move in circles different from one's own. They therefore give access to information one would not otherwise receive, whereas close friends tend to share the same information.",
+   "applies_when": "The person credits an acquaintance or occasional contact, rather than a close friend, with information or an idea that was new to them.",
+   "does_not_apply_when": "The information came from close friends or family who share the person's own social circle.",
+   "passage_ids": [
+    "granovetter1973-32994d:p013:02",
+    "granovetter1973-32994d:p012:03",
+    "granovetter1973-32994d:p013:01"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "granovetter1973-32994d:c02"
+  },
+  {
+   "group": "background",
+   "label": "Forgotten or marginal contacts",
+   "definition": "Crucial information often comes from people only marginally part of one's current network, sometimes people whose existence one had forgotten, and with whom the tie was never very strong.",
+   "applies_when": "The account notes surprise that a key opportunity came from someone the person barely knew or had nearly forgotten.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "granovetter1973-32994d:p014:01",
+    "granovetter1973-32994d:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "granovetter1973-32994d:c03"
+  },
+  {
+   "group": "outcome",
+   "label": "Access to opportunity via weak ties",
+   "definition": "From the individual's point of view, weak ties are an important resource that makes mobility opportunities possible. In the author's study, most people who found jobs through contacts heard about them through contacts they saw only occasionally or rarely.",
+   "applies_when": "An opportunity (a job, a deal, a new position) is reported to have arisen through an acquaintance-level contact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "granovetter1973-32994d:p015:01",
+    "granovetter1973-32994d:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    15
+   ],
+   "candidate_id": "granovetter1973-32994d:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Short paths carry information with influence",
+   "definition": "Information that comes directly from, or one step away from, the source often comes with the contact's influence or recommendation. Information heard through long chains or formal media comes without such influence.",
+   "applies_when": "The person describes a contact who not only passed along an opportunity but also vouched for them or interceded on their behalf.",
+   "does_not_apply_when": "The person heard of the opportunity secondhand or through long chains or media, with no one vouching for them.",
+   "passage_ids": [
+    "granovetter1973-32994d:p014:02",
+    "granovetter1973-32994d:p014:01"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "granovetter1973-32994d:c05"
+  },
+  {
+   "group": "rival",
+   "label": "Strong-tie motivation explanation",
+   "definition": "A competing a priori idea is that close contacts help more because they are more motivated. The author sets this against the structural argument and judges that his findings favor structure over motivation.",
+   "applies_when": "The account attributes the opportunity to the helpfulness or commitment of a close friend or family member rather than to access to different circles.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "granovetter1973-32994d:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "granovetter1973-32994d:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Base-rate (most ties are weak) explanation",
+   "definition": "An alternative explanation is that weak ties predominate simply because most of a person's ties are weak. On that view, information flowing through weak ties reflects chance proportions rather than any special property of those ties.",
+   "applies_when": "The account suggests the opportunity came through an acquaintance merely because the person knows many acquaintances, not because of anything special about that tie.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "granovetter1973-32994d:p014:03"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "granovetter1973-32994d:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Multiple contexts for forming ties",
+   "definition": "Many bridging weak ties form only where there are several distinct ways or contexts for meeting people. Examples are organizations, workplaces, meetings and conventions; meeting only friends of friends yields no bridges.",
+   "applies_when": "The person describes being active in varied settings (associations, work, conferences) that expose them to people outside their own circle.",
+   "does_not_apply_when": "New contacts are met only through existing friends or relatives, so they do not reach outside the circle.",
+   "passage_ids": [
+    "granovetter1973-32994d:p017:02",
+    "granovetter1973-32994d:p015:01"
+   ],
+   "pdf_pages": [
+    15,
+    17
+   ],
+   "candidate_id": "granovetter1973-32994d:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Encapsulation in dense network",
+   "definition": "A person with few indirect contacts through weak ties is encapsulated, with limited knowledge of the world beyond their own friendship circle. This makes novel information less likely to reach them.",
+   "applies_when": "The account describes a closed, tightly knit circle in which everyone knows each other and little outside information arrives.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "granovetter1973-32994d:p013:01",
+    "granovetter1973-32994d:p012:02"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "granovetter1973-32994d:c09"
+  }
+ ],
+ "removed": []
+}

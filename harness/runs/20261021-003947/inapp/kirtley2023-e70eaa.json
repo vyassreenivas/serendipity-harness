@@ -1,0 +1,121 @@
+{
+ "about": "How new ventures come to pivot through a series of smaller decisions, often prompted by unanticipated opportunities met after founding, rather than one planned change.",
+ "bearing": "partial",
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Unanticipated opportunity after founding",
+   "definition": "After the venture is started, an opportunity the founders did not anticipate appears and starts a change of direction.",
+   "applies_when": "The founder describes an opportunity they had not looked for that arose once the venture was running.",
+   "does_not_apply_when": "The new direction came from a planned search or a scheduled strategy review.",
+   "passage_ids": [
+    "p021:03",
+    "p022:01",
+    "p029:03"
+   ]
+  },
+  {
+   "group": "trigger",
+   "label": "Casual conversation reveals an opportunity",
+   "definition": "An informal conversation, not aimed at the venture's strategy, surfaces a new possibility.",
+   "applies_when": "The founder credits an offhand or social conversation with revealing an opportunity.",
+   "does_not_apply_when": "The conversation was a planned customer interview or pitch.",
+   "passage_ids": [
+    "p022:01",
+    "p022:02",
+    "p014:02"
+   ]
+  },
+  {
+   "group": "trigger",
+   "label": "Unsolicited approach from outside",
+   "definition": "A customer, partner or other party approaches the venture unasked with a request or offer that opens a new direction.",
+   "applies_when": "Someone outside contacts the founder on their own initiative with an offer or request.",
+   "does_not_apply_when": "The founder sought out the contact.",
+   "passage_ids": [
+    "p015:01",
+    "p022:03",
+    "p015:02"
+   ]
+  },
+  {
+   "group": "trigger",
+   "label": "Discovery during own product work",
+   "definition": "While developing their own product, the team finds something that suggests a different use or market.",
+   "applies_when": "The founder describes finding a new possibility in the course of building or testing their product.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "p018:01",
+    "p018:02",
+    "p006:01"
+   ]
+  },
+  {
+   "group": "role",
+   "label": "Pivot that accumulates over steps",
+   "definition": "The change of direction builds up through several smaller decisions rather than one deliberate switch.",
+   "applies_when": "The founder describes a series of small moves that together amounted to a new direction.",
+   "does_not_apply_when": "A single, planned decision changed the venture's direction.",
+   "passage_ids": [
+    "p012:01",
+    "p023:02",
+    "p026:01"
+   ]
+  },
+  {
+   "group": "mechanism",
+   "label": "Expanding beliefs and language",
+   "definition": "Founders widen what they believe the venture is and how they describe it, which lets the new opportunity fit.",
+   "applies_when": "The founder describes redefining what the company does, or changing how they talk about it, to take in a new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "p018:02",
+    "p021:03",
+    "p022:02"
+   ]
+  },
+  {
+   "group": "mechanism",
+   "label": "Considering a change and deciding against it",
+   "definition": "After a trigger, firms often consider changing strategy and then reject the change, keeping their strategy with at most small adjustments.",
+   "applies_when": "The founder describes weighing an unexpected problem or opportunity and choosing not to change course.",
+   "does_not_apply_when": "The founder never noticed or considered the opportunity at all.",
+   "passage_ids": [
+    "p013:02",
+    "p016:01"
+   ]
+  },
+  {
+   "group": "condition",
+   "label": "Acting in the market surfaces opportunities",
+   "definition": "Opportunities appear because the founders are actively doing things in the market, not by waiting or planning.",
+   "applies_when": "The founder links the opportunity to activity already under way, such as selling or building.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "p029:04",
+    "p028:04"
+   ]
+  },
+  {
+   "group": "account",
+   "label": "Pivot named only in hindsight",
+   "definition": "Founders recognise and label the change as a pivot only after it has happened.",
+   "applies_when": "The founder says they only realised later that they had changed direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "p026:01",
+    "p027:01"
+   ]
+  },
+  {
+   "group": "condition",
+   "label": "Board resists tangents",
+   "definition": "Investors or board members discourage the founders from following side opportunities, even surprising ones.",
+   "applies_when": "The founder describes investors or a board pushing back on following an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "p014:02"
+   ]
+  }
+ ]
+}

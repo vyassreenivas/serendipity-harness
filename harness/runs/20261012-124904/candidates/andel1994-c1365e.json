@@ -1,0 +1,630 @@
+{
+ "paper_id": "andel1994-c1365e",
+ "file": "papers/pdf/Andel - 1994 - Anatomy of the Unsought Finding.pdf",
+ "about": [
+  "A philosophical overview of serendipity defined as the art of making an unsought finding, covering its origin, history, types (positive, negative, pseudo), seventeen 'serendipity patterns', and claims about its role, preconditions and programmability, with examples mainly from science, technology and art."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unsought finding",
+   "definition": "Serendipity is the art of making a finding one was not looking for; discovering a thing you were looking for does not count. The finder may have been seeking something else at the time.",
+   "applies_when": "The person describes finding something useful or new that was not what they were seeking, often while pursuing a different aim.",
+   "does_not_apply_when": "The person found what they set out to find, even if by a surprising route (see pseudoserendipity).",
+   "passage_ids": [
+    "andel1994-c1365e:p002:01",
+    "andel1994-c1365e:p004:02",
+    "andel1994-c1365e:p014:02"
+   ],
+   "pdf_pages": [
+    2,
+    4,
+    14
+   ],
+   "candidate_id": "andel1994-c1365e:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Following Walpole, serendipity involves discoveries made by accidents together with sagacity: the chance encounter is accidental but its interpretation is a sagacious act.",
+   "applies_when": "An account pairs a chance encounter with the person's shrewd interpretation of it.",
+   "does_not_apply_when": "Pure luck with no interpretive contribution by the person.",
+   "passage_ids": [
+    "andel1994-c1365e:p004:01",
+    "andel1994-c1365e:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "andel1994-c1365e:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Novel combination as finding",
+   "definition": "A 'finding' is when two or more elements (observations, ideas, facts, relations) are combined originally into something new and true, new and useful, or new and fascinating.",
+   "applies_when": "The person describes combining separate elements into a new useful idea or product.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p014:01"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "andel1994-c1365e:c03"
+  },
+  {
+   "group": "type",
+   "label": "Positive serendipity",
+   "definition": "A surprising fact or relation is seen and followed by a correct abduction (explanation/use).",
+   "applies_when": "A surprising observation was noticed and correctly interpreted and acted upon.",
+   "does_not_apply_when": "The surprise was noticed but not pursued (negative serendipity).",
+   "passage_ids": [
+    "andel1994-c1365e:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "andel1994-c1365e:c04"
+  },
+  {
+   "group": "type",
+   "label": "Negative serendipity / missed chance",
+   "definition": "A surprising fact or relation is seen but not (optimally) investigated or exploited by the discoverer, a missed opportunity.",
+   "applies_when": "The person noticed something surprising (e.g., unexpected customer interest) but did not act on it or failed to recognise its value.",
+   "does_not_apply_when": "The surprise was acted upon successfully.",
+   "passage_ids": [
+    "andel1994-c1365e:p010:02",
+    "andel1994-c1365e:p010:03",
+    "andel1994-c1365e:p009:02"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "andel1994-c1365e:c05"
+  },
+  {
+   "group": "type",
+   "label": "Pseudoserendipity",
+   "definition": "Discovering, inventing or creating something you were already looking for, but in a surprising way.",
+   "applies_when": "The person was seeking a solution of a given kind and found it through an unexpected event.",
+   "does_not_apply_when": "The finding was something not sought at all (true serendipity).",
+   "passage_ids": [
+    "andel1994-c1365e:p010:03",
+    "andel1994-c1365e:p011:01"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "candidate_id": "andel1994-c1365e:c06"
+  },
+  {
+   "group": "type",
+   "label": "External vs internal chance",
+   "definition": "Distinguishes chance that intervenes before the observer's eyes in outer events from chance that intervenes during intellectual operations such as playing, joking, or dreaming.",
+   "applies_when": "Coder can distinguish whether the unexpected input came from an outside event or from the person's own mental play, joke or dream.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "andel1994-c1365e:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "Surprising observation",
+   "definition": "A single unexpected observation, such as an anomalous detail in the environment, sparks a new idea.",
+   "applies_when": "The account describes noticing one odd thing that led to an idea.",
+   "does_not_apply_when": "Accumulation of many similar cases (repetition).",
+   "passage_ids": [
+    "andel1994-c1365e:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "andel1994-c1365e:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Repeated surprising observation",
+   "definition": "A finding emerges from the heaping up of repeated surprising cases.",
+   "applies_when": "The person notes an idea arose after repeatedly encountering the same odd occurrence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "andel1994-c1365e:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Unanticipated, anomalous, strategic datum",
+   "definition": "Following Merton, the trigger is a datum that is unexpected, inconsistent with prevailing views (provoking curiosity), and strategic in permitting broader implications.",
+   "applies_when": "An unexpected fact contradicted what the person assumed and prompted them to make sense of it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p006:02",
+    "andel1994-c1365e:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "andel1994-c1365e:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Successful error",
+   "definition": "A mistake or failed product turns out to be valuable (e.g., failed glue becoming Post-it notes).",
+   "applies_when": "A mistake, failure or sloppiness produced something later exploited.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p011:02",
+    "andel1994-c1365e:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "andel1994-c1365e:c11"
+  },
+  {
+   "group": "trigger",
+   "label": "Side-effect or by-product becomes main",
+   "definition": "An unintended side effect or by-product of pursuing one goal becomes the main product or effect (spin-off).",
+   "applies_when": "An unintended by-product of a project becomes the core offering or new direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p012:01",
+    "andel1994-c1365e:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "andel1994-c1365e:c12"
+  },
+  {
+   "group": "trigger",
+   "label": "Wrong or no hypothesis",
+   "definition": "Pursuing a mistaken hypothesis, or acting without a hypothesis, yields an unexpected result that leads to a finding.",
+   "applies_when": "The person was testing a wrong assumption or exploring without a theory when an unexpected result appeared.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p012:02",
+    "andel1994-c1365e:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "andel1994-c1365e:c13"
+  },
+  {
+   "group": "trigger",
+   "label": "Outsider input",
+   "definition": "A child, student or outsider suggests something that leads to an unsought finding.",
+   "applies_when": "Someone outside the field (customer, layperson, child) offered the key suggestion.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p013:01"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "andel1994-c1365e:c14"
+  },
+  {
+   "group": "trigger",
+   "label": "Disturbance, scarcity, interruption",
+   "definition": "Noise or disturbance, scarcity of resources, or interruptions of work produce unexpected inputs that lead to findings or improvisations.",
+   "applies_when": "A disruption, shortage or forced break led to a new idea or improvisation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p013:01",
+    "andel1994-c1365e:p009:01"
+   ],
+   "pdf_pages": [
+    9,
+    13
+   ],
+   "candidate_id": "andel1994-c1365e:c15"
+  },
+  {
+   "group": "trigger",
+   "label": "Play, joke or dream",
+   "definition": "Playing, practical jokes, or dreams/incubation produce unexpected ideas.",
+   "applies_when": "The idea came from playful activity, humour, or a dream/forgetting period.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p013:02",
+    "andel1994-c1365e:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "andel1994-c1365e:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Abduction from surprise",
+   "definition": "The person forms an explanatory hypothesis from a surprising fact; this is the reasoning step that introduces new ideas, at overcoded, undercoded, or creative levels.",
+   "applies_when": "The person reasons from an odd observation to a possible explanation or new rule.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p006:03",
+    "andel1994-c1365e:p007:01",
+    "andel1994-c1365e:p008:02"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    8
+   ],
+   "candidate_id": "andel1994-c1365e:c17"
+  },
+  {
+   "group": "mechanism",
+   "label": "Analogy transfer",
+   "definition": "A similarity from the same or a totally different context (including nature or personal identification) suggests a new solution.",
+   "applies_when": "The person saw something in another context and transferred it as a solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p011:01",
+    "andel1994-c1365e:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "andel1994-c1365e:c18"
+  },
+  {
+   "group": "mechanism",
+   "label": "Interrupting work to exploit",
+   "definition": "On observing a surprising fact the person interrupts or stops normal work to explore, exploit and explain it.",
+   "applies_when": "The person paused or deviated from their plan to investigate an unexpected occurrence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c19"
+  },
+  {
+   "group": "mechanism",
+   "label": "Loose blinders",
+   "definition": "Serendipity is the art of loose blinders: maintaining focus but being able to take blinders off when a serendipitous observation occurs, to make a right abduction or find an emergent strategy.",
+   "applies_when": "Person describes staying focused yet being able to drop the plan to follow an unexpected lead.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:03",
+    "andel1994-c1365e:p017:01"
+   ],
+   "pdf_pages": [
+    16,
+    17
+   ],
+   "candidate_id": "andel1994-c1365e:c20"
+  },
+  {
+   "group": "mechanism",
+   "label": "Systematic follow-up testing",
+   "definition": "An unexpected observation is followed by systematic experimentation or repeated retesting to confirm and develop it.",
+   "applies_when": "After the surprise, the person tested, experimented or retested to validate it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p009:02",
+    "andel1994-c1365e:p010:01",
+    "andel1994-c1365e:p010:02"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "andel1994-c1365e:c21"
+  },
+  {
+   "group": "mechanism",
+   "label": "Coincidental means abstraction",
+   "definition": "A means abstracted from an incident serves a goal totally different from what the person is doing; a present observation can solve an earlier problem or vice versa.",
+   "applies_when": "Something encountered by chance is recognised as the solution to a different or earlier problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p017:01"
+   ],
+   "pdf_pages": [
+    17
+   ],
+   "candidate_id": "andel1994-c1365e:c22"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "Chance favours only prepared minds; serendipitous luck comes only to a mind prepared by previous interest, thought and/or experience, a general schematic anticipation.",
+   "applies_when": "The person's prior knowledge, experience or interests enabled recognising the unexpected input.",
+   "does_not_apply_when": "Cases of pure serendipity where the author argues anticipation was absent.",
+   "passage_ids": [
+    "andel1994-c1365e:p005:03",
+    "andel1994-c1365e:p006:01",
+    "andel1994-c1365e:p017:02"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    17
+   ],
+   "candidate_id": "andel1994-c1365e:c23"
+  },
+  {
+   "group": "background",
+   "label": "Theoretically sensitized observer",
+   "definition": "Whether a datum is strategic depends on what the observer brings to it; a sensitized observer is needed to detect the universal in the particular.",
+   "applies_when": "The account credits the person's expertise for seeing the broader significance of a detail.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "andel1994-c1365e:c24"
+  },
+  {
+   "group": "background",
+   "label": "Intuition in the making",
+   "definition": "Serendipity is nearly always 'intuition in the making', based on a more general orientation, experience or problem than the one currently worked on.",
+   "applies_when": "The person links the unexpected find to a broader long-held orientation or experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c25"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipitist traits",
+   "definition": "Serendipity-prone people tend to be open-minded, perceptive, curious, intuitive, flexible, artistic, humorous and diligent; sense of humour is linked to sense of serendipity.",
+   "applies_when": "The person displays or describes curiosity, openness, humour, flexibility as enabling.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:02",
+    "andel1994-c1365e:p013:02"
+   ],
+   "pdf_pages": [
+    13,
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c26"
+  },
+  {
+   "group": "condition",
+   "label": "Rigid plans suppress serendipity",
+   "definition": "Excessive adherence to aims and plans, reinforced by rationalized accounts, leads researchers to neglect unexpected opportunities: 'the aim and/or plan spoils the journey'.",
+   "applies_when": "The person reports overlooking or dismissing opportunities due to fixation on the plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:01"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c27"
+  },
+  {
+   "group": "condition",
+   "label": "Dual attention to sought and unsought",
+   "definition": "A successful researcher or manager keeps one eye open for sought findings and another for unsought findings.",
+   "applies_when": "Person describes deliberately watching for unexpected opportunities alongside goals.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:01"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c28"
+  },
+  {
+   "group": "condition",
+   "label": "Empirical, testable fields",
+   "definition": "Serendipitous findings are most frequent in strongly empirical fields where it is easier to test whether a finding is real.",
+   "applies_when": "Hands-on experimentation or quick testing environments make findings checkable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p015:01",
+    "andel1994-c1365e:p015:02"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "andel1994-c1365e:c29"
+  },
+  {
+   "group": "condition",
+   "label": "Freedom to profit from unexpected",
+   "definition": "Freedom of opportunity is described as the opportunity to profit from the unexpected; diligent inquiry into everything met with increases inventions.",
+   "applies_when": "Autonomy or freedom allowed the person to pursue an unexpected lead.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p002:02",
+    "andel1994-c1365e:p005:02"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "andel1994-c1365e:c30"
+  },
+  {
+   "group": "condition",
+   "label": "Resistance to own discovery",
+   "definition": "In pure serendipity discoverers often resist their own discovery or its scope for a time because it falls outside their anticipation, even denying it.",
+   "applies_when": "The person initially dismissed, doubted or denied the unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p017:02",
+    "andel1994-c1365e:p012:03"
+   ],
+   "pdf_pages": [
+    12,
+    17
+   ],
+   "candidate_id": "andel1994-c1365e:c31"
+  },
+  {
+   "group": "role",
+   "label": "Emergent strategy redirection",
+   "definition": "Unexpected market responses can redirect a venture's strategy (Honda's small motorcycles), an emergent strategy.",
+   "applies_when": "A venture shifts its product or market after an unexpected customer response.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p009:01",
+    "andel1994-c1365e:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "andel1994-c1365e:c32"
+  },
+  {
+   "group": "role",
+   "label": "Supporting but essential role",
+   "definition": "When serendipity plays a role it is normally secondary but essential; design and serendipity complement and reinforce each other.",
+   "applies_when": "Account shows a planned effort in which an unexpected element was crucial.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p014:02",
+    "andel1994-c1365e:p015:02"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "andel1994-c1365e:c33"
+  },
+  {
+   "group": "role",
+   "label": "Solution before demand",
+   "definition": "About twenty percent of commercially successful innovations arise where something was discovered before there was a demand for it, rather than solving a pre-existing problem.",
+   "applies_when": "The venture's offering was found first and a market/need identified afterwards.",
+   "does_not_apply_when": "Innovation that answers a known pre-existing problem.",
+   "passage_ids": [
+    "andel1994-c1365e:p014:03"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "andel1994-c1365e:c34"
+  },
+  {
+   "group": "outcome",
+   "label": "New theory, product or field",
+   "definition": "Unsought findings lead to new theories, inventions, products, or even entire new fields and paradigm changes.",
+   "applies_when": "The unexpected event resulted in a new product, business line or field.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p006:02",
+    "andel1994-c1365e:p008:02",
+    "andel1994-c1365e:p012:02"
+   ],
+   "pdf_pages": [
+    6,
+    8,
+    12
+   ],
+   "candidate_id": "andel1994-c1365e:c35"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective concealment",
+   "definition": "Serendipity is underestimated because results are rationalized a posteriori and reported as following logically from plans; serendipity may be hidden or denied for reasons of method norms, career or self-respect.",
+   "applies_when": "The person presents events as planned or later admits chance was omitted from official accounts.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p010:01",
+    "andel1994-c1365e:p015:02",
+    "andel1994-c1365e:p016:01"
+   ],
+   "pdf_pages": [
+    10,
+    15,
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c36"
+  },
+  {
+   "group": "account",
+   "label": "Exaggerated or invented serendipity",
+   "definition": "Looking back, the serendipity of a finding can be overestimated or even invented, forming legends (e.g., Newton's apple).",
+   "applies_when": "The account has a legendary or embellished chance story.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p010:01",
+    "andel1994-c1365e:p014:02"
+   ],
+   "pdf_pages": [
+    10,
+    14
+   ],
+   "candidate_id": "andel1994-c1365e:c37"
+  },
+  {
+   "group": "rival",
+   "label": "Not chance but observation",
+   "definition": "Some argue so-called chance discoveries are never truly accidental, but result from an observer on the lookout for anything strange.",
+   "applies_when": "The person attributes the discovery to alertness and effort rather than luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p016:02"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "andel1994-c1365e:c38"
+  },
+  {
+   "group": "rival",
+   "label": "Design-driven discovery",
+   "definition": "Most innovations proceed from known problem to solution by design rather than serendipity.",
+   "applies_when": "The venture idea arose from deliberate problem-solving or market analysis.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p014:03",
+    "andel1994-c1365e:p009:01"
+   ],
+   "pdf_pages": [
+    9,
+    14
+   ],
+   "candidate_id": "andel1994-c1365e:c39"
+  },
+  {
+   "group": "condition",
+   "label": "Cannot be planned",
+   "definition": "Serendipity cannot be planned or programmed; one can only set up systems that alert people to the unforeseen and prompt them to interpret it.",
+   "applies_when": "The person describes building alertness or mechanisms to notice surprises rather than planning findings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "andel1994-c1365e:p015:01",
+    "andel1994-c1365e:p017:03"
+   ],
+   "pdf_pages": [
+    15,
+    17
+   ],
+   "candidate_id": "andel1994-c1365e:c40"
+  }
+ ],
+ "removed": []
+}

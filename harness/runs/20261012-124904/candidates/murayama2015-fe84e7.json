@@ -1,0 +1,308 @@
+{
+ "paper_id": "murayama2015-fe84e7",
+ "file": "papers/pdf/Murayama et al - 2015 - Management of Science Serendipity and Research Performance.pdf",
+ "about": [
+  "An econometric study of a survey of scientists in Japan and the U.S. examining whether serendipitous findings improve research quality and how the division of labour between management and leading research roles affects the pursuit of serendipity and publication productivity."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Answers to questions not yet posed",
+   "definition": "Serendipity is operationalised as the act of finding answers to questions not yet posed; the accidental nature concerns the discovery process and its relation to the original research question, not the value of the result.",
+   "applies_when": "The person describes arriving at a result or insight that answered a question they had not set out to ask, different from what they originally planned.",
+   "does_not_apply_when": "The outcome was the intended answer to the original question, even if it turned out unexpectedly valuable; the paper locates the accident in the discovery process, not in the impact.",
+   "passage_ids": [
+    "murayama2015-fe84e7:p001:04",
+    "murayama2015-fe84e7:p003:05",
+    "murayama2015-fe84e7:p003:06"
+   ],
+   "pdf_pages": [
+    1,
+    3
+   ],
+   "candidate_id": "murayama2015-fe84e7:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Value-neutral serendipity",
+   "definition": "The authors deliberately define serendipity neutrally with respect to the value of the finding, so that serendipitous findings that turned out to be of little value also count.",
+   "applies_when": "An account describes an unplanned finding that was pursued but led to modest or no success, and it is still described as a chance discovery.",
+   "does_not_apply_when": "Do not restrict coding to happy or successful accidents; the colloquial 'fortunate discovery' sense is what the authors move away from.",
+   "passage_ids": [
+    "murayama2015-fe84e7:p007:04",
+    "murayama2015-fe84e7:p001:03"
+   ],
+   "pdf_pages": [
+    1,
+    7
+   ],
+   "candidate_id": "murayama2015-fe84e7:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected observation during hands-on work",
+   "definition": "While actually doing the work, people often encounter unexpected observations or findings that are crude and nascent when they first appear.",
+   "applies_when": "The person reports noticing something surprising or unplanned while engaged in day-to-day operational work (e.g., a contaminated culture, an odd result).",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p004:02",
+    "murayama2015-fe84e7:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    4
+   ],
+   "candidate_id": "murayama2015-fe84e7:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Deciding to deviate from the plan",
+   "definition": "On encountering a serendipitous finding, the person faces a choice to be flexible and change the original plan to pursue it, or stick to the plan; the decision is intuitive because the finding is crude.",
+   "applies_when": "The account describes a moment of choosing to abandon or modify an original plan to follow up an unexpected finding, often on gut feeling.",
+   "does_not_apply_when": "Planned pivots driven by scheduled review or a pre-set goal rather than an unexpected finding.",
+   "passage_ids": [
+    "murayama2015-fe84e7:p002:02",
+    "murayama2015-fe84e7:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "murayama2015-fe84e7:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Persuading the manager to change course",
+   "definition": "When the discoverer is not the decision-maker, they must convince the person in the managerial role to change the initial plan; presenting a serendipitous encounter can be risky, especially when it contradicts accepted ways of thinking.",
+   "applies_when": "The person describes having to sell or justify an unexpected idea to a boss, investor or manager before being allowed to pursue it, or feeling it was risky to raise.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "murayama2015-fe84e7:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Selective pursuit based on expected worth",
+   "definition": "People pursue an unintended finding only if they expect the change to be worth it, because diverting from the original plan seems risky.",
+   "applies_when": "The account shows the person weighing whether an unexpected finding was valuable enough to justify deviating before acting on it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p001:04",
+    "murayama2015-fe84e7:p007:06"
+   ],
+   "pdf_pages": [
+    1,
+    7
+   ],
+   "candidate_id": "murayama2015-fe84e7:c06"
+  },
+  {
+   "group": "background",
+   "label": "Tacit on-site knowledge",
+   "definition": "Serendipitous findings rest on tacit, uncodified, situated knowledge of the person doing the work; ground-level intuition is needed to recognise and use them.",
+   "applies_when": "The person attributes recognising an opportunity to hands-on, hard-to-articulate experience or intuition gained on the ground.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p004:01",
+    "murayama2015-fe84e7:p010:02",
+    "murayama2015-fe84e7:p010:03"
+   ],
+   "pdf_pages": [
+    4,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c07"
+  },
+  {
+   "group": "background",
+   "label": "Diverse skills and cross-boundary community",
+   "definition": "Serendipity is reported more often when the project drew on communication with people with different skills or the person built a community beyond their own lab; complementary knowledge enhances creativity.",
+   "applies_when": "The account links the unexpected finding to interaction with people of different expertise or networks outside one's own organisation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p008:06",
+    "murayama2015-fe84e7:p007:06",
+    "murayama2015-fe84e7:p007:07"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "murayama2015-fe84e7:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Integrating decision authority with the core worker",
+   "definition": "When the person leading the actual work also holds the managerial role, coordination and communication costs of shifting direction fall, giving flexibility to pursue serendipitous findings.",
+   "applies_when": "The account shows the person who spotted the opportunity also had authority to redirect resources or plans and could act on it directly.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p004:03",
+    "murayama2015-fe84e7:p001:02",
+    "murayama2015-fe84e7:p010:02"
+   ],
+   "pdf_pages": [
+    1,
+    4,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Bureaucratic top-down management blocks pursuit",
+   "definition": "Hierarchical, formalised management focused on budgets, deadlines and the initial plan creates information asymmetry with front-line workers and tends to rebuff efforts to pursue serendipitous findings.",
+   "applies_when": "The account describes an opportunity being ignored or blocked because a manager, board or central office insisted on sticking to the original plan or schedule.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p010:03",
+    "murayama2015-fe84e7:p010:06",
+    "murayama2015-fe84e7:p002:05"
+   ],
+   "pdf_pages": [
+    2,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Manager sharing tacit domain knowledge",
+   "definition": "Even when management and lead work are separated, serendipity can be realised if the manager shares tacit, domain-specific knowledge with the lead and understands the nature of discovery, reducing incommensurability.",
+   "applies_when": "The account describes a manager or partner who understood the technical domain well enough to recognise and back an unexpected direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p011:03",
+    "murayama2015-fe84e7:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "murayama2015-fe84e7:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Decentralised autonomy for units",
+   "definition": "Decentralised, less formalised organisation that places decisions where information is gathered and knowledge created allows flexible pursuit of unexpected opportunities; centrally overseen R&D struggles to profit from them.",
+   "applies_when": "The person describes having autonomy from a central authority that let them act quickly on an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p010:05",
+    "murayama2015-fe84e7:p002:01",
+    "murayama2015-fe84e7:p003:02"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "Higher quality outcomes",
+   "definition": "Pursuing serendipitous findings is associated on average with higher research quality (more citations) than intended findings.",
+   "applies_when": "The account links a serendipitous pivot to a notably better or more impactful outcome.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p008:02",
+    "murayama2015-fe84e7:p010:02"
+   ],
+   "pdf_pages": [
+    8,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Trade-off with productivity",
+   "definition": "There is a trade-off between pursuing serendipity and efficiency: separating management from core work yields more output on the original plan in larger teams but leaves serendipitous findings unpursued.",
+   "applies_when": "The account contrasts following an unexpected lead with efficiently delivering on the original plan, or notes that a growing team's specialised management reduced room for chance pursuits.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p010:03",
+    "murayama2015-fe84e7:p010:04",
+    "murayama2015-fe84e7:p002:04"
+   ],
+   "pdf_pages": [
+    2,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c14"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the original project",
+   "definition": "A serendipitous finding can lead the person to change the original plan and redirect the project towards the unexpected discovery, as with Fleming shifting from influenza to the mould.",
+   "applies_when": "The account describes a venture or project changing direction because of an unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p001:02",
+    "murayama2015-fe84e7:p010:03"
+   ],
+   "pdf_pages": [
+    1,
+    10
+   ],
+   "candidate_id": "murayama2015-fe84e7:c15"
+  },
+  {
+   "group": "account",
+   "label": "Survivorship in success anecdotes",
+   "definition": "Anecdotes about serendipity highlight only successful cases; many explorations of unintended findings ended with nothing, so narratives overstate its importance.",
+   "applies_when": "A narrator frames a chance discovery as a famous success story, or acknowledges unpursued or failed chance leads.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p003:07",
+    "murayama2015-fe84e7:p007:03",
+    "murayama2015-fe84e7:p007:04"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "murayama2015-fe84e7:c16"
+  },
+  {
+   "group": "account",
+   "label": "Overvaluing serendipitous findings",
+   "definition": "Because people are less familiar with the topic of a serendipitous finding, it seems more novel and they tend to overestimate its value, pursuing it with less stringent criteria.",
+   "applies_when": "The person describes being excited by an unexpected finding's novelty, or in hindsight judges they overrated it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p007:05",
+    "murayama2015-fe84e7:p008:03"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "murayama2015-fe84e7:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Random occurrence, not reliably beneficial",
+   "definition": "One may argue serendipity does not necessarily bring better results because unintended findings occur randomly and appear unmanageable.",
+   "applies_when": "An account attributes the outcome to pure randomness with no systematic contribution of the unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "murayama2015-fe84e7:p001:03",
+    "murayama2015-fe84e7:p002:01"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "murayama2015-fe84e7:c18"
+  }
+ ],
+ "removed": []
+}

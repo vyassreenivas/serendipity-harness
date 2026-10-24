@@ -1,0 +1,80 @@
+{
+ "paper_id": "denrell2001-fba1d1",
+ "file": "papers/pdf/Denrell and March - 2001 - Adaptation as Information Restriction The Hot Stove Effect.pdf",
+ "about": [
+  "A simulation study showing that adaptive processes (experiential learning and competitive selection) build in a bias against risky and new alternatives, the 'hot stove effect', and that slow, imprecise or forgetful adaptation weakens that bias and occasionally lets valuable alternatives be discovered."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "condition",
+   "label": "Persisting despite poor early results",
+   "definition": "Discovering the value of a new or risky alternative depends on sticking with it after early unfavourable outcomes. Tenacity, which the authors call 'irrational pigheadedness', together with willingness to deviate, occasionally leads to discovery rather than disaster.",
+   "applies_when": "The account describes someone continuing with a new idea or course of action despite early evidence that it was failing, and its value only appearing later because they persisted.",
+   "does_not_apply_when": "Do not mark a person who readily drops ideas and moves from one to the next. The authors say that talent for deviance alone is of little use without tenacity.",
+   "passage_ids": [
+    "denrell2001-fba1d1:p012:01",
+    "denrell2001-fba1d1:p011:05",
+    "denrell2001-fba1d1:p006:02"
+   ],
+   "pdf_pages": [
+    6,
+    11,
+    12
+   ],
+   "candidate_id": "denrell2001-fba1d1:c01"
+  },
+  {
+   "group": "condition",
+   "label": "Slack or noise in feedback",
+   "definition": "Imprecise, delayed or poorly remembered feedback lets alternatives that initially look bad survive long enough for their potential to be revealed. The resulting arbitrary 'mistakes' are costly in the short run but help in the long run.",
+   "applies_when": "The account shows an option kept alive because of inertia, a protective honeymoon period, ambiguous results, multiple goals, or forgotten failures, and the option later proving valuable.",
+   "does_not_apply_when": "Do not mark a deliberate, evidence-based choice to continue because results were already clearly good.",
+   "passage_ids": [
+    "denrell2001-fba1d1:p012:04",
+    "denrell2001-fba1d1:p013:01",
+    "denrell2001-fba1d1:p011:04"
+   ],
+   "pdf_pages": [
+    11,
+    12,
+    13
+   ],
+   "candidate_id": "denrell2001-fba1d1:c02"
+  },
+  {
+   "group": "account",
+   "label": "Crediting capability over luck",
+   "definition": "After a success, people and organizations tend to overestimate the contribution of their own capabilities and underestimate the contribution of the alternative itself and of good fortune. This inflates their confidence about other alternatives.",
+   "applies_when": "An actor explains a past success mainly through their own skill and plays down chance or the inherent merit of the opportunity. Also mark when this confidence leads them to try other things.",
+   "does_not_apply_when": "Do not mark accounts that explicitly acknowledge luck or good fortune as a major contributor.",
+   "passage_ids": [
+    "denrell2001-fba1d1:p013:05",
+    "denrell2001-fba1d1:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "denrell2001-fba1d1:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Partially connected networks",
+   "definition": "In networks whose parts evolve partly independently, alternatives that most actors discard may be adopted by a few. Others can later adopt the alternative from them.",
+   "applies_when": "The account shows an idea rejected by most actors but kept alive by a loosely linked group, from which it later spreads.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2001-fba1d1:p010:04",
+    "denrell2001-fba1d1:p010:05"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "denrell2001-fba1d1:c04"
+  }
+ ],
+ "removed": []
+}

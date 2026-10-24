@@ -1,0 +1,335 @@
+{
+ "paper_id": "merton2004-2c6f10",
+ "file": "papers/pdf/Merton and Barber - 2004 - Accidental Discovery in Science Victorian Opinion.pdf",
+ "about": [
+  "This book chapter traces how Victorian scientists and literary collectors understood accidental discovery, how serendipity first entered print, and the competing meanings, explanations and credit attributions attached to it."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Finding what was not sought",
+   "definition": "Serendipity as Solly read Walpole: looking for one thing and finding another, the discovery of things the finder was not in search of.",
+   "applies_when": "Someone describes finding something valuable while actively looking for something else.",
+   "does_not_apply_when": "The person found the very item they were looking for, only at an unexpected time or in an unexpected way; code that as unexpected timing of a sought find.",
+   "passage_ids": [
+    "merton2004-2c6f10:p013:02",
+    "merton2004-2c6f10:p014:03",
+    "merton2004-2c6f10:p015:02"
+   ],
+   "pdf_pages": [
+    13,
+    14,
+    15
+   ],
+   "candidate_id": "merton2004-2c6f10:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Walpole's original formulation: discoveries made through accidents combined with sagacity, of things the discoverer was not in quest of. The example is inferring a blind mule from grass eaten on one side only.",
+   "applies_when": "An account combines a chance occurrence with the person's shrewd inference or interpretation of it.",
+   "does_not_apply_when": "The find is described as pure luck with no interpretive contribution from the person.",
+   "passage_ids": [
+    "merton2004-2c6f10:p012:01",
+    "merton2004-2c6f10:p009:01"
+   ],
+   "pdf_pages": [
+    9,
+    12
+   ],
+   "candidate_id": "merton2004-2c6f10:c02"
+  },
+  {
+   "group": "type",
+   "label": "Unexpected timing of a sought find",
+   "definition": "A kind of serendipity in which the person comes upon exactly the item they want at that moment, by coincidence. What is found is known in advance; what is unexpected is how or when it turns up.",
+   "applies_when": "A person knew what they wanted, and it turned up through a coincidence or at an unusually timely moment rather than through the expected search.",
+   "does_not_apply_when": "The thing found was not being looked for at all.",
+   "passage_ids": [
+    "merton2004-2c6f10:p015:02",
+    "merton2004-2c6f10:p016:01",
+    "merton2004-2c6f10:p018:02"
+   ],
+   "pdf_pages": [
+    15,
+    16,
+    18
+   ],
+   "candidate_id": "merton2004-2c6f10:c03"
+  },
+  {
+   "group": "role",
+   "label": "Discovery as starting point, not endpoint",
+   "definition": "Collectors treated an accidental find as complete in itself. For scientists, the accidental observation is only the first step, which prompts them to explain the anomaly and build an advance on it.",
+   "applies_when": "An account treats a chance finding as the beginning of further development or investigation rather than as the end result.",
+   "does_not_apply_when": "The chance find is the whole outcome and is not developed further.",
+   "passage_ids": [
+    "merton2004-2c6f10:p004:03",
+    "merton2004-2c6f10:p015:02",
+    "merton2004-2c6f10:p019:02"
+   ],
+   "pdf_pages": [
+    4,
+    15,
+    19
+   ],
+   "candidate_id": "merton2004-2c6f10:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Skilled follow-up of the accident",
+   "definition": "Turning the accident into an advance depends on pursuing it with dexterity and following it to its consequences, which lesser people might not manage.",
+   "applies_when": "A person describes actively pursuing, testing or developing a chance observation to further consequences.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p004:02",
+    "merton2004-2c6f10:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-2c6f10:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seeking explanations for anomalies",
+   "definition": "Scientists respond to an unexpected or anomalous finding by trying to explain it, which brings the accident within rational investigation.",
+   "applies_when": "Someone describes trying to understand why a surprising result or observation occurred.",
+   "does_not_apply_when": "The person treats the coincidence as mysterious and does not investigate it further; code that as the mystical account.",
+   "passage_ids": [
+    "merton2004-2c6f10:p019:02",
+    "merton2004-2c6f10:p016:02"
+   ],
+   "pdf_pages": [
+    16,
+    19
+   ],
+   "candidate_id": "merton2004-2c6f10:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Surprising anomalous observation",
+   "definition": "The serendipity pattern begins with the observation of surprising, anomalous data, or with a chance event that comes to the person's attention.",
+   "applies_when": "An account names an unexpected observation, result or event that set the discovery in motion.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p007:01",
+    "merton2004-2c6f10:p003:01"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "merton2004-2c6f10:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "The value of an accident depends on the mind that observes it. A mind prepared with a well-pondered idea, or a lurking idea of what is wanted, is what makes the accident usable. 'If the soil is not sufficiently prepared, the seed will not grow.'",
+   "applies_when": "A person's prior ideas, knowledge or sense of direction is shown as enabling them to recognise or use the chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p004:01",
+    "merton2004-2c6f10:p006:01",
+    "merton2004-2c6f10:p006:02"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "merton2004-2c6f10:c08"
+  },
+  {
+   "group": "background",
+   "label": "Active engagement in a domain",
+   "definition": "Serendipitous finds come to people actively searching in a related field. Someone not engaged with genealogy or book collecting would not stumble on such finds.",
+   "applies_when": "The chance find occurs during ongoing active search or work in a related area.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p015:01"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "merton2004-2c6f10:c09"
+  },
+  {
+   "group": "background",
+   "label": "Skill in using tools (genius)",
+   "definition": "Coryton held that all invention, whatever its immediate causes, requires a particular genius of 'knowing the use of tools' in order to take advantage of an accident.",
+   "applies_when": "An account credits a person's practical skill or know-how with turning an accident into an invention.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p005:02",
+    "merton2004-2c6f10:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "merton2004-2c6f10:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Tact and industry increase fortunate accidents",
+   "definition": "Jevons argued that the greater the tact and industry with which a person applies themselves, the more likely they are to meet fortunate accidents and turn them to account. Later writers spoke of cultivating serendipity.",
+   "applies_when": "Diligent, sustained effort or deliberate cultivation is presented as raising the chance of lucky finds.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p006:02",
+    "merton2004-2c6f10:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "merton2004-2c6f10:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Early stage of a field",
+   "definition": "Jevons held that accidents matter more at the inception of a branch of science.",
+   "applies_when": "Chance discoveries are linked to the early, unformed stage of a field or area.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-2c6f10:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Kind of discovery affects unexpectedness",
+   "definition": "Gore held that great discoveries rarely come unawares and that quantitative relations are found by deliberate research. New qualitative facts and isolated novel phenomena are the most likely to be found unexpectedly.",
+   "applies_when": "An account links the chance element to the novelty or qualitative kind of what was found, as opposed to findings produced by targeted research.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-2c6f10:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Discovery due to the idea, not accident",
+   "definition": "Whewell's position: no discovery is really due to accident. Possessing a distinct idea or theory is the decisive factor, and accident is merely an accompanying circumstance.",
+   "applies_when": "An account attributes the discovery wholly to prior theory or design and denies that chance played a real part.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p004:01",
+    "merton2004-2c6f10:p004:03",
+    "merton2004-2c6f10:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-2c6f10:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Pure accident by anyone",
+   "definition": "Whewell's reviewer held that some discoveries are pure accident that any ordinary observer could have made. Given the right circumstances, the discovery was bound to happen regardless of the person.",
+   "applies_when": "An account presents the discovery as inevitable given the circumstances, with the individual's contribution seen as replaceable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p004:01",
+    "merton2004-2c6f10:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "merton2004-2c6f10:c15"
+  },
+  {
+   "group": "account",
+   "label": "Credit: discoverer versus circumstances",
+   "definition": "Narrators are torn between crediting the discoverer's gift or sagacity and crediting external luck or circumstances. Modesty leads people to stress luck in their own discoveries, while they attribute others' discoveries to special endowments.",
+   "applies_when": "A person frames a lucky find as luck or circumstance versus personal talent or faculty, especially when downplaying their own role.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p018:03",
+    "merton2004-2c6f10:p019:01",
+    "merton2004-2c6f10:p012:02"
+   ],
+   "pdf_pages": [
+    12,
+    18,
+    19
+   ],
+   "candidate_id": "merton2004-2c6f10:c16"
+  },
+  {
+   "group": "account",
+   "label": "Defending against undeserved luck",
+   "definition": "Narrators feel obliged to defend those who benefit from lucky accidents against the charge that they got more than they deserved, by stressing their preparation.",
+   "applies_when": "Someone insists a lucky outcome was earned, or justifies it against the suggestion that it was mere luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p006:01",
+    "merton2004-2c6f10:p005:02"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "merton2004-2c6f10:c17"
+  },
+  {
+   "group": "account",
+   "label": "Mystical explanation of coincidence",
+   "definition": "Some narrators treat serendipity as a semi-mystical final explanation that hints at mysterious forces. This lets them sidestep whether inner quality or outer circumstance was responsible.",
+   "applies_when": "A person explains a fortunate coincidence through fate, providence or mysterious forces rather than through skill or plain chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p016:02",
+    "merton2004-2c6f10:p019:02"
+   ],
+   "pdf_pages": [
+    16,
+    19
+   ],
+   "candidate_id": "merton2004-2c6f10:c18"
+  },
+  {
+   "group": "outcome",
+   "label": "Pleasure and amazement",
+   "definition": "Serendipitous finds give pleasure, deriving as much from their timeliness as from the value of the object, and can generate amazement or awe.",
+   "applies_when": "An account reports delight, wonder or awe at a timely chance find.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p018:02",
+    "merton2004-2c6f10:p019:02"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ],
+   "candidate_id": "merton2004-2c6f10:c19"
+  },
+  {
+   "group": "outcome",
+   "label": "Founding new fields or processes",
+   "definition": "Accidental discoveries can lay the foundation of whole new fields or industrial processes, such as urea synthesis founding organic chemistry, vulcanization, and the first coal tar dye.",
+   "applies_when": "A chance discovery is described as founding a new field, product or process.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2c6f10:p003:01",
+    "merton2004-2c6f10:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "merton2004-2c6f10:c20"
+  }
+ ],
+ "removed": []
+}

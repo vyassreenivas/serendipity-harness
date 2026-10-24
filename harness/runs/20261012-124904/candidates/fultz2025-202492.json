@@ -1,0 +1,628 @@
+{
+ "paper_id": "fultz2025-202492",
+ "file": "papers/pdf/Fultz and Hmieleski - 2025 - Cultivating and Harnessing Unexpected Opportunities.pdf",
+ "about": [
+  "A lagged survey of 156 small new US firms showing that a monochronic (sequential, focused) orientation is associated with more serendipity (unexpected discovery without active search), which raises innovation performance, especially in dynamic environments."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unexpected discovery from purposeful action",
+   "definition": "Serendipity is an unexpected discovery brought about by purposeful action; outcomes differ significantly from what was being sought.",
+   "applies_when": "The account describes a discovery the person did not anticipate that arose while they were doing something purposeful.",
+   "does_not_apply_when": "The discovery was the planned target of the effort, or arose with no action on the person's part at all (pure luck).",
+   "passage_ids": [
+    "fultz2025-202492:p002:02",
+    "fultz2025-202492:p006:01",
+    "fultz2025-202492:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    6
+   ],
+   "candidate_id": "fultz2025-202492:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Agency distinguishes it from luck",
+   "definition": "Unlike luck, which is purely random, serendipity involves agency: the discovery emerges at least in part from purposeful effort.",
+   "applies_when": "The speaker links the unexpected find to their own effort, activity or engagement.",
+   "does_not_apply_when": "The event is framed as purely random fortune with no contribution from the person's actions.",
+   "passage_ids": [
+    "fultz2025-202492:p006:01",
+    "fultz2025-202492:p022:03"
+   ],
+   "pdf_pages": [
+    6,
+    22
+   ],
+   "candidate_id": "fultz2025-202492:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Surprise, not intended or controlled",
+   "definition": "Serendipity is never entirely intended or controlled, whether in how the discovery happens or in what is uncovered.",
+   "applies_when": "The account stresses that how something was found, or what was found, was not intended or foreseen.",
+   "does_not_apply_when": "Targeted innovation where the outcome was what was being aimed at.",
+   "passage_ids": [
+    "fultz2025-202492:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "fultz2025-202492:c03"
+  },
+  {
+   "group": "definition",
+   "label": "Potential, not inherent, value",
+   "definition": "A serendipitous discovery carries potential value that must be actively materialized; value is subjective and context-dependent rather than inherent.",
+   "applies_when": "The speaker describes a discovery whose usefulness had to be realized through further action, or which mattered to them but might not to others.",
+   "does_not_apply_when": "Everyday 'happy accident' talk that assumes the chance event was automatically beneficial.",
+   "passage_ids": [
+    "fultz2025-202492:p006:01",
+    "fultz2025-202492:p018:03",
+    "fultz2025-202492:p019:01"
+   ],
+   "pdf_pages": [
+    6,
+    18,
+    19
+   ],
+   "candidate_id": "fultz2025-202492:c04"
+  },
+  {
+   "group": "type",
+   "label": "Serendipity from deliberate search",
+   "definition": "Serendipity that emerges while deliberately searching for a specific solution to a defined problem, but yields something other than what was sought.",
+   "applies_when": "The person was actively looking for a solution to a known problem and found something unexpected along the way.",
+   "does_not_apply_when": "Discovery during routine work with no problem or solution being sought.",
+   "passage_ids": [
+    "fultz2025-202492:p006:03",
+    "fultz2025-202492:p010:02"
+   ],
+   "pdf_pages": [
+    6,
+    10
+   ],
+   "candidate_id": "fultz2025-202492:c05"
+  },
+  {
+   "group": "type",
+   "label": "Serendipity without active search",
+   "definition": "Serendipity arising during day-to-day activities when no particular problem is in mind and no search for a solution is under way.",
+   "applies_when": "The account describes a discovery made during ordinary operations without looking for anything specific.",
+   "does_not_apply_when": "The person was actively searching for a solution to a defined problem.",
+   "passage_ids": [
+    "fultz2025-202492:p006:03",
+    "fultz2025-202492:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "fultz2025-202492:c06"
+  },
+  {
+   "group": "type",
+   "label": "Bushian serendipity",
+   "definition": "Trying out or experimenting with new things without a specific problem in mind and ending up solving a pre-existing problem.",
+   "applies_when": "Experimentation or play unexpectedly resolves a problem the firm already had.",
+   "does_not_apply_when": "The solution addresses a problem the firm did not yet know it had (Stephian).",
+   "passage_ids": [
+    "fultz2025-202492:p010:03",
+    "fultz2025-202492:p026:01"
+   ],
+   "pdf_pages": [
+    10,
+    26
+   ],
+   "candidate_id": "fultz2025-202492:c07"
+  },
+  {
+   "group": "type",
+   "label": "Stephian serendipity",
+   "definition": "Experimenting and discovering solutions before knowing what problems they solve, or finding solutions to problems the firm did not know it had.",
+   "applies_when": "The person describes finding a solution and only later recognising the problem it addresses.",
+   "does_not_apply_when": "The solved problem was already known beforehand (Bushian).",
+   "passage_ids": [
+    "fultz2025-202492:p010:03",
+    "fultz2025-202492:p026:01",
+    "fultz2025-202492:p026:02"
+   ],
+   "pdf_pages": [
+    10,
+    26
+   ],
+   "candidate_id": "fultz2025-202492:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Anomalies and cues in daily activity",
+   "definition": "Meaningful anomalies or unexpected cues that emerge during daily operations set off serendipitous discovery.",
+   "applies_when": "The account mentions noticing an odd or unexpected signal while carrying out routine work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p008:01",
+    "fultz2025-202492:p020:01"
+   ],
+   "pdf_pages": [
+    8,
+    20
+   ],
+   "candidate_id": "fultz2025-202492:c09"
+  },
+  {
+   "group": "trigger",
+   "label": "Exogenous shock",
+   "definition": "Uncontrollable external events, such as the COVID-19 pandemic, can prompt unexpected discoveries and innovation.",
+   "applies_when": "A sudden external crisis or shock leads the firm to an unforeseen discovery or new offering.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p006:02",
+    "fultz2025-202492:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "fultz2025-202492:c10"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected encounters and offers",
+   "definition": "Unexpected encounters, relationships, contracts or visits (e.g., an unexpected lucrative contract, a famous visitor) set off serendipitous opportunities.",
+   "applies_when": "The account describes an unforeseen meeting, contact or offer that opened an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p009:02",
+    "fultz2025-202492:p024:02",
+    "fultz2025-202492:p025:01"
+   ],
+   "pdf_pages": [
+    9,
+    24,
+    25
+   ],
+   "candidate_id": "fultz2025-202492:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Focused sequential attention",
+   "definition": "Concentrating on one task at a time reduces distraction and deepens engagement, increasing preparedness to recognize unexpected opportunities that multitasking would miss.",
+   "applies_when": "The person links noticing the unexpected to deep, uninterrupted focus on the task at hand.",
+   "does_not_apply_when": "Discovery attributed to broad scanning or juggling many tasks at once.",
+   "passage_ids": [
+    "fultz2025-202492:p008:02",
+    "fultz2025-202492:p004:01",
+    "fultz2025-202492:p020:01"
+   ],
+   "pdf_pages": [
+    4,
+    8,
+    20
+   ],
+   "candidate_id": "fultz2025-202492:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Pattern recognition / connecting the dots",
+   "definition": "Connecting seemingly unrelated trends, events or resources into a meaningful pattern turns unexpected information into an opportunity.",
+   "applies_when": "The speaker describes linking disparate pieces of information to see a new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p008:02",
+    "fultz2025-202492:p022:02",
+    "fultz2025-202492:p008:01"
+   ],
+   "pdf_pages": [
+    8,
+    22
+   ],
+   "candidate_id": "fultz2025-202492:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Filtering extraneous information",
+   "definition": "Focused firms filter out irrelevant information and reduce cognitive load, letting meaningful unexpected cues stand out.",
+   "applies_when": "The account describes deliberately ignoring distractions so that a relevant signal could be noticed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p008:02",
+    "fultz2025-202492:p020:03"
+   ],
+   "pdf_pages": [
+    8,
+    20
+   ],
+   "candidate_id": "fultz2025-202492:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Abductive reasoning and knowledge synthesis",
+   "definition": "Unexpected discoveries trigger abductive reasoning and the synthesis of disparate knowledge, producing new knowledge that can be translated into products, services or processes.",
+   "applies_when": "The person describes making sense of a surprise by combining different knowledge into a new insight they then applied.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "fultz2025-202492:c15"
+  },
+  {
+   "group": "mechanism",
+   "label": "Improvisation and bricolage",
+   "definition": "Improvisational behaviors and bricolage generate random collisions and unexpected outcomes that trigger serendipity.",
+   "applies_when": "The account describes making do, improvising or recombining resources at hand and stumbling onto something unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p017:02",
+    "fultz2025-202492:p017:03",
+    "fultz2025-202492:p006:02"
+   ],
+   "pdf_pages": [
+    6,
+    17
+   ],
+   "candidate_id": "fultz2025-202492:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Experimenting and playing around",
+   "definition": "Trying new ways of doing things just to see how they work out leads to unexpected solutions.",
+   "applies_when": "The person describes tinkering or experimenting without a target and finding something useful.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p026:01"
+   ],
+   "pdf_pages": [
+    26
+   ],
+   "candidate_id": "fultz2025-202492:c17"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge and experience",
+   "definition": "Prior knowledge and personal or user experience enhance the chance of recognizing the value of information encountered unexpectedly.",
+   "applies_when": "The speaker draws on earlier knowledge or experience with a product or need to recognize an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p006:02",
+    "fultz2025-202492:p023:02"
+   ],
+   "pdf_pages": [
+    6,
+    23
+   ],
+   "candidate_id": "fultz2025-202492:c18"
+  },
+  {
+   "group": "background",
+   "label": "Familiarity with own resources and environment",
+   "definition": "Sustained focus deepens a firm's familiarity with its resources and operating environment, enabling detection of subtle cues others overlook.",
+   "applies_when": "The account credits deep knowledge of the firm's own operations or market for spotting a subtle unexpected cue.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "fultz2025-202492:c19"
+  },
+  {
+   "group": "background",
+   "label": "Networks and social structures",
+   "definition": "Personal networks, collaborative social structures, open innovation networks and community-enabling settings (incubators, makerspaces) spur unexpected interactions and knowledge flows.",
+   "applies_when": "The unexpected opportunity came through a network, collaborative space or partner relationship.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p017:03",
+    "fultz2025-202492:p024:01",
+    "fultz2025-202492:p025:01"
+   ],
+   "pdf_pages": [
+    17,
+    24,
+    25
+   ],
+   "candidate_id": "fultz2025-202492:c20"
+  },
+  {
+   "group": "role",
+   "label": "Starting a venture accidentally",
+   "definition": "Business ideas and innovative new ventures can emerge accidentally, through dumb luck, outsider ignorance of norms, or user experience.",
+   "applies_when": "The founder describes the venture or its founding idea arising by accident rather than by plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p023:01",
+    "fultz2025-202492:p023:02",
+    "fultz2025-202492:p024:01"
+   ],
+   "pdf_pages": [
+    23,
+    24
+   ],
+   "candidate_id": "fultz2025-202492:c21"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting / pivoting the venture",
+   "definition": "Unexpected breakthroughs reveal promising pathways and give a clear target around which a firm can quickly reorient, aiding pivots in dynamic environments.",
+   "applies_when": "An unexpected opportunity prompted the firm to change direction or refocus around a new objective.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p009:01",
+    "fultz2025-202492:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "fultz2025-202492:c22"
+  },
+  {
+   "group": "role",
+   "label": "Advancing through incremental innovation",
+   "definition": "Serendipitous discoveries in day-to-day operations drive incremental product, service or process innovation that aids survival and competitiveness of ordinary firms.",
+   "applies_when": "An unexpected find led to an improvement in products, services or processes in an ongoing business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p002:01",
+    "fultz2025-202492:p017:02",
+    "fultz2025-202492:p008:03"
+   ],
+   "pdf_pages": [
+    2,
+    8,
+    17
+   ],
+   "candidate_id": "fultz2025-202492:c23"
+  },
+  {
+   "group": "outcome",
+   "label": "Innovation performance",
+   "definition": "Serendipity enhances innovation performance (innovativeness, speed, quality of new products/services) relative to competitors.",
+   "applies_when": "The account connects an unexpected discovery to better or faster new products or services than competitors.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p014:01",
+    "fultz2025-202492:p019:02"
+   ],
+   "pdf_pages": [
+    14,
+    19
+   ],
+   "candidate_id": "fultz2025-202492:c24"
+  },
+  {
+   "group": "outcome",
+   "label": "Network expansion and resources",
+   "definition": "Serendipitous encounters expand entrepreneurs' networks and provide crucial resources unavailable to competitors, enabling adaptation.",
+   "applies_when": "A chance encounter gave access to people, resources or support.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p019:02",
+    "fultz2025-202492:p009:02"
+   ],
+   "pdf_pages": [
+    9,
+    19
+   ],
+   "candidate_id": "fultz2025-202492:c25"
+  },
+  {
+   "group": "outcome",
+   "label": "Cascade of discoveries",
+   "definition": "A single serendipitous discovery may trigger a cascade of others, creating a virtuous cycle of unexpected opportunities.",
+   "applies_when": "The speaker describes one unexpected find leading to further unexpected finds.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p021:03"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "fultz2025-202492:c26"
+  },
+  {
+   "group": "outcome",
+   "label": "Dark side: uncertainty, ambiguity, detours",
+   "definition": "Serendipity may introduce excessive uncertainty, strategic ambiguity, or distracting detours that derail firms from core objectives.",
+   "applies_when": "An exciting unexpected discovery is described as distracting, confusing direction, or setting the venture back.",
+   "does_not_apply_when": "Unexpected discoveries that the firm successfully converted to value.",
+   "passage_ids": [
+    "fultz2025-202492:p019:02",
+    "fultz2025-202492:p019:03"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "fultz2025-202492:c27"
+  },
+  {
+   "group": "account",
+   "label": "Attributed to dumb luck",
+   "definition": "Serendipity is often attributed to dumb luck or uncontrollable shocks; the authors criticise this, arguing serendipity relies on agency more than luck.",
+   "applies_when": "The speaker narrates a discovery as pure luck or fate.",
+   "does_not_apply_when": "The speaker credits their own effort or focus for the discovery.",
+   "passage_ids": [
+    "fultz2025-202492:p002:02",
+    "fultz2025-202492:p007:01",
+    "fultz2025-202492:p022:03"
+   ],
+   "pdf_pages": [
+    2,
+    7,
+    22
+   ],
+   "candidate_id": "fultz2025-202492:c28"
+  },
+  {
+   "group": "account",
+   "label": "Happy accident framing",
+   "definition": "In everyday language serendipity is equated with happy accidents, fortunate twists of fate bringing favorable outcomes.",
+   "applies_when": "The person describes the event as a fortunate accident or lucky break with a good result.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p018:03"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "fultz2025-202492:c29"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic deliberate search",
+   "definition": "Goal-directed exploration to solve known problems, requiring planning and resources, is the traditional explanation for opportunity discovery and innovation.",
+   "applies_when": "The discovery is explained as the planned result of structured, goal-directed search.",
+   "does_not_apply_when": "The outcome differed from what was sought or arose without search.",
+   "passage_ids": [
+    "fultz2025-202492:p002:03",
+    "fultz2025-202492:p017:01",
+    "fultz2025-202492:p021:02"
+   ],
+   "pdf_pages": [
+    2,
+    17,
+    21
+   ],
+   "candidate_id": "fultz2025-202492:c30"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck / exogenous chance",
+   "definition": "Purely random luck or external shocks, with no agency, could explain the same events.",
+   "applies_when": "Outcomes are explained entirely by external chance without any purposeful action.",
+   "does_not_apply_when": "Purposeful effort contributed to the discovery.",
+   "passage_ids": [
+    "fultz2025-202492:p006:01",
+    "fultz2025-202492:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "fultz2025-202492:c31"
+  },
+  {
+   "group": "rival",
+   "label": "Alertness",
+   "definition": "Prior studies explain organic unexpected discoveries in terms of blind luck and entrepreneurial alertness.",
+   "applies_when": "The discovery is explained as the entrepreneur's general alertness to opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "fultz2025-202492:c32"
+  },
+  {
+   "group": "condition",
+   "label": "Monochronic orientation",
+   "definition": "A firm preference for handling tasks sequentially makes serendipity more likely.",
+   "applies_when": "The firm or founder describes working on one task or project at a time before moving on.",
+   "does_not_apply_when": "Multitasking/polychronic working styles.",
+   "passage_ids": [
+    "fultz2025-202492:p001:01",
+    "fultz2025-202492:p014:01",
+    "fultz2025-202492:p017:01"
+   ],
+   "pdf_pages": [
+    1,
+    14,
+    17
+   ],
+   "candidate_id": "fultz2025-202492:c33"
+  },
+  {
+   "group": "condition",
+   "label": "Polychronicity and multitasking",
+   "definition": "Multitasking exposes members to broad information inputs and random collisions that some argue foster serendipity, but in resource-constrained new firms it can cause overload and shallow engagement that hinders recognition of unexpected opportunities.",
+   "applies_when": "The account describes juggling many tasks simultaneously in relation to noticing or missing opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p005:02",
+    "fultz2025-202492:p005:03",
+    "fultz2025-202492:p016:03"
+   ],
+   "pdf_pages": [
+    5,
+    16
+   ],
+   "candidate_id": "fultz2025-202492:c34"
+  },
+  {
+   "group": "condition",
+   "label": "Environmental dynamism",
+   "definition": "Rapid, unpredictable change in the environment makes unexpected discoveries more likely to be pursued and converted to value; in stable environments serendipity matters less.",
+   "applies_when": "The speaker describes a fast-changing, unpredictable market as the setting in which an unexpected discovery became valuable.",
+   "does_not_apply_when": "Stable, predictable markets where efficiency and exploiting existing knowledge dominate.",
+   "passage_ids": [
+    "fultz2025-202492:p004:02",
+    "fultz2025-202492:p009:03",
+    "fultz2025-202492:p015:01"
+   ],
+   "pdf_pages": [
+    4,
+    9,
+    15
+   ],
+   "candidate_id": "fultz2025-202492:c35"
+  },
+  {
+   "group": "condition",
+   "label": "Resource constraints",
+   "definition": "Constrained resources and limited prior knowledge make systematic search impractical in new firms, making unsought serendipity more important; improvisation fosters serendipity especially under resource constraint.",
+   "applies_when": "The account notes the firm lacked resources for planned search and relied on what turned up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p002:03",
+    "fultz2025-202492:p017:02",
+    "fultz2025-202492:p024:02"
+   ],
+   "pdf_pages": [
+    2,
+    17,
+    24
+   ],
+   "candidate_id": "fultz2025-202492:c36"
+  },
+  {
+   "group": "condition",
+   "label": "Flexible/informal structure",
+   "definition": "Informal structure strengthens the serendipity-performance link and flexible structures with community-enabling leadership create conditions conducive to serendipity.",
+   "applies_when": "Organizational flexibility or informal arrangements are linked to encountering or exploiting unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p006:02",
+    "fultz2025-202492:p025:01"
+   ],
+   "pdf_pages": [
+    6,
+    25
+   ],
+   "candidate_id": "fultz2025-202492:c37"
+  },
+  {
+   "group": "condition",
+   "label": "Chaos and active life",
+   "definition": "Prior accounts emphasize stirring up the pot, frequent encounters, meandering paths and messiness as fostering serendipity; the authors argue a balance of structure and chaos is needed.",
+   "applies_when": "The person links discoveries to a busy, messy, encounter-rich way of operating.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2025-202492:p018:02",
+    "fultz2025-202492:p018:03"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "fultz2025-202492:c38"
+  }
+ ],
+ "removed": []
+}

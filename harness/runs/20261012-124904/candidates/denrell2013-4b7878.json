@@ -1,0 +1,112 @@
+{
+ "paper_id": "denrell2013-4b7878",
+ "file": "papers/pdf/Denrell et al - 2013 - Inferring Superior Capabilities from Sustained Superior Performance.pdf",
+ "about": [
+  "The paper develops a Bayesian method for judging whether a firm's sustained superior performance reflects superior capabilities or chance events amplified by processes of cumulative advantage; it treats luck and historical accident as sources of advantage but does not address serendipity or venture formation directly."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "outcome",
+   "label": "Lucky break with lasting effects",
+   "definition": "A single chance event, such as an early lucky win, can produce sustained superior performance when past success feeds future success. Examples are first-mover advantages and similar incumbency mechanisms.",
+   "applies_when": "An account describes an early chance success or lucky break that then gave the actor a lasting head start, with later success building on it.",
+   "does_not_apply_when": "The success is described as the product of a stable, superior skill or capability rather than of a chance starting point that compounded.",
+   "passage_ids": [
+    "denrell2013-4b7878:p003:02",
+    "denrell2013-4b7878:p004:04",
+    "denrell2013-4b7878:p014:01"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    14
+   ],
+   "candidate_id": "denrell2013-4b7878:c01"
+  },
+  {
+   "group": "condition",
+   "label": "Self-reinforcing contexts amplify chance",
+   "definition": "Chance events have more enduring consequences where contests are dependent, that is, where success in one period improves the starting point for the next. Examples are network externalities, switching costs, learning curves and status dynamics.",
+   "applies_when": "An account describes a setting where early success brought advantages such as installed base, reputation, switching costs or learning that made later success more likely, so that a chance event was magnified.",
+   "does_not_apply_when": "Each round of competition is described as independent, so early luck confers no later advantage.",
+   "passage_ids": [
+    "denrell2013-4b7878:p003:02",
+    "denrell2013-4b7878:p004:04",
+    "denrell2013-4b7878:p012:03"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    12
+   ],
+   "candidate_id": "denrell2013-4b7878:c02"
+  },
+  {
+   "group": "condition",
+   "label": "Shocks resetting accumulated advantage",
+   "definition": "Accumulated advantage can suddenly stop mattering, for example after a technological shift that makes earlier resources irrelevant. When that happens, only underlying capability counts.",
+   "applies_when": "An account describes a technological or market shift that wiped out the value of advantages gained earlier, including advantages gained by chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2013-4b7878:p012:04",
+    "denrell2013-4b7878:p013:01"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "denrell2013-4b7878:c03"
+  },
+  {
+   "group": "background",
+   "label": "Capability to exploit lucky events",
+   "definition": "The authors raise the possibility that more capable firms are better able to take advantage of lucky events and react more to them. In that case, low-capability firms rarely sustain success from luck alone.",
+   "applies_when": "An account suggests that the actor's skills or capabilities let them capitalize on a lucky event that others might not have been able to exploit.",
+   "does_not_apply_when": "Success follows from luck alone, with no indication that the actor's capability shaped how much they benefited.",
+   "passage_ids": [
+    "denrell2013-4b7878:p013:02",
+    "denrell2013-4b7878:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "denrell2013-4b7878:c04"
+  },
+  {
+   "group": "rival",
+   "label": "Foresight versus historical accident",
+   "definition": "Sustained success can be attributed either to the unusual foresight or ability of managers or to historical accidents, where actors happened to be at the right place at the right time. The authors argue that strategy research tends to assume the former.",
+   "applies_when": "An account explains success either as planned foresight and superior ability or as being in the right place at the right time; a coder marks which explanation, or what mix, is offered.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2013-4b7878:p013:04",
+    "denrell2013-4b7878:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "denrell2013-4b7878:c05"
+  },
+  {
+   "group": "account",
+   "label": "Overattributing success to capability",
+   "definition": "Observers, and decision makers themselves, tend to read spectacular or sustained success as evidence of superior capability. They underweight the role of chance and cumulative advantage, especially for extreme performers, and then imitate them.",
+   "applies_when": "A narrator credits a venture's success wholly to skill or strategy while the events described suggest that chance and compounding advantage played a large part, or holds up a successful firm as a model to imitate.",
+   "does_not_apply_when": "The narrator explicitly acknowledges luck or early chance advantages as part of the explanation.",
+   "passage_ids": [
+    "denrell2013-4b7878:p014:03",
+    "denrell2013-4b7878:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    14
+   ],
+   "candidate_id": "denrell2013-4b7878:c06"
+  }
+ ],
+ "removed": []
+}

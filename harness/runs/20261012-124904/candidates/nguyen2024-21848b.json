@@ -1,0 +1,274 @@
+{
+ "paper_id": "nguyen2024-21848b",
+ "file": "papers/pdf/Nguyen et al - 2024 - Serendipity as a Strategic Advantage.pdf",
+ "about": [
+  "An encyclopedia entry summarising Napier and Vuong's framework of serendipity as a strategic advantage, defining serendipity as noticing, evaluating and exploiting unexpected information through four stages: setting the stage, noticing, evaluating, and acting."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unsought, unexpected event or information",
+   "definition": "Serendipity derives from events or information that were not sought, expected, anticipated or intended.",
+   "applies_when": "The person describes encountering information or an event they were not looking for or did not anticipate.",
+   "does_not_apply_when": "The information came from deliberate, planned search for that specific thing.",
+   "passage_ids": [
+    "nguyen2024-21848b:p001:02"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "nguyen2024-21848b:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Anomalous, surprising information",
+   "definition": "The information or event is out of the ordinary, surprising, and inconsistent with existing thoughts or theories.",
+   "applies_when": "The account stresses that the encountered information contradicted expectations or was odd or anomalous.",
+   "does_not_apply_when": "The information was unexpected in timing but fit existing understanding without surprise.",
+   "passage_ids": [
+    "nguyen2024-21848b:p001:02"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "nguyen2024-21848b:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Capacity to recognise and capitalise",
+   "definition": "Serendipity only occurs when the individual can recognise, evaluate and generate unintended value from unexpected information to solve a problem or find an opportunity.",
+   "applies_when": "The person not only encountered something unexpected but recognised its value and used it.",
+   "does_not_apply_when": "An unexpected event happened but was ignored or not exploited (serendipity lost).",
+   "passage_ids": [
+    "nguyen2024-21848b:p001:02",
+    "nguyen2024-21848b:p001:01"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "nguyen2024-21848b:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Individual traits for noticing",
+   "definition": "Personal traits such as openness, confidence, curiosity and alertness make noticing unsought information more or less likely.",
+   "applies_when": "The person attributes noticing the unexpected to their curiosity, openness, alertness or confidence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:01",
+    "nguyen2024-21848b:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Organisational culture for serendipity",
+   "definition": "Organisational culture such as openness to new ideas, allowance for sloppiness, and a cross-discipline mix of people affects how likely serendipity is to appear.",
+   "applies_when": "The account credits the organisation's openness, tolerance of messiness, or diverse team mix with enabling an unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:01",
+    "nguyen2024-21848b:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c05"
+  },
+  {
+   "group": "condition",
+   "label": "External conditions and trends",
+   "definition": "Situations and trends outside the organisation, in specific settings or industries, shape the likelihood of serendipity.",
+   "applies_when": "The person links an unexpected opportunity to wider market, industry or environmental trends.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Past noticing builds openness",
+   "definition": "Even when noticed information is judged of no value, the act of noticing and recognising possibilities increases openness for future noticing.",
+   "applies_when": "The person describes earlier unexpected things they noticed but dropped making them more attentive later.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing unexpected information",
+   "definition": "Being alert to and picking up on unexpected information as a distinct stage of the serendipity process.",
+   "applies_when": "The account describes the moment of becoming aware of something unusual.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Connecting unexpected information",
+   "definition": "Linking unexpected information with other pieces or with already known internal or external information, which gives more valuable input to evaluation, though not always necessary.",
+   "applies_when": "The person describes combining the unexpected input with other knowledge or other observations.",
+   "does_not_apply_when": "Information is evaluated in isolation without linking it to anything else.",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Flash (gut) evaluation",
+   "definition": "A quick, almost gut-feeling assessment of unusual information that heightens alertness to ways of connecting it.",
+   "applies_when": "The person reports an immediate intuitive sense that something was valuable.",
+   "does_not_apply_when": "Deliberate analytical checking, which is systematic evaluation.",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Systematic evaluation",
+   "definition": "When flash evaluation cannot assess the information, an analytical assessment, often seeking additional information, clarifies its potential value and moves from gut feel to firmer belief.",
+   "applies_when": "The person describes analysing, researching or verifying the unexpected opportunity before committing.",
+   "does_not_apply_when": "Instant intuitive judgment only.",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:02",
+    "nguyen2024-21848b:p002:03"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Factors shaping evaluation",
+   "definition": "Risk tolerance, uncertainty, timing and availability of additional information affect how unexpected information is evaluated.",
+   "applies_when": "The account mentions risk appetite, uncertainty or timing influencing whether the unexpected opportunity was judged worth pursuing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:03"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Taking action on information",
+   "definition": "Recognition and evaluation have no value in themselves; serendipity becomes an advantage only when assessment yields action.",
+   "applies_when": "The person describes acting on the evaluated unexpected information, e.g. launching, changing or investing.",
+   "does_not_apply_when": "Recognising value but not acting.",
+   "passage_ids": [
+    "nguyen2024-21848b:p003:01",
+    "nguyen2024-21848b:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "nguyen2024-21848b:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Balanced evaluation yields advantage",
+   "definition": "When decision-makers are not swayed strongly by internal or external factors, the balanced evaluation may produce an opportunity they leverage before competitors.",
+   "applies_when": "The person describes independently judging the unexpected information and exploiting it ahead of others.",
+   "does_not_apply_when": "Acting because others pointed it out (herd) or under external pressure.",
+   "passage_ids": [
+    "nguyen2024-21848b:p002:03"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "nguyen2024-21848b:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Herd outcome",
+   "definition": "The decision-maker notices the information mainly because others pointed it out and follows the herd, giving no competitive advantage.",
+   "applies_when": "The account shows the opportunity was suggested by others and many actors pursued it simultaneously.",
+   "does_not_apply_when": "The person noticed and evaluated the information independently.",
+   "passage_ids": [
+    "nguyen2024-21848b:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "nguyen2024-21848b:c15"
+  },
+  {
+   "group": "rival",
+   "label": "Externally pressured action",
+   "definition": "External sources such as policymakers evaluate the information and pressure the organisation to act, without thorough consideration, with outcomes not necessarily favourable.",
+   "applies_when": "The person reports acting on unexpected information because government or other outside parties pushed them to.",
+   "does_not_apply_when": "Self-directed evaluation and action.",
+   "passage_ids": [
+    "nguyen2024-21848b:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "nguyen2024-21848b:c16"
+  },
+  {
+   "group": "outcome",
+   "label": "Problem solving, opportunity, new ideas",
+   "definition": "Leveraging serendipity can solve existing or not-yet-tackled problems, find opportunities, or generate ideas for future use.",
+   "applies_when": "The unexpected input resulted in solving a problem, a new opportunity, or ideas banked for later.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "nguyen2024-21848b:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Competitive advantage",
+   "definition": "Serendipity, when noticed, evaluated and acted upon, can become a strategic or competitive advantage.",
+   "applies_when": "The person describes an unexpected discovery giving their venture an edge over competitors.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nguyen2024-21848b:p001:01",
+    "nguyen2024-21848b:p003:01"
+   ],
+   "pdf_pages": [
+    1,
+    3
+   ],
+   "candidate_id": "nguyen2024-21848b:c18"
+  }
+ ],
+ "removed": []
+}

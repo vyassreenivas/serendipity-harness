@@ -1,0 +1,332 @@
+{
+ "paper_id": "fultz2021-39e22e",
+ "file": "papers/pdf/Fultz and Hmieleski - 2021 - The Art of Discovering and Exploiting Unexpected Opportunities.pdf",
+ "about": [
+  "A survey study of 326 US startups testing whether organizational improvisation fosters serendipity (unexpected discovery of opportunity brought about by purposeful action), moderated by resource constraints, and whether serendipity improves new venture performance when organizational structure is informal."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unexpected discovery via purposeful action",
+   "definition": "Serendipity is the unexpected discovery of an opportunity that comes about through purposeful action; unexpected discovery, agency and chance form its core.",
+   "applies_when": "The account describes finding an opportunity that was not anticipated, and the finding came while the person or venture was actively doing something purposeful.",
+   "does_not_apply_when": "The opportunity was found through planned, systematic search for that very opportunity, or arrived with no action by the venture at all.",
+   "passage_ids": [
+    "fultz2021-39e22e:p003:04",
+    "fultz2021-39e22e:p003:05",
+    "fultz2021-39e22e:p002:04"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "fultz2021-39e22e:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity distinct from pure luck",
+   "definition": "Agency is a necessary antecedent of serendipity and is what separates it from unexpected discoveries made by pure luck, which lie beyond the influence of entrepreneurs.",
+   "applies_when": "The person stresses that their own effort or action led them to the fortunate discovery, rather than describing a windfall that simply happened to them.",
+   "does_not_apply_when": "Code as pure luck when the account presents the good fortune as wholly external and independent of anything the venture did.",
+   "passage_ids": [
+    "fultz2021-39e22e:p003:06",
+    "fultz2021-39e22e:p004:01",
+    "fultz2021-39e22e:p012:06"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    12
+   ],
+   "candidate_id": "fultz2021-39e22e:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck windfall",
+   "definition": "Unexpected discoveries that arrive by pure luck, beyond the influence of the entrepreneur, explain good fortune without serendipity.",
+   "applies_when": "The account attributes an opportunity to chance alone, with no purposeful action by the venture involved.",
+   "does_not_apply_when": "Do not use if the discovery arose while the venture was acting toward some goal; that is serendipity.",
+   "passage_ids": [
+    "fultz2021-39e22e:p003:06",
+    "fultz2021-39e22e:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "fultz2021-39e22e:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic search and planning",
+   "definition": "Opportunities are often explained as the outcome of systematic search, experimentation and substantial investment rather than unexpected discovery.",
+   "applies_when": "The account describes identifying an opportunity through deliberate, resource-intensive search or planned experimentation aimed at finding it.",
+   "does_not_apply_when": "Do not use when the opportunity found differed from what was being sought.",
+   "passage_ids": [
+    "fultz2021-39e22e:p002:02",
+    "fultz2021-39e22e:p002:04"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "fultz2021-39e22e:c04"
+  },
+  {
+   "group": "type",
+   "label": "Walpolian serendipity",
+   "definition": "Unexpected discovery of an opportunity related to a problem that was not in view, such as solving one problem and finding the solution to a different one.",
+   "applies_when": "While working on one issue or doing normal business, the venture stumbles on a solution or opportunity for something it was not looking for.",
+   "does_not_apply_when": "Mertonian serendipity: the unexpected solution is to the problem actually being worked on.",
+   "passage_ids": [
+    "fultz2021-39e22e:p007:01",
+    "fultz2021-39e22e:p014:02"
+   ],
+   "pdf_pages": [
+    7,
+    14
+   ],
+   "candidate_id": "fultz2021-39e22e:c05"
+  },
+  {
+   "group": "type",
+   "label": "Mertonian serendipity",
+   "definition": "Unexpected discovery of an opportunity related to the problem in hand, such as finding an unexpected solution to the problem being tackled.",
+   "applies_when": "The venture tries to solve a particular problem and arrives at a solution, or a new product, in an unexpected way.",
+   "does_not_apply_when": "Walpolian serendipity: the discovery concerns a problem that was not being addressed.",
+   "passage_ids": [
+    "fultz2021-39e22e:p007:01",
+    "fultz2021-39e22e:p014:02"
+   ],
+   "pdf_pages": [
+    7,
+    14
+   ],
+   "candidate_id": "fultz2021-39e22e:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Organizational improvisation",
+   "definition": "Deliberate, in-the-moment composition and execution of novel action by the venture 'stirs up the pot' and makes serendipitous discovery more likely.",
+   "applies_when": "The account shows people improvising solutions on the spot, figuring things out as they go, or responding in the moment to unexpected problems, and this leads to an unexpected discovery.",
+   "does_not_apply_when": "Repeated or routine behavior, or action that follows a prior plan (design precedes execution).",
+   "passage_ids": [
+    "fultz2021-39e22e:p004:01",
+    "fultz2021-39e22e:p003:01",
+    "fultz2021-39e22e:p004:05"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "fultz2021-39e22e:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Collective interaction among members",
+   "definition": "Joint improvisation increases interactions and chance encounters among members; others may notice the significance of a discovery that one person overlooks, and the needed skills are more likely to be present.",
+   "applies_when": "An unexpected opportunity is recognized because several people worked together or talked, for example when a colleague saw value in something another person dismissed.",
+   "does_not_apply_when": "A solitary flash of insight by one individual.",
+   "passage_ids": [
+    "fultz2021-39e22e:p004:02",
+    "fultz2021-39e22e:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "fultz2021-39e22e:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recombining existing resources",
+   "definition": "Recombining resources already at hand, especially in complex and nonobvious ways, can reveal unexpected connections and opportunities, because the value of resources is discovered as they are combined.",
+   "applies_when": "The account describes putting existing materials, skills or assets together in new ways and discovering an unanticipated use or opportunity as a result.",
+   "does_not_apply_when": "Acquiring new resources designed specifically for the task.",
+   "passage_ids": [
+    "fultz2021-39e22e:p004:04",
+    "fultz2021-39e22e:p004:05",
+    "fultz2021-39e22e:p004:06"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "fultz2021-39e22e:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Resource constraints",
+   "definition": "Lacking resources pushes entrepreneurs to find nontraditional uses for what they have and focuses improvisation, strengthening the link between improvisation and serendipity.",
+   "applies_when": "The person describes being short of money, equipment, people or connections, which forced them to look at existing resources differently and led to an unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p004:06",
+    "fultz2021-39e22e:p005:01",
+    "fultz2021-39e22e:p005:02"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "fultz2021-39e22e:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Informal organizational structure",
+   "definition": "Flat, flexible structures with lateral communication, autonomy and willingness to depart from plans make it easier to act on serendipitous discoveries and turn them into performance.",
+   "applies_when": "The account shows loose control, freedom to deviate from procedures or plans, or employee autonomy enabling the venture to pursue an unexpected opportunity.",
+   "does_not_apply_when": "Formalized search processes or rigid procedures that kill unexpected discoveries before they gain traction indicate the opposite condition.",
+   "passage_ids": [
+    "fultz2021-39e22e:p005:06",
+    "fultz2021-39e22e:p006:01",
+    "fultz2021-39e22e:p013:02"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    13
+   ],
+   "candidate_id": "fultz2021-39e22e:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Relaxed informal settings",
+   "definition": "Interactions in relaxed or informal work environments where ideas and information flow freely are particularly likely to generate serendipity.",
+   "applies_when": "A discovery arises from casual, free-flowing conversation or an informal work setting.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "fultz2021-39e22e:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Environmental dynamism",
+   "definition": "Unexpected discoveries may be more likely in dynamic, uncertain industry environments.",
+   "applies_when": "The person links an unexpected discovery to rapid or unpredictable change in their market or industry.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p008:05"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "fultz2021-39e22e:c13"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind / human capital",
+   "definition": "A firm's stock of human capital, or sagacity, may increase the odds that improvisation results in serendipity.",
+   "applies_when": "The person's skills, experience or education help them recognize the value of an unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p013:04"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "fultz2021-39e22e:c14"
+  },
+  {
+   "group": "background",
+   "label": "Familiarity with existing resources",
+   "definition": "Familiarity with resources already held lets firms generate more complex, nonobvious combinations than they could with newly acquired resources.",
+   "applies_when": "Deep knowledge of the venture's own assets or materials enables an unexpected combination or use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p004:04"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "fultz2021-39e22e:c15"
+  },
+  {
+   "group": "role",
+   "label": "Discovering new products or markets",
+   "definition": "Serendipity provides opportunities such as new products, services or latent markets that give ventures a source of advantage, as in Honda's discovery of US demand for small motorcycles.",
+   "applies_when": "An unexpected discovery leads the venture to introduce a new product or service or to enter a new market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p005:03",
+    "fultz2021-39e22e:p005:04"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "fultz2021-39e22e:c16"
+  },
+  {
+   "group": "outcome",
+   "label": "Potential, not guaranteed, value",
+   "definition": "Serendipity creates potential value that becomes realized performance only if the discovery is flexibly acted upon; it is not inherently good.",
+   "applies_when": "The account describes an unexpected opportunity that either paid off because it was pursued, or went nowhere because it was not acted on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p012:05",
+    "fultz2021-39e22e:p012:06",
+    "fultz2021-39e22e:p005:05"
+   ],
+   "pdf_pages": [
+    5,
+    12
+   ],
+   "candidate_id": "fultz2021-39e22e:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Improved venture performance",
+   "definition": "Exploited serendipitous discoveries can improve growth, financial results and innovation, particularly when structure is informal.",
+   "applies_when": "The person reports sales growth, profits or innovation that resulted from acting on an unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p005:03",
+    "fultz2021-39e22e:p011:01",
+    "fultz2021-39e22e:p013:01"
+   ],
+   "pdf_pages": [
+    5,
+    11,
+    13
+   ],
+   "candidate_id": "fultz2021-39e22e:c18"
+  },
+  {
+   "group": "outcome",
+   "label": "Opportunity overload",
+   "definition": "Too much serendipity could overrun firms with opportunities that cloud strategic direction and make it hard to exploit any one effectively.",
+   "applies_when": "The person describes being distracted or losing focus because of too many unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p013:05"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "fultz2021-39e22e:c19"
+  },
+  {
+   "group": "mechanism",
+   "label": "Flexibility to pursue discoveries",
+   "definition": "Serendipity emerges from purposeful action and favorable accidents followed by the flexibility to pursue the unexpected discovery, including not holding too rigidly to existing plans.",
+   "applies_when": "After an unexpected finding, the entrepreneur changes plans or reallocates effort to pursue it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "fultz2021-39e22e:p003:05",
+    "fultz2021-39e22e:p005:06",
+    "fultz2021-39e22e:p013:02"
+   ],
+   "pdf_pages": [
+    3,
+    5,
+    13
+   ],
+   "candidate_id": "fultz2021-39e22e:c20"
+  }
+ ],
+ "removed": []
+}

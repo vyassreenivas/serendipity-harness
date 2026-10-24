@@ -1,0 +1,227 @@
+{
+ "paper_id": "rosenman1988-26b8e4",
+ "file": "papers/pdf/Rosenman - 1988 - Serendipity and Scientific Discovery.pdf",
+ "about": [
+  "A short essay arguing that serendipity in scientific discovery combines chance with sagacity (the prepared mind), illustrated by the discovery of penicillin, and discussing why chance is underreported and how it can be fostered."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity is making discoveries of things not sought, through both accident and sagacity (keen perception, intelligence, sound judgment); popular definitions wrongly drop the sagacity element.",
+   "applies_when": "An account describes an unsought discovery that came about through a chance event combined with the person's active perception or judgment.",
+   "does_not_apply_when": "Pure luck or good fortune with no perceptive or judgmental contribution from the person; the author says this is a misreading of serendipity.",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p001:01",
+    "rosenman1988-26b8e4:p001:02",
+    "rosenman1988-26b8e4:p002:02"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected anomalous observation",
+   "definition": "An instance begins with an unexpected, odd occurrence, such as a contaminating mold killing bacteria, that departs from what was planned.",
+   "applies_when": "The person reports noticing something unplanned or anomalous that later became the basis of a discovery or idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p003:01",
+    "rosenman1988-26b8e4:p005:02"
+   ],
+   "pdf_pages": [
+    3,
+    5
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Seizing rather than dismissing",
+   "definition": "The person treats the anomaly as an opportunity to explore rather than as an error or nuisance. Many others saw the same event and let it pass.",
+   "applies_when": "The account shows the person deciding to pursue an odd occurrence that others ignored or saw as a mistake.",
+   "does_not_apply_when": "The person noticed the event but treated it as a nuisance or error and moved on.",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p003:01",
+    "rosenman1988-26b8e4:p004:03"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c03"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind from prior experience",
+   "definition": "Earlier experiences, including earlier serendipitous findings, build interest and knowledge that make the person receptive to the implications of a later chance event.",
+   "applies_when": "The person links their recognition of an opportunity to prior work, interests, or earlier chance findings that prepared them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p003:02",
+    "rosenman1988-26b8e4:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c04"
+  },
+  {
+   "group": "background",
+   "label": "Personal traits and habits",
+   "definition": "Acute powers of observation, habits such as not discarding things until fully examined, questioning minds, and willingness to take multiple perspectives contribute to serendipity.",
+   "applies_when": "The account attributes the discovery to the person's observational skill, thoroughness, curiosity, or habit of challenging assumptions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p003:02",
+    "rosenman1988-26b8e4:p005:02"
+   ],
+   "pdf_pages": [
+    3,
+    5
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Multiple coinciding chances",
+   "definition": "The most novel discoveries occur when several levels of chance coincide, such as the setting, the source of the input, and environmental circumstances.",
+   "applies_when": "The account describes several independent fortunate circumstances lining up to make the outcome possible.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p003:01",
+    "rosenman1988-26b8e4:p003:03",
+    "rosenman1988-26b8e4:p004:02"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Systematic follow-up work",
+   "definition": "Serendipity gives no instant solution. Systematic, rigorous work and extensive field knowledge must follow the initial fortuitous observation before an application emerges.",
+   "applies_when": "The person describes long, deliberate development work after a chance observation in order to turn it into something usable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Stalled development",
+   "definition": "A serendipitous finding can stall for years when there is a lack of resources, encouragement, or focus, or when colleagues do not share the person's excitement. Others may later pick it up and develop it.",
+   "applies_when": "A chance discovery is shelved or delayed because of a lack of support or competing priorities, or is later revived by others.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p004:01"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Diverse communicative group",
+   "definition": "Serendipity is enhanced by a critical mass of people from diverse disciplines who communicate frequently and openly. In such a group, an unusual observation can be shared with a colleague who finds an application for it.",
+   "applies_when": "The account credits an interdisciplinary or open-communication setting, or a colleague who saw the use of an observation someone else made.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p005:02",
+    "rosenman1988-26b8e4:p005:03",
+    "rosenman1988-26b8e4:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Committed resources limit pursuit",
+   "definition": "When time and resources are fully committed to predefined projects, such as tightly specified grants, people have little room to pursue unexpected leads.",
+   "applies_when": "The person reports being unable to follow an unexpected lead because of prior commitments or rigidly defined plans.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Encouraging attention to the unexpected",
+   "definition": "Leaders who appreciate the unexpected and encourage others to observe and discuss unusual happenings make serendipity more likely.",
+   "applies_when": "The account describes a culture or leader that invites the noticing and discussion of anomalies.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c11"
+  },
+  {
+   "group": "account",
+   "label": "Chance omitted in retelling",
+   "definition": "People tend to omit or downplay chance in later accounts and superimpose a rational, logical narrative. This is often not deliberate, because people are unaware of their actual thinking processes. Highly honored, senior people are more willing to acknowledge their debt to chance.",
+   "applies_when": "A narrative presents a discovery as purely planned or logical, or the person explicitly acknowledges or downplays the role of chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p005:01",
+    "rosenman1988-26b8e4:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Tenacity rather than chance",
+   "definition": "The outcome may be attributed mainly to tenacity in seizing an opportunity others let pass, rather than to pure chance.",
+   "applies_when": "The account explains success by persistence or opportunity-seizing rather than by luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c13"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting toward unexpected destinations",
+   "definition": "Breakthroughs often arrive at unexpected destinations, or at the right destination by the wrong route, when an unforeseen observation prompts a new idea.",
+   "applies_when": "The person describes their path being redirected by an unforeseen observation toward a goal they had not planned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "rosenman1988-26b8e4:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "rosenman1988-26b8e4:c14"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,154 @@
+{
+ "paper_id": "carayannis2011-81b76b",
+ "file": "papers/pdf/Carayannis et al - 2011 - Knowledge Arbitrage, Serendipity, and Acquisition Formality.pdf",
+ "about": [
+  "An agent-based simulation of how knowledge acquisition formality (formal alliances vs informal social ties) and knowledge transformation mode (strategic knowledge serendipity vs knowledge arbitrage) affect new venture formation and regional entrepreneurial sustainability."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Strategic knowledge serendipity",
+   "definition": "Serendipity as a capacity of entrepreneurs to uniquely identify, recognize, access and integrate knowledge assets better and/or faster. It is a way of bringing novel knowledge into the venture.",
+   "applies_when": "An account describes the founder spotting, recognizing, getting access to and taking in outside knowledge quickly or distinctively, and that knowledge then becoming part of the venture.",
+   "does_not_apply_when": "The founder deliberately builds, reallocates or recombines knowledge they already hold with new inputs. The authors call that knowledge arbitrage.",
+   "passage_ids": [
+    "carayannis2011-81b76b:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "carayannis2011-81b76b:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Found knowledge replaces existing",
+   "definition": "Serendipity-driven transformation takes on found knowledge, which displaces what the venture previously held in that area. It is not a purposeful reassembly of existing and new knowledge.",
+   "applies_when": "A founder describes coming across knowledge and adopting it so that it overrides or substitutes for a prior idea, approach or capability.",
+   "does_not_apply_when": "The new knowledge is purposefully added to and combined with existing knowledge without dropping any of it. The authors classify that as arbitrage.",
+   "passage_ids": [
+    "carayannis2011-81b76b:p006:05",
+    "carayannis2011-81b76b:p005:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "carayannis2011-81b76b:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Knowledge arbitrage",
+   "definition": "An alternative transformation mode: the capacity to create, identify, reallocate and recombine knowledge assets. Newly acquired knowledge is added on top of existing stocks to create an entirely new combination.",
+   "applies_when": "An account shows deliberate recombination of existing knowledge with new inputs to improve the venture's overall knowledge assets.",
+   "does_not_apply_when": "The knowledge is chanced upon and simply substitutes for what was there before. That is serendipity.",
+   "passage_ids": [
+    "carayannis2011-81b76b:p003:02",
+    "carayannis2011-81b76b:p006:05"
+   ],
+   "pdf_pages": [
+    3,
+    6
+   ],
+   "candidate_id": "carayannis2011-81b76b:c03"
+  },
+  {
+   "group": "background",
+   "label": "Informal social connections",
+   "definition": "Informal knowledge acquisition draws on loose knowledge available locally through unstructured social interaction, rather than through formal alliance partners. This pairs with serendipity in producing high formation.",
+   "applies_when": "The founder obtained venture-relevant knowledge through casual or informal local social contact rather than through formal partnerships or alliances.",
+   "does_not_apply_when": "The knowledge came through a formal alliance or network partner.",
+   "passage_ids": [
+    "carayannis2011-81b76b:p004:01",
+    "carayannis2011-81b76b:p006:04"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "carayannis2011-81b76b:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Knowledge-rich region",
+   "definition": "Serendipity, together with informal acquisition, produces the highest levels of new venture formation in knowledge-rich regions. Formal acquisition and arbitrage work better where knowledge is scarce.",
+   "applies_when": "The account places the serendipitous knowledge encounter in a dense, knowledge-rich environment, such as a cluster or innovation hub.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "carayannis2011-81b76b:p002:02",
+    "carayannis2011-81b76b:p011:02"
+   ],
+   "pdf_pages": [
+    2,
+    11
+   ],
+   "candidate_id": "carayannis2011-81b76b:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Prior formal groundwork",
+   "definition": "Early formal knowledge acquisition and arbitrage improve survival, and they create the basis on which informal, serendipitous knowledge appropriation later has its superior influence on sustainable entrepreneurship.",
+   "applies_when": "An account shows that earlier formal partnerships or deliberate knowledge building set the stage for later serendipitous knowledge gains.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "carayannis2011-81b76b:p011:03",
+    "carayannis2011-81b76b:p009:05"
+   ],
+   "pdf_pages": [
+    9,
+    11
+   ],
+   "candidate_id": "carayannis2011-81b76b:c06"
+  },
+  {
+   "group": "outcome",
+   "label": "Higher venture formation and survival",
+   "definition": "Serendipity tends to contribute to higher numbers of sustainable new ventures. It produces peak, though spatially concentrated, levels of formation.",
+   "applies_when": "Serendipitously acquired knowledge is linked to the venture getting founded, passing a formation threshold, or surviving.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "carayannis2011-81b76b:p011:03",
+    "carayannis2011-81b76b:p009:01",
+    "carayannis2011-81b76b:p009:05"
+   ],
+   "pdf_pages": [
+    9,
+    11
+   ],
+   "candidate_id": "carayannis2011-81b76b:c07"
+  },
+  {
+   "group": "background",
+   "label": "Opportunistic, unintentional action",
+   "definition": "New ventures start from knowledge scarcity. They act opportunistically and experimentally, in unstructured and often unintentional ways, making do with the resources at hand (bricolage) to appropriate external knowledge.",
+   "applies_when": "Founders describe unplanned, experimental attempts to pick up outside knowledge with whatever resources they had.",
+   "does_not_apply_when": "The knowledge was gained through structured, strategically planned growth of the kind typical of incumbents.",
+   "passage_ids": [
+    "carayannis2011-81b76b:p002:03"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "carayannis2011-81b76b:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Venture inexperience",
+   "definition": "Young ventures are more prone to selecting knowledge poorly, which can worsen their position. This experiential error decreases with the venture's age.",
+   "applies_when": "An early-stage founder adopts found knowledge that turns out to be detrimental, attributed to inexperience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "carayannis2011-81b76b:p004:02",
+    "carayannis2011-81b76b:p006:04"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "carayannis2011-81b76b:c09"
+  }
+ ],
+ "removed": []
+}

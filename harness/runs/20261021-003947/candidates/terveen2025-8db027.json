@@ -1,0 +1,173 @@
+{
+ "paper_id": "terveen2025-8db027",
+ "file": "papers/pdf/Terveen - 2025 - Navigating Complex Problem Spaces - How Emotion and Energy Shape Entrepreneurial Agency in Serendipitous Encounters.pdf",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026; Kirtley and Shah replies corrected after reading the cited passages in full",
+ "reply_sha256": "e4ee0fef369d3b4786723d2cebce59fa325533e2987549adcbe9b4a0613fc7f3",
+ "about": [
+  "How emotions and energy shape whether early-stage founders working on complex sustainability problems act on serendipitous encounters or use them to rethink the problem."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Unexpectedness, agency and value",
+   "definition": "Serendipity is an unexpected discovery brought about by purposeful action, combining surprise, the founder acting on the cue, and value that can be realised.",
+   "applies_when": "The account shows a surprise, the founder acting on it, and something of value coming from it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p001:03"
+   ],
+   "pdf_pages": [
+    1
+   ],
+   "candidate_id": "terveen2025-8db027:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter with a stranger",
+   "definition": "An unplanned meeting, such as a lunch invitation or a chat with a taxi driver, sparks insight or a later collaboration.",
+   "applies_when": "The founder describes meeting someone by chance who later shaped the venture.",
+   "does_not_apply_when": "The meeting was arranged for the venture's purposes.",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p001:01"
+   ],
+   "pdf_pages": [
+    1,
+    6
+   ],
+   "candidate_id": "terveen2025-8db027:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Feeling that it clicks leads to commitment",
+   "definition": "When an encounter feels right and gives energy, the founder commits to act on it.",
+   "applies_when": "The founder says something 'clicked' or 'felt right' and that this feeling led them to follow up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p006:03",
+    "terveen2025-8db027:p008:02"
+   ],
+   "pdf_pages": [
+    6,
+    8
+   ],
+   "candidate_id": "terveen2025-8db027:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Feeling off leads to rethinking the problem",
+   "definition": "When an encounter feels wrong or drains energy, the founder uses that to question and reframe the problem they are working on.",
+   "applies_when": "The founder describes an uneasy or deflating encounter that made them reconsider their direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p007:01",
+    "terveen2025-8db027:p007:02",
+    "terveen2025-8db027:p008:03"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "terveen2025-8db027:c04"
+  },
+  {
+   "group": "role",
+   "label": "Encounter prompts a pivot",
+   "definition": "An unexpected encounter, often a discouraging one, leads the founder to change the problem they work on.",
+   "applies_when": "The founder links a change of problem or market to an unexpected conversation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "terveen2025-8db027:c05"
+  },
+  {
+   "group": "outcome",
+   "label": "Encounter leads to a collaborator or co-founder",
+   "definition": "A serendipitous encounter turns into ongoing collaboration, sometimes a possible co-founder.",
+   "applies_when": "The founder says someone met by chance became a collaborator or co-founder.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "terveen2025-8db027:c06"
+  },
+  {
+   "group": "outcome",
+   "label": "Missed serendipity still refines the problem",
+   "definition": "Encounters not pursued as opportunities can still be valuable by helping the founder refine the problem.",
+   "applies_when": "The founder describes an unexpected encounter they did not follow up that still changed how they saw the problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p008:03",
+    "terveen2025-8db027:p002:03"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "terveen2025-8db027:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Complex, ill-defined problem",
+   "definition": "When goals and problems are unclear, as in sustainability challenges, planning breaks down and serendipity matters more.",
+   "applies_when": "The founder describes an unclear problem or shifting goals at the time of the encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p001:01",
+    "terveen2025-8db027:p001:03",
+    "terveen2025-8db027:p004:04"
+   ],
+   "pdf_pages": [
+    1,
+    4
+   ],
+   "candidate_id": "terveen2025-8db027:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Reflecting on how the encounter felt",
+   "definition": "Structured reflection, such as journaling, helps founders notice and make sense of chance encounters.",
+   "applies_when": "The founder describes keeping notes or reflecting regularly on encounters and feelings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p001:02",
+    "terveen2025-8db027:p004:01"
+   ],
+   "pdf_pages": [
+    1,
+    4
+   ],
+   "candidate_id": "terveen2025-8db027:c09"
+  },
+  {
+   "group": "account",
+   "label": "Described in emotional, bodily terms",
+   "definition": "Founders narrate serendipitous encounters through feelings and energy, such as 'it clicked' or 'not vibing'.",
+   "applies_when": "The founder describes an encounter mainly through how it felt.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "terveen2025-8db027:p006:02",
+    "terveen2025-8db027:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "terveen2025-8db027:c10"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,187 @@
+{
+ "paper_id": "merton2004-4e2678",
+ "file": "papers/pdf/Merton and Barber - 2004 - Stock Responses to Serendipity.pdf",
+ "about": [
+  "A chapter tracing how people responded to the word 'serendipity' as it spread from literary circles to science and business: claiming the word, tracing its history, assuming familiarity, taking pleasure in the experience, and finally using it without explanation."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity, in Walpole's sense, is making discoveries by accident and sagacity of things one was not looking for. It joins chance with a perceptive mind.",
+   "applies_when": "The account describes finding something valuable that was not being sought, and the finding depends on both an accident and the person's own perceptiveness.",
+   "does_not_apply_when": "The find was the intended goal of the search, or it is described as pure luck with no perceptiveness involved.",
+   "passage_ids": [
+    "merton2004-4e2678:p015:02",
+    "merton2004-4e2678:p017:01"
+   ],
+   "pdf_pages": [
+    15,
+    17
+   ],
+   "candidate_id": "merton2004-4e2678:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Spotting and exploiting while seeking else",
+   "definition": "Serendipity is the knack of spotting good things and exploiting them while searching for something else.",
+   "applies_when": "The person notices an unexpected opportunity while working toward a different aim and then acts to make use of it.",
+   "does_not_apply_when": "The opportunity is noticed but nothing is done with it, or it was the original target.",
+   "passage_ids": [
+    "merton2004-4e2678:p028:01"
+   ],
+   "pdf_pages": [
+    28
+   ],
+   "candidate_id": "merton2004-4e2678:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Serendipity as mere good luck",
+   "definition": "The authors criticise popular accounts that treat serendipity as 'incorrigible good luck'. They point out that the princes were skilled detectives who reconstructed events from a few well-observed clues, rather than people who simply had happy accidents.",
+   "applies_when": "An account explains the outcome purely as fortune or luck, with no role for observation or inference.",
+   "does_not_apply_when": "The account credits the person's observation or inference in recognising the find; code that as serendipity proper.",
+   "passage_ids": [
+    "merton2004-4e2678:p022:02",
+    "merton2004-4e2678:p021:03"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "merton2004-4e2678:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Unsought find during a different search",
+   "definition": "Serendipity is set off when, while searching for one thing, a person comes upon something else of interest or value.",
+   "applies_when": "The account describes looking for X and encountering an unrelated, valued Y along the way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-4e2678:p025:02",
+    "merton2004-4e2678:p024:02",
+    "merton2004-4e2678:p027:02"
+   ],
+   "pdf_pages": [
+    24,
+    25,
+    27
+   ],
+   "candidate_id": "merton2004-4e2678:c04"
+  },
+  {
+   "group": "outcome",
+   "label": "Valuable by-product of failed effort",
+   "definition": "A failed project can yield a by-product that turns out to be of great value. The authors give the example of a chemical research venture in Merck's advertising.",
+   "applies_when": "The account describes a project that did not reach its goal but produced a side result that proved valuable.",
+   "does_not_apply_when": "The value came from the project achieving its original goal.",
+   "passage_ids": [
+    "merton2004-4e2678:p022:01",
+    "merton2004-4e2678:p021:03"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "merton2004-4e2678:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Resourceful move when the search is blocked",
+   "definition": "Serendipity can be exercised actively. When Kirkpatrick's search for Scarlatti material stalled, he tried the telephone directory, found a descendant, and gained access to family documents. The reviewer called this an exercise of serendipity amounting almost to genius.",
+   "applies_when": "The person's search is blocked and they try an improvised route that unexpectedly opens access to key resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-4e2678:p026:02",
+    "merton2004-4e2678:p027:01"
+   ],
+   "pdf_pages": [
+    26,
+    27
+   ],
+   "candidate_id": "merton2004-4e2678:c06"
+  },
+  {
+   "group": "outcome",
+   "label": "Pleasure of unexpected good",
+   "definition": "Serendipitous discoveries are especially pleasurable because good things emerge out of uncertainty and lack of control. This pleasure can give even small finds more significance than they intrinsically merit.",
+   "applies_when": "The person expresses delight or excitement about an unexpected find, or treats a small chance find as especially meaningful.",
+   "does_not_apply_when": "The person is pleased with a planned, expected result.",
+   "passage_ids": [
+    "merton2004-4e2678:p023:02",
+    "merton2004-4e2678:p024:01"
+   ],
+   "pdf_pages": [
+    23,
+    24
+   ],
+   "candidate_id": "merton2004-4e2678:c07"
+  },
+  {
+   "group": "account",
+   "label": "Telling and retelling serendipity tales",
+   "definition": "People like to remember and report instances of serendipity, whether their own or others'. One tale often sets off other tales.",
+   "applies_when": "The account presents a chance discovery as a story worth telling, or one serendipity story prompts the teller to recount another.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-4e2678:p025:01",
+    "merton2004-4e2678:p024:01"
+   ],
+   "pdf_pages": [
+    24,
+    25
+   ],
+   "candidate_id": "merton2004-4e2678:c08"
+  },
+  {
+   "group": "account",
+   "label": "Framing one's work through the princes",
+   "definition": "Inventors and business leaders describe their work by comparing themselves to the Three Princes of Serendip, who kept finding valuable things they were not seeking. In doing so they often misremember the tale.",
+   "applies_when": "An entrepreneur or inventor characterises their career or method as a series of valuable unexpected finds made along the way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-4e2678:p021:02",
+    "merton2004-4e2678:p022:01"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "merton2004-4e2678:c09"
+  },
+  {
+   "group": "account",
+   "label": "Pride and aura of good luck",
+   "definition": "People take pride in claiming serendipity. Part of the appeal is the aura of good fortune that being associated with it lends them.",
+   "applies_when": "The person tells of a chance discovery in a way that presents themselves as fortunate or specially gifted at making such finds.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-4e2678:p025:02",
+    "merton2004-4e2678:p009:01"
+   ],
+   "pdf_pages": [
+    9,
+    25
+   ],
+   "candidate_id": "merton2004-4e2678:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Accident unimportant to invention",
+   "definition": "Rossman, in his psychology of the inventor, held that accidental discovery is not an important factor in invention.",
+   "applies_when": "The account downplays chance and attributes an invention or innovation to deliberate effort instead.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-4e2678:p023:01"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "merton2004-4e2678:c11"
+  }
+ ],
+ "removed": []
+}

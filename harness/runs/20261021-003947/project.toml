@@ -1,0 +1,148 @@
+# Run setup. The harness copies this file into every run folder, so each
+# output can be traced to the question and inputs that produced it.
+# Paths are relative to the project root (the folder above harness/).
+
+[study]
+question = "How does serendipity contribute to the formation and development of ventures?"
+construct = "serendipity"
+lens = ""  # optional theoretical lens or scope note; used at synthesis only
+
+[inputs]
+papers_dir = "papers/pdf"
+# Papers in that folder that are about research method, not about the
+# construct. One file name per line. They are not read for candidate codes.
+methods_papers = "harness/methods_papers.txt"
+codebook = "outputs/codebook_readable_full_2026-10-04/codebook.json"
+# The 100 pilot interviews (seeded random sample of the Starter Story corpus).
+transcripts_dir = "outputs/transcripts"
+transcripts_manifest = "outputs/transcripts/MANIFEST.txt"
+# Not founder interviews (pilot cases 05, 19, 54, 67, 82). Listed, never deleted.
+excluded_transcripts = [
+    "attention-idea-tool-stack-apple-notes.txt",
+    "design-joy-breakdown.txt",
+    "move-over-google.txt",
+    "plug-and-law-breakdown.txt",
+    "stealthgpt-breakdown.txt",
+]
+
+[extraction]
+# A page with fewer readable characters than this is flagged for a human to
+# check against the page image (likely a scan, figure or table page).
+min_chars_per_page = 200
+# Target size of one passage, in characters.
+passage_chars = 1200
+# Most text sent to the model in one call, in characters. A longer paper is
+# read in consecutive parts.
+max_chars_per_call = 240000
+# How many papers to read for candidate codes, in file-name order. 0 means all.
+paper_sample = 0
+# Newer versions of papers the draft has already read. `candidates` does not read
+# them again, so one paper is not counted twice. Listed, never deleted.
+newer_versions_of_read_papers = [
+    "Reijonen and Heroum - 2026 - Critical Events and the Interplay between Serendipity and Effectuation in an Unforeseen Venture Creation.pdf",  # published version of the 2023 paper already read
+]
+
+# Which draft the researchers reviewed, and the version number their decisions
+# produce. `freeze` reads harness/codebook/review.csv and writes
+# harness/codebook/codebook_v<version>.json.
+[codebook]
+draft_run = "20261012-124904"
+version = "1.0"
+
+# The groups a codebook is organised into. The model sorts each candidate code
+# into one group, and the codebook is synthesised one group at a time. These
+# groups are a choice made by the researchers before any paper is read.
+[[codebook.groups]]
+name = "definition"
+asks = "What has to be true for something to count as the construct?"
+[[codebook.groups]]
+name = "type"
+asks = "What kinds of the construct does the author distinguish?"
+[[codebook.groups]]
+name = "trigger"
+asks = "What unexpected event or input sets an instance off?"
+[[codebook.groups]]
+name = "mechanism"
+asks = "What do people do that turns the trigger into something?"
+[[codebook.groups]]
+name = "background"
+asks = "What prior knowledge, relationships, resources or setting does it draw on?"
+[[codebook.groups]]
+name = "role"
+asks = "What part does it play in the venture: starting, advancing or redirecting it?"
+[[codebook.groups]]
+name = "outcome"
+asks = "What results from it?"
+[[codebook.groups]]
+name = "account"
+asks = "How do people explain or narrate it afterwards?"
+[[codebook.groups]]
+name = "rival"
+asks = "What else could explain the same events without the construct?"
+[[codebook.groups]]
+name = "condition"
+asks = "What makes it more or less likely to occur or to be pursued?"
+
+# One model per task. The model that writes the fictional interviews must not
+# be the one that later codes them.
+[models.extract]
+model = "claude-opus-5-5"
+effort = "medium"
+
+[models.synthesize]
+model = "claude-opus-5-5"
+effort = "high"
+
+[models.outline]
+model = "claude-opus-5-5"
+effort = "medium"
+
+[models.toy_writer]
+model = "claude-sonnet-5-5"
+effort = "medium"
+
+# Test setting: a small open model running on this machine through Ollama.
+# For the reported results, switch back to:
+#   model = "claude-opus-5-5"
+#   effort = "high"
+[models.coder]
+provider = "ollama"
+model = "qwen2.5:7b"
+seed = 20261010
+# Largest prompt plus reply the model is given room for. A call that fills it
+# is recorded as failed, because Ollama would silently drop part of the prompt.
+context_tokens = 20480
+
+# Used only to report what a run cost. Anthropic list prices read 2026-09-25.
+[prices_usd_per_million_tokens]
+"claude-opus-5-5" = { input = 4.0, output = 20.0 }
+"claude-sonnet-5-5" = { input = 2.0, output = 10.0 }
+
+[toy]
+seed = 20261010
+sample_size = 5
+# Wording overlap is measured in runs of this many consecutive words.
+run_length = 5
+# A fictional interview is flagged if more than this share of its runs also
+# occur in the real interview.
+max_shared_run_share = 0.01
+# The fictional interview is set in a country drawn from this list (never the
+# real interview's country).
+countries = [
+    "Kenya", "Poland", "Vietnam", "Chile", "Ireland", "Malaysia", "Portugal",
+    "South Africa", "Colombia", "Norway", "Philippines", "Turkey", "Mexico",
+    "New Zealand", "Ghana", "Czech Republic", "Indonesia", "Argentina",
+    "Netherlands", "Jordan", "Sri Lanka", "Greece", "Peru", "Estonia",
+]
+
+[coding]
+# People who code by hand. The model's coding is added as one more worksheet.
+coders = ["vyas", "ravi"]
+# Every coder gets the interviews in the same seeded random order.
+order_seed = 20261010
+# How many interviews the model codes, taken from the start of the worksheet
+# order. 0 means all of them.
+model_sample = 5
+# false: the model codes an interview in one reply. true: the work is cut into
+# small steps, each a separate call (prompts/coder_staged/).
+staged = false

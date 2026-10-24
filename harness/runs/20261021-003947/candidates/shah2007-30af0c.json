@@ -1,0 +1,179 @@
+{
+ "paper_id": "shah2007-30af0c",
+ "file": "papers/pdf/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.pdf",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026; Kirtley and Shah replies corrected after reading the cited passages in full",
+ "reply_sha256": "241da763b37341b1a230b03df44372c5153ebbda84b79ba55587e40342781598",
+ "about": [
+  "How users who innovate for their own needs come to found firms, often without intending to, after others see and ask for their product."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accidental user entrepreneur",
+   "definition": "A user who innovated for their own use and founded a firm without having set out to start one; the venture emerges rather than being planned.",
+   "applies_when": "The founder built something for themselves and only later, without a plan to start a firm, turned it into a business.",
+   "does_not_apply_when": "The founder set out to start a business and then looked for an idea.",
+   "passage_ids": [
+    "shah2007-30af0c:p004:01",
+    "shah2007-30af0c:p007:01",
+    "shah2007-30af0c:p009:03"
+   ],
+   "pdf_pages": [
+    4,
+    7,
+    9
+   ],
+   "candidate_id": "shah2007-30af0c:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Requests from people who see the product",
+   "definition": "Others see the user's product in use and ask for one, which first shows there is demand.",
+   "applies_when": "The founder says people saw what they had made and asked to buy or have one.",
+   "does_not_apply_when": "The founder went looking for customers through planned market research.",
+   "passage_ids": [
+    "shah2007-30af0c:p008:01",
+    "shah2007-30af0c:p008:02",
+    "shah2007-30af0c:p009:04"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "shah2007-30af0c:c02"
+  },
+  {
+   "group": "background",
+   "label": "Own unmet need as a user",
+   "definition": "The innovation starts from a need the founder had as a user that existing products did not meet.",
+   "applies_when": "The founder made the product first to solve their own problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p008:01"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "shah2007-30af0c:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Sharing in a user community",
+   "definition": "Users share and improve ideas in a community, which spreads the innovation and reveals wider interest.",
+   "applies_when": "The founder describes showing, sharing or co-developing the product with fellow users or enthusiasts.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p008:03",
+    "shah2007-30af0c:p008:05",
+    "shah2007-30af0c:p010:01"
+   ],
+   "pdf_pages": [
+    8,
+    10
+   ],
+   "candidate_id": "shah2007-30af0c:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Enjoyment of the activity",
+   "definition": "Users who enjoy the activity are more likely to keep innovating and to drift into founding.",
+   "applies_when": "The founder says they did it because they loved the activity or hobby.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "shah2007-30af0c:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Low opportunity cost",
+   "definition": "Founding is more likely when the user gives up little by starting the firm.",
+   "applies_when": "The founder mentions having little to lose, such as being between jobs or a student.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p012:01"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "shah2007-30af0c:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Small niche market",
+   "definition": "User entrepreneurship is more likely in niche markets that established firms ignore.",
+   "applies_when": "The founder describes a small or specialised market large firms did not serve.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "shah2007-30af0c:c07"
+  },
+  {
+   "group": "condition",
+   "label": "New or turbulent market",
+   "definition": "User entrepreneurship is more likely in young or fast-changing markets where needs are not yet understood.",
+   "applies_when": "The founder describes an emerging or fast-changing market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "shah2007-30af0c:c08"
+  },
+  {
+   "group": "background",
+   "label": "Privileged knowledge from use",
+   "definition": "Using a product gives users knowledge of needs and solutions that producers lack, which positions them to found firms.",
+   "applies_when": "The founder says their idea came from knowledge gained by using such products themselves.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p011:01"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "shah2007-30af0c:c09"
+  },
+  {
+   "group": "account",
+   "label": "Did not expect to start a company",
+   "definition": "Founders say in retrospect that they never expected their product to become a company.",
+   "applies_when": "The founder states they had not planned or expected to found a firm.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "shah2007-30af0c:c10"
+  },
+  {
+   "group": "role",
+   "label": "Demand turns a hobby into a venture",
+   "definition": "Recognising demand from others turns a personal project into a commercial opportunity and starts the venture.",
+   "applies_when": "The founder describes the point where outside demand made them treat the project as a business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shah2007-30af0c:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "shah2007-30af0c:c11"
+  }
+ ],
+ "removed": []
+}

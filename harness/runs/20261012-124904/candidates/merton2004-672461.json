@@ -1,0 +1,303 @@
+{
+ "paper_id": "merton2004-672461",
+ "file": "papers/pdf/Merton and Barber - 2004 - The Social History of Serendipity.pdf",
+ "about": [
+  "A chapter tracing the social history of the word 'serendipity' across collectors, writers, scholars, medical humanists, social scientists, applied researchers and science writers. Along the way it says which settings and search habits make happy accidental discoveries more frequent and how people use the word to explain them."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity, not sought",
+   "definition": "Serendipity is the making of discoveries, by accident and sagacity, of valuable things one was not in quest of.",
+   "applies_when": "An account describes finding something valuable while looking for something else, and the person both stumbled on it and recognised its worth.",
+   "does_not_apply_when": "The person found exactly what they had set out to look for through planned search; that is ordinary success, not serendipity.",
+   "passage_ids": [
+    "merton2004-672461:p008:01",
+    "merton2004-672461:p020:02",
+    "merton2004-672461:p014:02"
+   ],
+   "pdf_pages": [
+    8,
+    14,
+    20
+   ],
+   "candidate_id": "merton2004-672461:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Value relative to the finder",
+   "definition": "A happy accidental discovery may be happy and accidental only to the particular finder, whose private criteria give value to what others treat as junk or trivia.",
+   "applies_when": "The person values an unexpected find that others overlooked or discarded, because it fits their own idiosyncratic interests.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "merton2004-672461:c02"
+  },
+  {
+   "group": "type",
+   "label": "Windfall vs elusive pursuit vs small luck",
+   "definition": "The gap between effort and result can take three forms: a windfall that drops into one's lap, an endless unsuccessful pursuit, or, most commonly, a little luck that makes a large difference to the outcome.",
+   "applies_when": "The person describes the relation between their effort and the result as an unexpected windfall, as a long pursuit that never succeeded, or as a small piece of luck that tipped the result.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p004:01"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "merton2004-672461:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Finding an unrecognised want",
+   "definition": "An encounter with an item reveals a want the person did not know they had; it is 'exactly what I wanted and had not been looking for'.",
+   "applies_when": "The person meets something while browsing or searching and realises only then that it is what they needed.",
+   "does_not_apply_when": "The person already knew what they wanted and found it.",
+   "passage_ids": [
+    "merton2004-672461:p006:01",
+    "merton2004-672461:p008:01"
+   ],
+   "pdf_pages": [
+    6,
+    8
+   ],
+   "candidate_id": "merton2004-672461:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Exploratory excursions",
+   "definition": "Browsing beyond the immediate task, such as reading around a looked-up word in the dictionary or following scholarly byways, exposes a person to chance finds.",
+   "applies_when": "The person describes wandering beyond a focused search, through reading, browsing or desultory exploration, and coming across something there.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p019:02",
+    "merton2004-672461:p020:01",
+    "merton2004-672461:p005:02"
+   ],
+   "pdf_pages": [
+    5,
+    19,
+    20
+   ],
+   "candidate_id": "merton2004-672461:c05"
+  },
+  {
+   "group": "background",
+   "label": "Prior interest gives a receptive eye",
+   "definition": "An existing absorbing intellectual concern makes a person notice and take up a chance encounter that they would otherwise ignore; Merton had passed over the word earlier, before he had that concern.",
+   "applies_when": "The person says they recognised the significance of a chance encounter because it connected to a problem or interest they already held.",
+   "does_not_apply_when": "The person met the same input earlier, lacked the relevant interest, and it passed unnoticed; mark that as absence of receptivity.",
+   "passage_ids": [
+    "merton2004-672461:p020:01"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "merton2004-672461:c06"
+  },
+  {
+   "group": "background",
+   "label": "Self-built broad knowledge stock",
+   "definition": "In fields with little codified information, success depends on a large stock of knowledge that the person has built up on their own and that lets them exploit odd finds.",
+   "applies_when": "The person draws on wide, self-accumulated knowledge across diverse subjects to recognise or use an unexpected find.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p004:03",
+    "merton2004-672461:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-672461:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Broad, unspecialised interests",
+   "definition": "People with eclectic interests and few preconceived ideas of what they want, or who work off the beaten track, run into unexpected good luck more often than narrowly focused specialists.",
+   "applies_when": "The person describes broad or loosely defined goals, or pursuing less-trodden areas, as what opened them to unexpected finds.",
+   "does_not_apply_when": "The person had a narrowly defined target in a heavily pursued area; the authors say this lowers the likelihood of serendipity.",
+   "passage_ids": [
+    "merton2004-672461:p006:02",
+    "merton2004-672461:p009:02",
+    "merton2004-672461:p005:02"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    9
+   ],
+   "candidate_id": "merton2004-672461:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Codified knowledge reduces surprise",
+   "definition": "Where criteria of value are elaborately specified and items are well catalogued, unanticipated discoveries are less likely, though they are easier to recognise when they happen.",
+   "applies_when": "The person notes that a well-mapped, standardised field left little room for surprise, or made it easy to tell a genuine unexpected find.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "merton2004-672461:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Poorly catalogued niches",
+   "definition": "Areas that are poorly catalogued and cannot be tracked down efficiently, such as unpublished material or association items, yield more frequent happy unexpected discoveries.",
+   "applies_when": "The person operates in a niche with little systematic information and attributes unexpected finds to that.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p009:02",
+    "merton2004-672461:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "merton2004-672461:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Freedom from justifying aims",
+   "definition": "Being exempt from explaining precisely why one wants something lets many odd and pleasant things come one's way unexpectedly.",
+   "applies_when": "The person had latitude not to specify or justify what they were seeking, and this allowed unexpected finds.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-672461:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Absence of rigid control",
+   "definition": "Applied research spokesmen argue that not tightly controlling the work scientists do makes it easier to discover important things by accident.",
+   "applies_when": "The person credits organisational slack or loose control over work for an accidental discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p023:02"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "merton2004-672461:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Milieu of frequent discovery",
+   "definition": "People whose shared activities often produce unanticipated discoveries are more receptive to labelling those experiences as serendipity.",
+   "applies_when": "The person belongs to a setting where unexpected finds are common and frames their own experience in those terms.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p002:02",
+    "merton2004-672461:p010:01"
+   ],
+   "pdf_pages": [
+    2,
+    10
+   ],
+   "candidate_id": "merton2004-672461:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Applications from work done for its own sake",
+   "definition": "Research pursued out of interest in the thing itself, or aimed at a different problem, incidentally yields useful applications or major discoveries.",
+   "applies_when": "A useful application or major result arose incidentally from work undertaken for another purpose or for its own sake.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p019:01",
+    "merton2004-672461:p027:01"
+   ],
+   "pdf_pages": [
+    19,
+    27
+   ],
+   "candidate_id": "merton2004-672461:c14"
+  },
+  {
+   "group": "outcome",
+   "label": "Origination of new hypotheses",
+   "definition": "Empirical work does not only test planned ideas; through chance or sagacity it also originates new ideas and valid results that were not sought.",
+   "applies_when": "The person reports that hands-on work generated a new idea or direction they had not planned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "merton2004-672461:c15"
+  },
+  {
+   "group": "account",
+   "label": "Making sense of uncertainty",
+   "definition": "Where the conditions of success are largely unknowable, the notion of serendipity serves to make sense of the recurring gap between effort and results.",
+   "applies_when": "The person invokes luck or serendipity to explain why their efforts and their outcomes did not line up.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p004:01"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "merton2004-672461:c16"
+  },
+  {
+   "group": "account",
+   "label": "Justifying strategy to stakeholders",
+   "definition": "Applied researchers and firms invoke serendipity to explain to stockholders, investors and officials how unexpected discoveries pay off, as a matter of practical strategy.",
+   "applies_when": "The person tells investors or sponsors that leaving room for accidents is a deliberate route to returns.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p023:01",
+    "merton2004-672461:p023:02",
+    "merton2004-672461:p024:02"
+   ],
+   "pdf_pages": [
+    23,
+    24
+   ],
+   "candidate_id": "merton2004-672461:c17"
+  },
+  {
+   "group": "account",
+   "label": "Attributing coincidence to occult powers",
+   "definition": "Frequent coincidences can lead a person to believe they have special or occult powers guiding finds to them.",
+   "applies_when": "The person explains repeated lucky finds as fate, destiny or a guiding force.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-672461:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "merton2004-672461:c18"
+  },
+  {
+   "group": "rival",
+   "label": "Will power and determination",
+   "definition": "An achievement may be explained as the product of will power and determination rather than good luck or serendipity.",
+   "applies_when": "The person or a narrator attributes the result to persistence and effort, explicitly not to luck.",
+   "does_not_apply_when": "An unexpected find played a role in the result; that points to serendipity rather than determination alone.",
+   "passage_ids": [
+    "merton2004-672461:p011:01"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "merton2004-672461:c19"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,206 @@
+{
+ "paper_id": "garud2003-926111",
+ "file": "papers/pdf/Garud and Karnøe - 2003 - Bricolage versus Breakthrough Distributed and Embedded Agency in Technology Entrepreneurship.pdf",
+ "about": [
+  "A comparative study of wind turbine development in Denmark and the US, arguing that technology entrepreneurship is distributed and embedded agency, and contrasting a 'bricolage' approach (Denmark) with a 'breakthrough' approach (US); serendipity appears only in passing."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Positive outcomes not from foresight",
+   "definition": "Some favourable outcomes in a venture's development come about through serendipitous events rather than deliberate foresight. The authors' example is a regulation, adopted for other reasons, that later protected the Danish industry when the California market collapsed.",
+   "applies_when": "An account describes a beneficial result that arose from an event or decision made for another purpose, and which the actors did not anticipate or plan for that benefit.",
+   "does_not_apply_when": "The benefit was the intended aim of a planned policy or strategy, such as the deliberate stepwise reduction of subsidies.",
+   "passage_ids": [
+    "garud2003-926111:p017:02",
+    "garud2003-926111:p017:03"
+   ],
+   "pdf_pages": [
+    17
+   ],
+   "candidate_id": "garud2003-926111:c01"
+  },
+  {
+   "group": "role",
+   "label": "Serendipitous events sustaining a path",
+   "definition": "Crises, temporary victories and serendipitous events are building blocks that a persistent coalition draws on to steer an emerging industry path forward.",
+   "applies_when": "A respondent describes unplanned or chance events being taken up and used to keep a venture or industry initiative moving or to steer its direction.",
+   "does_not_apply_when": "Progress is attributed only to a planned programme with no reliance on chance events.",
+   "passage_ids": [
+    "garud2003-926111:p017:03"
+   ],
+   "pdf_pages": [
+    17
+   ],
+   "candidate_id": "garud2003-926111:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "External crisis or shock as trigger",
+   "definition": "Unanticipated external events, such as energy crises, nuclear accidents or potential investment losses, trigger new actors' involvement and give legitimacy to interventions that advance the emerging path.",
+   "applies_when": "An account links the start of involvement or a new initiative to an outside event (a crisis, accident or loss) that the actors did not create.",
+   "does_not_apply_when": "Involvement arose from routine planning or from the actor's own prior intention without any precipitating event.",
+   "passage_ids": [
+    "garud2003-926111:p007:01",
+    "garud2003-926111:p017:02",
+    "garud2003-926111:p016:03"
+   ],
+   "pdf_pages": [
+    7,
+    16,
+    17
+   ],
+   "candidate_id": "garud2003-926111:c03"
+  },
+  {
+   "group": "outcome",
+   "label": "Unintended beneficial design effect",
+   "definition": "A design developed by practical trial and error turns out, without being intended, to carry an advantage. The authors' example is the heavy, low-speed Danish turbine, which unintentionally reduced design risk.",
+   "applies_when": "A respondent describes a product feature or choice that later proved advantageous for reasons they had not intended or foreseen.",
+   "does_not_apply_when": "The advantage was the explicit design goal from the outset.",
+   "passage_ids": [
+    "garud2003-926111:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "garud2003-926111:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected problem prompting learning",
+   "definition": "An unforeseen problem met in a new setting becomes a source of learning for the firms that keep their competencies in place. The authors' example is the sudden need for repairs on Danish turbines in California's turbulent winds.",
+   "applies_when": "An account describes a surprise setback in the market or in use that the venture then learned from and used to redirect its development.",
+   "does_not_apply_when": "The setback simply ended the venture with no learning or redirection, as with the firms that went bankrupt.",
+   "passage_ids": [
+    "garud2003-926111:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "garud2003-926111:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bricolage with materials at hand",
+   "definition": "Actors show resourcefulness and improvisation by recontextualizing existing designs with whatever materials are available, such as wood, lorry gears and parts found at scrap dealers.",
+   "applies_when": "A respondent describes building or advancing the venture by improvising with resources that happened to be at hand rather than with purpose-acquired ones.",
+   "does_not_apply_when": "Resources were deliberately acquired to fit a pre-specified high-tech design, as in the breakthrough approach.",
+   "passage_ids": [
+    "garud2003-926111:p006:01",
+    "garud2003-926111:p013:04",
+    "garud2003-926111:p002:03"
+   ],
+   "pdf_pages": [
+    2,
+    6,
+    13
+   ],
+   "candidate_id": "garud2003-926111:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Creative synthesis across knowledge bases",
+   "definition": "New solutions emerge from the intersection of different actors' knowledge or frames. Examples are the Carters' fiber-glass blades and the double brake system that came from user and producer interaction.",
+   "applies_when": "An account describes a new idea or product arising when people with different backgrounds or knowledge came together.",
+   "does_not_apply_when": "The idea came from a single actor applying their own expertise alone.",
+   "passage_ids": [
+    "garud2003-926111:p018:03",
+    "garud2003-926111:p005:03"
+   ],
+   "pdf_pages": [
+    5,
+    18
+   ],
+   "candidate_id": "garud2003-926111:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prior craft experience",
+   "definition": "Actors approach a new technology through the frame of their prior experience. Danish practical engineers, for instance, treated wind turbines like the agricultural machinery they had built before.",
+   "applies_when": "A respondent explains that the way they started or approached the venture drew on skills or experience from a previous, different domain.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2003-926111:p009:02",
+    "garud2003-926111:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    9
+   ],
+   "candidate_id": "garud2003-926111:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Hands-on, linked interaction",
+   "definition": "Dense collaborative networks, hands-on involvement and a diversity of linkages make emergent co-shaping and learning possible. Secrecy, mediated hands-off interaction and an unyielding pursuit of a planned breakthrough stifle it.",
+   "applies_when": "An account describes open exchange with users, suppliers or peers enabling unplanned inputs to shape the venture, or secrecy and rigid vision blocking them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2003-926111:p020:04",
+    "garud2003-926111:p019:01",
+    "garud2003-926111:p011:02"
+   ],
+   "pdf_pages": [
+    11,
+    19,
+    20
+   ],
+   "candidate_id": "garud2003-926111:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Continuity of key competencies",
+   "definition": "Firms that keep key designers and competencies in place through a crisis are able to learn from unexpected experiences and keep developing. Firms that disband their teams lose this ability.",
+   "applies_when": "A respondent attributes the ability to exploit or recover from an unexpected event to keeping key people and skills on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2003-926111:p012:03",
+    "garud2003-926111:p011:03"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "garud2003-926111:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Planned breakthrough approach",
+   "definition": "Outcomes are pursued through an unyielding vision and pre-planned, theory-driven design aimed at dramatic results, rather than through emergent adaptation. The authors argue this approach stifles the learning that emergence relies on.",
+   "applies_when": "An account explains the venture's course as the execution of a deliberate grand plan or vision to leap-frog competitors.",
+   "does_not_apply_when": "The course was emergent, with actors improvising and adapting to inputs as they arose.",
+   "passage_ids": [
+    "garud2003-926111:p003:01",
+    "garud2003-926111:p019:03",
+    "garud2003-926111:p020:03"
+   ],
+   "pdf_pages": [
+    3,
+    19,
+    20
+   ],
+   "candidate_id": "garud2003-926111:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Discovery by alert individuals",
+   "definition": "The traditional view that opportunities are pre-existing and discovered by alert, heroic individuals. The authors contrast it with opportunities created by a collective through distributed inputs.",
+   "applies_when": "A respondent attributes the venture's opportunity to one individual's alertness or special traits.",
+   "does_not_apply_when": "The opportunity is described as emerging from many actors' interacting inputs.",
+   "passage_ids": [
+    "garud2003-926111:p001:02",
+    "garud2003-926111:p004:02"
+   ],
+   "pdf_pages": [
+    1,
+    4
+   ],
+   "candidate_id": "garud2003-926111:c12"
+  }
+ ],
+ "removed": []
+}

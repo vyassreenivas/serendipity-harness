@@ -1,0 +1,307 @@
+{
+ "paper_id": "meyer2002-3a4528",
+ "file": "papers/pdf/Meyer and Skak - 2002 - Networks Serendipity and SME Entry into Eastern Europe.pdf",
+ "about": [
+  "The paper examines how Danish and Austrian SMEs enter Eastern European markets through business networks, finding that entry is often driven by serendipity: chance encounters and events in the network rather than strategic planning."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Fortunate unexpected chance discovery",
+   "definition": "Serendipity is defined as fortunate and unexpected discoveries made by chance, here elements of chance that may profoundly alter a firm's growth path.",
+   "applies_when": "An account describes a beneficial discovery or opportunity that was unexpected and came about by chance rather than by planned search.",
+   "does_not_apply_when": "The opportunity was found through deliberate, systematic search, such as travel, consultants or embassy contacts. That is active search, not serendipity.",
+   "passage_ids": [
+    "meyer2002-3a4528:p001:03",
+    "meyer2002-3a4528:p003:03",
+    "meyer2002-3a4528:p008:04"
+   ],
+   "pdf_pages": [
+    1,
+    3,
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter at trade fair",
+   "definition": "Unplanned meetings with potential partners at trade fairs, for example at a neighbouring booth, that lead to business contacts and market entry.",
+   "applies_when": "The interviewee says a new partner or market came from meeting someone unexpectedly at a trade fair or exhibition.",
+   "does_not_apply_when": "The trade fair was attended with a specific, pre-planned target partner already identified.",
+   "passage_ids": [
+    "meyer2002-3a4528:p007:01",
+    "meyer2002-3a4528:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "meyer2002-3a4528:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unsolicited initiative by future partner",
+   "definition": "A future business partner approaches the firm directly and unprompted, and this leads to entry into a country.",
+   "applies_when": "The account describes being contacted or approached by a prospective partner without having sought them out.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p007:03",
+    "meyer2002-3a4528:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "meyer2002-3a4528:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Events and new entrants in the network",
+   "definition": "Changes in the firm's network, such as new partners joining, initiatives or recommendations by existing or unrelated contacts, or partners leaving, create unanticipated opportunities that trigger entry.",
+   "applies_when": "An opportunity arises because someone in the existing personal or professional network proposes a project, makes a recommendation or introduces a new contact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p003:03",
+    "meyer2002-3a4528:p007:03",
+    "meyer2002-3a4528:p007:04"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "meyer2002-3a4528:c04"
+  },
+  {
+   "group": "background",
+   "label": "Prior personal acquaintance becoming a business asset",
+   "definition": "The 'coincidence' of an existing friendship or acquaintance, for example from university or a guest who lived with the family, can later become a business asset.",
+   "applies_when": "A pre-existing personal or social tie, not formed for business, later turns into a business partnership or entry route.",
+   "does_not_apply_when": "The tie was cultivated deliberately for business purposes.",
+   "passage_ids": [
+    "meyer2002-3a4528:p005:02",
+    "meyer2002-3a4528:p007:04"
+   ],
+   "pdf_pages": [
+    5,
+    7
+   ],
+   "candidate_id": "meyer2002-3a4528:c05"
+  },
+  {
+   "group": "background",
+   "label": "Network as knowledge pool",
+   "definition": "Business networks hold dispersed, partly tacit, country-specific knowledge and complementary resources. These grow with partners' experience and provide stimuli, sometimes seemingly at random, to pursue opportunities.",
+   "applies_when": "The account credits information, experience or resources held by network partners as the basis for spotting or pursuing an opportunity.",
+   "does_not_apply_when": "The knowledge is internal to the firm and was built deliberately.",
+   "passage_ids": [
+    "meyer2002-3a4528:p001:03",
+    "meyer2002-3a4528:p003:03",
+    "meyer2002-3a4528:p006:03"
+   ],
+   "pdf_pages": [
+    1,
+    3,
+    6
+   ],
+   "candidate_id": "meyer2002-3a4528:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reacting swiftly to opportunities",
+   "definition": "Firms turn chance events into business by acting swiftly and flexibly on initiatives and new contacts. Sensitivity and flexibility to react are presented as crucial capabilities.",
+   "applies_when": "The interviewee describes responding quickly to an unexpected contact or proposal, for example by visiting, sending products or agreeing to join a project.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:05",
+    "meyer2002-3a4528:p009:01",
+    "meyer2002-3a4528:p001:03"
+   ],
+   "pdf_pages": [
+    1,
+    8,
+    9
+   ],
+   "candidate_id": "meyer2002-3a4528:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Building the relationship after chance meeting",
+   "definition": "After a first encounter 'by chance', how the partners build their relationship, including trust and personal friendship, is crucial for the business to develop.",
+   "applies_when": "The account describes follow-up efforts after a chance contact, such as visits, building trust and personal relationships, that turn the contact into ongoing business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p007:02",
+    "meyer2002-3a4528:p008:02"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c08"
+  },
+  {
+   "group": "role",
+   "label": "Triggering international entry",
+   "definition": "Serendipitous events start the firm's entry into a foreign market. Chance contacts, rather than strategic planning, motivate the first business in a country.",
+   "applies_when": "The interviewee says a chance event was what started business in a new country or market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p007:03",
+    "meyer2002-3a4528:p008:03",
+    "meyer2002-3a4528:p007:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c09"
+  },
+  {
+   "group": "role",
+   "label": "Opportunities later formed into strategy",
+   "definition": "Business is often based on reacting to opportunities with old or new partners. Only later are these shaped into a coherent strategy.",
+   "applies_when": "The account shows strategy emerging after the fact from opportunities that were seized, rather than preceding them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c10"
+  },
+  {
+   "group": "role",
+   "label": "Altering growth path and deepening commitment",
+   "definition": "Chance elements may profoundly alter a firm's growth path. Network events motivate increased commitment, for example a small help arrangement growing into a joint venture.",
+   "applies_when": "An unexpected development escalates involvement or redirects the venture, such as unexpectedly fast growth leading to a joint venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:04",
+    "meyer2002-3a4528:p007:04",
+    "meyer2002-3a4528:p001:01"
+   ],
+   "pdf_pages": [
+    1,
+    7,
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c11"
+  },
+  {
+   "group": "type",
+   "label": "Reactive entry vs active search",
+   "definition": "The authors classify entries as 'active search' (systematic search such as travel, consultants or embassy contacts) or 'reactive entry' (contact with the partner occurred by chance via trade fairs, partner initiative or network).",
+   "applies_when": "A coder needs to distinguish whether a market entry originated in chance contact or in deliberate search.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p007:02",
+    "meyer2002-3a4528:p007:03"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "meyer2002-3a4528:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Planned strategic search",
+   "definition": "Deterministic strategic planning and systematic search, as assumed in strategy textbooks and internationalization models, is the alternative explanation of entry. Even active searchers still faced chance in partner selection.",
+   "applies_when": "The interviewee attributes entry to deliberate planning or search. Note any chance elements within it, such as a partner choice influenced by a girlfriend.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:01",
+    "meyer2002-3a4528:p007:04",
+    "meyer2002-3a4528:p008:04"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Limited control over network",
+   "definition": "Because the network evolves outside the firm's control, smaller firms' strategies are subject to high degrees of serendipity.",
+   "applies_when": "The account stresses that developments depended on others' actions or events beyond the firm's control.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p001:03",
+    "meyer2002-3a4528:p003:03",
+    "meyer2002-3a4528:p009:01"
+   ],
+   "pdf_pages": [
+    1,
+    3,
+    9
+   ],
+   "candidate_id": "meyer2002-3a4528:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Peripheral markets and subsequent entries",
+   "definition": "Chance appears more important in peripheral markets and for subsequent entries. Active search is more common for large, nearby countries and for first entries.",
+   "applies_when": "The account concerns entry into a distant or peripheral market, or a later entry prompted by local partners' initiative.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:01"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Facilitating chance via fairs and networking",
+   "definition": "Participating in trade fairs, building and maintaining networks, monitoring them for changes, and keeping strategy and mindset flexible all make chance encounters and their pursuit more likely.",
+   "applies_when": "The interviewee describes practices that expose the firm to new contacts or keep it ready to take up unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p007:02",
+    "meyer2002-3a4528:p009:01",
+    "meyer2002-3a4528:p009:02"
+   ],
+   "pdf_pages": [
+    7,
+    9
+   ],
+   "candidate_id": "meyer2002-3a4528:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Intertwined social and professional ties",
+   "definition": "Social networks intertwined with professional ones seem important, especially in Eastern Europe, for identifying and reacting to opportunities.",
+   "applies_when": "The account shows personal and friendship ties overlapping with business ties in recognizing or acting on an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:05",
+    "meyer2002-3a4528:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Business volume unaffected by entry mode",
+   "definition": "Whether contact was made by chance or by active search does not appear to influence the future volume of business. Active searchers more often reported difficulty finding the right partner.",
+   "applies_when": "The account compares outcomes of chance-based versus searched-for ventures.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "meyer2002-3a4528:p008:01",
+    "meyer2002-3a4528:p007:04"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "meyer2002-3a4528:c18"
+  }
+ ],
+ "removed": []
+}

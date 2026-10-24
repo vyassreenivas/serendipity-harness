@@ -1,0 +1,92 @@
+{
+ "paper_id": "denrell2019-a55c87",
+ "file": "papers/pdf/Denrell et al - 2019 - In Search of Behavioral Opportunities from Misattributions of Luck.pdf",
+ "about": [
+  "The paper argues that strategists can profit from others' tendency to mistake luck for skill and to ignore regression to the mean, and that learning and interdependency barriers make such behavioral opportunities persist; serendipity appears only in passing as a random source of profit the theory sets aside."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Luck as temporary factor",
+   "definition": "Luck is the impact of a temporary, changeable factor on performance that is not expected to persist, as opposed to stable factors such as skill, competence, routines or culture.",
+   "applies_when": "An account attributes an outcome to a one-off, passing circumstance that the speaker does not expect to recur, distinguishing it from their abilities or the firm's stable capabilities.",
+   "does_not_apply_when": "The outcome is credited to stable traits, skills, routines or culture, which the paper treats as skill rather than luck.",
+   "passage_ids": [
+    "denrell2019-a55c87:p002:04"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "denrell2019-a55c87:c01"
+  },
+  {
+   "group": "account",
+   "label": "Attributing luck to skill",
+   "definition": "People tend to romanticize successes and failures, crediting them to the persons involved rather than the situation, and expect the performance to continue, thereby mistaking luck for skill.",
+   "applies_when": "A person explains a venture success or failure entirely through personal qualities or decisions and expects it to persist, with no mention of circumstance or chance.",
+   "does_not_apply_when": "The speaker explicitly acknowledges situational or chance factors in the outcome.",
+   "passage_ids": [
+    "denrell2019-a55c87:p001:03",
+    "denrell2019-a55c87:p006:01"
+   ],
+   "pdf_pages": [
+    1,
+    6
+   ],
+   "candidate_id": "denrell2019-a55c87:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Self-reinforcing advantage after early success",
+   "definition": "Early success can bring further resources and contacts that improve later performance, for example successful entrepreneurs meeting investors who help their next ventures. This makes continued success look like skill when it partly reflects reinforcement of an initial lucky outcome.",
+   "applies_when": "An account shows initial success opening doors such as investor contacts or extra resources that then drive later venture success.",
+   "does_not_apply_when": "The later success is traced to capabilities that existed independently of the earlier outcome.",
+   "passage_ids": [
+    "denrell2019-a55c87:p011:02",
+    "denrell2019-a55c87:p014:03"
+   ],
+   "pdf_pages": [
+    11,
+    14
+   ],
+   "candidate_id": "denrell2019-a55c87:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Serendipity as random profit source",
+   "definition": "The authors mention luck, serendipity and preadaptation as random factors that existing frameworks fall back on to explain superior profit, for instance entrepreneurs disrupting incumbents without structural advantage. They propose behavioral barriers as a non-random alternative explanation.",
+   "applies_when": "An entrepreneur's success or entry against incumbents is explained either by chance or serendipity, or by exploiting others' systematic misjudgments. The coder should mark the contrast between the two explanations.",
+   "does_not_apply_when": "The success is explained by deliberately exploiting others' predictable biases. The paper offers this as the alternative to serendipity.",
+   "passage_ids": [
+    "denrell2019-a55c87:p017:04",
+    "denrell2019-a55c87:p018:01"
+   ],
+   "pdf_pages": [
+    17,
+    18
+   ],
+   "candidate_id": "denrell2019-a55c87:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Outsider position aids seeing opportunity",
+   "definition": "Being an outsider who is distant from local norms and networks, or recruiting naive outsiders, makes it more likely that someone recognizes and acts on opportunities that others miss. The trade-off is that outsiders have less access to information.",
+   "applies_when": "An account describes spotting or pursuing an opportunity because the person was remote from an industry's norms, networks or conventional wisdom.",
+   "does_not_apply_when": "The opportunity was found through insider information within one's immediate network. The paper notes this eases learning but increases resistance to unusual actions.",
+   "passage_ids": [
+    "denrell2019-a55c87:p014:02",
+    "denrell2019-a55c87:p014:03",
+    "denrell2019-a55c87:p015:03"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "denrell2019-a55c87:c05"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,308 @@
+{
+ "paper_id": "mintzberg1985-9d4ec0",
+ "file": "papers/pdf/Mintzberg and McHugh - 1985 - Strategy Formation in an Adhocracy.pdf",
+ "about": [
+  "A longitudinal study of the National Film Board of Canada showing how strategies form emergently (from precedents, trickles, spontaneous convergence, environmental shifts) rather than being formulated, ending in a grass-roots model of strategy formation."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Emergent strategy as unintended order",
+   "definition": "A pattern realized in action despite, or in the absence of, intentions. The authors say emergent strategy means unintended order, and that deliberate and emergent are end points of a continuum.",
+   "applies_when": "An account describes a consistent direction that took shape without anyone planning it, or contrary to stated plans.",
+   "does_not_apply_when": "The direction was intended beforehand and then carried out as planned (deliberate strategy).",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p003:03",
+    "mintzberg1985-9d4ec0:p004:01",
+    "mintzberg1985-9d4ec0:p030:03"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    30
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Ad hoc precedent evokes pattern",
+   "definition": "A single, seemingly inconsequential decision, meant to be one-off, sets a precedent that others copy, producing a whole new direction.",
+   "applies_when": "A person describes a one-off decision or project that unexpectedly became the template for many later activities.",
+   "does_not_apply_when": "The initial decision was meant from the start as the launch of a planned program.",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p030:01",
+    "mintzberg1985-9d4ec0:p021:02",
+    "mintzberg1985-9d4ec0:p022:02"
+   ],
+   "pdf_pages": [
+    21,
+    22,
+    30
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected environmental event",
+   "definition": "External events such as war, a new medium or social upheaval unexpectedly supply purpose and opportunity and impose a pattern on an unsuspecting organization.",
+   "applies_when": "An account credits an unforeseen external shift (crisis, new technology, social change) with giving the venture its direction or purpose.",
+   "does_not_apply_when": "The environmental change was anticipated and deliberately planned for.",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p018:03",
+    "mintzberg1985-9d4ec0:p026:01",
+    "mintzberg1985-9d4ec0:p036:03"
+   ],
+   "pdf_pages": [
+    18,
+    26,
+    36
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Fumbling into strategy",
+   "definition": "Actors stumble on their realized strategy despite themselves through a myopic, disorderly process, as in Honda's US motorcycle entry.",
+   "applies_when": "Someone describes discovering a winning direction by accident while pursuing something else.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p036:01",
+    "mintzberg1985-9d4ec0:p036:03"
+   ],
+   "pdf_pages": [
+    36
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Spontaneous convergence via mutual adjustment",
+   "definition": "A single actor acts in his own interest, colleagues react to the precedent through mutual adjustment, and many actors converge on a theme without central direction.",
+   "applies_when": "An account describes others joining in on one person's initiative until it became the venture's main focus.",
+   "does_not_apply_when": "Leaders directed people to adopt the initiative.",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p030:02",
+    "mintzberg1985-9d4ec0:p022:02"
+   ],
+   "pdf_pages": [
+    22,
+    30
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Peripheral trickle becomes focus",
+   "definition": "A long-standing marginal stream of activity eventually takes hold and pervades the organization, often when it is casting about for new directions after a crisis.",
+   "applies_when": "A side activity or personal project kept going for years later becomes the venture's core direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p030:01",
+    "mintzberg1985-9d4ec0:p030:02"
+   ],
+   "pdf_pages": [
+    30
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognizing and cultivating the unexpected",
+   "definition": "Managing means not preconceiving strategies but recognizing them as they emerge, not cutting off the unexpected too quickly, and cultivating promising ones.",
+   "applies_when": "A person describes noticing an unplanned development and deciding to nurture or propagate it.",
+   "does_not_apply_when": "The development was ignored or suppressed.",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p037:03",
+    "mintzberg1985-9d4ec0:p037:01",
+    "mintzberg1985-9d4ec0:p035:01"
+   ],
+   "pdf_pages": [
+    35,
+    37
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Capacity and willingness to learn",
+   "definition": "What made a fumbled-upon strategy succeed was not foresight but a capacity and willingness to learn in the field, supported by a tolerant organization.",
+   "applies_when": "Success after an accidental find is attributed to learning and adapting rather than prior planning.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p036:02",
+    "mintzberg1985-9d4ec0:p036:03"
+   ],
+   "pdf_pages": [
+    36
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c08"
+  },
+  {
+   "group": "background",
+   "label": "Established skills exploited",
+   "definition": "Once a technical problem is solved or a constraint removed, there is a natural tendency to exploit the situation using established skills; trickles suggest new directions based on existing skills.",
+   "applies_when": "An account describes building a new direction on capabilities already developed for other purposes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p029:02",
+    "mintzberg1985-9d4ec0:p030:02"
+   ],
+   "pdf_pages": [
+    29,
+    30
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c09"
+  },
+  {
+   "group": "background",
+   "label": "Retained old strategies as options",
+   "definition": "Accumulating past strategies at reduced levels gives multiple capabilities and options when reorientation is needed, though at the cost of focus.",
+   "applies_when": "A venture falls back on or revives earlier, scaled-down activities when circumstances change.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p032:03",
+    "mintzberg1985-9d4ec0:p020:03",
+    "mintzberg1985-9d4ec0:p023:01"
+   ],
+   "pdf_pages": [
+    20,
+    23,
+    32
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Tolerance and slack for experimentation",
+   "definition": "Organizational tolerance leaves room to hide in a pocket and experiment, allowing peripheral patterns to survive and innovation to arise.",
+   "applies_when": "An account notes freedom, slack or tolerance that let someone pursue an unplanned side project.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p033:01",
+    "mintzberg1985-9d4ec0:p024:01"
+   ],
+   "pdf_pages": [
+    24,
+    33
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Overmanagement suppresses emergence",
+   "definition": "Strategy formation can be overmanaged; excessive rationalization destroys trickles and dries up sources of future strategies, and purely deliberate strategy means blindness to the unexpected.",
+   "applies_when": "An account describes tight planning or control preventing or killing unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p030:02",
+    "mintzberg1985-9d4ec0:p036:03",
+    "mintzberg1985-9d4ec0:p038:02"
+   ],
+   "pdf_pages": [
+    30,
+    36,
+    38
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Flexible structure and supporting climate",
+   "definition": "Managers create a climate where many strategies can grow by establishing flexible structures, supporting ideologies and umbrella strategies, and buffering creators.",
+   "applies_when": "Someone describes structures or leadership that made room for unplanned directions to grow.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p037:03",
+    "mintzberg1985-9d4ec0:p034:02"
+   ],
+   "pdf_pages": [
+    34,
+    37
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Technological developments enabling",
+   "definition": "New technologies (lighter equipment, handheld video) stimulated new styles and initiatives that were not planned.",
+   "applies_when": "A new tool or technology is credited with unexpectedly opening a new line of activity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p023:03",
+    "mintzberg1985-9d4ec0:p028:01"
+   ],
+   "pdf_pages": [
+    23,
+    28
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c14"
+  },
+  {
+   "group": "outcome",
+   "label": "New direction and redirection",
+   "definition": "Emergent patterns can rapidly change the organization's direction of its own accord, giving it focus and a start in new areas, but may also prove an aberration unsuited to its competences.",
+   "applies_when": "An account describes an unplanned development redirecting the venture, positively or as a misstep later abandoned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p022:02",
+    "mintzberg1985-9d4ec0:p022:03"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c15"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective rationalization as deliberate",
+   "definition": "Strategies that emerged are later made to look deliberate and designed, as when consultants imputed a brilliant intended strategy to Honda's fumbled entry.",
+   "applies_when": "An account presents an accidental outcome as if it had been planned all along, or the person notes others framed it that way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p036:01",
+    "mintzberg1985-9d4ec0:p036:03"
+   ],
+   "pdf_pages": [
+    36
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c16"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate planned strategy",
+   "definition": "The conventional view that strategies are formulated and then implemented; some NFB patterns, like regionalization and staffing cuts, were deliberately imposed.",
+   "applies_when": "Events are explained by explicit prior intentions realized as planned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p002:02",
+    "mintzberg1985-9d4ec0:p029:03",
+    "mintzberg1985-9d4ec0:p027:02"
+   ],
+   "pdf_pages": [
+    2,
+    27,
+    29
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Implicit collective intention",
+   "definition": "Patterns that look emergent may reflect a shared, unarticulated consensus of intentions, such as filmmakers' dream of feature films, making it hard to call them accidental.",
+   "applies_when": "An apparently accidental development is explained by people's tacit desires or aspirations.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mintzberg1985-9d4ec0:p030:02",
+    "mintzberg1985-9d4ec0:p030:03"
+   ],
+   "pdf_pages": [
+    30
+   ],
+   "candidate_id": "mintzberg1985-9d4ec0:c18"
+  }
+ ],
+ "removed": []
+}

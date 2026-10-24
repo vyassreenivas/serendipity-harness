@@ -1,0 +1,123 @@
+{
+ "paper_id": "eagle2004-75d973",
+ "file": "papers/pdf/Eagle - 2004 - Can Serendipity Be Planned.pdf",
+ "about": [
+  "A short practitioner article describing \"Serendipity,\" a Bluetooth mobile-phone application meant to engineer chance face-to-face encounters among unacquainted, co-located colleagues to boost workplace collaboration, and its uses for studying social networks."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Chance encounter with unacquainted colleague",
+   "definition": "An unplanned face-to-face meeting, such as a casual conversation by the coffee machine or in a hallway, with a nearby person one did not really know. The meeting reveals that this person has relevant expertise or shared interests.",
+   "applies_when": "The account describes a casual, unplanned conversation or bumping into someone that reveals that person can help with a current problem or shares an interest.",
+   "does_not_apply_when": "The contact was sought out deliberately through a referral or a search for an expert.",
+   "passage_ids": [
+    "eagle2004-75d973:p002:01",
+    "eagle2004-75d973:p004:04"
+   ],
+   "pdf_pages": [
+    2,
+    4
+   ],
+   "candidate_id": "eagle2004-75d973:c01"
+  },
+  {
+   "group": "background",
+   "label": "Weak ties among co-located people",
+   "definition": "Informal links between colleagues who have little or no acquaintance with each other are described as especially powerful for enabling collaboration through chance meetings.",
+   "applies_when": "The account credits a loose acquaintance or near-stranger working nearby as the source of help, information or collaboration.",
+   "does_not_apply_when": "The help comes from a close friend or established collaborator.",
+   "passage_ids": [
+    "eagle2004-75d973:p002:03",
+    "eagle2004-75d973:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "eagle2004-75d973:c02"
+  },
+  {
+   "group": "condition",
+   "label": "Silos and lack of communication",
+   "definition": "People keep to their own groups and are too busy to cultivate relationships. This suppresses chance encounters and leads to missed opportunities.",
+   "applies_when": "The account describes people not mingling across groups, or being too busy to meet nearby others, so that useful connections were missed or delayed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eagle2004-75d973:p002:01",
+    "eagle2004-75d973:p005:01"
+   ],
+   "pdf_pages": [
+    2,
+    5
+   ],
+   "candidate_id": "eagle2004-75d973:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Co-location alone is insufficient",
+   "definition": "Putting groups in the same buildings and shared facilities, or organizing social events, did not by itself produce mixing or the benefits of chance interaction.",
+   "applies_when": "The account notes that sharing space or attending organized events did not lead to useful unplanned interactions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eagle2004-75d973:p003:03",
+    "eagle2004-75d973:p003:04"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "eagle2004-75d973:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Engineering encounters via technology or space",
+   "definition": "Chance encounters can be made more likely by design. Examples are proximity-sensing tools that alert people to shared interests and suggest talking points, kiosks in high-traffic spots, and office layouts redesigned to encourage mixing.",
+   "applies_when": "The account describes a tool, matchmaking system, event design or physical layout that prompted an unplanned-seeming meeting between people who would otherwise have walked past each other.",
+   "does_not_apply_when": "The meeting was a scheduled introduction with no situational, chance element.",
+   "passage_ids": [
+    "eagle2004-75d973:p003:01",
+    "eagle2004-75d973:p003:02",
+    "eagle2004-75d973:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "eagle2004-75d973:c05"
+  },
+  {
+   "group": "outcome",
+   "label": "Access to expertise solving problems",
+   "definition": "The chance encounter yields someone who can help with difficult problems one has been struggling with, saving time and frustration.",
+   "applies_when": "The account says a chance meeting led to concrete help, such as technical expertise, that moved stalled work forward.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eagle2004-75d973:p002:01",
+    "eagle2004-75d973:p003:02"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "eagle2004-75d973:c06"
+  },
+  {
+   "group": "account",
+   "label": "Regret over earlier missed chances",
+   "definition": "Looking back, the person regrets not having introduced themselves earlier, since the connection could have saved weeks of effort.",
+   "applies_when": "The narrator reflects that they passed the key person many times before meeting them, and wishes the encounter had happened sooner.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "eagle2004-75d973:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "eagle2004-75d973:c07"
+  }
+ ],
+ "removed": []
+}

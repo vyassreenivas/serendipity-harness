@@ -1,0 +1,62 @@
+{
+ "paper_id": "march1991-2654b9",
+ "file": "papers/pdf/March - 1991 - Exploration and Exploitation in Organizational Learning.pdf",
+ "about": [
+  "March models how organizations divide effort between exploring new possibilities and exploiting existing certainties, and argues that adaptive learning favours exploitation in ways that can harm long-run learning and competitive standing; it does not address serendipity itself, but touches on discovery and the conditions that sustain it."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "condition",
+   "label": "Ignorance protecting novel ideas",
+   "definition": "Being unfamiliar with prevailing developments and the objections to an idea can let a novel idea be conceived and pursued instead of being dismissed early. The author draws this from Polanyi's account of his own theory.",
+   "applies_when": "The person says they hit on or kept pursuing an idea because they did not know the field's conventional wisdom or the objections experts would have raised.",
+   "does_not_apply_when": "The person pursued the idea despite knowing the objections and deliberately rejecting them; that is informed contrarian choice, not protective ignorance.",
+   "passage_ids": [
+    "march1991-2654b9:p016:03",
+    "march1991-2654b9:p016:04"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "march1991-2654b9:c01"
+  },
+  {
+   "group": "condition",
+   "label": "Competence trap suppressing discovery",
+   "definition": "Growing skill at existing activities makes experimenting with new alternatives less attractive. Learning and imitation therefore crowd out the experimentation through which new possibilities are found.",
+   "applies_when": "The account describes success or skill in a current line of activity leading the person or firm to ignore, or not follow up, new possibilities or unexpected options.",
+   "does_not_apply_when": "The person declined a new option after evaluating it on its merits, rather than because existing routines and competence crowded it out.",
+   "passage_ids": [
+    "march1991-2654b9:p003:03",
+    "march1991-2654b9:p004:02",
+    "march1991-2654b9:p004:03"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "march1991-2654b9:c02"
+  },
+  {
+   "group": "background",
+   "label": "Diversity from naive newcomers",
+   "definition": "New, less-socialized members introduce beliefs that differ from the established code. Although they know less on average, they occasionally bring better knowledge that the organization could not otherwise reach.",
+   "applies_when": "A new idea or direction is traced to input from a newcomer, outsider or unconventional person whose views differed from the established way of thinking.",
+   "does_not_apply_when": "The input came from an experienced insider or expert whose knowledge simply repeats what the organization already holds.",
+   "passage_ids": [
+    "march1991-2654b9:p010:01",
+    "march1991-2654b9:p010:02",
+    "march1991-2654b9:p017:01"
+   ],
+   "pdf_pages": [
+    10,
+    17
+   ],
+   "candidate_id": "march1991-2654b9:c03"
+  }
+ ],
+ "removed": []
+}

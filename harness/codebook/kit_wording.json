@@ -1,0 +1,25 @@
+{
+ "version": "0.2-calibration",
+ "note": "Wording used in the coders' kit where it differs from the 163-code reference codebook. The reference files are not edited. Every entry here has a row in changes.csv.",
+ "memo_only": {
+  "BND17": "A reminder for the researchers, not a code a coder applies: a verdict depends on the definition used, whose expectations are taken, and the time window. It is stated in the coding instructions."
+ },
+ "evidence_and_distinction": {
+  "DEF4": "Identify the specific interpretive action. One successful action does not establish a durable capability.",
+  "TYP4": "Trace the early finding and the later problem. A long delay before implementation is not, on its own, evidence for this type.",
+  "TRG1": "Quote the observation and what it contradicted. MEC2 records noticing it. Working out an explanation for it is a later step with no core code; describe it in the notes.",
+  "TRG3": "Identify the intended procedure and the deviation. An error alone does not show that the founder tolerates loose procedure; do not infer that.",
+  "TRG5": "Name the change and its link to the episode. LOC10 records the wider opportunity window the change belongs to.",
+  "TRG6": "Record the resource, the improvised use, and the surprising behavior. MEC13 captures making-do itself; OUT4 captures the resource becoming an asset.",
+  "TRG8": "Show why place or timing mattered. TRG2 describes an interaction that happened there.",
+  "MEC1": "Identify an exposure-building practice and its connection to an encounter. TRG7 concerns the resulting input. A founder only claiming to make their own luck is an account, not this practice; put it in the notes.",
+  "MEC6": "Specify both elements and the connection. Use this code whether the connection crosses fields or arises in conversation with other people, and say which in the notes.",
+  "MEC11": "Record the judgment, criteria, and evidence considered. Implementation is MEC17. If the founder reasons about what they could afford to lose, say so in the notes.",
+  "LOC7": "Describe the relevant program feature. Attendance alone does not show that the program originated the idea.",
+  "LOC9": "Name the resource and its prior status. OUT4 describes the resulting asset.",
+  "OUT4": "Name the prior resource and new value. LOC9 records its source.",
+  "ACC1": "Quote the attribution and its context.",
+  "RIV2": "Record aim, method, and result. Directed search can coexist with serendipity when an unexpected route or finding occurs.",
+  "RIV4": "Say in the notes whether the account fits effectuation (starting from the means available and letting goals emerge), bricolage (making do with what is at hand), or both. Compare MEC12 and MEC13; neither theory automatically excludes serendipity."
+ }
+}

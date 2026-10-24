@@ -1,0 +1,239 @@
+{
+ "paper_id": "merton2004-2ebdb7",
+ "file": "papers/pdf/Merton and Barber - 2004 - The Origins of Serendipity.pdf",
+ "about": [
+  "A historical-sociological chapter tracing how Horace Walpole coined 'serendipity' in 1754 from the tale of the Three Princes of Serendip, and how his ambiguous framing of it as discovery by 'accident and sagacity' of things not sought shaped the word's later meanings; it does not discuss ventures."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity combines two ingredients: an accidental, unplanned element and the sagacity (keen wit, skill) needed to make something of it. Neither luck alone nor skill alone counts.",
+   "applies_when": "An account describes a discovery or opportunity that arose by chance but was only realised because the person applied judgment, skill or insight to it.",
+   "does_not_apply_when": "Pure luck or fate with no contribution from the person's own discernment (what Walpole's 'sortes' lacked), or skilled discovery with no accidental element.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p003:01",
+    "merton2004-2ebdb7:p008:01",
+    "merton2004-2ebdb7:p021:02"
+   ],
+   "pdf_pages": [
+    3,
+    8,
+    21
+   ],
+   "candidate_id": "merton2004-2ebdb7:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Finding what was not sought",
+   "definition": "Walpole stipulated that discoveries count as serendipity only if they are of things the finder was not in quest of; discovering what one is looking for does not qualify.",
+   "applies_when": "The person reports finding something (an idea, contact, opportunity) different from what they had set out to find.",
+   "does_not_apply_when": "The person found exactly what they were searching for, even if quickly or fortunately; the authors note Walpole's own Capello example strains this criterion.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p003:01",
+    "merton2004-2ebdb7:p007:02",
+    "merton2004-2ebdb7:p021:02"
+   ],
+   "pdf_pages": [
+    3,
+    7,
+    21
+   ],
+   "candidate_id": "merton2004-2ebdb7:c02"
+  },
+  {
+   "group": "type",
+   "label": "Timely find of something sought",
+   "definition": "A looser sense present in Walpole's own example: happening upon needed information at just the right moment while looking for it, which the authors note is only 'almost' serendipity and differs from unsought discovery.",
+   "applies_when": "The person describes stumbling on something they were already looking for, at a fortunate moment or in an unexpected place.",
+   "does_not_apply_when": "The thing found was not being sought at all; that is the stricter unsought-discovery sense.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p003:02",
+    "merton2004-2ebdb7:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "merton2004-2ebdb7:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Noticing an unexpected anomaly",
+   "definition": "The instance is set off when a person happens to notice an odd, incongruous or unexpected detail (e.g., Roentgen's clouded photographic plates, the unevenly cropped grass).",
+   "applies_when": "An account names a surprising observation, oddity or incongruity the person happened to notice that prompted further inquiry.",
+   "does_not_apply_when": "The observation was deliberately produced by a planned test designed to check an existing hypothesis.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p019:02",
+    "merton2004-2ebdb7:p019:03",
+    "merton2004-2ebdb7:p020:01"
+   ],
+   "pdf_pages": [
+    19,
+    20
+   ],
+   "candidate_id": "merton2004-2ebdb7:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Inference from clues",
+   "definition": "People turn observations into discoveries by careful observation and inference, reasoning back from an effect to a cause that could have produced it (the 'method of Zadig', retrospective reconstruction).",
+   "applies_when": "The person describes piecing together traces or clues to infer something not directly seen, and acting on that inference.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p005:01",
+    "merton2004-2ebdb7:p020:02",
+    "merton2004-2ebdb7:p019:03"
+   ],
+   "pdf_pages": [
+    5,
+    19,
+    20
+   ],
+   "candidate_id": "merton2004-2ebdb7:c05"
+  },
+  {
+   "group": "background",
+   "label": "Prior domain know-how",
+   "definition": "Serendipitous discovery depends on the finder's existing knowledge and expertise (heraldry for Walpole, etiquette for Shaftesbury, observational powers for the princes); without it the discovery could not have occurred.",
+   "applies_when": "The account credits specialised prior knowledge or experience as what let the person recognise the significance of a chance encounter or observation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p021:02",
+    "merton2004-2ebdb7:p003:02"
+   ],
+   "pdf_pages": [
+    3,
+    21
+   ],
+   "candidate_id": "merton2004-2ebdb7:c06"
+  },
+  {
+   "group": "background",
+   "label": "Propensity for novel connections",
+   "definition": "A personal disposition to perceive subtle analogies and contrasts and to yoke together seemingly unconnected ideas, which the authors see behind Walpole's coinage itself.",
+   "applies_when": "The person describes linking apparently unrelated ideas, fields or observations, or a habit of attending to odd and trivial-seeming things.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p009:01",
+    "merton2004-2ebdb7:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "merton2004-2ebdb7:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Occupational search for finds",
+   "definition": "Those whose work or hobby involves looking for 'finds' (antiquarians, collectors, scientists) seem especially prone to accidental sagacity and to describing their experience as serendipity.",
+   "applies_when": "The person's ongoing activity involves habitual searching, exploring or collecting that exposes them to chance finds.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p010:02"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "merton2004-2ebdb7:c08"
+  },
+  {
+   "group": "outcome",
+   "label": "Valuable unanticipated discovery",
+   "definition": "Serendipity yields useful discoveries the person had not anticipated, sometimes of value to others, or puts the person on the track of a larger discovery; the authors note Walpole left unclear whether the find must be significant.",
+   "applies_when": "A chance observation is reported as leading to a useful insight, finding, or path toward a larger discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p003:02",
+    "merton2004-2ebdb7:p019:03",
+    "merton2004-2ebdb7:p021:03"
+   ],
+   "pdf_pages": [
+    3,
+    19,
+    21
+   ],
+   "candidate_id": "merton2004-2ebdb7:c09"
+  },
+  {
+   "group": "rival",
+   "label": "Planned experiment",
+   "definition": "Discovery through contrivance: framing a hypothesis and deliberately setting up a situation to test it (Hamlet's play within a play), contrasted with happening to notice something unexpected.",
+   "applies_when": "The account shows the outcome came from a deliberately designed test or plan to confirm or refute an existing idea.",
+   "does_not_apply_when": "The key observation was unexpected and not produced by the person's design.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p019:02",
+    "merton2004-2ebdb7:p019:03",
+    "merton2004-2ebdb7:p020:02"
+   ],
+   "pdf_pages": [
+    19,
+    20
+   ],
+   "candidate_id": "merton2004-2ebdb7:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Anticipated or prophesied find",
+   "definition": "The same discovery can be described as something expected or predicted in advance (Ceram on Schliemann) rather than as a happy accident.",
+   "applies_when": "The person or observer frames the result as foreseen, predicted or the expected product of a deliberate search.",
+   "does_not_apply_when": "The result went beyond any anticipation.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p021:01"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "merton2004-2ebdb7:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck, fate or providence",
+   "definition": "Explaining a fortunate outcome by luck, fate or providence alone, which lacks the sagacity component Walpole built into serendipity.",
+   "applies_when": "The account attributes the outcome solely to fortune, destiny or providence with no role for the person's discernment.",
+   "does_not_apply_when": "The person's skill or insight was needed to exploit the chance event.",
+   "passage_ids": [
+    "merton2004-2ebdb7:p008:01",
+    "merton2004-2ebdb7:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "merton2004-2ebdb7:c12"
+  },
+  {
+   "group": "account",
+   "label": "Emphasis shapes the framing",
+   "definition": "Whether an event is narrated as serendipity depends on what the narrator chooses to emphasise; different observers abstract different things from the same events, sometimes ideologically, which affects receptivity to serendipity.",
+   "applies_when": "An account foregrounds or downplays the unexpected elements of a discovery, or different people describe the same event as accident versus plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p021:01",
+    "merton2004-2ebdb7:p021:02"
+   ],
+   "pdf_pages": [
+    21
+   ],
+   "candidate_id": "merton2004-2ebdb7:c13"
+  },
+  {
+   "group": "account",
+   "label": "Downplaying the accidental",
+   "definition": "Users of the term often try to minimise the accidental component and stress sagacity, whereas the word tends to highlight the role of accident in discovery.",
+   "applies_when": "The narrator reframes a chance discovery as mainly due to their own skill or insight, playing down luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-2ebdb7:p008:01"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "merton2004-2ebdb7:c14"
+  }
+ ],
+ "removed": []
+}

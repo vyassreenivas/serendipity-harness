@@ -1,0 +1,238 @@
+{
+ "paper_id": "baker2003-8b6743",
+ "file": "papers/pdf/Baker et al - 2003 - Improvising Firms Bricolage Account Giving and Improvisational Competencies in the Founding Process.pdf",
+ "about": [
+  "An inductive study of improvisation in the founding of knowledge-intensive firms, covering improvised foundings that grow out of unsought seed deals, account giving that turns improvised tactics into strategy, network bricolage, and improvisational competencies."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Unsought seed deal offered by contact",
+   "definition": "A customer, client, employer or research partner unexpectedly offers work, money or a request during ongoing interaction. The founder recognizes this offer as an opportunity to found a firm.",
+   "applies_when": "The account describes an offer, contract or request from an existing contact that came without the founder looking for it and led to founding.",
+   "does_not_apply_when": "The founder had already decided to start a business and then searched for an opportunity. That is the design-precedes-execution pattern.",
+   "passage_ids": [
+    "baker2003-8b6743:p006:03",
+    "baker2003-8b6743:p007:01",
+    "baker2003-8b6743:p007:03"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "baker2003-8b6743:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance revelation in conversation",
+   "definition": "A remark in a routine conversation unexpectedly reveals a possibility to the founder, giving a 'moment of illumination'. In the paper's example, a customer turned out to assume the founder already ran his own business.",
+   "applies_when": "The founder describes a surprising remark or discovery during an ordinary interaction that prompted the idea of founding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p006:04",
+    "baker2003-8b6743:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "baker2003-8b6743:c02"
+  },
+  {
+   "group": "definition",
+   "label": "Discovery without search",
+   "definition": "Opportunities come to people who were not searching for them. Discovery is mainly recognition rather than a search for information.",
+   "applies_when": "The founder stresses that they were not looking for a business opportunity when it arose.",
+   "does_not_apply_when": "Explicit, extended search or market research led to the opportunity.",
+   "passage_ids": [
+    "baker2003-8b6743:p011:02",
+    "baker2003-8b6743:p018:02",
+    "baker2003-8b6743:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12,
+    18
+   ],
+   "candidate_id": "baker2003-8b6743:c03"
+  },
+  {
+   "group": "account",
+   "label": "\"It just happened\" narrative",
+   "definition": "Founders narrate founding as unintended, as something that happened to them rather than something they planned.",
+   "applies_when": "The interviewee says they never intended to start a business and that it just happened.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "baker2003-8b6743:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Improvised founding: design and execution converge",
+   "definition": "Founders respond quickly to an opportunity by designing the firm as they create it, with no primary focus on a plan or market analysis. Firms often appear within days or a few weeks.",
+   "applies_when": "The founder started operating almost immediately after an offer, working out the business while doing it.",
+   "does_not_apply_when": "The founder planned or researched for months before founding around an offered opportunity. The paper classes this as a DPE founding with bricolage.",
+   "passage_ids": [
+    "baker2003-8b6743:p007:01",
+    "baker2003-8b6743:p007:02",
+    "baker2003-8b6743:p007:03"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "baker2003-8b6743:c05"
+  },
+  {
+   "group": "background",
+   "label": "Pre-existing professional network",
+   "definition": "Founding opportunities and early resources reach founders through people they already know from current or prior jobs. The paper calls reliance on these contacts as the means at hand network bricolage.",
+   "applies_when": "The opportunity, employees, office space, money or advice came through existing customers, coworkers, advisors or friends.",
+   "does_not_apply_when": "Resources came from strangers through deliberate 'networking' or impersonal channels. The paper calls this resource-seeking.",
+   "passage_ids": [
+    "baker2003-8b6743:p011:01",
+    "baker2003-8b6743:p012:01",
+    "baker2003-8b6743:p013:01"
+   ],
+   "pdf_pages": [
+    11,
+    12,
+    13
+   ],
+   "candidate_id": "baker2003-8b6743:c06"
+  },
+  {
+   "group": "background",
+   "label": "Prior work knowledge enables recognition",
+   "definition": "The knowledge needed to recognize an unsought opportunity comes from prior work experience, together with the person's position in social networks.",
+   "applies_when": "The founder recognized the opportunity because of expertise or experience from previous work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p018:02",
+    "baker2003-8b6743:p018:03"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "baker2003-8b6743:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Venture stays near prior line of work",
+   "definition": "Network-delivered opportunities tend to produce businesses in the founder's prior industry. Search tends to produce more drastic changes of line of work.",
+   "applies_when": "The new venture is an offshoot of what the founder did as an employee.",
+   "does_not_apply_when": "The founder deliberately searched for and entered an unfamiliar industry.",
+   "passage_ids": [
+    "baker2003-8b6743:p012:02",
+    "baker2003-8b6743:p017:03"
+   ],
+   "pdf_pages": [
+    12,
+    17
+   ],
+   "candidate_id": "baker2003-8b6743:c08"
+  },
+  {
+   "group": "role",
+   "label": "Unplanned tactic becomes strategy",
+   "definition": "A temporary or incidental activity, or an opportunistic chance such as a contract bid, gets selected and becomes the firm's main strategic thrust. This can redirect the venture away from its founding intent.",
+   "applies_when": "A side activity or request taken up casually ended up redefining what the firm does.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p008:04",
+    "baker2003-8b6743:p009:01",
+    "baker2003-8b6743:p009:04"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "baker2003-8b6743:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Legitimating accounts to resource providers",
+   "definition": "Founders give future-oriented accounts of past improvised activities to customers, funders and recruits, sometimes 'playing pretend'. These accounts select some activities over others and lock them in as strategy.",
+   "applies_when": "The founder describes presenting the firm in a bid, pitch or recruiting story as more coherent than it was, and this then shaped what the firm became.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p009:01",
+    "baker2003-8b6743:p009:03",
+    "baker2003-8b6743:p010:03"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "baker2003-8b6743:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Design-precedes-execution founding",
+   "definition": "A linear model in which the intention to found comes first, followed by search, planning and then execution against a plan.",
+   "applies_when": "The founder decided to start a business, searched for opportunities or did market research, and then executed a plan.",
+   "does_not_apply_when": "The opportunity arrived unsought and founding happened without a plan.",
+   "passage_ids": [
+    "baker2003-8b6743:p002:02",
+    "baker2003-8b6743:p011:03",
+    "baker2003-8b6743:p011:04"
+   ],
+   "pdf_pages": [
+    2,
+    11
+   ],
+   "candidate_id": "baker2003-8b6743:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Entrepreneurship routine",
+   "definition": "For serial founders, a later founding might reflect an invoked entrepreneurship routine rather than improvisation.",
+   "applies_when": "A repeat founder applies a familiar founding approach.",
+   "does_not_apply_when": "The new business model differs substantially from the founder's earlier firms.",
+   "passage_ids": [
+    "baker2003-8b6743:p007:04"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "baker2003-8b6743:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Low capital intensity",
+   "definition": "Knowledge-intensive, low-capital settings make improvised founding around opportunities at hand more feasible, because few resources are needed beyond the founder's own capabilities and network.",
+   "applies_when": "The founder could start with little more than their own skills and borrowed resources.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p015:03"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "baker2003-8b6743:c13"
+  },
+  {
+   "group": "outcome",
+   "label": "Opportunity-driven competency crowds out planning",
+   "definition": "The ability to cobble together a start-up around seed deals reduces later efforts to build planned capabilities, for example hiring sales staff.",
+   "applies_when": "The founder relied on deals arriving rather than building a sales or planning function.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "baker2003-8b6743:p014:03",
+    "baker2003-8b6743:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "baker2003-8b6743:c14"
+  }
+ ],
+ "removed": []
+}

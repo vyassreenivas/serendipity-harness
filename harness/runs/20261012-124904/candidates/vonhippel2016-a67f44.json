@@ -1,0 +1,346 @@
+{
+ "paper_id": "vonhippel2016-a67f44",
+ "file": "papers/pdf/von Hippel and von Krogh - 2016 - Identifying Viable Need-Solution Pairs Problem Solving Without Problem Formulation.pdf",
+ "about": [
+  "The paper proposes that in informal problem solving a need and a solution are often discovered together, sometimes serendipitously, as a 'need–solution pair' without prior problem formulation, and links this to serendipity research."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accidental sagacity, not sought",
+   "definition": "Serendipity is 'accidental sagacity': discoveries made by accident and sagacity of things one was not in quest of; finding something one was looking for does not count.",
+   "applies_when": "The person describes discovering something valuable by chance that they were not looking for, and recognising its worth.",
+   "does_not_apply_when": "The discovery was the object of a deliberate search; Walpole explicitly excludes finding what one is looking for.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Need and solution discovered together",
+   "definition": "A need and a solution are discovered at the same moment as a pair, and the problem is recognised only afterwards, if at all, once the new arrangement is compared with the old one.",
+   "applies_when": "The account says the person was not aware of a need or problem until they came across a solution, e.g. 'I wasn't thinking we had a problem, but now I see we do.'",
+   "does_not_apply_when": "The person first identified and formulated a problem and then searched for a solution to it.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p002:01",
+    "vonhippel2016-a67f44:p003:01",
+    "vonhippel2016-a67f44:p003:02"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c02"
+  },
+  {
+   "group": "type",
+   "label": "New-to-me vs new-to-the-world",
+   "definition": "A chance encounter can lead someone to adopt an existing need–solution pair that is new to them, or it can spark a new-to-the-world pair, such as an idea applied to an entirely different situation.",
+   "applies_when": "The account shows either adopting a solution that was encountered as-is, or being prompted by an encounter to invent something novel for another context.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p002:03",
+    "vonhippel2016-a67f44:p008:05"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c03"
+  },
+  {
+   "group": "type",
+   "label": "Serendipity within an existing problem",
+   "definition": "A serendipitous event triggers a new solution approach to a problem that is already formulated and being worked on, sometimes redirecting the search or restructuring the problem itself.",
+   "applies_when": "While working on a defined problem, an unexpected input surprises the person and leads them to a new solution path or a redefinition of the problem.",
+   "does_not_apply_when": "The chance event produces a solution to a problem that had not been formulated at all; code that as an unformulated need–solution pair.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance observation in another context",
+   "definition": "An unexpected sight, often from an unrelated context, prompts recognition of a need–solution pair. Examples are Sadow seeing a worker roll a heavy machine on a wheeled skid while carrying suitcases, and a bike baby carrier seen in a shop window.",
+   "applies_when": "The person recounts noticing something incidental, in an unrelated setting, that sparked an idea or a 'eureka moment.'",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p002:03",
+    "vonhippel2016-a67f44:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Unplanned browsing encounter",
+   "definition": "Undirected browsing exposes a person to solutions they then assess, as with walking through a trade show 'just to see what is new.'",
+   "applies_when": "The account describes open-ended browsing at trade shows, conferences, journals or repositories that produced an unexpected finding.",
+   "does_not_apply_when": "The visit was a targeted search for a specified solution.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p002:03",
+    "vonhippel2016-a67f44:p011:05"
+   ],
+   "pdf_pages": [
+    2,
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Side discovery during other search",
+   "definition": "A valuable finding emerges by accident while searching for something else, or an unintended effect is noticed by a user. Examples are Perkin finding synthetic dye while seeking quinine, and a patient noticing Botox's cosmetic effect.",
+   "applies_when": "The person describes an unintended by-product of their own or someone else's work that turned out to be valuable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Testing the pair for viability",
+   "definition": "After the chance discovery, the person mentally assesses whether the pair is worth adopting. They compare it with the existing situation and check whether its benefit is at least equal to its cost.",
+   "applies_when": "The account shows the person evaluating whether a chanced-upon idea fits their own context and is better than the current arrangement.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p003:01",
+    "vonhippel2016-a67f44:p006:02",
+    "vonhippel2016-a67f44:p008:04"
+   ],
+   "pdf_pages": [
+    3,
+    6,
+    8
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Acting on recognised value",
+   "definition": "The chance discovery is recognised as valuable and then acted on, sometimes by someone other than the one who noticed it. Examples are Sadow mounting casters on a suitcase at work, and a doctor acting on a patient's observation.",
+   "applies_when": "The person, or another person, moves from noticing something to building, trying or implementing it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p003:01",
+    "vonhippel2016-a67f44:p011:04"
+   ],
+   "pdf_pages": [
+    3,
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Treating the problem as variable",
+   "definition": "People treat a problem statement as disposable and alterable. They respond with a whole new need–solution pair that broadens the original question.",
+   "applies_when": "The account shows someone reframing or broadening the original goal when they meet an attractive alternative.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p008:05"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Making one's own luck",
+   "definition": "Serendipity can be treated as a capability or resource that involves conscious effort to turn chance into luck, rather than as a mere event.",
+   "applies_when": "The person describes deliberate strategies to put themselves in the way of, and exploit, fortunate accidents.",
+   "does_not_apply_when": "The account presents the event as pure luck with no effort to exploit it.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p011:04",
+    "vonhippel2016-a67f44:p011:05"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c11"
+  },
+  {
+   "group": "background",
+   "label": "Occupational context and agency",
+   "definition": "A person's role, tasks and intent provide mindfulness and selective attention that make recognising a relevant pair more likely. Sadow's job at a luggage company is the example given.",
+   "applies_when": "The person's job, responsibilities or ongoing tasks help explain why they noticed the opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p010:02",
+    "vonhippel2016-a67f44:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c12"
+  },
+  {
+   "group": "background",
+   "label": "Holding both need and solution knowledge",
+   "definition": "People who both experience a need themselves and have solution expertise, such as user innovators, are powerful developers of novel need–solution pairs.",
+   "applies_when": "The founder personally experienced the need and also had the skills to build the solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p011:01",
+    "vonhippel2016-a67f44:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Openness and creative traits",
+   "definition": "Openness to experience, curiosity, divergent and analogical thinking, and positive affect increase the ability to identify new need–solution pairs.",
+   "applies_when": "The account highlights curiosity, seeking new experiences, analogical leaps, or a positive mood that enabled the discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p010:03",
+    "vonhippel2016-a67f44:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Functional fixedness from prior experience",
+   "definition": "Familiar ways of using objects or familiar strategies block seeing novel uses. Creativity is higher when people apply approaches they do not routinely use.",
+   "applies_when": "The person mentions being stuck in habitual uses, or breaking out of routine approaches, as a factor in seeing or missing an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p010:04",
+    "vonhippel2016-a67f44:p010:05"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Rich browsing venues and tools",
+   "definition": "Exposure to rich browsing venues, and systems that add unexpected links, increase the number of possibly valuable accidents available to assess.",
+   "applies_when": "The account credits environments or tools that expose the person to diverse, unexpected information, such as trade shows, conferences, repositories or recommendation systems.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p011:05"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Complex need landscapes favour it",
+   "definition": "Pair discovery is likely to be effective when need landscapes are complex and many pairs are viable. Prior problem formulation is better when constraints limit the viable portion.",
+   "applies_when": "The setting is described as open with many possible directions; or, conversely, as tightly constrained.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p009:05",
+    "vonhippel2016-a67f44:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c17"
+  },
+  {
+   "group": "role",
+   "label": "Broad search for a business basis",
+   "definition": "Entrepreneurs without preexisting capabilities can search widely for what others do successfully. They then test those pairs against their own needs and capabilities as a possible basis for a venture.",
+   "applies_when": "A founder describes scanning broadly for any profitable idea, then checking whether it fits their own situation.",
+   "does_not_apply_when": "A narrowly specified problem drove the search.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p012:05"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c18"
+  },
+  {
+   "group": "outcome",
+   "label": "Avoids formulation costs and constraints",
+   "definition": "Discovering pairs without problem formulation removes the costs of formulating a problem. It also removes the constraints that any formulation places on possible solutions, giving access to options that would otherwise be hidden.",
+   "applies_when": "The account shows an opportunity arrived at that would have been ruled out or never considered under a predefined problem statement.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p002:02",
+    "vonhippel2016-a67f44:p009:01"
+   ],
+   "pdf_pages": [
+    2,
+    9
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c19"
+  },
+  {
+   "group": "rival",
+   "label": "Exhaustive search of formulated problem",
+   "definition": "The authors raise, in order to criticise, the conventional view that exhaustive search of a well-defined solution landscape for a prespecified problem yields richer results than serendipitous pair discovery. They argue that its richness is illusory.",
+   "applies_when": "The outcome is explained by systematic search from a predefined problem rather than by chance encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c20"
+  },
+  {
+   "group": "rival",
+   "label": "Iterative problem reformulation",
+   "definition": "Viable pairs can also be reached by deliberate trial-and-error reformulation, such as rapid prototyping with users, rather than by chance.",
+   "applies_when": "The venture idea emerged through planned iterative cycles of prototype testing and revising the problem.",
+   "does_not_apply_when": "An unexpected external encounter, rather than planned iteration, produced the pair.",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p013:02",
+    "vonhippel2016-a67f44:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c21"
+  },
+  {
+   "group": "rival",
+   "label": "Garbage-can linking of preformulated items",
+   "definition": "In the garbage can model, already formulated problems and solutions are linked through managerial decisions. The authors distinguish this from discovering pairs from raw need and solution information.",
+   "applies_when": "The account describes matching existing, already articulated problems with available solutions through decision processes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vonhippel2016-a67f44:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "vonhippel2016-a67f44:c22"
+  }
+ ],
+ "removed": []
+}

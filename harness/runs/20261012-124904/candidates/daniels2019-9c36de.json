@@ -1,0 +1,58 @@
+{
+ "paper_id": "daniels2019-9c36de",
+ "file": "papers/pdf/Daniels and Wang - 2019 - Success, Is It Luck or Is It Hard Work.pdf",
+ "about": [
+  "An economics survey study, using World Values Survey data, of which personal and national characteristics predict whether people believe success comes from luck and connections or from hard work."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "account",
+   "label": "Attributing success to luck and connections",
+   "definition": "A person explains success as mainly a matter of luck and connections rather than the result of effort.",
+   "applies_when": "The interviewee says that how things turned out, or success in general, came down mainly to luck and who they knew, rather than to their own effort.",
+   "does_not_apply_when": "The interviewee credits the outcome mainly to their own hard work; code that as the effort attribution instead.",
+   "passage_ids": [
+    "daniels2019-9c36de:p003:01",
+    "daniels2019-9c36de:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "daniels2019-9c36de:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Hard work as explanation of success",
+   "definition": "The opposing view that, in the long run, hard work usually brings a better life, so outcomes are explained by effort rather than luck.",
+   "applies_when": "The interviewee explains outcomes by persistent effort and work rather than by chance events or connections.",
+   "does_not_apply_when": "The interviewee stresses luck, chance or connections as the main driver.",
+   "passage_ids": [
+    "daniels2019-9c36de:p003:01",
+    "daniels2019-9c36de:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "daniels2019-9c36de:c02"
+  },
+  {
+   "group": "condition",
+   "label": "Connections and social position shape luck attributions",
+   "definition": "The authors suggest that people with higher income or social status may have more connections through work and social life, benefit from them, and so see success as more driven by luck and connections.",
+   "applies_when": "The interviewee links outcomes they call lucky to the connections their work or social position gives them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "daniels2019-9c36de:p004:01"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "daniels2019-9c36de:c03"
+  }
+ ],
+ "removed": []
+}

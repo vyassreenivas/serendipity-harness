@@ -1,0 +1,334 @@
+{
+ "paper_id": "lane2020-d1934e",
+ "file": "papers/pdf/Lane et al - 2020 - Engineering Serendipity - When Does Knowledge Sharing Lead to Knowledge Production.pdf",
+ "about": [
+  "A field experiment at a medical research symposium testing how field and intellectual similarity between scientists shape whether engineered serendipitous face-to-face encounters lead to knowledge transfer, collaboration (copublication) and citation over six years."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Chance encounter with unmet people",
+   "definition": "A serendipitous encounter exposes a person to people they would not otherwise have met and to unfamiliar information that can be combined with their own knowledge.",
+   "applies_when": "The account describes meeting someone by chance (e.g., happening to attend the same talk or event) who the person would not otherwise have met, and encountering new information from them.",
+   "does_not_apply_when": "The meeting was deliberately sought out with a known, targeted partner; that is planned search, not a chance encounter.",
+   "passage_ids": [
+    "lane2020-d1934e:p002:01",
+    "lane2020-d1934e:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "lane2020-d1934e:c01"
+  },
+  {
+   "group": "type",
+   "label": "Engineered serendipity",
+   "definition": "Organizers deliberately create a common time and space (conferences, symposia, office redesigns) for encounters, removing some search costs of finding partners, while who meets whom remains unplanned.",
+   "applies_when": "The person describes an organized event or designed space that brought them into contact with someone new, where the specific contact was not planned.",
+   "does_not_apply_when": "Purely informal, unstructured chance meetings (hallways, watercoolers), which the authors contrast with structured conference encounters.",
+   "passage_ids": [
+    "lane2020-d1934e:p025:03",
+    "lane2020-d1934e:p002:01",
+    "lane2020-d1934e:p008:02"
+   ],
+   "pdf_pages": [
+    2,
+    8,
+    25
+   ],
+   "candidate_id": "lane2020-d1934e:c02"
+  },
+  {
+   "group": "type",
+   "label": "Focused vs informal encounters",
+   "definition": "Conference encounters differ from informal serendipitous encounters in hallways or at watercoolers because they focus the topic of knowledge sharing and idea exchange.",
+   "applies_when": "The account notes that a chance meeting happened in a setting organized around a specific topic, which shaped what was discussed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p026:02"
+   ],
+   "pdf_pages": [
+    26
+   ],
+   "candidate_id": "lane2020-d1934e:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Exposure to someone's presentation",
+   "definition": "Happening to hear another's presentation of their work sparks recognition that one could contribute to it.",
+   "applies_when": "The person describes by chance attending a talk or poster and realizing their own capabilities could improve the presenter's work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "lane2020-d1934e:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Approaching and following up",
+   "definition": "The person acts on the encounter, approaching the other after the talk, and the conversation evolves into a collaboration.",
+   "applies_when": "The account describes initiating contact after a chance exposure and the conversation developing into joint work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "lane2020-d1934e:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Discovering complementarities",
+   "definition": "Encounters let diverse partners exchange information, build intellectual links and discover potential complementarities they offer each other.",
+   "applies_when": "The person describes realizing during an encounter that their skills or knowledge fit with the other's.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "lane2020-d1934e:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Repeated interaction to build relationship",
+   "definition": "Developing an initial encounter into a multiplex, productive relationship requires time and repeated interactions.",
+   "applies_when": "The account describes further meetings and sustained contact after the first encounter before joint output emerged.",
+   "does_not_apply_when": "A one-off exchange with no subsequent relationship.",
+   "passage_ids": [
+    "lane2020-d1934e:p009:01",
+    "lane2020-d1934e:p026:01"
+   ],
+   "pdf_pages": [
+    9,
+    26
+   ],
+   "candidate_id": "lane2020-d1934e:c07"
+  },
+  {
+   "group": "background",
+   "label": "Common knowledge to make sense",
+   "definition": "An encounter is effective only if people share enough common knowledge to understand each other's specialized knowledge and connect it to what they already know.",
+   "applies_when": "The person mentions shared background, training or interests that let them grasp the value of what the other offered.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p003:02",
+    "lane2020-d1934e:p006:02"
+   ],
+   "pdf_pages": [
+    3,
+    6
+   ],
+   "candidate_id": "lane2020-d1934e:c08"
+  },
+  {
+   "group": "background",
+   "label": "Field similarity",
+   "definition": "Overlap in educational background, skills and training; aids early-stage collaborations but same-field partners may become competitive.",
+   "applies_when": "The account references sharing (or not) the same discipline or professional training with the person met.",
+   "does_not_apply_when": "Overlap in personal research interests or passions, which is intellectual similarity.",
+   "passage_ids": [
+    "lane2020-d1934e:p005:03",
+    "lane2020-d1934e:p006:03"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "lane2020-d1934e:c09"
+  },
+  {
+   "group": "background",
+   "label": "Intellectual similarity",
+   "definition": "Overlap in personal interests, passions and pursuits, which can span fields; moderate overlap aided learning from encounters.",
+   "applies_when": "The person notes shared topical interests or passions with the encounter partner, possibly across different fields.",
+   "does_not_apply_when": "Shared formal discipline or training (field similarity).",
+   "passage_ids": [
+    "lane2020-d1934e:p006:01",
+    "lane2020-d1934e:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "lane2020-d1934e:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Moderate similarity sweet spot",
+   "definition": "Encounters are most productive when partners share some but not too much overlap; too little overlap prevents absorption, too much offers few novel ideas.",
+   "applies_when": "The account describes the partner as different enough to bring new ideas yet similar enough to communicate easily.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p007:02",
+    "lane2020-d1934e:p007:03",
+    "lane2020-d1934e:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    7
+   ],
+   "candidate_id": "lane2020-d1934e:c11"
+  },
+  {
+   "group": "condition",
+   "label": "High overlap breeds competition",
+   "definition": "When partners have highly overlapping interests, encounters can reveal similar projects, heightening competition, a need to differentiate and withholding of recognition.",
+   "applies_when": "The person describes meeting someone doing very similar work and reacting with rivalry, differentiation or reluctance to credit them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p009:03",
+    "lane2020-d1934e:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "lane2020-d1934e:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Search costs and frictions",
+   "definition": "Search costs and information frictions normally constrain whom people collaborate with; serendipitous encounters lower these costs.",
+   "applies_when": "The account notes that without the encounter they would not have known about or found the partner.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p008:02",
+    "lane2020-d1934e:p025:03"
+   ],
+   "pdf_pages": [
+    8,
+    25
+   ],
+   "candidate_id": "lane2020-d1934e:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Collaboration costs and matching",
+   "definition": "Turning encounters into joint work is costly, requiring coordinated effort, aligned incentives, trust, creative synergy and compatibility of personality and schedules.",
+   "applies_when": "The person discusses hurdles like aligning incentives, trust, personalities or schedules after meeting someone.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p002:02",
+    "lane2020-d1934e:p009:01"
+   ],
+   "pdf_pages": [
+    2,
+    9
+   ],
+   "candidate_id": "lane2020-d1934e:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Proximity and incentives",
+   "definition": "Geographic proximity increases the likelihood of serendipitous encounters, and incentives like grant funding can draw people into encounter settings.",
+   "applies_when": "The account cites being nearby or attracted by funding/incentives to the setting where the encounter occurred.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p003:01",
+    "lane2020-d1934e:p026:02",
+    "lane2020-d1934e:p026:04"
+   ],
+   "pdf_pages": [
+    3,
+    26
+   ],
+   "candidate_id": "lane2020-d1934e:c15"
+  },
+  {
+   "group": "role",
+   "label": "Starting new collaborations",
+   "definition": "Serendipitous encounters can spark new collaborations, as in the three-lab collaboration that arose from a chance conference talk.",
+   "applies_when": "A new partnership or joint project is traced to a chance encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p002:01",
+    "lane2020-d1934e:p003:01",
+    "lane2020-d1934e:p025:03"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    25
+   ],
+   "candidate_id": "lane2020-d1934e:c16"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting trajectories",
+   "definition": "Encounters can reshape people's research directions, steering them toward the event's topic and broadening their networks.",
+   "applies_when": "The person describes changing direction or focus after an encounter.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p022:01",
+    "lane2020-d1934e:p004:03",
+    "lane2020-d1934e:p026:02"
+   ],
+   "pdf_pages": [
+    4,
+    22,
+    26
+   ],
+   "candidate_id": "lane2020-d1934e:c17"
+  },
+  {
+   "group": "outcome",
+   "label": "Learning and integrating outside work",
+   "definition": "Encounters let people learn about outside work and integrate it into their own subsequent work.",
+   "applies_when": "The account reports adopting ideas, methods or concepts learned from the encounter partner.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p025:01",
+    "lane2020-d1934e:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    25
+   ],
+   "candidate_id": "lane2020-d1934e:c18"
+  },
+  {
+   "group": "outcome",
+   "label": "Slow, delayed payoff",
+   "definition": "Results from encounters may emerge slowly, only after years, and short-term frictions are harder to overcome than long-term ones.",
+   "applies_when": "The person notes that benefits from a chance meeting appeared long after it happened.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p002:02",
+    "lane2020-d1934e:p004:03",
+    "lane2020-d1934e:p026:01"
+   ],
+   "pdf_pages": [
+    2,
+    4,
+    26
+   ],
+   "candidate_id": "lane2020-d1934e:c19"
+  },
+  {
+   "group": "rival",
+   "label": "Homophily and prior ties",
+   "definition": "Collaborations may instead form through preference for similar others or persistence of prior ties, not chance encounters.",
+   "applies_when": "The partnership is explained by pre-existing relationships or seeking out similar others rather than an unexpected meeting.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "lane2020-d1934e:p008:01",
+    "lane2020-d1934e:p008:03",
+    "lane2020-d1934e:p026:01"
+   ],
+   "pdf_pages": [
+    8,
+    26
+   ],
+   "candidate_id": "lane2020-d1934e:c20"
+  }
+ ],
+ "removed": []
+}

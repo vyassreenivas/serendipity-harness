@@ -1,0 +1,201 @@
+{
+ "paper_id": "merton2004-3372c0",
+ "file": "papers/pdf/Merton and Barber - 2004 - Dictionaries and Serendipity.pdf",
+ "about": [
+  "A chapter tracing how English dictionaries from 1909 to the 1950s defined and derived 'serendipity', compared against Walpole's original coinage, showing which components of the concept (accident, sagacity, unsought finds, value, by-product of another search, faculty vs. luck) were kept, altered or lost."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Finding what was not sought",
+   "definition": "Walpole's core condition: serendipity is a discovery of things one was not in quest of; finding something one was looking for does not count.",
+   "applies_when": "The person describes coming upon an opportunity, fact or resource they were not looking for at the time.",
+   "does_not_apply_when": "The person found what they were deliberately searching for; Walpole explicitly excludes this.",
+   "passage_ids": [
+    "merton2004-3372c0:p006:02",
+    "merton2004-3372c0:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "merton2004-3372c0:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Accident joined with sagacity",
+   "definition": "Serendipity requires accident and sagacity operating together. The authors criticise definitions that use 'chance or sagacity' because they lose the idea that both factors work in conjunction.",
+   "applies_when": "The account shows both a chance occurrence and the person's discernment acting together to produce the discovery.",
+   "does_not_apply_when": "Only chance is involved (pure luck) or only skilled inference is involved (e.g., the mule example, which the authors call simple inductive ability).",
+   "passage_ids": [
+    "merton2004-3372c0:p014:02",
+    "merton2004-3372c0:p006:02",
+    "merton2004-3372c0:p006:03"
+   ],
+   "pdf_pages": [
+    6,
+    14
+   ],
+   "candidate_id": "merton2004-3372c0:c02"
+  },
+  {
+   "group": "background",
+   "label": "Sagacity as intuitive field familiarity",
+   "definition": "For Walpole, a sagacious person knows their way around and has an intuitive familiarity with the field in which the accidental discovery is made. This quality of mind lets them take advantage of unanticipated occurrences.",
+   "applies_when": "The person's prior knowledge or familiarity with a domain lets them recognise the significance of an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-3372c0:c03"
+  },
+  {
+   "group": "type",
+   "label": "By-product of another search",
+   "definition": "A later meaning, introduced through Solly's usage, holds that serendipity is 'looking for one thing and finding another', a discovery made while actively searching for something else. Walpole did not imply this.",
+   "applies_when": "The unexpected find occurred while the person was actively pursuing a different goal or search.",
+   "does_not_apply_when": "The find was unsought but did not arise during any other search, which is Walpole's broader sense.",
+   "passage_ids": [
+    "merton2004-3372c0:p010:02",
+    "merton2004-3372c0:p007:02",
+    "merton2004-3372c0:p016:01"
+   ],
+   "pdf_pages": [
+    7,
+    10,
+    16
+   ],
+   "candidate_id": "merton2004-3372c0:c04"
+  },
+  {
+   "group": "definition",
+   "label": "Unsought versus unsuspected",
+   "definition": "The authors note it is unclear whether the discovered thing need only be not sought at the moment of discovery, or must have been unknown and unsuspected by the discoverer.",
+   "applies_when": "Coders need to distinguish finds the person knew of but was not pursuing at the time from finds whose existence they had not suspected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-3372c0:c05"
+  },
+  {
+   "group": "type",
+   "label": "Recurrent versus one-off",
+   "definition": "Serendipity may be a recurrent experience, as with Walpole's 'talisman' and the princes who were 'always making discoveries'. It may also be a single instance, as with Shaftesbury.",
+   "applies_when": "The person describes either a repeated pattern of fortunate finds or a single unique occurrence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "merton2004-3372c0:c06"
+  },
+  {
+   "group": "type",
+   "label": "Personal faculty versus luck",
+   "definition": "Dictionaries variously treat serendipity as a personal quality (faculty, gift, ability, aptitude) or as an array of external circumstances (luck). The authors flag this as an unresolved confusion.",
+   "applies_when": "The account attributes the find either to the person's own capacity or to fortunate external circumstances.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p008:02",
+    "merton2004-3372c0:p009:01",
+    "merton2004-3372c0:p014:01"
+   ],
+   "pdf_pages": [
+    8,
+    9,
+    14
+   ],
+   "candidate_id": "merton2004-3372c0:c07"
+  },
+  {
+   "group": "rival",
+   "label": "Sheer luck",
+   "definition": "Defining serendipity as sheer luck or mere good fortune distorts its meaning, because it leaves out the minimal activity and sagacity involved in pursuing it.",
+   "applies_when": "The person explains the event as pure good fortune with no role for their own discernment or activity.",
+   "does_not_apply_when": "The account includes the person's own perception or action in exploiting the chance event.",
+   "passage_ids": [
+    "merton2004-3372c0:p016:02",
+    "merton2004-3372c0:p014:03"
+   ],
+   "pdf_pages": [
+    14,
+    16
+   ],
+   "candidate_id": "merton2004-3372c0:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipity as cultivable habit",
+   "definition": "Partridge's 'habit' implies that serendipity can be acquired or cultivated. The authors note this meaning had currency among scientists.",
+   "applies_when": "The person describes deliberately cultivating practices or dispositions that make fortunate unexpected finds more likely.",
+   "does_not_apply_when": "The person treats the capacity as an innate gift.",
+   "passage_ids": [
+    "merton2004-3372c0:p015:03"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "merton2004-3372c0:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Kinds of things found",
+   "definition": "Definitions differ on what serendipity yields: interesting items of information, unexpected proofs of one's theories, or valuable concrete objects. Walpole himself specified neither the kind nor the value of the finds.",
+   "applies_when": "The account specifies what the unexpected find was: information, confirmation of an idea, or a tangible valuable resource.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p009:01",
+    "merton2004-3372c0:p011:02",
+    "merton2004-3372c0:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    9,
+    11
+   ],
+   "candidate_id": "merton2004-3372c0:c10"
+  },
+  {
+   "group": "account",
+   "label": "Reward for diligence versus inspiration",
+   "definition": "Shipley's examples suggest two contrasting meanings. One is an unexpectedly great reward for dutiful activity (Saul finding a kingdom). The other is something like inspiration bestowed mysteriously.",
+   "applies_when": "The person narrates the find either as an earned reward for diligent effort or as an unearned, inspired gift.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p014:03",
+    "merton2004-3372c0:p015:01"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "merton2004-3372c0:c11"
+  },
+  {
+   "group": "definition",
+   "label": "Unexpected in time or place",
+   "definition": "Unexpectedness may concern when a find occurs (Walpole's apparent sense) or where it is found ('where one least expects them').",
+   "applies_when": "The account stresses that the find came at an unexpected moment or in an unexpected location or setting.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-3372c0:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "merton2004-3372c0:c12"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,176 @@
+{
+ "paper_id": "grimes2018-91eafb",
+ "file": "papers/pdf/Grimes - 2018 - The Pivot - How Founders Respond to Feedback through Idea and Identity Work.pdf",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026; Kirtley and Shah replies corrected after reading the cited passages in full",
+ "reply_sha256": "595ba5002003ad94453942b0a7dc8343a0527b129c67a1c19a68c40512afe7cb",
+ "about": [
+  "How entrepreneurs who feel strong ownership of their ideas respond to critical feedback, and how they either hold on to, sharpen or pivot away from the original idea."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "role",
+   "label": "Pivot after outside feedback",
+   "definition": "Feedback from others leads the founder to change the idea itself, abandoning part of the original concept for a new direction.",
+   "applies_when": "The founder says outside feedback made them drop or substantially change the original idea.",
+   "does_not_apply_when": "Feedback only refined the wording or framing while the founder kept the core idea; that is sharpening, not pivoting.",
+   "passage_ids": [
+    "grimes2018-91eafb:p017:04",
+    "grimes2018-91eafb:p018:01",
+    "grimes2018-91eafb:p012:02"
+   ],
+   "pdf_pages": [
+    12,
+    17,
+    18
+   ],
+   "candidate_id": "grimes2018-91eafb:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Feedback that sharpens the idea",
+   "definition": "Critical feedback prompts the founder to restate the idea more clearly around what they care about, keeping its core.",
+   "applies_when": "The founder describes feedback that made them clarify what the idea is really about without abandoning it.",
+   "does_not_apply_when": "The feedback led to a different idea altogether (a pivot).",
+   "passage_ids": [
+    "grimes2018-91eafb:p013:01",
+    "grimes2018-91eafb:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "grimes2018-91eafb:c02"
+  },
+  {
+   "group": "condition",
+   "label": "Psychological ownership of the idea",
+   "definition": "The more founders feel the idea is theirs, the more they resist feedback that would change it.",
+   "applies_when": "The founder describes the idea as personally theirs and pushes back on suggested changes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p004:03",
+    "grimes2018-91eafb:p004:04",
+    "grimes2018-91eafb:p022:03"
+   ],
+   "pdf_pages": [
+    4,
+    22
+   ],
+   "candidate_id": "grimes2018-91eafb:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Abstracting the idea to its core",
+   "definition": "Founders respond to criticism by moving the idea to a more abstract level so that the core survives while details change.",
+   "applies_when": "The founder restates the idea at a higher level (the purpose or need) after criticism of specifics.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p014:02",
+    "grimes2018-91eafb:p014:03",
+    "grimes2018-91eafb:p016:04"
+   ],
+   "pdf_pages": [
+    14,
+    16
+   ],
+   "candidate_id": "grimes2018-91eafb:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Treating ideas as hypotheses to test",
+   "definition": "Some founders treat their idea as a hypothesis that feedback can confirm or refute.",
+   "applies_when": "The founder describes testing the idea and being willing to change it on the evidence.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p014:04",
+    "grimes2018-91eafb:p015:02"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "grimes2018-91eafb:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Collective sensemaking with others",
+   "definition": "Working through feedback with co-founders or others shapes whether and how the idea changes.",
+   "applies_when": "The founder describes interpreting feedback together with others before deciding what to change.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p018:03",
+    "grimes2018-91eafb:p018:04",
+    "grimes2018-91eafb:p024:03"
+   ],
+   "pdf_pages": [
+    18,
+    24
+   ],
+   "candidate_id": "grimes2018-91eafb:c06"
+  },
+  {
+   "group": "background",
+   "label": "Breadth of prior experience",
+   "definition": "Founders with broader experience across domains respond differently to feedback on their idea.",
+   "applies_when": "The founder draws on varied past work or domains when deciding how to respond to feedback.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p019:03",
+    "grimes2018-91eafb:p019:04"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "grimes2018-91eafb:c07"
+  },
+  {
+   "group": "account",
+   "label": "Visionary versus scientist self-image",
+   "definition": "Founders narrate themselves either as visionaries who hold to the idea or as scientists who test it.",
+   "applies_when": "The founder describes their stance toward the idea as visionary conviction or as experimental testing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p015:02",
+    "grimes2018-91eafb:p015:03",
+    "grimes2018-91eafb:p016:02"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "grimes2018-91eafb:c08"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate lean testing",
+   "definition": "Changes to the idea can come from deliberate, planned testing with customers rather than from unexpected input.",
+   "applies_when": "The change followed a planned test or experiment the founder set up on purpose.",
+   "does_not_apply_when": "The input that changed the idea was unsought or unexpected.",
+   "passage_ids": [
+    "grimes2018-91eafb:p015:02"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "grimes2018-91eafb:c09"
+  },
+  {
+   "group": "account",
+   "label": "Idea described as sparked or born",
+   "definition": "Founders describe the origin of their idea as a spark or birth, a sudden moment rather than a search.",
+   "applies_when": "The founder narrates the idea as sparked, born or arriving at a moment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "grimes2018-91eafb:p008:02",
+    "grimes2018-91eafb:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "grimes2018-91eafb:c10"
+  }
+ ],
+ "removed": []
+}

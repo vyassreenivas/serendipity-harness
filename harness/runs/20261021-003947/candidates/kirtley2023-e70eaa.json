@@ -1,0 +1,182 @@
+{
+ "paper_id": "kirtley2023-e70eaa",
+ "file": "papers/pdf/Kirtley and O'Mahony - 2023 - What Is a Pivot - Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot.pdf",
+ "read_by": "Claude Opus 5.5 in a Claude Code session (not the API), 21 Oct 2026; Kirtley and Shah replies corrected after reading the cited passages in full",
+ "reply_sha256": "933402cc7049f337c8922b16a4cc732067a29b681fb8c7c80775d6a380a70db3",
+ "about": [
+  "How new ventures come to pivot through a series of smaller decisions, often prompted by unanticipated opportunities met after founding, rather than one planned change."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Unanticipated opportunity after founding",
+   "definition": "After the venture is started, an opportunity the founders did not anticipate appears and starts a change of direction.",
+   "applies_when": "The founder describes an opportunity they had not looked for that arose once the venture was running.",
+   "does_not_apply_when": "The new direction came from a planned search or a scheduled strategy review.",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p021:03",
+    "kirtley2023-e70eaa:p022:01",
+    "kirtley2023-e70eaa:p029:03"
+   ],
+   "pdf_pages": [
+    21,
+    22,
+    29
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Casual conversation reveals an opportunity",
+   "definition": "An informal conversation, not aimed at the venture's strategy, surfaces a new possibility.",
+   "applies_when": "The founder credits an offhand or social conversation with revealing an opportunity.",
+   "does_not_apply_when": "The conversation was a planned customer interview or pitch.",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p022:01",
+    "kirtley2023-e70eaa:p022:02",
+    "kirtley2023-e70eaa:p014:02"
+   ],
+   "pdf_pages": [
+    14,
+    22
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unsolicited approach from outside",
+   "definition": "A customer, partner or other party approaches the venture unasked with a request or offer that opens a new direction.",
+   "applies_when": "Someone outside contacts the founder on their own initiative with an offer or request.",
+   "does_not_apply_when": "The founder sought out the contact.",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p015:01",
+    "kirtley2023-e70eaa:p022:03",
+    "kirtley2023-e70eaa:p015:02"
+   ],
+   "pdf_pages": [
+    15,
+    22
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Discovery during own product work",
+   "definition": "While developing their own product, the team finds something that suggests a different use or market.",
+   "applies_when": "The founder describes finding a new possibility in the course of building or testing their product.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p018:01",
+    "kirtley2023-e70eaa:p018:02",
+    "kirtley2023-e70eaa:p006:01"
+   ],
+   "pdf_pages": [
+    6,
+    18
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c04"
+  },
+  {
+   "group": "role",
+   "label": "Pivot that accumulates over steps",
+   "definition": "The change of direction builds up through several smaller decisions rather than one deliberate switch.",
+   "applies_when": "The founder describes a series of small moves that together amounted to a new direction.",
+   "does_not_apply_when": "A single, planned decision changed the venture's direction.",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p012:01",
+    "kirtley2023-e70eaa:p023:02",
+    "kirtley2023-e70eaa:p026:01"
+   ],
+   "pdf_pages": [
+    12,
+    23,
+    26
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Expanding beliefs and language",
+   "definition": "Founders widen what they believe the venture is and how they describe it, which lets the new opportunity fit.",
+   "applies_when": "The founder describes redefining what the company does, or changing how they talk about it, to take in a new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p018:02",
+    "kirtley2023-e70eaa:p021:03",
+    "kirtley2023-e70eaa:p022:02"
+   ],
+   "pdf_pages": [
+    18,
+    21,
+    22
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Considering a change and deciding against it",
+   "definition": "After a trigger, firms often consider changing strategy and then reject the change, keeping their strategy with at most small adjustments.",
+   "applies_when": "The founder describes weighing an unexpected problem or opportunity and choosing not to change course.",
+   "does_not_apply_when": "The founder never noticed or considered the opportunity at all.",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p013:02",
+    "kirtley2023-e70eaa:p016:01"
+   ],
+   "pdf_pages": [
+    13,
+    16
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Acting in the market surfaces opportunities",
+   "definition": "Opportunities appear because the founders are actively doing things in the market, not by waiting or planning.",
+   "applies_when": "The founder links the opportunity to activity already under way, such as selling or building.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p029:04",
+    "kirtley2023-e70eaa:p028:04"
+   ],
+   "pdf_pages": [
+    28,
+    29
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c08"
+  },
+  {
+   "group": "account",
+   "label": "Pivot named only in hindsight",
+   "definition": "Founders recognise and label the change as a pivot only after it has happened.",
+   "applies_when": "The founder says they only realised later that they had changed direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p026:01",
+    "kirtley2023-e70eaa:p027:01"
+   ],
+   "pdf_pages": [
+    26,
+    27
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Board resists tangents",
+   "definition": "Investors or board members discourage the founders from following side opportunities, even surprising ones.",
+   "applies_when": "The founder describes investors or a board pushing back on following an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirtley2023-e70eaa:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "kirtley2023-e70eaa:c10"
+  }
+ ],
+ "removed": []
+}

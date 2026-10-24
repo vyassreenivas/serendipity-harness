@@ -1,0 +1,4 @@
+-r harness/requirements.txt
+# codebook tools and figures
+openpyxl>=3.1
+matplotlib>=3.8

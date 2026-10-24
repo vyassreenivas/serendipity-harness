@@ -1,0 +1,180 @@
+{
+ "paper_id": "merton2004-c442b8",
+ "file": "papers/pdf/Merton and Barber - 2004 - A Note on Serendipity as a Political Metaphor.pdf",
+ "about": [
+  "A chapter tracing how 'serendipity' was used as a political metaphor in American commentary, from Johnson's view of the New Deal's unplanned windfalls to Reston's pejorative use for wishful, deceptive optimism."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Finding valued things while seeking others",
+   "definition": "Serendipity is discovering interesting, delightful or valuable things while hunting for something quite different; the find is unexpected and unsought.",
+   "applies_when": "Account describes coming across something valuable or pleasing while pursuing a different aim.",
+   "does_not_apply_when": "The valued result was the intended target of the search, or was anticipated in planning.",
+   "passage_ids": [
+    "merton2004-c442b8:p003:02",
+    "merton2004-c442b8:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "merton2004-c442b8:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Chance or sagacity",
+   "definition": "Drawing on Walpole's tale, serendipity involves discovering, by chance or by sagacity, wonderful things not sought, without being dismayed by misfortune.",
+   "applies_when": "Account credits an unsought discovery to a mix of luck and the discoverer's shrewdness or perceptiveness.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-c442b8:p004:02",
+    "merton2004-c442b8:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-c442b8:c02"
+  },
+  {
+   "group": "outcome",
+   "label": "Unplanned by-product windfalls",
+   "definition": "Serendipity as unexpected positive consequences or 'velvet' that accompany a planned program but were not its purpose, such as unforeseen financial gains.",
+   "applies_when": "Person reports a benefit that arose incidentally from an initiative undertaken for another reason.",
+   "does_not_apply_when": "The benefit was an explicit goal of the initiative.",
+   "passage_ids": [
+    "merton2004-c442b8:p003:02",
+    "merton2004-c442b8:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "merton2004-c442b8:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Planning makes surprises visible",
+   "definition": "A strong stress on planning makes unexpected benefits more conspicuous and more appreciated, because they stand out against what was planned.",
+   "applies_when": "Account notes that an unexpected gain was noticed or valued because it departed from a deliberate plan.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-c442b8:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "merton2004-c442b8:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Assisting things to turn up",
+   "definition": "The contrast, via Mrs. Micawber, between expecting good things to turn up of themselves and actively helping to turn them up; the latter is endorsed over passive waiting.",
+   "applies_when": "Person describes actively creating conditions for lucky breaks rather than waiting for them.",
+   "does_not_apply_when": "Person simply waits and hopes something will happen without acting.",
+   "passage_ids": [
+    "merton2004-c442b8:p002:01",
+    "merton2004-c442b8:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "merton2004-c442b8:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Step-by-step piecemeal approach",
+   "definition": "Pragmatic, piecemeal policymaking that does not anticipate each step's consequences far ahead, as opposed to grand comprehensive plans, implicitly leaves room for accidental success.",
+   "applies_when": "Account describes proceeding incrementally without a fixed comprehensive plan, leaving openness to the unforeseen.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-c442b8:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "merton2004-c442b8:c06"
+  },
+  {
+   "group": "outcome",
+   "label": "Morale boost from unexpected good luck",
+   "definition": "Unexpected good luck works like a surprise gift that keeps people expectant and raises morale, offsetting unexpected bad luck.",
+   "applies_when": "Person reports that a lucky surprise energized them, raised spirits or kept them motivated.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-c442b8:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "merton2004-c442b8:c07"
+  },
+  {
+   "group": "type",
+   "label": "Different forms of serendipitous find",
+   "definition": "Serendipitous discoveries can take different forms: a personality, an institution, or a broadening of one's mental horizon.",
+   "applies_when": "Account describes unexpectedly encountering a person, organization, or new perspective.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-c442b8:p003:02",
+    "merton2004-c442b8:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "merton2004-c442b8:c08"
+  },
+  {
+   "group": "rival",
+   "label": "Wishful 'something will turn up' optimism",
+   "definition": "A critical use of serendipity as shallow, Micawberish opportunism: deception and self-deception, believing something will turn up while pretending all is well and ignoring real problems.",
+   "applies_when": "Account invokes luck or 'things will work out' to avoid facing evident problems, rather than describing an actual unsought discovery.",
+   "does_not_apply_when": "An actual unexpected discovery was noticed and acted upon with alertness and activity.",
+   "passage_ids": [
+    "merton2004-c442b8:p004:02",
+    "merton2004-c442b8:p005:02"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-c442b8:c09"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity as alertness and activity",
+   "definition": "Among scientists, serendipity carries positive associations of alertness, imaginativeness and activity, as opposed to unearned increments or passive luck.",
+   "applies_when": "Person narrates a lucky find as resulting from their own alertness, imagination or active effort.",
+   "does_not_apply_when": "Person frames the gain as an unearned windfall that simply happened to them.",
+   "passage_ids": [
+    "merton2004-c442b8:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "merton2004-c442b8:c10"
+  },
+  {
+   "group": "account",
+   "label": "Credit and unearned increments",
+   "definition": "Unexpected benefits may be narrated as unearned increments of a plan, with planners credited for what they planned but not necessarily for the surprises.",
+   "applies_when": "Account distinguishes between credit for planned results and windfalls that came without deliberate effort.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-c442b8:p004:01",
+    "merton2004-c442b8:p005:02"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "merton2004-c442b8:c11"
+  }
+ ],
+ "removed": []
+}

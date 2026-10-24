@@ -1,0 +1,261 @@
+{
+ "paper_id": "kirzner1997-178322",
+ "file": "papers/pdf/Kirzner - 1997 - Entrepreneurial Discovery and the Competitive Market Process An Austrian Approach.pdf",
+ "about": [
+  "Kirzner sets out the Austrian entrepreneurial discovery approach: alert entrepreneurs, surprised by opportunities they had overlooked, discover profit opportunities created by earlier errors and so drive the market toward equilibrium."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Discovery marked by surprise",
+   "definition": "Genuine discovery reduces sheer ignorance, meaning ignorance one did not know one had. It always comes with surprise at realising one had overlooked something that was readily available (\"It was under my very nose!\").",
+   "applies_when": "The person describes realising something they had not known they were missing, with a sense of surprise that it had been in front of them all along.",
+   "does_not_apply_when": "The person knew what information they lacked and went looking for it. That is search, not discovery.",
+   "passage_ids": [
+    "kirzner1997-178322:p004:02",
+    "kirzner1997-178322:p014:01",
+    "kirzner1997-178322:p017:03"
+   ],
+   "pdf_pages": [
+    4,
+    14,
+    17
+   ],
+   "candidate_id": "kirzner1997-178322:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate systematic search",
+   "definition": "Search is a deliberate, production-like process for finding information the searcher knows is missing and knows how to find. A pure profit opportunity cannot be the object of systematic search, because nobody knows it is there to look for.",
+   "applies_when": "The account describes a planned search for known-to-be-missing information, such as market research to fill a recognised gap, offered as how the opportunity was found.",
+   "does_not_apply_when": "The opportunity was not something the person knew to look for and was noticed unexpectedly.",
+   "passage_ids": [
+    "kirzner1997-178322:p013:03",
+    "kirzner1997-178322:p013:04",
+    "kirzner1997-178322:p017:03"
+   ],
+   "pdf_pages": [
+    13,
+    17
+   ],
+   "candidate_id": "kirzner1997-178322:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck or windfall",
+   "definition": "Kirzner places discovery midway between deliberate search and a sheer windfall produced by pure chance. Discovery is not simply the fortuitous outcome of undeserved luck, nor an implausible series of happy accidents.",
+   "applies_when": "The person attributes the opportunity entirely to chance or a windfall, with no part played by their own noticing or readiness.",
+   "does_not_apply_when": "The person credits their own alertness or readiness to notice what was available. That is entrepreneurial alertness.",
+   "passage_ids": [
+    "kirzner1997-178322:p014:03",
+    "kirzner1997-178322:p017:03",
+    "kirzner1997-178322:p014:01"
+   ],
+   "pdf_pages": [
+    14,
+    17
+   ],
+   "candidate_id": "kirzner1997-178322:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Entrepreneurial alertness",
+   "definition": "Alertness is a natural attitude of receptiveness to available but overlooked opportunities. The entrepreneur is always spontaneously on the lookout, scanning the horizon without knowing what to look for, and discovery is attributable in significant degree to this alertness.",
+   "applies_when": "The person describes being generally open or watchful for possibilities, without a specific target, and noticing an opportunity as a result.",
+   "does_not_apply_when": "The person was pursuing a defined, targeted search.",
+   "passage_ids": [
+    "kirzner1997-178322:p014:01",
+    "kirzner1997-178322:p014:02",
+    "kirzner1997-178322:p017:04"
+   ],
+   "pdf_pages": [
+    14,
+    17
+   ],
+   "candidate_id": "kirzner1997-178322:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Readiness to act on surprises",
+   "definition": "An entrepreneurial attitude is always ready to be surprised and always ready to take the steps needed to profit from such surprises. Boldness and imagination turn the noticed opportunity into action.",
+   "applies_when": "The person, after an unexpected realisation, boldly takes steps to exploit it.",
+   "does_not_apply_when": "The person noticed something but did not act on it.",
+   "passage_ids": [
+    "kirzner1997-178322:p014:02",
+    "kirzner1997-178322:p006:03",
+    "kirzner1997-178322:p015:01"
+   ],
+   "pdf_pages": [
+    6,
+    14,
+    15
+   ],
+   "candidate_id": "kirzner1997-178322:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Others' errors create opportunities",
+   "definition": "Opportunities for pure profit are created by earlier entrepreneurial errors that left shortages, surpluses or misallocated resources, such as goods selling for different prices in the same market. The alert entrepreneur discovers these errors.",
+   "applies_when": "The person describes noticing a gap, a mismatch, a price discrepancy, or a need that others had failed to serve, and building on it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p012:03",
+    "kirzner1997-178322:p013:03"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "kirzner1997-178322:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Market experience revealing errors",
+   "definition": "Market experience reveals that some planned courses of action will not work and that other, hitherto unnoticed courses of action are profitable. This lets a decision-maker discover an earlier error in their own view of the world and correct their plans.",
+   "applies_when": "The person describes feedback from the market showing their plan was mistaken and revealing a different, unexpected path that they then pursued.",
+   "does_not_apply_when": "The change of plan was driven by an external shift in conditions rather than by discovering one's own earlier error.",
+   "passage_ids": [
+    "kirzner1997-178322:p013:01",
+    "kirzner1997-178322:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "kirzner1997-178322:c07"
+  },
+  {
+   "group": "type",
+   "label": "Kinds of discovery",
+   "definition": "Discovery includes finding hitherto unknown natural resources, new kinds of output (product innovation), and new productive techniques that get more output from known inputs. Each creates something genuinely new.",
+   "applies_when": "The person describes discovering a new resource, a new product, or a new way of producing that was previously unimagined.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p017:03"
+   ],
+   "pdf_pages": [
+    17
+   ],
+   "candidate_id": "kirzner1997-178322:c08"
+  },
+  {
+   "group": "role",
+   "label": "Entry and rivalry on discovery",
+   "definition": "Having noticed an opportunity, entrepreneurs enter markets where they see profit and compete by offering consumers better deals than rivals, who have not been offering the best possible deals.",
+   "applies_when": "The person describes starting or entering a business to offer something better or cheaper than existing providers, after noticing they were falling short.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p015:01",
+    "kirzner1997-178322:p015:02"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "kirzner1997-178322:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Discovered gain or pure profit",
+   "definition": "Discovery yields discovered income: a gain from finding something valuable whose existence was wholly unknown, rather than a share of a given pie. Pure entrepreneurial profit is this kind of gain.",
+   "applies_when": "The person describes value or profit that arose from finding something nobody had known existed.",
+   "does_not_apply_when": "The return came from owning scarce assets, which Kirzner treats as rent rather than entrepreneurial profit.",
+   "passage_ids": [
+    "kirzner1997-178322:p017:02",
+    "kirzner1997-178322:p018:01",
+    "kirzner1997-178322:p011:04"
+   ],
+   "pdf_pages": [
+    11,
+    17,
+    18
+   ],
+   "candidate_id": "kirzner1997-178322:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Discovery may lead to losses",
+   "definition": "Entrepreneurial boldness and imagination can produce losses as well as profits. Entrepreneurs may misread the market, make matters worse, and generate further errors.",
+   "applies_when": "The person describes acting boldly on a perceived opportunity that turned out to be a misreading and led to losses.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p014:03",
+    "kirzner1997-178322:p023:03"
+   ],
+   "pdf_pages": [
+    14,
+    23
+   ],
+   "candidate_id": "kirzner1997-178322:c11"
+  },
+  {
+   "group": "account",
+   "label": "\"Under my very nose\" narrative",
+   "definition": "Afterwards people describe discovery as surprise at their earlier, unaccountable ignorance: realising that what they found had been readily available all along.",
+   "applies_when": "The person narrates the moment as \"it was right in front of me\" or expresses surprise at not having seen it before.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p014:01",
+    "kirzner1997-178322:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "kirzner1997-178322:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Profit incentive",
+   "definition": "The lure of pure profit is what makes people notice opportunities. The possibility of profit stimulates alertness and corrective discovery.",
+   "applies_when": "The person says the prospect of gain drew their attention to, or motivated them to pursue, an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p014:03",
+    "kirzner1997-178322:p015:03",
+    "kirzner1997-178322:p023:04"
+   ],
+   "pdf_pages": [
+    14,
+    15,
+    23
+   ],
+   "candidate_id": "kirzner1997-178322:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Free entry",
+   "definition": "Dynamic entrepreneurial discovery requires only one condition: freedom to enter any market where profit opportunities may be perceived. Regulation or blocked entry can frustrate it.",
+   "applies_when": "The person describes regulatory or other barriers that hindered, or open access that enabled, acting on a perceived opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p016:03",
+    "kirzner1997-178322:p023:01"
+   ],
+   "pdf_pages": [
+    16,
+    23
+   ],
+   "candidate_id": "kirzner1997-178322:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Incessant change limits discovery",
+   "definition": "Continual change in tastes, resources and technology keeps the discovery process from getting far. Critics (Lachmann) argue that others' bold acts frustrate discovery, and Rothbard and Salerno attribute coordination to shrewd judgment and monetary calculation rather than to discovery.",
+   "applies_when": "The person explains their outcome through constant change undermining what they had noticed, or through calculated judgment rather than discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "kirzner1997-178322:p021:02",
+    "kirzner1997-178322:p022:01",
+    "kirzner1997-178322:p023:04"
+   ],
+   "pdf_pages": [
+    21,
+    22,
+    23
+   ],
+   "candidate_id": "kirzner1997-178322:c15"
+  }
+ ],
+ "removed": []
+}

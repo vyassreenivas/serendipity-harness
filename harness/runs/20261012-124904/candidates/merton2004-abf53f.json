@@ -1,0 +1,449 @@
+{
+ "paper_id": "merton2004-abf53f",
+ "file": "papers/pdf/Merton and Barber - 2004 - Afterword Autobiographic Reflections on The Travels and Adventures of Serendipity.pdf",
+ "about": [
+  "Merton's autobiographical afterword traces the word 'serendipity' from Walpole's coinage to a vogue word, criticises dictionary and psychological definitions of it as a personal gift, and reconceptualises it as a psychosocial process shaped by sociocognitive microenvironments, illustrated with Kuhn, Watson and Crick, and his own experiences."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Discovery of things not sought",
+   "definition": "Following Walpole, serendipity is discovery, by accident and sagacity, of things one was not looking for. Finding what one was searching for does not count.",
+   "applies_when": "Someone describes finding or learning something valuable that they were not looking for at the time.",
+   "does_not_apply_when": "The person found exactly what they were searching for. Walpole explicitly excludes this.",
+   "passage_ids": [
+    "merton2004-abf53f:p006:01",
+    "merton2004-abf53f:p006:02",
+    "merton2004-abf53f:p017:02"
+   ],
+   "pdf_pages": [
+    6,
+    17
+   ],
+   "candidate_id": "merton2004-abf53f:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity combines an accident (an unanticipated circumstance that gives an opportunity) with sagacity (acuteness in discovery). The accident component is what makes it distinctive, because sagacity is involved in any discovery.",
+   "applies_when": "An account shows both an unplanned circumstance and the person's skill or acuity in making use of it.",
+   "does_not_apply_when": "Insight with no accidental circumstance is ordinary discovery: sagacity alone is not distinctively serendipitous.",
+   "passage_ids": [
+    "merton2004-abf53f:p007:01",
+    "merton2004-abf53f:p033:01",
+    "merton2004-abf53f:p033:02"
+   ],
+   "pdf_pages": [
+    7,
+    33
+   ],
+   "candidate_id": "merton2004-abf53f:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unanticipated, anomalous, strategic datum",
+   "definition": "The serendipity pattern begins when a person observes a datum that is unexpected, surprising (inconsistent with prevailing beliefs or established facts) and strategic (it has wider implications). Such a datum becomes the occasion for a new or extended theory.",
+   "applies_when": "A person describes noticing something unexpected that contradicted what they believed, and that turned out to have wider implications.",
+   "does_not_apply_when": "The surprise was trivial and had no wider implications for the person's thinking.",
+   "passage_ids": [
+    "merton2004-abf53f:p008:02",
+    "merton2004-abf53f:p009:01",
+    "merton2004-abf53f:p065:02"
+   ],
+   "pdf_pages": [
+    8,
+    9,
+    65
+   ],
+   "candidate_id": "merton2004-abf53f:c03"
+  },
+  {
+   "group": "type",
+   "label": "Unsought discovery that redirects",
+   "definition": "In one type of serendipity, a chance discovery of phenomena or ideas that were not being sought leads the person to turn aside from prior interests to new ones.",
+   "applies_when": "A chance find leads the person to abandon or shift away from what they were pursuing toward a new direction.",
+   "does_not_apply_when": "The chance find helped solve the problem already being pursued; that is the other type.",
+   "passage_ids": [
+    "merton2004-abf53f:p035:01",
+    "merton2004-abf53f:p065:03"
+   ],
+   "pdf_pages": [
+    35,
+    65
+   ],
+   "candidate_id": "merton2004-abf53f:c04"
+  },
+  {
+   "group": "type",
+   "label": "Serendipitous moment solving the targeted problem",
+   "definition": "In a second type of serendipity, a chance observation or emerging idea during ongoing work leads unexpectedly to the solution of a well-defined problem the person was already working on.",
+   "applies_when": "A person working on a specific problem reports an accidental input that unlocked the solution to that problem.",
+   "does_not_apply_when": "The chance input opened an entirely new line of work rather than solving the existing problem.",
+   "passage_ids": [
+    "merton2004-abf53f:p065:03",
+    "merton2004-abf53f:p035:01"
+   ],
+   "pdf_pages": [
+    35,
+    65
+   ],
+   "candidate_id": "merton2004-abf53f:c05"
+  },
+  {
+   "group": "definition",
+   "label": "Event versus personal faculty",
+   "definition": "Dictionaries mostly define serendipity as a personal gift or faculty for lucky finds. Merton argues it is also, and consequentially, a fact, instance or phenomenon of such discovery.",
+   "applies_when": "The account presents serendipity either as an episode that happened or as a trait the person has; a coder can mark which framing is used.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p017:01",
+    "merton2004-abf53f:p017:02",
+    "merton2004-abf53f:p022:02"
+   ],
+   "pdf_pages": [
+    17,
+    22
+   ],
+   "candidate_id": "merton2004-abf53f:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Inborn talent explanation",
+   "definition": "Explaining serendipitous discoveries purely by an innate gift, faculty or talent is a reductionist account that Merton criticises as tautological, akin to opium's 'dormitive power'.",
+   "applies_when": "A person attributes their lucky discoveries solely to a natural gift or knack for finding things.",
+   "does_not_apply_when": "The account also points to the environment, interactions or circumstances that produced the accident.",
+   "passage_ids": [
+    "merton2004-abf53f:p029:02",
+    "merton2004-abf53f:p030:01",
+    "merton2004-abf53f:p031:01"
+   ],
+   "pdf_pages": [
+    29,
+    30,
+    31
+   ],
+   "candidate_id": "merton2004-abf53f:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prepared, sensitized mind",
+   "definition": "To see the significance of an accident, a person needs prior knowledge and orientation, whether explicit or tacit; 'chance favors the prepared mind'. The strategic quality of a datum is partly what the observer brings to it.",
+   "applies_when": "The person recognised the value of a chance input because of their existing expertise, long-standing interests or prior preparation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p009:01",
+    "merton2004-abf53f:p054:02",
+    "merton2004-abf53f:p037:02"
+   ],
+   "pdf_pages": [
+    9,
+    37,
+    54
+   ],
+   "candidate_id": "merton2004-abf53f:c08"
+  },
+  {
+   "group": "background",
+   "label": "Converging prior interests and priming",
+   "definition": "A chance encounter resonates when several long-standing interests converge on it, or when earlier experiences, such as childhood library browsing, have primed the person to respond.",
+   "applies_when": "The person explains that a chance find mattered because it connected with several pre-existing interests or a long history of related experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p007:02",
+    "merton2004-abf53f:p014:03"
+   ],
+   "pdf_pages": [
+    7,
+    14
+   ],
+   "candidate_id": "merton2004-abf53f:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipitous sociocognitive microenvironments",
+   "definition": "Some settings bring diverse talents into intensive interaction and so raise the frequency of the accidental component. Merton calls this 'institutionalized serendipity'. Environments differ in their opportunity structures for serendipity.",
+   "applies_when": "The person credits a particular setting, organisation or community of diverse people with producing their unexpected encounters or insights.",
+   "does_not_apply_when": "The account credits only the individual's ability, with no role for the setting.",
+   "passage_ids": [
+    "merton2004-abf53f:p031:02",
+    "merton2004-abf53f:p037:01",
+    "merton2004-abf53f:p066:02"
+   ],
+   "pdf_pages": [
+    31,
+    37,
+    66
+   ],
+   "candidate_id": "merton2004-abf53f:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Freedom for exploration",
+   "definition": "Freedom from set rules and requirements allows wide-ranging, self-defined exploration across fields, which makes serendipitous encounters more likely.",
+   "applies_when": "The person had unstructured freedom to explore beyond their field and links unexpected finds to that freedom.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p034:01",
+    "merton2004-abf53f:p035:01",
+    "merton2004-abf53f:p035:02"
+   ],
+   "pdf_pages": [
+    34,
+    35
+   ],
+   "candidate_id": "merton2004-abf53f:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Browsing and random exploration",
+   "definition": "Exploratory reading and browsing (dictionaries, bookshops, footnotes, web links) expose people to things they were not seeking.",
+   "applies_when": "The person stumbled on something while browsing, following references or links, or exploring without a set target.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p035:02",
+    "merton2004-abf53f:p011:02",
+    "merton2004-abf53f:p062:01"
+   ],
+   "pdf_pages": [
+    11,
+    35,
+    62
+   ],
+   "candidate_id": "merton2004-abf53f:c12"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter with a text or reference",
+   "definition": "An unexpected source, such as a footnote leading to an unlikely book, introduces ideas that reshape the person's work.",
+   "applies_when": "The person reports that a chance reference or document led them to a consequential idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p035:02",
+    "merton2004-abf53f:p036:01"
+   ],
+   "pdf_pages": [
+    35,
+    36
+   ],
+   "candidate_id": "merton2004-abf53f:c13"
+  },
+  {
+   "group": "trigger",
+   "label": "Unforeseen access to an expert",
+   "definition": "Through a chance co-location, a knowledgeable person happens to be present (for example, sharing an office) and supplies decisive knowledge the person lacked.",
+   "applies_when": "Someone who happened to be nearby provided crucial expertise or corrected a mistaken assumption.",
+   "does_not_apply_when": "The expert was deliberately sought out and recruited for that purpose.",
+   "passage_ids": [
+    "merton2004-abf53f:p053:01",
+    "merton2004-abf53f:p053:02",
+    "merton2004-abf53f:p055:01"
+   ],
+   "pdf_pages": [
+    53,
+    55
+   ],
+   "candidate_id": "merton2004-abf53f:c14"
+  },
+  {
+   "group": "trigger",
+   "label": "External disruption creating opportunity",
+   "definition": "A large outside event, such as the 1933 bank closure, unexpectedly creates circumstances (merchants offering credit) that lead to an unplanned, fortunate acquisition or decision.",
+   "applies_when": "A crisis or external shock unexpectedly opened an opportunity the person then acted on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p011:01",
+    "merton2004-abf53f:p013:03",
+    "merton2004-abf53f:p014:01"
+   ],
+   "pdf_pages": [
+    11,
+    13,
+    14
+   ],
+   "candidate_id": "merton2004-abf53f:c15"
+  },
+  {
+   "group": "mechanism",
+   "label": "Making sense of the anomaly",
+   "definition": "The seeming inconsistency of the anomaly provokes curiosity and pushes the person to make sense of it by fitting it into a broader frame. Exploring this intermediate problem can solve the basic one.",
+   "applies_when": "The person describes puzzling over something unexpected and working to explain it, which led to a new understanding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p009:01",
+    "merton2004-abf53f:p038:02"
+   ],
+   "pdf_pages": [
+    9,
+    38
+   ],
+   "candidate_id": "merton2004-abf53f:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Exploiting the serendipitous opportunity",
+   "definition": "Citing Ziman, serendipity does not itself produce discoveries; it produces opportunities. These bear fruit only when a primed person notices them and makes them the subject of deliberate work.",
+   "applies_when": "After the chance event, the person deliberately followed it up with focused effort.",
+   "does_not_apply_when": "The chance event was noticed but not pursued.",
+   "passage_ids": [
+    "merton2004-abf53f:p069:01",
+    "merton2004-abf53f:p069:02"
+   ],
+   "pdf_pages": [
+    69
+   ],
+   "candidate_id": "merton2004-abf53f:c17"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reinforcement by print and personal contact",
+   "definition": "Ideas gained serendipitously from reading are reinforced by remarks from colleagues in conversation, and together these shift the person's orientation.",
+   "applies_when": "A chance reading and a chance conversation together pushed the person toward a new perspective.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p036:01"
+   ],
+   "pdf_pages": [
+    36
+   ],
+   "candidate_id": "merton2004-abf53f:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Joint product of agent and structure",
+   "definition": "Serendipitous discovery is neither merely the prepared mind nor merely the environment. It is a psychosocial joint product of individual capacity and the sociocognitive setting.",
+   "applies_when": "The account credits both the person's own acumen and the surrounding setting or people for the fortunate outcome.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p055:02",
+    "merton2004-abf53f:p038:02",
+    "merton2004-abf53f:p070:01"
+   ],
+   "pdf_pages": [
+    38,
+    55,
+    70
+   ],
+   "candidate_id": "merton2004-abf53f:c19"
+  },
+  {
+   "group": "outcome",
+   "label": "New or extended framework",
+   "definition": "The serendipitous datum becomes the occasion for developing new theory or extending existing theory, so that an unanticipated observation yields an unanticipated kind of new knowledge.",
+   "applies_when": "A chance event led to a new conceptual framework, idea or line of inquiry.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p008:02",
+    "merton2004-abf53f:p068:01"
+   ],
+   "pdf_pages": [
+    8,
+    68
+   ],
+   "candidate_id": "merton2004-abf53f:c20"
+  },
+  {
+   "group": "outcome",
+   "label": "Breakthrough and rapid completion",
+   "definition": "Once the serendipitous piece falls into place, a long-stalled project moves quickly to completion.",
+   "applies_when": "After the chance insight, the person reports that the rest followed quickly or became almost inevitable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p038:02",
+    "merton2004-abf53f:p055:01"
+   ],
+   "pdf_pages": [
+    38,
+    55
+   ],
+   "candidate_id": "merton2004-abf53f:c21"
+  },
+  {
+   "group": "account",
+   "label": "Obliterated in formal accounts",
+   "definition": "Standard formal reports expurgate happy accidents and present work as linear and planned. This retrospectively falsifies the actual course of events and obliterates serendipitous moments.",
+   "applies_when": "The person notes that official or formal versions of the story omit the luck or accidents, or present events as planned.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p043:01",
+    "merton2004-abf53f:p044:02",
+    "merton2004-abf53f:p050:01"
+   ],
+   "pdf_pages": [
+    43,
+    44,
+    50
+   ],
+   "candidate_id": "merton2004-abf53f:c22"
+  },
+  {
+   "group": "account",
+   "label": "Restored in personal retrospection",
+   "definition": "Serendipitous moments omitted from formal reports reappear in memoirs, autobiographies and informal retrospective accounts.",
+   "applies_when": "In informal retelling, the person recounts chance episodes absent from the official story.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p050:01",
+    "merton2004-abf53f:p052:02",
+    "merton2004-abf53f:p054:01"
+   ],
+   "pdf_pages": [
+    50,
+    52,
+    54
+   ],
+   "candidate_id": "merton2004-abf53f:c23"
+  },
+  {
+   "group": "account",
+   "label": "Underreported, unreconstructable debts",
+   "definition": "People acknowledge that they owe a debt to chance readings and conversations that they cannot fully reconstruct or evaluate afterward.",
+   "applies_when": "The person says they cannot pin down exactly how chance encounters shaped the outcome, or cannot date them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p036:02",
+    "merton2004-abf53f:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    36
+   ],
+   "candidate_id": "merton2004-abf53f:c24"
+  },
+  {
+   "group": "account",
+   "label": "Serendipity seen as less worthy",
+   "definition": "Some people regard accidental discoveries as less deserving than methodical ones ('anybody could have done that'). Merton presents this belief critically.",
+   "applies_when": "The person downplays credit for an outcome because it came about by accident.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "merton2004-abf53f:p068:01",
+    "merton2004-abf53f:p068:03"
+   ],
+   "pdf_pages": [
+    68
+   ],
+   "candidate_id": "merton2004-abf53f:c25"
+  },
+  {
+   "group": "account",
+   "label": "Loose vogue usage",
+   "definition": "In popular usage, 'serendipity' has eroded into a vague term for any pleasant surprise, good feeling or destiny, losing its meaning of finding the unsought.",
+   "applies_when": "The person calls something 'serendipitous' simply to mean nice luck or fate, with no unsought discovery involved.",
+   "does_not_apply_when": "The account involves a genuine unsought discovery acted upon.",
+   "passage_ids": [
+    "merton2004-abf53f:p060:02",
+    "merton2004-abf53f:p061:01",
+    "merton2004-abf53f:p060:03"
+   ],
+   "pdf_pages": [
+    60,
+    61
+   ],
+   "candidate_id": "merton2004-abf53f:c26"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,314 @@
+{
+ "paper_id": "brownell2024-a83b1a",
+ "file": "papers/pdf/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.pdf",
+ "about": [
+  "A qualitative study of 70 How I Built This podcast interviews examining how successful entrepreneurs talk about luck in their success, finding luck is perceived as a combination of structural advantages (timing, privilege, people), openness (awareness, self-efficacy), and seizing opportunities (agency, perseverance)."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Luck vs serendipity distinction",
+   "definition": "Pure luck is chance outside one's control, whereas serendipity involves human intervention, defined as intentional search leading to unintended discovery.",
+   "applies_when": "An account describes an unexpected discovery that arose while the person was actively searching or acting, rather than a purely external chance event.",
+   "does_not_apply_when": "The event happened entirely outside the person's control with no search or intervention (pure luck, e.g., birthplace, a pandemic).",
+   "passage_ids": [
+    "brownell2024-a83b1a:p005:01",
+    "brownell2024-a83b1a:p023:03",
+    "brownell2024-a83b1a:p024:01"
+   ],
+   "pdf_pages": [
+    5,
+    23,
+    24
+   ],
+   "candidate_id": "brownell2024-a83b1a:c01"
+  },
+  {
+   "group": "type",
+   "label": "Luck that happened to me",
+   "definition": "Luck as a function of structural, external, objective factors that the entrepreneur discovered rather than made.",
+   "applies_when": "The person attributes success to external circumstances they did not cause, such as market conditions, birth, or who came along.",
+   "does_not_apply_when": "The person says they made their own luck through their awareness, belief or action.",
+   "passage_ids": [
+    "brownell2024-a83b1a:p024:01",
+    "brownell2024-a83b1a:p026:03"
+   ],
+   "pdf_pages": [
+    24,
+    26
+   ],
+   "candidate_id": "brownell2024-a83b1a:c02"
+  },
+  {
+   "group": "type",
+   "label": "Luck I made myself",
+   "definition": "Luck as a function of agentic, internal factors: being aware, believing in oneself, acting and persisting; entrepreneurs often hold both views at once.",
+   "applies_when": "The person uses phrases like 'you make your own luck' or credits luck to their own alertness, belief or action.",
+   "does_not_apply_when": "Luck is described as wholly given by circumstances.",
+   "passage_ids": [
+    "brownell2024-a83b1a:p024:01",
+    "brownell2024-a83b1a:p019:02"
+   ],
+   "pdf_pages": [
+    19,
+    24
+   ],
+   "candidate_id": "brownell2024-a83b1a:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Right place, right time",
+   "definition": "Beneficial timing in which the market or environment was ready for the venture at the moment the entrepreneur launched it; a window before which it was too early and after which too late.",
+   "applies_when": "The account credits a favorable moment, trend, or market shift (e.g., post-crisis consumer mood, natural foods wave) for the venture's take-off.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p017:01",
+    "brownell2024-a83b1a:p017:02",
+    "brownell2024-a83b1a:p023:02"
+   ],
+   "pdf_pages": [
+    17,
+    23
+   ],
+   "candidate_id": "brownell2024-a83b1a:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Right people at right time",
+   "definition": "Chance arrival of or connection with key people—team members, partners, earlier acquaintances—who shaped the venture.",
+   "applies_when": "The person describes people coming into their life unexpectedly at a crucial time, or prior contacts resurfacing to help the venture.",
+   "does_not_apply_when": "The person describes deliberately hiring or recruiting through planned processes without any sense of chance.",
+   "passage_ids": [
+    "brownell2024-a83b1a:p014:03",
+    "brownell2024-a83b1a:p018:01"
+   ],
+   "pdf_pages": [
+    14,
+    18
+   ],
+   "candidate_id": "brownell2024-a83b1a:c05"
+  },
+  {
+   "group": "background",
+   "label": "Privilege",
+   "definition": "Advantages of birth, family, education, health, and financial support that entrepreneurs regard as luck and that enabled them to recognize and act on opportunities.",
+   "applies_when": "The account credits supportive parents, birthplace, debt-free education, financial cushion, or early access (e.g., a computer at home) as enabling the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p017:02",
+    "brownell2024-a83b1a:p014:02",
+    "brownell2024-a83b1a:p018:01"
+   ],
+   "pdf_pages": [
+    14,
+    17,
+    18
+   ],
+   "candidate_id": "brownell2024-a83b1a:c06"
+  },
+  {
+   "group": "background",
+   "label": "Social and relational capital",
+   "definition": "Networks and relationships available before and during venture creation that provide otherwise unavailable resources and are perceived as luck.",
+   "applies_when": "The person attributes venture progress to their network, team, or people around them providing resources and belief.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p018:01",
+    "brownell2024-a83b1a:p018:02"
+   ],
+   "pdf_pages": [
+    18
+   ],
+   "candidate_id": "brownell2024-a83b1a:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Awareness / alertness",
+   "definition": "A propensity to notice and be sensitive to information, needs and novel combinations, so that one recognizes when a lucky moment is the time to act.",
+   "applies_when": "The person describes noticing or recognizing that something was an opportunity or the moment to act, being 'alert' or 'open to the universe'.",
+   "does_not_apply_when": "Recognition is present but no action follows; the authors note awareness alone is not enough.",
+   "passage_ids": [
+    "brownell2024-a83b1a:p018:02",
+    "brownell2024-a83b1a:p019:01",
+    "brownell2024-a83b1a:p015:01"
+   ],
+   "pdf_pages": [
+    15,
+    18,
+    19
+   ],
+   "candidate_id": "brownell2024-a83b1a:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Self-efficacy and belief",
+   "definition": "Belief in one's capability and in the idea that leads the entrepreneur to stay open to and pursue chance breaks.",
+   "applies_when": "The account links lucky breaks to believing in oneself or the idea, trusting hunches, or 'believing so hard something would break'.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p019:01",
+    "brownell2024-a83b1a:p019:02",
+    "brownell2024-a83b1a:p015:02"
+   ],
+   "pdf_pages": [
+    15,
+    19
+   ],
+   "candidate_id": "brownell2024-a83b1a:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Agency: acting on the chance event",
+   "definition": "Taking definitive action to seize an opportunity when a random event occurs; what matters is what you do with it.",
+   "applies_when": "The person describes taking a leap of faith, executing, or acting quickly on an unexpected event or opening.",
+   "does_not_apply_when": "The person merely notices the opportunity without acting (awareness).",
+   "passage_ids": [
+    "brownell2024-a83b1a:p019:03",
+    "brownell2024-a83b1a:p020:01",
+    "brownell2024-a83b1a:p015:03"
+   ],
+   "pdf_pages": [
+    15,
+    19,
+    20
+   ],
+   "candidate_id": "brownell2024-a83b1a:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Perseverance amplifying luck",
+   "definition": "Staying with a course despite difficulties so that a small initial bit of luck can be turned into something bigger over time, or so that luck eventually shows up.",
+   "applies_when": "The account ties lucky outcomes to persistence, not giving up, or staying in the game long enough for a break.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p020:02",
+    "brownell2024-a83b1a:p016:02"
+   ],
+   "pdf_pages": [
+    16,
+    20
+   ],
+   "candidate_id": "brownell2024-a83b1a:c11"
+  },
+  {
+   "group": "role",
+   "label": "Advancing venture success",
+   "definition": "Perceived luck, in combination with structural and agentic factors, is seen as a critical determinant of venture success and reflects willingness to act.",
+   "applies_when": "The entrepreneur credits luck with a share in venture growth or success or in enabling action despite uncertainty.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p021:02",
+    "brownell2024-a83b1a:p022:01",
+    "brownell2024-a83b1a:p022:03"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "brownell2024-a83b1a:c12"
+  },
+  {
+   "group": "account",
+   "label": "Choice-to-chance continuum",
+   "definition": "Entrepreneurs vary widely in how much they credit luck, from 'not luck at all' to 'majority luck', often giving percentages or qualifications.",
+   "applies_when": "The person states how much of their success was luck versus skill or hard work.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p016:01",
+    "brownell2024-a83b1a:p026:01"
+   ],
+   "pdf_pages": [
+    16,
+    26
+   ],
+   "candidate_id": "brownell2024-a83b1a:c13"
+  },
+  {
+   "group": "account",
+   "label": "Luck as humility narrative",
+   "definition": "Invoking luck may reflect genuine belief or serve as a narrative device to project humility to an audience.",
+   "applies_when": "The person attributes success to luck in a self-deprecating way, possibly for an audience such as investors.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p026:02",
+    "brownell2024-a83b1a:p028:02"
+   ],
+   "pdf_pages": [
+    26,
+    28
+   ],
+   "candidate_id": "brownell2024-a83b1a:c14"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective reframing of bad luck",
+   "definition": "Luck is judged post hoc; an event first seen as bad luck can later be reframed as good luck once capitalized on.",
+   "applies_when": "The person narrates a setback that in hindsight they describe as fortunate for the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p029:02",
+    "brownell2024-a83b1a:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    29
+   ],
+   "candidate_id": "brownell2024-a83b1a:c15"
+  },
+  {
+   "group": "rival",
+   "label": "Skill or unseen structure",
+   "definition": "Outcomes attributed to luck may instead be due to skill, which is hard to distinguish from luck, or to unseen structural patterns misattributed as luck.",
+   "applies_when": "An account where an event called lucky can be explained by expertise, market timing skill, or structural position.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p003:03",
+    "brownell2024-a83b1a:p027:03",
+    "brownell2024-a83b1a:p028:01"
+   ],
+   "pdf_pages": [
+    3,
+    27,
+    28
+   ],
+   "candidate_id": "brownell2024-a83b1a:c16"
+  },
+  {
+   "group": "rival",
+   "label": "Uncertainty vs luck",
+   "definition": "Uncertainty is forward-looking doubt that delays action, whereas luck is a backward-looking attribution about what enabled action.",
+   "applies_when": "The person discusses not knowing what would happen before acting, as opposed to explaining afterwards what went their way.",
+   "does_not_apply_when": "The person is retrospectively attributing an outcome to fortune.",
+   "passage_ids": [
+    "brownell2024-a83b1a:p022:01",
+    "brownell2024-a83b1a:p022:02",
+    "brownell2024-a83b1a:p023:02"
+   ],
+   "pdf_pages": [
+    22,
+    23
+   ],
+   "candidate_id": "brownell2024-a83b1a:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Fostering conditions for luck",
+   "definition": "Entrepreneurs cannot control luck events but can make themselves more open by being alert to connections between circumstances and people and confident in their capabilities.",
+   "applies_when": "The person describes deliberately cultivating alertness, networks, or confidence so as to catch chance opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brownell2024-a83b1a:p027:03",
+    "brownell2024-a83b1a:p028:01"
+   ],
+   "pdf_pages": [
+    27,
+    28
+   ],
+   "candidate_id": "brownell2024-a83b1a:c18"
+  }
+ ],
+ "removed": []
+}

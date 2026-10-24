@@ -1,0 +1,307 @@
+{
+ "paper_id": "nair2020-d1b976",
+ "file": "papers/pdf/Nair et al - 2020 - Toward the Emergence of Entrepreneurial Opportunities.pdf",
+ "about": [
+  "A conceptual paper theorizing how early-phase new-venture support systems (startup cafes, hackathons) can be organized through openness, self-selection, visibility and connectivity so that venture concepts emerge from scattered ideas via serendipitous and purposeful interactions."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Unplanned encounter or informal chat",
+   "definition": "Informal chats and unplanned interactions between people with different backgrounds open doors, spark ideas and create new relationships that shape ventures.",
+   "applies_when": "Account describes a chance conversation, coffee chat or unplanned meeting that sparked an idea or relationship relevant to the venture.",
+   "does_not_apply_when": "The meeting was a deliberately sought, filtered match (e.g., a targeted introduction to a specific known partner).",
+   "passage_ids": [
+    "nair2020-d1b976:p004:01",
+    "nair2020-d1b976:p038:01"
+   ],
+   "pdf_pages": [
+    4,
+    38
+   ],
+   "candidate_id": "nair2020-d1b976:c01"
+  },
+  {
+   "group": "type",
+   "label": "Spontaneous recognition",
+   "definition": "A person encounters something, such as a scientific invention, and recognizes it as a potential innovation without having systematically searched for it.",
+   "applies_when": "Person describes coming across an invention or idea by chance and seeing its commercial potential.",
+   "does_not_apply_when": "Systematic exploration, where the person was actively searching for an invention or innovation possibility.",
+   "passage_ids": [
+    "nair2020-d1b976:p021:02",
+    "nair2020-d1b976:p022:01"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "nair2020-d1b976:c02"
+  },
+  {
+   "group": "type",
+   "label": "Pre-discovery",
+   "definition": "Contingency and search overlap without prior knowledge; a person may be unaware of the commercial potential of their invention and store it for possible future use.",
+   "applies_when": "Person had an invention or idea they did not see as commercial, shelved it, and later its potential surfaced.",
+   "does_not_apply_when": "Spontaneous recognition, where potential is seen at the moment of encounter.",
+   "passage_ids": [
+    "nair2020-d1b976:p022:01"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "nair2020-d1b976:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic exploration",
+   "definition": "An entrepreneur actively searches for an invention, or an inventor actively seeks innovation possibilities; opportunities can emerge from deliberate search rather than serendipitous moments.",
+   "applies_when": "Account describes deliberate, predefined search for a technology, partner or opportunity.",
+   "does_not_apply_when": "The encounter was not sought and its relevance was recognized only after it happened.",
+   "passage_ids": [
+    "nair2020-d1b976:p021:02",
+    "nair2020-d1b976:p026:01"
+   ],
+   "pdf_pages": [
+    21,
+    26
+   ],
+   "candidate_id": "nair2020-d1b976:c04"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipitous and purposeful interaction",
+   "definition": "Opportunities emerge as individuals and their knowledge are transformed through interactions between heterogeneous actors that are both serendipitous and purposeful; outcomes cannot be predicted beforehand.",
+   "applies_when": "Account shows a venture idea arising from interactions that were partly chance and partly intentional, with the result not foreseen by participants.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p008:02",
+    "nair2020-d1b976:p029:02",
+    "nair2020-d1b976:p026:01"
+   ],
+   "pdf_pages": [
+    8,
+    26,
+    29
+   ],
+   "candidate_id": "nair2020-d1b976:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recombining ideas across domains",
+   "definition": "When people connect concepts, problems or disciplines that initially appear unconnected, they produce previously unpredictable, often innovative outcomes; scattered ideas combine and transform into a venture concept.",
+   "applies_when": "Person describes linking their idea with someone else's from a different field to create a new shared idea.",
+   "does_not_apply_when": "Simply adding more contacts or interactions without transforming ideas.",
+   "passage_ids": [
+    "nair2020-d1b976:p030:01",
+    "nair2020-d1b976:p031:01",
+    "nair2020-d1b976:p010:01"
+   ],
+   "pdf_pages": [
+    10,
+    30,
+    31
+   ],
+   "candidate_id": "nair2020-d1b976:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Revealing intentions to others",
+   "definition": "Making one's entrepreneurial intentions, skills and interests visible lets interested others converge and interact, eliciting engagement from people who otherwise would not connect.",
+   "applies_when": "Account mentions posting interests, pitching or introducing one's aims publicly, which led someone unexpected to approach.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p026:01",
+    "nair2020-d1b976:p027:01"
+   ],
+   "pdf_pages": [
+    26,
+    27
+   ],
+   "candidate_id": "nair2020-d1b976:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Non-intersecting interactions still yield insights",
+   "definition": "Even interactions that do not produce a shared idea can leave a lasting effect, giving someone new input or insight into their own problems.",
+   "applies_when": "Person reports a chance conversation that did not lead to collaboration but changed their thinking or solved a challenge.",
+   "does_not_apply_when": "The interaction produced a shared venture concept.",
+   "passage_ids": [
+    "nair2020-d1b976:p009:02",
+    "nair2020-d1b976:p014:01"
+   ],
+   "pdf_pages": [
+    9,
+    14
+   ],
+   "candidate_id": "nair2020-d1b976:c08"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge and networks",
+   "definition": "Prospective entrepreneurs enter with nothing more than the resources they control, often prior knowledge or networks, which shape what they bring to chance interactions.",
+   "applies_when": "Account links a chance development to the person's existing expertise or contacts.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p022:01"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "nair2020-d1b976:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipitous circumstances drive self-selection",
+   "definition": "People self-select into support settings driven by knowledge, aspirations or serendipitous circumstances, motivated by the chance to shape or be part of emerging opportunities.",
+   "applies_when": "Person describes ending up at an event, cafe or program by chance or loosely, rather than by planned selection.",
+   "does_not_apply_when": "Entry through competitive, gatekeeper-based selection.",
+   "passage_ids": [
+    "nair2020-d1b976:p022:01",
+    "nair2020-d1b976:p022:02"
+   ],
+   "pdf_pages": [
+    22
+   ],
+   "candidate_id": "nair2020-d1b976:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Designed potential for spontaneous interaction",
+   "definition": "Spatial arrangements (proximity, open space, a well-placed coffee machine) can induce interactions between people who normally would not meet; outcomes cannot be predicted but the potential can be designed.",
+   "applies_when": "Account credits a shared space, layout or event format for bringing about a chance meeting.",
+   "does_not_apply_when": "Closed or private spaces focused on deep work, which are less likely to produce spontaneous interactions.",
+   "passage_ids": [
+    "nair2020-d1b976:p018:01",
+    "nair2020-d1b976:p015:01",
+    "nair2020-d1b976:p024:02"
+   ],
+   "pdf_pages": [
+    15,
+    18,
+    24
+   ],
+   "candidate_id": "nair2020-d1b976:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Openness and heterogeneity",
+   "definition": "Open, permeable boundaries admit heterogeneous people with divergent knowledge, enabling chance meetings and later entrants; too much openness produces unmanageable randomness.",
+   "applies_when": "Account emphasizes a diverse, open setting where people from different fields mixed, or a latecomer joined and advanced the idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p021:01",
+    "nair2020-d1b976:p021:02",
+    "nair2020-d1b976:p022:02"
+   ],
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "candidate_id": "nair2020-d1b976:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Trust and psychological safety",
+   "definition": "An atmosphere of early trust and freedom to err encourages people to share ideas and look for points of intersection without defining outcomes in advance.",
+   "applies_when": "Person says they felt safe to share early ideas, which led to unexpected connections.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p027:02",
+    "nair2020-d1b976:p030:02",
+    "nair2020-d1b976:p031:01"
+   ],
+   "pdf_pages": [
+    27,
+    30,
+    31
+   ],
+   "candidate_id": "nair2020-d1b976:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Moderators balancing chance and order",
+   "definition": "Facilitators set simple rules and moderate power asymmetry so the setting allows chance and randomness without becoming chaotic.",
+   "applies_when": "Account mentions an organizer or facilitator who enabled, but did not dictate, unplanned connections.",
+   "does_not_apply_when": "Top-down matching or prescribed curricula of incubators/accelerators.",
+   "passage_ids": [
+    "nair2020-d1b976:p017:01",
+    "nair2020-d1b976:p031:02"
+   ],
+   "pdf_pages": [
+    17,
+    31
+   ],
+   "candidate_id": "nair2020-d1b976:c14"
+  },
+  {
+   "group": "role",
+   "label": "Starting a venture concept",
+   "definition": "Chance and purposeful interactions turn scattered ideas into a venture concept (a token, frame and premise for action) in the early phase of venturing.",
+   "applies_when": "Account traces the origin of a venture concept to coincidental interactions among initially disconnected people.",
+   "does_not_apply_when": "Later-phase development toward product-market fit via structured support.",
+   "passage_ids": [
+    "nair2020-d1b976:p039:01",
+    "nair2020-d1b976:p005:01",
+    "nair2020-d1b976:p010:01"
+   ],
+   "pdf_pages": [
+    5,
+    10,
+    39
+   ],
+   "candidate_id": "nair2020-d1b976:c15"
+  },
+  {
+   "group": "outcome",
+   "label": "Team formation",
+   "definition": "Interactions self-organize into substructures such as teams, which give rise to venture concepts and stabilize with shared identity.",
+   "applies_when": "Account describes a founding team forming from people who met by chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p021:02",
+    "nair2020-d1b976:p014:01"
+   ],
+   "pdf_pages": [
+    14,
+    21
+   ],
+   "candidate_id": "nair2020-d1b976:c16"
+  },
+  {
+   "group": "account",
+   "label": "Origins as designed and coincidental",
+   "definition": "Venture origins can be traced back to many incidents, some designed, others coincidental, with the eventual pathway obscure when traced backward.",
+   "applies_when": "Person narrates the venture's history as a mix of planned steps and coincidences.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p039:01",
+    "nair2020-d1b976:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    39
+   ],
+   "candidate_id": "nair2020-d1b976:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Linear predictive selection",
+   "definition": "The predominant view treats venture concepts as given and progresses ventures through predictive selection and staged sequences, leaving little room for emergence.",
+   "applies_when": "Account explains venture development solely through structured programs, screening and planned stages.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "nair2020-d1b976:p011:02",
+    "nair2020-d1b976:p006:02"
+   ],
+   "pdf_pages": [
+    6,
+    11
+   ],
+   "candidate_id": "nair2020-d1b976:c18"
+  }
+ ],
+ "removed": []
+}

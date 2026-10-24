@@ -1,0 +1,468 @@
+{
+ "paper_id": "cunha2010-5a18d7",
+ "file": "papers/pdf/Cunha et al - 2010 - On Serendipity and Organizing.pdf",
+ "about": [
+  "A conceptual paper defining serendipity in organizations as accidental discovery of value through bisociation (metaphorical association), distinguishing it from bricolage, creativity and improvisation, and discussing organizational conditions that enable or impede it."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity is the accidental discovery of something that turns out, post hoc, to be valuable; it combines an accident with sagacity or perspicacity in understanding.",
+   "applies_when": "Account describes an unplanned finding or event that the person recognised and that later proved valuable.",
+   "does_not_apply_when": "Pure luck with no recognition or action by the person; the paper says surprises can happen and nothing be made of them.",
+   "passage_ids": [
+    "cunha2010-5a18d7:p002:01",
+    "cunha2010-5a18d7:p002:04",
+    "cunha2010-5a18d7:p003:05"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "cunha2010-5a18d7:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Solving a different problem",
+   "definition": "Serendipity starts while seeking a solution to problem A and noticing something that solves a different problem B, possibly of greater value, via a metaphorical leap.",
+   "applies_when": "Person was pursuing one goal and the discovery addressed a different need or problem than intended.",
+   "does_not_apply_when": "The discovery solves the originally targeted problem through planned search.",
+   "passage_ids": [
+    "cunha2010-5a18d7:p005:03",
+    "cunha2010-5a18d7:p003:04"
+   ],
+   "pdf_pages": [
+    3,
+    5
+   ],
+   "candidate_id": "cunha2010-5a18d7:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bisociation / metaphorical association",
+   "definition": "Combining previously unrelated matrices of skills or information from two contexts, seeing something in another thing, reveals hidden analogies and new ways of representing a problem.",
+   "applies_when": "Person connects cues or knowledge from two normally separate domains to see a new possibility.",
+   "does_not_apply_when": "Systematic, intentional variation within one domain (creativity) or making do with materials at hand (bricolage).",
+   "passage_ids": [
+    "cunha2010-5a18d7:p003:05",
+    "cunha2010-5a18d7:p005:01",
+    "cunha2010-5a18d7:p005:04"
+   ],
+   "pdf_pages": [
+    3,
+    5
+   ],
+   "candidate_id": "cunha2010-5a18d7:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Bricolage, creativity, improvisation",
+   "definition": "Processes often confused with serendipity but lacking happy accidents: bricolage makes do with what is at hand deliberately, creativity is systematic intentional variation, improvisation fuses planning and execution without seeking surprise.",
+   "applies_when": "Outcome is explained by deliberate recombination of available resources, designed variation, or real-time problem solving rather than an unexpected surprise.",
+   "does_not_apply_when": "There is an element of surprise and an unintended discovery.",
+   "passage_ids": [
+    "cunha2010-5a18d7:p005:02",
+    "cunha2010-5a18d7:p005:04",
+    "cunha2010-5a18d7:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "cunha2010-5a18d7:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Surprising anomalous datum",
+   "definition": "An unanticipated, anomalous event or observation inconsistent with expectations, which must be enacted as a datum with new relevance; the shock of the new.",
+   "applies_when": "Account describes an unexpected observation or happening that contradicted expectations and caught attention.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p002:05",
+    "cunha2010-5a18d7:p003:04",
+    "cunha2010-5a18d7:p010:03"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    10
+   ],
+   "candidate_id": "cunha2010-5a18d7:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Inadvertent social encounter",
+   "definition": "Chance conversations and social events, e.g. mentioning a problem to friends over a beer, provide unplanned opportunities for ideas to come together.",
+   "applies_when": "An unplanned conversation or meeting supplied an unexpected solution, contact, or idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p006:05",
+    "cunha2010-5a18d7:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cunha2010-5a18d7:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Enactment of the unexpected",
+   "definition": "People must actively make something of the surprise—investigating, interpreting, connecting the discovery to a need; making something from the unexpected is not purely luck.",
+   "applies_when": "Person followed up an unexpected event by investigating it or working out how it could be used.",
+   "does_not_apply_when": "Surprise noticed but left unpursued.",
+   "passage_ids": [
+    "cunha2010-5a18d7:p003:05",
+    "cunha2010-5a18d7:p002:02",
+    "cunha2010-5a18d7:p007:06"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    7
+   ],
+   "candidate_id": "cunha2010-5a18d7:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "Chance favours prepared minds: prior focused search, knowledge, competence, alertness, flexibility, courage and assiduity enable people to benefit from accidents.",
+   "applies_when": "Person's prior expertise, ongoing search or readiness explains why they recognised the chance event's value.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p003:05",
+    "cunha2010-5a18d7:p007:03",
+    "cunha2010-5a18d7:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    7
+   ],
+   "candidate_id": "cunha2010-5a18d7:c08"
+  },
+  {
+   "group": "background",
+   "label": "Serendipitist dispositions",
+   "definition": "Traits such as open-mindedness, curiosity, perceptiveness, intuition, flexibility and diligence make some people more competent at serendipitous finding.",
+   "applies_when": "Account emphasizes curiosity, openness or similar personal traits as reason for spotting/pursuing the discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p007:03",
+    "cunha2010-5a18d7:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    7
+   ],
+   "candidate_id": "cunha2010-5a18d7:c09"
+  },
+  {
+   "group": "background",
+   "label": "Social networks and social capital",
+   "definition": "Rich networks, including friends and experts in different fields, carry serendipity and provide unexpected solutions.",
+   "applies_when": "A contact from one's network, especially from a different field, supplied the key unexpected knowledge or resource.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p006:04",
+    "cunha2010-5a18d7:p006:05"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cunha2010-5a18d7:c10"
+  },
+  {
+   "group": "background",
+   "label": "Organizational capability and resources",
+   "definition": "Serendipity requires organization: sponsors, labs, infrastructure, and collective effort to make something good of the unknown.",
+   "applies_when": "Account shows resources, infrastructure or organizing were needed to turn the accidental find into value.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p002:02",
+    "cunha2010-5a18d7:p002:03"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "cunha2010-5a18d7:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Collective development and championing",
+   "definition": "Teams and champions interpret, integrate and connect discoveries to uses and needs, sometimes creating needs; collective effort makes the discovery serendipitous.",
+   "applies_when": "Others (team members, champions, senior supporters) helped develop or find uses for the unexpected discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p007:01",
+    "cunha2010-5a18d7:p008:06",
+    "cunha2010-5a18d7:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "cunha2010-5a18d7:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Persuading others over time",
+   "definition": "Serendipitous discoveries may need lengthy periods of iteration to interpret implications and persuade others of their merits.",
+   "applies_when": "Person spent long effort convincing others or iterating before the discovery was accepted or implemented.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p007:06",
+    "cunha2010-5a18d7:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "cunha2010-5a18d7:c13"
+  },
+  {
+   "group": "condition",
+   "label": "Mindfulness and alertness",
+   "definition": "Serendipity thrives on alertness; it plays a bigger role early in exploratory effort when alertness is higher.",
+   "applies_when": "Person describes being watchful, attentive, or early in exploring a domain when the discovery occurred.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p005:06",
+    "cunha2010-5a18d7:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "cunha2010-5a18d7:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Free information flow and polyphony",
+   "definition": "Deference to knowledge rather than position, open communication and voices from the margins allow unusual associations to be taken seriously.",
+   "applies_when": "Information from unexpected or low-status sources was heard and acted on.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p006:01",
+    "cunha2010-5a18d7:p006:02",
+    "cunha2010-5a18d7:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "cunha2010-5a18d7:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Exploring the periphery",
+   "definition": "Working at the periphery with informal contacts, trial and error and noticing, and boundary spanning, favours serendipitous findings; people with the 'wrong' background can help.",
+   "applies_when": "Discovery arose while operating outside one's core domain, at boundaries, or via trial and error.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p006:04",
+    "cunha2010-5a18d7:p010:03"
+   ],
+   "pdf_pages": [
+    6,
+    10
+   ],
+   "candidate_id": "cunha2010-5a18d7:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Loose structure with deadlines",
+   "definition": "Minimal structure with tight deadlines and free space opens organizations to serendipitous opportunities; rigid well-defined processes discourage exploration.",
+   "applies_when": "Account describes slack or freedom to explore (or its absence via rigid processes) affecting pursuit of unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p006:05",
+    "cunha2010-5a18d7:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "cunha2010-5a18d7:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Psychological safety and trust",
+   "definition": "Trust, safety and a no-blame culture make people willing to expose puzzling findings and pursue ambiguous opportunities.",
+   "applies_when": "Person felt safe (or unsafe) to share weird findings or try untested courses.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p007:02",
+    "cunha2010-5a18d7:p007:05",
+    "cunha2010-5a18d7:p010:02"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "cunha2010-5a18d7:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Power, legitimacy and self-censorship",
+   "definition": "Vested interests, low discoverer visibility/credibility, anticipated negative reactions and rationalist cultures can lead discoveries to be rejected, buried or self-censored.",
+   "applies_when": "Unexpected idea was dismissed, lacked sponsors, or the person held back anticipating negative reactions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p008:02",
+    "cunha2010-5a18d7:p008:05",
+    "cunha2010-5a18d7:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "cunha2010-5a18d7:c19"
+  },
+  {
+   "group": "outcome",
+   "label": "Institutionalization or forgetting",
+   "definition": "Depending on integration into circuits of knowledge and power, a serendipitous discovery is implemented and embedded in routines or forgotten.",
+   "applies_when": "Account tracks whether the unexpected discovery became embedded in products/processes or was dropped.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p008:03",
+    "cunha2010-5a18d7:p008:04"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "cunha2010-5a18d7:c20"
+  },
+  {
+   "group": "outcome",
+   "label": "New products, opportunities and windfalls",
+   "definition": "Serendipity yields new products (Velcro, Viagra, Post-its), strategic opportunities, unanticipated value from deals, and can drive major decisions like internationalization.",
+   "applies_when": "A product, market entry, strategic idea or venture resulted from an accidental discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p002:01",
+    "cunha2010-5a18d7:p003:04",
+    "cunha2010-5a18d7:p009:04"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    9
+   ],
+   "candidate_id": "cunha2010-5a18d7:c21"
+  },
+  {
+   "group": "outcome",
+   "label": "Refreshing knowledge and countering inertia",
+   "definition": "New ways of seeing refresh knowledge pools and counter inertia and ossified dominant mindsets.",
+   "applies_when": "The discovery changed how the person or organization saw its problems or broke established assumptions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p001:01",
+    "cunha2010-5a18d7:p002:04"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "cunha2010-5a18d7:c22"
+  },
+  {
+   "group": "outcome",
+   "label": "Reinforcing receptivity loop",
+   "definition": "Implemented serendipitous discoveries legitimize the approach and make people more alert; failures teach that deliberative search is favoured and induce self-censorship.",
+   "applies_when": "Past success or failure with unexpected ideas shaped later openness to them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p009:02",
+    "cunha2010-5a18d7:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "cunha2010-5a18d7:c23"
+  },
+  {
+   "group": "outcome",
+   "label": "Increased unhappy errors",
+   "definition": "Facilitating serendipity can increase errors, including unhappy accidents, since accidents are happy only post hoc.",
+   "applies_when": "Openness to chance produced costly mistakes or dead ends.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p009:05"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "cunha2010-5a18d7:c24"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective rationalization",
+   "definition": "Serendipitous discoveries are often retold as rational and purposeful from the start, or as heroic individual genius, hiding confusion, team roles and effort.",
+   "applies_when": "Narrator presents the outcome as planned, or reconstructs a messy accidental process as deliberate or heroic.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p008:03",
+    "cunha2010-5a18d7:p008:01",
+    "cunha2010-5a18d7:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "cunha2010-5a18d7:c25"
+  },
+  {
+   "group": "account",
+   "label": "Eureka / happy accident framing",
+   "definition": "Moments of insight are narrated as sudden revelations, 'Aha' moments, flashes of insight or happy accidents, or as fate and chance governing life.",
+   "applies_when": "Narrator describes the discovery as a sudden flash, eureka moment, or lucky accident.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p005:05",
+    "cunha2010-5a18d7:p005:01",
+    "cunha2010-5a18d7:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    5
+   ],
+   "candidate_id": "cunha2010-5a18d7:c26"
+  },
+  {
+   "group": "mechanism",
+   "label": "Abduction",
+   "definition": "Creatively constructing tentative explanations to account for surprising observations, which may favour moments of insight.",
+   "applies_when": "Person generated hypotheses to explain a surprising observation, leading to insight.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p005:05"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "cunha2010-5a18d7:c27"
+  },
+  {
+   "group": "trigger",
+   "label": "Right place, right time",
+   "definition": "Temporal happenstance and proximity—being present when something happened, or nearby relationships—enable unexpected discovery or access.",
+   "applies_when": "Account attributes discovery or access to being coincidentally present or located nearby.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cunha2010-5a18d7:p008:01",
+    "cunha2010-5a18d7:p002:06"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "cunha2010-5a18d7:c28"
+  }
+ ],
+ "removed": []
+}

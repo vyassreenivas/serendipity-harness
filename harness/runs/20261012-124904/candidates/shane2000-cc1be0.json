@@ -1,0 +1,294 @@
+{
+ "paper_id": "shane2000-cc1be0",
+ "file": "papers/pdf/Shane - 2000 - Prior Knowledge and the Discovery of Entrepreneurial Opportunities.pdf",
+ "about": [
+  "Shane's case study of eight entrepreneurial teams exploiting MIT's 3DP invention, arguing that entrepreneurs discover opportunities without searching, through recognising the value of information they happen to receive, and that each person discovers only opportunities tied to their idiosyncratic prior knowledge."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Discovery without active search",
+   "definition": "Opportunities are discovered not through deliberate search but through recognising the value of new information the person happens to receive by other means; an opportunity cannot be searched for because it is unknown until discovered.",
+   "applies_when": "The person says they were not looking for a business idea or opportunity when they came across it, and recognised it upon encountering information.",
+   "does_not_apply_when": "The person describes deliberately searching or scanning for a known kind of missing information (systematic search), which the author contrasts with discovery.",
+   "passage_ids": [
+    "shane2000-cc1be0:p005:03",
+    "shane2000-cc1be0:p005:04",
+    "shane2000-cc1be0:p011:01"
+   ],
+   "pdf_pages": [
+    5,
+    11
+   ],
+   "candidate_id": "shane2000-cc1be0:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Surprise of recognising the overlooked",
+   "definition": "Discovery, unlike successful search, involves the surprise that accompanies realising one had overlooked something readily available.",
+   "applies_when": "The account describes a 'holy cow' or surprise moment, or an almost accidental realisation of an opportunity.",
+   "does_not_apply_when": "The person found what they expected to find after looking for it.",
+   "passage_ids": [
+    "shane2000-cc1be0:p005:04",
+    "shane2000-cc1be0:p011:02"
+   ],
+   "pdf_pages": [
+    5,
+    11
+   ],
+   "candidate_id": "shane2000-cc1be0:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Exposure to new technology via a person",
+   "definition": "The trigger is incidental exposure to new technical information, here hearing about or being shown the invention by someone directly involved in its development.",
+   "applies_when": "The person describes being shown or told about a new technology, product or piece of information by a contact (e.g. a researcher demonstrating a machine), which set off the idea.",
+   "does_not_apply_when": "The person approached the source because they were already searching for technologies to license.",
+   "passage_ids": [
+    "shane2000-cc1be0:p011:01",
+    "shane2000-cc1be0:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "shane2000-cc1be0:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Immediate intuitive recognition",
+   "definition": "Entrepreneurs recognised the opportunity immediately on hearing about or seeing the technology, describing it as instinctive, intuitive or as an idea that 'just clicked', prior to any market research.",
+   "applies_when": "The account says the idea came instantly, clicked, or was intuitive upon first encounter with the information.",
+   "does_not_apply_when": "The idea emerged gradually through analysis or market research after exposure.",
+   "passage_ids": [
+    "shane2000-cc1be0:p011:02",
+    "shane2000-cc1be0:p011:04",
+    "shane2000-cc1be0:p015:02"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "shane2000-cc1be0:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Combining new information with existing knowledge",
+   "definition": "New information is complementary with prior information; the entrepreneur interprets, extrapolates and applies new information through what they already know, combining the two to see an opportunity.",
+   "applies_when": "The person describes immediately connecting the new information to their research, job or experience ('how I could combine what I knew with it').",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p006:01",
+    "shane2000-cc1be0:p011:04",
+    "shane2000-cc1be0:p017:01"
+   ],
+   "pdf_pages": [
+    6,
+    11,
+    17
+   ],
+   "candidate_id": "shane2000-cc1be0:c05"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge of markets",
+   "definition": "Knowledge of how particular markets operate (e.g. supplier relationships, sales techniques), gained as customer, supplier or manufacturer, shapes which market the entrepreneur sees for the new technology.",
+   "applies_when": "The person links the market they chose to a market they had worked in or knew from personal experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p006:02",
+    "shane2000-cc1be0:p013:02",
+    "shane2000-cc1be0:p013:03"
+   ],
+   "pdf_pages": [
+    6,
+    13
+   ],
+   "candidate_id": "shane2000-cc1be0:c06"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge of ways to serve markets",
+   "definition": "Knowledge of how a technology can be turned into a product or service (e.g. machine design, manufacturing, regulatory approval, retail) shapes how the entrepreneur decides to serve the market.",
+   "applies_when": "The person explains their business model (machine vs. service, retail, etc.) by what they knew how to do or did not know how to do.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p006:03",
+    "shane2000-cc1be0:p015:03",
+    "shane2000-cc1be0:p015:04"
+   ],
+   "pdf_pages": [
+    6,
+    15
+   ],
+   "candidate_id": "shane2000-cc1be0:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge of customer problems",
+   "definition": "Familiarity with a customer's unsolved problem, from work with users, research, or personal experience, lets the person recognise a new technology as a solution when it comes along.",
+   "applies_when": "The person says they already had a problem in mind (from work, research, or as a user) and saw the new information as solving it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p006:04",
+    "shane2000-cc1be0:p006:05",
+    "shane2000-cc1be0:p017:05"
+   ],
+   "pdf_pages": [
+    6,
+    17
+   ],
+   "candidate_id": "shane2000-cc1be0:c08"
+  },
+  {
+   "group": "background",
+   "label": "Idiosyncratic knowledge corridor",
+   "definition": "Each person's prior knowledge, built through idiosyncratic life experience, work, education and personal events (sometimes acquired by blind luck), forms a corridor that lets them see certain opportunities but not others.",
+   "applies_when": "The person explains seeing what others did not see by their particular background, or says they could not have seen others' opportunities.",
+   "does_not_apply_when": "The person attributes discovery to general superior opportunity-spotting ability.",
+   "passage_ids": [
+    "shane2000-cc1be0:p006:01",
+    "shane2000-cc1be0:p013:02",
+    "shane2000-cc1be0:p010:02"
+   ],
+   "pdf_pages": [
+    6,
+    10,
+    13
+   ],
+   "candidate_id": "shane2000-cc1be0:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Nonobviousness and unequal recognition",
+   "definition": "Opportunities are not obvious from information about a technology alone; only a subset of people with the right prior information recognise a given opportunity even when the information is widely disseminated.",
+   "applies_when": "The account emphasises that the opportunity was not obvious to others exposed to the same information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p005:02",
+    "shane2000-cc1be0:p009:03",
+    "shane2000-cc1be0:p010:01"
+   ],
+   "pdf_pages": [
+    5,
+    9,
+    10
+   ],
+   "candidate_id": "shane2000-cc1be0:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Limited knowledge narrows opportunities",
+   "definition": "Shallow or narrow prior knowledge restricts the person to recognising smaller or inferior opportunities (e.g. a too-small market or a service rather than a machine).",
+   "applies_when": "The person says they focused on a market or model because it was the only thing they knew, and later found it limited.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p013:03",
+    "shane2000-cc1be0:p015:05"
+   ],
+   "pdf_pages": [
+    13,
+    15
+   ],
+   "candidate_id": "shane2000-cc1be0:c11"
+  },
+  {
+   "group": "role",
+   "label": "Single opportunity, no selection among alternatives",
+   "definition": "Because each entrepreneur discovers only one opportunity tied to prior knowledge, they pursue it without weighing alternative applications of the technology.",
+   "applies_when": "The person describes pursuing the one idea that came to them without comparing other uses of the technology.",
+   "does_not_apply_when": "The person systematically compared several applications before choosing.",
+   "passage_ids": [
+    "shane2000-cc1be0:p010:02",
+    "shane2000-cc1be0:p019:04"
+   ],
+   "pdf_pages": [
+    10,
+    19
+   ],
+   "candidate_id": "shane2000-cc1be0:c12"
+  },
+  {
+   "group": "outcome",
+   "label": "Prior knowledge imprints the venture",
+   "definition": "The discovered opportunity carries the entrepreneur's background into the venture's market, model and solution, so individual differences imprint the organization even before founding.",
+   "applies_when": "The account shows the venture's form, market or strategy mirroring the founder's background.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p013:02",
+    "shane2000-cc1be0:p020:01"
+   ],
+   "pdf_pages": [
+    13,
+    20
+   ],
+   "candidate_id": "shane2000-cc1be0:c13"
+  },
+  {
+   "group": "account",
+   "label": "Narrated as accidental and surprising",
+   "definition": "Respondents explained their discovery as simply recognising the opportunity, almost by accident, as if surprised, and attributed it to mindset and background.",
+   "applies_when": "The person narrates the discovery as happenstance or a matter of 'mind set and background'.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p011:02",
+    "shane2000-cc1be0:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "shane2000-cc1be0:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Superior search ability or traits",
+   "definition": "Rival accounts attribute discovery to superior information processing, search techniques, scanning, or stable traits; the author argues this is inconsistent with each entrepreneur failing to see seven of eight opportunities.",
+   "applies_when": "The person explains their discovery by being generally good at spotting opportunities or by systematic scanning.",
+   "does_not_apply_when": "Discovery is tied to specific prior knowledge rather than general ability.",
+   "passage_ids": [
+    "shane2000-cc1be0:p005:03",
+    "shane2000-cc1be0:p011:03",
+    "shane2000-cc1be0:p019:05"
+   ],
+   "pdf_pages": [
+    5,
+    11,
+    19
+   ],
+   "candidate_id": "shane2000-cc1be0:c15"
+  },
+  {
+   "group": "rival",
+   "label": "Retrospective rationalisation",
+   "definition": "Self-reported retrospective accounts may rationalise a process that had favourable or unfavourable outcomes.",
+   "applies_when": "Signs the narrative of an unplanned discovery may have been reconstructed after the fact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p019:03"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "shane2000-cc1be0:c16"
+  },
+  {
+   "group": "rival",
+   "label": "Early access to disseminated information",
+   "definition": "People who learn about new knowledge before others may be more likely to discover opportunities; the author held this constant and draws no conclusions.",
+   "applies_when": "The account attributes discovery to being among the first to learn of the information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "shane2000-cc1be0:p010:02",
+    "shane2000-cc1be0:p011:01"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "candidate_id": "shane2000-cc1be0:c17"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,235 @@
+{
+ "paper_id": "alvarez2007-c77d51",
+ "file": "papers/pdf/Alvarez and Barney - 2007 - Discovery and Creation - Alternative Theories of Entrepreneurial Action.pdf",
+ "about": [
+  "The paper contrasts two theories of how entrepreneurial opportunities form: discovery theory, where exogenous shocks create opportunities found by alert searchers, and creation theory, where opportunities emerge from iterative, often blind or myopic, action under uncertainty. It then sets out what each theory implies for effective entrepreneurial action."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Exogenous shock creates opportunity",
+   "definition": "In discovery theory, opportunities arise from changes outside the entrepreneur that disrupt market equilibrium. Examples are technological, political or regulatory, and social or demographic changes.",
+   "applies_when": "The account traces the venture's opportunity to an external change in technology, regulation, consumer preferences or demographics that the person then noticed.",
+   "does_not_apply_when": "The opportunity emerged from the person's own actions and from market reactions to them (creation), not from an outside change.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p003:01",
+    "alvarez2007-c77d51:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "alvarez2007-c77d51:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Blind or myopic variation",
+   "definition": "An action taken without self-conscious planning or foresight, whether deliberate, intelligent or random, can start a chain of action and reaction that leads to an opportunity. Such actions often bring changes in unforeseen and even unwanted ways.",
+   "applies_when": "The person describes an unplanned or short-sighted action, experiment or random move that unexpectedly set off the process leading to the venture.",
+   "does_not_apply_when": "The action was a planned step toward an opportunity that was clearly identified in advance.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p005:04"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "alvarez2007-c77d51:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Act and observe market response",
+   "definition": "Entrepreneurs do not search. They act, observe how consumers and markets respond, and revise their beliefs in an iterative loop of action and reaction through which the opportunity is enacted.",
+   "applies_when": "The account describes trying something, watching how customers or the market reacted, and adjusting what was believed about the opportunity.",
+   "does_not_apply_when": "The person systematically scanned the environment and analysed data before acting (discovery search).",
+   "passage_ids": [
+    "alvarez2007-c77d51:p005:02",
+    "alvarez2007-c77d51:p005:04",
+    "alvarez2007-c77d51:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "alvarez2007-c77d51:c03"
+  },
+  {
+   "group": "role",
+   "label": "Redirection after disconfirmed beliefs",
+   "definition": "Entrepreneurs often learn that their original beliefs about an opportunity were not justified. They then form new beliefs, go back several steps and restart, or abandon the process entirely.",
+   "applies_when": "The person reports that an initial idea proved wrong and that this led them to reshape the venture, start over, or give it up.",
+   "does_not_apply_when": "There are only minor modifications to a strategy whose fundamental purpose stays unchanged.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p006:01",
+    "alvarez2007-c77d51:p009:04"
+   ],
+   "pdf_pages": [
+    6,
+    9
+   ],
+   "candidate_id": "alvarez2007-c77d51:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Luck and small local differences",
+   "definition": "Luck and very small variations in a person's local environment, such as location, can lead one of two otherwise indistinguishable individuals to form and exploit an opportunity. This happens within a highly path-dependent process.",
+   "applies_when": "The account attributes the venture's start to luck, being in a particular place, or a small circumstantial difference rather than to superior ability.",
+   "does_not_apply_when": "The person credits superior alertness, expertise or prior knowledge that others lacked.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "alvarez2007-c77d51:c05"
+  },
+  {
+   "group": "background",
+   "label": "Alertness and prior knowledge",
+   "definition": "In discovery theory, entrepreneurs differ from others in alertness: information asymmetries, risk preferences and cognition. Their prior industry knowledge and experience lets them combine information in new ways to see opportunities others miss.",
+   "applies_when": "The person explains noticing the opportunity because of their industry experience, specific knowledge, professional links or a special way of seeing.",
+   "does_not_apply_when": "The relevant expertise only became known after the opportunity emerged from action.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p004:02",
+    "alvarez2007-c77d51:p013:01",
+    "alvarez2007-c77d51:p008:01"
+   ],
+   "pdf_pages": [
+    4,
+    8,
+    13
+   ],
+   "candidate_id": "alvarez2007-c77d51:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Uncertainty of the decision context",
+   "definition": "In creation settings the outcomes of a decision and their probabilities cannot be known in advance, because the information does not yet exist. This differs from risky settings, where that information can be collected.",
+   "applies_when": "The person says they could not know or estimate where an action would lead, however much information they gathered.",
+   "does_not_apply_when": "The person could forecast the possible outcomes and their likelihoods through research such as surveys, focus groups or market data.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p004:03",
+    "alvarez2007-c77d51:p004:04",
+    "alvarez2007-c77d51:p006:04"
+   ],
+   "pdf_pages": [
+    4,
+    6
+   ],
+   "candidate_id": "alvarez2007-c77d51:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Rigid planning or external funding stifles emergence",
+   "definition": "Too rigorous strategic planning under uncertainty can short-circuit the enactment process. External funding can also force entrepreneurs to keep exploiting an identified opportunity even when it should be abandoned for an alternative.",
+   "applies_when": "The account describes business plans or investor commitments that locked the venture in and kept it from pursuing emerging alternatives, or flexible, simple strategies that allowed it to.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "alvarez2007-c77d51:p010:01",
+    "alvarez2007-c77d51:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "alvarez2007-c77d51:c08"
+  },
+  {
+   "group": "background",
+   "label": "Pre-existing social networks and bootstrapping",
+   "definition": "In creation settings, entrepreneurs recruit flexible generalists from their existing social networks. They finance activity from their own wealth or from friends and family, who invest in the person rather than in a defined opportunity.",
+   "applies_when": "The person describes drawing on personal contacts for staff or funding because the opportunity could not yet be explained to outsiders.",
+   "does_not_apply_when": "Staff or funding came from broad recruitment, banks or venture capital on the basis of a clearly specified opportunity.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p009:03",
+    "alvarez2007-c77d51:p010:03"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "alvarez2007-c77d51:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Path-dependent amplification and tacit advantage",
+   "definition": "Small differences in initial choices grow into large differences over time. The result is heterogeneous, costly-to-copy resources and tacit learning that sustains advantage without barriers to entry.",
+   "applies_when": "The account links early, perhaps chance, choices to distinctive capabilities or know-how that competitors could not easily copy.",
+   "does_not_apply_when": "The advantage is attributed to speed, secrecy or entry barriers.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p006:01",
+    "alvarez2007-c77d51:p011:03",
+    "alvarez2007-c77d51:p012:04"
+   ],
+   "pdf_pages": [
+    6,
+    11,
+    12
+   ],
+   "candidate_id": "alvarez2007-c77d51:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Entrepreneurial traits emerge ex post",
+   "definition": "Differences between entrepreneurs and others, such as overconfidence or generalising from small samples, may be reinforced by the entrepreneurial path taken. They are then an effect of entrepreneurship rather than only its cause.",
+   "applies_when": "The person describes becoming more confident or entrepreneurial as a result of the venture's unfolding, not as a trait they had beforehand.",
+   "does_not_apply_when": "The person presents these traits as present before founding and as the reason they saw the opportunity.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p006:03",
+    "alvarez2007-c77d51:p006:04"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "alvarez2007-c77d51:c11"
+  },
+  {
+   "group": "role",
+   "label": "Early actions seed founding conditions",
+   "definition": "A firm's founding conditions, and the seeds of its future form, may themselves result from the entrepreneur's early actions in forming the opportunity.",
+   "applies_when": "The account links the venture's basic shape or structure to early, emergent actions rather than to an initial design.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "alvarez2007-c77d51:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "alvarez2007-c77d51:c12"
+  },
+  {
+   "group": "account",
+   "label": "Ex post narration as discovery or creation",
+   "definition": "After the fact, any opportunity can be described either as discovered or as created. Its links to prior industries always appear clear in hindsight, even though they were unknown beforehand.",
+   "applies_when": "The person narrates in hindsight how the opportunity 'was always there' or flowed logically from an existing industry, or retells an emergent process as a planned discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "alvarez2007-c77d51:p002:02",
+    "alvarez2007-c77d51:p005:02",
+    "alvarez2007-c77d51:p007:02"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    7
+   ],
+   "candidate_id": "alvarez2007-c77d51:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic search",
+   "definition": "Discovery theory explains opportunity formation as deliberate, systematic scanning of the environment for opportunities that already exist. Effectiveness then depends on the direction and duration of the search, and on whether it is local or global.",
+   "applies_when": "The person reports deliberately searching or scanning markets to find the opportunity.",
+   "does_not_apply_when": "The opportunity arose through unplanned action and reaction rather than deliberate search.",
+   "passage_ids": [
+    "alvarez2007-c77d51:p003:02",
+    "alvarez2007-c77d51:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "alvarez2007-c77d51:c14"
+  }
+ ],
+ "removed": []
+}

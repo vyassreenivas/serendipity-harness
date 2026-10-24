@@ -1,0 +1,208 @@
+{
+ "paper_id": "vanlent2023-afed1a",
+ "file": "papers/pdf/Van Lent et al - 2023 - Historiography and the Excavation of Nascent Business Venturing.pdf",
+ "about": [
+  "A methodological paper arguing that retrospective founding narratives impose teleology and rational intentionality on nascent venturing, omitting unreasoned, unintended and serendipitous elements, and proposing a historiographical procedure to recover them."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "account",
+   "label": "Narrativity erases happenstance",
+   "definition": "Post hoc founding stories impose sequence, causality, coherence and intentionality, so the happenstance, unintended or serendipitous elements of venture creation tend to be left out or reshaped.",
+   "applies_when": "A founder's account presents the founding as a linear, planned progression, or smooths over chance events into a deliberate story. This includes cases where the story is told as if the outcome was intended from the start.",
+   "does_not_apply_when": "The founder explicitly narrates chance, accidental or unplanned events as such. That is a direct account of serendipity, not its erasure.",
+   "passage_ids": [
+    "vanlent2023-afed1a:p001:02",
+    "vanlent2023-afed1a:p002:01",
+    "vanlent2023-afed1a:p002:03"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "vanlent2023-afed1a:c01"
+  },
+  {
+   "group": "type",
+   "label": "Serendipitous aspects: encounters, play, error",
+   "definition": "The authors name unplanned encounters, play and error as serendipitous aspects of entrepreneurship that entrepreneurs can learn to manage.",
+   "applies_when": "An account describes a venture-relevant development arising from an unplanned meeting with someone, from playful experimentation, or from a mistake.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p014:03"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "vanlent2023-afed1a:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Consequential encounters",
+   "definition": "Encounters and serendipities are named as consequential events that shape a venture and that historical reconstruction should recover.",
+   "applies_when": "A founder cites a chance meeting or encounter as a turning point in the venture's story.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p010:04",
+    "vanlent2023-afed1a:p014:03"
+   ],
+   "pdf_pages": [
+    10,
+    14
+   ],
+   "candidate_id": "vanlent2023-afed1a:c03"
+  },
+  {
+   "group": "background",
+   "label": "Personal networks and family histories",
+   "definition": "Microhistories of entrepreneurship should attend to personal backgrounds, networks and family histories alongside encounters and serendipities.",
+   "applies_when": "An account links an unexpected development to the founder's background, network ties or family history.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p010:04"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "vanlent2023-afed1a:c04"
+  },
+  {
+   "group": "rival",
+   "label": "Rational intentionality explanation",
+   "definition": "Both discovery and creation views of opportunity assume a conscious, reasoned cognitive endeavor. They describe entrepreneurs as purposefully progressing from idea generation to establishment, which is an alternative to chance-driven accounts.",
+   "applies_when": "Events are explained as the result of deliberate opportunity search, judgment or planned progression rather than chance.",
+   "does_not_apply_when": "Deliberation that responds to an unplanned event that has already occurred. In that case the trigger itself is serendipitous.",
+   "passage_ids": [
+    "vanlent2023-afed1a:p003:04",
+    "vanlent2023-afed1a:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "vanlent2023-afed1a:c05"
+  },
+  {
+   "group": "rival",
+   "label": "Effectuation as logic of control",
+   "definition": "Effectuation is presented as still a logical, control-oriented design approach to uncertainty. It is distinct from unreasoned or unintended drivers.",
+   "applies_when": "A founder describes working with available means and controlling outcomes ad hoc as the explanation for how the venture took shape.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "vanlent2023-afed1a:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Impulsive and non-rational drivers",
+   "definition": "Venturing can be messy, impulsive or serendipitous because of personality traits, disinhibition, impulse control disorders or even parasite infections. These internal personal dynamics drive unreasoned action.",
+   "applies_when": "An account attributes a venturing step to impulse, disinhibition or personal disposition rather than to an unexpected external event.",
+   "does_not_apply_when": "The unplanned element comes from an external chance event or encounter rather than from the person's impulsivity.",
+   "passage_ids": [
+    "vanlent2023-afed1a:p002:02",
+    "vanlent2023-afed1a:p011:01"
+   ],
+   "pdf_pages": [
+    2,
+    11
+   ],
+   "candidate_id": "vanlent2023-afed1a:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "External socio-economic stimuli",
+   "definition": "External impulses such as unemployment, job insecurity, government support, access to finance, and technical or financial innovations shape new business formation.",
+   "applies_when": "A founder cites a change in circumstances (e.g., losing a job, new funding or technology) as prompting the venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p011:01"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vanlent2023-afed1a:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Unplanned feedback from action",
+   "definition": "Unplanned dynamics can spawn directly from entrepreneurial action, for example self-reinforcing feedback from investment and action patterns.",
+   "applies_when": "An account describes earlier actions producing unanticipated consequences that then drove the venture's direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "vanlent2023-afed1a:c09"
+  },
+  {
+   "group": "role",
+   "label": "Evolving individual-opportunity nexus",
+   "definition": "Venture creation is diachronic. The individual-opportunity nexus evolves over time and is not fixed at initial intention, which leaves room for unintended and non-deliberative drivers to redirect the venture.",
+   "applies_when": "A founder describes the venture idea or direction changing over time in ways not foreseen at the start.",
+   "does_not_apply_when": "Changes that were planned stages of a predefined path.",
+   "passage_ids": [
+    "vanlent2023-afed1a:p002:03",
+    "vanlent2023-afed1a:p004:03"
+   ],
+   "pdf_pages": [
+    2,
+    4
+   ],
+   "candidate_id": "vanlent2023-afed1a:c10"
+  },
+  {
+   "group": "outcome",
+   "label": "Unreasoned drivers serving entrepreneurial purpose",
+   "definition": "Unreasoned drivers of behavior can serve an entrepreneurial purpose in ways the entrepreneur did not anticipate.",
+   "applies_when": "An account shows an unplanned or non-deliberate act turning out to benefit the venture unexpectedly.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "vanlent2023-afed1a:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Managing serendipitous aspects",
+   "definition": "Understanding the external and internal stimuli that shape venture creation can improve entrepreneurs' ability to manage and accommodate serendipitous aspects of entrepreneurship.",
+   "applies_when": "A founder describes deliberately preparing for, accommodating or exploiting unplanned encounters, play or errors.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p014:03",
+    "vanlent2023-afed1a:p015:03"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "vanlent2023-afed1a:c12"
+  },
+  {
+   "group": "account",
+   "label": "Hindsight bias in recall",
+   "definition": "Memory, current mood and social norms lead respondents to superimpose structure, simplicity and predictability onto their recollections of founding.",
+   "applies_when": "A founder recalls events with signs of reconstruction, such as claiming foresight, giving tidy causal chains, or reshaping events to fit current success or failure.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "vanlent2023-afed1a:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "vanlent2023-afed1a:c13"
+  }
+ ],
+ "removed": []
+}

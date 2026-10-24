@@ -1,0 +1,122 @@
+{
+ "paper_id": "davidsson2015-c4ba86",
+ "file": "papers/pdf/Davidsson - 2015 - Entrepreneurial Opportunities and the Entrepreneurship Nexus.pdf",
+ "about": [
+  "A critical review of the 'entrepreneurial opportunity' literature that proposes replacing the construct with External Enablers, New Venture Ideas and Opportunity Confidence. It does not discuss serendipity directly, but it treats related ideas: external triggers of venturing, how venture ideas form and change, and what governs whether they are pursued."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "External enabler sets off venturing",
+   "definition": "A single, distinct change in the environment can elicit or enable venture attempts by several actors. Examples are new technology, regulatory change, demographic shifts, or even natural disasters and terrorist attacks. Its favourability is selective, subjective and uncertain.",
+   "applies_when": "The account traces the start of a venture idea or attempt to a specific outside change or event, such as a new technology, a law change, a market or demographic shift, or a disaster.",
+   "does_not_apply_when": "The venture is an imitative or 'me-too' start-up with no clearly identifiable external change behind it, or the change was created by the actor (see the separate code for actor-shaped enablers).",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p011:01",
+    "davidsson2015-c4ba86:p011:02",
+    "davidsson2015-c4ba86:p015:03"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Own-problem solution reframed as business",
+   "definition": "Cognitions that guide a hobbyist's efforts to solve their own problem become a new venture idea only when the person sees the solution as the potential basis for a business.",
+   "applies_when": "The person describes solving a personal or hobby problem and then realising the solution could be the basis of a business.",
+   "does_not_apply_when": "The person had a business intent from the outset rather than reframing a personal solution.",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p012:01"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c02"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge shapes evaluation",
+   "definition": "Different people contemplating the same external change or idea reach very different levels of confidence about it. The author attributes this to differences in prior knowledge, resources, opportunity costs or dispositional optimism.",
+   "applies_when": "The account explains why this person, rather than others, saw promise in the same event or idea by pointing to their knowledge, resources or optimism.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p012:05",
+    "davidsson2015-c4ba86:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Opportunity confidence drives pursuit",
+   "definition": "Actors take action or not depending on their subjective evaluation of whether what they see is an opportunity. This evaluation can be mistaken, varies between people, and is reassessed over time.",
+   "applies_when": "The person describes deciding to act on, or to drop, an idea or event because they judged it attractive or unattractive at that time.",
+   "does_not_apply_when": "The doubt concerns whether they themselves are the right person to pursue it, which the author treats as entrepreneurial self-efficacy rather than confidence in the idea.",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p012:02",
+    "davidsson2015-c4ba86:p012:04",
+    "davidsson2015-c4ba86:p012:05"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c04"
+  },
+  {
+   "group": "role",
+   "label": "Feedback reshapes the venture idea",
+   "definition": "Contacts with potential customers and resource providers, and intermediate outcomes, lead actors to adjust their confidence and to change the venture idea itself. Early ideas are vague and malleable.",
+   "applies_when": "The account describes the venture idea or the founder's belief in it changing in response to encounters with customers, investors or early results.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p014:06",
+    "davidsson2015-c4ba86:p015:01",
+    "davidsson2015-c4ba86:p014:04"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c05"
+  },
+  {
+   "group": "rival",
+   "label": "Actor-created enabler",
+   "definition": "Actors can influence, or play a major role in, the external conditions they then exploit, for example by inventing the technology or lobbying for the regulatory change.",
+   "applies_when": "The 'enabling' change in the account was brought about by the founder's own invention or lobbying rather than happening to them.",
+   "does_not_apply_when": "The change arose independently of the actor.",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c06"
+  },
+  {
+   "group": "rival",
+   "label": "Imitative entry without trigger",
+   "definition": "In many cases, notably imitative start-ups and me-too entry in mature industries, no identifiable external enabler plays a major role in triggering initiation or determining success.",
+   "applies_when": "The venture copies an existing business model in a stable industry, with no distinct external event behind its start.",
+   "does_not_apply_when": "A specific external change prompted the idea.",
+   "passage_ids": [
+    "davidsson2015-c4ba86:p016:01",
+    "davidsson2015-c4ba86:p012:06"
+   ],
+   "pdf_pages": [
+    12,
+    16
+   ],
+   "candidate_id": "davidsson2015-c4ba86:c07"
+  }
+ ],
+ "removed": []
+}

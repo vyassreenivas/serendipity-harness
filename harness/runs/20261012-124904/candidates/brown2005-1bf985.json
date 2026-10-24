@@ -1,0 +1,220 @@
+{
+ "paper_id": "brown2005-1bf985",
+ "file": "papers/pdf/Brown - 2005 - Science Serendipity and the Contemporary Marketing Condition.pdf",
+ "about": [
+  "A viewpoint commentary arguing that luck and serendipity play a significant part in business and marketing success, that luck can be partly made through belief and a prepared mind, and that marketing should take serendipity seriously rather than fixating on customer orientation."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Chance encounter or conversation",
+   "definition": "An unplanned meeting or conversation with someone, often from outside one's field, that resolves a problem or opens a new direction.",
+   "applies_when": "The account describes an accidental meeting or casual conversation (e.g., at a social event) that sparked a new idea or course of action.",
+   "does_not_apply_when": "The meeting was deliberately sought out for that purpose.",
+   "passage_ids": [
+    "brown2005-1bf985:p001:02",
+    "brown2005-1bf985:p001:03",
+    "brown2005-1bf985:p004:03"
+   ],
+   "pdf_pages": [
+    1,
+    4
+   ],
+   "candidate_id": "brown2005-1bf985:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected anomaly or side-effect",
+   "definition": "An anomalous event, unanticipated result or incongruous finding, such as a side-effect discovered while searching for something else, that becomes the basis of success.",
+   "applies_when": "The person reports that while pursuing one goal they encountered an unexpected result that they then exploited.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p002:02",
+    "brown2005-1bf985:p004:03",
+    "brown2005-1bf985:p005:01"
+   ],
+   "pdf_pages": [
+    2,
+    4,
+    5
+   ],
+   "candidate_id": "brown2005-1bf985:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Happening to be in the right place",
+   "definition": "Success arising simply because the actor happened to be present or positioned somewhere at the right time, rather than through systematic analysis.",
+   "applies_when": "The account attributes a discovery or opportunity to coincidental presence or timing (e.g., a rig happening to be in the area, a visit that revealed a technology).",
+   "does_not_apply_when": "Presence resulted from painstaking analysis or planned search.",
+   "passage_ids": [
+    "brown2005-1bf985:p002:02",
+    "brown2005-1bf985:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "brown2005-1bf985:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Idea out of the blue",
+   "definition": "An idea that comes suddenly and unbidden, sometimes in an incidental setting, and is developed very quickly.",
+   "applies_when": "The person describes a sudden inspiration or whim that arrived unexpectedly and launched a product or venture.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p002:01",
+    "brown2005-1bf985:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "brown2005-1bf985:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognising significance of the accident",
+   "definition": "Turning a chance occurrence into something requires noticing and appreciating its significance rather than discarding the unusual as inconsequential.",
+   "applies_when": "The account shows the person noticing that an accidental event mattered and acting on it instead of dismissing it.",
+   "does_not_apply_when": "The person encountered the accident but ignored or dismissed it.",
+   "passage_ids": [
+    "brown2005-1bf985:p004:03",
+    "brown2005-1bf985:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "brown2005-1bf985:c05"
+  },
+  {
+   "group": "background",
+   "label": "Prepared mind",
+   "definition": "Training, reading, research and experience that enable a person to appreciate the significance of serendipitous occurrences; chance favours the prepared mind.",
+   "applies_when": "The person links their ability to spot or use a lucky event to prior knowledge, expertise or experience.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p004:02",
+    "brown2005-1bf985:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "brown2005-1bf985:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Rigid adherence to preconceived plan",
+   "definition": "The unprepared mind, or one socialised into normal practice, discards the unusual because it does not conform to the preconceived plan, so serendipity is overlooked.",
+   "applies_when": "The account describes ignoring or rejecting an unexpected input because it did not fit plans or established ways of thinking.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p004:03",
+    "brown2005-1bf985:p005:01"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "brown2005-1bf985:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Believing oneself lucky",
+   "definition": "Those who believe they are lucky and act on that belief find their luck increases, while those expecting bad luck often get it; luck can be made, caught or created.",
+   "applies_when": "The person expresses expecting good fortune or seeing themselves as lucky and acting accordingly, linked to good outcomes.",
+   "does_not_apply_when": "Luck is described as wholly uncontrollable and external.",
+   "passage_ids": [
+    "brown2005-1bf985:p003:02",
+    "brown2005-1bf985:p003:03",
+    "brown2005-1bf985:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "brown2005-1bf985:c08"
+  },
+  {
+   "group": "role",
+   "label": "Founding or redirecting a venture by chance",
+   "definition": "Chance events can found ventures or redirect careers and enterprises, such that without them the trajectory would have been entirely different.",
+   "applies_when": "The account presents a chance event as the origin of a business or as changing its or the person's direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p002:01",
+    "brown2005-1bf985:p002:03",
+    "brown2005-1bf985:p001:03"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "brown2005-1bf985:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Major commercial success from luck",
+   "definition": "Serendipity and sheer good fortune are a significant factor in commercial success, enormous fortunes and breakthrough products.",
+   "applies_when": "The person attributes significant success, growth or a breakthrough product partly to luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p002:02",
+    "brown2005-1bf985:p002:01"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "brown2005-1bf985:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Planning and analysis as explanation",
+   "definition": "Conventional accounts explain success through analysis, planning, control and customer orientation, treating luck as nonexistent or an uncontrollable external factor; the author criticises this.",
+   "applies_when": "The account attributes outcomes entirely to deliberate planning, rational management or strategy.",
+   "does_not_apply_when": "Planning is acknowledged alongside a chance element.",
+   "passage_ids": [
+    "brown2005-1bf985:p002:03",
+    "brown2005-1bf985:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "brown2005-1bf985:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Success-equals-customer-satisfaction inference",
+   "definition": "Inferring customer orientation from success is fallacious; success may instead stem from lack of alternatives, competitor ineptitude, shortages or sheer good fortune.",
+   "applies_when": "Success is explained post hoc as proof of meeting customer needs, or alternative causes like competitor weakness are offered.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "brown2005-1bf985:c12"
+  },
+  {
+   "group": "account",
+   "label": "Partly fluke, partly foresight",
+   "definition": "Retrospective accounts that apportion success between luck and foresight, acknowledging that fluke played a large part.",
+   "applies_when": "The person narrates success as a mix of luck and foresight, or admits it was largely a fluke or whim.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "brown2005-1bf985:p002:01",
+    "brown2005-1bf985:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "brown2005-1bf985:c13"
+  }
+ ],
+ "removed": []
+}

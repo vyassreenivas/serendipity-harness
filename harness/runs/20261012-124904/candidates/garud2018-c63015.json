@@ -1,0 +1,461 @@
+{
+ "paper_id": "garud2018-c63015",
+ "file": "papers/pdf/Garud et al - 2018 - Serendipity Arrangements for Exapting Science-Based Innovations.pdf",
+ "about": [
+  "The paper argues that science-based innovations can arise through exaptation (unanticipated new uses for existing discoveries), which can be induced via narratives (relationality, temporality, performativity) and serendipity arrangements (exaptive pools, events, forums) that cultivate distributed serendipity."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Serendipity as unanticipated strategic datum",
+   "definition": "Following Merton and Barber, serendipity is observing an unanticipated, anomalous and strategic datum that becomes the occasion for new theory or development.",
+   "applies_when": "Account describes an unexpected, anomalous observation that the person then treats as significant and builds on.",
+   "does_not_apply_when": "The finding was the planned target of a search identified in advance (adaptive pathway).",
+   "passage_ids": [
+    "garud2018-c63015:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "garud2018-c63015:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as luck plus effort and alertness",
+   "definition": "Serendipity is not just luck but effort and luck joined by alertness, flexibility and a prepared mind (sagacity).",
+   "applies_when": "Person describes a chance occurrence that was exploited because they were alert, prepared or flexible.",
+   "does_not_apply_when": "Pure luck with no preparation or effort described.",
+   "passage_ids": [
+    "garud2018-c63015:p005:04"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "garud2018-c63015:c02"
+  },
+  {
+   "group": "type",
+   "label": "Type I serendipity: discovery",
+   "definition": "Serendipitous making of a scientific/technical discovery itself, e.g., stumbling on a glue that does not glue.",
+   "applies_when": "Account describes accidentally discovering a new substance, finding or technology.",
+   "does_not_apply_when": "The unexpected element is a new use for an existing discovery (Type II).",
+   "passage_ids": [
+    "garud2018-c63015:p005:03",
+    "garud2018-c63015:p006:02"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "garud2018-c63015:c03"
+  },
+  {
+   "group": "type",
+   "label": "Type II serendipity: new use",
+   "definition": "Serendipitous discovery of a new, unanticipated use or function for an existing discovery (exaptation).",
+   "applies_when": "Person finds an unexpected application for an existing technology, product or idea.",
+   "does_not_apply_when": "The use was envisioned when the technology was developed (science-push/demand-pull).",
+   "passage_ids": [
+    "garud2018-c63015:p005:03",
+    "garud2018-c63015:p007:01"
+   ],
+   "pdf_pages": [
+    5,
+    7
+   ],
+   "candidate_id": "garud2018-c63015:c04"
+  },
+  {
+   "group": "type",
+   "label": "Distributed serendipity",
+   "definition": "Someone other than the discoverer finds new uses for a discovery; the discoverer may foresee that others could find uses.",
+   "applies_when": "The new use is found by a different person than the one who made the discovery, often after it was shared.",
+   "does_not_apply_when": "The discoverer alone finds the new use.",
+   "passage_ids": [
+    "garud2018-c63015:p005:04",
+    "garud2018-c63015:p006:01",
+    "garud2018-c63015:p013:03"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    13
+   ],
+   "candidate_id": "garud2018-c63015:c05"
+  },
+  {
+   "group": "type",
+   "label": "Franklins vs miltons",
+   "definition": "Exaptive sources: franklins are existing structures in use with inherent potential for supplementary use; miltons are things presently without function holding potential future utility.",
+   "applies_when": "Account distinguishes repurposing something already in use versus finding a use for something that had no use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p004:03",
+    "garud2018-c63015:p009:01"
+   ],
+   "pdf_pages": [
+    4,
+    9
+   ],
+   "candidate_id": "garud2018-c63015:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Failed or useless result",
+   "definition": "A discovery from a failed experiment or one with no immediate utility (scientific junk) becomes the starting point for a later new use.",
+   "applies_when": "Person describes an apparent failure or useless outcome later turned into something valuable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p006:02",
+    "garud2018-c63015:p005:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "garud2018-c63015:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected user behavior or demand",
+   "definition": "Unexpected signals from users, such as patients refusing to return tablets or a spike in demand, reveal unanticipated functionality.",
+   "applies_when": "Account describes noticing unexpected customer/user responses or usage patterns that revealed a new use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p005:01",
+    "garud2018-c63015:p009:04"
+   ],
+   "pdf_pages": [
+    5,
+    9
+   ],
+   "candidate_id": "garud2018-c63015:c08"
+  },
+  {
+   "group": "trigger",
+   "label": "Personal problem meets stored solution",
+   "definition": "An everyday problem a person encounters is linked to a remembered solution looking for a problem.",
+   "applies_when": "Person recalls connecting a mundane annoyance or need with a known but unused technology/idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p007:01",
+    "garud2018-c63015:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "garud2018-c63015:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reaching out through narratives",
+   "definition": "The discoverer tells anyone who will listen about the discovery, insisting it must be good for something, so that others reach in and experiment.",
+   "applies_when": "Person describes persistently sharing, presenting or talking up an idea of uncertain use to diverse audiences.",
+   "does_not_apply_when": "Pitching a product with an already defined use.",
+   "passage_ids": [
+    "garud2018-c63015:p006:02",
+    "garud2018-c63015:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "garud2018-c63015:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Going back and forth in time",
+   "definition": "Remembering past discoveries to serve imagined futures; keeping an idea alive as a solution looking for a problem.",
+   "applies_when": "Account shows recalling an old idea or keeping it alive over time for possible future use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p006:02",
+    "garud2018-c63015:p006:03",
+    "garud2018-c63015:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "garud2018-c63015:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recontextualization and abduction",
+   "definition": "Serendipity occurs when a discovery is considered in a new context, triggering others' interpretive flexibility and contextual inferencing (abduction) that yields new uses; may involve bisociation across domains.",
+   "applies_when": "Person describes seeing an existing thing in a different setting and inferring a new use by linking two domains.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p007:02",
+    "garud2018-c63015:p013:03"
+   ],
+   "pdf_pages": [
+    7,
+    13
+   ],
+   "candidate_id": "garud2018-c63015:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Scaling down into local experiments",
+   "definition": "Performative, low-cost practical experimentation (e.g., bootlegging resources, prototyping) to find practical utility for a discovery.",
+   "applies_when": "Account describes tinkering, prototyping or informal experimenting to find out what an unexpected discovery is good for.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p007:02",
+    "garud2018-c63015:p007:03",
+    "garud2018-c63015:p010:04"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "garud2018-c63015:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Thinking along",
+   "definition": "People from different vantage points interact briefly at staged events, forming swift ephemeral ties, without fully understanding each other's knowledge, sparking new functionality.",
+   "applies_when": "Person describes short-lived interactions with diverse others (fairs, hackathons, summits) that generated new uses or ideas.",
+   "does_not_apply_when": "Long-lasting entangled collaboration (forums).",
+   "passage_ids": [
+    "garud2018-c63015:p010:01",
+    "garud2018-c63015:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "garud2018-c63015:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Tracking usage patterns",
+   "definition": "Carefully investigating how a product is actually used to discover unanticipated functions.",
+   "applies_when": "Person describes investigating why customers buy or use something and discovering a new application.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p009:04"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "garud2018-c63015:c15"
+  },
+  {
+   "group": "background",
+   "label": "Maintained pool of discoveries",
+   "definition": "Discoveries kept alive over time (patents, catalogs, technology platforms, narratives) as options to be activated later; dormant ideas can converge years later.",
+   "applies_when": "Account draws on a stored stock of prior ideas, patents, technologies or capabilities that were later repurposed.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p009:01",
+    "garud2018-c63015:p009:02",
+    "garud2018-c63015:p009:03"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "garud2018-c63015:c16"
+  },
+  {
+   "group": "background",
+   "label": "Talk-rich organizational culture",
+   "definition": "Organizational cultures where people talk across departments and share early ideas, and practices like bootlegging, sustain serendipity.",
+   "applies_when": "Person credits informal conversations, cross-department sharing or permissive culture for enabling a discovery or new use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p007:03",
+    "garud2018-c63015:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "garud2018-c63015:c17"
+  },
+  {
+   "group": "background",
+   "label": "Redeploying existing expertise",
+   "definition": "Existing skills or technologies from one industry (e.g., boat hulls, truck gears, glass) are redeployed to a new domain.",
+   "applies_when": "Venture applies capabilities from a prior unrelated field to a new market.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p003:01",
+    "garud2018-c63015:p004:04"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "garud2018-c63015:c18"
+  },
+  {
+   "group": "role",
+   "label": "Exaptive pathway to innovation",
+   "definition": "Serendipity provides an alternative pathway to innovation based on functionalities unanticipated ex ante, contrasting with adaptive pathways.",
+   "applies_when": "The venture's product/market emerged from a use not foreseen at the outset.",
+   "does_not_apply_when": "Venture realized a functionality envisioned in advance.",
+   "passage_ids": [
+    "garud2018-c63015:p003:02",
+    "garud2018-c63015:p013:03"
+   ],
+   "pdf_pages": [
+    3,
+    13
+   ],
+   "candidate_id": "garud2018-c63015:c19"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting through successive uses",
+   "definition": "Functionality emerges and shifts over time, with a discovery passing through several uses (bookmark to note; product brightening to laptop film).",
+   "applies_when": "Account describes the offering being redirected to a different use after an initial application.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p007:01",
+    "garud2018-c63015:p009:04",
+    "garud2018-c63015:p006:03"
+   ],
+   "pdf_pages": [
+    6,
+    7,
+    9
+   ],
+   "candidate_id": "garud2018-c63015:c20"
+  },
+  {
+   "group": "outcome",
+   "label": "Profitable new products and ventures",
+   "definition": "Exaptation can be highly profitable and yield major innovations and start-ups, though success is not guaranteed and further development work is required.",
+   "applies_when": "Serendipitous use led to commercial success, new product or startup, often after extra development.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p005:01",
+    "garud2018-c63015:p009:04",
+    "garud2018-c63015:p011:01"
+   ],
+   "pdf_pages": [
+    5,
+    9,
+    11
+   ],
+   "candidate_id": "garud2018-c63015:c21"
+  },
+  {
+   "group": "account",
+   "label": "Series of accidents, slow crescendo",
+   "definition": "Participants narrate serendipity not as one moment but as a series of accidents or a slow build-up of options.",
+   "applies_when": "Person describes the discovery as accumulating gradually through many chance moments.",
+   "does_not_apply_when": "A single eureka moment.",
+   "passage_ids": [
+    "garud2018-c63015:p007:03",
+    "garud2018-c63015:p007:04"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "garud2018-c63015:c22"
+  },
+  {
+   "group": "account",
+   "label": "Solution looking for a problem",
+   "definition": "Discoverers reframe an apparent failure as a solution looking for a problem rather than a failure.",
+   "applies_when": "Person describes their result as useful-but-unknown-use rather than a failure.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "garud2018-c63015:c23"
+  },
+  {
+   "group": "rival",
+   "label": "Science-push, demand-pull, institutional steering",
+   "definition": "Innovations driven by pushing discoveries to market, market demand, or institutional incentives toward functionalities identified ex ante.",
+   "applies_when": "Venture is explained by planned commercialization, market pull, subsidies or tech transfer toward a predefined use.",
+   "does_not_apply_when": "Use emerged unanticipated.",
+   "passage_ids": [
+    "garud2018-c63015:p002:02",
+    "garud2018-c63015:p002:03",
+    "garud2018-c63015:p003:02"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "garud2018-c63015:c24"
+  },
+  {
+   "group": "condition",
+   "label": "Serendipity arrangements",
+   "definition": "Structured arrangements—exaptive pools, staged exaptive events (fairs, hackathons, summits), and exaptive forums (incubators, accelerators, co-working spaces)—raise the likelihood of serendipity.",
+   "applies_when": "Person credits an incubator, accelerator, fair, hackathon, co-working space or idea bank for an unexpected connection or use.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p008:03",
+    "garud2018-c63015:p010:01",
+    "garud2018-c63015:p011:01"
+   ],
+   "pdf_pages": [
+    8,
+    10,
+    11
+   ],
+   "candidate_id": "garud2018-c63015:c25"
+  },
+  {
+   "group": "condition",
+   "label": "Foresight to organize for serendipity",
+   "definition": "Humans can foresee that unexpected uses may be found and prepare for them by organizing processes, without foreseeing the specific outcome.",
+   "applies_when": "Person describes deliberately positioning or preparing to encounter unexpected uses.",
+   "does_not_apply_when": "Foreseeing the specific outcome.",
+   "passage_ids": [
+    "garud2018-c63015:p005:02",
+    "garud2018-c63015:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "garud2018-c63015:c26"
+  },
+  {
+   "group": "condition",
+   "label": "Diverse perspectives and open innovation",
+   "definition": "Connecting with outsiders, laypeople and crowds enlarges cognitive resources and increases the likelihood of finding utility.",
+   "applies_when": "New use found via outsiders, crowdsourcing, laypeople or partners from other domains.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p009:04",
+    "garud2018-c63015:p011:04",
+    "garud2018-c63015:p013:01"
+   ],
+   "pdf_pages": [
+    9,
+    11,
+    13
+   ],
+   "candidate_id": "garud2018-c63015:c27"
+  },
+  {
+   "group": "condition",
+   "label": "Barriers: unawareness, stigma, boundaries",
+   "definition": "Exaptation is hindered when actors are unaware of relevant discoveries, when abandoned discoveries carry a failure stigma, and by boundaries between science and use.",
+   "applies_when": "Account mentions difficulty because others didn't know of an idea, it was seen as failed, or scientists and users couldn't connect.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2018-c63015:p005:01",
+    "garud2018-c63015:p011:03"
+   ],
+   "pdf_pages": [
+    5,
+    11
+   ],
+   "candidate_id": "garud2018-c63015:c28"
+  }
+ ],
+ "removed": []
+}

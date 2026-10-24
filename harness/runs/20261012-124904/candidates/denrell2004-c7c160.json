@@ -1,0 +1,161 @@
+{
+ "paper_id": "denrell2004-c7c160",
+ "file": "papers/pdf/Denrell - 2004 - Random Walks and Sustained Competitive Advantage.pdf",
+ "about": [
+  "Denrell models firm resource accumulation as a random walk and shows that pure chance can produce lasting profit differences between firms that started out identical; he argues that observers tend to wrongly credit such patterns to built-in firm superiority and build spurious explanations after the fact."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "rival",
+   "label": "Superior initial resources or capabilities",
+   "definition": "The conventional explanation that lasting success comes from a firm having better initial resources or a better ability to build resources (dynamic capabilities). The author sets this against chance as an explanation for the same performance record.",
+   "applies_when": "The account explains a venture's sustained success by the founders or firm having better starting resources, skills or resource-building ability than others from the outset.",
+   "does_not_apply_when": "The account credits accumulated chance events or luck rather than differences present from the start.",
+   "passage_ids": [
+    "denrell2004-c7c160:p004:02",
+    "denrell2004-c7c160:p004:03",
+    "denrell2004-c7c160:p012:02"
+   ],
+   "pdf_pages": [
+    4,
+    12
+   ],
+   "candidate_id": "denrell2004-c7c160:c01"
+  },
+  {
+   "group": "outcome",
+   "label": "Single lucky break sustained",
+   "definition": "One lucky break can generate persistent above-average returns when it is protected by strong isolating mechanisms that keep others from imitating it.",
+   "applies_when": "A participant describes one fortunate event that gave the venture an advantage, which then lasted because others could not copy or erode it.",
+   "does_not_apply_when": "The advantage builds up from many small chance increments rather than one break; see the code on cumulative chance.",
+   "passage_ids": [
+    "denrell2004-c7c160:p011:04",
+    "denrell2004-c7c160:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "denrell2004-c7c160:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Path-dependent amplification of chance",
+   "definition": "In path-dependent processes with increasing returns, a firm that happens to gain an early advantage accumulates resources faster, so small chance events can lead to lasting dominance.",
+   "applies_when": "An account describes an early chance advantage that made further gains easier, snowballing into a larger lead.",
+   "does_not_apply_when": "The lead persists without any self-reinforcement, simply because accumulated gains are retained; see the code on cumulative chance.",
+   "passage_ids": [
+    "denrell2004-c7c160:p004:04",
+    "denrell2004-c7c160:p011:05"
+   ],
+   "pdf_pages": [
+    4,
+    11
+   ],
+   "candidate_id": "denrell2004-c7c160:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Cumulative chance producing long leads",
+   "definition": "Even with no self-reinforcement, gains from many independent random draws accumulate. Once a firm happens to get ahead it is likely to stay ahead for long periods.",
+   "applies_when": "A participant describes a lasting lead built from a series of chance gains that were kept, without describing any special starting advantage or self-reinforcing growth.",
+   "does_not_apply_when": "Gains accelerate because of the existing lead (path dependency), or the lead rests on one protected lucky break.",
+   "passage_ids": [
+    "denrell2004-c7c160:p003:02",
+    "denrell2004-c7c160:p006:03",
+    "denrell2004-c7c160:p012:01"
+   ],
+   "pdf_pages": [
+    3,
+    6,
+    12
+   ],
+   "candidate_id": "denrell2004-c7c160:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Retention and continued value of past gains",
+   "definition": "Chance produces lasting differences mainly where resources gained earlier are retained and stay valuable. The effect weakens when past gains decay or lose relevance.",
+   "applies_when": "An account shows that earlier fortunate gains stayed relevant and kept paying off over time.",
+   "does_not_apply_when": "Earlier gains became obsolete or were lost; see the code on environmental change.",
+   "passage_ids": [
+    "denrell2004-c7c160:p006:03",
+    "denrell2004-c7c160:p007:01",
+    "denrell2004-c7c160:p007:02"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "denrell2004-c7c160:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Environmental change reversing advantage",
+   "definition": "Technological or environmental change can turn accumulated resources into a liability (competency traps), so earlier leaders become laggards and chance-based leads do not last.",
+   "applies_when": "A participant describes an external shift that made the venture's earlier advantages useless or harmful.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2004-c7c160:p007:01",
+    "denrell2004-c7c160:p007:02",
+    "denrell2004-c7c160:p010:01"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "denrell2004-c7c160:c06"
+  },
+  {
+   "group": "account",
+   "label": "Attributing chance success to skill",
+   "definition": "Because long streaks do not look random to people, observers and managers tend to treat persistent success as evidence of systematic superiority and to underestimate the role of chance.",
+   "applies_when": "A narrator presents a sustained run of success as proof of superior strategy, ability or organization, and plays down chance.",
+   "does_not_apply_when": "The narrator explicitly acknowledges luck or chance as a contributor.",
+   "passage_ids": [
+    "denrell2004-c7c160:p003:04",
+    "denrell2004-c7c160:p012:04",
+    "denrell2004-c7c160:p013:01"
+   ],
+   "pdf_pages": [
+    3,
+    12,
+    13
+   ],
+   "candidate_id": "denrell2004-c7c160:c07"
+  },
+  {
+   "group": "account",
+   "label": "Spurious post hoc explanation",
+   "definition": "There is always something special in a firm's history that can be used afterwards to explain its record, so people construct explanations for success that may in fact be due to luck.",
+   "applies_when": "An interviewee builds a retrospective story linking particular features of the venture's history to its success, without evidence that those features caused it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2004-c7c160:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "denrell2004-c7c160:c08"
+  },
+  {
+   "group": "outcome",
+   "label": "Confidence or strategy change from misread luck",
+   "definition": "Misreading chance outcomes shapes later decisions: leaders grow more confident in their strategy, while laggards consider changing their strategy and organization.",
+   "applies_when": "An account shows a venture reinforcing or abandoning its strategy because of a performance record that may have come from chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "denrell2004-c7c160:p013:01",
+    "denrell2004-c7c160:p013:02"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "denrell2004-c7c160:c09"
+  }
+ ],
+ "removed": []
+}

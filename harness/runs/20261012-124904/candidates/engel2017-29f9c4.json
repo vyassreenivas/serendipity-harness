@@ -1,0 +1,297 @@
+{
+ "paper_id": "engel2017-29f9c4",
+ "file": "papers/pdf/Engel et al - 2017 - Toward a Dynamic Process Model of Entrepreneurial Networking Under Uncertainty.pdf",
+ "about": [
+  "A conceptual paper proposing an effectual model of entrepreneurial networking under uncertainty, in which networking generates unexpected contingencies and enables the serendipitous emergence of venture goals."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Serendipity as search plus contingency plus sagacity",
+   "definition": "Serendipity is search leading to unintended discovery, characterized by some combination of directed effort (search), favorable accidents (contingency), and prior knowledge (sagacity).",
+   "applies_when": "An account describes an unintended discovery that arose while the person was actively doing something, combined with a chance occurrence and knowledge that let them see its value.",
+   "does_not_apply_when": "Pure luck with no search or effort involved, or planned outcomes reached as intended.",
+   "passage_ids": [
+    "engel2017-29f9c4:p011:04",
+    "engel2017-29f9c4:p013:01"
+   ],
+   "pdf_pages": [
+    11,
+    13
+   ],
+   "candidate_id": "engel2017-29f9c4:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected contingency from uncertainty",
+   "definition": "Uncertainty itself produces an exogenous stream of surprising events that are a sufficient but unnecessary trigger to entrepreneurial action.",
+   "applies_when": "An account describes a surprising external event that arose unbidden and prompted the entrepreneur to act.",
+   "does_not_apply_when": "The surprise was deliberately induced through the entrepreneur's own networking (see the code on networking to generate contingencies).",
+   "passage_ids": [
+    "engel2017-29f9c4:p011:04"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "engel2017-29f9c4:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter or ordinary interaction",
+   "definition": "Seemingly normal interactions with potential stakeholders, such as a meeting at a social event, can produce cascading, extreme outcomes. Sometimes crucial information comes from forgotten or weak contacts.",
+   "applies_when": "An entrepreneur recounts that a casual meeting or contact, including one with someone they barely knew, unexpectedly delivered key information or a resource.",
+   "does_not_apply_when": "The contact was deliberately targeted in advance for a specific known resource.",
+   "passage_ids": [
+    "engel2017-29f9c4:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "engel2017-29f9c4:c03"
+  },
+  {
+   "group": "mechanism",
+   "label": "Networking to generate contingencies",
+   "definition": "Entrepreneurs can deliberately inject randomness and induce valuable accidents by networking broadly. This semi-endogenizes contingency, so that serendipity becomes partly the product of their own actions.",
+   "applies_when": "An entrepreneur describes deliberately putting themselves in situations, such as events or meeting many new people, so that unexpected things would happen to them.",
+   "does_not_apply_when": "Efficient, targeted networking aimed at a predetermined contact.",
+   "passage_ids": [
+    "engel2017-29f9c4:p011:04",
+    "engel2017-29f9c4:p011:05",
+    "engel2017-29f9c4:p014:05"
+   ],
+   "pdf_pages": [
+    11,
+    14
+   ],
+   "candidate_id": "engel2017-29f9c4:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Broad diverse tie formation",
+   "definition": "Seeking out new, diverse ties across social boundaries exposes entrepreneurs to heterogeneous views. This raises the probability of unexpected occurrences.",
+   "applies_when": "An account describes casting a wide net, meeting strangers, or seeking people with different backgrounds, and this led to unexpected ideas or opportunities.",
+   "does_not_apply_when": "Interaction only with similar existing contacts, chosen for homophily or trust.",
+   "passage_ids": [
+    "engel2017-29f9c4:p012:01",
+    "engel2017-29f9c4:p009:04",
+    "engel2017-29f9c4:p009:05"
+   ],
+   "pdf_pages": [
+    9,
+    12
+   ],
+   "candidate_id": "engel2017-29f9c4:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Harvesting by flexibility of goals",
+   "definition": "What matters most is what entrepreneurs do with a contingency. Effectual networking remains open-ended and flexible, so that goals can shift to leverage surprises arising from interactions.",
+   "applies_when": "An entrepreneur describes changing or abandoning their original idea in response to an unexpected input from a contact, and running with it.",
+   "does_not_apply_when": "The surprise is ignored or treated as a deviation from the plan that must be avoided.",
+   "passage_ids": [
+    "engel2017-29f9c4:p012:03",
+    "engel2017-29f9c4:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "engel2017-29f9c4:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Intelligent altruism in networking",
+   "definition": "Entrepreneurs help others without a fixed expected return, combining self-interest and collective interest. This builds ties that may later bring commitments and unexpected value.",
+   "applies_when": "An entrepreneur describes helping people, acting as a sounding board, or doing favors without knowing what they would get back, and this later paid off unexpectedly.",
+   "does_not_apply_when": "Transactional helping with a specific foreknown return in mind.",
+   "passage_ids": [
+    "engel2017-29f9c4:p010:03",
+    "engel2017-29f9c4:p011:02",
+    "engel2017-29f9c4:p002:03"
+   ],
+   "pdf_pages": [
+    2,
+    10,
+    11
+   ],
+   "candidate_id": "engel2017-29f9c4:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reframing failed ties as opportunity",
+   "definition": "By embracing discomfiting information rather than eschewing it, what looks like a dead-end search or unfruitful tie formation can be redrawn as an opportunity later.",
+   "applies_when": "An account describes a contact or search that seemed fruitless at the time but later turned into an opportunity, or that the entrepreneur reinterpreted as useful.",
+   "does_not_apply_when": "Dead ends that were simply dropped as failed attempts.",
+   "passage_ids": [
+    "engel2017-29f9c4:p012:01",
+    "engel2017-29f9c4:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "engel2017-29f9c4:c08"
+  },
+  {
+   "group": "background",
+   "label": "Existing means and ties as starting point",
+   "definition": "Networking under uncertainty begins with the entrepreneur's available means: who they are, what they know, and whom they know. Existing, predominantly strong ties are the point of departure.",
+   "applies_when": "An entrepreneur describes starting by talking with friends, family, or existing contacts to see what could be done together.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p008:04",
+    "engel2017-29f9c4:p009:03"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "engel2017-29f9c4:c09"
+  },
+  {
+   "group": "background",
+   "label": "Expanded knowledge pool from stakeholders",
+   "definition": "Pre-commitments from self-selected stakeholders enlarge the venture's means and knowledge. This makes it better at connecting the dots and acting on surprises.",
+   "applies_when": "An account shows that a partner or stakeholder who had joined the venture helped recognize or act on an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p013:01"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "engel2017-29f9c4:c10"
+  },
+  {
+   "group": "condition",
+   "label": "Prepared mind / sagacity",
+   "definition": "To capitalize on contingent events, sagacity or a prepared mind is proposed as a necessary condition. Some entrepreneurs are more open to recognizing and leveraging unexpected contingencies than others.",
+   "applies_when": "An account attributes recognizing a chance event's value to prior knowledge, alertness, or openness to the unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p014:06",
+    "engel2017-29f9c4:p013:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "engel2017-29f9c4:c11"
+  },
+  {
+   "group": "condition",
+   "label": "Perceived uncertainty and goal ambiguity",
+   "definition": "Serendipitous, effectual networking applies when the entrepreneur perceives high uncertainty and goals are ambiguous. As goals become clearer, goal-directed networking becomes viable again.",
+   "applies_when": "An entrepreneur describes not knowing what the venture would be or whom they needed, so they networked openly.",
+   "does_not_apply_when": "The entrepreneur had clear goals and knew in advance which ties were needed.",
+   "passage_ids": [
+    "engel2017-29f9c4:p007:03",
+    "engel2017-29f9c4:p007:05"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "engel2017-29f9c4:c12"
+  },
+  {
+   "group": "condition",
+   "label": "Affordable loss bounding networking",
+   "definition": "Limiting networking costs to what one can afford to lose, including time, keeps cost acceptable while keeping the venture open to unexpected upside possibilities.",
+   "applies_when": "An entrepreneur describes capping the time or money spent on exploring contacts while staying open to whatever came of it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p012:04",
+    "engel2017-29f9c4:p013:01"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "engel2017-29f9c4:c13"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the venture through goal emergence",
+   "definition": "Networking produces serendipitous outcomes involving resources, ideas, or both, which result in new or modified venture goals. Goals emerge from interaction rather than preceding it.",
+   "applies_when": "An account describes the venture's idea or direction changing because of something that unexpectedly came out of interactions with others.",
+   "does_not_apply_when": "Network change that merely secures resources toward an unchanged, given goal.",
+   "passage_ids": [
+    "engel2017-29f9c4:p013:02",
+    "engel2017-29f9c4:p012:06",
+    "engel2017-29f9c4:p012:04"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "engel2017-29f9c4:c14"
+  },
+  {
+   "group": "role",
+   "label": "Starting a venture from interaction",
+   "definition": "Social interaction may be the trigger for developing an idea. For example, user entrepreneurs happen upon an idea through a community and only retrospectively see it as a venture's genesis.",
+   "applies_when": "An entrepreneur says the venture idea arose by chance from interacting with a community or others, before they saw themselves as entrepreneurs.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p008:03"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "engel2017-29f9c4:c15"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective genesis narrative",
+   "definition": "Entrepreneurs only retrospectively evaluate earlier networking as the genesis of their venture. They often say things like 'you never know where somebody's going to end up.'",
+   "applies_when": "An interviewee narrates that, looking back, a past interaction turned out to be where the venture began, or uses never-know-where-it-leads framing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p008:03",
+    "engel2017-29f9c4:p011:02",
+    "engel2017-29f9c4:p002:03"
+   ],
+   "pdf_pages": [
+    2,
+    8,
+    11
+   ],
+   "candidate_id": "engel2017-29f9c4:c16"
+  },
+  {
+   "group": "rival",
+   "label": "Exogenous structural randomness",
+   "definition": "Network literature treats serendipity as merely an exogenous structural feature of randomness and spontaneous encounters. The authors contrast this with serendipity being partially endogenous to entrepreneurs' actions.",
+   "applies_when": "An account explains a fortunate encounter purely as structural chance, unrelated to anything the entrepreneur did.",
+   "does_not_apply_when": "The entrepreneur's own networking created the conditions for the encounter.",
+   "passage_ids": [
+    "engel2017-29f9c4:p014:04",
+    "engel2017-29f9c4:p014:05"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "engel2017-29f9c4:c17"
+  },
+  {
+   "group": "rival",
+   "label": "Goal-directed efficient networking",
+   "definition": "The alternative explanation is that entrepreneurs plan and target specific predefined ties to reach given goals efficiently. On this view, outcomes are the product of design rather than unexpected discovery.",
+   "applies_when": "An account shows the entrepreneur identified the needed contact in advance and pursued them deliberately to obtain a known resource.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "engel2017-29f9c4:p005:02",
+    "engel2017-29f9c4:p005:03",
+    "engel2017-29f9c4:p012:05"
+   ],
+   "pdf_pages": [
+    5,
+    12
+   ],
+   "candidate_id": "engel2017-29f9c4:c18"
+  }
+ ],
+ "removed": []
+}

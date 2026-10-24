@@ -1,0 +1,461 @@
+{
+ "paper_id": "mirvahedi2017-ff1fb5",
+ "file": "papers/pdf/Mirvahedi and Morrish - 2017 - The Role of Serendipity in Opportunity Exploration.pdf",
+ "about": [
+  "An empirical multiple-case study of fast-growth firms in New Zealand and Iran examining how serendipity contributes to opportunity exploration, identifying patterns (Archimedean, Columbian, Galilean and a new 'entrepreneurial serendipity') and sources such as networks, luck and perseverance."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity is a combination of a lucky accident and the person's ability (sagacity, knowledge, deduction) to recognise and develop what was found; pure chance alone is not serendipity.",
+   "applies_when": "An account describes an accidental encounter AND the person actively recognising its value or making use of it.",
+   "does_not_apply_when": "The event is described as pure luck with no recognition or action by the person; the authors distinguish this as luck/chance rather than serendipity.",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p002:04",
+    "mirvahedi2017-ff1fb5:p003:02",
+    "mirvahedi2017-ff1fb5:p003:03"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c01"
+  },
+  {
+   "group": "type",
+   "label": "Archimedean serendipity",
+   "definition": "Looking for a specified opportunity or solution and accidentally finding that same thing, typically with orderly search and high knowledge.",
+   "applies_when": "The person was seeking a particular solution or opportunity and found it through a chance event (e.g., seeking consultants and meeting them through a chance encounter).",
+   "does_not_apply_when": "What was found differs from what was sought (Columbian) or nothing specific was sought (Galilean/entrepreneurial).",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p005:01",
+    "mirvahedi2017-ff1fb5:p009:02",
+    "mirvahedi2017-ff1fb5:p010:01"
+   ],
+   "pdf_pages": [
+    5,
+    9,
+    10
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c02"
+  },
+  {
+   "group": "type",
+   "label": "Columbian serendipity",
+   "definition": "Looking for one specified opportunity and finding a different one instead.",
+   "applies_when": "The account shows search for a specific target that led to discovery of something else of value.",
+   "does_not_apply_when": "The thing found is the thing sought (Archimedean).",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p005:01",
+    "mirvahedi2017-ff1fb5:p005:02",
+    "mirvahedi2017-ff1fb5:p010:01"
+   ],
+   "pdf_pages": [
+    5,
+    10
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c03"
+  },
+  {
+   "group": "type",
+   "label": "Galilean serendipity",
+   "definition": "Finding an unspecified opportunity one was not seeking at all, recognised through knowledge or sagacity; often at firm formation when the person had no intention or idea of business.",
+   "applies_when": "Someone with no intention to start or pursue a business stumbles on an opportunity or receives an out-of-the-blue offer (e.g., offered a partnership, noticing a gap while shopping).",
+   "does_not_apply_when": "The person was already wanting to start some business and waiting for any opportunity (entrepreneurial serendipity).",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p005:02",
+    "mirvahedi2017-ff1fb5:p009:01",
+    "mirvahedi2017-ff1fb5:p011:03"
+   ],
+   "pdf_pages": [
+    5,
+    9,
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c04"
+  },
+  {
+   "group": "type",
+   "label": "Entrepreneurial serendipity",
+   "definition": "A new pattern where the person seeks any type of unspecified opportunity (e.g., to be self-employed) and through serendipitous circumstances finds an appropriate one; search may be orderly or haphazard and knowledge high or low; occurs continuously with a prepared mind.",
+   "applies_when": "The person wanted to run their own business or expand without a particular idea and an opportunity came along that they seized.",
+   "does_not_apply_when": "The person had no readiness or purpose to receive a business idea (Galilean).",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p011:02",
+    "mirvahedi2017-ff1fb5:p011:03",
+    "mirvahedi2017-ff1fb5:p015:01"
+   ],
+   "pdf_pages": [
+    11,
+    15
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c05"
+  },
+  {
+   "group": "trigger",
+   "label": "Out-of-the-blue offer",
+   "definition": "An unexpected invitation to join a business or partnership that starts the venture.",
+   "applies_when": "Account reports being offered a partnership, job in a firm, or invitation that led to the venture without prior seeking.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p009:02",
+    "mirvahedi2017-ff1fb5:p011:01"
+   ],
+   "pdf_pages": [
+    9,
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter or everyday experience",
+   "definition": "Unplanned encounters (holiday meetings, university meetings, teaching a student) or everyday activities (buying a camera, visiting a website) that reveal an opportunity.",
+   "applies_when": "An opportunity is reported as arising from a chance meeting or an incidental personal experience.",
+   "does_not_apply_when": "The contact came through deliberate, systematic information search.",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p004:01",
+    "mirvahedi2017-ff1fb5:p009:01",
+    "mirvahedi2017-ff1fb5:p011:01"
+   ],
+   "pdf_pages": [
+    4,
+    9,
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c07"
+  },
+  {
+   "group": "trigger",
+   "label": "External environmental events",
+   "definition": "Unexpected environmental events (earthquake, recession, a sporting event, competitors' problems) that bring big projects or expansion.",
+   "applies_when": "A venture benefited from an unplanned external event or shift in the environment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p010:02",
+    "mirvahedi2017-ff1fb5:p014:02"
+   ],
+   "pdf_pages": [
+    10,
+    14
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Recognising and seizing the moment",
+   "definition": "Entrepreneurs must recognise the value of the chance event and respond quickly by leveraging resources to turn it into an opportunity.",
+   "applies_when": "Account shows the person noticing value in an unexpected event and acting promptly on it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p004:02",
+    "mirvahedi2017-ff1fb5:p004:03",
+    "mirvahedi2017-ff1fb5:p004:01"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Orderly versus haphazard search",
+   "definition": "Search for opportunities ranges from organised, purposeful search to haphazard, unprepared finding without search criteria; serendipity patterns differ by search type.",
+   "applies_when": "Account describes how the person was looking: deliberately trying things/looking, or not searching at all.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p013:02",
+    "mirvahedi2017-ff1fb5:p013:03"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Activation of dormant knowledge",
+   "definition": "Knowledge lying unused in the entrepreneur's mind becomes explicit through a contingency such as meeting a friend or visiting a website.",
+   "applies_when": "An earlier, unused skill or qualification suddenly becomes relevant because of a chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p013:01"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c11"
+  },
+  {
+   "group": "background",
+   "label": "Personal and business networks",
+   "definition": "Networks are the most frequent source of serendipity; personal networks especially early, business networks as firms grow; referrals through friends and family bring big projects.",
+   "applies_when": "An opportunity arrives via a friend, spouse, colleague, referral or business contact.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p014:01",
+    "mirvahedi2017-ff1fb5:p014:02",
+    "mirvahedi2017-ff1fb5:p015:02"
+   ],
+   "pdf_pages": [
+    14,
+    15
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c12"
+  },
+  {
+   "group": "background",
+   "label": "Prior knowledge and prepared mind",
+   "definition": "Serendipity requires a mind ready to capture something; prior knowledge and experience (high or low) shape which pattern occurs.",
+   "applies_when": "Account links recognition of a chance opportunity to the person's existing knowledge, experience or readiness.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p003:03",
+    "mirvahedi2017-ff1fb5:p004:01",
+    "mirvahedi2017-ff1fb5:p012:01"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    12
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c13"
+  },
+  {
+   "group": "background",
+   "label": "Knowledge, search and contingency",
+   "definition": "Following Dew, serendipitous discovery draws on prior knowledge, search and contingency together.",
+   "applies_when": "An account combines what the person knew, how they were searching, and a contingent event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p004:03",
+    "mirvahedi2017-ff1fb5:p011:03"
+   ],
+   "pdf_pages": [
+    4,
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c14"
+  },
+  {
+   "group": "condition",
+   "label": "Perseverance and hard work",
+   "definition": "Persistence and hard work are reported sources of serendipity; entrepreneurs say they create their own luck and hard work puts them in the right place.",
+   "applies_when": "Entrepreneur links chance opportunities to persistence, not giving up, or working hard.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p015:03",
+    "mirvahedi2017-ff1fb5:p016:01",
+    "mirvahedi2017-ff1fb5:p011:01"
+   ],
+   "pdf_pages": [
+    11,
+    15,
+    16
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Quality products and serving clients",
+   "definition": "Commitment to clients through high-quality products and services opens new windows of opportunity and is a source of serendipity.",
+   "applies_when": "Chance opportunities are attributed to reputation for quality or service commitment.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p016:01",
+    "mirvahedi2017-ff1fb5:p015:02"
+   ],
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Alertness and openness",
+   "definition": "Entrepreneurial alertness and being alert to environmental changes lead entrepreneurs to treat options as opportunities; positive outlook believed to bring good things.",
+   "applies_when": "Entrepreneur describes staying alert or open, or a mind-set ready to seize any opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p011:03",
+    "mirvahedi2017-ff1fb5:p016:01",
+    "mirvahedi2017-ff1fb5:p011:01"
+   ],
+   "pdf_pages": [
+    11,
+    16
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Desire for self-employment",
+   "definition": "Dissatisfaction with employment or boredom in a previous job creates readiness to seize any opportunity that comes along.",
+   "applies_when": "Person reports disliking being an employee or wanting their own business before the opportunity appeared.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p011:01",
+    "mirvahedi2017-ff1fb5:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c18"
+  },
+  {
+   "group": "condition",
+   "label": "Early stage and scarce resources",
+   "definition": "Serendipity is likely at early stages of firm formation, and obtaining ideas through serendipity is prevalent in resource-scarce firms; knowledge spill-over increases it.",
+   "applies_when": "Serendipitous events cluster around founding or occur in resource-poor young firms.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p001:01",
+    "mirvahedi2017-ff1fb5:p015:02",
+    "mirvahedi2017-ff1fb5:p004:03"
+   ],
+   "pdf_pages": [
+    1,
+    4,
+    15
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c19"
+  },
+  {
+   "group": "role",
+   "label": "Starting the venture",
+   "definition": "Serendipity provides the initial business idea, first project or entry into the industry.",
+   "applies_when": "Founding idea, first contract or entry into business arose serendipitously.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p009:01",
+    "mirvahedi2017-ff1fb5:p010:02",
+    "mirvahedi2017-ff1fb5:p015:02"
+   ],
+   "pdf_pages": [
+    9,
+    10,
+    15
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c20"
+  },
+  {
+   "group": "role",
+   "label": "Advancing or redirecting the venture",
+   "definition": "Serendipity after founding brings big orders, partners, new markets, changed business models or expansion; its significance was judged by changes of direction, great ideas or new markets.",
+   "applies_when": "An established firm gains a new market, partner, big contract, or changes direction through a chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p009:01",
+    "mirvahedi2017-ff1fb5:p010:02",
+    "mirvahedi2017-ff1fb5:p011:03"
+   ],
+   "pdf_pages": [
+    9,
+    10,
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c21"
+  },
+  {
+   "group": "outcome",
+   "label": "New opportunities and growth",
+   "definition": "Serendipity leads to new opportunities that entrepreneurs explore to achieve growth.",
+   "applies_when": "Account links a serendipitous event to growth or major new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p015:01",
+    "mirvahedi2017-ff1fb5:p001:03"
+   ],
+   "pdf_pages": [
+    1,
+    15
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c22"
+  },
+  {
+   "group": "account",
+   "label": "Luck, chance, fate language",
+   "definition": "Entrepreneurs talk about serendipity using luck, chance, fortune and fate interchangeably and see it as a business fact needed for success.",
+   "applies_when": "Interviewee describes events using luck/chance/fate/fortune vocabulary.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p009:01"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c23"
+  },
+  {
+   "group": "account",
+   "label": "Own role over luck",
+   "definition": "Entrepreneurs see their own role as more salient than serendipity, yet concede it cannot be ignored; they claim to create their own luck.",
+   "applies_when": "Interviewee downplays luck in favour of their effort while acknowledging chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p006:03",
+    "mirvahedi2017-ff1fb5:p015:03"
+   ],
+   "pdf_pages": [
+    6,
+    15
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c24"
+  },
+  {
+   "group": "account",
+   "label": "Right opportunity at right time",
+   "definition": "Entrepreneurs believe the right opportunity appears at the right time and wait for it.",
+   "applies_when": "Interviewee narrates waiting for the right moment or that things came when the time was right.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p011:01",
+    "mirvahedi2017-ff1fb5:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c25"
+  },
+  {
+   "group": "rival",
+   "label": "Pure luck or chance",
+   "definition": "Events attributed to pure luck without sagacity, or finding a specified opportunity via haphazard search with little knowledge, are luck rather than serendipity.",
+   "applies_when": "An outcome explained solely by chance, with no recognition or knowledge-based action, or a dream realised by lucky haphazard search.",
+   "does_not_apply_when": "The person's sagacity or action in recognising/exploiting the accident is evident (serendipity).",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p003:03",
+    "mirvahedi2017-ff1fb5:p013:03",
+    "mirvahedi2017-ff1fb5:p014:01"
+   ],
+   "pdf_pages": [
+    3,
+    13,
+    14
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c26"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate search and planning",
+   "definition": "Opportunities can arise from deliberate, goal-oriented search, market research, information asymmetries or planned strategy, contrasted with serendipitous encounters.",
+   "applies_when": "Opportunity is attributed to systematic research, planned strategy or problem-solution search.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mirvahedi2017-ff1fb5:p002:02",
+    "mirvahedi2017-ff1fb5:p004:02"
+   ],
+   "pdf_pages": [
+    2,
+    4
+   ],
+   "candidate_id": "mirvahedi2017-ff1fb5:c27"
+  }
+ ],
+ "removed": []
+}

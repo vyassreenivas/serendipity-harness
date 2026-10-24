@@ -1,0 +1,280 @@
+{
+ "paper_id": "derond2007-89268a",
+ "file": "papers/pdf/de Rond and Thietart - 2007 - Choice, Chance, and Inevitability in Strategy.pdf",
+ "about": [
+  "A theoretical paper arguing that strategy results from the interplay of choice, chance and causal background, illustrated with Pfizer's chance discovery of Viagra, and proposing that chance events open avenues for choice but need a causal background to be interpreted and exploited."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Chance event",
+   "definition": "Chance is an event happening without any obvious design, one irrelevant to any present need or whose cause is unknown.",
+   "applies_when": "An account describes an event that happened without planning or design, was not sought for a current need, or whose cause the person cannot identify.",
+   "does_not_apply_when": "The event followed from a deliberate plan or search aimed at that outcome.",
+   "passage_ids": [
+    "derond2007-89268a:p002:03",
+    "derond2007-89268a:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "derond2007-89268a:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected side observation",
+   "definition": "An unanticipated result arising in the course of pursuing a different aim (e.g., Viagra's side effects in angina trials) reveals an alternative possibility.",
+   "applies_when": "A person reports that while working toward one goal, an unexpected by-product or anomalous result appeared and pointed to another use or opportunity.",
+   "does_not_apply_when": "The result was the intended target of the work.",
+   "passage_ids": [
+    "derond2007-89268a:p004:03",
+    "derond2007-89268a:p005:03"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "derond2007-89268a:c02"
+  },
+  {
+   "group": "role",
+   "label": "Chance opens new avenues",
+   "definition": "Chance coincidences can open up new alternatives for future choices; they make options possible but need not lead anywhere.",
+   "applies_when": "An account describes a fortuitous event that created a new option or direction the actors could then choose to pursue.",
+   "does_not_apply_when": "The chance event is described as having no effect on available options.",
+   "passage_ids": [
+    "derond2007-89268a:p012:04",
+    "derond2007-89268a:p014:01"
+   ],
+   "pdf_pages": [
+    12,
+    14
+   ],
+   "candidate_id": "derond2007-89268a:c03"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting a failing project",
+   "definition": "A chance discovery can rescue an ill-fated program and redirect it toward a different target, salvaging sunk costs.",
+   "applies_when": "A venture or project about to be abandoned is turned toward a new market or application because of an unexpected finding.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p004:03",
+    "derond2007-89268a:p005:03"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "derond2007-89268a:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Deliberate choice to exploit",
+   "definition": "Chance alone does not make strategy; actors must deliberate and commit, e.g., reallocating and committing new resources to pursue the opportunity chance revealed.",
+   "applies_when": "After an unexpected event, the person describes deciding to commit money, people or effort to follow it up.",
+   "does_not_apply_when": "Outcomes simply happened to the actor without any decision to act on the chance event.",
+   "passage_ids": [
+    "derond2007-89268a:p005:03",
+    "derond2007-89268a:p014:02",
+    "derond2007-89268a:p013:01"
+   ],
+   "pdf_pages": [
+    5,
+    13,
+    14
+   ],
+   "candidate_id": "derond2007-89268a:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Turning luck into strategy",
+   "definition": "Leaders can take advantage of fortuitous circumstances and turn good luck into a strategic direction.",
+   "applies_when": "An account describes someone recognizing fortunate circumstances and building a deliberate strategic direction around them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "derond2007-89268a:c06"
+  },
+  {
+   "group": "background",
+   "label": "Causal background for recognizing chance",
+   "definition": "Prior knowledge, experience, skills, institutions and context are necessary to notice, interpret, prioritize and exploit chance events; otherwise coincidences go unnoticed.",
+   "applies_when": "A person links their ability to see the significance of an unexpected event to their existing expertise, knowledge base, or situation.",
+   "does_not_apply_when": "The event's significance would have been evident to anyone regardless of background.",
+   "passage_ids": [
+    "derond2007-89268a:p013:01",
+    "derond2007-89268a:p013:02",
+    "derond2007-89268a:p002:02"
+   ],
+   "pdf_pages": [
+    2,
+    13
+   ],
+   "candidate_id": "derond2007-89268a:c07"
+  },
+  {
+   "group": "background",
+   "label": "Prior art and existing knowledge",
+   "definition": "Existing literature and the state of field knowledge (e.g., prior publications on the mechanism) gave reason to invest in the chance finding and made it make sense.",
+   "applies_when": "An account cites earlier reports, publications or known findings that made the unexpected observation credible or worth pursuing.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p005:02",
+    "derond2007-89268a:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "derond2007-89268a:c08"
+  },
+  {
+   "group": "outcome",
+   "label": "Accumulating consequences of chance",
+   "definition": "A random event becomes part of the foundation for future periods, and its consequences may accumulate until they dominate the process.",
+   "applies_when": "A person describes an early chance event whose effects grew over time to shape the venture's trajectory substantially.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "derond2007-89268a:c09"
+  },
+  {
+   "group": "outcome",
+   "label": "Commercial success from chance discovery",
+   "definition": "Combined with choice and background, chance discoveries can yield major products and revenues, as with Viagra.",
+   "applies_when": "An account traces a successful product or market result back to an unexpected discovery that was then exploited.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p005:01"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "derond2007-89268a:c10"
+  },
+  {
+   "group": "account",
+   "label": "Retrospective coherent narrative",
+   "definition": "People reconstruct strategic episodes into coherent, purposeful narratives with meaningful plots, imposing teleology via post hoc rationalization; these narratives feed future choices.",
+   "applies_when": "A person narrates past events as an orderly, purposeful sequence leading inevitably to the outcome, smoothing over randomness.",
+   "does_not_apply_when": "The person explicitly emphasizes randomness or luck in the narrative.",
+   "passage_ids": [
+    "derond2007-89268a:p012:03",
+    "derond2007-89268a:p009:01",
+    "derond2007-89268a:p008:04"
+   ],
+   "pdf_pages": [
+    8,
+    9,
+    12
+   ],
+   "candidate_id": "derond2007-89268a:c11"
+  },
+  {
+   "group": "account",
+   "label": "Chance myth exaggeration",
+   "definition": "Stories of chance discovery may become 'urban myths' that overstate luck and hide the causal background and choices involved (e.g., Fleming and penicillin).",
+   "applies_when": "An account attributes a discovery mainly to luck while others had made similar observations or prior work made it likely.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p015:04"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "derond2007-89268a:c12"
+  },
+  {
+   "group": "rival",
+   "label": "Inevitability from background",
+   "definition": "When the causal background is sufficient to determine an outcome, it is strategic inevitability rather than chance; the discovery was 'obvious' given existing knowledge.",
+   "applies_when": "Evidence shows the supposedly lucky discovery would likely have occurred anyway given the state of knowledge or prior suggestions.",
+   "does_not_apply_when": "The event was genuinely unforeseeable given existing knowledge.",
+   "passage_ids": [
+    "derond2007-89268a:p014:01",
+    "derond2007-89268a:p005:02",
+    "derond2007-89268a:p014:04"
+   ],
+   "pdf_pages": [
+    5,
+    14
+   ],
+   "candidate_id": "derond2007-89268a:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Deliberate strategic choice",
+   "definition": "Outcomes may result from freely made, deliberate managerial choices rather than chance.",
+   "applies_when": "The account shows the outcome followed planned decisions and anticipated consequences.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p013:02",
+    "derond2007-89268a:p006:01"
+   ],
+   "pdf_pages": [
+    6,
+    13
+   ],
+   "candidate_id": "derond2007-89268a:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Environmental determinism",
+   "definition": "Strategies may be significantly determined by environmental and institutional pressures rather than chance or choice.",
+   "applies_when": "An account attributes the venture's direction mainly to market forces, institutions or industry structure.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "derond2007-89268a:c15"
+  },
+  {
+   "group": "condition",
+   "label": "Chance in garbage-can processes",
+   "definition": "Chance can draw together problems and solutions waiting in organizational 'garbage cans', creating opportunities in informal, unstructured settings.",
+   "applies_when": "An account describes a solution and a problem coinciding by chance through loosely structured interactions among actors.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p012:04",
+    "derond2007-89268a:p006:03"
+   ],
+   "pdf_pages": [
+    6,
+    12
+   ],
+   "candidate_id": "derond2007-89268a:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Structured but not deterministic world",
+   "definition": "Choice to exploit chance needs a world with some structure and causality so actors can anticipate consequences, but not so much as to be deterministic.",
+   "applies_when": "A person describes acting on an unexpected event because they could foresee plausible consequences of pursuing it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "derond2007-89268a:p002:02",
+    "derond2007-89268a:p010:04"
+   ],
+   "pdf_pages": [
+    2,
+    10
+   ],
+   "candidate_id": "derond2007-89268a:c17"
+  }
+ ],
+ "removed": []
+}

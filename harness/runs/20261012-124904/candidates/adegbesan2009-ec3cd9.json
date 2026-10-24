@@ -1,0 +1,80 @@
+{
+ "paper_id": "adegbesan2009-ec3cd9",
+ "file": "papers/pdf/Adegbesan - 2009 - On the Origins of Competitive Advantage - Strategic Factor Markets and Heterogeneous Resource Complementarity.pdf",
+ "about": [
+  "A game-theoretic extension of strategic factor market theory arguing that firms can earn gains from acquiring resources through superior complementarity, not only through superior expectations or luck."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "rival",
+   "label": "Superior expectations, not luck",
+   "definition": "Strategic factor market theory holds that a firm gains from acquiring a resource for less than its value only if it is better informed than others about the resource's future value, or if it is simply lucky. Better information is the systematic alternative to luck.",
+   "applies_when": "An account explains a favourable resource acquisition or deal by the actor having better information or foresight about its future value than sellers or rivals.",
+   "does_not_apply_when": "The gain is attributed to pure chance or fortune (luck), or to the resource fitting unusually well with what the firm already had (complementarity).",
+   "passage_ids": [
+    "adegbesan2009-ec3cd9:p003:04",
+    "adegbesan2009-ec3cd9:p004:01"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "adegbesan2009-ec3cd9:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Superior complementarity, not luck",
+   "definition": "A firm can profit from acquiring a resource because its existing bundle of resources and capabilities creates more value with that resource than other bidders' bundles could, even when everyone knows the resource's value. The author notes Barney's objection that this may itself reduce to luck.",
+   "applies_when": "An account attributes a valuable acquisition, partnership or combination to an unusually good fit between the newcomer resource and the actor's prior resources, skills or assets that few others could match.",
+   "does_not_apply_when": "The gain is explained by knowing something others did not (superior expectations) or by pure chance with no reference to fit with existing resources.",
+   "passage_ids": [
+    "adegbesan2009-ec3cd9:p002:03",
+    "adegbesan2009-ec3cd9:p011:03",
+    "adegbesan2009-ec3cd9:p012:02"
+   ],
+   "pdf_pages": [
+    2,
+    11,
+    12
+   ],
+   "candidate_id": "adegbesan2009-ec3cd9:c02"
+  },
+  {
+   "group": "rival",
+   "label": "Luck as residual explanation",
+   "definition": "Prevailing theory treats pure luck as one of only two ways, besides superior expectations, that firms obtain resources below their value. Barney's acquisition analysis likewise lists luck as a distinct condition for abnormal returns.",
+   "applies_when": "An account explains acquiring a valuable resource cheaply or a profitable combination as just good fortune, without pointing to the actor's information or fit.",
+   "does_not_apply_when": "The actor credits better information or a distinctive fit with existing resources.",
+   "passage_ids": [
+    "adegbesan2009-ec3cd9:p002:02",
+    "adegbesan2009-ec3cd9:p005:01",
+    "adegbesan2009-ec3cd9:p012:02"
+   ],
+   "pdf_pages": [
+    2,
+    5,
+    12
+   ],
+   "candidate_id": "adegbesan2009-ec3cd9:c03"
+  },
+  {
+   "group": "background",
+   "label": "Building enables picking",
+   "definition": "Firms that first build idiosyncratic resource bundles internally are then positioned to profitably pick up resources in markets that complement those bundles.",
+   "applies_when": "An account describes prior internally developed capabilities that later let the actor exploit a resource or opportunity that others could not value as highly.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "adegbesan2009-ec3cd9:p012:03",
+    "adegbesan2009-ec3cd9:p012:04"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "adegbesan2009-ec3cd9:c04"
+  }
+ ],
+ "removed": []
+}

@@ -1,0 +1,296 @@
+{
+ "paper_id": "mcfarlane2016-385256",
+ "file": "papers/pdf/McFarlane and Carter - 2016 - Serendipity and Its Role in the Discovery of Entrepreneurial Opportunities.pdf",
+ "about": [
+  "A study of 21 Glasgow music entrepreneurs showing how serendipity (accident plus sagacity) bridges causal and effectual logic in identifying entrepreneurial opportunities."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Accident plus sagacity",
+   "definition": "Serendipity is the gift of making discoveries by accident when a person connects with their environment; it is not mere luck but combines a chance event with prior knowledge.",
+   "applies_when": "An account describes an accidental discovery that the person could recognise or use because of what they already knew.",
+   "does_not_apply_when": "Pure luck with no role for the person's knowledge or judgment in recognising the event.",
+   "passage_ids": [
+    "mcfarlane2016-385256:p002:01",
+    "mcfarlane2016-385256:p008:01"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Three interacting elements",
+   "definition": "Following Dew, serendipity involves a resource (sagacity/prior knowledge), an event (contingency) and an activity (the person is already on a journey), plus sound judgment to decide if the event can be acted on.",
+   "applies_when": "An account shows a chance event occurring while the person was already pursuing some activity, met with knowledge and a judgment to act.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p002:01",
+    "mcfarlane2016-385256:p002:02",
+    "mcfarlane2016-385256:p008:01"
+   ],
+   "pdf_pages": [
+    2,
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c02"
+  },
+  {
+   "group": "type",
+   "label": "Opportunity discovery spaces",
+   "definition": "Dew's four spaces: systematic exploration of knowledge corridors, spontaneous recognition of new information, pre-discoveries (search plus contingency without relevant knowledge, so useless), and true serendipities.",
+   "applies_when": "An account can be placed as systematic search, spontaneous recognition, an idea that could not be used for lack of knowledge, or full serendipity.",
+   "does_not_apply_when": "Pre-discovery: chance idea that is useless without relevant knowledge, as distinct from serendipity.",
+   "passage_ids": [
+    "mcfarlane2016-385256:p002:02"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "mcfarlane2016-385256:c03"
+  },
+  {
+   "group": "trigger",
+   "label": "Chance encounter",
+   "definition": "Unexpected meetings or being in the right place at the right time act as trigger events, such as discovering an artist in an audience or being told to come see a band.",
+   "applies_when": "Person describes an unplanned meeting or happening to be present when something notable occurred.",
+   "does_not_apply_when": "Meetings deliberately sought through planned networking.",
+   "passage_ids": [
+    "mcfarlane2016-385256:p006:01",
+    "mcfarlane2016-385256:p006:02",
+    "mcfarlane2016-385256:p008:02"
+   ],
+   "pdf_pages": [
+    6,
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c04"
+  },
+  {
+   "group": "trigger",
+   "label": "Accident or mistake",
+   "definition": "Errors such as getting off at the wrong stop or knocking on the wrong door can lead to entry into a profession.",
+   "applies_when": "Account attributes a career or venture path to a mistake or wrong turn.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p006:01",
+    "mcfarlane2016-385256:p009:01"
+   ],
+   "pdf_pages": [
+    6,
+    9
+   ],
+   "candidate_id": "mcfarlane2016-385256:c05"
+  },
+  {
+   "group": "mechanism",
+   "label": "Prior knowledge kicks in to exploit",
+   "definition": "The activity is already underway when the contingency happens; insight arises when sagacity or prior experience helps the entrepreneur recognise and exploit it.",
+   "applies_when": "Account shows the person using existing experience to turn a chance event into an opportunity (e.g., B.M. using industry experience to build Paolo Nutini into a brand).",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p008:01",
+    "mcfarlane2016-385256:p008:02"
+   ],
+   "pdf_pages": [
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Action, recognition and insight",
+   "definition": "Serendipitous discoveries involve a mix of action, recognition and insight by the individual.",
+   "applies_when": "Person describes acting, noticing and realising something during a chance discovery.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "mcfarlane2016-385256:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Effectual embracing of contingency",
+   "definition": "Effectual entrepreneurs embrace unanticipated serendipities, asking what they can do with the means they have (who they are, what they know, whom they know), flexibly exploiting contingency.",
+   "applies_when": "Person responds to an unexpected development by working with existing means, identity and contacts rather than a prior plan.",
+   "does_not_apply_when": "Goal-driven selection among planned alternatives (causation).",
+   "passage_ids": [
+    "mcfarlane2016-385256:p003:02",
+    "mcfarlane2016-385256:p003:01"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "mcfarlane2016-385256:c08"
+  },
+  {
+   "group": "background",
+   "label": "Networks and who you know",
+   "definition": "Entrepreneurs build networks of stakeholders, mostly friendship-based, which offer opportunities and stability and are part of the means effectual entrepreneurs draw on.",
+   "applies_when": "Account highlights friends or industry contacts as the base from which opportunities arose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p007:02",
+    "mcfarlane2016-385256:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c09"
+  },
+  {
+   "group": "background",
+   "label": "Industry experience",
+   "definition": "Knowledge gained through work experience or education in the industry underpins recognising and exploiting opportunities.",
+   "applies_when": "Person cites prior jobs or training as what let them see or use an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p005:02",
+    "mcfarlane2016-385256:p008:02"
+   ],
+   "pdf_pages": [
+    5,
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c10"
+  },
+  {
+   "group": "role",
+   "label": "Bridge between causation and effectuation",
+   "definition": "Serendipity lies between planned and unplanned approaches: causation inspires the initial search, chance recognition creates fit between person and idea, and effectual logic then guides working with given means.",
+   "applies_when": "Account shows a planned search, then an unexpected event producing a fit, then means-based development.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p008:01",
+    "mcfarlane2016-385256:p008:02",
+    "mcfarlane2016-385256:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "mcfarlane2016-385256:c11"
+  },
+  {
+   "group": "role",
+   "label": "Redirecting the path",
+   "definition": "Entrepreneurs may start with a plan but end up in other areas via a trigger such as luck, accident or chance encounter.",
+   "applies_when": "Person searching for one thing finds another and changes direction.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p001:02",
+    "mcfarlane2016-385256:p009:01"
+   ],
+   "pdf_pages": [
+    1,
+    9
+   ],
+   "candidate_id": "mcfarlane2016-385256:c12"
+  },
+  {
+   "group": "role",
+   "label": "Entry into the industry",
+   "definition": "Chance events can provide entry into a profession or venture, as with E.P.'s entry via the wrong door.",
+   "applies_when": "Account credits starting a career or venture to a chance event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p006:01"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "mcfarlane2016-385256:c13"
+  },
+  {
+   "group": "rival",
+   "label": "Systematic search",
+   "definition": "The literature holds that opportunities more likely result from systematic search and that attributing discoveries to luck overlooks preparation (education, analysis, persistence).",
+   "applies_when": "Account explains an opportunity as arising from deliberate planned search or progression (e.g., band to college to business, spotting a gap while employed).",
+   "does_not_apply_when": "Cases where an unplanned contingency was decisive.",
+   "passage_ids": [
+    "mcfarlane2016-385256:p002:01",
+    "mcfarlane2016-385256:p005:02",
+    "mcfarlane2016-385256:p001:02"
+   ],
+   "pdf_pages": [
+    1,
+    2,
+    5
+   ],
+   "candidate_id": "mcfarlane2016-385256:c14"
+  },
+  {
+   "group": "rival",
+   "label": "Mere luck",
+   "definition": "Attributing discoveries to dumb luck or coincidence alone, which authors argue serendipity is not, since it relies on prior knowledge.",
+   "applies_when": "Account frames an outcome as pure luck with no contribution from the person.",
+   "does_not_apply_when": "Luck combined with recognition grounded in knowledge (serendipity).",
+   "passage_ids": [
+    "mcfarlane2016-385256:p002:01",
+    "mcfarlane2016-385256:p001:01"
+   ],
+   "pdf_pages": [
+    1,
+    2
+   ],
+   "candidate_id": "mcfarlane2016-385256:c15"
+  },
+  {
+   "group": "account",
+   "label": "Right place, right time narrative",
+   "definition": "Entrepreneurs narrate pivotal events as being in the right place at the right time or 'all down to choosing the wrong door'.",
+   "applies_when": "Person narrates a pivotal moment using luck or timing idioms.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p006:01",
+    "mcfarlane2016-385256:p008:02"
+   ],
+   "pdf_pages": [
+    6,
+    8
+   ],
+   "candidate_id": "mcfarlane2016-385256:c16"
+  },
+  {
+   "group": "condition",
+   "label": "Dense creative industry context",
+   "definition": "Serendipity occurs continually within the music industry, especially in Glasgow, where chance encounters are central for all interviewees.",
+   "applies_when": "Account links chance encounters to working in a dense local creative scene.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p006:02"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "mcfarlane2016-385256:c17"
+  },
+  {
+   "group": "condition",
+   "label": "Uncertainty and lack of career paths",
+   "definition": "Turbulent environments and undefined career paths push entrepreneurs to adapt, build portfolio careers and decide based on affordable loss, favouring effectual exploitation of contingency.",
+   "applies_when": "Person describes uncertainty or lacking a clear path as prompting them to adapt and take what comes.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "mcfarlane2016-385256:p007:01",
+    "mcfarlane2016-385256:p003:01"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "mcfarlane2016-385256:c18"
+  }
+ ],
+ "removed": []
+}

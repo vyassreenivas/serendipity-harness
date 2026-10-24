@@ -1,0 +1,170 @@
+{
+ "paper_id": "davis2009-c3861d",
+ "file": "papers/pdf/Davis et al - 2009 - Optimal Structure Market Dynamism and the Strategy of Simple Rules.pdf",
+ "about": [
+  "A simulation and mathematical modeling study of how the amount of organizational structure (rules) relates to performance across different dimensions of environmental dynamism, and of the trade-off between flexibly capturing varied opportunities and efficiently executing expected ones."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "condition",
+   "label": "Low structure enables capture of serendipitous opportunities",
+   "definition": "Less organizational structure (fewer or looser rules) gives latitude for improvisation, which opens the organization to capturing a wider range of opportunities that occur serendipitously or unexpectedly.",
+   "applies_when": "An account links having few rules, loose roles or room to improvise with being able to take up an unexpected opportunity that a more rigid setup would have missed.",
+   "does_not_apply_when": "The opportunity was anticipated and executed through established routines; the authors frame that as efficiency from structure, not flexible capture of the unexpected.",
+   "passage_ids": [
+    "davis2009-c3861d:p025:02",
+    "davis2009-c3861d:p031:01"
+   ],
+   "pdf_pages": [
+    25,
+    31
+   ],
+   "candidate_id": "davis2009-c3861d:c01"
+  },
+  {
+   "group": "condition",
+   "label": "Too much structure blocks fresh opportunities",
+   "definition": "Heavy structure narrows the range of opportunities an organization can address. It risks stagnation and misalignment with fresh, unexpected opportunities, trapping the firm in a few similar ones.",
+   "applies_when": "A person describes rigid procedures, plans or commitments that led them to miss or be unable to pursue an unexpected opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p007:01",
+    "davis2009-c3861d:p031:01"
+   ],
+   "pdf_pages": [
+    7,
+    31
+   ],
+   "candidate_id": "davis2009-c3861d:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Improvising to capture the unexpected",
+   "definition": "Unexpected opportunities are taken up through real-time improvised action that is not specified by rules. The authors call this the 'messy capture of the unexpected', which consumes attention and is prone to mistakes.",
+   "applies_when": "An account describes figuring out on the spot how to act on an unforeseen opportunity, rather than following a set procedure.",
+   "does_not_apply_when": "The actions followed pre-set rules or routines (rule-based action).",
+   "passage_ids": [
+    "davis2009-c3861d:p031:01",
+    "davis2009-c3861d:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    31
+   ],
+   "candidate_id": "davis2009-c3861d:c03"
+  },
+  {
+   "group": "condition",
+   "label": "Limited attention constrains improvised capture",
+   "definition": "Improvising consumes more attention than following rules, and attention is limited. As a result, the benefit of flexibility depends on having enough attention to figure out what to do, and mistakes add further demands.",
+   "applies_when": "A person reports being too stretched, overloaded or distracted to act on an unexpected opportunity, or says that acting on it required a great deal of their attention.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p007:02",
+    "davis2009-c3861d:p010:02"
+   ],
+   "pdf_pages": [
+    7,
+    10
+   ],
+   "candidate_id": "davis2009-c3861d:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Fleeting opportunity windows",
+   "definition": "Opportunities are viable only within limited time windows. Mistakes and delays during improvisation can cause an opportunity to disappear before it is captured.",
+   "applies_when": "An account stresses that a chance opportunity had to be acted on quickly or was lost because of delay or errors.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p007:03",
+    "davis2009-c3861d:p025:01"
+   ],
+   "pdf_pages": [
+    7,
+    25
+   ],
+   "candidate_id": "davis2009-c3861d:c05"
+  },
+  {
+   "group": "outcome",
+   "label": "Entrepreneurial firms need some structure to capture opportunities",
+   "definition": "New ventures typically have little structure and must gain enough of it before failure ensues. Without sufficient structure they cannot improvise effectively or capture opportunities, so the liability of newness may partly be a liability of too little structure.",
+   "applies_when": "A founder describes early chaos or a lack of basic rules undermining their ability to act on opportunities, or describes adding simple rules that made it possible to take them up.",
+   "does_not_apply_when": "Failure is attributed to legitimacy or competition. The authors acknowledge these factors but treat them as separate from the lack of structure.",
+   "passage_ids": [
+    "davis2009-c3861d:p031:01",
+    "davis2009-c3861d:p031:02"
+   ],
+   "pdf_pages": [
+    31
+   ],
+   "candidate_id": "davis2009-c3861d:c06"
+  },
+  {
+   "group": "mechanism",
+   "label": "Simple rules to select and exit opportunities",
+   "definition": "In unpredictable environments, a strategy of a few simple rules works best. These rules focus on quickly selecting a few high-payoff opportunities and quickly exiting those that do not pan out.",
+   "applies_when": "An account describes using a few rules of thumb to decide which unexpected opportunities to pursue and when to drop them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p027:02",
+    "davis2009-c3861d:p027:03"
+   ],
+   "pdf_pages": [
+    27
+   ],
+   "candidate_id": "davis2009-c3861d:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Opportunity-rich high-velocity environments",
+   "definition": "In high-velocity environments, new opportunities arrive at a fast rate. This lets managers be selective and act quickly to secure more high-payoff opportunities.",
+   "applies_when": "A person describes a setting such as a boom or bubble with a rapid flow of new opportunities that they could choose among.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p029:03",
+    "davis2009-c3861d:p017:01"
+   ],
+   "pdf_pages": [
+    17,
+    29
+   ],
+   "candidate_id": "davis2009-c3861d:c08"
+  },
+  {
+   "group": "rival",
+   "label": "Chance-dominated vs. skill-dominated environments",
+   "definition": "In highly ambiguous markets, performance is a game of luck in which many structures perform about equally but only modestly. Entrepreneurs who succeed reduce ambiguity, for example through relationship portfolios or analogies, and so turn the market into a game of skill.",
+   "applies_when": "An account attributes a venture's results to luck in an unclear nascent market, or describes efforts to gain unique insight that made outcomes depend on skill rather than chance.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p018:01",
+    "davis2009-c3861d:p030:03"
+   ],
+   "pdf_pages": [
+    18,
+    30
+   ],
+   "candidate_id": "davis2009-c3861d:c09"
+  },
+  {
+   "group": "background",
+   "label": "Chance matches of approximate structure",
+   "definition": "Structure need not be precisely tuned to the environment. Sometimes it pays off because its actions happen to match an opportunity by chance, as in the case of the army navigating the Alps with a map of the Pyrenees.",
+   "applies_when": "A person describes an existing plan or routine that did not really fit the situation but still happened to work for an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "davis2009-c3861d:p027:01",
+    "davis2009-c3861d:p027:02"
+   ],
+   "pdf_pages": [
+    27
+   ],
+   "candidate_id": "davis2009-c3861d:c10"
+  }
+ ],
+ "removed": []
+}

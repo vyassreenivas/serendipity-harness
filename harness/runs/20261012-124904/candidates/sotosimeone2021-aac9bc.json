@@ -1,0 +1,133 @@
+{
+ "paper_id": "sotosimeone2021-aac9bc",
+ "file": "papers/pdf/Soto-Simeone et al - 2021 - The Role of Skill versus Luck in New Venture Survival.pdf",
+ "about": [
+  "A debate response arguing that new venture survival depends on entrepreneurs' skill, learning and psychological processes rather than on pure chance, rejecting the gambling analogy in favour of the entrepreneur as a sailor who adjusts to conditions they cannot control."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "rival",
+   "label": "Venture outcome as pure luck",
+   "definition": "The view, which the authors criticise, that venture survival and growth are a random walk produced by good or bad luck, as in a Gambler's Ruin model, with little role for the entrepreneur.",
+   "applies_when": "An account attributes the venture's survival, growth or failure entirely to chance or luck, with no role for the founder's actions or choices.",
+   "does_not_apply_when": "Chance events are described alongside the entrepreneur's active response to them; the authors separate pure randomness from cases where entrepreneurs act on conditions.",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p002:01",
+    "sotosimeone2021-aac9bc:p003:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c01"
+  },
+  {
+   "group": "rival",
+   "label": "Skill and prior knowledge explain survival",
+   "definition": "Survival is attributed to founders' pre-entry knowledge, general and specific human capital, entrepreneurial skills and experience in a similar industry, rather than to luck.",
+   "applies_when": "An account explains the venture's continuation by the founder's prior experience, industry knowledge or skills.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p004:02",
+    "sotosimeone2021-aac9bc:p004:03"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c02"
+  },
+  {
+   "group": "mechanism",
+   "label": "Adjusting to uncontrollable conditions",
+   "definition": "Entrepreneurs cannot control external conditions, like a sailor facing weather and tides. They can still adjust their course, influence their team and decide when to move forward or hold back, which increases their chances or minimises bad luck.",
+   "applies_when": "An account describes a founder reacting to an external event they did not control by adjusting plans, decisions or team effort so that the venture keeps going.",
+   "does_not_apply_when": "The outcome is described as following passively from the event with no response from the founder.",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p005:03",
+    "sotosimeone2021-aac9bc:p003:04"
+   ],
+   "pdf_pages": [
+    3,
+    5
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c03"
+  },
+  {
+   "group": "background",
+   "label": "Acquiring and allocating resources",
+   "definition": "What matters is not whether resources come to the entrepreneur, for example through wealth or chance, but how well the entrepreneur acquires and manages them.",
+   "applies_when": "An account emphasises how the founder obtained or deployed resources, rather than merely having them.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p003:01",
+    "sotosimeone2021-aac9bc:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Learning from critical incidents",
+   "definition": "A single significant event, not the repetition of trials, can shape entrepreneurs' learning and later decisions.",
+   "applies_when": "A founder describes one significant event that changed how they understood things or what they decided next for the venture.",
+   "does_not_apply_when": "Learning is described as accumulating through repeated attempts or routine experience.",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c05"
+  },
+  {
+   "group": "account",
+   "label": "Reframing misfortune as learning",
+   "definition": "Entrepreneurs reinterpret setbacks as learning opportunities through processes such as resilience and cognitive reappraisal. Critics call this 'repackaging' misfortune, while the authors defend it as a genuine psychological process.",
+   "applies_when": "A founder narrates a bad break or setback as something they learned from or that made them stronger.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p005:02",
+    "sotosimeone2021-aac9bc:p004:04"
+   ],
+   "pdf_pages": [
+    4,
+    5
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Making sense of environmental feedback",
+   "definition": "Survival hinges on the entrepreneur's ability to process inputs from the environment and adjust to them, and on how they perceive and interpret that feedback.",
+   "applies_when": "An account describes the founder noticing signals from the market or environment, interpreting them and changing course accordingly.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p004:04"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c07"
+  },
+  {
+   "group": "condition",
+   "label": "Compensating for weak skills through partners",
+   "definition": "Founders whose skills are weak can make up for them by associating with appropriate partners, investors or mentors, and through persistence and resilience.",
+   "applies_when": "An account describes a founder making up for gaps in their own skills through partners, investors or mentors they connected with.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "sotosimeone2021-aac9bc:p005:03"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "sotosimeone2021-aac9bc:c08"
+  }
+ ],
+ "removed": []
+}

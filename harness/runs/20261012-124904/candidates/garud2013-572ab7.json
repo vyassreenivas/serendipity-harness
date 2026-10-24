@@ -1,0 +1,214 @@
+{
+ "paper_id": "garud2013-572ab7",
+ "file": "papers/pdf/Garud et al - 2013 - Perspectives on Innovation Processes.pdf",
+ "about": [
+  "A review of the literature on innovation processes (invention, development, implementation) across firms, networks and communities, and of the evolutionary, relational, temporal and cultural complexities these processes involve."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "trigger",
+   "label": "Stumbling on something during experimentation",
+   "definition": "An innovator comes across an unexpected material or result while working on something else, as when 3M's Spence Silver stumbled upon a strange new material during an experiment that later became Post-it notes.",
+   "applies_when": "The account describes accidentally encountering an unexpected material, result or finding in the course of other work, and that finding becomes the seed of a product or venture.",
+   "does_not_apply_when": "The idea came from a deliberate search to solve a known problem (demand-pull).",
+   "passage_ids": [
+    "garud2013-572ab7:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "garud2013-572ab7:c01"
+  },
+  {
+   "group": "mechanism",
+   "label": "Interactions shape the accidental find into a product",
+   "definition": "An unexpected discovery becomes an innovation only through ongoing interactions between innovators, the technology and users, which work out what the find is good for.",
+   "applies_when": "The account describes repeated back-and-forth with users, colleagues or the material itself that turns an accidental find into a usable application.",
+   "does_not_apply_when": "The application was obvious or planned from the moment of discovery.",
+   "passage_ids": [
+    "garud2013-572ab7:p020:02",
+    "garud2013-572ab7:p021:01"
+   ],
+   "pdf_pages": [
+    20,
+    21
+   ],
+   "candidate_id": "garud2013-572ab7:c02"
+  },
+  {
+   "group": "trigger",
+   "label": "Unanticipated roadblocks or opportunities force a change of plans",
+   "definition": "Innovation processes seldom unfold as envisioned. Roadblocks or new opportunities come up in the course of action, and plans and the distribution of effort have to change.",
+   "applies_when": "The account describes an unexpected obstacle or opportunity met during development that led the actors to change their plans or direction.",
+   "does_not_apply_when": "The change was scheduled or anticipated in the original plan.",
+   "passage_ids": [
+    "garud2013-572ab7:p022:01",
+    "garud2013-572ab7:p027:02"
+   ],
+   "pdf_pages": [
+    22,
+    27
+   ],
+   "candidate_id": "garud2013-572ab7:c03"
+  },
+  {
+   "group": "role",
+   "label": "Shelved idea becomes valuable later (diachrony / exaptation)",
+   "definition": "What looks like a mistake, or an abandoned or latent idea, at one point can suddenly become valuable later, when complementary assets emerge or the environment shifts. The idea is then picked up and developed.",
+   "applies_when": "The account describes reviving an earlier, shelved or failed idea because circumstances changed and it became newly useful.",
+   "does_not_apply_when": "The idea was continuously developed toward a planned use.",
+   "passage_ids": [
+    "garud2013-572ab7:p022:01",
+    "garud2013-572ab7:p022:02",
+    "garud2013-572ab7:p027:02"
+   ],
+   "pdf_pages": [
+    22,
+    27
+   ],
+   "candidate_id": "garud2013-572ab7:c04"
+  },
+  {
+   "group": "mechanism",
+   "label": "Striking when the moment is right (kairos)",
+   "definition": "Actors draw on memories of the past and anticipations of the future to act when the time is right, reviving shelved ideas at an opportune moment.",
+   "applies_when": "The account describes recognizing that a particular moment was the right one to pursue an idea and acting on it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p023:01"
+   ],
+   "pdf_pages": [
+    23
+   ],
+   "candidate_id": "garud2013-572ab7:c05"
+  },
+  {
+   "group": "condition",
+   "label": "Structures that cultivate moments of kairos",
+   "definition": "Moments of kairos have to be cultivated through temporal structuring mechanisms, such as 3M's 15% rule, that give people free time to explore when the time is right.",
+   "applies_when": "The account mentions discretionary exploration time, play or slack that allowed someone to pursue an unexpected idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p023:01",
+    "garud2013-572ab7:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    23
+   ],
+   "candidate_id": "garud2013-572ab7:c06"
+  },
+  {
+   "group": "background",
+   "label": "Knowledge repository sets the stage for acts of insight",
+   "definition": "A firm's accumulated knowledge, or generative memory, sets the stage for acts of insight that come about by recombining ideas across knowledge domains.",
+   "applies_when": "The account traces an insight to drawing on accumulated knowledge, past projects or retained assets from different domains.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p007:01",
+    "garud2013-572ab7:p025:02",
+    "garud2013-572ab7:p026:01"
+   ],
+   "pdf_pages": [
+    7,
+    25,
+    26
+   ],
+   "candidate_id": "garud2013-572ab7:c07"
+  },
+  {
+   "group": "background",
+   "label": "Brokers and weak ties connect distant ideas",
+   "definition": "Individuals who can associate ideas across domains, brokers spanning structural holes, and weak ties make it easier for ideas to flow and recombine across distant domains.",
+   "applies_when": "The account describes a chance connection, through an acquaintance or a position spanning separate groups, that brought together ideas from different fields.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p005:03",
+    "garud2013-572ab7:p008:01"
+   ],
+   "pdf_pages": [
+    5,
+    8
+   ],
+   "candidate_id": "garud2013-572ab7:c08"
+  },
+  {
+   "group": "condition",
+   "label": "Garbage-can entanglement of problems and solutions",
+   "definition": "Practices such as rotating people or holding internal technology fairs let problems and solutions continually become entangled with one another, which creates novel ideas.",
+   "applies_when": "The account describes an idea arising when an available solution happened to meet a problem through mixing settings or people.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "garud2013-572ab7:c09"
+  },
+  {
+   "group": "condition",
+   "label": "Rigid structures and outsider evaluation blind actors to emergent opportunities",
+   "definition": "Concentrated decision rights, modularization, stage-gate processes and outsider evaluation can make actors miss opportunities that emerge in practice, or discard valuable assets as mistakes.",
+   "applies_when": "The account describes an unexpected opportunity being ignored, killed or discarded because of formal evaluation or hierarchy.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p024:02",
+    "garud2013-572ab7:p007:02"
+   ],
+   "pdf_pages": [
+    7,
+    24
+   ],
+   "candidate_id": "garud2013-572ab7:c10"
+  },
+  {
+   "group": "rival",
+   "label": "Path dependence from chance events",
+   "definition": "In the evolutionary view, chance events start sequences that positive feedback locks in, with random variation and exogenous selection. This is an account of outcomes that does not rest on actors recognizing or acting on chance.",
+   "applies_when": "The account explains a venture's direction as lock-in following an initial chance event, with no agency in seizing it.",
+   "does_not_apply_when": "Actors actively recognized and shaped the unexpected event.",
+   "passage_ids": [
+    "garud2013-572ab7:p019:02"
+   ],
+   "pdf_pages": [
+    19
+   ],
+   "candidate_id": "garud2013-572ab7:c11"
+  },
+  {
+   "group": "rival",
+   "label": "Demand-pull and technology-push",
+   "definition": "Invention is explained as solving an existing need (demand-pull) or as technology creating its own need (technology push), rather than as an accident.",
+   "applies_when": "The account presents the venture idea as a planned response to a known need or a technology capability.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p005:02"
+   ],
+   "pdf_pages": [
+    5
+   ],
+   "candidate_id": "garud2013-572ab7:c12"
+  },
+  {
+   "group": "account",
+   "label": "Innovation narratives as generative memories",
+   "definition": "Firms such as 3M tell narratives of past innovations, including stories celebrating deviance, and these narratives serve as generative memories that spawn further innovation and coordinate action.",
+   "applies_when": "The account retells origin stories of past innovations as lore that inspires or legitimizes new pursuits.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "garud2013-572ab7:p022:03",
+    "garud2013-572ab7:p025:03"
+   ],
+   "pdf_pages": [
+    22,
+    25
+   ],
+   "candidate_id": "garud2013-572ab7:c13"
+  }
+ ],
+ "removed": []
+}

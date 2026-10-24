@@ -1,0 +1,747 @@
+{
+ "paper_id": "busch2023-8da56d",
+ "file": "papers/pdf/Busch and Grimes - 2023 - Serendipity in Entrepreneurship Strategy and Innovation A Review and Conceptualisation.pdf",
+ "about": [
+  "A review chapter that conceptualises serendipity in entrepreneurship, strategy and innovation as a process of trigger, bisociation and enactment, and catalogues individual and systemic enablers and constraints."
+ ],
+ "bearing": [
+  "central"
+ ],
+ "candidates": [
+  {
+   "group": "definition",
+   "label": "Surprising valuable discovery from agentic response",
+   "definition": "Serendipity is a surprising and valuable discovery originating from agentic responses to unplanned events; it requires sagacity rather than merely happening to someone.",
+   "applies_when": "An account describes an unplanned event that the person actively responded to, leading to a surprising and valuable discovery.",
+   "does_not_apply_when": "Pure luck or a chance encounter with no active response by the person. The authors treat a random chance encounter as an event, not as serendipity.",
+   "passage_ids": [
+    "busch2023-8da56d:p002:02",
+    "busch2023-8da56d:p017:02"
+   ],
+   "pdf_pages": [
+    2,
+    17
+   ],
+   "candidate_id": "busch2023-8da56d:c01"
+  },
+  {
+   "group": "definition",
+   "label": "Serendipity as process not event",
+   "definition": "Serendipity is a process and its related outcome, unfolding through trigger, bisociation and enactment, rather than a single chance event.",
+   "applies_when": "The account traces a sequence from an unexpected moment through making a connection to acting on it.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p017:01",
+    "busch2023-8da56d:p017:02",
+    "busch2023-8da56d:p004:03"
+   ],
+   "pdf_pages": [
+    4,
+    17
+   ],
+   "candidate_id": "busch2023-8da56d:c02"
+  },
+  {
+   "group": "type",
+   "label": "Thunderbolt serendipity",
+   "definition": "No search is under way, but the actor unexpectedly comes across a problem and a solution at the same time, often seen as an opportunity.",
+   "applies_when": "Someone not looking for anything suddenly sees both a need and a way to meet it, as in the rolling suitcase example.",
+   "does_not_apply_when": "There was already a known problem being worked on. That would be Archimedes or Post-it serendipity.",
+   "passage_ids": [
+    "busch2023-8da56d:p003:01",
+    "busch2023-8da56d:p010:02"
+   ],
+   "pdf_pages": [
+    3,
+    10
+   ],
+   "candidate_id": "busch2023-8da56d:c03"
+  },
+  {
+   "group": "type",
+   "label": "Archimedes serendipity",
+   "definition": "A search for a solution to a known problem is under way, and the solution comes from an entirely unexpected place.",
+   "applies_when": "The person had a defined problem and found its answer from an unrelated, unexpected source.",
+   "does_not_apply_when": "The solution found answers a different problem. That would be Post-it serendipity.",
+   "passage_ids": [
+    "busch2023-8da56d:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "busch2023-8da56d:c04"
+  },
+  {
+   "group": "type",
+   "label": "Post-it note serendipity",
+   "definition": "While searching for a solution to a known problem, the actor stumbles on a solution to a previously unrecognised or different problem.",
+   "applies_when": "The person was working on one goal and ended up solving a different problem.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p003:02"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "busch2023-8da56d:c05"
+  },
+  {
+   "group": "type",
+   "label": "Pseudo-serendipity (contested)",
+   "definition": "Some researchers call it pseudo-serendipity when someone is already looking for something and coincidentally finds what helps reach that goal; on that view true serendipity requires a change in objective. The authors reject this narrow notion.",
+   "applies_when": "The account describes a chance find that served a goal the person was already pursuing, and the question is whether that counts.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p003:03"
+   ],
+   "pdf_pages": [
+    3
+   ],
+   "candidate_id": "busch2023-8da56d:c06"
+  },
+  {
+   "group": "trigger",
+   "label": "Unexpected event or weak cue",
+   "definition": "Every type of serendipity starts with an unexpected event or trigger, such as an unexpected observation or encounter, and the weak cues it gives off.",
+   "applies_when": "The account points to an unplanned observation, encounter or piece of information as the starting point.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p003:02",
+    "busch2023-8da56d:p017:02"
+   ],
+   "pdf_pages": [
+    3,
+    17
+   ],
+   "candidate_id": "busch2023-8da56d:c07"
+  },
+  {
+   "group": "mechanism",
+   "label": "Noticing and bracketing weak cues",
+   "definition": "The actor notices peripheral information or weak cues, without being constrained by goal-directed search, and sets it aside as potentially meaningful.",
+   "applies_when": "The person describes paying attention to something peripheral and registering it as possibly important.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p003:02",
+    "busch2023-8da56d:p007:01"
+   ],
+   "pdf_pages": [
+    3,
+    7
+   ],
+   "candidate_id": "busch2023-8da56d:c08"
+  },
+  {
+   "group": "mechanism",
+   "label": "Bisociation / connecting the dots",
+   "definition": "Linking the trigger to something relevant by connecting previously unrelated matrices of events, skills or information, often a problem with an unexpected solution.",
+   "applies_when": "The person describes realising that an unexpected observation connects to a problem, need or solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p010:02",
+    "busch2023-8da56d:p010:03"
+   ],
+   "pdf_pages": [
+    10
+   ],
+   "candidate_id": "busch2023-8da56d:c09"
+  },
+  {
+   "group": "mechanism",
+   "label": "Eureka moment after incubation",
+   "definition": "The bisociation may arrive as a sudden aha moment, often after an incubation lag between the trigger and the insight, as forgotten insights resurface.",
+   "applies_when": "The account describes a delayed sudden realisation that connects an earlier observation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p011:01",
+    "busch2023-8da56d:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "busch2023-8da56d:c10"
+  },
+  {
+   "group": "mechanism",
+   "label": "Reframing and bricolage",
+   "definition": "Looking at a situation from a different perspective, for example making the best of what is at hand, helps people see opportunity in unexpected situations.",
+   "applies_when": "The person reinterprets a situation, constraint or object and so sees a new opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p011:03"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "busch2023-8da56d:c11"
+  },
+  {
+   "group": "mechanism",
+   "label": "Narrative reframing by entrepreneur",
+   "definition": "Entrepreneurs construct narratives that reframe the improbable as possible, which exposes bisociations that were previously obscured.",
+   "applies_when": "The entrepreneur builds a story that redefines what is possible around an unexpected connection.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p011:03",
+    "busch2023-8da56d:p012:01"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ],
+   "candidate_id": "busch2023-8da56d:c12"
+  },
+  {
+   "group": "mechanism",
+   "label": "Analogous thinking",
+   "definition": "Using relationships from one knowledge domain to surface problem-solution pairs in another, unrelated domain; lateral thinking does similar work.",
+   "applies_when": "The person transfers an idea from one field or context to another to create an opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p012:01"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "busch2023-8da56d:c13"
+  },
+  {
+   "group": "mechanism",
+   "label": "Acting on intuition",
+   "definition": "Intuition, a fast and unconscious way of linking information, acts as a filter that helps form bisociations when mindfully acknowledged and acted on.",
+   "applies_when": "The person says a gut feeling led them to connect things or pursue an unexpected lead.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p012:02"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "busch2023-8da56d:c14"
+  },
+  {
+   "group": "mechanism",
+   "label": "Collaborative sensemaking",
+   "definition": "Serendipity often emerges through collaboration, where others, especially people from other areas, help explore the broader relevance of an unexpected moment.",
+   "applies_when": "Other people helped interpret or develop an unexpected observation into something valuable.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p012:02",
+    "busch2023-8da56d:p012:03"
+   ],
+   "pdf_pages": [
+    12
+   ],
+   "candidate_id": "busch2023-8da56d:c15"
+  },
+  {
+   "group": "mechanism",
+   "label": "Enactment through buy-in and social skill",
+   "definition": "Recognised serendipitous opportunities must be enacted, which requires buy-in and social skill to induce cooperation against fear, power dynamics and vested interests.",
+   "applies_when": "The person describes persuading others or securing support to act on an unexpected opportunity.",
+   "does_not_apply_when": "An opportunity was recognised but never acted on. The authors treat that as failed enactment.",
+   "passage_ids": [
+    "busch2023-8da56d:p015:02",
+    "busch2023-8da56d:p015:03"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "busch2023-8da56d:c16"
+  },
+  {
+   "group": "mechanism",
+   "label": "Perseverance and experimentation",
+   "definition": "Continuous experimentation and perseverance through negative outcomes allows incubation time for unexpected ideas to be noticed, connected and implemented.",
+   "applies_when": "The person kept experimenting or persisting through setbacks before an unexpected solution emerged.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p016:01"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "busch2023-8da56d:c17"
+  },
+  {
+   "group": "mechanism",
+   "label": "Iteration and rapid prototyping",
+   "definition": "Approaching a problem repeatedly in quick, low-investment iterations, treating each prototype not as failure but as a step, lets serendipitous solutions emerge.",
+   "applies_when": "The account describes rapid trial versions or iterative problem reformulation that surfaced an unexpected solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p013:03",
+    "busch2023-8da56d:p014:01"
+   ],
+   "pdf_pages": [
+    13,
+    14
+   ],
+   "candidate_id": "busch2023-8da56d:c18"
+  },
+  {
+   "group": "mechanism",
+   "label": "Flash vs systematic evaluation",
+   "definition": "Unexpected information can be judged by a quick gut-feeling assessment or by a systematic analysis of risk, timing and further information before investing in it.",
+   "applies_when": "The person describes how they evaluated whether to pursue an unexpected idea.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p016:03"
+   ],
+   "pdf_pages": [
+    16
+   ],
+   "candidate_id": "busch2023-8da56d:c19"
+  },
+  {
+   "group": "background",
+   "label": "Social networks and embeddedness",
+   "definition": "Ties into a community give access to resources, legitimacy, support and learning that help serendipity surface; the value of networks is often recognised only after serendipitous encounters.",
+   "applies_when": "An unexpected opportunity came through the person's contacts, community or network.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p008:03",
+    "busch2023-8da56d:p009:01"
+   ],
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "candidate_id": "busch2023-8da56d:c20"
+  },
+  {
+   "group": "background",
+   "label": "Incubators and boundary organisations",
+   "definition": "Accelerators, incubators and other third-party organisations can foster serendipity for entrepreneurs through open designs, flexible spaces, open-mindedness and adaptive programs.",
+   "applies_when": "An incubator, accelerator or community organisation brokered an unplanned connection or opportunity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p009:02"
+   ],
+   "pdf_pages": [
+    9
+   ],
+   "candidate_id": "busch2023-8da56d:c21"
+  },
+  {
+   "group": "background",
+   "label": "Physical/virtual proximity and spaces",
+   "definition": "Co-location, shared spaces and informal virtual channels increase chance encounters that trigger serendipity.",
+   "applies_when": "The account describes bumping into people in shared spaces, at events or through random pairings.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p009:03",
+    "busch2023-8da56d:p010:01"
+   ],
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "candidate_id": "busch2023-8da56d:c22"
+  },
+  {
+   "group": "background",
+   "label": "Prior expertise and stored ideas",
+   "definition": "Deep expertise supports analogous thinking, and ideas accumulated earlier without a clear use can be activated when something relevant comes along.",
+   "applies_when": "The person draws on prior knowledge or an earlier, stored idea to make sense of an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p012:01",
+    "busch2023-8da56d:p013:03"
+   ],
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "candidate_id": "busch2023-8da56d:c23"
+  },
+  {
+   "group": "role",
+   "label": "Opportunity discovery in early venture formation",
+   "definition": "Serendipity plays a major role in opportunity discovery, especially in the early stages of firm formation.",
+   "applies_when": "The founding idea or opportunity of a venture arose from an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p007:01"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "busch2023-8da56d:c24"
+  },
+  {
+   "group": "role",
+   "label": "Reconstructing opportunity amid uncertainty",
+   "definition": "In early-stage ventures, discovering, constructing and reconstructing the opportunity, its partners, resources and co-founders, is often serendipitous and leads to emergent strategy and pivots.",
+   "applies_when": "A venture changed its problem, solution, partners or direction because of unexpected events.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p019:02",
+    "busch2023-8da56d:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    19
+   ],
+   "candidate_id": "busch2023-8da56d:c25"
+  },
+  {
+   "group": "role",
+   "label": "Serendipitous value after acquisition",
+   "definition": "Much of the value in acquisitions can emerge serendipitously, for example by unexpectedly finding a useful technology in the acquired firm.",
+   "applies_when": "An acquisition or merger produced unexpected benefits.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p015:02"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "busch2023-8da56d:c26"
+  },
+  {
+   "group": "role",
+   "label": "Positive mission drift",
+   "definition": "Abstract, purpose-linked theories of value or a broad 'north star' allow positive mission drift and openness to unexpected directions.",
+   "applies_when": "A venture shifted direction in a beneficial way while keeping a broad purpose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p015:01"
+   ],
+   "pdf_pages": [
+    15
+   ],
+   "candidate_id": "busch2023-8da56d:c27"
+  },
+  {
+   "group": "outcome",
+   "label": "Innovations and new products",
+   "definition": "Serendipity yields innovations, inventions and new products or businesses, such as the rolling suitcase, the potato washing machine and Starbucks.",
+   "applies_when": "An unexpected event led to a new product, service or business.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p002:02",
+    "busch2023-8da56d:p014:02",
+    "busch2023-8da56d:p017:01"
+   ],
+   "pdf_pages": [
+    2,
+    14,
+    17
+   ],
+   "candidate_id": "busch2023-8da56d:c28"
+  },
+  {
+   "group": "outcome",
+   "label": "Dynamic capability / strategic advantage",
+   "definition": "An organisation's ability to cultivate serendipitous triggers, bisociations and enactment can become a dynamic capability that enhances absorptive capacity and strategic advantage.",
+   "applies_when": "The account describes deliberately building routines to exploit the unexpected as an ongoing strength.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p017:03",
+    "busch2023-8da56d:p018:01"
+   ],
+   "pdf_pages": [
+    17,
+    18
+   ],
+   "candidate_id": "busch2023-8da56d:c29"
+  },
+  {
+   "group": "account",
+   "label": "Airbrushing serendipity from narratives",
+   "definition": "Because of an illusion of control, actors airbrush serendipity out of their change narratives, minimise its past role and discount it in the future.",
+   "applies_when": "The person presents an outcome as fully planned even though the account shows chance elements, or downplays luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p005:02",
+    "busch2023-8da56d:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "busch2023-8da56d:c30"
+  },
+  {
+   "group": "account",
+   "label": "Practitioners crediting serendipity",
+   "definition": "Practitioners frequently and consistently credit serendipity for their success.",
+   "applies_when": "The person explicitly attributes their success to serendipity or luck.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p002:03"
+   ],
+   "pdf_pages": [
+    2
+   ],
+   "candidate_id": "busch2023-8da56d:c31"
+  },
+  {
+   "group": "account",
+   "label": "Difficulty recalling source",
+   "definition": "The delay between the trigger and the bisociation can make it hard to recall and correctly attribute the original source of an idea.",
+   "applies_when": "The person cannot pinpoint where an idea came from or attributes it vaguely.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p011:02"
+   ],
+   "pdf_pages": [
+    11
+   ],
+   "candidate_id": "busch2023-8da56d:c32"
+  },
+  {
+   "group": "rival",
+   "label": "Rational planned problem solving",
+   "definition": "Non-serendipitous problem solving starts with a clear problem and runs a directed search that filters out peripheral information.",
+   "applies_when": "The outcome resulted from a planned, goal-directed search with no unexpected input.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p003:03",
+    "busch2023-8da56d:p002:01"
+   ],
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "candidate_id": "busch2023-8da56d:c33"
+  },
+  {
+   "group": "rival",
+   "label": "Effectual / garbage-can processes",
+   "definition": "In effectual or garbage-can models, actors start from existing means or solutions and then search for problems to apply them to; the authors contrast this with serendipity.",
+   "applies_when": "The person began with resources in hand and looked for uses for them, without an unexpected trigger.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p004:02"
+   ],
+   "pdf_pages": [
+    4
+   ],
+   "candidate_id": "busch2023-8da56d:c34"
+  },
+  {
+   "group": "rival",
+   "label": "Blind luck and privilege",
+   "definition": "Blind luck, social connections, inherited wealth masking as skill, or unintended consequences may explain success.",
+   "applies_when": "Success is attributable to pure luck or inherited advantage without any agentic response.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p020:01"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "busch2023-8da56d:c35"
+  },
+  {
+   "group": "rival",
+   "label": "Zemblanity (negative serendipity)",
+   "definition": "Zemblanity is the faculty of making unlucky discoveries by design, potentially cultivated by environments that set people up for failure.",
+   "applies_when": "The person describes unlucky discoveries that their own setting or habits seem to produce.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p020:01"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "busch2023-8da56d:c36"
+  },
+  {
+   "group": "condition",
+   "label": "Curiosity and alertness",
+   "definition": "Alertness and the desire to know or learn are paramount to noticing unexpected moments.",
+   "applies_when": "The person shows curiosity or alertness toward unexpected information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p006:03",
+    "busch2023-8da56d:p007:01"
+   ],
+   "pdf_pages": [
+    6,
+    7
+   ],
+   "candidate_id": "busch2023-8da56d:c37"
+  },
+  {
+   "group": "condition",
+   "label": "Inexperience and openness",
+   "definition": "Inexperienced founders tend to be more open and alert, while experienced ones focus narrowly, suggesting benefits of inexperience early on.",
+   "applies_when": "The person's newness to a field made them open to unexpected information.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p007:01",
+    "busch2023-8da56d:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "busch2023-8da56d:c38"
+  },
+  {
+   "group": "condition",
+   "label": "Extroverted and introverted practices",
+   "definition": "Extroverted behaviour increases the number and diversity of encounters; introverted practices such as reflection, meditation or reading support noticing weak cues.",
+   "applies_when": "Sociable outreach or reflective solitary activity preceded the serendipity.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p006:02",
+    "busch2023-8da56d:p006:03"
+   ],
+   "pdf_pages": [
+    6
+   ],
+   "candidate_id": "busch2023-8da56d:c39"
+  },
+  {
+   "group": "condition",
+   "label": "Positive vs negative emotions",
+   "definition": "Positive emotions, especially compassion, broaden attention and aid bisociation; negative emotions reduce receptivity to triggers.",
+   "applies_when": "The person's emotional state is described as shaping their openness to an unexpected event.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p007:02"
+   ],
+   "pdf_pages": [
+    7
+   ],
+   "candidate_id": "busch2023-8da56d:c40"
+  },
+  {
+   "group": "condition",
+   "label": "Self-awareness, humility, improvisation",
+   "definition": "Self-awareness and mindfulness, intellectual humility and questioning one's assumptions, and improvisational skill and confidence increase receptivity to serendipitous cues.",
+   "applies_when": "The person shows mindfulness, questions their own assumptions, or improvises quickly in response to a situation.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p007:03",
+    "busch2023-8da56d:p008:01"
+   ],
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "candidate_id": "busch2023-8da56d:c41"
+  },
+  {
+   "group": "condition",
+   "label": "Broad vs narrow goals and problems",
+   "definition": "Narrowly defined problems or over-specified goals constrain serendipity; broad, aspirational goals and expanded search make it more likely.",
+   "applies_when": "The breadth or narrowness of the person's goals affected whether they noticed or pursued the unexpected.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p008:02",
+    "busch2023-8da56d:p014:03",
+    "busch2023-8da56d:p015:01"
+   ],
+   "pdf_pages": [
+    8,
+    14,
+    15
+   ],
+   "candidate_id": "busch2023-8da56d:c42"
+  },
+  {
+   "group": "condition",
+   "label": "Cognitive biases",
+   "definition": "Underestimating the unexpected, self-censoring under pressure to conform, illusion of control, and functional fixedness from specialised expertise constrain serendipity.",
+   "applies_when": "The person dismissed or self-censored an unexpected idea, or was locked into established methods.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p005:01",
+    "busch2023-8da56d:p005:02",
+    "busch2023-8da56d:p006:01"
+   ],
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "candidate_id": "busch2023-8da56d:c43"
+  },
+  {
+   "group": "condition",
+   "label": "Resource scarcity",
+   "definition": "Serendipity may be less constrained where resources are lacking and there are no established methods to unlearn; reframing scarcity as abundance encourages unconventional solutions.",
+   "applies_when": "Resource constraints or a lack of existing infrastructure led to an unexpected solution.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p006:01",
+    "busch2023-8da56d:p006:02",
+    "busch2023-8da56d:p011:03"
+   ],
+   "pdf_pages": [
+    6,
+    11
+   ],
+   "candidate_id": "busch2023-8da56d:c44"
+  },
+  {
+   "group": "condition",
+   "label": "Diversity with collective culture",
+   "definition": "Diverse teams and interactions breed serendipity, but only within a strong collective culture of shared interests; over-embedded homogeneous networks constrain it.",
+   "applies_when": "Diverse collaborators or the homogeneity of a network shaped whether an unexpected connection arose.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p012:03",
+    "busch2023-8da56d:p013:01",
+    "busch2023-8da56d:p009:01"
+   ],
+   "pdf_pages": [
+    9,
+    12,
+    13
+   ],
+   "candidate_id": "busch2023-8da56d:c45"
+  },
+  {
+   "group": "condition",
+   "label": "Psychological safety culture",
+   "definition": "Cultures where blame is withheld and people feel safe make people less likely to self-censor and more willing to discuss unexpected or undeveloped ideas.",
+   "applies_when": "An environment made it safe to raise or pursue unexpected ideas, or failure tolerance was high.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p016:01",
+    "busch2023-8da56d:p016:02",
+    "busch2023-8da56d:p020:02"
+   ],
+   "pdf_pages": [
+    16,
+    20
+   ],
+   "candidate_id": "busch2023-8da56d:c46"
+  },
+  {
+   "group": "condition",
+   "label": "Contrarian theory of value",
+   "definition": "A firm-specific, contrarian theory of value helps recognise and pursue unexpected value that others miss; if it becomes narrow and conventional, it limits serendipity.",
+   "applies_when": "A guiding vision let the person recognise value in an unexpected observation, as with Schultz and Italian coffee bars.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p014:01",
+    "busch2023-8da56d:p014:02"
+   ],
+   "pdf_pages": [
+    14
+   ],
+   "candidate_id": "busch2023-8da56d:c47"
+  },
+  {
+   "group": "condition",
+   "label": "Unequal access and pressures",
+   "definition": "The chance to encounter serendipity is unequally distributed; financial pressures sap attention, and high power distance may hinder the free flow of ideas.",
+   "applies_when": "Financial strain, hierarchy or a disadvantaged context limited the person's openness to unexpected opportunities.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "busch2023-8da56d:p020:01",
+    "busch2023-8da56d:p020:02"
+   ],
+   "pdf_pages": [
+    20
+   ],
+   "candidate_id": "busch2023-8da56d:c48"
+  }
+ ],
+ "removed": []
+}

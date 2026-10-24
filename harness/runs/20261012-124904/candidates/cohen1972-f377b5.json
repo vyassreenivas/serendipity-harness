@@ -1,0 +1,149 @@
+{
+ "paper_id": "cohen1972-f377b5",
+ "file": "papers/pdf/Cohen et al - 1972 - A Garbage Can Model of Organizational Choice.pdf",
+ "about": [
+  "The paper develops a simulation model of decision making in 'organized anarchies', where choices come from the chance meeting in time of largely independent streams of problems, solutions, participants and choice opportunities. It addresses chance timing in decisions, not serendipity or ventures as such."
+ ],
+ "bearing": [
+  "partial"
+ ],
+ "candidates": [
+  {
+   "group": "mechanism",
+   "label": "Chance coupling of independent streams",
+   "definition": "Choices get made when shifting combinations of problems, solutions and decision makers happen to coincide in time and make action possible, rather than through a planned sequence. Matching is partly driven by content and relevance and partly by timing and which arenas happen to be open.",
+   "applies_when": "An account describes a decision or step happening because a problem, an available solution, the right people and an occasion to decide happened to come together at the same moment.",
+   "does_not_apply_when": "The step followed a deliberate sequence: defining the problem, generating alternatives, evaluating them, then choosing.",
+   "passage_ids": [
+    "cohen1972-f377b5:p017:02",
+    "cohen1972-f377b5:p013:01",
+    "cohen1972-f377b5:p004:01"
+   ],
+   "pdf_pages": [
+    4,
+    13,
+    17
+   ],
+   "candidate_id": "cohen1972-f377b5:c01"
+  },
+  {
+   "group": "trigger",
+   "label": "Solution looking for a problem",
+   "definition": "Solutions are someone's product and actively look for questions to answer. Often people do not know what the question is until they already have the answer.",
+   "applies_when": "A person describes already having a product, skill or idea and later finding the problem or need it could address.",
+   "does_not_apply_when": "The person first identified a need and then searched for a solution to it.",
+   "passage_ids": [
+    "cohen1972-f377b5:p004:01",
+    "cohen1972-f377b5:p003:03"
+   ],
+   "pdf_pages": [
+    3,
+    4
+   ],
+   "candidate_id": "cohen1972-f377b5:c02"
+  },
+  {
+   "group": "account",
+   "label": "Meaning interpreted during and after action",
+   "definition": "Organizations give participants a way to interpret what they are doing while they are doing it and what they have done. Preferences are discovered through action, and the meaning of a choice can change several times.",
+   "applies_when": "A person describes working out goals or the meaning of a decision only while acting or looking back, or describes the purpose of a choice shifting over time.",
+   "does_not_apply_when": "Goals were clear in advance and guided the action.",
+   "passage_ids": [
+    "cohen1972-f377b5:p003:03",
+    "cohen1972-f377b5:p002:02",
+    "cohen1972-f377b5:p012:04"
+   ],
+   "pdf_pages": [
+    2,
+    3,
+    12
+   ],
+   "candidate_id": "cohen1972-f377b5:c03"
+  },
+  {
+   "group": "rival",
+   "label": "Rational sequential choice",
+   "definition": "In the conventional model, a choice opportunity leads to generating alternatives, examining their consequences, evaluating them against objectives, and then deciding. The authors argue this is often a poor description of what actually happens.",
+   "applies_when": "An account explains an outcome as the result of a planned, goal-driven evaluation of alternatives.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1972-f377b5:p003:04",
+    "cohen1972-f377b5:p017:03"
+   ],
+   "pdf_pages": [
+    3,
+    17
+   ],
+   "candidate_id": "cohen1972-f377b5:c04"
+  },
+  {
+   "group": "condition",
+   "label": "Ambiguity and fluid participation",
+   "definition": "Garbage-can processes arise where preferences are problematic, technology is unclear (people get by on trial and error and the accidents of past experience), and participation is fluid.",
+   "applies_when": "A person describes unclear goals, learning by trial and error, or shifting sets of people involved in decisions.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1972-f377b5:p002:02",
+    "cohen1972-f377b5:p002:03",
+    "cohen1972-f377b5:p017:01"
+   ],
+   "pdf_pages": [
+    2,
+    17
+   ],
+   "candidate_id": "cohen1972-f377b5:c05"
+  },
+  {
+   "group": "background",
+   "label": "Allocation of attention",
+   "definition": "Not everyone attends to everything. Who happens to be attending to what, shaped by other demands on their time, largely shapes what gets decided.",
+   "applies_when": "An account explains an outcome by who happened to be present, available or paying attention at the time.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1972-f377b5:p003:01",
+    "cohen1972-f377b5:p004:02",
+    "cohen1972-f377b5:p014:02"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    14
+   ],
+   "candidate_id": "cohen1972-f377b5:c06"
+  },
+  {
+   "group": "condition",
+   "label": "Rich environment eases finding solutions",
+   "definition": "When the environment is relatively rich, solutions are easier to find and less energy is needed. An organization's attractiveness and permeability also draw more problems to it.",
+   "applies_when": "A person links the availability of resources or a rich environment to how easily solutions or opportunities came their way.",
+   "does_not_apply_when": "",
+   "passage_ids": [
+    "cohen1972-f377b5:p013:03",
+    "cohen1972-f377b5:p013:01"
+   ],
+   "pdf_pages": [
+    13
+   ],
+   "candidate_id": "cohen1972-f377b5:c07"
+  },
+  {
+   "group": "outcome",
+   "label": "Choices by oversight or flight",
+   "definition": "Many choices are made without resolving problems: either quickly, before any problems attach (oversight), or after the problems have moved to another choice (flight). This helps explain why important choices often appear to just happen.",
+   "applies_when": "An account describes an important decision that seemed to just happen, or one made without addressing the problems that seemed related to it.",
+   "does_not_apply_when": "The decision resolved problems after a period of working on them (resolution).",
+   "passage_ids": [
+    "cohen1972-f377b5:p009:02",
+    "cohen1972-f377b5:p012:01",
+    "cohen1972-f377b5:p017:02"
+   ],
+   "pdf_pages": [
+    9,
+    12,
+    17
+   ],
+   "candidate_id": "cohen1972-f377b5:c08"
+  }
+ ],
+ "removed": []
+}
