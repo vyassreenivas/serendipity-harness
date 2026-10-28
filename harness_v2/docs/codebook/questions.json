@@ -1,0 +1,81 @@
+{
+ "about": "The research question, its sub-questions, the groups the papers were read for, and the groups coders answer in codebook version 1.0. Used by questions.js. Each sub-question is worded in full here; figures use the short form.",
+ "question": "How does serendipity shape the entrepreneurial process, from the first idea to the developing venture?",
+ "kind": "A process question, with a conceptual part.",
+ "rows": [
+  {
+   "sq": "1",
+   "text": "What counts as serendipity: are its parts (surprise, agency, value) present, what was the search state, which type is it, and is it more than luck or targeted search?",
+   "read_for": [
+    "How authors define serendipity, the kinds they distinguish, and what else could explain the same events"
+   ],
+   "coded": [
+    "Group 1, Parts of serendipity: surprise, acting on it, value, and what the founder was doing.",
+    "The definitions, types, and luck and planning boundaries are then worked out from these codes."
+   ]
+  },
+  {
+   "sq": "2",
+   "text": "What triggers it: an anomaly, an error, a chance meeting, a passing remark, an unsought offer, or a market signal?",
+   "read_for": [
+    "What unexpected events set serendipity off"
+   ],
+   "coded": [
+    "Group 2, Trigger"
+   ]
+  },
+  {
+   "sq": "3",
+   "text": "What background (prior knowledge, a problem in mind, contacts) and which mechanisms (noticing, connecting, acting, changing plans) turn the trigger into an opportunity?",
+   "read_for": [
+    "What founders already have, and what they do with the event"
+   ],
+   "coded": [
+    "Group 3, Background",
+    "Group 4, Mechanism"
+   ]
+  },
+  {
+   "sq": "4",
+   "text": "What role does it play in the venture (founding, redirecting, advancing it), and what outcomes follow: a product, a market, growth, or nothing?",
+   "read_for": [
+    "What part serendipity plays in a venture, and what comes of it"
+   ],
+   "coded": [
+    "Group 5, Role",
+    "Group 6, Outcome"
+   ]
+  },
+  {
+   "sq": "5",
+   "text": "Which conditions make it more or less likely to occur and be acted on: seeking out chance, cheap trials, loose plans, or scarce resources?",
+   "read_for": [
+    "What makes serendipity more or less likely"
+   ],
+   "coded": [
+    "Group 7, Condition"
+   ]
+  },
+  {
+   "sq": "6",
+   "text": "How do founders account for it afterwards: as luck, as luck plus effort, as clear only in hindsight, or retold as planned?",
+   "read_for": [
+    "How people explain or tell it afterwards"
+   ],
+   "coded": [
+    "Group 8, Account"
+   ]
+  },
+  {
+   "sq": "All",
+   "text": "What in a founder's story matters for these questions but fits none of the codes?",
+   "read_for": [
+    "Ideas that matter but fit no other heading"
+   ],
+   "coded": [
+    "A \"none of these fits\" code at the end of groups 2 to 8",
+    "Group 9, Something else"
+   ]
+  }
+ ]
+}

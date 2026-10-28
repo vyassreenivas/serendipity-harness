@@ -1,0 +1,457 @@
+{
+ "about": "Re-check of code-paper links that no cited sentence confirmed (26 October 2026). For each link, a program scored every sentence in the whole paper against the code's wording and listed the eight closest (recheck.py). The reader then judged whether one of them states the code: 'states it', 'leans on it' (related but less direct), 'not stated', or 'not readable' (text did not extract). Read by Claude Opus 5.5 in a Claude Code session with prompt 4 (harness_v2/docs/codebook/drafts/prompt_draft2.md); to be confirmed by the researchers. Links that state or lean on the code join its evidence; the others are listed in the codebook trail as checked and not confirmed.",
+ "read_by": "Claude Opus 5.5 (Claude Code session), 26 Oct 2026",
+ "links": [
+  {
+   "code": "definition-04",
+   "paper": "brownell2024-a83b1a",
+   "work": "Brownell et al. (2024)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "definition-07",
+   "paper": "ma2002-d85f40",
+   "work": "Ma (2002)",
+   "outcome": "not readable",
+   "note": "The paper's text did not extract from the PDF; a readable copy is needed to check it."
+  },
+  {
+   "code": "type-01",
+   "paper": "andel1994-c1365e",
+   "work": "Andel (1994)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "type-01",
+   "paper": "busch2020-10a2b8",
+   "work": "Busch and Barkema (2020)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "type-01",
+   "paper": "dew2009-37796f",
+   "work": "Dew (2009)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "type-02",
+   "paper": "busch2020-10a2b8",
+   "work": "Busch and Barkema (2020)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "type-03",
+   "paper": "busch2020-10a2b8",
+   "work": "Busch and Barkema (2020)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "rival-01",
+   "paper": "adegbesan2009-ec3cd9",
+   "work": "Adegbesan (2009)",
+   "outcome": "leans on it",
+   "sentence_id": "adegbesan2009-ec3cd9:p002:02:s2",
+   "pdf_page": 2,
+   "text": "Extant SFM theory (Barney, 1986; Makadok & Barney, 2001) holds that firms cannot appropriate gains from the deployment of valuable resources unless they have superior expectations about their future value or unless they are beneficiaries of pure luck."
+  },
+  {
+   "code": "rival-01",
+   "paper": "busch2020-10a2b8",
+   "work": "Busch and Barkema (2020)",
+   "outcome": "leans on it",
+   "sentence_id": "busch2020-10a2b8:p025:01:s1",
+   "pdf_page": 25,
+   "text": "Prior research in entrepreneurship and management has interpreted serendipity or “luck” as uncontrollable error or uncertainty that needs to be reduced (Brown, 2005)."
+  },
+  {
+   "code": "rival-06",
+   "paper": "merton2004-2ebdb7",
+   "work": "Merton and Barber (2004)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "rival-06",
+   "paper": "bhave1994-e578fb",
+   "work": "Bhave (1994)",
+   "outcome": "states it",
+   "sentence_id": "bhave1994-e578fb:p007:01:s6",
+   "pdf_page": 7,
+   "text": "The decision to start was therefore followed by a search to align the prospective entrepreneurs’ knowledge, experience, skills and other resources with market needs."
+  },
+  {
+   "code": "rival-06",
+   "paper": "copeland2023-f96149",
+   "work": "Copeland et al. (2023)",
+   "outcome": "leans on it",
+   "sentence_id": "copeland2023-f96149:p092:03:s2",
+   "pdf_page": 92,
+   "text": "Problem-solving, then, is about linking a specific point on the problem landscape with a point on the solution landscape."
+  },
+  {
+   "code": "rival-07",
+   "paper": "derond2007-89268a",
+   "work": "de Rond and Thietart (2007)",
+   "outcome": "leans on it",
+   "sentence_id": "derond2007-89268a:p014:01:s7",
+   "pdf_page": 14,
+   "text": "Clearly, choice alone is not sufficient to account for strategy formation (Conjecture 3)."
+  },
+  {
+   "code": "rival-07",
+   "paper": "sarasvathy2001-f6e40d",
+   "work": "Sarasvathy (2001)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "rival-07",
+   "paper": "mintzberg1996-8f4eed",
+   "work": "Mintzberg et al. (1996)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "rival-10",
+   "paper": "carayannis2011-81b76b",
+   "work": "Carayannis et al. (2011)",
+   "outcome": "states it",
+   "sentence_id": "carayannis2011-81b76b:p002:03:s6",
+   "pdf_page": 2,
+   "text": "Baker and Nelson have described entrepreneurial action as bricolage, or “making do by applying combinations of the resources at hand to new problems and opportunities” [27, p. 333]."
+  },
+  {
+   "code": "rival-10",
+   "paper": "vonhippel2016-a67f44",
+   "work": "von Hippel and von Krogh (2016)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "trigger-01",
+   "paper": "fultz2025-202492",
+   "work": "Fultz and Hmieleski (2025)",
+   "outcome": "leans on it",
+   "sentence_id": "fultz2025-202492:p008:01:s6",
+   "pdf_page": 8,
+   "text": "Instead, monochronicity may serve as a framework that guides firms toward noticing new connections between resources, markets, and customer needs by creating cognitive and organizational conditions that heighten sensitivity to meaningful anomalies or unexpected cues that emerge during daily activities."
+  },
+  {
+   "code": "trigger-14",
+   "paper": "felin2021-6b1db3",
+   "work": "Felin et al. (2021)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "trigger-14",
+   "paper": "merton2004-abf53f",
+   "work": "Merton and Barber (2004)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "trigger-14",
+   "paper": "reijonen2023-36e677",
+   "work": "Reijonen and Heroum (2026)",
+   "outcome": "states it",
+   "sentence_id": "reijonen2023-36e677:p013:01:s9",
+   "pdf_page": 13,
+   "text": "She was not actively searching but recognised an entrepreneurial opportunity during an unplanned discussion with a startup team."
+  },
+  {
+   "code": "trigger-14",
+   "paper": "cunha2010-5a18d7",
+   "work": "Cunha et al. (2010)",
+   "outcome": "states it",
+   "sentence_id": "cunha2010-5a18d7:p006:05:s6",
+   "pdf_page": 6,
+   "text": "People are willing to open up to friends, and friends with knowledge may provide adequate if unexpected solutions: ‘‘meetings and social events provide the unplanned and unstructured opportunities for the accidental coming together of ideas that may lead to the serendipitous development of new intellectual capital’’ ( Nahapiet and Ghoshal, 1998, p. 258)."
+  },
+  {
+   "code": "trigger-14",
+   "paper": "vanlent2023-afed1a",
+   "work": "Van Lent et al. (2022)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "trigger-17",
+   "paper": "copeland2023-f96149",
+   "work": "Copeland et al. (2023)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "trigger-18",
+   "paper": "fultz2025-202492",
+   "work": "Fultz and Hmieleski (2025)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "trigger-24",
+   "paper": "kirzner1997-178322",
+   "work": "Kirzner (1997)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "background-01",
+   "paper": "derond2007-89268a",
+   "work": "de Rond and Thietart (2007)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "background-01",
+   "paper": "balzano2022-f16721",
+   "work": "Balzano (2022)",
+   "outcome": "leans on it",
+   "sentence_id": "balzano2022-f16721:p013:02:s3",
+   "pdf_page": 13,
+   "text": "Serendipity entails search, contingency, and prior knowledge ( Dew, 2009 )."
+  },
+  {
+   "code": "background-01",
+   "paper": "pease2013-ef46e2",
+   "work": "Pease et al. (2013)",
+   "outcome": "states it",
+   "sentence_id": "pease2013-ef46e2:p004:03:s7",
+   "pdf_page": 4,
+   "text": "Standard 1: (i) The system has a prepared mind consisting of past cases, background knowledge and an unsolved problem."
+  },
+  {
+   "code": "background-01",
+   "paper": "rosenman1988-26b8e4",
+   "work": "Rosenman (1988)",
+   "outcome": "leans on it",
+   "sentence_id": "rosenman1988-26b8e4:p004:02:s7",
+   "pdf_page": 4,
+   "text": "As Pasteur observed inthe mid 1800's, \"chance favors onJythe prepared mind.\" Several years earlier Joseph Henry,the firstdirec­ tor of the Smithsonian, said: \"The seeds of great discoveries are constantly floating around us, but they only take root in minds well-prepared to receive them.\""
+  },
+  {
+   "code": "background-01",
+   "paper": "bhave1994-e578fb",
+   "work": "Bhave (1994)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "background-01",
+   "paper": "fultz2021-39e22e",
+   "work": "Fultz and Hmieleski (2021)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "background-02",
+   "paper": "merton2004-2c6f10",
+   "work": "Merton and Barber (2004)",
+   "outcome": "leans on it",
+   "sentence_id": "merton2004-abf53f:p035:02:s7",
+   "pdf_page": 35,
+   "text": "The other main type of serendipity in science involves the chance observation of an evocative phenomenon or emergence of a new idea that leads to an unexpected solution of the targeted problem."
+  },
+  {
+   "code": "background-11",
+   "paper": "harmeling2013-ddb167",
+   "work": "Harmeling and Sarasvathy (2013)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "background-11",
+   "paper": "murayama2015-fe84e7",
+   "work": "Murayama et al. (2015)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "background-11",
+   "paper": "vogel2017-d8e6ae",
+   "work": "Vogel (2017)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "mechanism-06",
+   "paper": "nguyen2024-21848b",
+   "work": "Nguyen et al. (2024)",
+   "outcome": "states it",
+   "sentence_id": "nguyen2024-21848b:p002:02:s5",
+   "pdf_page": 2,
+   "text": "Connecting unexpected information can provide more valuable inputs preceding the evaluation stage compared to unconnected information, though the second function is not always necessary. 3."
+  },
+  {
+   "code": "mechanism-22",
+   "paper": "ma2002-d85f40",
+   "work": "Ma (2002)",
+   "outcome": "not readable",
+   "note": "The paper's text did not extract from the PDF; a readable copy is needed to check it."
+  },
+  {
+   "code": "mechanism-22",
+   "paper": "derond2014-e6da07",
+   "work": "de Rond (2014)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-01",
+   "paper": "busch2023-0bee54",
+   "work": "Busch (2024)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-01",
+   "paper": "fultz2025-202492",
+   "work": "Fultz and Hmieleski (2025)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-01",
+   "paper": "nair2020-d1b976",
+   "work": "Nair et al. (2020)",
+   "outcome": "leans on it",
+   "sentence_id": "nair2020-d1b976:p009:02:s4",
+   "pdf_page": 9,
+   "text": "At t3, the chef and the food scientist connect at some level and manage to create a shared idea."
+  },
+  {
+   "code": "role-01",
+   "paper": "trott2024-e8e576",
+   "work": "Trott et al. (2024)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-08",
+   "paper": "ma2002-d85f40",
+   "work": "Ma (2002)",
+   "outcome": "not readable",
+   "note": "The paper's text did not extract from the PDF; a readable copy is needed to check it."
+  },
+  {
+   "code": "role-08",
+   "paper": "alvarez2007-c77d51",
+   "work": "Alvarez and Barney (2007)",
+   "outcome": "states it",
+   "sentence_id": "alvarez2007-c77d51:p005:04 to p006:01",
+   "pdf_page": 5,
+   "text": "Most frequently, entrepreneurs learn that their original beliefs about the nature and scope of what they thought were opportunities are not justified."
+  },
+  {
+   "code": "role-08",
+   "paper": "andel1994-c1365e",
+   "work": "Andel (1994)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-08",
+   "paper": "bhave1994-e578fb",
+   "work": "Bhave (1994)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-08",
+   "paper": "felin2021-6b1db3",
+   "work": "Felin et al. (2021)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-08",
+   "paper": "rosenman1988-26b8e4",
+   "work": "Rosenman (1988)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "role-16",
+   "paper": "brownell2024-a83b1a",
+   "work": "Brownell et al. (2024)",
+   "outcome": "leans on it",
+   "sentence_id": "brownell2024-a83b1a:p016:01:s3",
+   "pdf_page": 16,
+   "text": "Only four out of 70 entrepreneurs (about 6% of the sample) indicated that they did not believe luck had any influence on the success of their new venture."
+  },
+  {
+   "code": "outcome-01",
+   "paper": "andel1994-c1365e",
+   "work": "Andel (1994)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "outcome-01",
+   "paper": "balzano2022-f16721",
+   "work": "Balzano (2022)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "outcome-01",
+   "paper": "copeland2023-f96149",
+   "work": "Copeland et al. (2023)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "outcome-03",
+   "paper": "cunha2015-c88a52",
+   "work": "Cunha et al. (2015)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "outcome-05",
+   "paper": "meyer2002-3a4528",
+   "work": "Meyer and Skak (2002)",
+   "outcome": "states it",
+   "sentence_id": "meyer2002-3a4528:p008:04:s7",
+   "pdf_page": 8,
+   "text": "Our third key observation is serendipity, that is, elements of chance that may profoundly alter a firm’s growth path."
+  },
+  {
+   "code": "account-01",
+   "paper": "mintzberg1985-df70c8",
+   "work": "Mintzberg and Waters (1985)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "account-01",
+   "paper": "dew2009-37796f",
+   "work": "Dew (2009)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "account-08",
+   "paper": "balzano2022-f16721",
+   "work": "Balzano (2022)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "account-08",
+   "paper": "merton2004-672461",
+   "work": "Merton and Barber (2004)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "account-18",
+   "paper": "busch2020-10a2b8",
+   "work": "Busch and Barkema (2020)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "condition-04",
+   "paper": "ma2002-d85f40",
+   "work": "Ma (2002)",
+   "outcome": "not readable",
+   "note": "The paper's text did not extract from the PDF; a readable copy is needed to check it."
+  },
+  {
+   "code": "condition-04",
+   "paper": "andel1994-c1365e",
+   "work": "Andel (1994)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "condition-04",
+   "paper": "barney1986-1876f5",
+   "work": "Barney (1986)",
+   "outcome": "not stated"
+  },
+  {
+   "code": "condition-04",
+   "paper": "trott2024-e8e576",
+   "work": "Trott et al. (2024)",
+   "outcome": "leans on it",
+   "sentence_id": "trott2024-e8e576:p002:04:s6",
+   "pdf_page": 2,
+   "text": "The second two mechanisms are related to ways of organizing that make such events more likely."
+  },
+  {
+   "code": "condition-22",
+   "paper": "krumboltz1998-d53ff4",
+   "work": "Krumboltz (1998)",
+   "outcome": "not stated"
+  }
+ ]
+}

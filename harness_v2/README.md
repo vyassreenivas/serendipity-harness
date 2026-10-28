@@ -1,28 +1,13 @@
-# Serendipity harness, version 2
+# Harness, version 2: documents and codebook tools
 
-A rebuild of the harness from the bottom up, one stage at a time. Each stage is
-a folder with its own README, is agreed by the researchers before the next
-stage starts, and is committed so the record shows the order of decisions.
+The program is in `../harness/`. This folder holds what turns its records into
+documents people read, and the technical appendix.
 
-The earlier version is in `../harness/` and stays as it is. Results from it
-(for example the model comparisons on four papers) are referred to, not
-copied.
-
-## Stages
-
-| Stage | Folder | What it does | Who does the work | State |
-|---|---|---|---|---|
-| 1 | `stage1_question/` | A general protocol for breaking a research question into sub-questions and analysis groups, and the serendipity question broken down with it | Researchers | Draft, 16 October 2026 |
-| 2 | (to come) | Choose papers for each sub-question, with evidence | Researchers; checked by fixed code | |
-| 3 | (to come) | Read each paper for candidate codes | Model; checked by fixed code | |
-| ... | | | | |
-
-## Documentation
-
-`docs/technical_document.docx` describes every stage that is built. It is
-generated from `docs/source/`; edit the text there, not in Word.
-
-## Data and rights
-
-Papers are copyrighted and interviews are proprietary (Starter Story). Neither
-is kept in this repository; both stay in the project folder outside it.
+| Path | What it is |
+|---|---|
+| `docs/technical_v2/` | The technical appendix (`technical_draft.md`), the process page and the figures, all built from `process.json` by `views.py` and `figures.py` |
+| `docs/codebook/` | The codebook review workbook, and the tools that build the research question, paper list, short codebook, code sources, codebook trail and coding pages from it. See its README. |
+| `docs/codebook/demo/` | The coding page on an invented interview |
+| `build_submission.py` | Rebuilds the submission repository and checks it for interview text and papers |
+| `submission_README.md` | The submission repository's front page |
+| `outputs/` | Kept local: anything that holds interview text |

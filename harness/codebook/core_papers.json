@@ -1,0 +1,75 @@
+{
+ "about": "The core papers: the smallest set of the works read that states every code in the codebook, with each code stated by two of them wherever two works state it, and with the four works the definitions and types come from (Busch 2024, Dew 2009, Merton and Barber 2004, Yaqub 2018). Found by integer programming over the links in the paper list on 26 Oct 2026; paper_list.py checks the coverage on every build. Each line says what the work argues, then what it gives the codebook under each sub-question the table lists for it.",
+ "papers": [
+  {
+   "key": "busch2023-0bee54",
+   "short": "Busch (2024)",
+   "why": "Defines serendipity as a surprise that someone acts on and that turns out valuable, and separates it from luck and planned search. Supports our main definition and its limits (SQ1), how founders notice, connect and act (SQ3), and what results (SQ4)."
+  },
+  {
+   "key": "dew2009-37796f",
+   "short": "Dew (2009)",
+   "why": "Defines serendipity in entrepreneurship as searching, meeting chance, and knowing enough to see its value. Supports a second definition and what the founder was doing at the time (SQ1), and how it starts or redirects ventures (SQ4)."
+  },
+  {
+   "key": "merton2004-2c6f10",
+   "short": "Merton and Barber (2004)",
+   "why": "Traces the history of the word: a chance event plus the wisdom to use it, often retold later as planned. Supports a third definition (SQ1), odd findings and hints that start it (SQ2), the skill to use them (SQ3), results (SQ4), and loose plans (SQ5)."
+  },
+  {
+   "key": "yaqub2018-fd9c19",
+   "short": "Yaqub (2018)",
+   "why": "Sorts real discovery stories by what people were looking for and what they found. Supports our four types of serendipity (SQ1), mistakes that start it (SQ2), and noticing and networks (SQ3)."
+  },
+  {
+   "key": "mirvahedi2017-ff1fb5",
+   "short": "Mirvahedi and Morrish (2017)",
+   "why": "Founders of twenty fast-growing firms found opportunities by chance, mostly through people they knew. Supports what founders were doing at the time, and is our only source for founders open to any business (SQ1). Also supports chance meetings and offers (SQ2), networks (SQ3), effects on the venture (SQ4), little money (SQ5) and talk of luck (SQ6)."
+  },
+  {
+   "key": "fultz2025-202492",
+   "short": "Fultz and Hmieleski (2025)",
+   "why": "A survey of new firms finding that unplanned discoveries lead to more innovation. Supports the difference between acting and luck, not looking at all, and two types (SQ1), knowledge and connecting ideas (SQ3), growth (SQ4), and little money (SQ5)."
+  },
+  {
+   "key": "reijonen2023-36e677",
+   "short": "Reijonen and Heroum (2026)",
+   "why": "Founders describe ventures that began from chance meetings and unexpected requests. Supports acting on chance and its value (SQ1), and the meetings, requests and market signals that start it (SQ2). Also shows how founders respond (SQ3), becoming a founder by accident (SQ4), and seeing it only later (SQ6)."
+  },
+  {
+   "key": "andel1994-c1365e",
+   "short": "Andel (1994)",
+   "why": "Lists the common patterns of finding something not looked for, across science and invention. Supports what starts it, such as odd results, mistakes and outsiders' hints (SQ2), and a prepared mind and changed plans (SQ3)."
+  },
+  {
+   "key": "oo2025-0f6dbd",
+   "short": "Oo et al. (2025)",
+   "why": "A crowdfunding study separating an unexpected answer to your own problem from an answer to a different one. Supports a specific search and these two types (SQ1), growth (SQ4), and how founders talk about luck (SQ6)."
+  },
+  {
+   "key": "sarasvathy2001-f6e40d",
+   "short": "Sarasvathy (2001)",
+   "why": "Shows founders often start from what they have rather than from a fixed goal. Supports building on what customers respond to (SQ3), and cheap tests and flexible plans that make it easier to act on chance (SQ5)."
+  },
+  {
+   "key": "shah2007-30af0c",
+   "short": "Shah and Tripsas (2007)",
+   "why": "People built products for their own needs and started firms when others wanted them too. Supports problems they already had and ideas from their work (SQ3), and becoming a founder by accident (SQ4)."
+  },
+  {
+   "key": "wareham2022-c310ad",
+   "short": "Wareham et al. (2022)",
+   "why": "Science projects whose ideas came from odd results, compared with projects that searched step by step. Supports the chance-plus-wisdom definition and the planned-search alternative (SQ1), and ideas from daily work (SQ3)."
+  },
+  {
+   "key": "garud2018-c63015",
+   "short": "Garud et al. (2018)",
+   "why": "Cases at 3M where a sudden rise in demand revealed new uses for a product. Supports building on what customers respond to (SQ3) and the new products that result (SQ4)."
+  },
+  {
+   "key": "graebner2004-87c1a8",
+   "short": "Graebner (2004)",
+   "why": "Company acquisitions that brought benefits nobody planned, seen as lucky only later. Supports new markets and changes of direction (SQ4), and value seen only in hindsight (SQ6)."
+  }
+ ]
+}

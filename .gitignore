@@ -6,8 +6,6 @@ harness/runs/*/pages/
 harness/runs/*/passages/
 harness/runs/*/segments/
 harness/runs/*/calls/
-harness/runs/*/private/
 harness/runs/*/model_coding/
 harness/runs/*/kit/
-harness_v2/outputs/*
-!harness_v2/outputs/README.md
+harness_v2/outputs/

@@ -1,0 +1,316 @@
+{
+ "about": "The two levels of codebook version 1.0 (frozen 25 Oct 2026). Level 1 lists what coders tick, by group; a pick_one is a question with one answer. Level 2 lists what is worked out after coding. A rule is met when every code in 'all' is ticked, at least one code in 'any' is ticked (if 'any' is given), and no code in 'none' is ticked. A judgment is decided by the researchers with a written reason. Each rule carries the papers that state it: its own sentences (evidence) or the evidence of the drafted codes it came from (evidence_from). Built by the process in harness_v2/docs/codebook/drafts/prompt_draft2.md.",
+ "level1": [
+  {
+   "group": "parts",
+   "draft_groups": [
+    "definition",
+    "type"
+   ],
+   "sq": "SQ1",
+   "name": "Parts of serendipity",
+   "asks": "Which parts are present?",
+   "pick_one": {
+    "name": "Search state",
+    "asks": "What was the founder doing when it happened?",
+    "codes": [
+     "type-03",
+     "type-04",
+     "definition-04"
+    ]
+   },
+   "codes": [
+    "definition-09",
+    "definition-07",
+    "definition-13"
+   ]
+  },
+  {
+   "group": "trigger",
+   "sq": "SQ2"
+  },
+  {
+   "group": "background",
+   "sq": "SQ3"
+  },
+  {
+   "group": "mechanism",
+   "sq": "SQ3"
+  },
+  {
+   "group": "role",
+   "sq": "SQ4"
+  },
+  {
+   "group": "outcome",
+   "sq": "SQ4"
+  },
+  {
+   "group": "condition",
+   "sq": "SQ5"
+  },
+  {
+   "group": "account",
+   "sq": "SQ6",
+   "exclude": [
+    "account-01"
+   ]
+  }
+ ],
+ "level2": [
+  {
+   "id": "DEF-BUSCH",
+   "kind": "definition",
+   "name": "Busch (2024)",
+   "in_short": "Agency, surprise and value",
+   "all": [
+    "definition-07",
+    "definition-09",
+    "definition-13"
+   ],
+   "evidence": [
+    {
+     "passage_id": "busch2023-0bee54:p003:01",
+     "pdf_page": 3,
+     "text": "Based on the three necessary conditions that I derived from the review (agency, surprise, and value), I define serendipity as ‘surprising discovery that results from unplanned moments in which our decisions and actions lead to valuable outcomes’."
+    },
+    {
+     "passage_id": "fultz2025-202492:p006:01",
+     "pdf_page": 6,
+     "text": "In a recent review, Busch (2024) identified three necessary conditions that distinguish serendipity from related concepts."
+    },
+    {
+     "passage_id": "klyver2025-7a51e3:p003:01",
+     "pdf_page": 3,
+     "text": "In contrast to pure luck, Busch (2024) argues that in addition to the necessary conditions of surprise and value forming luck, respectively, agency is a third necessary condition for serendipity to happen."
+    },
+    {
+     "passage_id": "reinsberger2025-20b5e3:p023:02",
+     "pdf_page": 23,
+     "text": "Serendipity involves the convergence of agency, surprise, and value ( Busch, 2024 ), and implies purposeful action in response to unforeseen cues ( Busch and Barkema, 2022 ; Rauch and Ansari, 2022 )."
+    },
+    {
+     "passage_id": "smith2025-07dc7b:p010:04",
+     "pdf_page": 10,
+     "text": "Value, together with agency and surprise, is one of the necessary conditions of serendipity (Busch, 2024)."
+    },
+    {
+     "passage_id": "terveen2025-8db027:p001:03",
+     "pdf_page": 1,
+     "text": "Recent work frames serendipity as the interplay of unexpectedness, agency, and value ( Busch, 2024 ; Busch and Grimes, 2023 )."
+    }
+   ]
+  },
+  {
+   "id": "DEF-DEW",
+   "kind": "definition",
+   "name": "Dew (2009)",
+   "in_short": "Search, chance and prior knowledge",
+   "all": [
+    "definition-09",
+    "background-01"
+   ],
+   "any": [
+    "type-04",
+    "definition-04"
+   ],
+   "evidence": [
+    {
+     "passage_id": "dew2009-37796f:p005:01",
+     "pdf_page": 5,
+     "text": "In essence, serendipity involves the interaction of three elements: a resource (sagacity), an event (contingencies), and an activity (the individual is already on a journey)."
+    },
+    {
+     "passage_id": "busch2023-0bee54:p007:01",
+     "pdf_page": 7,
+     "text": "Serendipity is conceptualized as the combination of search (directed effort), contingency (favourable accidents), and prior knowledge (sagacity)."
+    },
+    {
+     "passage_id": "engel2017-29f9c4:p013:01",
+     "pdf_page": 13,
+     "text": "Because serendipity is characterized by “some combination of search (directed effort), contingency (favorable accidents) and prior knowledge (sagacity) ” (Dew, 2009 : 736), attracting stakeholders' pre-commitments and enlarging the means available to the venture serves to enhance the pool of knowledge required to detect and act on key contingencies."
+    },
+    {
+     "passage_id": "mcfarlane2016-385256:p002:01",
+     "pdf_page": 2,
+     "text": "Dew (2009, p. 739) suggests that serendipity “involves the interaction of three elements (i) a resource (sagacity), (ii) an event (contingency), (iii) an activity (the individual is already on a journey)."
+    },
+    {
+     "passage_id": "mirvahedi2017-ff1fb5:p011:03",
+     "pdf_page": 11,
+     "text": "Entrepreneurial serendipity also contains the three elements of serendipity from Dew’s (2009) conceptual model: knowledge, search and contingency."
+    },
+    {
+     "passage_id": "reinsberger2025-20b5e3:p005:04",
+     "pdf_page": 5,
+     "text": "Defined in the management literature as a “ search leading to unintended discovery ” ( Dew, 2009 , p. 735), serendipity is more than mere chance, arising from the interplay of searching, contingency, and prior knowledge ( Dew, 2009 )."
+    }
+   ]
+  },
+  {
+   "id": "DEF-WALPOLE",
+   "kind": "definition",
+   "name": "Walpole, after Merton and Barber (2004)",
+   "in_short": "Accident and sagacity",
+   "all": [
+    "definition-09",
+    "mechanism-06"
+   ],
+   "evidence": [
+    {
+     "passage_id": "merton2004-3372c0:p017:02",
+     "pdf_page": 17,
+     "text": "Horace Walpole, who coined the word, said in a letter of Jan. 28, 1754, that he took it from the title of a fairy tale, The Three Princes of Serendip; the princes “were always making discoveries by accident and sagacity, of things they were not in quest of.”"
+    },
+    {
+     "passage_id": "merton2004-2ebdb7:p008:01",
+     "pdf_page": 8,
+     "text": "Chute calls sortes Walpolianae,” for, whether sortes is translated as “luck” or “fate,” it lacks the mixture of those two ingredients that Walpole irrevocably included in the complex meaning of serendipity: accident and sagacity."
+    },
+    {
+     "passage_id": "busch2020-10a2b8:p005:03",
+     "pdf_page": 5,
+     "text": "We define serendipity as entrepreneurs “making discoveries, by accidents and sagacity, of things they were not in quest of” (Merton & Barber, 2004, p. 2)."
+    },
+    {
+     "passage_id": "cunha2010-5a18d7:p002:01",
+     "pdf_page": 2,
+     "text": "In his letter to his diplomatist friend Walpole mentioned a special type of luck that these princes bestow: he termed it serendipity, after the ancient tale, which resulted from the combination of an accident with sagacity or perspicacity in understanding."
+    },
+    {
+     "passage_id": "mirvahedi2017-ff1fb5:p002:04",
+     "pdf_page": 2,
+     "text": "Serendipity in finding and exploring new things is, however, believed to be a result of “accident and sagacity”, rather than accident or luck alone ( Friedel, 2001 )."
+    },
+    {
+     "passage_id": "fultz2021-39e22e:p003:04",
+     "pdf_page": 3,
+     "text": "Referencing the Persian fairy tale The Three Princes of Serendip, Horace Walpole described serendipity as “making discoveries, by accident and sagacity, of things they were not in quest of” (quoted in Merton and Barber, 2004)."
+    },
+    {
+     "passage_id": "wareham2022-c310ad:p002:04",
+     "pdf_page": 2,
+     "text": "He refers to serendipity as an unexpected discovery found from the combination of accident and sagacity ( Rosenman, 2001 )."
+    },
+    {
+     "passage_id": "dew2009-37796f:p001:02",
+     "pdf_page": 1,
+     "text": "Columbus’ discovery of the ‘New World’ was, of course, an example of serendipity: of making a discovery, by accident and sagacity, of things not in quest of."
+    }
+   ]
+  },
+  {
+   "id": "RIV-LUCK",
+   "kind": "rival",
+   "name": "Pure luck",
+   "in_short": "Surprise and value without agency (Busch 2024, p. 29)",
+   "all": [
+    "definition-09",
+    "definition-13"
+   ],
+   "none": [
+    "definition-07"
+   ],
+   "evidence_from": [
+    "rival-01"
+   ]
+  },
+  {
+   "id": "RIV-TARGETED",
+   "kind": "rival",
+   "name": "Targeted search or a plan",
+   "in_short": "Agency and value without surprise (Busch 2024, p. 29)",
+   "all": [
+    "definition-04",
+    "definition-07",
+    "definition-13"
+   ],
+   "none": [
+    "definition-09"
+   ],
+   "evidence_from": [
+    "rival-06",
+    "rival-07"
+   ]
+  },
+  {
+   "id": "TYP-MERTON",
+   "kind": "type",
+   "name": "Mertonian: sought, found unexpectedly",
+   "in_short": "A specific search, answered by the problem already in mind",
+   "all": [
+    "definition-04",
+    "background-02"
+   ],
+   "none": [
+    "mechanism-23"
+   ],
+   "evidence_from": [
+    "type-01"
+   ]
+  },
+  {
+   "id": "TYP-WALPOLE",
+   "kind": "type",
+   "name": "Walpolian: sought one, found another",
+   "in_short": "A specific search that changed the plan",
+   "all": [
+    "definition-04",
+    "mechanism-23"
+   ],
+   "evidence_from": [
+    "type-02"
+   ]
+  },
+  {
+   "id": "TYP-BUSH",
+   "kind": "type",
+   "name": "Bushian: exploring, met an existing need",
+   "in_short": "No specific search, but a problem already in mind",
+   "any": [
+    "type-03",
+    "type-04"
+   ],
+   "all": [
+    "background-02"
+   ],
+   "evidence_from": [
+    "type-05"
+   ]
+  },
+  {
+   "id": "TYP-STEPHAN",
+   "kind": "type",
+   "name": "Stephanian: solution first, problem later",
+   "in_short": "No specific search and no problem in mind",
+   "any": [
+    "type-03",
+    "type-04"
+   ],
+   "none": [
+    "background-02"
+   ],
+   "evidence_from": [
+    "type-06"
+   ]
+  },
+  {
+   "id": "JDG-PLANNED",
+   "kind": "judgment",
+   "name": "Told as if planned",
+   "in_short": "The story is told as intended, though its details show unplanned turns",
+   "evidence_from": [
+    "account-01"
+   ]
+  },
+  {
+   "id": "JDG-MEANS",
+   "kind": "judgment",
+   "name": "Working with what's at hand",
+   "in_short": "Built from the founder's own means, with no surprise",
+   "evidence_from": [
+    "rival-10"
+   ]
+  }
+ ]
+}

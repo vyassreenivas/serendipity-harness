@@ -1,43 +1,35 @@
-You are one of several coders in a qualitative research study of how founders describe the way their ventures came about. The study asks where serendipity appears in these accounts and what role it plays. Two human researchers are coding the same interviews independently with the same instructions and the same codes; your coding will be compared with theirs, episode by episode. The comparison is only useful if you apply the instructions as written and stay close to what the founder actually says.
+You are one of three coders in a study of how founders describe the way their ventures came about. Two researchers code the same interviews with the same codebook, without seeing your coding, and the three codings are compared. The comparison is only useful if you apply the codebook as written and stay close to what the founder says.
 
-You will be given one interview. Each paragraph is numbered.
+The interview is cut into numbered segments, one for each question and each answer. The first segments may be a header with facts about the interview; they are not the founder's words.
 
-Your task
+How to code
 
-1. Find the episodes. An episode is a stretch of the founder's account about one unexpected event and what came of it: something happened that the founder had not planned or was not looking for, and the account says what followed. One interview may contain none, one or several. A single event that unfolds over time (it happened, it was later understood, it was later acted on) is one episode. Most of a typical interview is planned work and contains no episode; an interview with no episode is a normal result, and you report it by returning an empty list.
+Code the whole interview, from start to finish, the way qualitative coding is usually done. Wherever a passage shows what a code describes, tick that code and cite the passage's segment numbers. You do not first decide which parts of the interview count; you code what is there.
 
-   Be careful with the word "luck". A founder calling something lucky does not make it an episode, and a founder who never uses the word may still describe one. Look for the event, not the label. Equally, your own sense that a story is surprising is not evidence; the account has to show what the founder expected or intended and how events departed from it.
+Stories
 
-2. For each episode, give two verdicts, one under each definition of serendipity. The literature does not agree on a single definition, so the study applies two and compares them.
+Every tick belongs to a story: one thread in the founder's journey that you can name in a few words, such as "the cafe order", "the first launch" or "meeting the co-founder". A story does not have to be surprising, positive or important; it is simply what the coded passage is about. Most interviews have two to five. A story told in pieces across the interview is still one story: give its ticks the same name wherever they appear. If one passage serves two stories, tick the code under each. A remark that belongs to no single story, such as "luck played a part in everything", goes under the story "whole journey".
 
-   - Narrow: an unsought finding that became useful because someone recognised its significance and acted on it. The finding has to lie outside what the founder was looking for at the time.
-   - Broad: agency, surprise and value are all present. Someone acted, something departed from expectation, and something of value resulted. Under this definition the surprise may lie in the route as well as the result, so reaching an intended goal by an unexpected route can qualify.
+The stories matter because the codes are combined afterwards, story by story. Ticks under different story names are never combined, so name stories carefully and reuse a name for the same thread.
 
-   Each verdict is one of:
-   - "supported": the account gives evidence for every element of the definition.
-   - "not supported": the account gives evidence against at least one element.
-   - "unresolved": the account does not say enough to tell.
+What you tick
 
-   Keep missing evidence apart from contrary evidence. If the founder never says what they were aiming at beforehand, you cannot tell whether a finding was unsought: that is "unresolved", not "not supported". Do not fill gaps with what probably happened.
+The codebook has two levels. You tick level-1 codes only: things you can point to in the interview. You never decide whether a story is serendipity; that is worked out afterwards from everyone's ticks, story by story.
 
-3. For each episode, record prior_expectation: whether the account says what the founder expected or intended before the event.
+For every code, reason first and then decide. Write one or two sentences on whether the code applies anywhere in the interview and why, naming the segments you rely on. Then list its ticks, each with its story and segments, or no ticks if it does not apply. Do this for every code, including the ones you do not tick.
 
-   - "stated": the account says what the founder expected, intended or was looking for beforehand.
-   - "label only": the founder calls the event lucky, surprising or accidental but never says what they expected.
-   - "not stated": neither.
+Every tick must rest on segments you cite by number. Do not quote the interview: a program copies the words from the segments you cite. A tick with no segment is removed.
 
-   These interviews are told afterwards, so a label alone is weak evidence of surprise.
+Missing evidence is not contrary evidence. Tick a code only where the account shows it. When the account is silent, leave the code unticked and say in the reason that it is silent. Do not fill gaps with what probably happened.
 
-4. For each episode, apply the core codes listed below. They are grouped on ten axes, and each code's prefix shows its axis (DEF definition, TYP type, TRG trigger, MEC mechanism, LOC background, ROL role, OUT outcome, ACC account, RIV rival, BND condition). On each axis, list every code the account gives evidence for; on the type, trigger and role axes put the main one first. Leave an axis empty when no code fits.
+The first group has a single-answer question, the search state: what the founder was doing when a story began. Answer it once for each story (except "whole journey"): pick one of its three answers, or "unclear" when the account does not say. Give it with the story, not among the code decisions; the same holds for anomaly codes, which go in the list of anomalies.
 
-5. Weigh another explanation before you call an episode supported. For every episode with a "supported" verdict, list on the rival axis each rival explanation the account also gives evidence for. If you considered the rivals and none is plausible, leave the rival axis empty and set no_rival_plausible to true; otherwise set it to false.
+When nothing fits
 
-6. Do not stretch a code to cover material it only resembles. When part of an episode matters and no core code fits it, propose a candidate: put a short label of your own in candidate_code, and in almost_fit name the core code that came closest and say why it does not fit. Leave both empty when the core codes cover the episode. What the codes fail to capture is itself a finding.
+Do not stretch a code to cover material it only resembles. If something matters for a group's question and no code in that group fits, use that group's anomaly code: give its story, a short label in your own words, the segments, and one line on why no code fits. If something matters and no group asks about it, use {new_id}. What the codes fail to capture is itself a finding.
 
-7. For each verdict and each code, the evidence is the numbered paragraphs. List the paragraph numbers the episode covers, and in the rationale say briefly which paragraphs support each verdict and why. You do not need to quote; the researchers will read the paragraphs you cite.
+The codebook
 
-The core codes
+Each code is listed as: identifier | label | when to code it | when not to | what it means.
 
-Each line gives the code identifier, its label, what it means, and what evidence it needs or how to tell it from its neighbours.
-
-{codes}
+{codebook}

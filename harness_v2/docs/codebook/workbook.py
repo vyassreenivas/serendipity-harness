@@ -39,7 +39,7 @@ HEAD_FILL = PatternFill("solid", fgColor="1F3A5F")
 EDIT_FILL = PatternFill("solid", fgColor="FFF2B3")
 LINK = Font(name="Arial", size=10, color="1F5FA8", underline="single")
 WRAP = Alignment(wrap_text=True, vertical="top")
-SQTEXT = {"SQ1": "What counts as serendipity?", "SQ2": "Where does it happen, and what sets it off?",
+SQTEXT = {"SQ1": "What counts as serendipity?", "SQ2": "What triggers it?",
           "SQ3": "What do founders bring and do?", "SQ4": "What does it change in the venture?",
           "SQ5": "When is it more or less likely?", "SQ6": "How do founders tell it?", "all": "All sub-questions"}
 EXAMPLE = re.compile(r"\s*For example:\s*(.+)$")
@@ -50,6 +50,9 @@ _picks = json.loads(PICKS_FILE.read_text(encoding="utf-8")) if PICKS_FILE.exists
 PICKS = _picks.get("picks", {})          # the sentence shown first for a code
 ALSO = _picks.get("also", {})            # further sentences chosen by reading, one per paper
 NONE = _picks.get("none", {})            # works where reading found no sentence that states the code
+RECHECK_FILE = H / "codebook" / "recheck.json"
+RECHECK = {(r["code"], r["paper"]): r for r in (json.loads(RECHECK_FILE.read_text(encoding="utf-8"))["links"]
+                                               if RECHECK_FILE.exists() else [])}  # links checked again against the whole paper
 NO_SENTENCE = "(no sentence in the cited passages states this code; checked by reading)"
 
 # Word limits that keep the coder view short; longer wording is shaded on the Codebook sheet.
@@ -140,13 +143,21 @@ def evidence_for(code: dict) -> list[dict]:
     for e in out:  # reading found nothing that states the code: say so rather than quote off-topic text
         if not e["chosen"] and e["short"] + e["url"] in NONE.get(code["id"], []):
             e["quote"], e["chosen"], e["none"] = None, True, True
+            r = next((RECHECK[(code["id"], p)] for p in code["papers"] if (code["id"], p) in RECHECK
+                      and cite(p)["short"] + cite(p)["url"] == e["short"] + e["url"]), None)
+            if r:  # checked again against the whole paper (recheck.json)
+                e["recheck"] = r["outcome"]
+                if r["outcome"] in ("states it", "leans on it"):
+                    e["quote"] = {"text": repair(r["text"]), "pdf_page": r["pdf_page"], "passage_id": r["sentence_id"]}
+                    e["none"], e["close"] = False, r["outcome"] == "leans on it"
     out.sort(key=lambda e: bool(e.get("none")))  # those rows go last
     return out
 
 
 def chooser(e: dict) -> str:
     """Who chose the sentence; a close match only leans on the code and is flagged."""
-    return ("reading" if e["chosen"] else "fixed code") + ("; close match" if e.get("close") else "")
+    return (("reading" if e["chosen"] else "fixed code") + ("; second check of the whole paper" if e.get("recheck") else "")
+            + ("; close match" if e.get("close") else ""))
 
 
 def state_from_csv() -> dict[str, dict]:

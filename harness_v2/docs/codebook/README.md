@@ -63,23 +63,79 @@ the workbook. It holds codes, our wording and one-sentence quotes from papers;
 no interview text. A private copy is published at
 https://claude.ai/artifact/R234uHoz5waP15ZiwbLipt (share it from its page).
 
-### Short codebook (for coders and co-authors)
+### Codebook document (for readers and reviewers)
 
-`codebook_simple.docx` is the codebook as coders read it: a one-page guide,
-then for each group its question and a table of its core codes (code, code it
-when, made-up example, not when, number of papers that state it), with the
-group's anomaly code last. It is built from the workbook, so it follows every
-edit:
+`codebook_simple.docx` is the codebook as a reader sees it, not a coding guide:
+how it is organised (sub-questions, groups, number of codes), the two levels,
+then for each group a table of its codes numbered by group (2.3 is the third
+code of group 2), each with what it captures (the workbook's Description) and
+the first three papers that state it. Each group's anomaly code comes last.
+Level 2 gives each definition, rival, type and judgment with its rule over the
+numbered level-1 codes. The coders' instructions are on the coding page. It is
+built from the workbook, so it follows every edit:
 
     python codebook_simple.py codebook_review.xlsx codebook_simple.json
     node codebook_simple.js codebook_simple.json codebook_simple.docx
 
-## Codebook trail and definitions
+### Codebook sources
 
-`python trail.py codebook_review.xlsx codebook_trail.html` writes one page that
-shows how the codebook was built: sub-question, group, core code and the paper
-sentences that state each code, plus a By paper view. A code or paper with no
-such sentence is left out. Definitions of serendipity (Busch, Dew, Walpole)
-live in `harness/codebook/definitions.json`: each is a rule over core codes,
-with the papers' own sentences. Coders never tick them; the coding page shows
-which definitions an episode meets and exports one yes/no column per rule.
+`code_sources.html` is one simple table: for each code, its group, its number
+and label, and every paper that states it with the sentence chosen by reading
+and its page. Level-2 items follow with their rules. Links that only come close
+are marked "leans on it":
+
+    python code_sources.py codebook_review.xlsx code_sources.html
+
+### Research question and sub-questions
+
+`questions.docx` gives the research question, its six sub-questions, the groups
+the papers were read for, and the groups coders answer. The wording is in
+`questions.json`:
+
+    node questions.js questions.json questions.docx
+
+### Papers behind the codebook
+
+`paper_list.docx` lists every work the model read for candidate codes, with
+the level-1 codes and level-2 items each supports (numbered as in the codebook
+document) and one line on why it is there (`paper_why.json`), then the works
+read that support none. A link counts only where a sentence chosen by reading
+states the code. It holds references and code labels only:
+
+    python paper_list.py codebook_review.xlsx paper_list.json
+    node paper_list.js paper_list.json paper_list.docx
+    node paper_list.js paper_list.json paper_list_core.docx core
+
+`paper_list_core.docx` lists only the core papers (`harness/codebook/core_papers.json`):
+the smallest set of the works read that states every code, each code by two
+works wherever two state it, with the four works the definitions and types come
+from. For each: its citation, and what it argues and what it gives the codebook under each
+sub-question it serves, named in brackets: the ones where it states two or more codes,
+plus those of the codes it is in the core for. The build checks that the line
+names exactly the sub-questions listed. `paper_list.py` checks on every build that the core papers
+still state every code and prints any code left uncovered.
+
+## Codebook version 1.0: two levels
+
+The codebook was frozen as version 1.0 on 25 October 2026
+(`harness/codebook/codebook_v1.0.json`, written by `python -m serendipity_harness freeze`).
+It has two levels, set in `harness/codebook/levels.json`:
+
+- Level 1 is what coders tick: 36 codes in 8 groups, including a pick-one
+  search-state question, plus one anomaly code per group and ANO-NEW.
+- Level 2 is worked out after coding: three definitions (Busch, Dew, Walpole),
+  two rival explanations (pure luck; targeted search or a plan), four types
+  (after Yaqub 2018), and two judgments the researchers decide.
+
+`levels.py` reads the levels for every page, so the short codebook, coding page
+and trail always agree:
+
+```bash
+python codebook_simple.py codebook_review.xlsx codebook_simple.json
+node codebook_simple.js codebook_simple.json codebook_simple.docx
+python trail.py codebook_review.xlsx codebook_trail.html
+python coding_page.py codebook_review.xlsx SEGMENTS.jsonl OUT.html --case-no 001
+```
+
+The prompts that produce a codebook of this shape from a question,
+sub-questions and papers are in `drafts/prompt_draft2.md`.

@@ -1,4 +1,6 @@
--r harness/requirements.txt
-# codebook tools and figures
-openpyxl>=3.1
-matplotlib>=3.8
+pypdf==6.9.2
+# Needed only for the stages that call a model (toy).
+anthropic==0.86.0
+pydantic>=2
+# Needed by the codebook document tools in harness_v2/docs/codebook.
+openpyxl==3.1.5

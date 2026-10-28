@@ -2,146 +2,164 @@
 
 Usage: python trail.py codebook_review.xlsx codebook_trail.html
 
-Two views of the same records:
-  By sub-question  sub-question > analysis group > core code > the paper
-                   sentences that state the code, with counts of candidate,
-                   drafted and core codes at each level
-  By paper         each paper and, under each sub-question, its sentences and
-                   the codes they support
-Only sentences chosen by reading count as evidence. A paper that reading found
-does not state a code is left out of that code, and a code with no such
-sentence is left out of the codebook. Holds codes, our wording and
-one-sentence quotes from the papers; no interview text.
+Three views of the same records:
+  By sub-question  sub-question > group > level-1 code > the paper sentences
+                   that state it, with counts of candidate, drafted and kept codes
+  Worked out       the level-2 definitions, rival explanations, types and
+                   judgments, each with its rule and the papers behind it
+  By paper         each paper, what it says under each sub-question, and the code
+                   each sentence supports
+Only sentences chosen by reading count as evidence. A paper that does not state a
+code is left out of that code, and a code no paper states is left out of the
+codebook. Holds codes, our wording and one-sentence quotes from the papers; no
+interview text.
 """
 import hashlib
+import json
 import html
 import sys
 from collections import defaultdict
 from datetime import date
+from pathlib import Path
 
-from export import ADDED, DEFINITIONS, GROUPS, MISFIT as ANOMALY
-from workbook import SQTEXT, cite as source, evidence_for, load_draft, state_from_workbook
+from export import ADDED, LEVELS, MISFIT as ANOMALY
+from levels import CORE_PAPERS, SUB_QUESTIONS, level1, numbers, rule_equation, rule_evidence
+from workbook import evidence_for, load_draft, state_from_workbook
 
+# Counts of the works read, from the paper list (paper_list.py runs first).
+READ = json.loads(Path(__file__).with_name("paper_list.json").read_text(encoding="utf-8"))
 MAPPED = defaultdict(int)  # candidates from the papers read later, merged into an existing code
 for m in ADDED.get("maps", []):
     MAPPED[m["code"]] += 1
+KINDS = [("definition", "Definitions of serendipity"), ("rival", "Rival explanations"),
+         ("type", "Type"), ("judgment", "Decided by the researchers")]
+E = html.escape
 
 
 def candidates(code: dict) -> int:
     """Candidate codes merged into this drafted code."""
     return len(code.get("candidate_ids", [])) + MAPPED[code["id"]] + ("candidate_ids" not in code)
 
-E = html.escape
-
 
 def cite(e):
     link = f'<a href="{E(e["url"])}" target="_blank" rel="noopener">{E(e["short"])}</a>' if e["url"] else E(e["short"])
     page = f', p. {e["quote"]["pdf_page"]}' if e["quote"].get("pdf_page") else ""
-    return link + page + f': <q>{E(e["quote"]["text"])}</q>'
+    tags = [t for t, on in (("found on the second check", e.get("recheck")), ("leans on the code", e.get("close"))) if on]
+    return link + page + f': <q>{E(e["quote"]["text"])}</q>' + (f' <span class="p">({"; ".join(tags)})</span>' if tags else "")
 
 
-def definitions(state, papers, by_paper, sq_papers, sq, key) -> str:
-    """The definitions of serendipity, each worked out from the codes it needs, with the papers that state it."""
-    blocks = []
-    for d in DEFINITIONS:
-        ev = []
-        for q in d["evidence"]:
-            e = dict(source(q["passage_id"].split(":")[0]), quote=q)
-            ev.append(e)
-            papers.setdefault(key(e), e)
-            sq_papers.add(key(e))
-            by_paper[key(e)][sq].append((f"Definition: {d['name']}", e))
-        needs = " + ".join(f"<b>{E(state[cid]['Label'])}</b>" + ("" if part.lower() in state[cid]["Label"].lower() else f" ({E(part)})")
-                         for cid, part in d["needs"])
-        blocks.append(f'<details class="code"><summary><b>{E(d["name"])}</b><span class="when">{E(d["in_short"])}: met when {needs} are all coded.</span>'
-                      f'<span class="n">{len({e["short"] for e in ev})} works</span></summary><ol>{"".join(f"<li>{cite(e)}</li>" for e in ev)}</ol></details>')
-    return ('<h3>Definitions <span>Which definitions does the episode meet?</span></h3>'
-            '<p class="flow">Not ticked by coders: worked out from the codes above and below.</p>' + "".join(blocks))
+def item(name, when, ev, unconfirmed=()):
+    n = len({e["short"] for e in ev})
+    checked = (f'<p class="p">Also cited for this code, but no sentence confirmed it on either check: '
+               f'{E("; ".join(dict.fromkeys(e["short"] + (" (text not readable)" if e.get("recheck") == "not readable" else "") for e in unconfirmed)))}.</p>'
+               if unconfirmed else "")
+    return (f'<details class="code"><summary><b>{E(name)}</b><span class="when">{when}</span>'
+            f'<span class="n">{n} work{"s" * (n != 1)}</span></summary>'
+            f'<ol>{"".join(f"<li>{cite(e)}</li>" for e in ev)}</ol>{checked}</details>')
+
+
+def split(entries):
+    """Links a sentence confirmed, and links checked twice without one."""
+    return ([e for e in entries if e["chosen"] and not e.get("none")], [e for e in entries if e.get("none")])
+
+
+def anchor(k):
+    return "p" + hashlib.sha1(k.encode()).hexdigest()[:8]
 
 
 def build(xlsx: str, out: str) -> None:
     state, draft = state_from_workbook(xlsx), load_draft()
-    papers, by_paper = {}, defaultdict(lambda: defaultdict(list))  # paper -> sq -> [(code label, evidence)]
-    dropped = 0
-    sq_order = [sq for sq in dict.fromkeys(sq for _, sq, _ in GROUPS) if sq != "all"]
-    groups_by_sq = defaultdict(list)
-    for name, sq, asks in GROUPS:
-        if sq != "all":
-            groups_by_sq[sq].append((name, asks))
+    label = {c: state[c]["Label"] for c in draft}
+    num = numbers(state, draft)
+    papers, by_paper = {}, defaultdict(lambda: defaultdict(list))  # paper -> section -> [(what it supports, evidence)]
+    links = [e for c in draft if state[c]["Status"] == "core" for e in evidence_for(draft[c])]
+    first = sum(1 for e in links if e["chosen"] and not e.get("none") and not e.get("recheck"))
+    second = sum(1 for e in links if e.get("recheck") in ("states it", "leans on it"))
+    unconfirmed = sum(1 for e in links if e.get("none"))
+    groups = level1(state, draft)
+    sq_order = list(dict.fromkeys(g["sq"] for g in groups))
+    in_level1 = set()
 
-    def key(e):
-        return e["short"] + e["url"]
+    def keep(ev, section, what):
+        for e in ev:
+            k = e["short"] + e["url"]
+            papers.setdefault(k, e)
+            by_paper[k][section].append((what, e))
+        return {e["short"] + e["url"] for e in ev}
 
-    sections, totals = [], defaultdict(int)
+    sections = []
     for sq in sq_order:
-        sq_papers, sq_counts, body = set(), defaultdict(int), []
-        for name, asks in groups_by_sq[sq]:
-            ids = sorted((i for i in draft if draft[i]["group"] == name), key=lambda i: int(i.split("-")[1]))
-            cands = sum(candidates(draft[i]) for i in ids)
+        sq_papers, body = set(), []
+        for g in [g for g in groups if g["sq"] == sq]:
+            drafted = [i for i in draft if draft[i]["group"] in ({"definition", "type"} if g["group"] == "parts" else {g["group"]})]
+            ids = (g["pick_one"]["codes"] if g["pick_one"] else []) + g["codes"]
+            in_level1 |= set(ids)
             rows = []
-            for cid in ids:
-                if state[cid]["Status"] != "core":
-                    continue
-                ev = evidence_for(draft[cid])
-                dropped += sum(1 for e in ev if e.get("none"))
-                ev = [e for e in ev if e["chosen"] and not e.get("none")]
-                if not ev:
-                    continue  # no sentence states it: not in the codebook
-                s = state[cid]
-                for e in ev:
-                    papers.setdefault(key(e), e)
-                    sq_papers.add(key(e))
-                    by_paper[key(e)][sq].append((s["Label"], e))
-                rows.append(
-                    f'<details class="code"><summary><b>{E(s["Label"])}</b>'
-                    f'<span class="when">{E(s["Code it when"])}</span>'
-                    f'<span class="n">{len(ev)} paper{"s" * (len(ev) != 1)}</span></summary>'
-                    f'<ol>{"".join(f"<li>{cite(e)}</li>" for e in ev)}</ol></details>')
-            sq_counts["cands"] += cands
-            sq_counts["drafted"] += len(ids)
-            sq_counts["core"] += len(rows)
-            body.append(f'<h3>{E(name.capitalize())} <span>{E(asks)}</span></h3>'
-                        f'<p class="flow">{cands} candidate codes → {len(ids)} drafted → {len(rows)} core</p>' + "".join(rows))
-            if name == "definition":
-                body.append(definitions(state, papers, by_paper, sq_papers, sq, key))
-        for k, v in sq_counts.items():
-            totals[k] += v
-        chips = ", ".join(f'<a href="#p{hashlib.sha1(k.encode()).hexdigest()[:8]}" class="chip">{E(papers[k]["short"])}</a>'
+            if g["pick_one"]:
+                rows.append(f'<p class="flow"><b>{E(g["pick_one"]["name"])}</b> (pick one): {E(g["pick_one"]["asks"])}</p>')
+            for i, cid in enumerate(ids):
+                if g["pick_one"] and i == len(g["pick_one"]["codes"]):
+                    rows.append('<p class="flow"><b>Then tick each part present</b></p>')
+                ev, nc = split(evidence_for(draft[cid]))
+                sq_papers |= keep(ev, sq, f"{num[cid]} {label[cid]}")
+                rows.append(item(f"{num[cid]} {label[cid]}", E(state[cid]["Code it when"]), ev, nc))
+            body.append(f'<h3>{E(g["name"])} <span>{E(g["asks"])}</span></h3>'
+                        f'<p class="flow">{sum(candidates(draft[i]) for i in drafted)} candidate codes → {len(drafted)} drafted → '
+                        f'{len(ids)} for coders</p>' + "".join(rows))
+        chips = ", ".join(f'<a href="#{anchor(k)}" class="chip">{E(papers[k]["short"])}</a>'
                           for k in sorted(sq_papers, key=lambda k: papers[k]["short"].lower()))
-        sections.append(
-            f'<section><h2>{sq} <span>{E(SQTEXT[sq])}</span></h2>'
-            f'<p class="flow">{len(sq_papers)} papers · {sq_counts["cands"]} candidate codes → '
-            f'{sq_counts["drafted"]} drafted → {sq_counts["core"]} core</p>' + "".join(body) +
-            f'<p class="papers">Papers: {chips}</p></section>')
+        sections.append(f'<section><h2>{sq} <span>{E(SUB_QUESTIONS[sq])}</span></h2>' + "".join(body) +
+                        f'<p class="papers">Papers: {chips}</p></section>')
 
+    level2 = []
+    for kind, title in KINDS:
+        rows = []
+        for k2, r in enumerate([r for r in LEVELS["level2"] if r["kind"] == kind], 1):
+            no = {"definition": "D", "rival": "R", "type": "T", "judgment": "J"}[kind] + str(k2)
+            ev = rule_evidence(r, draft)
+            nc = [e for c in r.get("evidence_from", []) for e in evidence_for(draft[c]) if e.get("none")]
+            keep(ev, "L2", f"{no} {r['name']}")
+            when = (f"{E(r['in_short'])}. Met when: <b>{E(rule_equation(r, label, num))}</b>." if kind != "judgment"
+                    else f"{E(r['in_short'])}. The researchers decide, with a written reason.")
+            rows.append(item(f"{no} {r['name']}", when, ev, nc))
+        level2.append(f'<h3>{E(title)}</h3>' + "".join(rows))
+
+    names = dict(SUB_QUESTIONS, L2="Worked out after coding (level 2)")
     paper_html = []
     for k in sorted(papers, key=lambda k: (-sum(len(v) for v in by_paper[k].values()), papers[k]["short"].lower())):
         e, n = papers[k], sum(len(v) for v in by_paper[k].values())
         parts = []
-        for sq in sq_order:
-            if by_paper[k][sq]:
+        for sec in sq_order + ["L2"]:
+            if by_paper[k][sec]:
                 items = "".join(f'<li><q>{E(ev["quote"]["text"])}</q> <span class="p">p. {ev["quote"].get("pdf_page", "")}</span>'
-                                f' → <b>{E(label)}</b></li>' for label, ev in by_paper[k][sq])
-                parts.append(f'<h4>{sq} {E(SQTEXT[sq])}</h4><ul>{items}</ul>')
+                                f' → <b>{E(what)}</b></li>' for what, ev in by_paper[k][sec])
+                parts.append(f'<h4>{"" if sec == "L2" else sec + " "}{E(names[sec])}</h4><ul>{items}</ul>')
         title = E(e["title"]) + (f", <i>{E(e['venue'])}</i>" if e.get("venue") else "")
-        paper_html.append(f'<details class="code" id="p{hashlib.sha1(k.encode()).hexdigest()[:8]}"><summary><b>{E(e["short"])}</b>'
+        core = ' <span class="core">core paper</span>' if e["short"] in CORE_PAPERS else ""
+        paper_html.append(f'<details class="code" id="{anchor(k)}"><summary><b>{E(e["short"])}</b>{core}'
                           f'<span class="when">{title}</span><span class="n">{n} code{"s" * (n != 1)}</span></summary>'
                           + (f'<p class="flow"><a href="{E(e["url"])}" target="_blank" rel="noopener">{E(e["url"])}</a></p>' if e["url"] else "")
                           + "".join(parts) + "</details>")
 
     anomaly = "".join(f'<tr><td>{E(m["id"])}</td><td>{E(m["label"])}</td><td>{E(m["applies_when"])}</td></tr>'
-                      for m in ANOMALY["codes"])
+                      for m in ANOMALY["codes"] if m["id"] not in ("ANO-TYP", "ANO-RIV"))
+    n_anomaly = anomaly.count("<tr>")
+    cands = sum(candidates(c) for c in draft.values())
     steps = [
-        ("1", "Question", f"1 research question, {len(sq_order)} sub-questions, {sum(len(v) for v in groups_by_sq.values())} analysis groups", "Researchers"),
-        ("2", "Papers", "113 papers and chapters read, each cut into numbered passages", "Researchers choose; fixed code cuts"),
-        ("3", "Candidate codes", f"1,893 proposed, each citing the passages it rests on; {totals['cands']:,} merged into {totals['drafted']} drafts", "Model; fixed code checks every citation"),
-        ("4", "Codebook", f"{totals['core']} core codes, each stated in at least one paper sentence; {len(DEFINITIONS)} definitions worked out from them; {len(ANOMALY['codes'])} anomaly codes", "Researchers"),
+        ("1", "Question", f"1 research question, {len(sq_order)} sub-questions, {len(groups)} groups coders answer", "Researchers"),
+        ("2", "Papers", f"{READ['works']} works read ({READ['read']} files, the chapters of one book counted once); "
+         f"{len(papers)} state a code; the {len(CORE_PAPERS)} core papers state every code", "We choose them; a program splits each into numbered passages"),
+        ("3", "Candidate codes", f"1,893 proposed, each citing the passages it rests on; {cands:,} merged into {len(draft)} drafts", "The model proposes; a program checks every citation"),
+        ("4", "Checking every link", f"{first + second + unconfirmed} code-paper links: {first} confirmed by a cited sentence, "
+         f"{second} more on a second check of the whole paper, {unconfirmed} not confirmed and shown as such", "We read; a program searches each paper"),
+        ("5", "Codebook 1.0", f"{len(in_level1)} codes coders tick and {len(LEVELS['level2'])} worked out after coding, each stated in a paper sentence; {n_anomaly} anomaly codes", "Researchers"),
     ]
     strip = "".join(f'<div class="step"><div class="num">{n}</div><b>{t}</b><p>{d}</p><span>{w}</span></div>' for n, t, d, w in steps)
-    page = PAGE.format(strip=strip, sections="".join(sections), papers="".join(paper_html), npapers=len(papers),
-                       anomaly=anomaly, dropped=dropped, built=date.today().isoformat())
+    page = PAGE.format(strip=strip, sections="".join(sections), level2="".join(level2), papers="".join(paper_html),
+                       npapers=len(papers), anomaly=anomaly, built=date.today().isoformat())
     open(out, "w", encoding="utf-8").write(page)
-    print(f"wrote {out}: {totals['core']} core codes, {len(papers)} papers, {dropped} code-paper pairs dropped")
+    print(f"wrote {out}: {len(in_level1)} level-1 codes, {len(LEVELS['level2'])} level-2 items, {len(papers)} papers, "
+          f"links: {first} confirmed, {second} on second check, {unconfirmed} not confirmed")
 
 
 PAGE = """<!doctype html>
@@ -155,7 +173,7 @@ body{{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-ap
 main{{max-width:980px;margin:0 auto;padding:24px 16px 60px}}
 h1{{font-size:24px;margin:0 0 4px;color:var(--navy)}}
 .lead{{color:var(--soft);margin:0 0 18px}}
-.strip{{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}}
+.strip{{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:18px}}
 .step{{background:var(--tint);border-radius:8px;padding:10px 12px;position:relative}}
 .step .num{{font-size:12px;color:var(--soft)}} .step p{{margin:4px 0;font-size:13.5px}} .step span{{font-size:12px;color:var(--soft);font-style:italic}}
 .rule{{border-left:3px solid var(--navy);padding:6px 12px;margin:0 0 18px;background:var(--tint)}}
@@ -172,7 +190,7 @@ summary{{cursor:pointer;padding:7px 0;display:grid;grid-template-columns:minmax(
 summary .when{{color:var(--soft);font-size:13.5px}} summary .n{{font-size:12.5px;color:var(--soft);white-space:nowrap}}
 ol,ul{{margin:4px 0 10px;padding-left:22px}} li{{margin:5px 0;font-size:14px}}
 q{{quotes:"\\201C" "\\201D"}} .p{{color:var(--soft);font-size:12.5px}}
-a{{color:var(--navy)}} .papers{{font-size:13px;color:var(--soft)}} .chip{{white-space:nowrap}}
+a{{color:var(--navy)}} .papers{{font-size:13px;color:var(--soft)}} .chip{{white-space:nowrap}} .core{{font-size:11px;color:var(--navy);border:1px solid var(--navy);border-radius:8px;padding:0 6px;margin-left:4px}}
 table{{border-collapse:collapse;width:100%;font-size:14px}} td{{border-top:1px solid var(--line);padding:6px 8px;vertical-align:top}}
 td:first-child{{white-space:nowrap;color:var(--soft)}}
 footer{{font-size:12.5px;color:var(--soft);margin-top:30px;border-top:1px solid var(--line);padding-top:10px}}
@@ -180,16 +198,16 @@ footer{{font-size:12.5px;color:var(--soft);margin-top:30px;border-top:1px solid 
 @media (max-width:700px){{.strip{{grid-template-columns:1fr 1fr}} summary{{grid-template-columns:1fr}}}}
 </style></head><body><main>
 <h1>How the codebook was built</h1>
-<p class="lead">Every code comes from the papers. Open a code to read the sentences that state it.</p>
+<p class="lead">Codebook version 1.0. Coders tick level-1 codes; level-2 codes are worked out from them after coding. Every code at both levels comes from the papers: open one to read the sentences that state it.</p>
 <div class="strip">{strip}</div>
-<p class="rule">A code is kept only if a paper states it in a sentence. Where a paper does not, it is left out of that code ({dropped} code-paper pairs).</p>
-<div class="tabs"><button class="on" data-v="sq">By sub-question</button><button data-v="paper">By paper ({npapers})</button><button data-v="ano">When no code fits</button></div>
+<div class="tabs"><button class="on" data-v="sq">Level 1, by sub-question</button><button data-v="l2">Level 2, worked out</button><button data-v="paper">By paper ({npapers})</button><button data-v="ano">When no code fits</button></div>
 <div id="sq">{sections}</div>
+<div id="l2" hidden><p class="flow">Not ticked by coders. A rule is met when the codes it names are ticked, and "without" means a code is not ticked.</p>{level2}</div>
 <div id="paper" hidden><p class="flow">Each paper, what it says under each sub-question, and the code each sentence supports.</p>{papers}</div>
 <div id="ano" hidden><p class="flow">Anomaly codes hold what no core code captures. They have no paper evidence by design: they mark where the literature may be silent.</p><table>{anomaly}</table></div>
 <footer>Page numbers are PDF pages. Drafted codes not kept as core stay in the review workbook (codebook_review.xlsx) with their reasons. Built {built}.</footer>
 </main><script>
-const show=v=>{{for(const id of["sq","paper","ano"])document.getElementById(id).hidden=id!==v;
+const show=v=>{{for(const id of["sq","l2","paper","ano"])document.getElementById(id).hidden=id!==v;
 document.querySelectorAll(".tabs button").forEach(b=>b.classList.toggle("on",b.dataset.v===v))}};
 document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>show(b.dataset.v));
 document.querySelectorAll("a.chip").forEach(a=>a.onclick=ev=>{{ev.preventDefault();show("paper");

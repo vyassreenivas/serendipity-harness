@@ -24,6 +24,7 @@ QUOTED = 5
 # Reading order inside a group where the order carries meaning.
 ORDER = {"definition-09": 1, "definition-07": 2, "definition-13": 3, "definition-04": 4}
 # Years as cited elsewhere in the project (issue year, not online-first year).
+AUTHOR = {"hargadon1997-2239c7": "Hargadon and Sutton", "austin2012-0c5916": "Austin et al"}  # file name gives too few authors
 YEAR = {"Busch": 2024, "Brownell et al": 2024, "Reijonen and Heroum": 2026, "Oo et al": 2025}
 
 GROUPS = [  # sub-question order, as in Stage 1
@@ -44,7 +45,8 @@ GROUPS = [  # sub-question order, as in Stage 1
 PASSAGES = H / "runs" / "20261012-124904" / "passages"
 ADDED = json.loads((H / "codebook" / "added_papers.json").read_text(encoding="utf-8")) \
     if (H / "codebook" / "added_papers.json").exists() else {"maps": [], "new_codes": []}
-DEFINITIONS = json.loads((H / "codebook" / "definitions.json").read_text(encoding="utf-8"))["definitions"]  # worked out from codes
+LEVELS = json.loads((H / "codebook" / "levels.json").read_text(encoding="utf-8"))  # what coders tick; what is worked out
+L2_SOURCES = json.loads((H / "codebook" / "level2_sources.json").read_text(encoding="utf-8"))  # level-2 sources read against each rule
 PASSAGE_DIRS = [PASSAGES] + ([H / "runs" / ADDED["run"] / "passages"] if ADDED.get("run") else [])
 STOP = set("""a an the and or of to in on for with by as at from that this these those is are was were be been being it its
 their they them he she his her we our you your i not no but if then than so such which who whom what when where while also
@@ -284,7 +286,7 @@ def repair(sentence: str) -> str:
 
 def cite(pid: str) -> dict:
     m = META[pid]
-    fa = m["file_author"]
+    fa = AUTHOR.get(pid, m["file_author"])
     year = YEAR.get(fa) or (m.get("year") if m.get("year") and abs(m["year"] - int(m["file_year"][:4])) <= 1 else int(m["file_year"][:4]))
     title = m.get("chapter") and f"{m['chapter']}. In {m['book']}" or m.get("title") or m["file_title"]
     venue = m.get("journal") or m.get("publisher") or ""

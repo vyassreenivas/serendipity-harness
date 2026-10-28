@@ -1,0 +1,48 @@
+{
+ "about": "The harness's steps, written once. The process page (process_page.py) and the process figures (figures.py) are both drawn from this file. who: us (the researchers), model, or program (ordinary code that gives the same output for the same input). check: a point where we decide. status: built, or being rebuilt for codebook version 1.0.",
+ "who": {
+  "us": {"name": "Us", "why": "Research decisions: what to ask, what to read, what enters the codebook, what the findings mean."},
+  "model": {"name": "Model", "why": "Reading for meaning at a scale people cannot. Every output is checked by the program and decided by us."},
+  "program": {"name": "Program", "why": "Work that must come out the same every time: splitting, numbering, copying, checking, counting, applying rules. Free, instant, and anyone can rerun it."}
+ },
+ "phases": [
+  {
+   "id": "build",
+   "name": "Build the codebook",
+   "stage": "Stage 2",
+   "containers": "The groups from Stage 1 are the containers. At the start they are empty; the papers fill them.",
+   "out": "Codebook version 1.0 and the codebook trail",
+   "steps": [
+    {"who": "us", "what": "Write the question, sub-questions and groups (the containers)", "check": true, "files": ["harness_v2/stage1_question/research_question.md"], "record": "The Stage 1 document", "status": "built"},
+    {"who": "us", "what": "Choose the papers, with a reason for each", "check": true, "files": ["harness/question/papers.csv"], "record": "The paper list", "status": "built"},
+    {"who": "program", "what": "Split each paper into numbered passages", "files": ["harness/serendipity_harness/passages.py"], "record": "Passages with fixed numbers", "status": "built"},
+    {"who": "model", "what": "Read each paper whole; put each idea in a container, citing its passages", "files": ["harness/prompts/extract.md", "harness/serendipity_harness/extract.py"], "record": "Candidate codes per paper", "status": "built"},
+    {"who": "program", "what": "Check every cited passage exists; copy the quoted words", "files": ["harness/serendipity_harness/extract.py"], "record": "Check log", "status": "built"},
+    {"who": "model", "what": "Merge ideas that say the same thing, within each container", "files": ["harness/prompts/synthesize.md", "harness/serendipity_harness/synthesize.py"], "record": "Drafted codes; ideas set aside, with reasons", "status": "built"},
+    {"who": "program", "what": "Check that no idea went missing", "files": ["harness/serendipity_harness/synthesize.py"], "record": "Check log", "status": "built"},
+    {"who": "us", "what": "Decide each code: level 1, level 2, reference or reject, with reasons", "check": true, "files": ["harness_v2/docs/codebook/codebook_review.xlsx", "harness/codebook/levels.json"], "record": "The review workbook", "status": "built"},
+    {"who": "program", "what": "Search the whole paper for links no cited sentence confirms", "files": ["harness_v2/docs/codebook/recheck.py"], "record": "Shortlist of closest sentences", "status": "built"},
+    {"who": "model", "what": "Judge each shortlisted link", "files": ["harness_v2/docs/codebook/drafts/prompt_draft2.md"], "record": "harness/codebook/recheck.json", "status": "built"},
+    {"who": "us", "what": "Confirm the judged links", "check": true, "files": ["harness/codebook/recheck.json"], "record": "Confirmed links", "status": "to do"},
+    {"who": "program", "what": "Freeze the codebook, with fingerprints of every input", "files": ["harness/serendipity_harness/freeze.py"], "record": "harness/codebook/codebook_v1.0.json", "status": "built"}
+   ]
+  },
+  {
+   "id": "code",
+   "name": "Code the interviews",
+   "stage": "Stage 3",
+   "containers": "The same groups, now holding the frozen codes. Each tick names its story; what fits no code goes to the anomaly code.",
+   "out": "A coded round, and the next version of the codebook",
+   "steps": [
+    {"who": "program", "what": "Draw the round's 25 interviews by a recorded seed", "files": ["harness/serendipity_harness/coding.py"], "record": "The round's sample", "status": "being rebuilt"},
+    {"who": "program", "what": "Split each interview into numbered segments", "files": ["harness/serendipity_harness/transcripts.py"], "record": "Segments with fixed numbers", "status": "built"},
+    {"who": "model", "what": "Code the whole interview: reason, then tick each code under its story, citing segments", "files": ["harness/prompts/coder.md", "harness/prompts/coder_tasks/", "harness/serendipity_harness/model_coding.py"], "record": "The model's coding file, every reason, and what the checks removed", "status": "built"},
+    {"who": "us", "what": "Code the same interviews on the coding page", "check": true, "files": ["harness_v2/docs/codebook/coding_page.py"], "record": "Our coding files", "status": "built"},
+    {"who": "program", "what": "Check codes and segments; work out level 2 by rule", "files": ["harness_v2/docs/codebook/levels.py", "harness/codebook/levels.json"], "record": "Definitions, rivals and types per story", "status": "built"},
+    {"who": "program", "what": "Compare coders; count agreement and anomalies", "files": ["harness/serendipity_harness/compare.py"], "record": "Agreement report, near misses, code use (comparison/)", "status": "built; tested on made-up researcher coding"},
+    {"who": "us", "what": "Review the round; group anomalies into themes", "check": true, "files": ["harness/serendipity_harness/anomaly_log.py"], "record": "Anomaly log (harness/codebook/anomaly_log.json)", "status": "built; round 1 themes drafted"},
+    {"who": "us", "what": "Read papers for recurring themes; write next codebook", "check": true, "files": ["harness/serendipity_harness/anomaly_log.py", "harness/serendipity_harness/progression.py"], "record": "Searches and papers kept in the anomaly log; codebook_v<next>.json; progression page", "status": "built; v2 to do"}
+   ]
+  }
+ ]
+}

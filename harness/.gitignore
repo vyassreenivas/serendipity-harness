@@ -1,0 +1,17 @@
+# Run folders stay local. Outputs chosen for publication are copied out deliberately.
+runs/
+# Full page text and passages are copies of copyrighted papers: keep local.
+runs/*/pages/
+runs/*/passages/
+# Interview text is proprietary (Starter Story): keep local.
+runs/*/segments/
+runs/*/kit/reading/
+# Saved model calls contain interview text or outlines derived from it.
+runs/*/calls/
+runs/*/private/
+# Model coding notes paraphrase interview text.
+runs/*/model_coding/
+cache/
+__pycache__/
+.venv/
+.DS_Store

@@ -19,6 +19,8 @@ Every command starts a new run folder.
   kit          write reading copies, the core-code list and blank worksheets
                for the human coders
   compare      report agreement between the completed worksheets in coding/
+               (old episode worksheets; for codebook 1.0 rounds use
+               python -m serendipity_harness.compare ROUND_DIR)
   code         the model codes interviews on the same worksheet
                (calls an AI model; costs money)
   all          papers and transcripts

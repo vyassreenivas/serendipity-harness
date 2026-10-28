@@ -1,0 +1,759 @@
+{
+ "RIV-LUCK": {
+  "name": "Pure luck",
+  "rows": [
+   [
+    "Busch (2024)",
+    "Luck (‘good things that happen to you by chance, not because of your own efforts or abilities’; Oxford Dictionary , 2021), in …",
+    "keep",
+    "Defines luck as value and surprise without agency: the rule itself.",
+    "busch2023-0bee54:p029:03"
+   ],
+   [
+    "Merton and Barber (2004)",
+    "Chute calls sortes Walpolianae,” for, whether sortes is translated as “luck” or “fate,” it lacks the mixture of those two ingredients that …",
+    "keep",
+    "Luck lacks the sagacity that serendipity needs.",
+    "merton2004-2ebdb7:p008:01"
+   ],
+   [
+    "Copeland et al. (2023)",
+    "Although serendipity is often seen as a result of good luck, research, including this book, has shown that it is not entirely …",
+    "keep (distinction only)",
+    "Says serendipity is not only luck, without giving luck's conditions.",
+    "copeland2023-f96149:p237:01"
+   ],
+   [
+    "Adegbesan (2009)",
+    "Extant SFM theory (Barney, 1986; Makadok & Barney, 2001) holds that firms cannot appropriate gains from the deployment of valuable resources unless …",
+    "drop",
+    "About firms' returns in resource markets, not founders' events.",
+    "adegbesan2009-ec3cd9:p002:02:s2"
+   ],
+   [
+    "de Rond (2014)",
+    "As for the first of these, the paucity of empirical research may be explained, at least partly, by an incorrect use of …",
+    "keep (distinction only)",
+    "Warns against treating serendipity as luck, without giving luck's conditions.",
+    "derond2014-e6da07:p012:01"
+   ],
+   [
+    "Kirzner (1997)",
+    "Neither is it simply the fortuitous outcome of a stroke of wholly undeserved luck.",
+    "keep",
+    "Discovery is not the outcome of undeserved luck.",
+    "kirzner1997-178322:p017:03"
+   ],
+   [
+    "Mirvahedi and Morrish (2017)",
+    "Therefore, finding something that occurs by accident and pure chance is not serendipity, because it needs mental capacity to recognise unusual things, …",
+    "keep",
+    "Pure chance is not serendipity because it lacks recognition.",
+    "mirvahedi2017-ff1fb5:p003:03"
+   ],
+   [
+    "Balzano (2022)",
+    "The concept of serendipity has clear boundaries, meaning it is different from ambiguity (Brown, 2006 ), providence ( de Rond, 2014 ), …",
+    "keep (distinction only)",
+    "Lists chance and randomness as outside serendipity's boundary.",
+    "balzano2022-f16721:p007:01"
+   ],
+   [
+    "Busch and Barkema (2020)",
+    "Prior research in entrepreneurship and management has interpreted serendipity or “luck” as uncontrollable error or uncertainty that needs to be reduced (Brown, …",
+    "drop",
+    "Only leans on it: describes how others treat luck as error.",
+    "busch2020-10a2b8:p025:01:s1"
+   ],
+   [
+    "Dew (2009)",
+    "For the purposes of this paper, I shall define pure luck as some kind of favorable contingency or chance happening (i.e. an …",
+    "keep",
+    "Defines pure luck as a favourable event beyond the founder's control.",
+    "dew2009-37796f:p009:01"
+   ],
+   [
+    "Engel et al. (2017)",
+    "Literature on social networks also discusses serendipitous networks as opposed to goal-directed networks ( Kilduff and Tsai, 2003 ), yet for these …",
+    "drop",
+    "About randomness in network structure, not luck as a rival.",
+    "engel2017-29f9c4:p014:04"
+   ],
+   [
+    "Fultz and Hmieleski (2021)",
+    "Following prior research, agency is included in our definition of serendipity to clarify that it is an outcome that results partly from …",
+    "keep",
+    "Includes agency to separate serendipity from pure luck.",
+    "fultz2021-39e22e:p003:06"
+   ],
+   [
+    "Fultz and Hmieleski (2025)",
+    "First, whereas luck is purely random, serendipity involves agency—serendipitous discoveries often emerge, at least in part, from purposeful effort.",
+    "keep",
+    "Luck is random; serendipity involves agency.",
+    "fultz2025-202492:p006:01"
+   ],
+   [
+    "Klyver et al. (2025)",
+    "In contrast to pure luck, Busch (2024) argues that in addition to the necessary conditions of surprise and value forming luck, respectively, …",
+    "keep",
+    "Restates Busch: luck is surprise and value; agency is the third condition.",
+    "klyver2025-7a51e3:p003:01"
+   ],
+   [
+    "McFarlane and Carter (2016)",
+    "Dew (2009) however argues that serendipity is not luck but rather relies on prior knowledge.",
+    "keep",
+    "Serendipity is not luck but relies on prior knowledge.",
+    "mcfarlane2016-385256:p002:01"
+   ],
+   [
+    "Smith and Hilbolling (2025)",
+    "These authors argue that serendipity and the discoveries it yields are more than just random strokes of luck; rather, they are the …",
+    "keep",
+    "Serendipity is more than random luck: chance plus effort.",
+    "smith2025-07dc7b:p003:01"
+   ],
+   [
+    "Oo et al. (2025)",
+    "These authors argue that consumers penalize serendipitous inventions via a ‘‘just world’’ perspective, assigning situational attributions of luck or chance to such …",
+    "drop",
+    "About how consumers attribute luck to products.",
+    "oo2025-0f6dbd:p006:03"
+   ],
+   [
+    "Felin et al. (2021)",
+    "That said, a persuasive alternative to any explanation of effective resource search — including ours —is simply luck or serendipity (Alchian, 1950; …",
+    "drop",
+    "Treats luck and serendipity as the same alternative explanation.",
+    "felin2021-6b1db3:p015:03"
+   ],
+   [
+    "Reinsberger et al. (2026)",
+    "Unlike pure luck, which is mostly passive, serendipity requires human effort and preparedness ( Garud et al., 2011 ; Austin et al., …",
+    "keep",
+    "Pure luck is passive; serendipity needs effort.",
+    "reinsberger2025-20b5e3:p005:05"
+   ]
+  ],
+  "add": []
+ },
+ "RIV-TARGETED": {
+  "name": "Targeted search or a plan",
+  "rows": [
+   [
+    "Fultz and Hmieleski (2025)",
+    "Systematic search refers to goal-directed exploration aimed at solving known problems, requiring deliberate planning and resource allocation (Fiet & Patel, 2008).",
+    "keep",
+    "Defines systematic search as goal-directed and planned.",
+    "fultz2025-202492:p002:03"
+   ],
+   [
+    "Bhave (1994)",
+    "The decision to start was therefore followed by a search to align the prospective entrepreneurs’ knowledge, experience, skills and other resources with …",
+    "keep",
+    "A founding path driven by deliberate search after the decision to start.",
+    "bhave1994-e578fb:p007:01:s6"
+   ],
+   [
+    "Felin et al. (2021)",
+    "But, in all, better environmental representations allow firms to see and search more efficiently, thus identifying resources and value.",
+    "drop",
+    "About searching more efficiently in general, not as an alternative to chance.",
+    "felin2021-6b1db3:p005:02"
+   ],
+   [
+    "Kirzner (1997)",
+    "An opportunity for pure profit cannot, by its nature, be the object of systematic search.",
+    "keep",
+    "Contrasts discovery with systematic search.",
+    "kirzner1997-178322:p013:03"
+   ],
+   [
+    "McFarlane and Carter (2016)",
+    "Thus , while the literature suggests that entrepreneurial opportunities are more likely to be the result of a systematic search (Shane and …",
+    "keep",
+    "Contrasts systematic search with fortuitous discovery.",
+    "mcfarlane2016-385256:p001:02"
+   ],
+   [
+    "Meyer and Skak (2002)",
+    "Active search has been reported more frequently for first entries than for subsequent entries, while initiative from local businesses motivated subsequent entries …",
+    "keep",
+    "Active search versus chance initiative in market entry.",
+    "meyer2002-3a4528:p008:01"
+   ],
+   [
+    "Reinsberger et al. (2026)",
+    "In contrast, our findings suggest that NSP formation can also result from deliberate and structured search behavior.",
+    "keep",
+    "Opportunities from deliberate, structured search.",
+    "reinsberger2025-20b5e3:p023:02"
+   ],
+   [
+    "Alvarez and Barney (2007)",
+    "Also, this emphasis on exogenous shocks forming opportunities suggests that discovery theory is predominantly about search – systematically scanning the environment to …",
+    "keep",
+    "Discovery theory as systematic scanning for opportunities.",
+    "alvarez2007-c77d51:p003:02"
+   ],
+   [
+    "Andel (1994)",
+    "Several studies indicate that commercially successful innovations for example are for about eighty percent answers to an already pre-existing and known problem, …",
+    "keep",
+    "Most innovations answer a known problem, unlike the unsought finding.",
+    "andel1994-c1365e:p014:03"
+   ],
+   [
+    "Busch (2024)",
+    "The innovation process often starts with a problem that has been identified or formulated for solving, and then involves a structured search …",
+    "keep",
+    "Innovation as structured search for a known problem; the contrast for this rival.",
+    "busch2023-0bee54:p029:02"
+   ],
+   [
+    "Busch and Grimes (2023)",
+    "This focus is undergirded by the premises that individuals and organisations are able to anticipate possible outcomes a priori, and that activities …",
+    "keep",
+    "Strategy built on anticipating outcomes and stable objectives.",
+    "busch2023-8da56d:p002:01"
+   ],
+   [
+    "Copeland et al. (2023)",
+    "Problem-solving, then, is about linking a specific point on the problem landscape with a point on the solution landscape.",
+    "drop",
+    "Only leans on it: a general statement about problem-solving.",
+    "copeland2023-f96149:p092:03:s2"
+   ],
+   [
+    "Dew (2009)",
+    "This overlap between the domain of search and the domain of prior knowledge is captured in Figure 1 as the space where …",
+    "keep",
+    "Discovery by systematic exploration of known corridors.",
+    "dew2009-37796f:p006:03"
+   ],
+   [
+    "Fultz and Hmieleski (2021)",
+    "Opportunity identification and exploitation are often seen as the outcome of systematic search and experimentation ( March, 1991 ; Patel and Fiet, …",
+    "keep",
+    "Opportunities as the outcome of systematic search.",
+    "fultz2021-39e22e:p002:02"
+   ],
+   [
+    "Mirvahedi and Morrish (2017)",
+    "It is related to deliberate search and exploring solutions.",
+    "drop",
+    "The sentence's subject is unclear out of context.",
+    "mirvahedi2017-ff1fb5:p002:02"
+   ],
+   [
+    "Nair et al. (2020)",
+    "Systematic exploration happens when a potential entrepreneur actively searches for an invention, or an inventor actively seeks innovation possibilities.",
+    "keep",
+    "Systematic exploration as active search.",
+    "nair2020-d1b976:p021:02"
+   ],
+   [
+    "Vogel (2017)",
+    "While some scholars have discussed this general approach in the field of entrepreneurship (e.g., DeTienne & Chandler, 2004; Marvel, 2013), intentional idea …",
+    "keep",
+    "Intentional idea generation.",
+    "vogel2017-d8e6ae:p009:03"
+   ],
+   [
+    "Grimes (2018)",
+    "I need to start looking at these ideas as hypotheses that need testing, and then figure out what works and what doesn’t.",
+    "drop",
+    "About testing ideas as hypotheses, not planned search without surprise.",
+    "grimes2018-91eafb:p014:04"
+   ],
+   [
+    "von Hippel and von Krogh (2016)",
+    "Indeed, one might argue that the conventional procedure of exhaustive search of a well-defined solution landscape to solve a prespecified problem will …",
+    "keep",
+    "Exhaustive search of a known solution space.",
+    "vonhippel2016-a67f44:p009:02"
+   ],
+   [
+    "Wareham et al. (2022)",
+    "In contrast to this more burst-like emergence of an idea, there were also answers from teams reporting that their starting point was …",
+    "keep",
+    "Projects that were a methodical effort on an identified need.",
+    "wareham2022-c310ad:p009:02"
+   ],
+   [
+    "Mintzberg and Waters (1985)",
+    "In this first type, called planned strategy, leaders at the centre of authority formulate their intentions as precisely as possible and then …",
+    "keep",
+    "Planned strategy carried out \"surprise-free\".",
+    "mintzberg1985-df70c8:p004:02"
+   ],
+   [
+    "Balzano (2022)",
+    "This perspective received criticism from Felin and Zenger (2016) ,who discussed the primacy of normative theories in problem-solving practices, raising a counterpoint …",
+    "drop",
+    "Reports a critique of serendipity, not a planned path.",
+    "balzano2022-f16721:p008:02"
+   ],
+   [
+    "Mintzberg and McHugh (1985)",
+    "Moreover, in one of the rare instances of the realization of explicit managerial intentions (outlined in the 1966 NFB Annual Report), a …",
+    "keep",
+    "An explicit intention carried out as planned.",
+    "mintzberg1985-9d4ec0:p027:02"
+   ],
+   [
+    "Baker et al. (2003)",
+    "Start-up intentions and gestation typically lead to the creation of a plan—even if only in the minds of the founders ( Thurston, …",
+    "keep",
+    "Founders execute against a start-up plan.",
+    "baker2003-8b6743:p002:02"
+   ],
+   [
+    "Cunha et al. (2015)",
+    "Analytical explanations focus on plans and preparation and emphasize the relentless pursuit of competitive advantages by Honda in the domains of technology, …",
+    "keep",
+    "Explanations that credit plans and preparation.",
+    "cunha2015-c88a52:p005:06"
+   ],
+   [
+    "Garud and Karnøe (2003)",
+    "There was no overly rational, pre-planned approach driving the process ( March, 1994, 1999 ).",
+    "drop",
+    "Says there was no plan: the opposite of this rival.",
+    "garud2003-926111:p019:03"
+   ],
+   [
+    "Brown (2005)",
+    "Our meticulous models, rigorous frameworks and primordial principles are predicated on analysis, planning and control, as are our courses, textbooks and degree …",
+    "drop",
+    "About marketing's faith in planning in general.",
+    "brown2005-1bf985:p002:03"
+   ],
+   [
+    "Cohen et al. (1972)",
+    "The process occurs precisely when the preconditions of more normal rational models are not met.",
+    "drop",
+    "About when rational models fail: the opposite of this rival.",
+    "cohen1972-f377b5:p017:03"
+   ],
+   [
+    "de Rond and Thietart (2007)",
+    "Clearly, choice alone is not sufficient to account for strategy formation (Conjecture 3).",
+    "drop",
+    "Only leans on it: choice alone does not explain strategy.",
+    "derond2007-89268a:p014:01:s7"
+   ],
+   [
+    "Krumboltz (1998)",
+    "Because Parsons's (1909) theory makes occupational choice such a rational and reasonable process, there is no room for chance or unplanned events.",
+    "keep (distinction only)",
+    "A rational choice model with no room for chance, in careers.",
+    "krumboltz1998-d53ff4:p002:02"
+   ],
+   [
+    "Van Lent et al. (2022)",
+    "The assumption of reasoned intentionality has the effect of imposing an ex ante teleology on entrepreneurial behavior, wherein entrepreneurs are presumed to …",
+    "keep",
+    "Entrepreneurs presumed to plan and control each phase.",
+    "vanlent2023-afed1a:p003:04"
+   ],
+   [
+    "Garud et al. (2011)",
+    "When Paul Guehler, a 3M vice president, was charged with breathing fresh life into the struggling division during the early 1990s, he …",
+    "keep",
+    "Managers carefully assessed markets before acting.",
+    "garud2011-65d6ed:p016:06"
+   ]
+  ],
+  "add": []
+ },
+ "TYP-MERTON": {
+  "name": "Mertonian: sought, found unexpectedly",
+  "rows": [
+   [
+    "Yaqub (2018)",
+    "Thus, I distinguish Mertonian serendipity where the discovery may lead to the solution of a given problem via an unexpected route, as …",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "yaqub2018-fd9c19:p003:01"
+   ],
+   [
+    "Merton and Barber (2004)",
+    "What was unexpected was the “how” or “when” of the discovery, not the “what,” the object of discovery itself.",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "merton2004-2c6f10:p018:02"
+   ],
+   [
+    "Mirvahedi and Morrish (2017)",
+    "Put simply, Archimedean serendipity applies to a situation where one islooking for something, and they accidentallyfind it.",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "mirvahedi2017-ff1fb5:p005:01"
+   ],
+   [
+    "Busch and Grimes (2023)",
+    "A search for a solution to a known problem is under way, but the solution comes from an entirely unexpected place.",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "busch2023-8da56d:p003:02"
+   ],
+   [
+    "de Rond (2014)",
+    "When it came to the discovery of PCR and DNA, those involved found what it was they were looking for but by …",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "derond2014-e6da07:p011:02"
+   ],
+   [
+    "Fultz and Hmieleski (2021)",
+    "When we solve a particular problem, the solution is often unexpected.",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "fultz2021-39e22e:p014:02"
+   ],
+   [
+    "Liu and de Rond (2016)",
+    "When it came to the Nobel prize winning discoveries of PCR and DNA, Mullis and Francis and Crick, respectively, found what they …",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "liu2016-734969:p026:03"
+   ],
+   [
+    "Oo et al. (2025)",
+    "Second, a serendipitous invention can either be an unexpected solution to a given problem at hand (Mertonian serendipity) or to a problem …",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "oo2025-0f6dbd:p005:03"
+   ],
+   [
+    "Copeland et al. (2023)",
+    "A search for a solution to a known problem is under way, but the solution comes from an entirely unexpected place.",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "copeland2023-f96149:p085:02"
+   ],
+   [
+    "Pease et al. (2013)",
+    "The discovery may be an example of a sought finding (classified by Roberts as pseudoserendipity (Roberts 1989, p. x)), in which case …",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "pease2013-ef46e2:p003:01"
+   ],
+   [
+    "von Hippel and von Krogh (2016)",
+    "Sometimes, as researchers have found, a serendipitous event triggers a new solution approach to a formulated problem already being worked upon, and …",
+    "keep",
+    "Names or describes finding what was sought by an unexpected route.",
+    "vonhippel2016-a67f44:p011:03"
+   ]
+  ],
+  "add": []
+ },
+ "TYP-WALPOLE": {
+  "name": "Walpolian: sought one, found another",
+  "rows": [
+   [
+    "Yaqub (2018)",
+    "This forms the basis of our first type – Walpolian serendipity – discovery of things which the discoverers were not in search …",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "yaqub2018-fd9c19:p002:06"
+   ],
+   [
+    "Merton and Barber (2004)",
+    "Gift for finding one thing when looking for another.",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "merton2004-3372c0:p016:01"
+   ],
+   [
+    "Mirvahedi and Morrish (2017)",
+    "Columbian serendipity involves finding an opportunity when you are looking for some other specified opportunity.",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "mirvahedi2017-ff1fb5:p010:01"
+   ],
+   [
+    "Kirtley and O'Mahony (2023)",
+    "For example, in 2012, Ohm added a new product to their strategy after identifying an opportunity trigger: An internal development project revealed …",
+    "drop",
+    "Only leans on it: a project revealing a new product, not the type.",
+    "kirtley2023-e70eaa:p018:01"
+   ],
+   [
+    "de Rond (2014)",
+    "By contrast, in the discoveries of sildenafil citrate and penicillin, scientists discovered something different from what they were looking for.",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "derond2014-e6da07:p011:02"
+   ],
+   [
+    "Fultz and Hmieleski (2021)",
+    "As we seek to solve one problem, we often discover the solution to a completely different problem.",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "fultz2021-39e22e:p014:02"
+   ],
+   [
+    "Fultz and Hmieleski (2025)",
+    "All serendipity arises in part from purposeful action, yet prior studies distinguish between serendipity that emerges from the deliberate search for specific …",
+    "drop",
+    "About search versus day-to-day serendipity in general, not this type.",
+    "fultz2025-202492:p006:03"
+   ],
+   [
+    "Liu and de Rond (2016)",
+    "A first distinction is that between “true” and “pseudo” serendipity, where one seeks A but finds B, and where B is ultimately …",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "liu2016-734969:p026:02"
+   ],
+   [
+    "Oo et al. (2025)",
+    "Second, a serendipitous invention can either be an unexpected solution to a given problem at hand (Mertonian serendipity) or to a problem …",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "oo2025-0f6dbd:p005:03"
+   ],
+   [
+    "Busch and Grimes (2023)",
+    "A search for a solution to a known problem is underway, but in the process the social actor stumbles across a solution …",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "busch2023-8da56d:p003:02"
+   ],
+   [
+    "Copeland et al. (2023)",
+    "A search for a solution to a known problem is underway, but in the process the social actor stumbles across a solution …",
+    "keep",
+    "Names or describes finding one thing while seeking another.",
+    "copeland2023-f96149:p085:02"
+   ]
+  ],
+  "add": []
+ },
+ "TYP-BUSH": {
+  "name": "Bushian: exploring, met an existing need",
+  "rows": [
+   [
+    "Yaqub (2018)",
+    "The defining feature of this Bushian type is that the discovery leads to a not sought-for solution because the research was un-targeted, …",
+    "keep",
+    "Untargeted activity that meets an existing need.",
+    "yaqub2018-fd9c19:p003:03"
+   ],
+   [
+    "Fultz and Hmieleski (2025)",
+    "We often try out new things without a specific problem in mind and end up solving a pre-existing problem",
+    "keep",
+    "Untargeted activity that meets an existing need.",
+    "fultz2025-202492:p026:01"
+   ]
+  ],
+  "add": []
+ },
+ "TYP-STEPHAN": {
+  "name": "Stephanian: solution first, problem later",
+  "rows": [
+   [
+    "Yaqub (2018)",
+    "Within un-targeted research, I believe there is another type of serendipity, whose defining feature is when un-targeted research comes upon a new …",
+    "keep",
+    "The solution comes before the problem.",
+    "yaqub2018-fd9c19:p003:05"
+   ],
+   [
+    "Balzano (2022)",
+    "Here, problem identification occurs after solution identification (i.e. once a serendipitous discovery occurs).",
+    "keep",
+    "The solution comes before the problem.",
+    "balzano2022-f16721:p008:02"
+   ],
+   [
+    "Fultz and Hmieleski (2025)",
+    "We often discover solutions before we discover the problems they solve",
+    "keep",
+    "The solution comes before the problem.",
+    "fultz2025-202492:p026:02"
+   ],
+   [
+    "Nair et al. (2020)",
+    "An individual might be unaware of the potential commercialization of their invention, and so store it for potential future use (Garud & …",
+    "keep (close)",
+    "An invention stored until a use appears; close to this type.",
+    "nair2020-d1b976:p022:01"
+   ]
+  ],
+  "add": []
+ },
+ "JDG-PLANNED": {
+  "name": "Told as if planned",
+  "rows": [
+   [
+    "de Rond and Thietart (2007)",
+    "Consistent with Berlin, the historian Carr wrote that history entails the lining up of events in an orderly sequence of cause and …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "derond2007-89268a:p008:04"
+   ],
+   [
+    "Merton and Barber (2004)",
+    "Some scientists seem to have been aware of the fact that the elegance and parsimony prescribed for the presentation of the results …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "merton2004-6e601e:p003:01"
+   ],
+   [
+    "Van Lent et al. (2022)",
+    "Post hoc perspectives of venture creation typically involve high “narrativity,” characterized by structured, linear, teleological sense-making that tends to omit unreasoned and …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "vanlent2023-afed1a:p001:02"
+   ],
+   [
+    "Andel (1994)",
+    "Scientists then report their results as following directly and logically from their initial hypothesis, omitting possibly crucial (pseudo)serendipitous events.",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "andel1994-c1365e:p016:01"
+   ],
+   [
+    "Busch (2024)",
+    "Also, managers may be reluctant to admit serendipity , preferring to credit their deliberate strategies rather than ‘luck.’",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "busch2023-0bee54:p012:02"
+   ],
+   [
+    "Cunha et al. (2010)",
+    "As explained byMeyers (2007), many valuable discoveries made serendipitously are even the object of retrospective falsification in order to appear as if …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "cunha2010-5a18d7:p008:03"
+   ],
+   [
+    "Yaqub (2018)",
+    "Medawar and Feynman highlight how the standard format of an orthodox paper plays a role in suppressing much that is interesting in …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "yaqub2018-fd9c19:p009:03"
+   ],
+   [
+    "Busch and Grimes (2023)",
+    "Grimes of control, social actors are thus likely to not only minimize the role of serendipity in the past, despite evidence, but …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "busch2023-8da56d:p006:01"
+   ],
+   [
+    "Copeland et al. (2023)",
+    "Grimes of control, social actors are thus likely to not only minimize the role of serendipity in the past, despite evidence, but …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "copeland2023-f96149:p088:01"
+   ],
+   [
+    "Mintzberg and McHugh (1985)",
+    "Perhaps more germane is Pascale's (1984) vivid account of how Honda actually developed its strategies for the American motorcycle market, as opposed …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "mintzberg1985-9d4ec0:p036:01"
+   ],
+   [
+    "Rosenman (1988)",
+    "When interviewersused tape recorders and asked certain structured questions about the work environment (Amabile & Gryskiewicz, 1987), scientists tended to overlook or …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "rosenman1988-26b8e4:p005:01"
+   ],
+   [
+    "Sarasvathy (2001)",
+    "Unsettled, emergent, contingent living forward contrasts sharply with our backward - oriented theoretical propositions that depict that living as settled, causally connected, …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "sarasvathy2001-f6e40d:p014:05"
+   ],
+   [
+    "Vogel (2017)",
+    "However, this is much less prevalent in the literature, most likely as a result of the retrospective bias that might largely affect …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "vogel2017-d8e6ae:p017:02"
+   ],
+   [
+    "Oo et al. (2025)",
+    "While the significant contribution of serendipity to innovation is well-established through historical instances (e.g., Fink et al., 2017), the stories of serendipitous …",
+    "drop",
+    "About stories staying hidden until success, not retelling as planned.",
+    "oo2025-0f6dbd:p002:01"
+   ],
+   [
+    "Garud et al. (2011)",
+    "In sum, the innovation journeys clearly were not linear, although they may appear so when viewed retrospectively or when interpreted through popular …",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "garud2011-65d6ed:p020:07"
+   ],
+   [
+    "Sarasvathy (2008)",
+    "Therefore, studies based on their stories after the fact may be subject to retrospective bias.",
+    "keep",
+    "Accounts told afterwards that make chance look planned.",
+    "sarasvathy2008-b3d5c9:p018:02"
+   ]
+  ],
+  "add": []
+ },
+ "JDG-MEANS": {
+  "name": "Working with what's at hand",
+  "rows": [
+   [
+    "Reijonen and Heroum (2026)",
+    "In contrast, effectuation begins with existing means and resources and subsequently searches for problems that can be addressed using those means (Busch …",
+    "keep",
+    "Starting from means at hand rather than a surprise.",
+    "reijonen2023-36e677:p005:03"
+   ],
+   [
+    "Cunha et al. (2010)",
+    "In terms of materiality bricolage makes do with the materials at hand; creativity seeks to represent them in new ways; improvisation rings …",
+    "keep",
+    "Starting from means at hand rather than a surprise.",
+    "cunha2010-5a18d7:p005:04"
+   ],
+   [
+    "Carayannis et al. (2011)",
+    "Baker and Nelson have described entrepreneurial action as bricolage, or “making do by applying combinations of the resources at hand to new …",
+    "keep",
+    "Starting from means at hand rather than a surprise.",
+    "carayannis2011-81b76b:p002:03:s6"
+   ],
+   [
+    "Busch and Grimes (2023)",
+    "They can also be contrasted against “garbage-can” models of decisionmaking or effectual models of innovation in which the actor starts with existing …",
+    "keep",
+    "Starting from means at hand rather than a surprise.",
+    "busch2023-8da56d:p004:02"
+   ],
+   [
+    "Van Lent et al. (2022)",
+    "It views entrepreneurs as following a logic of control that helps them overcome the problem of predicting the future by instead considering …",
+    "keep",
+    "Starting from means at hand rather than a surprise.",
+    "vanlent2023-afed1a:p004:02"
+   ]
+  ],
+  "add": [
+   [
+    "Baker and Nelson (2005)",
+    "Bricolage: making do with resources at hand (already held as evidence for 7.4)."
+   ],
+   [
+    "Sarasvathy (2001)",
+    "Effectuation: experimenting with limited, given means (already held as evidence for 7.2)."
+   ]
+  ]
+ }
+}

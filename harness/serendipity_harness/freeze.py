@@ -16,6 +16,10 @@ Papers read after the draft are recorded in harness/codebook/added_papers.json:
 their candidates add papers and passages to the draft codes they match, and their
 new codes join the draft. The review sheet covers those codes too.
 
+The frozen codebook also holds the two levels (codebook/levels.json: what coders
+tick, and what is worked out after coding) and the anomaly codes, with the
+fingerprints of those files and of the evidence choices (evidence_picks.json).
+
 This stage refuses to write a codebook while any code is undecided, and never
 overwrites a version that already exists.
 """
@@ -27,6 +31,7 @@ from .runlog import HARNESS, Run, sha256
 CODEBOOK_DIR = HARNESS / "codebook"
 WORDING = ["label", "definition", "applies_when", "does_not_apply_when"]
 DECISIONS = {"accept", "revise", "reject"}
+EXTRA = [CODEBOOK_DIR / n for n in ("levels.json", "anomaly_codes.json", "evidence_picks.json")]
 
 
 def with_added_papers(draft: dict) -> dict:
@@ -105,10 +110,14 @@ def build(run: Run) -> dict:
                 "question": draft["question"], "groups": draft["groups"],
                 "built_from": {"draft": draft["version"], "draft_sha256": sha256(draft_path),
                                "added_papers_sha256": draft.get("added_papers_sha256", ""),
-                               "review_sha256": sha256(review_path)},
+                               "review_sha256": sha256(review_path),
+                               **{f"{f.stem}_sha256": sha256(f) for f in EXTRA if f.exists()}},
+                "levels": json.loads((CODEBOOK_DIR / "levels.json").read_text(encoding="utf-8")),
+                "anomaly_codes": json.loads((CODEBOOK_DIR / "anomaly_codes.json").read_text(encoding="utf-8"))["codes"],
                 "codes": codes, "rejected": rejected}
     out.write_text(json.dumps(codebook, ensure_ascii=False, indent=1), encoding="utf-8")
     summary = {"version": cfg["version"], "codes": len(codes),
+               "level2": len(codebook["levels"]["level2"]),
                "core": sum(c["core"] for c in codes),
                "revised": sum(c["status"] == "revised" for c in codes),
                "rejected": len(rejected), "file": out.name}

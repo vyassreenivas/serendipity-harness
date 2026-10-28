@@ -6,7 +6,7 @@
 <title>Coding page</title>
 <style>
 /* Layout: codebook on the left (what to look for), interview on the right (where it is),
-   with the episode being coded pinned above the interview. */
+   with the story being coded pinned above the interview. */
 :root {
   --paper: #f5f7f6; --sheet: #ffffff; --ink: #1b2326; --muted: #5b686b; --rule: #d8dfdd;
   --accent: #1f5c6b; --accent-soft: #e2eef0; --plum: #6a3d7a; --plum-soft: #f1e6f5; --amber-soft: #fbefd6;
@@ -152,9 +152,9 @@ body:not(.reading) #names-box { display: none; }
 <script>
 const D = /*DATA*/null;
 const COLORS = ["var(--e1)", "var(--e2)", "var(--e3)", "var(--e4)", "var(--e5)"];
-const GROUP_COLS = ["definition", "type", "rival", "trigger", "background", "mechanism", "role", "outcome", "condition", "account"];
+const GROUP_COLS = D.groups.filter(g => g.name !== "something else").map(g => g.name);
 const codeInfo = {};
-D.groups.forEach(g => g.codes.forEach(c => (codeInfo[c.id] = { ...c, group: g.name })));
+D.groups.forEach(g => g.codes.forEach(c => (codeInfo[c.id] = { ...c, group: g.name, groupTitle: g.title })));
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 const store = {
@@ -166,7 +166,7 @@ let S = blank();
 let open = new Set();
 let openGroups = new Set();
 let sel = null, showNames = false;
-const tagText = id => { const c = codeInfo[id]; return c.anomaly ? `Anomaly · ${c.group}` : `${c.group[0].toUpperCase() + c.group.slice(1)}: ${c.label}`; };
+const tagText = id => { const c = codeInfo[id]; return c.anomaly ? `Anomaly · ${c.groupTitle}` : `${c.groupTitle}: ${c.label}`; };
 
 function blank() { return { episodes: [], active: null, none: false }; }
 function key() { const v = D.prefill && coder === D.prefill.coder ? ":" + D.prefill.version : ""; return `coding:${D.case_id}:${coder || "anon"}${v}`; }
@@ -182,7 +182,8 @@ function renderCodebook() {
     const n = e ? g.codes.filter(c => e.codes.includes(c.id)).length : 0;
     const isOpen = openGroups.has(g.name);
     const shown = isOpen ? g.codes : g.codes.filter(c => e && e.codes.includes(c.id));
-    return `<section class="group"><h2 data-group="${esc(g.name)}"><span class="caret">${isOpen ? "▾" : "▸"}</span><span>${g.n}</span><span>${esc(g.name)}</span><span class="ask">${esc(g.asks)}</span><span class="count">${n ? n + " ticked" : ""}</span></h2>` +
+    return `<section class="group"><h2 data-group="${esc(g.name)}"><span class="caret">${isOpen ? "▾" : "▸"}</span><span>${g.n}</span><span>${esc(g.title)}</span><span class="ask">${esc(g.asks)}</span><span class="count">${n ? n + " ticked" : ""}</span></h2>` +
+      (isOpen && g.pick_note ? `<p class="hint" style="margin:4px 16px">${esc(g.pick_note)} Then tick each part present.</p>` : "") +
       shown.map(c => {
         const on = e && e.codes.includes(c.id);
         return `<div class="code${on ? " on" : ""}${c.anomaly ? " anomaly" : ""}">
@@ -197,33 +198,44 @@ function renderCodebook() {
 
 function renderEpisodes() {
   const e = ep();
-  const chips = S.episodes.map((x, i) => `<button type="button" class="chip${x.id === S.active ? " active" : ""}" style="--c:${COLORS[i % COLORS.length]}" data-ep="${x.id}">E${i + 1}</button>`).join("");
-  let panel = `<p class="hint">${S.none ? "Marked: no episode in this interview." : "Start an episode. Click the segments it covers. To tie a code to the words it rests on, select the words in the interview, then tick the code."}</p>`;
+  const chips = S.episodes.map((x, i) => `<button type="button" class="chip${x.id === S.active ? " active" : ""}" style="--c:${COLORS[i % COLORS.length]}" data-ep="${x.id}">${esc(x.name || "Story " + (i + 1))}</button>`).join("");
+  let panel = `<p class="hint">${S.none ? "Marked: nothing to code in this interview." : "Code the whole interview, story by story. Start a story for each thread of the founder's journey and give it a short name, such as \u201cthe café order\u201d. Click the segments where it is told and tick its codes. Use a story named \u201cwhole journey\u201d for remarks about everything. To tie a code to the words it rests on, select the words, then tick the code."}</p>`;
   if (e) {
     const segs = [...e.segments].sort((a, b) => a - b);
     const applied = e.codes.map(id => `<span class="${codeInfo[id]?.anomaly ? "mis" : ""}" title="${esc(codeInfo[id]?.group)}">${esc(codeInfo[id]?.label)} · ${id}</span>`).join("");
     const anomalies = e.codes.filter(id => codeInfo[id]?.anomaly);
     panel = `<div class="panel">
       <div class="row"><span>Segments</span><div>${segs.length ? segs.map(n => "s" + String(n).padStart(2, "0")).join(", ") : '<span class="hint">click segments in the interview</span>'}</div></div>
-      <div class="row"><span>What was unexpected?</span><textarea id="unexpected" rows="2">${esc(e.unexpected)}</textarea></div>
+      <div class="row"><span>Story name</span><input id="story-name" value="${esc(e.name || "")}" placeholder="e.g. the café order"></div>
+      <div class="row"><span>What happens in it</span><textarea id="unexpected" rows="2">${esc(e.unexpected)}</textarea></div>
       <div class="row"><span>Codes</span><div class="applied">${applied || '<span class="hint" style="background:none">tick codes on the left</span>'}</div></div>
-      <div class="row"><span>Definitions (worked out)</span>${defsHtml(e)}</div>
+      <div class="row"><span>Level 2 (worked out)</span>${defsHtml(e)}</div>
       ${anomalies.map(id => `<div class="row"><span>${id}: why no code fits</span><textarea data-misnote="${id}" rows="2">${esc(e.anomaly_notes[id] || "")}</textarea></div>`).join("")}
       <div class="row"><span>Notes</span><textarea id="notes" rows="2">${esc(e.notes)}</textarea></div>
-      <div><button type="button" id="del-ep">Delete this episode</button></div>
+      <div><button type="button" id="del-ep">Delete this story</button></div>
     </div>`;
   }
-  $("episodes").innerHTML = `<div class="chips">${chips}<button type="button" id="new-ep" class="primary">+ New episode</button>
-    <label class="noep"><input type="checkbox" id="none" ${S.none ? "checked" : ""}> No episode in this interview</label></div>${panel}`;
+  $("episodes").innerHTML = `<div class="chips">${chips}<button type="button" id="new-ep" class="primary">+ New story</button>
+    <label class="noep"><input type="checkbox" id="none" ${S.none ? "checked" : ""}> Nothing to code in this interview</label></div>${panel}`;
 }
 
-// Definitions are never ticked: an episode meets one when every code it needs is ticked.
-const DEFS = D.definitions || [];
-const meets = (e, d) => d.needs.every(n => e.codes.includes(n.id));
+// Level 2 is never ticked: each rule is worked out from the level-1 codes ticked.
+const RULES = D.rules || [];
+const KIND = { definition: "Definitions", rival: "Rival explanations", type: "Type" };
+const meets = (e, r) => r.all.every(c => e.codes.includes(c.id)) && (!r.any.length || r.any.some(c => e.codes.includes(c.id)))
+  && !r.none.some(c => e.codes.includes(c.id));
+const whole = e => (e.name || "").trim().toLowerCase() === "whole journey";
 function defsHtml(e) {
-  if (!DEFS.length) return "";
-  return `<div class="defs">${DEFS.map(d => `<div class="def${meets(e, d) ? " met" : ""}"><b>${meets(e, d) ? "✓ Meets" : "Not met:"}</b> ${esc(d.name)}, ${esc(d.in_short.toLowerCase())}` +
-    d.needs.map(n => `<span class="part${e.codes.includes(n.id) ? "" : " no"}" title="${esc(n.label)} · ${n.id}">${e.codes.includes(n.id) ? "✓" : "○"} ${esc(n.part)}</span>`).join("") + `</div>`).join("")}</div>`;
+  if (!RULES.length) return "";
+  if (whole(e)) return `<span class="hint">Level 2 is not worked out for the whole journey.</span>`;
+  const part = (ok, text, title) => `<span class="part${ok ? "" : " no"}" title="${esc(title)}">${ok ? "✓" : "○"} ${esc(text)}</span>`;
+  return `<div class="defs">${Object.entries(KIND).map(([k, title]) => {
+    const rs = RULES.filter(r => r.kind === k); if (!rs.length) return "";
+    return `<div class="def"><b>${title}</b></div>` + rs.map(r => `<div class="def${meets(e, r) ? " met" : ""}"><b>${meets(e, r) ? "✓" : "·"}</b> ${esc(r.name)}` +
+      r.all.map(c => part(e.codes.includes(c.id), c.label, c.id)).join("") +
+      (r.any.length ? part(r.any.some(c => e.codes.includes(c.id)), r.any.map(c => c.label).join(" or "), "one of these") : "") +
+      r.none.map(c => part(!e.codes.includes(c.id), "no " + c.label, c.id)).join("") + `</div>`).join("");
+  }).join("")}</div>`;
 }
 
 function numbers() {
@@ -270,7 +282,7 @@ function renderInterview() {
     const border = in_[0] ? color(mode === "read" ? in_[0] : (mine ? e : in_[0])) : "transparent";
     return `<div class="seg ${s.role}${e || mode === "read" ? "" : " inactive"}" data-seg="${s.n}" style="border-left-color:${border};${mine && mode !== "read" ? "background:var(--accent-soft)" : ""}">
       <span class="num">s${String(s.n).padStart(2, "0")}</span>
-      ${in_.length ? `<div class="tags">${in_.map(x => `<span style="background:${color(x)}">Episode ${S.episodes.indexOf(x) + 1}</span>`).join("")}</div>` : ""}
+      ${in_.length ? `<div class="tags">${in_.map(x => `<span style="background:${color(x)}">${esc(x.name || "Story " + (S.episodes.indexOf(x) + 1))}</span>`).join("")}</div>` : ""}
       <div class="txt"${in_.length ? ' style="grid-column:2"' : ""}>${markup(s)}</div>
     </div>`;
   }).join("");
@@ -279,15 +291,15 @@ function renderInterview() {
 function renderSummary() {
   const box = $("codebook");
   box.className = "codebook summary";
-  if (!S.episodes.length) { box.innerHTML = `<p class="empty">${S.none ? "No episode in this interview." : "Nothing coded yet. Choose Edit coding to start."}</p>`; return; }
+  if (!S.episodes.length) { box.innerHTML = `<p class="empty">${S.none ? "Nothing to code in this interview." : "Nothing coded yet. Choose Edit coding to start."}</p>`; return; }
   const num = numbers();
   box.innerHTML = `<p class="howto">Highlighted words in the interview are what each code rests on; the number after them matches the list below. Click a code to light up its words, or click a number in the text to find its code.</p>` + S.episodes.map((e, i) => {
     const segs = [...e.segments].sort((a, b) => a - b);
     const filled = [], empty = [];
     D.groups.forEach(g => {
       const ids = e.codes.filter(id => codeInfo[id]?.group === g.name);
-      if (!ids.length) { if (g.name !== "something else") empty.push(g.name); return; }
-      filled.push(`<dt>${esc(g.name)}</dt><dd>${ids.map(id => {
+      if (!ids.length) { if (g.name !== "something else") empty.push(g.title); return; }
+      filled.push(`<dt>${esc(g.title)}</dt><dd>${ids.map(id => {
         const c = codeInfo[id];
         const quotes = (e.evidence?.[id] || []).map(x => `<div class="q">“${esc(x.text)}”<a data-jump="${x.seg}">s${String(x.seg).padStart(2, "0")}</a></div>`).join("");
         const why = c.anomaly && e.anomaly_notes[id] ? `<div class="why">${esc(e.anomaly_notes[id])}</div>` : "";
@@ -296,8 +308,8 @@ function renderSummary() {
       }).join("")}</dd>`);
     });
     return `<section class="ep" style="--c:${COLORS[i % COLORS.length]}">
-      <h2>Episode ${i + 1} <span class="segs">${segs.map(n => `<a data-jump="${n}">s${String(n).padStart(2, "0")}</a>`).join(" ")}</span></h2>
-      ${e.unexpected ? `<p class="unexp"><b>What was unexpected</b>${esc(e.unexpected)}</p>` : ""}
+      <h2>${esc(e.name || "Story " + (i + 1))} <span class="segs">${segs.map(n => `<a data-jump="${n}">s${String(n).padStart(2, "0")}</a>`).join(" ")}</span></h2>
+      ${e.unexpected ? `<p class="unexp"><b>What happens</b>${esc(e.unexpected)}</p>` : ""}
       ${defsHtml(e)}
       <dl>${filled.join("")}</dl>
       ${empty.length ? `<p class="empty">No code in: ${empty.join(", ")}</p>` : ""}
@@ -311,7 +323,7 @@ function subline() {
   if (mode !== "read") return `${D.case_id} · ${D.segments.length} segments · codebook: ${D.codebook}`;
   const all = S.episodes.flatMap(e => e.codes), mis = all.filter(id => codeInfo[id]?.anomaly).length;
   const n = S.episodes.length;
-  return `Coded by ${coder || "—"} · ${n} episode${n === 1 ? "" : "s"} · ${all.length - mis} codes · ${mis} anomaly${mis === 1 ? "" : "s"} · ${D.codebook}`;
+  return `Coded by ${coder || "—"} · ${n} stor${n === 1 ? "y" : "ies"} · ${all.length - mis} codes · ${mis} anomaly${mis === 1 ? "" : "s"} · ${D.codebook}`;
 }
 function render() {
   document.body.classList.toggle("reading", mode === "read");
@@ -337,6 +349,8 @@ $("codebook").addEventListener("change", ev => {
   const id = ev.target.dataset.code, e = ep(); if (!id || !e) return;
   e.evidence = e.evidence || {};
   if (ev.target.checked) {
+    const pick = codeInfo[id]?.pick;
+    if (pick) e.codes.filter(c => c !== id && codeInfo[c]?.pick === pick).forEach(c => { e.codes = e.codes.filter(x => x !== c); delete e.evidence[c]; });
     if (!e.codes.includes(id)) e.codes.push(id);
     const sel = window.getSelection(), node = sel && sel.anchorNode && sel.anchorNode.parentElement?.closest("[data-seg]");
     const text = sel ? sel.toString().trim() : "";
@@ -360,7 +374,7 @@ $("codebook").addEventListener("click", ev => {
 $("episodes").addEventListener("click", ev => {
   if (ev.target.id === "new-ep") {
     const id = "e" + Date.now();
-    S.episodes.push({ id, segments: [], codes: [], unexpected: "", notes: "", anomaly_notes: {}, evidence: {} });
+    S.episodes.push({ id, name: "", segments: [], codes: [], unexpected: "", notes: "", anomaly_notes: {}, evidence: {} });
     S.active = id; S.none = false; save(); render(); return;
   }
   if (ev.target.id === "del-ep") {
@@ -374,6 +388,7 @@ $("episodes").addEventListener("change", ev => {
 $("episodes").addEventListener("input", ev => {
   const e = ep(); if (!e) return;
   if (ev.target.id === "unexpected") e.unexpected = ev.target.value;
+  else if (ev.target.id === "story-name") { e.name = ev.target.value; document.querySelector(`[data-ep="${e.id}"]`).textContent = e.name || "Story"; }
   else if (ev.target.id === "notes") e.notes = ev.target.value;
   else if (ev.target.dataset.misnote) e.anomaly_notes[ev.target.dataset.misnote] = ev.target.value;
   save();
@@ -391,16 +406,16 @@ $("interview").addEventListener("click", ev => {
 });
 $("coder").addEventListener("change", ev => { coder = ev.target.value.trim(); store.set("coding-coder", coder); load(); render(); });
 
-const defCol = d => d.id.toLowerCase().replace("-", "_");
+const defCol = d => d.id.toLowerCase().replace("-", "_");  // DEF-BUSCH -> def_busch
 function rows() {
   const base = { case_no: D.case_no, case_id: D.case_id, coder, codebook: D.codebook };
-  if (!S.episodes.length) return [{ ...base, episode: S.none ? 0 : "", segments: "" }];
+  if (!S.episodes.length) return [{ ...base, story: S.none ? 0 : "", segments: "" }];
   return S.episodes.map((e, i) => {
-    const r = { ...base, episode: i + 1, segments: [...e.segments].sort((a, b) => a - b).join(", "), what_was_unexpected: e.unexpected };
+    const r = { ...base, story: whole(e) ? "W" : i + 1, story_name: e.name || "", segments: [...e.segments].sort((a, b) => a - b).join(", "), summary: e.unexpected };
     GROUP_COLS.forEach(g => (r[g] = e.codes.filter(id => codeInfo[id]?.group === g && !codeInfo[id]?.anomaly).join("; ")));
     const mis = e.codes.filter(id => codeInfo[id]?.anomaly);
     r.anomaly_codes = mis.join("; "); r.anomaly_notes = mis.map(id => `${id}: ${e.anomaly_notes[id] || ""}`).join(" | "); r.notes = e.notes;
-    DEFS.forEach(d => (r[defCol(d)] = meets(e, d) ? "yes" : "no"));
+    RULES.forEach(d => (r[defCol(d)] = whole(e) ? "" : meets(e, d) ? "yes" : "no"));
     r.evidence = Object.entries(e.evidence || {}).flatMap(([id, list]) => list.map(x => `${id} @s${String(x.seg).padStart(2, "0")}: "${x.text}"`)).join(" | ");
     return r;
   });
@@ -412,13 +427,13 @@ function download(name, text, type) {
 }
 const fname = ext => `coding_${D.case_no || ""}_${D.case_id}_${coder || "anon"}.${ext}`;
 $("export-csv").addEventListener("click", () => {
-  const cols = ["case_no", "case_id", "coder", "codebook", "episode", "segments", "what_was_unexpected", ...GROUP_COLS, "anomaly_codes", "anomaly_notes", ...DEFS.map(defCol), "notes", "evidence"];
+  const cols = ["case_no", "case_id", "coder", "codebook", "story", "story_name", "segments", "summary", ...GROUP_COLS, "anomaly_codes", "anomaly_notes", ...RULES.map(defCol), "notes", "evidence"];
   const q = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
   download(fname("csv"), [cols.join(","), ...rows().map(r => cols.map(c => q(r[c])).join(","))].join("\n") + "\n", "text/csv");
 });
 $("export-json").addEventListener("click", () => {
   download(fname("json"), JSON.stringify({ case_id: D.case_id, case_no: D.case_no, coder, codebook: D.codebook,
-    exported: new Date().toISOString(), no_episode: S.none, episodes: rows() }, null, 1), "application/json");
+    exported: new Date().toISOString(), nothing_to_code: S.none, stories: rows() }, null, 1), "application/json");
 });
 
 document.title = `Coding ${D.case_no} ${D.title}`;

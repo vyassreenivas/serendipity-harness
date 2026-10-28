@@ -40,6 +40,11 @@ paper_sample = 0
 # them again, so one paper is not counted twice. Listed, never deleted.
 newer_versions_of_read_papers = [
     "Reijonen and Heroum - 2026 - Critical Events and the Interplay between Serendipity and Effectuation in an Unforeseen Venture Creation.pdf",  # published version of the 2023 paper already read
+    # Fuller or cleaner copies added 26 Oct 2026 for reading; the draft read the originals.
+    "Ross - 2024 - Serendipity - The Role of Chance and Accidents in Creativity (complete copy).pdf",  # the original holds only the first page
+    "Mintzberg et al - 1996 - The Honda Effect Revisited (complete copy).pdf",  # the original holds only the 3-page introduction
+    "Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation (second copy).pdf",
+    "Ma - 2002 - Competitive Advantage What's Luck Got to Do with It (second copy).pdf",
 ]
 
 # Which draft the researchers reviewed, and the version number their decisions
@@ -143,6 +148,12 @@ order_seed = 20261010
 # How many interviews the model codes, taken from the start of the worksheet
 # order. 0 means all of them.
 model_sample = 5
-# false: the model codes an interview in one reply. true: the work is cut into
-# small steps, each a separate call (prompts/coder_staged/).
-staged = false
+# The frozen codebook the model codes with.
+codebook = "harness/codebook/codebook_v1.0.json"
+# How the model is called. "interview": one call codes a whole interview.
+# "group": one call finds the episodes, then one call per group per episode.
+# List both to run both and compare them against the human coding.
+calls = ["interview", "group"]
+# Every anomaly theme across coding rounds and what became of it (open,
+# adopted as a code, or dropped). Kept in git: it names interviews by id only.
+anomaly_log = "harness/codebook/anomaly_log.json"

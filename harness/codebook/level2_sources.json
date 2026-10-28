@@ -1,0 +1,45 @@
+{
+ "about": "Sources for the level-2 items that took their papers from drafted codes (rivals, types, judgments). Each sentence was read against the item and its rule (26 Oct 2026). 'drop' lists works whose sentence does not state the item; 'add' gives sentences already held that state it better. Draft in harness_v2/docs/codebook/level2_sources_draft.md; awaiting the researchers' confirmation.",
+ "drop": {
+  "RIV-LUCK": [
+   "Adegbesan (2009)",
+   "Busch and Barkema (2020)",
+   "Engel et al. (2017)",
+   "Oo et al. (2025)",
+   "Felin et al. (2021)"
+  ],
+  "RIV-TARGETED": [
+   "Felin et al. (2021)",
+   "Copeland et al. (2023)",
+   "Mirvahedi and Morrish (2017)",
+   "Grimes (2018)",
+   "Balzano (2022)",
+   "Garud and Karnøe (2003)",
+   "Brown (2005)",
+   "Cohen et al. (1972)",
+   "de Rond and Thietart (2007)"
+  ],
+  "TYP-WALPOLE": [
+   "Kirtley and O'Mahony (2023)",
+   "Fultz and Hmieleski (2025)"
+  ],
+  "JDG-PLANNED": [
+   "Oo et al. (2025)",
+   "Sarasvathy (2008)"
+  ]
+ },
+ "add": {
+  "JDG-MEANS": [
+   {
+    "passage_id": "baker2005-a11a8f:p025:02",
+    "pdf_page": 25,
+    "text": "Third, firms facing penurious environments sometimes engage in bricolage, making do by applying combinations of the resources at hand to new problems and opportunities."
+   },
+   {
+    "passage_id": "sarasvathy2001-f6e40d:p011:03",
+    "pdf_page": 11,
+    "text": "Effectuation predetermines how much loss is affordable and focuses on experimenting with as many strategies as possible with the given limited means."
+   }
+  ]
+ }
+}

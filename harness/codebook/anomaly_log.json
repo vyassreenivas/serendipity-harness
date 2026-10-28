@@ -1,0 +1,580 @@
+{
+ "about": "Anomaly themes across coding rounds. Written by serendipity_harness.anomaly_log; decisions are made with its `set` command, not by editing this file.",
+ "rounds": [
+  {
+   "round": 1,
+   "coder": "model",
+   "codebook": "1.0",
+   "added": "2026-10-28",
+   "work": "harness_v2/outputs/session_coding_20261027",
+   "interviews": 19,
+   "anomalies": 35,
+   "themes_sha256": "6d6b2d2e2fe05d70cd1d578c825a7a12956f7d959dad56e21305b37b21a6c076"
+  }
+ ],
+ "themes": [
+  {
+   "id": "information-found-by-chance",
+   "name": "Information found by chance",
+   "group": "Trigger",
+   "what": "The founder comes across an article, a website or a technique while doing something else, and it sparks the idea.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-we-built-our-discount-mattress-compa-2ebca3",
+     "story": "the domain squatting article",
+     "code": "ANO-TRG",
+     "segments": [
+      19
+     ],
+     "coder": "model",
+     "no": "A15",
+     "round": 1
+    },
+    {
+     "case_id": "jetprint-8cb871",
+     "story": "stumbling on Printful",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A18",
+     "round": 1
+    },
+    {
+     "case_id": "my-media-pal-bf2757",
+     "story": "discovering SEO",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A21",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "layoff and the blogging article",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A32",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "external-shock-or-platform-change",
+   "name": "External shock or platform change",
+   "group": "Trigger",
+   "what": "Something outside the venture changes suddenly: a recession, a platform's policy or algorithm, a supplier ending a tool.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "plate-crate-b3b988",
+     "story": "iOS-14 change",
+     "code": "ANO-TRG",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A27",
+     "round": 1
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "the 2008 downturn",
+     "code": "ANO-TRG",
+     "segments": [
+      5,
+      15
+     ],
+     "coder": "model",
+     "no": "A29",
+     "round": 1
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "Aviary editor discontinued",
+     "code": "ANO-TRG",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A31",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "Google updates",
+     "code": "ANO-TRG",
+     "segments": [
+      3,
+      13,
+      15
+     ],
+     "coder": "model",
+     "no": "A34",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "idea-from-the-founder-s-own-experience",
+   "name": "Idea from the founder's own experience",
+   "group": "Trigger",
+   "what": "The idea comes from the founder's own errand, thought or idle play, with no outside input.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "happy-box-store-1512ba",
+     "story": "the care package for Ariel",
+     "code": "ANO-TRG",
+     "segments": [
+      3
+     ],
+     "coder": "model",
+     "no": "A05",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the fish-tank tubing prototype",
+     "code": "ANO-TRG",
+     "segments": [
+      7
+     ],
+     "coder": "model",
+     "no": "A06",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the blind-cord prototype",
+     "code": "ANO-TRG",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A07",
+     "round": 1
+    },
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "the corner shop",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A10",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "unsought-publicity-from-a-third-party-or-platform",
+   "name": "Unsought publicity from a third party or platform",
+   "group": "Trigger",
+   "what": "A YouTuber, an influencer or a platform (App Store, Shopify) promotes the product on its own initiative, with no request or offer to the founder.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "aceternity-ui-ac6cc3",
+     "story": "the launch and Fireship video",
+     "code": "ANO-TRG",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A01",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "rebuilding with influencers",
+     "code": "ANO-TRG",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A08",
+     "round": 1
+    },
+    {
+     "case_id": "i-built-a-timer-app-that-generates-66k-y-584f72",
+     "story": "the App Store feature",
+     "code": "ANO-TRG",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A17",
+     "round": 1
+    },
+    {
+     "case_id": "jetprint-8cb871",
+     "story": "the Shopify feature",
+     "code": "ANO-TRG",
+     "segments": [
+      3,
+      9
+     ],
+     "coder": "model",
+     "no": "A19",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "outside-timing-or-circumstance",
+   "name": "Outside timing or circumstance",
+   "group": "Condition",
+   "what": "A wider change or a life event makes the moment right: maturing technology, a market turning to the founder's skills, a hurricane cleanup, a layoff.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "chat-agency-ai-a60f15",
+     "story": "design background meets LLM interfaces",
+     "code": "ANO-CND",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A02",
+     "round": 1
+    },
+    {
+     "case_id": "my-media-pal-bf2757",
+     "story": "the first SEO client",
+     "code": "ANO-CND",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A22",
+     "round": 1
+    },
+    {
+     "case_id": "perfect-live-beyond-concierge-flawless-l-39a3bf",
+     "story": "AI timing",
+     "code": "ANO-CND",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A24",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "layoff and the blogging article",
+     "code": "ANO-CND",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A33",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "resources-contacts-or-knowledge-as-the-result",
+   "name": "Resources, contacts or knowledge as the result",
+   "group": "Outcome",
+   "what": "What comes of it is a supplier, a network of contacts, customer insights or new connections, not a product, market or growth.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "crazyfitnessguy-bbff4b",
+     "story": "consistent branding on social media",
+     "code": "ANO-OUT",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A03",
+     "round": 1
+    },
+    {
+     "case_id": "how-three-friends-launched-2-4m-t-shirt-a975d9",
+     "story": "Matt's dad's printer",
+     "code": "ANO-OUT",
+     "segments": [
+      7
+     ],
+     "coder": "model",
+     "no": "A13",
+     "round": 1
+    },
+    {
+     "case_id": "how-three-friends-launched-2-4m-t-shirt-a975d9",
+     "story": "the customer calls",
+     "code": "ANO-OUT",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A14",
+     "round": 1
+    },
+    {
+     "case_id": "how-we-built-our-discount-mattress-compa-2ebca3",
+     "story": "the Las Vegas outlet loan",
+     "code": "ANO-OUT",
+     "segments": [
+      5,
+      7
+     ],
+     "coder": "model",
+     "no": "A16",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "harmful-result",
+   "name": "Harmful result",
+   "group": "Outcome",
+   "what": "The event costs the venture: a lost channel, half of income gone, survival threatened.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "strive-bfc38d",
+     "story": "the reddit guide",
+     "code": "ANO-OUT",
+     "segments": [
+      9,
+      11
+     ],
+     "coder": "model",
+     "no": "A28",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "Google updates",
+     "code": "ANO-OUT",
+     "segments": [
+      3,
+      13
+     ],
+     "coder": "model",
+     "no": "A35",
+     "round": 1
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "the 2008 downturn",
+     "code": "ANO-ROL",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A30",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "outsider-or-naive-start",
+   "name": "Outsider or naive start",
+   "group": "Background and account",
+   "what": "Not knowing an industry is told as an advantage: never having worked in a law firm, naivety as a superpower.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "parr-business-law-bbc313",
+     "story": "the Airbnb business's lawyer",
+     "code": "ANO-BKG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A23",
+     "round": 1
+    },
+    {
+     "case_id": "plate-crate-b3b988",
+     "story": "googling for a side hustle",
+     "code": "ANO-ACC",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A26",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "the-opportunity-found-them",
+   "name": "The opportunity found them",
+   "group": "Account",
+   "what": "The founder tells the start as the opportunity finding them, without using luck words.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "the corner shop",
+     "code": "ANO-ACC",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A11",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "effort-only-account",
+   "name": "Effort-only account",
+   "group": "Account",
+   "what": "The founder credits results wholly to work put in, with no role for chance.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "luminesce-diamonds-350ae8",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      3,
+      13
+     ],
+     "coder": "model",
+     "no": "A20",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "breakthroughs-noticed-by-founders-close-to-customers",
+   "name": "Breakthroughs noticed by founders close to customers",
+   "group": "Account",
+   "what": "A general theory from the founder: things start working through unplanned shifts that only founders close to customers notice.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "perfect-live-beyond-concierge-flawless-l-39a3bf",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A25",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "limiting-exposure-to-chance",
+   "name": "Limiting exposure to chance",
+   "group": "Condition",
+   "what": "The founder deliberately screens out incoming opportunities to stay focused.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "whole journey",
+     "code": "ANO-CND",
+     "segments": [
+      15,
+      21
+     ],
+     "coder": "model",
+     "no": "A12",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "a-mission-that-draws-people",
+   "name": "A mission that draws people",
+   "group": "Background",
+   "what": "A nonprofit status and a resonant vision draw volunteers and trust.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "foundation-for-a-human-internet-31f60d",
+     "story": "Harvard exposure and volunteers",
+     "code": "ANO-BKG",
+     "segments": [
+      9,
+      15
+     ],
+     "coder": "model",
+     "no": "A04",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "find-improved-the-product",
+   "name": "Find improved the product",
+   "group": "Role",
+   "what": "A chance find fixed the product's core design after founding, without growth or a change of direction.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the blind-cord prototype",
+     "code": "ANO-ROL",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A09",
+     "round": 1
+    }
+   ],
+   "history": []
+  }
+ ]
+}

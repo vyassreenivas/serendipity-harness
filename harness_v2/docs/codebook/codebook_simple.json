@@ -1,533 +1,577 @@
 {
- "built": "2026-10-23",
+ "built": "2026-10-26",
  "source": "codebook_review.xlsx",
- "groups": [
+ "structure": [
   {
-   "n": 1,
-   "name": "definition",
-   "asks": "Does this episode count as serendipity?",
-   "sq": "What counts as serendipity?",
+   "sq": "SQ1",
+   "text": "What counts as serendipity: are its parts (surprise, agency, value) present, what was the search state, which type is it, and is it more than luck or targeted search?",
+   "groups": [
+    "1. Parts of serendipity"
+   ],
+   "codes": 6
+  },
+  {
+   "sq": "SQ2",
+   "text": "What triggers it: an anomaly, an error, a chance meeting, a passing remark, an unsought offer, or a market signal?",
+   "groups": [
+    "2. Trigger"
+   ],
+   "codes": 6
+  },
+  {
+   "sq": "SQ3",
+   "text": "What background (prior knowledge, a problem in mind, contacts) and which mechanisms (noticing, connecting, acting, changing plans) turn the trigger into an opportunity?",
+   "groups": [
+    "3. Background",
+    "4. Mechanism"
+   ],
+   "codes": 9
+  },
+  {
+   "sq": "SQ4",
+   "text": "What role does it play in the venture (founding, redirecting, advancing it), and what outcomes follow: a product, a market, growth, or nothing?",
+   "groups": [
+    "5. Role",
+    "6. Outcome"
+   ],
+   "codes": 8
+  },
+  {
+   "sq": "SQ5",
+   "text": "Which conditions make it more or less likely to occur and be acted on: seeking out chance, cheap trials, loose plans, or scarce resources?",
+   "groups": [
+    "7. Condition"
+   ],
+   "codes": 4
+  },
+  {
+   "sq": "SQ6",
+   "text": "How do founders account for it afterwards: as luck, as luck plus effort, as clear only in hindsight, or retold as planned?",
+   "groups": [
+    "8. Account"
+   ],
+   "codes": 3
+  }
+ ],
+ "level1": [
+  {
+   "no": 1,
+   "name": "Parts of serendipity",
+   "sq": "SQ1",
+   "sq_text": "What counts as serendipity: are its parts (surprise, agency, value) present, what was the search state, which type is it, and is it more than luck or targeted search?",
+   "asks": "Which parts are present?",
+   "pick_one": {
+    "name": "Search state",
+    "asks": "What was the founder doing when it happened?",
+    "options": [
+     {
+      "no": "1.1",
+      "id": "type-03",
+      "label": "Not looking at all",
+      "captures": "The founder was not looking for a business or an idea. A need and a way to meet it turned up together in everyday life, and they saw an opportunity.",
+      "papers": "Busch and Grimes (2023); Bhave (1994); Mirvahedi and Morrish (2017); + 4 more",
+      "n_papers": 7
+     },
+     {
+      "no": "1.2",
+      "id": "type-04",
+      "label": "Open to any business",
+      "captures": "The founder wanted to start or grow a business but had no specific idea, and a suitable opportunity came along by chance (Mirvahedi and Morrish's 'entrepreneurial serendipity').",
+      "papers": "Mirvahedi and Morrish (2017)",
+      "n_papers": 1
+     },
+     {
+      "no": "1.3",
+      "id": "definition-04",
+      "label": "Searching for something specific",
+      "captures": "When the unexpected event happened, the founder was already looking for something: an idea, a solution, customers or a way forward. Needed for the narrow verdict (Dew 2009).",
+      "papers": "Dew (2009); Balzano (2022); McFarlane and Carter (2016); + 3 more",
+      "n_papers": 6
+     }
+    ]
+   },
    "codes": [
     {
-     "id": "definition-04",
-     "label": "Already searching",
-     "when": "The account shows a search or effort under way at the time.",
-     "example": "'I'd been trying ideas for months when...'",
-     "notwhen": "The founder was not looking for anything at the time; leave this code off.",
-     "papers": 6
-    },
-    {
-     "id": "definition-07",
-     "label": "Agency: acted on it",
-     "when": "The founder describes their own response to the event and links the result to it.",
-     "example": "'I wrote back that night and offered to build it.'",
-     "notwhen": "The benefit simply arrived with no action by the founder; code rival-01 (pure luck) instead.",
-     "papers": 9
-    },
-    {
+     "no": "1.4",
      "id": "definition-09",
      "label": "Surprise",
-     "when": "The founder says an event, contact, result or reaction was unexpected or not part of the plan.",
-     "example": "'I never expected anyone to ask for that.'",
-     "notwhen": "The founder got what they planned and expected, on schedule.",
-     "papers": 5
+     "captures": "Something happened that the founder did not expect, plan or intend.",
+     "papers": "Busch (2024); Austin et al. (2012); Balzano (2022); + 2 more",
+     "n_papers": 5
     },
     {
+     "no": "1.5",
+     "id": "definition-07",
+     "label": "Agency: acted on it",
+     "captures": "The founder did something with the unexpected event: followed it up, tried it, or built on it. Without this, it is luck, not serendipity.",
+     "papers": "Fultz and Hmieleski (2025); Fultz and Hmieleski (2021); Cunha et al. (2015); + 6 more",
+     "n_papers": 9
+    },
+    {
+     "no": "1.6",
      "id": "definition-13",
      "label": "Value",
-     "when": "The founder presents what followed as useful or important for them or the venture.",
-     "example": "'That one email became our biggest customer.'",
-     "notwhen": "Nothing of value came of it; code outcome-25 instead.",
-     "papers": 10
+     "captures": "The unexpected event led to something the founder sees as worth having: an idea, customer, product, partner or turning point.",
+     "papers": "Reijonen and Heroum (2026); Merton and Barber (2004); Pease et al. (2013); + 7 more",
+     "n_papers": 10
     }
    ],
    "anomaly": null
   },
   {
-   "n": 2,
-   "name": "type",
-   "asks": "What kind of serendipity is it?",
-   "sq": "What counts as serendipity?",
-   "codes": [
-    {
-     "id": "type-01",
-     "label": "Mertonian: sought, found unexpectedly",
-     "when": "A known problem or need was solved by something that turned up unexpectedly.",
-     "example": "'We needed a supplier, and the guy next to me on the plane ran one.'",
-     "notwhen": "The find answered a different problem or changed the goal; use type-02.",
-     "papers": 11
-    },
-    {
-     "id": "type-02",
-     "label": "Walpolian: sought one, found another",
-     "when": "A project or search ended up producing a different product, market or direction.",
-     "example": "'We were building a tool for agencies and schools started buying it.'",
-     "notwhen": "The original goal was met unexpectedly (type-01), or there was no search (type-03).",
-     "papers": 11
-    },
-    {
-     "id": "type-03",
-     "label": "Not looking at all",
-     "when": "The founder stumbled on the idea, often solving their own or a friend's problem, before planning a business.",
-     "example": "'I made it for myself, then people kept asking for one.'",
-     "notwhen": "The founder already wanted a business (type-04) or pursued a specific goal (type-01, type-02).",
-     "papers": 7
-    },
-    {
-     "id": "type-04",
-     "label": "Wanted a business, any business",
-     "when": "The founder was open to any opportunity when one turned up.",
-     "example": "'I knew I wanted to work for myself; then a friend mentioned...'",
-     "notwhen": "No wish to found (type-03), or already pursuing a specific idea (type-01, type-02).",
-     "papers": 1
-    },
-    {
-     "id": "type-05",
-     "label": "Bushian: exploring, met existing need",
-     "when": "The founder was trying things out or browsing, and found the answer to a need they already had.",
-     "example": "'I was playing with a new tool and realised it fixed our shipping problem.'",
-     "notwhen": "The founder was searching for that answer (type-01), or the need only appeared later (type-06).",
-     "papers": 2
-    },
-    {
-     "id": "type-06",
-     "label": "Stephanian: solution first, problem later",
-     "when": "The founder describes a find, skill or product that sat unused until a need turned up.",
-     "example": "'We had built that feature years ago; only when customers asked did we see what it was for.'",
-     "notwhen": "Problem and solution came together (type-03), or the find met an existing need (type-05).",
-     "papers": 4
-    }
-   ],
-   "anomaly": {
-    "id": "ANO-TYP",
-    "when": "The episode is serendipity, but no type code describes it",
-    "notwhen": "A type fits roughly: use it and note the doubt"
-   }
-  },
-  {
-   "n": 3,
-   "name": "rival",
-   "asks": "What else could explain the same story?",
-   "sq": "What counts as serendipity?",
-   "codes": [
-    {
-     "id": "rival-01",
-     "label": "Pure luck, no action",
-     "when": "The founder presents an event as a windfall that simply happened.",
-     "example": "'A big blog wrote about us out of nowhere and sales took off.'",
-     "notwhen": "The founder also noticed and acted on the event; then consider serendipity instead.",
-     "papers": 17
-    },
-    {
-     "id": "rival-06",
-     "label": "Systematic search",
-     "when": "The founder decided what to look for and found it as expected.",
-     "example": "'I analysed 40 niches and picked the one with the best margins.'",
-     "notwhen": "The search was under way but the answer came unexpectedly (definition-04).",
-     "papers": 18
-    },
-    {
-     "id": "rival-07",
-     "label": "A plan carried out",
-     "when": "The founder describes following a plan made in advance, step by step, without unexpected turns.",
-     "example": "'We had a five-year plan and stuck to it.'",
-     "notwhen": "The point is how the idea was searched for; use rival-06.",
-     "papers": 12
-    },
-    {
-     "id": "rival-10",
-     "label": "Working with what's at hand",
-     "when": "The founder describes building from their own means, making do and recombining, and reports no surprise.",
-     "example": "'I had a van and some carpentry skills, so I started there.'",
-     "notwhen": "An unexpected event and its recognition are also present; then it supports serendipity.",
-     "papers": 4
-    }
-   ],
-   "anomaly": {
-    "id": "ANO-RIV",
-    "when": "The account fits another explanation that is not a rival code",
-    "notwhen": "The founder only denies chance: that is account"
-   }
-  },
-  {
-   "n": 4,
-   "name": "trigger",
+   "no": 2,
+   "name": "Trigger",
+   "sq": "SQ2",
+   "sq_text": "What triggers it: an anomaly, an error, a chance meeting, a passing remark, an unsought offer, or a market signal?",
    "asks": "What unexpected event started it?",
-   "sq": "Where does it happen, and what sets it off?",
+   "pick_one": null,
    "codes": [
     {
+     "no": "2.1",
      "id": "trigger-01",
      "label": "Something odd was noticed",
-     "when": "The founder saw an odd result, behaviour or detail and looked into it instead of ignoring it.",
-     "example": "'Customers kept using it for something we never designed it for.'",
-     "notwhen": "The surprise came from the market as a whole (trigger-24) or a mistake (trigger-04).",
-     "papers": 12
+     "captures": "The founder noticed something strange or contrary to expectation, and it led to an idea or a new direction.",
+     "papers": "Cunha et al. (2010); Merton and Barber (2004); Andel (1994); + 10 more",
+     "n_papers": 13
     },
     {
+     "no": "2.2",
      "id": "trigger-04",
      "label": "A mistake or accident",
-     "when": "The founder traces the idea or path to a mistake or mishap.",
-     "example": "'We ordered the wrong size by accident and it sold better.'",
-     "notwhen": "A planned attempt simply failed and was reused elsewhere; if nothing fits, MIS-TRG.",
-     "papers": 7
+     "captures": "An error, slip, malfunction or accident produced something unexpected that turned out to be useful.",
+     "papers": "McFarlane and Carter (2016); Balzano (2022); Copeland et al. (2023); + 4 more",
+     "n_papers": 7
     },
     {
+     "no": "2.3",
      "id": "trigger-14",
      "label": "A chance meeting",
-     "when": "The founder describes meeting someone by chance: at an event, through a seat on a plane, a shared office.",
-     "example": "'I met my co-founder at a wedding.'",
-     "notwhen": "What mattered was a passing remark (trigger-17), or the meeting was arranged.",
-     "papers": 15
+     "captures": "An unplanned meeting with a person led to a partner, co-founder, customer, investor or opportunity.",
+     "papers": "Dew (2009); Copeland et al. (2023); Brown (2005); + 14 more",
+     "n_papers": 17
     },
     {
+     "no": "2.4",
      "id": "trigger-17",
      "label": "A passing remark",
-     "when": "The founder says an offhand remark sparked the idea or changed direction.",
-     "example": "'My sister said, \"you should sell these\".'",
-     "notwhen": "The person made a concrete offer or request (trigger-18), or the relationship mattered (trigger-14).",
-     "papers": 15
+     "captures": "A casual comment, question or piece of feedback from someone else revealed a possibility the founder had not seen.",
+     "papers": "Baker et al. (2003); Reinsberger et al. (2026); Hargadon and Sutton (1997); + 12 more",
+     "n_papers": 15
     },
     {
+     "no": "2.5",
      "id": "trigger-18",
      "label": "An unasked-for offer or request",
-     "when": "The founder received an unexpected message, contract, partnership proposal or product request and acted on it.",
-     "example": "'A hotel emailed asking if we could make 500.'",
-     "notwhen": "Someone only mentioned a need in passing (trigger-17), or many customers showed a pattern (trigger-24).",
-     "papers": 7
+     "captures": "Someone approached the founder, unsought, with an offer, order, invitation or unusual request, and this started or changed the venture.",
+     "papers": "Mirvahedi and Morrish (2017); Baker et al. (2003); Kirtley and O'Mahony (2023); + 4 more",
+     "n_papers": 7
     },
     {
+     "no": "2.6",
      "id": "trigger-24",
      "label": "An unexpected market signal",
-     "when": "The founder describes a demand spike, a surprising best-seller, or users doing something unforeseen, which pointed to a new path.",
-     "example": "'One product we added as an extra outsold everything else.'",
-     "notwhen": "One customer asked directly (trigger-18), or the surprise was technical; if nothing fits, MIS-TRG.",
-     "papers": 4
+     "captures": "Customers or users responded in a way the founder did not expect: surprising demand, unexpected uses, or feedback showing the plan was wrong.",
+     "papers": "Garud et al. (2018); Shah and Tripsas (2007); Denrell et al. (2015); + 1 more",
+     "n_papers": 4
     }
    ],
    "anomaly": {
+    "no": "2.A",
     "id": "ANO-TRG",
-    "when": "Something unexpected started it, but no trigger code names that kind of event",
-    "notwhen": "The trigger is unclear: leave trigger blank"
+    "captures": "Something unexpected started it, but no trigger code names that kind of event"
    }
   },
   {
-   "n": 5,
-   "name": "background",
+   "no": 3,
+   "name": "Background",
+   "sq": "SQ3",
+   "sq_text": "What background (prior knowledge, a problem in mind, contacts) and which mechanisms (noticing, connecting, acting, changing plans) turn the trigger into an opportunity?",
    "asks": "What did the founder already have?",
-   "sq": "What do founders bring and do?",
+   "pick_one": null,
    "codes": [
     {
+     "no": "3.1",
      "id": "background-01",
      "label": "Relevant expertise",
-     "when": "The founder credits their professional or industry knowledge for recognising the opportunity.",
-     "example": "'After ten years in logistics, I knew straight away what that meant.'",
-     "notwhen": "What mattered was a specific problem they were already working on (background-02).",
-     "papers": 19
+     "captures": "The founder's knowledge, training or experience in a field let them see the value of the unexpected event when others might not.",
+     "papers": "Cohen and Levinthal (1990); Merton and Barber (2004); Copeland et al. (2023); + 19 more",
+     "n_papers": 22
     },
     {
+     "no": "3.2",
      "id": "background-02",
      "label": "A problem already in mind",
-     "when": "The founder says they were already wrestling with a particular problem when the input arrived.",
-     "example": "'I'd been trying to fix my own sleep for years.'",
-     "notwhen": "The founder credits general expertise without a specific problem (background-01).",
-     "papers": 4
+     "captures": "Before the event, the founder was already carrying a specific problem, need or strong interest, and the chance input mattered because it connected to it.",
+     "papers": "Felin et al. (2021); Merton and Barber (2004); Copeland et al. (2023); + 2 more",
+     "n_papers": 5
     },
     {
+     "no": "3.3",
      "id": "background-11",
      "label": "Idea grew from their work",
-     "when": "The idea is traced to the founder's current or past work, projects or role.",
-     "example": "'As a nurse, I saw the same problem every shift.'",
-     "notwhen": "The founder credits expertise in general without tying it to a role or activity (background-01).",
-     "papers": 3
+     "captures": "The founder's job, daily tasks or hands-on experience gave them the closeness from which the idea came.",
+     "papers": "Wareham et al. (2022); von Hippel and von Krogh (2016); Shah and Tripsas (2007)",
+     "n_papers": 3
     },
     {
+     "no": "3.4",
      "id": "background-17",
      "label": "Their network brought it",
-     "when": "An opportunity or referral came through the founder's contacts.",
-     "example": "'An old colleague passed my name to a buyer.'",
-     "notwhen": "The founder met someone new by chance (trigger-14), not through existing contacts.",
-     "papers": 13
+     "captures": "The unexpected opportunity, idea or information reached the founder through people they knew: friends, family, colleagues, communities.",
+     "papers": "Meyer and Skak (2002); Busch (2024); de Rond (2014); + 10 more",
+     "n_papers": 13
     }
    ],
    "anomaly": {
+    "no": "3.A",
     "id": "ANO-BKG",
-    "when": "The founder brought something relevant that no background code covers",
-    "notwhen": "It is a circumstance, not something the founder had: that is condition"
+    "captures": "The founder brought something relevant that no background code covers"
    }
   },
   {
-   "n": 6,
-   "name": "mechanism",
+   "no": 4,
+   "name": "Mechanism",
+   "sq": "SQ3",
+   "sq_text": "What background (prior knowledge, a problem in mind, contacts) and which mechanisms (noticing, connecting, acting, changing plans) turn the trigger into an opportunity?",
    "asks": "What did the founder do to turn it into something?",
-   "sq": "What do founders bring and do?",
+   "pick_one": null,
    "codes": [
     {
+     "no": "4.1",
      "id": "mechanism-02",
      "label": "Noticing it",
-     "when": "The founder describes the moment they registered a cue and kept it in mind.",
-     "example": "'Everyone laughed it off, but I couldn't stop thinking about it.'",
-     "notwhen": "The founder goes on to link it to a need or use (mechanism-06).",
-     "papers": 9
+     "captures": "The founder paid attention to something unexpected that others overlooked or would have dismissed.",
+     "papers": "Busch and Grimes (2023); Merton and Barber (2004); Brown (2005); + 6 more",
+     "n_papers": 9
     },
     {
+     "no": "4.2",
      "id": "mechanism-06",
      "label": "Connecting the dots",
-     "when": "The founder describes realising how the new information fit something they knew or needed.",
-     "example": "'I put the two together and thought, this could be a product.'",
-     "notwhen": "The founder only noticed the cue without linking it (mechanism-02).",
-     "papers": 14
+     "captures": "The founder linked the unexpected input to a need, problem, skill or piece of knowledge, and saw a new idea in the combination (Busch's 'association').",
+     "papers": "Smith and Hilbolling (2025); Copeland et al. (2023); Busch (2024); + 12 more",
+     "n_papers": 15
     },
     {
+     "no": "4.3",
      "id": "mechanism-22",
      "label": "Acting on it",
-     "when": "The founder describes what they did next and how quickly.",
-     "example": "'I built a landing page that weekend.'",
-     "notwhen": "Acting meant dropping or changing the original plan (mechanism-23).",
-     "papers": 16
+     "captures": "The founder took concrete steps to pursue the unexpected event: followed up, invested time or money, built or launched something.",
+     "papers": "Reijonen and Heroum (2026); Copeland et al. (2023); Balzano (2022); + 13 more",
+     "n_papers": 16
     },
     {
+     "no": "4.4",
      "id": "mechanism-23",
      "label": "Changing the plan",
-     "when": "The founder describes abandoning or changing their idea or strategy because of the event.",
-     "example": "'We scrapped the app and focused on the API.'",
-     "notwhen": "The founder acted on it without changing any plan (mechanism-22).",
-     "papers": 10
+     "captures": "The founder dropped or reshaped the original plan, product or goal to follow the unexpected input.",
+     "papers": "Murayama et al. (2015); Balzano (2022); Fultz and Hmieleski (2021); + 7 more",
+     "n_papers": 10
     },
     {
+     "no": "4.5",
      "id": "mechanism-27",
      "label": "Following what took off",
-     "when": "The founder describes small tests, early customer feedback or usage data, and backing the surprise winner.",
-     "example": "'We ran a few ads, one took off, so we went all in on that.'",
-     "notwhen": "The experiments were on materials or the product, not customers; if nothing fits, MIS-MEC.",
-     "papers": 6
+     "captures": "The founder tried things in the market, watched how customers responded, and built on what unexpectedly worked.",
+     "papers": "Alvarez and Barney (2007); Eisenhardt and Sull (2001); Sarasvathy (2001); + 3 more",
+     "n_papers": 6
     }
    ],
    "anomaly": {
+    "no": "4.A",
     "id": "ANO-MEC",
-    "when": "The founder did something with the event that no mechanism code covers",
-    "notwhen": ""
+    "captures": "The founder did something with the event that no mechanism code covers"
    }
   },
   {
-   "n": 7,
-   "name": "role",
+   "no": 5,
+   "name": "Role",
+   "sq": "SQ4",
+   "sq_text": "What role does it play in the venture (founding, redirecting, advancing it), and what outcomes follow: a product, a market, growth, or nothing?",
    "asks": "What part did it play in the venture?",
-   "sq": "What does it change in the venture?",
+   "pick_one": null,
    "codes": [
     {
+     "no": "5.1",
      "id": "role-01",
      "label": "Started the venture",
-     "when": "The founder traces the origin of the business to the event.",
-     "example": "'That conversation is why the company exists.'",
-     "notwhen": "The founder never meant to found (role-02), or an existing venture changed course (role-08).",
-     "papers": 10
+     "captures": "The unexpected event gave rise to the business idea, the first project or first customer, or made founding possible.",
+     "papers": "Dew (2009); Balzano (2022); Copeland et al. (2023); + 8 more",
+     "n_papers": 11
     },
     {
+     "no": "5.2",
      "id": "role-02",
      "label": "Accidental founder",
-     "when": "The founder stresses they were not trying to be an entrepreneur.",
-     "example": "'I never meant to start a company; it just grew.'",
-     "notwhen": "The founder already wanted to start something and found the idea by chance (role-01).",
-     "papers": 4
+     "captures": "The founder had no plan to start a business, or this business, and the unexpected event made them a founder.",
+     "papers": "Reijonen and Heroum (2026); Shah and Tripsas (2007); Engel et al. (2017); + 1 more",
+     "n_papers": 4
     },
     {
+     "no": "5.3",
      "id": "role-08",
      "label": "Changed the venture's direction",
-     "when": "The founder describes a clear turning point away from the original plan.",
-     "example": "'After that, we stopped selling to consumers and went B2B.'",
-     "notwhen": "Small tweaks with the same purpose, or growth along the same path (role-16).",
-     "papers": 20
+     "captures": "The unexpected event made the venture turn from its original plan: a new product, market, customer or business model (a pivot).",
+     "papers": "Liu and de Rond (2016); Kirtley and O'Mahony (2023); Balzano (2022); + 18 more",
+     "n_papers": 21
     },
     {
+     "no": "5.4",
      "id": "role-16",
      "label": "Moved the venture forward",
-     "when": "The founder credits a chance event with a jump in growth or progress.",
-     "example": "'Getting on that podcast doubled our sales.'",
-     "notwhen": "The event changed what the venture does (role-08).",
-     "papers": 4
+     "captures": "After founding, the unexpected event brought growth: a big order, a key partner, press, a new market, without changing direction.",
+     "papers": "Meyer and Skak (2002); Brownell et al. (2024); Mirvahedi and Morrish (2017); + 2 more",
+     "n_papers": 5
     }
    ],
    "anomaly": {
+    "no": "5.A",
     "id": "ANO-ROL",
-    "when": "It played a part in the venture other than starting, redirecting or advancing it",
-    "notwhen": ""
+    "captures": "It played a part in the venture other than starting, redirecting or advancing it"
    }
   },
   {
-   "n": 8,
-   "name": "outcome",
+   "no": 6,
+   "name": "Outcome",
+   "sq": "SQ4",
+   "sq_text": "What role does it play in the venture (founding, redirecting, advancing it), and what outcomes follow: a product, a market, growth, or nothing?",
    "asks": "What came of it?",
-   "sq": "What does it change in the venture?",
+   "pick_one": null,
    "codes": [
     {
+     "no": "6.1",
      "id": "outcome-01",
      "label": "A new product or service",
-     "when": "The founder traces something they now sell or do back to the event.",
-     "example": "'That's how our best-selling kit was born.'",
-     "notwhen": "What came out was a new market or customers, not a new offering (outcome-03).",
-     "papers": 9
+     "captures": "A specific product, service, feature or process came out of the unexpected event.",
+     "papers": "Busch (2024); Busch and Grimes (2023); Cunha et al. (2010); + 6 more",
+     "n_papers": 9
     },
     {
+     "no": "6.2",
      "id": "outcome-03",
      "label": "A new market or opportunity",
-     "when": "The founder says the event opened their eyes to customers or channels they had not targeted.",
-     "example": "'We realised dentists were our real market.'",
-     "notwhen": "The result was a new product or service (outcome-01).",
-     "papers": 6
+     "captures": "The event revealed a market, customer group, channel or opportunity the founder had not seen or planned for.",
+     "papers": "Balzano (2022); Graebner (2004); Smith and Hilbolling (2025); + 3 more",
+     "n_papers": 6
     },
     {
+     "no": "6.3",
      "id": "outcome-05",
      "label": "Growth and results",
-     "when": "The founder links business results to the event.",
-     "example": "'That channel is now 60% of our revenue.'",
-     "notwhen": "The founder describes no measurable or stated result; use only outcome-01 or outcome-03 as fits.",
-     "papers": 7
+     "captures": "The founder credits the unexpected event, and what they did with it, with growth, sales, revenue or profit.",
+     "papers": "Fultz and Hmieleski (2021); Balzano (2022); Oo et al. (2025); + 5 more",
+     "n_papers": 8
     },
     {
+     "no": "6.4",
      "id": "outcome-25",
      "label": "Nothing came of it",
-     "when": "The founder recounts a chance signal or contact they ignored or did not follow up, sometimes with regret.",
-     "example": "'Someone offered to invest early on and I said no.'",
-     "notwhen": "The find was pursued and led somewhere; use the outcome codes for that.",
-     "papers": 9
+     "captures": "The unexpected opportunity was missed, dismissed, dropped or forgotten.",
+     "papers": "Busch (2024); Smith and Hilbolling (2025); Cunha et al. (2010); + 6 more",
+     "n_papers": 9
     }
    ],
    "anomaly": {
+    "no": "6.A",
     "id": "ANO-OUT",
-    "when": "A result that no outcome code covers",
-    "notwhen": ""
+    "captures": "A result that no outcome code covers"
    }
   },
   {
-   "n": 9,
-   "name": "condition",
+   "no": 7,
+   "name": "Condition",
+   "sq": "SQ5",
+   "sq_text": "Which conditions make it more or less likely to occur and be acted on: seeking out chance, cheap trials, loose plans, or scarce resources?",
    "asks": "What made it easier or harder?",
-   "sq": "When is it more or less likely?",
+   "pick_one": null,
    "codes": [
     {
+     "no": "7.1",
      "id": "condition-04",
      "label": "Putting themselves in chance's way",
-     "when": "The founder describes deliberate habits that invite chance.",
-     "example": "'I said yes to every coffee meeting that first year.'",
-     "notwhen": "The founder only says they are open to luck, without describing actions.",
-     "papers": 7
+     "captures": "The founder actively made unexpected opportunities more likely: going to events, talking to many people, trying many things, sharing their work.",
+     "papers": "Copeland et al. (2023); Eisenhardt and Sull (2001); Merton and Barber (2004); + 5 more",
+     "n_papers": 8
     },
     {
+     "no": "7.2",
      "id": "condition-17",
      "label": "Cheap to try",
-     "when": "The founder says they could test it quickly and cheaply, or had a safety net.",
-     "example": "'It cost me $50 to see if anyone would buy it.'",
-     "notwhen": "The point is lacking money to follow up (condition-35 or MIS-CND).",
-     "papers": 7
+     "captures": "Trying the new idea cost little, so the founder could act on the unexpected without much risk.",
+     "papers": "Reijonen and Heroum (2026); Austin et al. (2012); Denrell et al. (2015); + 4 more",
+     "n_papers": 7
     },
     {
+     "no": "7.3",
      "id": "condition-22",
-     "label": "Loose plans",
-     "when": "The founder describes having no fixed plan, moving step by step, or being locked into a plan.",
-     "example": "'We never had a business plan, so it was easy to switch.'",
-     "notwhen": "The constraint was obligations to investors or contracts; if no core code fits, use MIS-CND.",
-     "papers": 10
+     "label": "No fixed plan",
+     "captures": "The founder held plans loosely, which left room to follow the unexpected; or held them rigidly, which nearly made them miss it.",
+     "papers": "Dew (2009); Balzano (2022); Merton and Barber (2004); + 7 more",
+     "n_papers": 10
     },
     {
+     "no": "7.4",
      "id": "condition-35",
      "label": "Little money or resources",
-     "when": "Being short of money or resources led the founder to improvise or take an unexpected opportunity.",
-     "example": "'We couldn't afford ads, so we said yes to any partnership.'",
-     "notwhen": "Lack of money stopped them following up; if no core code fits, use MIS-CND.",
-     "papers": 7
+     "captures": "Having little money or few resources pushed the founder to rely on what turned up and improvise.",
+     "papers": "Fultz and Hmieleski (2021); Busch and Grimes (2023); Fultz and Hmieleski (2025); + 4 more",
+     "n_papers": 7
     }
    ],
    "anomaly": {
+    "no": "7.A",
     "id": "ANO-CND",
-    "when": "A circumstance that made it easier or harder, not covered by a condition code",
-    "notwhen": ""
+    "captures": "A circumstance that made it easier or harder, not covered by a condition code"
    }
   },
   {
-   "n": 10,
-   "name": "account",
+   "no": 8,
+   "name": "Account",
+   "sq": "SQ6",
+   "sq_text": "How do founders account for it afterwards: as luck, as luck plus effort, as clear only in hindsight, or retold as planned?",
    "asks": "How does the founder tell it afterwards?",
-   "sq": "How do founders tell it?",
+   "pick_one": null,
    "codes": [
     {
-     "id": "account-01",
-     "label": "Told as if planned",
-     "when": "The story is told as linear or intended, while the details show unplanned turns.",
-     "example": "'We always knew this was the market', though earlier they describe stumbling into it.",
-     "notwhen": "The founder credits skill rather than recasting the sequence; if nothing fits, MIS-ACC.",
-     "papers": 16
-    },
-    {
+     "no": "8.1",
      "id": "account-08",
      "label": "Credited to luck",
-     "when": "The founder uses luck language.",
-     "example": "'Honestly, we just got lucky.'",
-     "notwhen": "The founder divides credit between luck and their own effort (account-09).",
-     "papers": 8
+     "captures": "The founder explicitly explains an event or success as luck, chance or being in the right place at the right time.",
+     "papers": "Krumboltz (1998); Fultz and Hmieleski (2025); Oo et al. (2025); + 5 more",
+     "n_papers": 8
     },
     {
+     "no": "8.2",
      "id": "account-09",
      "label": "Part luck, part effort",
-     "when": "The founder says success was partly luck and partly effort, or that they made their own luck.",
-     "example": "'Luck opened the door, but we worked hard to walk through it.'",
-     "notwhen": "The founder credits luck alone (account-08).",
-     "papers": 7
+     "captures": "The founder divides credit between luck and their own skill or hard work.",
+     "papers": "Nair et al. (2020); Dew (2009); Oo et al. (2025); + 4 more",
+     "n_papers": 7
     },
     {
+     "no": "8.3",
      "id": "account-18",
      "label": "Only clear in hindsight",
-     "when": "The founder describes something that seemed small or unimportant then but crucial now.",
-     "example": "'I almost didn't go to that meetup.'",
-     "notwhen": "A setback first seen as bad luck was reinterpreted; if nothing fits, MIS-ACC.",
-     "papers": 6
+     "captures": "The founder says the event seemed minor at the time and only later proved to be a turning point.",
+     "papers": "Otto et al. (2024); Engel et al. (2017); Graebner (2004); + 3 more",
+     "n_papers": 6
     }
    ],
    "anomaly": {
+    "no": "8.A",
     "id": "ANO-ACC",
-    "when": "A way of telling it that no account code covers",
-    "notwhen": ""
+    "captures": "A way of telling it that no account code covers"
    }
   }
  ],
- "definitions": [
+ "level2": [
   {
-   "id": "DEF-BUSCH",
-   "name": "Busch (2024)",
-   "in_short": "Agency, surprise and value",
-   "papers": 6,
-   "needs": [
-    "Agency: acted on it",
-    "Surprise",
-    "Value"
+   "part": "Definitions of serendipity",
+   "rows": [
+    {
+     "no": "D1",
+     "name": "Busch (2024)",
+     "in_short": "Agency, surprise and value",
+     "rule": "Agency: acted on it (1.5) AND Surprise (1.4) AND Value (1.6)",
+     "papers": "Busch (2024); Fultz and Hmieleski (2025); Klyver et al. (2025); + 3 more"
+    },
+    {
+     "no": "D2",
+     "name": "Dew (2009)",
+     "in_short": "Search, chance and prior knowledge",
+     "rule": "Surprise (1.4) AND Relevant expertise (3.1) AND (Open to any business (1.2) OR Searching for something specific (1.3))",
+     "papers": "Dew (2009); Busch (2024); Engel et al. (2017); + 3 more"
+    },
+    {
+     "no": "D3",
+     "name": "Walpole, after Merton and Barber (2004)",
+     "in_short": "Accident and sagacity",
+     "rule": "Surprise (1.4) AND Connecting the dots (4.2)",
+     "papers": "Merton and Barber (2004); Busch and Barkema (2020); Cunha et al. (2010); + 4 more"
+    }
    ]
   },
   {
-   "id": "DEF-DEW",
-   "name": "Dew (2009)",
-   "in_short": "Search, chance and prior knowledge",
-   "papers": 6,
-   "needs": [
-    "Already searching",
-    "Surprise",
-    "Relevant expertise"
+   "part": "Rival explanations (Busch 2024, p. 29)",
+   "rows": [
+    {
+     "no": "R1",
+     "name": "Pure luck",
+     "in_short": "Surprise and value without agency (Busch 2024, p. 29)",
+     "rule": "Surprise (1.4) AND Value (1.6) AND NOT Agency: acted on it (1.5)",
+     "papers": "Busch (2024); Merton and Barber (2004); Copeland et al. (2023); + 11 more"
+    },
+    {
+     "no": "R2",
+     "name": "Targeted search or a plan",
+     "in_short": "Agency and value without surprise (Busch 2024, p. 29)",
+     "rule": "Searching for something specific (1.3) AND Agency: acted on it (1.5) AND Value (1.6) AND NOT Surprise (1.4)",
+     "papers": "Fultz and Hmieleski (2025); Bhave (1994); Kirzner (1997); + 20 more"
+    }
    ]
   },
   {
-   "id": "DEF-WALPOLE",
-   "name": "Walpole, after Merton and Barber (2004)",
-   "in_short": "Accident and sagacity",
-   "papers": 7,
-   "needs": [
-    "Surprise",
-    "Connecting the dots"
+   "part": "Types (after Yaqub 2018)",
+   "rows": [
+    {
+     "no": "T1",
+     "name": "Mertonian: sought, found unexpectedly",
+     "in_short": "A specific search, answered by the problem already in mind",
+     "rule": "Searching for something specific (1.3) AND A problem already in mind (3.2) AND NOT Changing the plan (4.4)",
+     "papers": "Yaqub (2018); Merton and Barber (2004); Mirvahedi and Morrish (2017); + 8 more"
+    },
+    {
+     "no": "T2",
+     "name": "Walpolian: sought one, found another",
+     "in_short": "A specific search that changed the plan",
+     "rule": "Searching for something specific (1.3) AND Changing the plan (4.4)",
+     "papers": "Yaqub (2018); Merton and Barber (2004); Mirvahedi and Morrish (2017); + 6 more"
+    },
+    {
+     "no": "T3",
+     "name": "Bushian: exploring, met an existing need",
+     "in_short": "No specific search, but a problem already in mind",
+     "rule": "A problem already in mind (3.2) AND (Not looking at all (1.1) OR Open to any business (1.2))",
+     "papers": "Yaqub (2018); Fultz and Hmieleski (2025)"
+    },
+    {
+     "no": "T4",
+     "name": "Stephanian: solution first, problem later",
+     "in_short": "No specific search and no problem in mind",
+     "rule": "(Not looking at all (1.1) OR Open to any business (1.2)) AND NOT A problem already in mind (3.2)",
+     "papers": "Yaqub (2018); Balzano (2022); Fultz and Hmieleski (2025); + 1 more"
+    }
+   ]
+  },
+  {
+   "part": "Decided by the researchers",
+   "rows": [
+    {
+     "no": "J1",
+     "name": "Told as if planned",
+     "in_short": "The story is told as intended, though its details show unplanned turns",
+     "rule": "Decided by the researchers, with a written reason",
+     "papers": "de Rond and Thietart (2007); Merton and Barber (2004); Van Lent et al. (2022); + 11 more"
+    },
+    {
+     "no": "J2",
+     "name": "Working with what's at hand",
+     "in_short": "Built from the founder's own means, with no surprise",
+     "rule": "Decided by the researchers, with a written reason",
+     "papers": "Reijonen and Heroum (2026); Cunha et al. (2010); Carayannis et al. (2011); + 4 more"
+    }
    ]
   }
  ],
  "new": {
+  "no": "9.A",
   "id": "ANO-NEW",
-  "when": "Relevant to the research question, but no group asks about it",
-  "notwhen": "It belongs to a group: use that group's anomaly code"
+  "captures": "Relevant to the research question, but no group asks about it"
  },
- "core": 45,
- "anomalies": 10
+ "counts": {
+  "level1": 36,
+  "groups": 8,
+  "anomaly": 8,
+  "level2": 11
+ }
 }
