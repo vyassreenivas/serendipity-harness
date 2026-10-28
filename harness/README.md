@@ -55,7 +55,7 @@ unless `project.toml` points that stage at a model running on your machine.
 | `prompts/` | The exact instructions given to the model at each stage. |
 | `serendipity_harness/` | The code, one file per stage. |
 | `codebook/` | The kit's wording and the log of every codebook change. |
-| `docs/` | Coding instructions for human coders and the technical supplement. |
+| `docs/` | Earlier notes from the first design (episodes); the current documents are in `../harness_v2/docs/`. Not copied to the submission repository. |
 | `runs/` | One folder per run, named by date and time. Never overwritten. |
 
 The papers and interviews are not in this folder and are not published. The

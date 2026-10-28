@@ -1,14 +1,14 @@
 {
- "built": "2026-10-28T16:03:44+00:00",
+ "built": "2026-10-28T16:04:04+00:00",
  "from": {
-  "harness": "ed2176b",
+  "harness": "3e648c0",
   "harness_v2": "db952f5"
  },
  "files": {
   ".gitignore": "3bd3d7339a6fb78b5b05d6a80b62037a09cb51ee01efad1c4f8addde67fb8272",
   "README.md": "f0f2bf1ac14789f89456630012f9d5c39990a8d3af406ed1bc1b656ab7d94d85",
   "harness/.gitignore": "39ac9d401fc060b6becb780d6cbde8f8b52b334252eaea3429be1033ce614448",
-  "harness/README.md": "c74b88c077db375fad95176d4954b63c30af7db865baf1b7624a1b87c2857497",
+  "harness/README.md": "cbf4833f54177d01a7932fa2c691f41272077c57e74db10627daee25c6e258ba",
   "harness/codebook/added_papers.json": "4e91eac9ad8c606217ec1e28d9d343600c60126018057a197a08f37ca6c8ec8e",
   "harness/codebook/anomaly_codes.json": "37bcd115de97abba39c1fd41d89b1930c20d092e52b62014e9699801bb4110ea",
   "harness/codebook/anomaly_log.csv": "4e294b591e8d06baf0e3016964d803078393021ddda9162d832c9f207e466e2b",
