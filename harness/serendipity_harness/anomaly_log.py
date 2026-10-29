@@ -18,7 +18,16 @@ earlier entries, so `add` can be rerun. `set` records a decision: a theme is "op
 a codebook version) or "dropped" (with a reason). Open themes carry forward to the
 next round; those still open at the end are reported as findings.
 
-Before a recurring theme becomes a code, the researchers look for the papers that
+A theme is adopted when it meets three rules, and `set --note` says how: it is one
+clear idea, with a definition and lines for when to use it and when not to
+(MacQueen et al. 1998); it bears on the research question (Fife and Gossner 2024);
+and no existing code covers it, even reworded. If one nearly does, that code is
+widened instead (DeCuir-Gunby et al. 2011). There is no minimum count: recurrence
+is evidence that a theme is a pattern rather than one response (MacQueen et al.
+1998), but a single case can still be adopted if it challenges the codebook (Fife
+and Gossner 2024).
+
+Before a theme becomes a code, the researchers look for the papers that
 state it. `search` records each search: where (for example a catalogue of journal
 abstracts, or the full texts held), the query, how many hits, and the papers read
 in full and kept. Kept papers join the theme's papers. A theme no kept paper states

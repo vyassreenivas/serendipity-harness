@@ -1,8 +1,8 @@
 {
- "built": "2026-10-28T16:04:04+00:00",
+ "built": "2026-10-29T17:42:44+00:00",
  "from": {
-  "harness": "3e648c0",
-  "harness_v2": "db952f5"
+  "harness": "86239a2",
+  "harness_v2": "5569cd3"
  },
  "files": {
   ".gitignore": "3bd3d7339a6fb78b5b05d6a80b62037a09cb51ee01efad1c4f8addde67fb8272",
@@ -177,7 +177,7 @@
   "harness/runs/20261021-003947/project.toml": "9c95429abe43ad4285d7c640c8b30c68307a5d02de4fca86474d7eaf65f24592",
   "harness/serendipity_harness/__init__.py": "80894b1c2fa5d1498748e2ee9cfacfb6eaa910834ad73c3a8d3d567d06f762ed",
   "harness/serendipity_harness/__main__.py": "32502698d25630c3254d9b2e41ad4ed2defe1ee6d73b182653ee93ca379639e7",
-  "harness/serendipity_harness/anomaly_log.py": "c38e9a3c59adbc6264248a3fa59cfd06c39ffe11ce9014fad78d17abb3c6085b",
+  "harness/serendipity_harness/anomaly_log.py": "2c10f7c61aa1433ca6e49b8cf0c823c2624eddbe3d237d7aaf261232d0064a82",
   "harness/serendipity_harness/coded_pages.py": "30ef7cffda5f1c7345f993c40e93fd334342e03106741e6c3f245e4d327a7c0c",
   "harness/serendipity_harness/coding.py": "ce4048e62a4fc09a4cd61c9a0ed9927f76e7dd52d4a79b8c75b3cfcd7434ce3d",
   "harness/serendipity_harness/compare.py": "dabccd3d55de9c6ad2d423231f67a46072e0e0f5946a960a204b92421577c8a9",
@@ -240,18 +240,18 @@
   "harness_v2/docs/source/tree.png": "23c03c17db1f615c42596e875bad171070a10772df975e73e6c850442ee43cff",
   "harness_v2/docs/technical_v2/fig1_overview.png": "47e91f2b7d93b36bea4217da14522f0d9753df205de6f6aad931b9acd89c91f0",
   "harness_v2/docs/technical_v2/fig_build.png": "10bebc6151493de1b6d7f3aeca54a2093c0fb812f736733e83fd1ff0d78380b1",
-  "harness_v2/docs/technical_v2/fig_code.png": "58cb2d30b9d0f5884c35438370214eb508f74509d2f4e3bab3d8026443b9a37e",
+  "harness_v2/docs/technical_v2/fig_code.png": "65c87b88df9cefa2fa5c1595947da8a6dde7be218ede6aa03ca1e78c29c22be9",
   "harness_v2/docs/technical_v2/figures.py": "816dc23af9be48187797b2292f5f8810a0363194e2a054c8ed226b334641c591",
-  "harness_v2/docs/technical_v2/process.html": "ef9b1d75a3aaa8b651941c9044d11597d9aabb6a7a4cb165d6bdfa0a95f221d5",
-  "harness_v2/docs/technical_v2/process.json": "45c8a006e6a60f98d911b5fb611b30db01658c91c0c6729fe9882314f3e23f84",
-  "harness_v2/docs/technical_v2/technical_draft.html": "7744275a39086522299f949b3cbd1667e9f5061c5ade9dd10d6593e241f1fe65",
-  "harness_v2/docs/technical_v2/technical_draft.md": "5c02f5596ae3288cecc6fde558bdd85b266c50a39989c79556ee3e6bf6aeffc6",
+  "harness_v2/docs/technical_v2/process.html": "02778622c7afab09d6367174cb6b9e7ed269fdb92747b45cb353934d591ebcba",
+  "harness_v2/docs/technical_v2/process.json": "83eb8aac13d5bbab96e654752a750c8aa94c50581a85767498c38ba5ca9239e9",
+  "harness_v2/docs/technical_v2/technical_draft.html": "a083ca35d300de26dd1e3161529ea72eb003ecc045ffbcaf6e25912078331ee5",
+  "harness_v2/docs/technical_v2/technical_draft.md": "2c965f64aa8d7395aaa0e4f175c8bb81d19028e53ff8a4e1c530de43242d3e07",
   "harness_v2/docs/technical_v2/views.py": "29352bb06b866dc6390d7c69ba7ebbb0c3a83f8d476424dcbab1d42a153d2f4b",
   "harness_v2/submission_README.md": "f0f2bf1ac14789f89456630012f9d5c39990a8d3af406ed1bc1b656ab7d94d85",
   "package/1_research_question.docx": "05224d98a39614affe94e9932ca969ab20665308268d65753b7845a16400afc1",
   "package/2_paper_list.docx": "fdaca8be8c7b0616e4541af4653ad48fac888cf01c3e911d6ec83075ddd7de5e",
   "package/3_codebook.docx": "78bfc600bde0d989f26b5e8c1f450d1bab9eb8f02c8e90692b1cce98e8ec9984",
-  "package/4_technical_document.html": "7744275a39086522299f949b3cbd1667e9f5061c5ade9dd10d6593e241f1fe65",
+  "package/4_technical_document.html": "a083ca35d300de26dd1e3161529ea72eb003ecc045ffbcaf6e25912078331ee5",
   "package/5_code_sources.html": "a11d5923aaad1925663a313c11f1c2c4dcc56c05c250e749c39b639739147512",
   "package/6_codebook_progression.html": "ce42fbe71380f0e31f642d8a924b087a045c0c5c12268de3918406b351087a57",
   "requirements.txt": "a29d9285fa6942f546f963a04870f7d800c4b34c80171116ada9adab070c89e1"

@@ -41,7 +41,7 @@
     {"who": "program", "what": "Check codes and segments; work out level 2 by rule", "files": ["harness_v2/docs/codebook/levels.py", "harness/codebook/levels.json"], "record": "Definitions, rivals and types per story", "status": "built"},
     {"who": "program", "what": "Compare coders; count agreement and anomalies", "files": ["harness/serendipity_harness/compare.py"], "record": "Agreement report, near misses, code use (comparison/)", "status": "built; tested on made-up researcher coding"},
     {"who": "us", "what": "Review the round; group anomalies into themes", "check": true, "files": ["harness/serendipity_harness/anomaly_log.py"], "record": "Anomaly log (harness/codebook/anomaly_log.json)", "status": "built; round 1 themes drafted"},
-    {"who": "us", "what": "Read papers for recurring themes; write next codebook", "check": true, "files": ["harness/serendipity_harness/anomaly_log.py", "harness/serendipity_harness/progression.py"], "record": "Searches and papers kept in the anomaly log; codebook_v<next>.json; progression page", "status": "built; v2 to do"}
+    {"who": "us", "what": "Read papers for adopted themes; write next codebook", "check": true, "files": ["harness/serendipity_harness/anomaly_log.py", "harness/serendipity_harness/progression.py"], "record": "Searches and papers kept in the anomaly log; codebook_v<next>.json; progression page", "status": "built; v2 to do"}
    ]
   }
  ]
