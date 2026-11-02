@@ -1,8 +1,8 @@
 {
- "built": "2026-11-02T16:23:37+00:00",
+ "built": "2026-11-02T16:26:12+00:00",
  "from": {
   "harness": "e715331",
-  "harness_v2": "15e2cd5"
+  "harness_v2": "1b47cd1"
  },
  "files": {
   ".gitignore": "584b2b785ddd1d8277894771634b54ef67101078c60ebedbf6ddef7dd7ce5e69",
@@ -176,7 +176,7 @@
   "1_package/rounds/interviews_round3/75_Interview 75.html": "76469a5aa2edd8495f8312a4f37a0015630148f000e446699f68cfc56f09764c",
   "1_package/rounds/interviews_round3/anomalies.html": "00538df628efb2ca0157d1b120c5f96822dff3b9ba744ebb7a2abec06b0879f5",
   "1_package/rounds/interviews_round3/index.html": "4928138d91f5c8ec6b702b11c7185122cbf13b152716e60d83dab3b30dc3449d",
-  "README.md": "17b4bf9e6b37092d666c2b7f99130afe33a99eb1a6e55e68b27d0514445f636a",
+  "README.md": "ceb128768ddc5b7ba020a499942551fa2fd3a4959df7bda01813838f1fe80a74",
   "documents/README.md": "efb1b60c27b88d62726c3cc1012238a1e03d81e2b6955dec9b2e90777e7cd432",
   "documents/build_submission.py": "9428d99911a643d803302d0b0b957b8e7e92eb2c3fbaa6733d10661654057e61",
   "documents/docs/codebook/drafts/prompt_draft2.md": "5bbe19b54949d8d932db3b28981cadc8bb45fe48114f8702f210c285f589e255",

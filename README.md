@@ -4,31 +4,36 @@ Prototype submitted with our proposal to the Organization Science special issue
 "AI-Enabled Frontiers in Organizational Science". Vyas Sreenivas and Ravi S.
 Kudesia, 1 November 2026.
 
+> **Editors and reviewers: start with [`1_package/`](1_package).** It holds
+> everything to read. You do not need the other folders.
+>
+> 1. **Download the repository:** the green **Code** button above, then **Download ZIP**. Unzip it.
+> 2. **Read the technical appendix:** `1_package/1_technical_document.docx`.
+> 3. **Open the rounds in a browser:** `1_package/rounds/index.html` links every codebook version, every round and the coded interviews.
+>
+> GitHub shows `.html` files as code, so open them from the download.
+
 The harness helps researchers code a large collection of texts, such as
 interviews, using ideas from published research. It builds a codebook from
 papers, has an AI model code the texts in rounds of 25, keeps what the codebook
 cannot explain as anomalies, and grows the codebook from the papers that explain
 them. Anomalies that no paper explains are kept for study at the end, where new
-theory can come from. Every step is recorded so it can be checked and rerun.
+theory can come from. Researchers make every research decision; the model reads
+and suggests; a plain program checks its work. Every step is recorded so it can be
+checked and rerun.
 
 Our worked example is serendipity in founder interviews from Starter Story.
 
-## Start here: `1_package/`
-
-Everything an editor or reviewer needs to read is in **`1_package/`**.
+## What is in `1_package/`
 
 | Open this | What you see |
 |---|---|
-| `1_package/1_technical_document.docx` | The technical appendix: what the harness does, the four stages, and how to use it on another question |
-| `1_package/2_figures.pptx` | The appendix's four figures, editable |
-| `1_package/3_research_question.docx` | The research question and its sub-questions |
-| `1_package/4_codebook_progression.html` | Every code against every codebook version, 1.0 to 4.0 (draft), with where each came from |
-| `1_package/5_process.html` | Every step, who does it (researchers, model or program), and what it records |
-| `1_package/rounds/` | The calibration rounds: open `index.html`. Page by page: codebook 1.0, round 1, the paper search, codebook 2.0, how the codebook grew, round 2, codebook 3.0, round 3 |
-
-GitHub shows `.html` files as code. To read them as pages, download the
-repository (the green **Code** button, then **Download ZIP**) and open them in a
-browser. Each page is a single file.
+| [`1_technical_document.docx`](1_package/1_technical_document.docx) | The technical appendix: what the harness does, the four stages, and how to use it on another question |
+| [`2_figures.pptx`](1_package/2_figures.pptx) | The appendix's four figures, editable |
+| [`3_research_question.docx`](1_package/3_research_question.docx) | The research question and its sub-questions |
+| [`4_codebook_progression.html`](1_package/4_codebook_progression.html) | Every code against every codebook version, 1.0 to 4.0 (draft), with where each came from |
+| [`5_process.html`](1_package/5_process.html) | Every step, who does it (researchers, model or program), and what it records |
+| [`rounds/index.html`](1_package/rounds/index.html) | The calibration rounds, in order: codebook 1.0, round 1, the paper search, codebook 2.0, how the codebook grew, round 2, codebook 3.0, round 3, and the coded interviews of each round |
 
 **The coded interviews are confidential.** Starter Story owns the interviews.
 `1_package/rounds/interviews_round1/`, `interviews_round2/` and `interviews_round3/`
