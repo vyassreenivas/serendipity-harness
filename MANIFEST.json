@@ -1,12 +1,12 @@
 {
- "built": "2026-11-02T01:10:14+00:00",
+ "built": "2026-11-02T01:28:31+00:00",
  "from": {
   "harness": "3d0fd67",
-  "harness_v2": "2475653"
+  "harness_v2": "3f80fad"
  },
  "files": {
   ".gitignore": "3bd3d7339a6fb78b5b05d6a80b62037a09cb51ee01efad1c4f8addde67fb8272",
-  "README.md": "882acc5fc2d704b6f3649688bd083963090c7e57b763fbc7205def2f6f24036e",
+  "README.md": "4c372b3b7ea04c4d7f4378f968949eae3da33462ac171e628de9b7e071057f5e",
   "harness/.gitignore": "39ac9d401fc060b6becb780d6cbde8f8b52b334252eaea3429be1033ce614448",
   "harness/README.md": "cbf4833f54177d01a7932fa2c691f41272077c57e74db10627daee25c6e258ba",
   "harness/codebook/added_papers.json": "4e91eac9ad8c606217ec1e28d9d343600c60126018057a197a08f37ca6c8ec8e",
@@ -283,7 +283,7 @@
   "harness_v2/docs/technical_v2/process.json": "60bde71d5cf66c2d4d682d357177b67b0fb4caf504fce75ff8f42141a76d80bc",
   "harness_v2/docs/technical_v2/technical_figures.pptx": "3b761b292c09fcb2cfb88c73e44b8c5c2a3cd61901cd3b5278980d5e64effb04",
   "harness_v2/docs/technical_v2/views.py": "29352bb06b866dc6390d7c69ba7ebbb0c3a83f8d476424dcbab1d42a153d2f4b",
-  "harness_v2/submission_README.md": "882acc5fc2d704b6f3649688bd083963090c7e57b763fbc7205def2f6f24036e",
+  "harness_v2/submission_README.md": "4c372b3b7ea04c4d7f4378f968949eae3da33462ac171e628de9b7e071057f5e",
   "package/1_technical_document.docx": "812c612da5c81cd1be4e4ed4f3d2bf53b2dcd8bc98d93e1237af24cd162d441d",
   "package/2_figures.pptx": "3b761b292c09fcb2cfb88c73e44b8c5c2a3cd61901cd3b5278980d5e64effb04",
   "package/3_research_question.docx": "05224d98a39614affe94e9932ca969ab20665308268d65753b7845a16400afc1",

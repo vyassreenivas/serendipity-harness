@@ -56,24 +56,49 @@ separate confidential file, with names and personal details replaced.
 
 ## Run it
 
-Needs Python 3.11 or later.
+### Quick start: rebuild our codebooks (5 minutes, no data or model needed)
+
+Needs Python 3.11 or later and git.
 
 ```bash
+git clone https://github.com/vyassreenivas/serendipity-harness.git
+cd serendipity-harness
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 cd harness
-python -m serendipity_harness            # lists the main stages
 ```
 
-Rebuild a codebook version from the one before and its changes file (no model, no data needed):
+Rebuild codebook versions 2.0, 3.0 and 4.0 (draft), each from the version before and its changes file:
 
 ```bash
 python -m serendipity_harness.next_version codebook/changes_v2.0.json
 python -m serendipity_harness.next_version codebook/changes_v3.0.json
 python -m serendipity_harness.next_version codebook/changes_v4.0_draft.json
-python -m serendipity_harness.progression OUT_DIR                 # how the codebook grew
+git status
 ```
 
-The steps of a coding round each take the round's folder:
+`git status` should report no changes: the rebuilt codebooks are identical to ours.
+
+See every anomaly theme across the three rounds, and how the codebook grew:
+
+```bash
+python -m serendipity_harness.anomaly_log show
+python -m serendipity_harness.progression ../progression_out
+```
+
+The second command writes `codebook_progression.html`; open it in a browser.
+
+### What each part needs
+
+| To do this | You need |
+|---|---|
+| Rebuild the codebooks; see the anomaly log and how the codebook grew | Nothing beyond this repository |
+| Check every quote against its paper (`python -m serendipity_harness.evidence codebook/evidence_v3.0.json`) | The papers, as PDFs or text, which we cannot share; quotes from papers you lack show as MISSING |
+| Build a codebook from papers (Stage 2) | Your papers, and an Anthropic API key or a local model |
+| Code interviews in rounds (Stage 3) | Your texts, and an Anthropic API key or a local model |
+
+`python -m serendipity_harness` lists the main stages. The steps of a coding round each take the round's folder:
 
 ```bash
 python -m serendipity_harness.rounds WORK_DIR --codebook codebook/codebook_v3.0.json --draw 25 --seed SEED
@@ -82,9 +107,10 @@ python -m serendipity_harness.agreement WORK_A WORK_B OUT_CSV     # compare two 
 python -m serendipity_harness.anomaly_log add WORK_DIR --round N  # record the round's anomalies
 ```
 
-The stages that call a model need an Anthropic API key, or a local open-weight
-model through Ollama (set in `project.toml`). Saved model calls are reused, so a
-run can be replayed without the model.
+Models are set in `harness/project.toml`: Claude through the Anthropic API (set
+`ANTHROPIC_API_KEY`), or an open-weight model on your own computer through
+Ollama. Every model call is saved, and a saved call is reused, so a run can be
+replayed without the model.
 
 ## Using it on another question
 
