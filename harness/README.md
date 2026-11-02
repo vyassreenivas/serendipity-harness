@@ -9,7 +9,7 @@ research question, and a folder of interviews. All four are named in
 `project.toml`.
 
 The method, the state of each stage and the results so far are in the
-technical appendix, `../harness_v2/docs/technical_v2/technical_draft.md`.
+technical appendix (in the submission repository, `1_package/1_technical_document.docx`).
 
 ## Stages
 
@@ -55,7 +55,7 @@ unless `project.toml` points that stage at a model running on your machine.
 | `prompts/` | The exact instructions given to the model at each stage. |
 | `serendipity_harness/` | The code, one file per stage. |
 | `codebook/` | The kit's wording and the log of every codebook change. |
-| `docs/` | Earlier notes from the first design (episodes); the current documents are in `../harness_v2/docs/`. Not copied to the submission repository. |
+| `docs/` | Earlier notes from the first design (episodes); the current documents are in the technical appendix. Not copied to the submission repository. |
 | `runs/` | One folder per run, named by date and time. Never overwritten. |
 
 The papers and interviews are not in this folder and are not published. The

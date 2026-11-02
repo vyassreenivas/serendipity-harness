@@ -8,4 +8,4 @@ harness/runs/*/segments/
 harness/runs/*/calls/
 harness/runs/*/model_coding/
 harness/runs/*/kit/
-harness_v2/outputs/
+documents/outputs/

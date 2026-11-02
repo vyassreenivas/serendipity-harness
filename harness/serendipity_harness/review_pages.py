@@ -45,6 +45,8 @@ from .runlog import ROOT
 E = html.escape
 PAPERS: dict = {}  # references for papers not in paper_metadata.json, from the evidence files
 CB = ROOT / "harness" / "codebook"
+# The document tools: harness_v2/ in our working files, documents/ in the submission repository.
+DOCS = ROOT / "harness_v2" if (ROOT / "harness_v2").exists() else ROOT / "documents"
 ID = re.compile(r"\b(?:definition|type|trigger|mechanism|background|role|outcome|account|rival|condition)-\d+\b")
 ANO = re.compile(r"\b(?:use |code )?ANO-[A-Z]{3}\b")
 
@@ -183,7 +185,7 @@ def codebook_page(cb: dict, version: str, meta: dict, files: dict, evidence: dic
     view = codebook_from(cb)
     num, labels = numbering(view), view["labels"]
     added = {e["id"]: e for e in changes["codes"]} if changes else {}
-    sq = json.loads((ROOT / "harness_v2/docs/codebook/questions.json").read_text(encoding="utf-8"))
+    sq = json.loads((DOCS / "docs/codebook/questions.json").read_text(encoding="utf-8"))
     sq_text = {f"SQ{r['sq']}": r["text"] for r in sq["rows"]}
     groups = [dict(g, sq=l["sq"], no=gi) for gi, (g, l) in enumerate(zip(view["groups"], cb["levels"]["level1"]), 1)]
     ids = lambda g: (g["pick_one"]["codes"] if g["pick_one"] else []) + g["codes"]
@@ -497,7 +499,7 @@ def main() -> None:
     view1, view2 = codebook_from(cb1), codebook_from(cb2)
     added2 = {c["id"] for c in cb2["codes"] if c.get("added_in") == "2.0"}
     n_new = sum(e["id"] in added2 for e in changes["codes"])
-    conf = ROOT / "harness_v2" / "outputs" / "review_confidential"
+    conf = DOCS / "outputs" / "review_confidential"
     rounds = {r["round"]: r for r in log["rounds"] if r["coder"] == "model"}
     body3, n_cases, n_stories, n_ano, anomalies = round_body(ROOT / rounds[1]["work"], conf / "round1", view1, "1.0",
                                                              "Page 3 follows each one.")

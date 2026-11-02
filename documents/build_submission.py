@@ -3,7 +3,7 @@
 Usage: python build_submission.py [TARGET]   (default: ../submission/serendipity-harness)
 
 The target is a git repository. Everything in it except .git is removed and
-rebuilt from what is committed in harness/ and harness_v2/, the codebook run
+rebuilt from what is committed in harness/ and harness_v2/ (as documents/), the codebook run
 records, and the reviewer package, so the repository can be remade the same way
 at any time. Nothing is committed: check the result, then commit in the target.
 
@@ -35,11 +35,15 @@ INTERVIEWS = ROOT / "outputs" / "starter_story_interviews_txt"
 # notes written for the episode design, which the current documents replace.
 HARNESS_SKIP = ["docs/PRD.md", "docs/coding_instructions.md", "docs/technical_supplement.md",
                 "docs/technical_document.docx", "docs/technical_document_source/*"]
-# What goes in from harness_v2/: the technical appendix, the codebook tools and
-# outputs, and one figure the appendix uses.
-V2_TAKE = ["README.md", "build_submission.py", "submission_README.md", "docs/technical_v2/*",
-           "docs/codebook/*", "docs/source/tree.png"]
-V2_SKIP = ["*.bak", "docs/codebook/evidence_*_2026*.md", "docs/technical_v2/technical_draft.*"]
+# What goes in from harness_v2/, under the name documents/: only what the program
+# and its records point to (the sub-questions, the prompt that built codebook 1.0),
+# the sources of the figures and the process page, and this script. Drafts and
+# working files stay out; what editors read goes in 1_package/.
+DOCS = "documents"
+V2_TAKE = ["build_submission.py", "docs/technical_v2/process.json", "docs/technical_v2/figures.py",
+           "docs/technical_v2/figures_pptx.py", "docs/technical_v2/views.py",
+           "docs/codebook/questions.json", "docs/codebook/drafts/prompt_draft2.md"]
+V2_SKIP: list[str] = []
 # The runs that built codebook 1.0: setup, paper inventory, candidate codes with the
 # passages they cite, the draft and the log. Never page text, passages or calls.
 RUNS = {"20261012-124904": ["project.toml", "inventory.json", "log.jsonl", "codebook_draft.json",
@@ -49,7 +53,9 @@ RUNS = {"20261012-124904": ["project.toml", "inventory.json", "log.jsonl", "code
 PACKAGE = {"1_technical_document.docx": "docs/technical_v2/Technical_Documentation_V1.docx",
            "2_figures.pptx": "docs/technical_v2/technical_figures.pptx",
            "3_research_question.docx": "docs/codebook/questions.docx",
-           "4_codebook_progression.html": "docs/codebook/codebook_progression.html"}
+           "4_codebook_progression.html": "docs/codebook/codebook_progression.html",
+    "5_process.html": "docs/technical_v2/process.html"}
+PACKAGE_DIR = "1_package"
 # The pages of the calibration rounds, under their own names so their links work. The coded
 # interviews they link to are not here: they go to reviewers only, in a confidential file.
 ROUND_PAGES = ["1_codebook_v1.html", "2_round1_coding.html", "3_paper_search.html", "4_codebook_v2.html",
@@ -92,20 +98,21 @@ def assemble(target: Path) -> None:
             rel = str(p.relative_to(base))
             if p.is_file() and match(rel, patterns):
                 copy(p, target / "harness" / "runs" / run / rel)
-    for f in tracked(V2) + ["build_submission.py", "submission_README.md"]:
+    for f in tracked(V2) + ["build_submission.py"]:
         if (V2 / f).exists() and match(f, V2_TAKE) and not match(f, V2_SKIP):
-            copy(V2 / f, target / "harness_v2" / f)
+            copy(V2 / f, target / DOCS / f)
+    shutil.copy2(V2 / "submission_documents_README.md", target / DOCS / "README.md")
     for name, src in PACKAGE.items():
-        copy(V2 / src, target / "package" / name)
+        copy(V2 / src, target / PACKAGE_DIR / name)
     for name in ROUND_PAGES:
-        copy(V2 / "review" / name, target / "package" / "rounds" / name)
+        copy(V2 / "review" / name, target / PACKAGE_DIR / "rounds" / name)
     shutil.copy2(V2 / "submission_README.md", target / "README.md")
     shutil.copy2(HARNESS / "requirements.txt", target / "requirements.txt")
     (target / ".gitignore").write_text(
         ".DS_Store\n__pycache__/\n.venv/\n"
         "# Papers and interviews never go in this repository.\n"
         "harness/runs/*/pages/\nharness/runs/*/passages/\nharness/runs/*/segments/\nharness/runs/*/calls/\n"
-        "harness/runs/*/model_coding/\nharness/runs/*/kit/\nharness_v2/outputs/\n", encoding="utf-8")
+        "harness/runs/*/model_coding/\nharness/runs/*/kit/\ndocuments/outputs/\n", encoding="utf-8")
 
 
 def shingles(text: str) -> set[int]:

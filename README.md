@@ -1,7 +1,7 @@
 # A literature-to-coding harness for qualitative research
 
 Prototype submitted with our proposal to the Organization Science special issue
-"AI-Assisted Frontiers in Organizational Science". Vyas Sreenivas and Ravi S.
+"AI-Enabled Frontiers in Organizational Science". Vyas Sreenivas and Ravi S.
 Kudesia, 1 November 2026.
 
 The harness helps researchers code a large collection of texts, such as
@@ -9,28 +9,50 @@ interviews, using ideas from published research. It builds a codebook from
 papers, has an AI model code the texts in rounds of 25, keeps what the codebook
 cannot explain as anomalies, and grows the codebook from the papers that explain
 them. Anomalies that no paper explains are kept for study at the end, where new
-theory can come from. Researchers make every decision; the model suggests, and
-the program checks. Every step is recorded so it can be checked and rerun.
+theory can come from. Every step is recorded so it can be checked and rerun.
 
 Our worked example is serendipity in founder interviews from Starter Story.
 
-## Start here
+## Start here: `1_package/`
+
+Everything an editor or reviewer needs to read is in **`1_package/`**.
 
 | Open this | What you see |
 |---|---|
-| `package/1_technical_document.docx` | The technical appendix: what the harness does, the four stages, and how to use it on another question |
-| `package/2_figures.pptx` | The appendix's four figures, editable |
-| `package/3_research_question.docx` | The research question and its sub-questions |
-| `package/4_codebook_progression.html` | Every code against every codebook version, 1.0 to 4.0 (draft), with where each came from |
-| `package/rounds/` | The calibration rounds, page by page: codebook 1.0, round 1, the paper search, codebook 2.0, how the codebook grew, round 2, codebook 3.0, round 3 |
-| `harness_v2/docs/technical_v2/process.html` | Every step: who does it (researchers, model or program), its files and what it records |
+| `1_package/1_technical_document.docx` | The technical appendix: what the harness does, the four stages, and how to use it on another question |
+| `1_package/2_figures.pptx` | The appendix's four figures, editable |
+| `1_package/3_research_question.docx` | The research question and its sub-questions |
+| `1_package/4_codebook_progression.html` | Every code against every codebook version, 1.0 to 4.0 (draft), with where each came from |
+| `1_package/5_process.html` | Every step, who does it (researchers, model or program), and what it records |
+| `1_package/rounds/` | The calibration rounds, page by page: codebook 1.0, round 1, the paper search, codebook 2.0, how the codebook grew, round 2, codebook 3.0, round 3 |
 
-The HTML pages are single files and open in any browser.
+GitHub shows `.html` files as code. To read them as pages, download the
+repository (the green **Code** button, then **Download ZIP**) and open them in a
+browser. Each page is a single file.
 
 **The interviews are not here.** Starter Story owns them. The records point to
 each passage by the interview's id and the passage's number. The round pages
-link to the coded interviews, but those are shared with reviewers only, in a
-separate confidential file, with names and personal details replaced.
+link to the coded interviews of rounds 1, 2 and 3, but those are shared with
+reviewers only, in a separate confidential file, with names and personal details
+replaced.
+
+## Who does what
+
+The researchers make every research decision. The model reads and suggests. A
+plain program checks the model's work.
+
+| | Researchers | Model | Program |
+|---|---|---|---|
+| Question | Choose the research question, its sub-questions and groups | | |
+| Papers | Choose the papers; read them | Read each paper in full; draft codes with the passages they rest on | Number every passage; check that each quoted passage is in its paper |
+| Codebook | Decide every code: keep, change or drop | | Freeze each version; record every change and its reason |
+| Coding | Code a sample of interviews by hand; compare with the model | Code each interview, giving a reason before each code | Check the coding; compare old with new, and ours with the model's |
+| Anomalies | Group them; decide which become codes | Flag passages no code fits; search the papers for each group of anomalies | Log every anomaly and every search |
+| Findings | Interpret and build theory | | Count codes; trace anomalies across versions |
+
+Every code in versions 1.0 to 3.0 entered the codebook by a researcher's decision
+and rests on a paper that states it. Version 4.0 is a draft still awaiting that
+decision. The records of every decision are in `harness/codebook/`.
 
 ## The four stages, and where each lives
 
@@ -50,8 +72,8 @@ separate confidential file, with names and personal details replaced.
 | `harness/project.toml` | The study's settings: question, groups, folders and models. Edit this to use the harness on another question |
 | `harness/codebook/` | Codebook versions 1.0, 2.0, 3.0 and 4.0 (draft); the changes file that made each from the one before; the anomaly log with every search; the literature checks; agreement between rounds |
 | `harness/runs/` | Records of the runs that built codebook 1.0: setup, paper list with file fingerprints, every candidate code with the passages it cites |
-| `harness_v2/docs/` | The technical appendix's source and figures, and the tools that build the codebook pages |
-| `harness_v2/build_submission.py` | Rebuilds this repository from our working files and checks that it holds no interview text or papers |
+| `1_package/` | What editors and reviewers read (see above) |
+| `documents/` | Supporting files: the sub-questions, the prompt that built codebook 1.0, the sources of the figures, and the script that builds this repository and checks it holds no interview text or papers |
 | `MANIFEST.json` | Every file with its fingerprint, and the commits it was built from |
 
 ## Run it
