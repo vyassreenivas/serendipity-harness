@@ -58,8 +58,14 @@ PACKAGE = {"1_technical_document.docx": "docs/technical_v2/Technical_Documentati
 PACKAGE_DIR = "1_package"
 # The pages of the calibration rounds, under their own names so their links work. The coded
 # interviews they link to are not here: they go to reviewers only, in a confidential file.
-ROUND_PAGES = ["1_codebook_v1.html", "2_round1_coding.html", "3_paper_search.html", "4_codebook_v2.html",
+ROUND_PAGES = ["index.html", "1_codebook_v1.html", "2_round1_coding.html", "3_paper_search.html", "4_codebook_v2.html",
                "5_progression.html", "6_round2_coding.html", "7_codebook_v3.html", "8_round3_coding.html"]
+
+# The coded interviews of rounds 1 to 3, with names and personal details replaced. They hold
+# licensed interview text, so they go in only while the repository is private (since
+# 2 Nov 2026, shared with editors and reviewers). Set to False before making it public.
+WITH_INTERVIEWS = True
+INTERVIEW_DIRS = ["interviews_round1", "interviews_round2", "interviews_round3"]
 
 FORBIDDEN_PARTS = {"pages", "passages", "segments", "calls", "model_coding", "interviews_25", "coders",
                    "replies", "checked", "outputs", "coded", "to_code"}
@@ -106,6 +112,10 @@ def assemble(target: Path) -> None:
         copy(V2 / src, target / PACKAGE_DIR / name)
     for name in ROUND_PAGES:
         copy(V2 / "review" / name, target / PACKAGE_DIR / "rounds" / name)
+    if WITH_INTERVIEWS:
+        for d in INTERVIEW_DIRS:
+            for p in sorted((V2 / "review" / d).glob("*.html")):
+                copy(p, target / PACKAGE_DIR / "rounds" / d / p.name)
     shutil.copy2(V2 / "submission_README.md", target / "README.md")
     shutil.copy2(HARNESS / "requirements.txt", target / "requirements.txt")
     (target / ".gitignore").write_text(
@@ -135,8 +145,9 @@ def check(target: Path) -> list[str]:
     for f in INTERVIEWS.glob("*.txt"):
         for h in shingles(f.read_text(encoding="utf-8", errors="ignore")):
             corpus.setdefault(h, []).append(f.name)
+    redacted = lambda p: WITH_INTERVIEWS and set(INTERVIEW_DIRS) & set(p.relative_to(target).parts)
     for p in files:
-        if p.suffix.lower() in TEXT:
+        if p.suffix.lower() in TEXT and not redacted(p):
             per = {}
             for h in shingles(p.read_text(encoding="utf-8", errors="ignore")):
                 for name in corpus.get(h, []):

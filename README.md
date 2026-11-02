@@ -24,17 +24,18 @@ Everything an editor or reviewer needs to read is in **`1_package/`**.
 | `1_package/3_research_question.docx` | The research question and its sub-questions |
 | `1_package/4_codebook_progression.html` | Every code against every codebook version, 1.0 to 4.0 (draft), with where each came from |
 | `1_package/5_process.html` | Every step, who does it (researchers, model or program), and what it records |
-| `1_package/rounds/` | The calibration rounds, page by page: codebook 1.0, round 1, the paper search, codebook 2.0, how the codebook grew, round 2, codebook 3.0, round 3 |
+| `1_package/rounds/` | The calibration rounds: open `index.html`. Page by page: codebook 1.0, round 1, the paper search, codebook 2.0, how the codebook grew, round 2, codebook 3.0, round 3 |
 
 GitHub shows `.html` files as code. To read them as pages, download the
 repository (the green **Code** button, then **Download ZIP**) and open them in a
 browser. Each page is a single file.
 
-**The interviews are not here.** Starter Story owns them. The records point to
-each passage by the interview's id and the passage's number. The round pages
-link to the coded interviews of rounds 1, 2 and 3, but those are shared with
-reviewers only, in a separate confidential file, with names and personal details
-replaced.
+**The coded interviews are confidential.** Starter Story owns the interviews.
+`1_package/rounds/interviews_round1/`, `interviews_round2/` and `interviews_round3/`
+hold each interview of the three rounds as coded, with names and personal details
+replaced. They are here for the editors and reviewers only, while this repository
+is private: please do not share them. Each round folder holds that round's new
+interviews and the earlier ones it recoded. The raw interviews are not here.
 
 ## Who does what
 
