@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How the codebook grew</title>
+<style>
+:root { --bg:#fff; --fg:#1d2329; --muted:#5d6670; --line:#d5dbe1; --head:#1f3a5f; --tint:#eef2f6; --new:#1e6b3a; --newbg:#e8f4ec; --open:#8a5a00; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#14181c; --fg:#e4e8ec; --muted:#9aa4ae; --line:#323a42; --head:#2c4f7a; --tint:#1c232b; --new:#7fd19b; --newbg:#18281e; --open:#e0b060; } }
+:root[data-theme="dark"] { --bg:#14181c; --fg:#e4e8ec; --muted:#9aa4ae; --line:#323a42; --head:#2c4f7a; --tint:#1c232b; --new:#7fd19b; --newbg:#18281e; --open:#e0b060; }
+body { background:var(--bg); color:var(--fg); font:15px/1.55 system-ui, -apple-system, Segoe UI, sans-serif; margin:0; padding:24px 16px; }
+main { max-width:900px; margin:0 auto; }
+nav { font-size:13px; margin-bottom:12px; } a { color:var(--head); }
+h1 { font-size:26px; margin:0 0 6px; } h2 { font-size:20px; margin:36px 0 4px; border-bottom:2px solid var(--line); padding-bottom:4px; }
+h3 { font-size:16px; margin:0 0 6px; } .no { color:var(--muted); font-weight:400; margin-right:6px; }
+p.intro { color:var(--muted); margin:0 0 20px; } p.asks { color:var(--muted); margin:0 0 12px; }
+p.lead { font-size:17px; } .note { background:var(--tint); padding:8px 12px; border-radius:6px; }
+article.code { border:1px solid var(--line); border-radius:8px; padding:12px 14px; margin:10px 0; }
+article.new { border-color:var(--new); background:var(--newbg); }
+dl { margin:0; } dt { font-weight:600; font-size:13px; color:var(--muted); margin-top:8px; } dd { margin:2px 0 0; }
+ol, ul { margin:2px 0; padding-left:20px; } li { margin-bottom:4px; } q { font-style:italic; }
+.tag { font-size:12px; font-weight:600; border-radius:10px; padding:1px 8px; margin-left:8px; white-space:nowrap; }
+.tag.new { color:var(--new); border:1px solid var(--new); } .tag.rev { color:var(--head); border:1px solid var(--head); }
+.tag.open { color:var(--open); border:1px solid var(--open); } .muted { color:var(--muted); font-size:13px; }
+.wrap { overflow-x:auto; } table { border-collapse:collapse; width:100%; font-size:14px; }
+th { background:var(--head); color:#fff; text-align:left; padding:6px 8px; }
+td { border:1px solid var(--line); padding:6px 8px; vertical-align:top; }
+ol.steps li { margin-bottom:14px; font-size:16px; }
+.stats { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 14px; }
+.stats span { background:var(--tint); border-radius:6px; padding:4px 10px; }
+nav.toc { display:flex; flex-wrap:wrap; gap:4px 14px; font-size:14px; padding:10px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+p.rq { font-size:18px; font-weight:600; } .sq { font-size:13px; color:var(--muted); font-weight:400; margin-left:6px; }
+article p { margin:0 0 4px; } p.rule { font-family:ui-monospace, Menlo, monospace; font-size:13px; color:var(--muted); }
+table.prog td:not(:first-child), table.prog th:not(:first-child) { text-align:center; } th a { color:#fff; }
+tr.sub td { background:var(--tint); font-weight:600; } details { margin-top:8px; }
+.src { font-size:11px; color:var(--muted); background:var(--tint); border-radius:8px; padding:0 6px; white-space:nowrap; }
+.version { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px; margin:16px 0; }
+.version > div { background:var(--tint); border-radius:8px; padding:10px 14px; } .version h3 { margin:0 0 4px; }
+.version ul { font-size:14px; } summary { cursor:pointer; color:var(--head); font-size:14px; font-weight:600; }
+.lean { color:var(--open); font-size:12px; } h2 { scroll-margin-top:12px; } article { scroll-margin-top:12px; }
+</style></head><body><main>
+<nav><a href="index.html">How the codebook was built</a></nav>
+<h1>How the codebook grew</h1><p class="intro">Each codebook version, the round coded with it, and what became of the passages no code fit.</p>
+<div class="wrap"><table class="prog"><thead><tr><th></th><th><a href="1_codebook_v1.html">Version 1.0</a></th><th><a href="4_codebook_v2.html">Version 2.0</a></th><th><a href="7_codebook_v3.html">Version 3.0</a></th></tr></thead><tbody><tr class="sub"><td colspan="4">Codebook</td></tr><tr><td>Codes coders tick (level 1)</td><td>36</td><td>46</td><td>51</td></tr><tr><td>Added since the version before</td><td>first version</td><td>10 new codes; 1 existing code now covers more (3.2 A problem already in mind: a specific problem, need or interest → the same, including a frustration from the founder's own life as a user or customer)</td><td>5 new codes; 1 existing code now covers more (8.5 Credited to their own effort: effort explicitly set against luck → effort, persistence or work, with or without setting it against luck)</td></tr><tr><td>Worked out from the codes (level 2)</td><td>11</td><td>11</td><td>11</td></tr><tr><td>Papers that state its codes</td><td>71</td><td>83</td><td>85</td></tr><tr class="sub"><td colspan="4">Coding round</td></tr><tr><td>Round</td><td><a href="2_round1_coding.html">Round 1</a></td><td><a href="6_round2_coding.html">Round 2</a></td><td><a href="8_round3_coding.html">Round 3</a> (last calibration round)</td></tr><tr><td>Interviews coded with it</td><td>25</td><td>50 (25 new, 25 from round 1 again)</td><td>75 (25 new, 50 from rounds 1 and 2 again)</td></tr><tr><td>Interviews coded so far</td><td>25</td><td>50</td><td>75</td></tr><tr><td>Stories</td><td>111</td><td>191</td><td>297</td></tr><tr class="sub"><td colspan="4">Anomalies</td></tr><tr><td>Passages no code fit</td><td>35</td><td>42 (27 in new interviews, 15 in round 1's)</td><td>69 (24 in new interviews, 45 in earlier rounds')</td></tr><tr><td>Moved into a code in the next version</td><td>22 <a href="3_paper_search.html">(where)</a></td><td>12 <a href="7_codebook_v3.html#version">(where)</a></td><td>none: calibration stopped; no version 4.0</td></tr><tr><td>Still open</td><td>13</td><td>30</td><td>69</td></tr><tr><td>Open so far, for the inductive phase</td><td>13 passages</td><td>43 passages (13 from round 1, 30 from round 2)</td><td>all, for the inductive phase; round 3's grouped into <a href="8_round3_coding.html#themes">27 themes</a></td></tr><tr class="sub"><td colspan="4">Reliability</td></tr><tr><td>The round before's interviews, coded again</td><td>first round</td><td>88% agreement; mean kappa 0.60; mean AC1 0.78 (25 interviews, version 1.0 then 2.0, 33 codes in both) <a href="6_round2_coding.html#reliability">(by code)</a></td><td>Interviews 01–25: 91% agreement; mean kappa 0.65; mean AC1 0.84 (25 interviews, version 2.0 then 3.0, 43 codes in both) <a href="8_round3_coding.html#reliability">(by code)</a><br>Interviews 26–50: 90% agreement; mean kappa 0.66; mean AC1 0.82 (25 interviews, version 2.0 then 3.0, 43 codes in both) <a href="8_round3_coding.html#reliability">(by code)</a></td></tr></tbody></table></div><p class="muted">Calibration stopped after round 3, so version 3.0 is the last column. Reliability compares the same interviews coded in two rounds: agreement is the share of interviews where both codings agree on a code; kappa and AC1 correct it for chance (AC1 is not pulled to zero by codes found in nearly every interview). Part of the difference comes from the codebook itself changing between the two rounds.</p>
+</main></body></html>

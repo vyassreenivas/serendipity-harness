@@ -141,6 +141,7 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
   .search { flex: 1 1 200px; }
 }
 @media (prefers-reduced-motion: no-preference) { .row { transition: background-color .12s; } }
+  .field.notwhen dd { white-space: pre-line; }
 </style>
 
 <header class="top">
@@ -239,7 +240,7 @@ function renderDetail(id) {
     <dl class="fields">
       ${field("", "Code it when", c.when)}
       ${field("ex", "Example", c.example ? "“" + c.example + "”" : "")}
-      ${field("", "Not when", c.notwhen)}
+      ${field("notwhen", "Don&#39;t use it when", c.notwhen)}
       ${field("desc", "Fuller description", c.description)}
     </dl>
     ${c.note ? `<p class="note">${esc(c.note)}</p>` : ""}

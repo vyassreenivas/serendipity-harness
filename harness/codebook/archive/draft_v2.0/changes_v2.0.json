@@ -1,0 +1,88 @@
+{
+ "about": "Changes from codebook version 1.0 to 2.0, after round 1 (25 interviews coded by the model). Applied by serendipity_harness.next_version. Each new code meets three rules: one clear idea, bears on the research question, no existing code covers it (technical appendix, 'Growing the codebook'). Decided 29 Oct 2026; the study covers bad surprises as well as good ones. Examples for the new codes are cases from their papers, or made up and marked so where no paper has one; never interview text.",
+ "from": "1.0",
+ "to": "2.0",
+ "codes": [
+  {
+   "id": "trigger-11",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "outside-crisis-or-disaster",
+   "why": "Round 1 anomalies A22 (hurricane cleanup) and A29 (the 2008 recession): a sudden, large outside event, which no trigger code named. Adopted from the drafted code once the study covered setbacks.",
+   "label": "An outside crisis or disaster",
+   "definition": "A sudden, large event outside the venture, such as a recession, a pandemic or a natural disaster, opened an opportunity or threatened the venture.",
+   "applies_when": "The founder links a new opportunity, a change of direction or a setback to a crisis, disaster or economic shock they did not cause. For example (Garud and Karnøe 2003, p. 7): the energy crisis of 1974 drew new players into wind power.",
+   "does_not_apply_when": "The change was in a technology, a rule or a platform the venture relied on (trigger-12), or the misfortune was the founder's own, such as losing a job; if nothing fits, ANO-TRG."
+  },
+  {
+   "id": "trigger-12",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "change-in-technology-rules-or-platforms",
+   "why": "Round 1 anomalies A02 and A24 (AI maturing made the founder's know-how or idea viable) and A27, A31, A34 (an iOS update, a supplier ending a tool, a search-engine update). Adopted from the drafted code and widened to setbacks and to changes in platforms and suppliers the venture relies on.",
+   "label": "A change in technology, rules or platforms",
+   "definition": "Something outside the founder's control changed: a technology matured, a rule changed, or a platform or supplier the venture relied on changed its policy, algorithm or product. It opened a door or caused a setback.",
+   "applies_when": "The founder traces an opportunity, a change of course or a setback to such a change. For example (Garud et al. 2011, p. 16): 3M's light-guiding film found its use only when laptops with backlit screens arrived; as its inventor put it, 'the niche found us.'",
+   "does_not_apply_when": "It was a sudden, large crisis such as a recession or a disaster (trigger-11); a person or platform promoted the product (trigger-28); or the founder caused the change."
+  },
+  {
+   "id": "trigger-20",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "information-found-by-chance",
+   "why": "Round 1 anomalies A15, A18, A21, A32: a magazine article, a company's website found while browsing, SEO stumbled on, a news story about a blogger. Adopted from the drafted code; browsing is included, since the founders stumbled on the information while doing something else.",
+   "label": "Came across information by chance",
+   "definition": "While doing something else, the founder came across information from outside, such as an article, a website, a technique, a talk, a product or a sight, and saw what it could mean for them.",
+   "applies_when": "The founder read, saw or heard about something by chance and it sparked an idea or a change. For example (von Hippel and von Krogh 2016, p. 2): carrying heavy suitcases through an airport, Sadow saw a worker roll a heavy machine on a wheeled skid, and went on to put wheels on luggage.",
+   "does_not_apply_when": "The founder was searching for that information; a person said it to the founder (trigger-17); or the idea came from the founder's own errand or thoughts with no outside source (ANO-TRG)."
+  },
+  {
+   "id": "trigger-28",
+   "group": "trigger",
+   "source": "inductive",
+   "from_theme": "unsought-publicity-from-a-third-party-or-platform",
+   "why": "Round 1 anomalies A01 (a YouTuber's video), A08 (an influencer's post), A17 (an App Store feature), A19 (a Shopify feature). No paper read states it as a trigger: Copeland (2023) describes unplanned spread as an outcome, and warns that platform features can be engineered rather than chance. Inductive code, from the interviews.",
+   "label": "Unsought promotion by others",
+   "definition": "A person, outlet or platform promoted the product on its own initiative, such as a YouTuber's video, an influencer's post or a platform's feature, without the founder asking or offering anything.",
+   "applies_when": "The founder describes coverage, a review or a feature they did not seek, which brought attention or customers. For example (made up; no paper describes it yet): 'A podcast host we had never met recommended us, and orders tripled that week.'",
+   "does_not_apply_when": "The founder asked, paid or applied for that promotion, or it came through a programme the founder ran; the person made an offer or request to the founder (trigger-18); or customers spread the word themselves (trigger-24)."
+  },
+  {
+   "id": "trigger-18",
+   "group": "trigger",
+   "source": "literature",
+   "why": "Revised for version 2.0 to set it apart from trigger-28: an offer is made to the founder, while promotion is aimed at someone else's audience.",
+   "label": "An unasked-for offer or request",
+   "definition": "Someone approached the founder, unsought, with an offer, order, invitation or unusual request, and this started or changed the venture.",
+   "applies_when": "The founder received an unexpected message, contract, partnership proposal or product request and acted on it. For example: 'A hotel emailed asking if we could make 500.'",
+   "does_not_apply_when": "Someone only mentioned a need in passing (trigger-17), many customers showed a pattern (trigger-24), or someone promoted the product without approaching the founder (trigger-28)."
+  },
+  {
+   "id": "outcome-30",
+   "group": "outcome",
+   "source": "literature",
+   "from_theme": "harmful-result",
+   "why": "Round 1 anomalies A28 (a sales channel lost), A30 (survival threatened), A35 (income halved). Adopted from the drafted code once the study covered setbacks.",
+   "label": "Harm or loss",
+   "definition": "The unexpected event cost the venture: lost sales, income or a channel, a costly mistake, or a threat to its survival.",
+   "applies_when": "The founder describes losses or damage from something unexpected. For example (Austin et al. 2012, p. 14): the makers they studied knew an accident could be costly, even damaging, and found ways to make such accidents cheaper.",
+   "does_not_apply_when": "The only cost was lost time or focus, or the chance was simply missed (outcome-25)."
+  },
+  {
+   "id": "outcome-40",
+   "group": "outcome",
+   "source": "literature",
+   "merges": [
+    "outcome-13",
+    "outcome-14",
+    "outcome-17"
+   ],
+   "from_theme": "resources-contacts-or-knowledge-as-the-result",
+   "why": "Round 1 anomalies A03 (new contacts on social media), A13 (a supplier on good terms), A14 (customer calls full of ideas), A16 (industry contacts for a later venture). One code from three drafted codes (resources and help, network, learning), which share the idea that what came of it was something to use later.",
+   "label": "Resources, contacts or knowledge",
+   "definition": "What came of the unexpected event was something the founder could use later: a supplier, partner, funding or other resource, new contacts, or knowledge and ideas, rather than a product, a market or growth.",
+   "applies_when": "The founder says the event gave them a resource, contacts, a network, advice or insight that they then used. For example (Klyver et al. 2025, p. 11): founders learned from people who began as strangers how to make a profit and how to grow from a local to a global business.",
+   "does_not_apply_when": "The result was itself a product (outcome-01), a market or customers (outcome-03) or growth (outcome-05)."
+  }
+ ]
+}

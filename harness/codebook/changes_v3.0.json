@@ -1,0 +1,734 @@
+{
+ "about": "Codebook version 3.0: version 2.0 plus what round 2 (50 interviews coded with 2.0) earned. Each added or revised code names the papers read in full that state it (evidence_v3.0.json) and the round-2 anomalies it covers. 'Don't use it when' lines follow the version-3 rule, set out under dont_use_when; confused_pairs counts passages coded one way in round 1 and the other in round 2, within a group. Interviews are named by id and segments, never by story names, which can hold people's names.",
+ "from": "2.0",
+ "to": "3.0",
+ "codes": [
+  {
+   "id": "role-23",
+   "group": "role",
+   "source": "literature",
+   "from_theme": "event-that-only-set-the-venture-back",
+   "why": "Round 2: two cases where a chance event only harmed the venture, and no role code fit. Brownell et al. (2024, p. 1711), read in full, state that bad luck can prevent venture success. Liu and Tsay (2023) and Liu and de Rond (2016) only lean on it.",
+   "papers": [
+    "brownell2024-a83b1a"
+   ],
+   "label": "Set the venture back",
+   "definition": "A chance event hurt or threatened the venture without starting, redirecting or advancing it.",
+   "applies_when": "The founder tells an unexpected event that cost the venture customers, money or time, or nearly ended it, and no new direction came from it. For example (Brownell et al. 2024, p. 1711): their data suggest 'that bad luck can prevent new venture success'.",
+   "does_not_apply_when": "The event also started the venture. Use \"Started the venture\".\nThe event also changed what the venture does. Use \"Changed the venture's direction\".\nThe setback is only background, with no effect told. Leave this code off.",
+   "absorbs": [
+    {
+     "anomaly": "R2-A03",
+     "round": 2,
+     "interview": "how-3-college-friends-created-the-openta-af2e17",
+     "segments": [
+      13,
+      15
+     ],
+     "was": "ANO-ROL",
+     "comment": "COVID took the business to zero and nearly ended it; nothing new came of it."
+    },
+    {
+     "anomaly": "R2-A34",
+     "round": 2,
+     "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "segments": [
+      11
+     ],
+     "was": "ANO-TRG",
+     "comment": "A death in the founder's family caused a sales slump; it only hurt the venture."
+    }
+   ]
+  },
+  {
+   "id": "mechanism-19",
+   "group": "mechanism",
+   "source": "literature",
+   "from_theme": "acting-on-intuition",
+   "why": "Round 2: two cases of acting on gut feel without research. Adopts the drafted code 'Intuitive gut judgment', narrowed to judging the input. Busch and Grimes (2023, p. 84) and Nguyen et al. (2024), read in full, state the gut-feel 'flash evaluation'.",
+   "papers": [
+    "busch2023-8da56d",
+    "nguyen2024-21848b"
+   ],
+   "label": "Judged it by gut feel",
+   "definition": "The founder judged the chance input on gut feeling and acted on it without checking it first.",
+   "applies_when": "The founder says they followed a hunch or gut feeling about the input rather than researching it. For example (Busch and Grimes 2023, p. 84): a 'flash evaluation' is 'a quick assessment that is based on a gut feeling about the new, unexpected information'.",
+   "does_not_apply_when": "Intuition helped link the input to a need, rather than judge it. Use \"Connecting the dots\".\nThe founder only says, looking back, that they had a hunch. Leave this code off.",
+   "absorbs": [
+    {
+     "anomaly": "R2-A10",
+     "round": 2,
+     "interview": "i-run-a-portfolio-of-50-affiliate-market-524776",
+     "segments": [
+      3,
+      5
+     ],
+     "was": "ANO-MEC",
+     "comment": "The founder acted on a sensed opening by intuition and skipped research."
+    },
+    {
+     "anomaly": "R2-A11",
+     "round": 2,
+     "interview": "woo-branding-320506",
+     "segments": [
+      5
+     ],
+     "was": "ANO-ACC",
+     "comment": "The founder followed his gut in responding to the viral video."
+    }
+   ]
+  },
+  {
+   "id": "background-35",
+   "group": "background",
+   "source": "literature",
+   "from_theme": "venture-inside-or-drawing-on-an-existing-firm",
+   "why": "Round 2: two cases built on an existing firm's resources. Garud et al. (2011), read in full, make it central: 3M staff pursue chance finds with company time and resources. Buenstorf (2007) and Busch and Grimes (2023) only lean on it.",
+   "papers": [
+    "garud2011-65d6ed"
+   ],
+   "label": "Built on an existing firm",
+   "definition": "The venture was built inside an established firm, or with that firm's time, money, staff or customers.",
+   "applies_when": "The founder pursued the find from within another firm they worked in or owned, using its resources. For example (Garud et al. 2011, p. 757): 3M's time option let employees 'leverage serendipitous moments … whenever they occurred'.",
+   "does_not_apply_when": "The founder only carried knowledge or contacts from an earlier job. Use \"Idea grew from their work\" or \"Their network brought it\".",
+   "absorbs": [
+    {
+     "anomaly": "R2-A39",
+     "round": 2,
+     "interview": "jetprint-8cb871",
+     "segments": [
+      5,
+      7
+     ],
+     "was": "ANO-BKG",
+     "comment": "The founder used his existing software company's staff and contacts to act on the find."
+    },
+    {
+     "anomaly": "R2-A41",
+     "round": 2,
+     "interview": "luminesce-diamonds-350ae8",
+     "segments": [
+      3,
+      9
+     ],
+     "was": "ANO-NEW",
+     "comment": "The brand was built inside an established retail chain, answering customer demand."
+    }
+   ]
+  },
+  {
+   "id": "outcome-40",
+   "group": "outcome",
+   "source": "literature",
+   "from_theme": "results-no-outcome-code-names",
+   "why": "Round 2: one case of declined offers taken as proof of demand, part of the theme 'results no outcome code names', which is split. Shah and Tripsas (2007, pp. 130-132), read in full, state it. The theme's other parts stay open.",
+   "papers": [
+    "shah2007-30af0c"
+   ],
+   "label": "Proof of demand",
+   "definition": "The chance event showed the founder that people wanted the offering, before or without sales.",
+   "applies_when": "Offers, requests or eager uptake by others told the founder there was demand, even if no sale followed. For example (Shah and Tripsas 2007, p. 130): user-innovators 'received unsolicited requests from others wishing to purchase their innovations'.",
+   "does_not_apply_when": "Sales or measured growth followed. Use \"Growth and results\".\nIt showed a new group of customers or a new use. Use \"A new market or opportunity\".",
+   "absorbs": [
+    {
+     "anomaly": "R2-A18",
+     "round": 2,
+     "interview": "how-i-solved-my-own-problem-and-turned-i-5bb421",
+     "segments": [
+      9
+     ],
+     "was": "ANO-NEW",
+     "comment": "Unsought offers to buy were declined but taken as proof of demand."
+    }
+   ]
+  },
+  {
+   "id": "condition-73",
+   "group": "condition",
+   "source": "literature",
+   "from_theme": "readiness-to-take-opportunities",
+   "why": "Round 2: one case of a stated readiness to take scary openings. Kirzner (1997, p. 72) and Mirvahedi and Morrish (2017, p. 192), read in full, state readiness as an attitude, kept apart from actions that raise exposure to chance.",
+   "papers": [
+    "kirzner1997-178322",
+    "mirvahedi2017-ff1fb5"
+   ],
+   "label": "Ready to seize openings",
+   "definition": "The founder describes an attitude of being ready to take unexpected openings, even when they feel risky.",
+   "applies_when": "The founder says they say yes to chances or are always ready to be surprised, without describing actions that bring chance their way. For example (Kirzner 1997, p. 72): 'An entrepreneurial attitude is one which is always ready to be surprised'.",
+   "does_not_apply_when": "The founder describes actions that bring chance their way. Use \"Putting themselves in chance's way\".\nThe founder only says they believe in luck. Leave this code off.",
+   "absorbs": [
+    {
+     "anomaly": "R2-A25",
+     "round": 2,
+     "interview": "pretty-neat-667b7b",
+     "segments": [
+      15
+     ],
+     "was": "ANO-CND",
+     "comment": "The founder advises taking openings even when they feel scary: an attitude, not described habits."
+    }
+   ]
+  },
+  {
+   "id": "account-40",
+   "group": "account",
+   "source": "literature",
+   "from_theme": "credit-to-persistence-or-work",
+   "why": "Round 2: four founders credit persistence, work or listening without contrasting it with luck, which the code required. Brownell et al. (2024, p. 1711) find this perseverance theme; Baron (1998) states that entrepreneurs see their own effort as crucial. Extended rather than a new code, which would nearly duplicate it.",
+   "papers": [
+    "brownell2024-a83b1a",
+    "merton2004-7b63d1",
+    "baron1998"
+   ],
+   "label": "Credited to their own effort",
+   "definition": "The founder credits the outcome to their own effort, persistence or work, whether or not they set it against luck.",
+   "applies_when": "The founder says success came from persisting, working hard, staying in the field or listening. For example (Brownell et al. 2024, p. 1711): founders said 'their success occurred because they were able to persist despite earlier setbacks'.",
+   "does_not_apply_when": "The founder splits credit between luck and effort. Use \"Part luck, part effort\".\nThe founder credits luck alone. Use \"Credited to luck\".",
+   "absorbs": [
+    {
+     "anomaly": "R2-A06",
+     "round": 2,
+     "interview": "social-ktchn-a00d24",
+     "segments": [
+      11,
+      21
+     ],
+     "was": "ANO-ACC",
+     "comment": "The founder credits staying in the field long enough for openings to come."
+    },
+    {
+     "anomaly": "R2-A19",
+     "round": 2,
+     "interview": "savewise-e4464a",
+     "segments": [
+      7,
+      11
+     ],
+     "was": "ANO-ACC",
+     "comment": "The founder credits his steady work, set against effortless viral success rather than luck."
+    },
+    {
+     "anomaly": "R2-A23",
+     "round": 2,
+     "interview": "how-i-grew-my-made-in-the-usa-bedding-br-0ec6d3",
+     "segments": [
+      15
+     ],
+     "was": "ANO-ACC",
+     "comment": "The founder credits listening to customers, staff and suppliers."
+    },
+    {
+     "anomaly": "R2-A40",
+     "round": 2,
+     "interview": "luminesce-diamonds-350ae8",
+     "segments": [
+      3,
+      13
+     ],
+     "was": "ANO-ACC",
+     "comment": "The founder credits success in proportion to the work put in."
+    }
+   ],
+   "extends": {
+    "was": "effort explicitly set against luck",
+    "now": "effort, persistence or work, with or without setting it against luck"
+   }
+  }
+ ],
+ "dont_use_when": {
+  "why": "The version-3 rule: a line naming another code that coders tick in the same group stays only if coders confused the two in the round-2 agreement check (confused_pairs), or if either code is new since the version before; lines the check cannot measure (search state, codes in other groups, codes coders do not tick, and lines that name no code) stay; at most three per code. Plus lines pointing to the codes new in 3.0.",
+  "codes": {
+   "account-22": "The founder explains the start as luck or chance. Use \"Credited to luck\".\nThe founder searched for an opportunity. Leave this code off.",
+   "background-06": "The advantage came from expertise carried over from a nearby field. Use \"Relevant expertise\".\nInexperience is only mentioned, or told as an obstacle overcome. Leave this code off.",
+   "background-11": "The founder credits expertise in general, not tied to a role or activity. Use \"Relevant expertise\".\nThe founder built it with an existing firm's time, money or staff. Use \"Built on an existing firm\".",
+   "condition-04": "The founder only describes an attitude of being ready for chances, with no actions. Use \"Ready to seize openings\".",
+   "outcome-01": "What came out was know-how, not an offering. Use \"New knowledge\".",
+   "outcome-03": "The result was new contacts. Use \"New contacts\".",
+   "outcome-05": "The founder describes no measurable or stated result. Leave this code off.\nOthers showed they wanted it, but no sales or growth followed. Use \"Proof of demand\".",
+   "outcome-25": "It caused harm or loss. Use \"Harm or loss\".",
+   "outcome-30": "A chance was simply missed. Use \"Nothing came of it\".\nThe only cost was time or focus. Leave this code off.\nThe loss came from the founder's own planned choice, with no unexpected event. Leave this code off.",
+   "role-01": "The founder never meant to start a business. Use \"Accidental founder\".",
+   "role-08": "",
+   "role-16": "The event only hurt or threatened the venture. Use \"Set the venture back\".",
+   "trigger-01": "",
+   "trigger-11": "The cause was a new technology, rule or platform. Use \"A change in technology, rules or platforms\".\nThe misfortune hit only the founder, such as losing a job. Use \"A personal misfortune\".\nThe event is only background or a date. Leave this code off.",
+   "trigger-14": "The meeting was arranged. Leave this code off.",
+   "trigger-17": "The founder read or saw it, rather than hearing it from someone. Use \"Came across information by chance\".",
+   "trigger-18": "Many customers showed a pattern. Use \"An unexpected market signal\".",
+   "trigger-20": "A person said it to the founder in conversation. Use \"A passing remark\".\nThe founder was searching for this kind of information. Leave this code off.\nThe idea came from the founder's own thoughts. Leave this code off."
+  }
+ },
+ "confused_pairs": {
+  "background-02|background-11": 4,
+  "trigger-18|trigger-24": 1,
+  "condition-22|condition-35": 1,
+  "condition-17|condition-35": 3,
+  "background-01|background-02": 1,
+  "trigger-11|trigger-24": 2,
+  "role-01|role-16": 1,
+  "outcome-05|outcome-30": 3,
+  "background-11|background-17": 1,
+  "background-02|background-17": 1,
+  "trigger-01|trigger-20": 3,
+  "outcome-05|outcome-17": 1,
+  "mechanism-22|mechanism-23": 1,
+  "trigger-01|trigger-12": 1,
+  "account-09|account-40": 1,
+  "mechanism-22|mechanism-27": 1,
+  "account-08|account-09": 1,
+  "outcome-17|outcome-25": 1,
+  "mechanism-02|mechanism-06": 1,
+  "definition-09|definition-13": 1,
+  "outcome-01|outcome-30": 3,
+  "background-01|background-11": 1,
+  "trigger-12|trigger-24": 2,
+  "background-02|background-06": 1,
+  "condition-04|condition-35": 1,
+  "outcome-03|outcome-30": 2,
+  "role-01|role-02": 1,
+  "trigger-11|trigger-18": 1
+ },
+ "open_anomalies": [
+  {
+   "anomaly": "A01",
+   "interview": "aceternity-ui-ac6cc3",
+   "segments": [
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "Unsought promotion by a YouTuber. No paper read states unsought promotion as a chance trigger (searched 30 Oct); it waits for the inductive phase.",
+   "round": 1
+  },
+  {
+   "anomaly": "A08",
+   "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+   "segments": [
+    13
+   ],
+   "was": "ANO-TRG",
+   "comment": "Unsought promotion by an influencer. As A01.",
+   "round": 1
+  },
+  {
+   "anomaly": "A17",
+   "interview": "i-built-a-timer-app-that-generates-66k-y-584f72",
+   "segments": [
+    11
+   ],
+   "was": "ANO-TRG",
+   "comment": "An App Store feature the founder did not ask for. As A01.",
+   "round": 1
+  },
+  {
+   "anomaly": "A19",
+   "interview": "jetprint-8cb871",
+   "segments": [
+    3,
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "A Shopify feature the founder did not ask for. As A01.",
+   "round": 1
+  },
+  {
+   "anomaly": "A13",
+   "interview": "how-three-friends-launched-2-4m-t-shirt-a975d9",
+   "segments": [
+    7
+   ],
+   "was": "ANO-OUT",
+   "comment": "A ready-made supplier on good terms. No paper states resources as an outcome of chance.",
+   "round": 1
+  },
+  {
+   "anomaly": "A16",
+   "interview": "how-we-built-our-discount-mattress-compa-2ebca3",
+   "segments": [
+    5,
+    7
+   ],
+   "was": "ANO-OUT",
+   "comment": "Industry contacts and a loan used for a later venture. The resources part has no paper; the contacts part may fit New contacts on recheck.",
+   "round": 1
+  },
+  {
+   "anomaly": "A06",
+   "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+   "segments": [
+    7
+   ],
+   "was": "ANO-TRG",
+   "comment": "An idea that came while driving. The drafted code 'Idea out of the blue' fits, but its papers have not been read.",
+   "round": 1
+  },
+  {
+   "anomaly": "A07",
+   "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+   "segments": [
+    11
+   ],
+   "was": "ANO-TRG",
+   "comment": "An idea from idle play with a household object. As A06.",
+   "round": 1
+  },
+  {
+   "anomaly": "A21",
+   "interview": "my-media-pal-bf2757",
+   "segments": [
+    5
+   ],
+   "was": "ANO-TRG",
+   "comment": "Discovering SEO. Unclear whether the founder was already searching for ways to get traffic.",
+   "round": 1
+  },
+  {
+   "anomaly": "A04",
+   "interview": "foundation-for-a-human-internet-31f60d",
+   "segments": [
+    9,
+    15
+   ],
+   "was": "ANO-BKG",
+   "comment": "A nonprofit mission drew volunteers and trust. One case; papers lean on it (Haugh 2007) or run against it (van Balen and Tarakci 2024).",
+   "round": 1
+  },
+  {
+   "anomaly": "A09",
+   "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+   "segments": [
+    11
+   ],
+   "was": "ANO-ROL",
+   "comment": "A chance find fixed the product's core design. One case; papers only lean on it (Austin et al. 2012).",
+   "round": 1
+  },
+  {
+   "anomaly": "A12",
+   "interview": "how-narrowing-my-focus-helped-me-doubled-892803",
+   "segments": [
+    15,
+    21
+   ],
+   "was": "ANO-CND",
+   "comment": "The founder screens out incoming opportunities. Papers state focus as a practice (Eisenhardt and Sull 2001), not as limiting chance; one case.",
+   "round": 1
+  },
+  {
+   "anomaly": "A25",
+   "interview": "perfect-live-beyond-concierge-flawless-l-39a3bf",
+   "segments": [
+    13
+   ],
+   "was": "ANO-ACC",
+   "comment": "Breakthroughs noticed only by founders close to customers. Stated for firms (Mintzberg et al. 1996); one case.",
+   "round": 1
+  },
+  {
+   "anomaly": "R2-A01",
+   "round": 2,
+   "interview": "how-3-college-friends-created-the-openta-af2e17",
+   "segments": [
+    5
+   ],
+   "was": "ANO-TRG",
+   "comment": "A gap found while searching. New in round 2, two cases. Open."
+  },
+  {
+   "anomaly": "R2-A02",
+   "round": 2,
+   "interview": "how-3-college-friends-created-the-openta-af2e17",
+   "segments": [
+    15
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A04",
+   "round": 2,
+   "interview": "how-we-started-a-3-3m-watch-business-sel-32ed1e",
+   "segments": [
+    11
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A05",
+   "round": 2,
+   "interview": "how-i-started-a-gift-box-business-for-no-7ae052",
+   "segments": [
+    3
+   ],
+   "was": "ANO-TRG",
+   "comment": "Idea from the founder's own experience. Recurs (A32, the idle play of round 1) and a new case (an idea in the shower). Open; drafted code 'Idea out of the blue' fits, papers not yet read."
+  },
+  {
+   "anomaly": "R2-A07",
+   "round": 2,
+   "interview": "intch-professional-networking-app-for-th-6a5949",
+   "segments": [
+    11
+   ],
+   "was": "ANO-TRG",
+   "comment": "A new team member changed the focus. One case. Open."
+  },
+  {
+   "anomaly": "R2-A08",
+   "round": 2,
+   "interview": "salt-water-digital-9fc994",
+   "segments": [
+    7
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A09",
+   "round": 2,
+   "interview": "salt-water-digital-9fc994",
+   "segments": [
+    5
+   ],
+   "was": "ANO-ACC",
+   "comment": "Setback retold as fortunate: Brownell et al. (2024, p. 1711) offer it only as a conjecture beyond their data; Vough et al. (2017) to get. Open."
+  },
+  {
+   "anomaly": "R2-A12",
+   "round": 2,
+   "interview": "chisos-boot-company-55829b",
+   "segments": [
+    5
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A13",
+   "round": 2,
+   "interview": "chisos-boot-company-55829b",
+   "segments": [
+    5
+   ],
+   "was": "ANO-OUT",
+   "comment": "Goodwill: papers only lean on it (Klyver et al. 2025 ties legitimacy to new contacts). Open."
+  },
+  {
+   "anomaly": "R2-A14",
+   "round": 2,
+   "interview": "the-simple-biz-25084c",
+   "segments": [
+    5,
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A15",
+   "round": 2,
+   "interview": "the-simple-biz-25084c",
+   "segments": [
+    5,
+    9
+   ],
+   "was": "ANO-ROL",
+   "comment": "Set the venture back does not fit: the partner's departure changed who ran the venture rather than setting it back. Open."
+  },
+  {
+   "anomaly": "R2-A16",
+   "round": 2,
+   "interview": "the-simple-biz-25084c",
+   "segments": [
+    5
+   ],
+   "was": "ANO-CND",
+   "comment": "Unplanned free time. One case. Open."
+  },
+  {
+   "anomaly": "R2-A17",
+   "round": 2,
+   "interview": "the-simple-biz-25084c",
+   "segments": [
+    15
+   ],
+   "was": "ANO-ACC",
+   "comment": "Setback retold as fortunate: as R2-A09. Open."
+  },
+  {
+   "anomaly": "R2-A20",
+   "round": 2,
+   "interview": "savewise-e4464a",
+   "segments": [
+    11
+   ],
+   "was": "ANO-OUT",
+   "comment": "A hidden reach penalty: no paper states it; check whether Harm or loss fits on review. Open."
+  },
+  {
+   "anomaly": "R2-A21",
+   "round": 2,
+   "interview": "savewise-e4464a",
+   "segments": [
+    11
+   ],
+   "was": "ANO-OUT",
+   "comment": "Demand overwhelmed the site: no paper states it; check whether Growth and results fits on review. Open."
+  },
+  {
+   "anomaly": "R2-A22",
+   "round": 2,
+   "interview": "how-i-grew-my-made-in-the-usa-bedding-br-0ec6d3",
+   "segments": [
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A24",
+   "round": 2,
+   "interview": "i-run-a-family-plumbing-business-that-ma-50e7ad",
+   "segments": [
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "A setback from an outside party. New in round 2, seven cases in six interviews. Open: search the papers before version 3."
+  },
+  {
+   "anomaly": "R2-A26",
+   "round": 2,
+   "interview": "wealth-ideas-agency-1b7d58",
+   "segments": [
+    13
+   ],
+   "was": "ANO-TRG",
+   "comment": "The venture's own success drew an opportunity. New in round 2, two cases. Open."
+  },
+  {
+   "anomaly": "R2-A27",
+   "round": 2,
+   "interview": "wealth-ideas-agency-1b7d58",
+   "segments": [
+    13
+   ],
+   "was": "ANO-ACC",
+   "comment": "A change of direction told as unintended. One case; near 'The opportunity found them' (8.4), which covers only the start. Open."
+  },
+  {
+   "anomaly": "R2-A28",
+   "round": 2,
+   "interview": "aceternity-ui-ac6cc3",
+   "segments": [
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "Unsought publicity from a third party or platform. Recurs from round 1 in the same four interviews; still no paper read states it. Open."
+  },
+  {
+   "anomaly": "R2-A29",
+   "round": 2,
+   "interview": "design-match-bf2039",
+   "segments": [
+    5
+   ],
+   "was": "ANO-TRG",
+   "comment": "The venture's own success drew an opportunity. New in round 2, two cases. Open."
+  },
+  {
+   "anomaly": "R2-A30",
+   "round": 2,
+   "interview": "design-match-bf2039",
+   "segments": [
+    7
+   ],
+   "was": "ANO-TRG",
+   "comment": "A gap found while searching. New in round 2, two cases. Open."
+  },
+  {
+   "anomaly": "R2-A31",
+   "round": 2,
+   "interview": "foundation-for-a-human-internet-31f60d",
+   "segments": [
+    9
+   ],
+   "was": "ANO-OUT",
+   "comment": "A mission that draws people. Recurs from round 1. Open."
+  },
+  {
+   "anomaly": "R2-A32",
+   "round": 2,
+   "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+   "segments": [
+    11
+   ],
+   "was": "ANO-TRG",
+   "comment": "Idea from the founder's own experience. Recurs (A32, the idle play of round 1) and a new case (an idea in the shower). Open; drafted code 'Idea out of the blue' fits, papers not yet read."
+  },
+  {
+   "anomaly": "R2-A33",
+   "round": 2,
+   "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+   "segments": [
+    13
+   ],
+   "was": "ANO-TRG",
+   "comment": "Unsought publicity from a third party or platform. Recurs from round 1 in the same four interviews; still no paper read states it. Open."
+  },
+  {
+   "anomaly": "R2-A35",
+   "round": 2,
+   "interview": "how-narrowing-my-focus-helped-me-doubled-892803",
+   "segments": [
+    13,
+    15,
+    21
+   ],
+   "was": "ANO-CND",
+   "comment": "Limiting exposure to chance. Recurs from round 1. Open."
+  },
+  {
+   "anomaly": "R2-A36",
+   "round": 2,
+   "interview": "i-built-a-productivity-taskbar-app-that-fe7682",
+   "segments": [
+    3,
+    5,
+    21
+   ],
+   "was": "ANO-NEW",
+   "comment": "Founding as a learning exercise. One case. Open."
+  },
+  {
+   "anomaly": "R2-A37",
+   "round": 2,
+   "interview": "i-built-a-timer-app-that-generates-66k-y-584f72",
+   "segments": [
+    11
+   ],
+   "was": "ANO-TRG",
+   "comment": "Unsought publicity from a third party or platform. Recurs from round 1 in the same four interviews; still no paper read states it. Open."
+  },
+  {
+   "anomaly": "R2-A38",
+   "round": 2,
+   "interview": "jetprint-8cb871",
+   "segments": [
+    3,
+    9
+   ],
+   "was": "ANO-TRG",
+   "comment": "Unsought publicity from a third party or platform. Recurs from round 1 in the same four interviews; still no paper read states it. Open."
+  },
+  {
+   "anomaly": "R2-A42",
+   "round": 2,
+   "interview": "perfect-live-beyond-concierge-flawless-l-39a3bf",
+   "segments": [
+    13
+   ],
+   "was": "ANO-CND",
+   "comment": "Breakthroughs noticed by founders close to customers. Recurs from round 1. Open."
+  }
+ ]
+}

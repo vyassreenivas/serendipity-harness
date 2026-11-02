@@ -190,7 +190,8 @@ function renderCodebook() {
           <input type="checkbox" id="cb-${c.id}" data-code="${c.id}" ${on ? "checked" : ""} ${e ? "" : "disabled"} aria-label="${esc(c.label)}">
           <span class="lbl" data-toggle="${c.id}">${esc(c.label)}<small>${c.id}</small></span>
           <span class="when">${esc(c.when)}</span>
-          ${open.has(c.id) ? `<div class="more">${c.example ? `<div><b>Example</b> “${esc(c.example)}”</div>` : ""}${c.notwhen ? `<div><b>Not when</b> ${esc(c.notwhen)}</div>` : ""}${c.description ? `<div><b>Description</b> ${esc(c.description)}</div>` : ""}</div>` : ""}
+          ${open.has(c.id) ? `<div class="more">${c.example ? `<div><b>Example</b> “${esc(c.example)}”</div>` : ""}${c.notwhen ? `<div style="white-space:pre-line"><b>Don&#39;t use it when</b>
+${esc(c.notwhen)}</div>` : ""}${c.description ? `<div><b>Description</b> ${esc(c.description)}</div>` : ""}</div>` : ""}
         </div>`;
       }).join("") + `</section>`;
   }).join("");

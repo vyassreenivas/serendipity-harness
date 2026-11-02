@@ -33,6 +33,30 @@ eight closest. The model reads those (Prompt 4) and says whether one states the
 code. A link that still has no such sentence stays on the record as checked but
 not confirmed, so the trail shows every link, not only the ones that held.
 
+## Later versions
+
+The prompts build version 1.0. Later versions grow it from the anomalies of
+each coding round, with no prompt: we group the anomalies into themes and adopt
+a theme as a code when it is one clear idea, bears on the research question,
+no existing code covers it, and a paper we have read in full states it. Where
+papers only lean on a theme, we widen or split an existing code along the
+lines the papers draw. Where the anomaly log shows coders left out a case an
+existing code was meant to cover, we clarify that code's wording or example,
+without changing what it means; this needs no paper. We search our papers and the wider library for each
+theme and record every search. A theme no paper states stays an anomaly until
+the end, when all anomalies from the full corpus are analysed inductively
+(Hsieh and Shannon 2005). We list each added or revised code, with the theme it
+comes from, the papers and pages that state it, and why, in a changes file,
+and a program writes the next version from the previous one and that file
+(harness/codebook/changes_v2.0.json made version 2.0 from round 1, and changes_v3.0.json made version 3.0 from round 2). A code drafted from the papers but not used yet is adopted rather than written again. Codes are
+only added after the existing ones, so their numbers never change. When a new
+code takes over part of an old code's ground, the old code's "don't use it
+when" lines point to the new one. From version 3, a "don't use it when" line
+names only a code that coders actually confused with this one in the last
+agreement check, at most three per code; a pair never confused gets no line.
+A code that needs more than three has too loose a definition, which is
+sharpened instead.
+
 ---
 
 ## Prompt 1: read one paper
@@ -88,8 +112,9 @@ When some ideas rule each other out, make them one question with a single
 answer.
 
 Write each first-level code the way a codebook entry usually reads: a label,
-when to use it, an example and, where two codes are easy to mix up, which code
-it is not (MacQueen et al. 1998; Roberts et al. 2019). Keep the label under
+when to use it, an example, and when not to use it (MacQueen et al. 1998;
+Roberts et al. 2019). Write "when not to use it" as short lines, each naming
+a case and the code to use instead, or saying to leave the code off. Keep the label under
 {label_words} words, and the other parts under {when_words}. Make up the
 example; do not take it from the data. Add a "none of these fits" code to each
 group, and one for anything no group asks about. Text that fits no code is

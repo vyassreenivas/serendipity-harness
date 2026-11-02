@@ -1,0 +1,1669 @@
+{
+ "about": "Literature checked for round 2's new anomaly themes (31 Oct 2026): for each theme, the searches (also in anomaly_log.json), the verdict after reading held papers in full, the quotes (each found in its Markdown text by serendipity_harness.evidence's matching), and papers held only as abstracts, to get. Input for the version 3 decisions; no code is adopted here.",
+ "themes": [
+  {
+   "id": "setback-from-an-outside-party",
+   "verdict": "leans on it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "zemblanity unfortunate discoveries / zemblanity",
+     "hits": 30,
+     "kept": [],
+     "note": "No zemblanity paper in catalogs beyond Giustiniano et al. (2016), which is held in full."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "negative serendipity entrepreneurship / negative serendipity",
+     "hits": 30,
+     "kept": [
+      "Dew (2009) FT",
+      "Busch (2023) FT",
+      "Fultz and Hmieleski (2021, 2025) FT"
+     ],
+     "note": "Serendipity papers frame chance as opportunity; none names a setback caused by one outside party."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "unexpected setbacks new ventures / venture setbacks resilience entrepreneurs",
+     "hits": 30,
+     "kept": [
+      "Kosmynin and Ljunggren (2023) abstract",
+      "Soublière (2026) abstract",
+      "Steigenberger et al. (2026) abstract",
+      "Murray et al. (2026) abstract",
+      "Pollack et al. FT"
+     ],
+     "note": "Pollack et al. (held) defines setbacks as the founder's own frugality failures, already covered by the founder-mistake code."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "adverse events supplier failure new venture / supplier bankruptcy small firm / customer loss startup",
+     "hits": 30,
+     "kept": [
+      "Shepherd and Williams (2020) abstract"
+     ],
+     "note": "Supplier and customer hits are finance or operations papers, not chance in venture formation."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "litigation lawsuit startup survival / fraud entrepreneur victim",
+     "hits": 30,
+     "kept": [
+      "Sanchez-Ruiz et al. (2023) abstract"
+     ],
+     "note": "Litigation hits are securities or VC papers; crime-targeting paper is abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "partner exit cofounder departure shock",
+     "hits": 30,
+     "kept": [],
+     "note": "Executive turnover papers only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "negative shocks new firm survival / unlucky events entrepreneurship / unexpected events entrepreneurial process contingencies",
+     "hits": 30,
+     "kept": [
+      "Shepherd, Douglas and Shanley (2000) abstract",
+      "Rauch and Hulsink (2023) abstract",
+      "Fisher et al. (2024) abstract",
+      "Harmeling (2011) FT",
+      "Van de Ven and Engleman (2004) FT"
+     ],
+     "note": "Harmeling (2011) and Van de Ven and Engleman (2004) read: no outside-party setback statement."
+    },
+    {
+     "where": "litreview full text",
+     "query": "zemblanity negative serendipity unfortunate discovery",
+     "hits": 2,
+     "kept": [
+      "Giustiniano et al. (2016)"
+     ],
+     "note": "Zemblanity is self-made misfortune by design, which the existing founder-mistake code covers; it is not an outside-party setback."
+    },
+    {
+     "where": "litreview full text",
+     "query": "unexpected negative event harms new venture / adverse events entrepreneurship setback / supplier failure partner leaves startup shock / lawsuit fraud small business",
+     "hits": 18,
+     "kept": [],
+     "note": "No relevant held paper beyond the project papers."
+    },
+    {
+     "where": "project papers",
+     "query": "grep: zemblan|negative serendipit|bad luck|setback|misfortune|adverse|unlucky|unfavourable|partner|supplier|lawsuit",
+     "hits": 73,
+     "kept": [
+      "Kirtley and O'Mahony (2023)",
+      "Harmeling and Sarasvathy (2013)",
+      "Liu and de Rond (2016)",
+      "Dew (2009)",
+      "Reijonen and Heroum (2023)"
+     ],
+     "note": "Kirtley and O'Mahony give a partner-failure case as a problem trigger; Harmeling and Sarasvathy name rejections by others as negative contingencies; none generalises to a chance setback from one outside party."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Kirtley and O'Mahony (2023)",
+     "title": "What Is a Pivot? Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Kirtley and O'Mahony - 2023 - What Is a Pivot - Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot.md",
+     "page": "212",
+     "quote": "Ergon faced a supply chain problem when they learned that Henry, their U.S. manufacturing and distribution partner, had not begun the integration work necessary to sell their product.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Harmeling and Sarasvathy (2013)",
+     "title": "When Contingency Is a Resource: Educating Entrepreneurs in the Balkans, the Bronx, and Beyond",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Harmeling and Sarasvathy - 2013 - When Contingency Is a Resource Educating Entrepreneurs in the Balkans the Bronx and Beyond.md",
+     "page": "727",
+     "quote": "Both Mariotti and Singer encountered a variety of rejections and challenges as they worked to develop their educational ventures.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Harmeling and Sarasvathy (2013)",
+     "title": "When Contingency Is a Resource: Educating Entrepreneurs in the Balkans, the Bronx, and Beyond",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Harmeling and Sarasvathy - 2013 - When Contingency Is a Resource Educating Entrepreneurs in the Balkans the Bronx and Beyond.md",
+     "page": "728",
+     "quote": "Each of the numerous rejections and resistance that Mariotti and Singer encountered on their path could have been triggers for abdicating their endeavors.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Liu and de Rond (2016)",
+     "title": "Good Night, and Good Luck: Perspectives on Luck in Management Scholarship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Liu and de Rond - 2016 - Good Night, and Good Luck - Perspectives on Luck in Management Scholarship.md",
+     "page": "416",
+     "quote": "Corporate success is inﬂuenced by the activities of competitors (Hannan & Freeman, 1989), the government (Pfeffer & Salancik, 1978), and by external events such as ﬂuctuations in exchange rates (Bertrand & Mullainathan, 2001).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Dew (2009)",
+     "title": "Serendipity in Entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Dew - 2009 - Serendipity in Entrepreneurship.md",
+     "page": "742",
+     "quote": "Also, by contrast with luck, the role of contingencies in serendipity can come in more or less fortunate forms, such that unlucky incidents may sometimes constitute the contingent component of serendipity.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Reijonen and Heroum (2023)",
+     "title": "Critical Events and the Interplay Between Serendipity and Effectuation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Reijonen and Heroum - 2023 - Critical Events and the Interplay Between Serendipity and Effectuation.md",
+     "page": "79-80 (odd-page markers only)",
+     "quote": "Shortly after arriving, Ginger faced her first setback: her tech partner left for a better job.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Shepherd, Douglas and Shanley (2000) New venture survival: Ignorance, external shocks, and risk reduction strategies, https://doi.org/10.1016/s0883-9026(98)00032-9 — abstract only",
+    "Kosmynin and Ljunggren (2023) Tales of the Unexpected: The Repair Work of an Entrepreneurial Resourcing Practice and the Role of Emotions, https://doi.org/10.1177/10422587221138231 — abstract only",
+    "Shepherd and Williams (2020) Entrepreneurship responding to adversity: Equilibrating Adverse Events and Disequilibrating Persistent Adversity, https://doi.org/10.1177/2631787720967678 — abstract only",
+    "Sanchez-Ruiz, Wood, Michaelis and Suarez (2023) Entrepreneurs as prime targets: venture visibility and crime, https://doi.org/10.1016/j.jbusvent.2023.106339 — abstract only",
+    "Murray, Cohen and Iqbal (2026) How ventures maintain stakeholder support amidst operational legitimacy threats, https://doi.org/10.1002/sej.70049 — abstract only",
+    "Rauch and Hulsink (2023) Just one Damned Thing After Another: Towards an Event-based Perspective of Entrepreneurship, https://doi.org/10.1177/10422587211061738 — abstract only",
+    "Fisher, Josefy and Neubert (2024) Event-based entrepreneurship, https://doi.org/10.1016/j.jbusvent.2023.106366 — abstract only"
+   ],
+   "summary": "No paper read in full states that a chance setback caused by one specific outside party (lawsuit, fraud, failing supplier, departing partner, shrinking client) is a kind of trigger; the closest are Kirtley and O'Mahony's case of a manufacturing partner that failed to deliver, Harmeling and Sarasvathy's rejections by others as negative contingencies, and Dew's remark that unlucky incidents can be the contingent part of serendipity. Zemblanity (Giustiniano et al. 2016) does not fit because it is self-made misfortune, already covered by the founder-mistake code."
+  },
+  {
+   "id": "event-that-only-set-the-venture-back",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "bad luck entrepreneurs venture failure",
+     "hits": 30,
+     "kept": [
+      "Brownell et al. (2024) FT",
+      "Zunino et al. (2022) abstract",
+      "Coad and Storey (2021) FT"
+     ],
+     "note": "Luck-and-failure literature treats misfortune as a driver of failure."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "negative shocks new firm survival",
+     "hits": 30,
+     "kept": [
+      "Shepherd, Douglas and Shanley (2000) abstract"
+     ],
+     "note": "External shocks and new venture survival; abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "zemblanity / negative serendipity",
+     "hits": 30,
+     "kept": [
+      "Giustiniano et al. (2016) FT"
+     ],
+     "note": "Zemblanity outcome is purely negative but self-made."
+    },
+    {
+     "where": "litreview full text",
+     "query": "bad luck venture failure chance events",
+     "hits": 12,
+     "kept": [
+      "Liu and de Rond (2016)",
+      "Brownell et al. (2024)",
+      "Soto-Simeone et al. (2021)",
+      "Coad and Storey (2021)"
+     ],
+     "note": "Coad and Storey: survival as Gambler's Ruin random walk; Soto-Simeone: misfortunes repackaged as learning."
+    },
+    {
+     "where": "project papers",
+     "query": "grep: bad luck|unlucky|negative shocks|unfavorable shocks|setback|misfortune|problem trigger",
+     "hits": 73,
+     "kept": [
+      "Liu and Tsay (2024)",
+      "Brownell et al. (2024)",
+      "Denrell et al. (2015)",
+      "Kirtley and O'Mahony (2023)",
+      "Busch (2023)",
+      "Harmeling and Sarasvathy (2013)",
+      "Garud et al. (2014)"
+     ],
+     "note": "Liu and Tsay state that chance negative shocks force young firms to exit; Kirtley and O'Mahony show problem triggers absorbed without a change of direction."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Liu and Tsay (2024)",
+     "title": "A Normative Theory of Luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Liu and Tsay - 2024 - A Normative Theory of Luck.md",
+     "page": "3",
+     "quote": "The initial increase may be attributed primarily to early bad luck rather than to the liability of newness; firms that happen to receive negative shocks early on are forced to exit.",
+     "match": "states it"
+    },
+    {
+     "paper": "Brownell et al. (2024)",
+     "title": "Choice or Chance: How Successful Entrepreneurs Talk About Luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+     "page": "1687",
+     "quote": "Because of this, both skill and luck can be thought of as the underlying drivers of new venture performance outcomes, such that success occurs where entrepreneurial skill and good luck occur jointly, while failure materializes in cases of mistake, misfortune, or a combination of the two (Cardon et al., 2011 ; Zunino et al., 2022 ).",
+     "match": "states it"
+    },
+    {
+     "paper": "Kirtley and O'Mahony (2023)",
+     "title": "What Is a Pivot? Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Kirtley and O'Mahony - 2023 - What Is a Pivot - Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot.md",
+     "page": "212",
+     "quote": "In some cases, when firms chose to reject strategic change, they accepted the potential negative impact the problem trigger presented.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Kirtley and O'Mahony (2023)",
+     "title": "What Is a Pivot? Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Kirtley and O'Mahony - 2023 - What Is a Pivot - Explaining When and How Entrepreneurial Firms Decide to Make Strategic Change and Pivot.md",
+     "page": "206",
+     "quote": "A problem trigger introduced information that posed a potential loss or unfavorable impact to the firm that could decrease the firm's value or increase the likelihood of failure.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Denrell et al. (2015)",
+     "title": "Chance Explanations in the Management Sciences",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Denrell et al - 2015 - Chance Explanations in the Management Sciences.md",
+     "page": "934",
+     "quote": "Similarly, survival models based on random walks assume that exit occurs as a result of accumulation of unfavorable shocks.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Busch (2023)",
+     "title": "Towards a Theory of Serendipity: A Systematic Review and Conceptualization",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Busch - 2023 - Towards a Theory of Serendipity.md",
+     "page": "35 (note 12)",
+     "quote": "An unexpected event itself can be (perceived as) ‘lucky’ (e.g., unexpectedly inheriting money) or ‘unlucky’ (e.g., a sudden recession forcing a company into bankruptcy); social actors then can (try to) subsequently use their agency to utilize the event as an inflection point for serendipity (Busch 2020).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Harmeling and Sarasvathy (2013)",
+     "title": "When Contingency Is a Resource: Educating Entrepreneurs in the Balkans, the Bronx, and Beyond",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Harmeling and Sarasvathy - 2013 - When Contingency Is a Resource Educating Entrepreneurs in the Balkans the Bronx and Beyond.md",
+     "page": "728",
+     "quote": "Each of the numerous rejections and resistance that Mariotti and Singer encountered on their path could have been triggers for abdicating their endeavors.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Zunino, Dushnitsky and van Praag (2022) How Do Investors Evaluate Past Entrepreneurial Failure? Unpacking Failure Due to Lack of Skill versus Bad Luck, https://doi.org/10.5465/amj.2018.0579 — abstract only",
+    "Shepherd, Douglas and Shanley (2000) New venture survival: Ignorance, external shocks, and risk reduction strategies, https://doi.org/10.1016/s0883-9026(98)00032-9 — abstract only",
+    "Soublière (2026) Resonance, Consonance, Dissonance: Explaining Divergent Responses to Entrepreneurial Setbacks, https://doi.org/10.5465/amj.2025.0122 — abstract only",
+    "Steigenberger, Cyron and Garz (2026) How Narrative Orchestration Helps Entrepreneurs Maintain Goals Despite Setbacks: The case of Star Citizen, https://doi.org/10.1177/01708406261483573 — abstract only"
+   ],
+   "summary": "Liu and Tsay (2024) state that chance negative shocks force young firms to exit, and Brownell et al. (2024) state that venture failure comes from mistake, misfortune or both, so a purely harmful role for chance events is stated; Kirtley and O'Mahony (2023) add that firms sometimes absorb a problem's negative impact without changing direction. The serendipity papers themselves (Dew, Busch) only lean on it, since they treat unlucky events as possible inflection points rather than as pure setbacks."
+  },
+  {
+   "id": "setback-retold-as-fortunate",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "project papers",
+     "query": "grep setback|adversit|blessing|misfortune|bad luck|reframe|turned out across papers/md",
+     "hits": 14,
+     "kept": [
+      "Brownell et al (2024)",
+      "Liu and Tsay (2024)",
+      "Cunha et al (2010)"
+     ],
+     "note": "Brownell read in full; it states the bad-luck-later-reframed-as-good-luck idea in its limitations section, flagged by the authors as going beyond their data. Sarasvathy (2008) lemonade principle and Harmeling and Sarasvathy (2013) are about acting on contingencies, not retelling them; not quoted. Garud et al (2014) treats setbacks as a threat to legitimacy, not as retold fortune."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "retrospective reframing of failure blessing in disguise",
+     "hits": 30,
+     "kept": [],
+     "note": "Title-word matches only (Fu 2026 'A Blessing in Disguise' is about institutional logics). No full-text hits relevant."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurs narratives of failure setback reinterpreted as positive",
+     "hits": 30,
+     "kept": [
+      "Mantere et al (2013)",
+      "Kibler et al (2021)",
+      "Saylors et al (2023)",
+      "Byrne and Shepherd (2015)",
+      "Wolfe and Shepherd (2015)",
+      "Castello et al (2023)",
+      "Singh et al (2015)",
+      "Steigenberger (2026)"
+     ],
+     "note": "All abstract only. The failure-narrative stream is about accounts of ventures that closed, not setbacks within a surviving venture retold as fortunate."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "sensemaking of entrepreneurial failure narrative",
+     "hits": 30,
+     "kept": [
+      "Cardon et al (2011)",
+      "Mandl et al (2016)",
+      "Cacciotti et al (2027)"
+     ],
+     "note": "Abstract only. Full-text hits (Mitchell 2002, Navis 2011, Van Lent 2023, Wurth 2024) are off topic."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "post hoc rationalization of setbacks in founder stories",
+     "hits": 30,
+     "kept": [
+      "Vough et al (2017)"
+     ],
+     "note": "Vough et al (AMR) on constructing growth-based stories after a denied promotion is the closest conceptual match; abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "adversity turned into opportunity entrepreneur account",
+     "hits": 30,
+     "kept": [],
+     "note": "Holland et al (2013), Francis et al (2000) are about persisting or coping, not retelling. Full-text hits off topic."
+    },
+    {
+     "where": "litreview full text",
+     "query": "blessing in disguise setback entrepreneur",
+     "hits": 5,
+     "kept": [
+      "Liu and Tsay (2024)"
+     ],
+     "note": "Other hits use the phrase about AI or equivocality."
+    },
+    {
+     "where": "litreview full text",
+     "query": "failure reframed positive retrospective narrative",
+     "hits": 6,
+     "kept": [
+      "Tesfaye et al (2026)"
+     ],
+     "note": "Terveen (2025) 'reframed agency' is about acting under negative emotion, not retelling. Hargadon and Bechky only mention retrospective rationalisation as a data bias."
+    },
+    {
+     "where": "litreview full text",
+     "query": "regex scan of all corpus Markdown for silver lining / blessing in disguise / reframe failure-setback-adversity as positive",
+     "hits": 28,
+     "kept": [
+      "Brownell et al (2024)",
+      "Liu and Tsay (2024)"
+     ],
+     "note": "Other matches are reference-list titles or about prototyping teams reframing failure as learning (Lauff et al 2018), outside founder accounts."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Brownell et al (2024)",
+     "title": "Choice or chance: How successful entrepreneurs talk about luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+     "page": "1710",
+     "quote": "This evaluative status can change over time, which means that a new venture that is able to capitalize on a luck event initially classified as “bad luck” might later reframe that event as good luck.",
+     "match": "states it"
+    },
+    {
+     "paper": "Brownell et al (2024)",
+     "title": "Choice or chance: How successful entrepreneurs talk about luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+     "page": "1710",
+     "quote": "However, while this conjecture goes beyond our data, we suggest that new ventures also can and do succeed as a result of suffering from bad luck.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Liu and Tsay (2024)",
+     "title": "A normative theory of luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Liu and Tsay - 2024 - A Normative Theory of Luck.md",
+     "page": "3 (Frontiers article page; from the '03 frontiersin.org' footer)",
+     "quote": "Lay theories of luck tend to be normative but unreliable (e.g., choosing lucky numbers increases the chances of winning), whereas academic theories of luck tend to descriptive (e.g., events beyond our control changes the course of history) and highlight their subjective nature (e.g., luck is in the eye of the beholder; an unlucky event can be a blessing in disguise with additional knowledge).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Cunha et al (2010)",
+     "title": "On serendipity and organizing",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Cunha et al - 2010 - On Serendipity and Organizing.md",
+     "page": "319 or 320 (no page marker; the sentence comes before the first 'M.P. Cunha et al.' running head)",
+     "quote": "In each case, organization was required to make the discovery: for Columbus, the huge business of ﬁnding sponsors, organizing ships and crew, and navigating across unknown oceans, not to mention organizing as a positive the fortunate story of ﬁnding America as opposed to the unfortunate story of missing the Orient.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Tesfaye et al (2026)",
+     "title": "Spiritual bricolage among women entrepreneurs: reframing adversity",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/UK-Limited-et-al-2025-Spiritual-bricolage-among-women-entrepreneurs-reframing-adversity-c837dbdf7753/UK-Limited-et-al-2025-Spiritual-bricolage-among-women-entrepreneurs-reframing-adversity-c837dbdf7753-02-docling.md",
+     "page": "597 (PDF page 23 in the builtin conversion of the same file set)",
+     "quote": "While  bricolage  explains  how  entrepreneurs  'make  do'  with resources  at  hand,  our  findings  show  that  spiritual  bricolage  provides  interpretative  schemas that enable entrepreneurs to reframe adversity into opportunity.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Mantere et al (2013) Narrative attributions of entrepreneurial failure, Journal of Business Venturing, 10.1016/j.jbusvent.2012.12.001 — abstract only",
+    "Cardon et al (2011) Misfortunes or mistakes? Cultural sensemaking of entrepreneurial failure, Journal of Business Venturing, 10.1016/j.jbusvent.2009.06.004 — abstract only",
+    "Vough et al (2017) Where do I go from here? Sensemaking and the construction of growth-based stories in the wake of denied promotions, Academy of Management Review, 10.5465/amr.2013.0177 — abstract only",
+    "Kibler et al (2021) Post-failure impression management: A typology of entrepreneurs' public narratives after business closure, Human Relations, 10.1177/0018726719899465 — abstract only",
+    "Saylors et al (2023) Looking back to venture forward: Exploring idea and identity work in public failure narratives, Entrepreneurship Theory and Practice, 10.1177/10422587211057027 — abstract only",
+    "Cacciotti et al (2027) From breakdown to breakthrough: How entrepreneurs craft vulnerability narratives on social media, Journal of Business Venturing, 10.1016/j.jbusvent.2026.106656 — abstract only",
+    "Steigenberger (2026) How narrative orchestration helps entrepreneurs maintain goals despite setbacks: The case of Star Citizen, Organization Studies, 10.1177/01708406261483573 — abstract only"
+   ],
+   "summary": "Brownell et al (2024), read in full, states the idea: a venture that capitalises on an event first seen as bad luck might later reframe it as good luck, though the authors say this conjecture goes beyond their data. Liu and Tsay (2024), Cunha et al (2010) and Tesfaye et al (2026) lean on it, and the failure-narrative papers that might state it outright are abstract only."
+  },
+  {
+   "id": "credit-to-persistence-or-work",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "project papers",
+     "query": "grep persist|persever|hard work|effort|self-serving|attribut...success in Brownell, Mirvahedi and Morrish, Liu and de Rond, Denrell et al 2015, Daniels and Wang",
+     "hits": 30,
+     "kept": [
+      "Brownell et al (2024)",
+      "Liu and de Rond (2016)",
+      "Mirvahedi and Morrish (2017)"
+     ],
+     "note": "Brownell's perseverance theme mostly ties persistence to luck ('luck is persistence'), but one sentence reports founders crediting success to persisting through setbacks, with no luck contrast. Mirvahedi and Morrish's 'create their own luck, and their hard work' sentence sets work against luck, so it fits the existing effort-not-luck code instead. Daniels and Wang (2019) is a survey of general publics, not founder accounts."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurs attributions of success effort persistence",
+     "hits": 30,
+     "kept": [
+      "Santos et al (2023)",
+      "Rogoff et al (2004)",
+      "Holland et al (2013)",
+      "Cardon et al (2015)",
+      "Baron (1998)"
+     ],
+     "note": "Baron (1998) has full text; the rest are abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "self-serving attribution bias entrepreneurs success",
+     "hits": 30,
+     "kept": [
+      "Rogoff et al (2004)",
+      "Clapham et al (1991)",
+      "Aerts (2005)"
+     ],
+     "note": "No full text among the hits."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurial persistence",
+     "hits": 30,
+     "kept": [
+      "Holland et al (2013)",
+      "Hoang et al (2010)"
+     ],
+     "note": "These are about the decision to persist, not about crediting persistence in accounts. Full-text hits (Michaelis 2026, Mitchell 2010) not about accounts."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "attribution of success to hard work luck entrepreneurs",
+     "hits": 30,
+     "kept": [
+      "Brownell et al (2024)",
+      "Baron (1998)",
+      "Liu and de Rond (2016)"
+     ],
+     "note": "Zunino et al (2022) is about investors judging failure as bad luck versus lack of skill; abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "prepared mind luck entrepreneurs",
+     "hits": 30,
+     "kept": [
+      "Busch and Barkema (2022)"
+     ],
+     "note": "Planned luck is about cultivating serendipity, not crediting work; no usable sentence."
+    },
+    {
+     "where": "litreview full text",
+     "query": "attribution success hard work persistence entrepreneur; self-serving attribution success effort; persistence perseverance entrepreneurs success account",
+     "hits": 18,
+     "kept": [
+      "Baron (1998)",
+      "Liu and de Rond (2016)",
+      "Brownell et al (2024)",
+      "Mirvahedi and Morrish (2017)"
+     ],
+     "note": "Baron (1998) is held under a mislabelled transfer folder (lee-2006-...; identity-review-required) but the text is Baron's JBV article. Tesfaye et al (2026) mentions persistence but as an outcome of spirituality."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Brownell et al (2024)",
+     "title": "Choice or chance: How successful entrepreneurs talk about luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+     "page": "1710",
+     "quote": "We primarily find the former experience reflected in the perseverance theme, wherein entrepreneurs often mentioned that their success occurred because they were able to persist despite earlier setbacks.",
+     "match": "states it"
+    },
+    {
+     "paper": "Brownell et al (2024)",
+     "title": "Choice or chance: How successful entrepreneurs talk about luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+     "page": "1707",
+     "quote": "Based on current scholarship, we would expect successful entrepreneurs to embrace the self-generated contributors of personal agency by attributing new venture success primarily to internal causes such as ability or effort.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Baron (1998)",
+     "title": "Cognitive mechanisms in entrepreneurship: Why and when entrepreneurs think differently than other people",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/lee-2006-aspirations-market-offerings-and-the-pursuit-of-entrepreneurial-opportunities-321142c1a18b/lee-2006-aspirations-market-offerings-and-the-pursuit-of-entrepreneurial-opportunities-321142c1a18b-01-docling.md",
+     "page": "284 (PDF page 10 in the builtin conversion)",
+     "quote": "This bias actually consists of two distinct but related parts: (1) a strong tendency on the part of most persons to attribute positive outcomes to internal causes-for instance, their own skill, talent, good judgment, or hard work, and (2) a corresponding tendency to attribute negative outcomes to external causes-factors beyond their control, including the actions of other persons, faulty equipment, a lack of needed resources, and so on.",
+     "match": "states it"
+    },
+    {
+     "paper": "Liu and de Rond (2016)",
+     "title": "Good night, and good luck: Perspectives on luck in management scholarship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Liu and de Rond - 2016 - Good Night, and Good Luck - Perspectives on Luck in Management Scholarship.md",
+     "page": "415",
+     "quote": "By contrast, low aspirations are likely followed by perceived successes, and by the attributions that skill and hard work caused these successes.",
+     "match": "states it"
+    },
+    {
+     "paper": "Liu and de Rond (2016)",
+     "title": "Good night, and good luck: Perspectives on luck in management scholarship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Liu and de Rond - 2016 - Good Night, and Good Luck - Perspectives on Luck in Management Scholarship.md",
+     "page": "413",
+     "quote": "For example, when evaluating own performances, self-serving bias suggests that people tend to attribute their successes to skill or effort and consider failures to be bad luck (Miller & Ross, 1975).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Mirvahedi and Morrish (2017)",
+     "title": "The role of serendipity in opportunity exploration",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Mirvahedi and Morrish - 2017 - The Role of Serendipity in Opportunity Exploration.md",
+     "page": "196",
+     "quote": "We found that most of the entrepreneurs had bene fi ted from their persistence and this gives them new opportunities.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Santos et al (2023) Why am I so successful? Self-presentation and deliberative attributions of success in entrepreneurship, Journal of Business Venturing Insights, 10.1016/j.jbvi.2023.e00396 — abstract only",
+    "Rogoff et al (2004) 'Who done it?' Attributions by entrepreneurs and experts of the factors that cause and impede small business success, Journal of Small Business Management, 10.1111/j.1540-627x.2004.00117.x — abstract only",
+    "Holland et al (2013) Deciding to persist: Adversity, values, and entrepreneurs' decision policies, Entrepreneurship Theory and Practice, 10.1111/j.1540-6520.2011.00468.x — abstract only",
+    "Clapham et al (1991) Self-serving attributions, managerial cognition, and company performance, Strategic Management Journal, 10.1002/smj.4250120305 — abstract only"
+   ],
+   "summary": "Brownell et al (2024) states it for founders: they often said their success came because they persisted despite earlier setbacks, with no luck contrast in that sentence. Baron (1998) and Liu and de Rond (2016) state the general self-serving pattern of crediting success to one's own hard work or effort; the closest founder-specific study, Santos et al (2023), is abstract only."
+  },
+  {
+   "id": "pivot-told-as-unintended",
+   "verdict": "leans on it",
+   "searches": [
+    {
+     "where": "project papers",
+     "query": "grep unintend|inadvertent|accident|drift|absence of intention|retrospective sense in Mintzberg and Waters, Mintzberg and McHugh, Plowman, Kirtley and O'Mahony, McDonald and Gao, Grimes, Baker et al 2003, Golden, Honda Effect",
+     "hits": 20,
+     "kept": [
+      "Mintzberg and McHugh (1985)",
+      "Mintzberg and Waters (1985)",
+      "Plowman et al (2007)"
+     ],
+     "note": "These say strategic change can be unintended or emergent, as the researchers observed it; none says founders narrate a pivot as having happened inadvertently. Kirtley and O'Mahony (2023) and McDonald and Gao (2019) only note retrospective sensemaking as a data risk. Baker et al (2003) shows the opposite move (account-giving that promotes improvised tactics to strategy, the told-as-if-planned code). The project copy of Mintzberg et al (1996) The Honda Effect Revisited holds only the 2-page introduction, which notes Honda executives' own account differed from BCG's planned story; the full forum is needed."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "unintended strategic change emergent strategy drift",
+     "hits": 30,
+     "kept": [
+      "Plowman et al (2007)",
+      "Bruder (2025)",
+      "Balogun et al (2005)",
+      "Grimes et al (2019)"
+     ],
+     "note": "Bruder (2025) has full text but is about practice drift in social enterprises that is unnoticed by actors, so not a founder telling a pivot."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "founders narrate pivot accidental",
+     "hits": 30,
+     "kept": [
+      "Grimes (2018)",
+      "Hennart (2014)",
+      "Johnsen et al (2023)"
+     ],
+     "note": "Hennart's 'accidental internationalists' concerns internationalisation, abstract only. Full-text pivot papers (Kettunen 2026, Burnell et al 2023) model pivots as deliberate decisions."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "emergent strategy retrospective account managers",
+     "hits": 30,
+     "kept": [
+      "Golden (1992)",
+      "Giolito et al (2025)",
+      "Waddock et al (2016)"
+     ],
+     "note": "Giolito et al (2025) on executives narrating strategic errors, and Waddock et al (2016) on emergent pathways in social entrepreneurs' accounts, are abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "strategic drift unintended change new venture",
+     "hits": 30,
+     "kept": [
+      "Bruder (2025)"
+     ],
+     "note": "Nothing on founders' accounts."
+    },
+    {
+     "where": "litreview full text",
+     "query": "emergent strategy unintended realized strategy; pivot inadvertent unintended change direction; drift accidental change organization",
+     "hits": 17,
+     "kept": [
+      "Plowman et al (2007)",
+      "Bruder (2025)"
+     ],
+     "note": "Valentine et al (2024) theory-based view of pivots treats pivots as theorised choices."
+    },
+    {
+     "where": "litreview full text",
+     "query": "regex scan of all corpus Markdown for pivot/strategic change near inadvertent|unintended|accidental",
+     "hits": 9,
+     "kept": [],
+     "note": "Only reference-list entries for MacKay and Chia (2013) and a textbook definition that strategic changes may be intentional or unintentional."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Mintzberg and McHugh (1985)",
+     "title": "Strategy formation in an adhocracy",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Mintzberg and McHugh - 1985 - Strategy Formation in an Adhocracy.md",
+     "page": "161",
+     "quote": "Moreover, the most interesting issues seem to revolve around the interplay of these two definitions so that, as shown in Figure 1, deliberate strategies (intentions realized) can be distinguished from emergent strategies (patterns real- ized despite or in the absence of intentions).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Mintzberg and Waters (1985)",
+     "title": "Of strategies, deliberate and emergent",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Mintzberg and Waters - 1985 - Of Strategies Deliberate and Emergent.md",
+     "page": "271",
+     "quote": "It is important to remember that emergent strategy means, not chaos, but, in essence, unintended order.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Plowman et al (2007)",
+     "title": "Radical change accidentally: The emergence and amplification of small change",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Plowman et al - 2007 - Radical Change Accidentally - The Emergence and Amplification of Small Change.md",
+     "page": "515",
+     "quote": "First, the radical change was unintended, emergent, and slow.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Mintzberg, Pascale, Goold and Rumelt (1996) The 'Honda Effect' revisited, California Management Review 38(4) — full forum (reprints Pascale's account from Honda executives); the project copy holds only the 2-page introduction",
+    "MacKay and Chia (2013) Choice, chance, and unintended consequences in strategic change: A process understanding of the rise and fall of Northco Automotive, Academy of Management Journal (DOI not checked) — seen only as a reference in held papers",
+    "Giolito et al (2025) 'We made a mistake': How top executives dialectically narrate strategic errors in situations of strategic change, Strategic Organization, 10.1177/14761270231195295 — abstract only",
+    "Waddock et al (2016) Visionaries and wayfinders: Deliberate and emergent pathways to vision in social entrepreneurship, Journal of Business Ethics, 10.1007/s10551-014-2451-x — abstract only"
+   ],
+   "summary": "No paper read in full says founders tell a later change of direction as unintended. Mintzberg and McHugh (1985), Mintzberg and Waters (1985) and Plowman et al (2007) say strategy or change can form without intention, but that is the researchers' view, not the founder's account; the Honda executives' own account, in Pascale's full article, is the most likely source and needs to be got."
+  },
+  {
+   "id": "acting-on-intuition",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "intuition opportunity recognition entrepreneur",
+     "hits": 30,
+     "kept": [
+      "Blume & Covin (2011) JBV",
+      "Dutta & Crossan (2005) ETP (via full-text search)",
+      "Mitchell-type dual-process paper JOMS"
+     ],
+     "note": "4 of 30 with full text; intuition-specific papers (Blume & Covin; Linking Experience to Intuition, JOMS) abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "gut feeling entrepreneurial decision",
+     "hits": 30,
+     "kept": [
+      "Huang & Pearce (2015) ASQ",
+      "Huang (2018) AMJ"
+     ],
+     "note": "All abstract only; about investor gut feel, not founders acting on chance input."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "gut feeling founder",
+     "hits": 30,
+     "kept": [],
+     "note": "0 full text; nothing on founders and chance input."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "serendipity intuition",
+     "hits": 30,
+     "kept": [
+      "Busch & Grimes (2023)",
+      "Busch (2023)"
+     ],
+     "note": "12 full text; serendipity reviews are the held sources that discuss intuition."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "intuition entrepreneurial action uncertainty",
+     "hits": 30,
+     "kept": [
+      "Untangling the Intuition Mess (2005) ETP"
+     ],
+     "note": "Abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "Untangling the Intuition Mess / entrepreneurship research on intuition critical analysis",
+     "hits": 12,
+     "kept": [
+      "Untangling the Intuition Mess (2005)"
+     ],
+     "note": "Baldacchino et al. (2015) IJMR not in catalogs."
+    },
+    {
+     "where": "litreview full text",
+     "query": "intuition opportunity recognition entrepreneur",
+     "hits": 12,
+     "kept": [
+      "Dutta & Crossan (2005)",
+      "Busch & Grimes (2023)"
+     ],
+     "note": "Dutta & Crossan read in full section on intuiting (first I)."
+    },
+    {
+     "where": "litreview full text",
+     "query": "gut feeling serendipity act on intuition",
+     "hits": 5,
+     "kept": [
+      "Busch & Grimes (2023)",
+      "Copeland et al. (2023)"
+     ],
+     "note": "Copeland et al. book reprints Busch & Grimes chapter."
+    },
+    {
+     "where": "litreview full text",
+     "query": "flash evaluation serendipity gut",
+     "hits": 1,
+     "kept": [],
+     "note": "Only a strategy textbook."
+    },
+    {
+     "where": "project papers",
+     "query": "grep intuiti | gut feel | gut instinct | hunch",
+     "hits": 40,
+     "kept": [
+      "Busch & Grimes (2023)",
+      "Busch (2023)",
+      "Nguyen et al. (2024)",
+      "Williams & Wood (2015)",
+      "Cunha et al. (2010)",
+      "Van Andel (1994)"
+     ],
+     "note": "Most hits are 'intuitively'/'counterintuitive' or references. Busch (2023) and Cunha (2010) tie intuition to detecting/connecting, not acting."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Busch & Grimes (2023)",
+     "title": "Serendipity in Entrepreneurship, Strategy, and Innovation—A Review and Conceptualisation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Busch and Grimes - 2023 - Serendipity in Entrepreneurship, Strategy, and Innovation - A Review and Conceptualisation.md",
+     "page": "80",
+     "quote": "The ability to mindfully acknowledge and act on our intuition can thus be important for forming bisociations which can support more original and superior solutions to problems (Eubanks et al. 2010).",
+     "match": "states it"
+    },
+    {
+     "paper": "Busch & Grimes (2023)",
+     "title": "Serendipity in Entrepreneurship, Strategy, and Innovation—A Review and Conceptualisation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Busch and Grimes - 2023 - Serendipity in Entrepreneurship, Strategy, and Innovation - A Review and Conceptualisation.md",
+     "page": "84",
+     "quote": "Whereas a ﬂash evaluation is a quick assessment that is based on a gut feeling about the new, unexpected information, a systematic evaluation is a more comprehensive analytical assessment that includes criteria such as risk tolerance, timing, and additional information that helps invalidate or substantiate the unexpected information (Napier and Vuong\n2013).",
+     "match": "states it"
+    },
+    {
+     "paper": "Nguyen et al. (2024)",
+     "title": "Serendipity as a Strategic Advantage",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Nguyen et al - 2024 - Serendipity as a Strategic Advantage.md",
+     "page": "n/a (encyclopedia entry; no page markers)",
+     "quote": "Initially, an individual does a quick, almost gut feeling assessment of the unusual information.",
+     "match": "states it"
+    },
+    {
+     "paper": "Busch (2023)",
+     "title": "Towards a Theory of Serendipity: A Systematic Review and Conceptualization",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Busch - 2023 - Towards a Theory of Serendipity.md",
+     "page": "23 (early-view pagination)",
+     "quote": "Organizations have used a variety of approaches to filter and invest into unexpectedly emerging ideas, for example, flash evaluations (based on intuition) or systematic evaluations (comprehensive analytical assessments that include factors such as timing and risk tolerance) (Napier and Vuong, 2013).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Dutta & Crossan (2005)",
+     "title": "The nature of entrepreneurial opportunities: Understanding the process using the 4I organizational learning framework",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/Dutta-and-Crossan-2005-The-nature-of-entrepreneurial-opportunities-Understanding-the-process-using-the-4I-organizational-learning-fra-82485d4c074d/Dutta-and-Crossan-2005-The-nature-of-entrepreneurial-opportunities-Understanding-the-process-using-the-4I-organizational-learning-fra-82485d4c074d-02-pymupdf4llm.md",
+     "page": "n/a (no page markers or printed headers in Markdown; section 'Entrepreneurial Opportunities and Intuiting (or the First I)')",
+     "quote": "Entrepreneurial intuition parallels the Schumpeterian view of opportunity recognition, in that entrepreneurs act as change agents and initiate innovation and transformation in the economy on the basis of their intuition about the emerging future.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Williams & Wood (2015)",
+     "title": "Rule-Based Reasoning for Understanding Opportunity Evaluation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Williams and Wood - 2015 - Rule-Based Reasoning for Understanding Opportunity Evaluation.md",
+     "page": "229",
+     "quote": "This suggests that creative and intuitive system 1 processes could be used to eval- uate opportunities, and indeed Bryant (2007, p. 742) found evidence of an intuitive \"trusting gut\" ap- proach used by some Australian entrepreneurs.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Blume & Covin (2011) Attributions to intuition in the venture founding process: Do entrepreneurs actually use intuition or just say that they do?, 10.1016/j.jbusvent.2009.04.002 — abstract only",
+    "Untangling the Intuition Mess: Intuition as a Construct in Entrepreneurship Research (2005, ETP), 10.1111/j.1540-6520.2005.00102.x — abstract only",
+    "Linking Experience to Intuition and Cognitive Versatility in New Venture Ideation: A Dual-Process Perspective (JOMS), 10.1111/joms.12794 — abstract only",
+    "Baldacchino, Ucbasaran, Cabantous & Lockett (2015) Entrepreneurship research on intuition: A critical analysis and research agenda, IJMR 17(2) — not in catalogs (cited by Busch & Grimes and Busch)",
+    "Napier & Vuong (2013) What we see, why we worry, why we hope: Serendipity as strategic advantage? — not in catalogs; source of flash vs systematic evaluation",
+    "Huang & Pearce (2015) Managing the Unknowable, ASQ, 10.1177/0001839215597270 — abstract only (investor gut feel, adjacent)"
+   ],
+   "summary": "Busch & Grimes (2023) say in one sentence that acknowledging and acting on intuition matters for serendipity, and describe a 'flash evaluation' of unexpected information based on gut feeling; Nguyen et al. (2024) restate the gut-feel assessment of unusual information. That is enough to support an acting-on-intuition mechanism code, with Dutta & Crossan (2005) and Williams & Wood (2015) as general (non-serendipity) backing for entrepreneurs acting on intuition."
+  },
+  {
+   "id": "a-gap-found-while-searching",
+   "verdict": "leans on it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "user entrepreneur frustrated existing products unavailable",
+     "hits": 12,
+     "kept": [],
+     "note": "0 full text; nothing on searching for a product and finding it missing or overpriced."
+    },
+    {
+     "where": "litreview full text",
+     "query": "searching for a product could not find one started a business",
+     "hits": 8,
+     "kept": [
+      "Dew (2009)"
+     ],
+     "note": "Search-and-discovery papers; none describe a missing product/price surprise."
+    },
+    {
+     "where": "project papers",
+     "query": "grep could not find | did not exist | frustrated with existing | too expensive | unmet need | while searching/looking for",
+     "hits": 30,
+     "kept": [
+      "Dew (2009)",
+      "Shah & Tripsas (2007)"
+     ],
+     "note": "'While looking for one thing, finding another' is the classic serendipity definition; Shah & Tripsas tie user entrepreneurship to frustration with existing products. No sentence says the founder was surprised by what was missing or what it cost."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Dew (2009)",
+     "title": "Serendipity in Entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Dew - 2009 - Serendipity in Entrepreneurship.md",
+     "page": "735",
+     "quote": "For the purposes of this paper, I define serendipity as search leading to unintended discovery.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Shah & Tripsas (2007)",
+     "title": "The Accidental Entrepreneur: The Emergent and Collective Process of User Entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+     "page": "n/a (no page markers in Markdown; early 'user entrepreneurship' section)",
+     "quote": "For  example,  two  of  the  three  major technological  advances  in  typesetters  over  a  100year  period  were  initially  commercialized  by  professional-user  entrepreneurs-in-house  publishers who became frustrated with the workings of typesetters and were inspired to create and commercialize a better solution (Tripsas, 2008, forthcoming).",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [],
+   "summary": "No paper read states that a founder searching for a product or price was surprised by a gap; the closest are Dew's definition of serendipity as search leading to unintended discovery and Shah & Tripsas on users frustrated with existing products. Keep it out of the codebook or fold it under an existing search/trigger code."
+  },
+  {
+   "id": "own-success-drew-an-opportunity",
+   "verdict": "leans on it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "inbound demand customers approached venture opportunity",
+     "hits": 12,
+     "kept": [],
+     "note": "Nothing relevant."
+    },
+    {
+     "where": "litreview full text",
+     "query": "unsolicited requests customers approached success visibility new opportunity",
+     "hits": 1,
+     "kept": [],
+     "note": "Only a strategy textbook."
+    },
+    {
+     "where": "project papers",
+     "query": "grep inbound | word of mouth | approached | unsolicited | success attracted | media coverage",
+     "hits": 25,
+     "kept": [
+      "Shah & Tripsas (2007)",
+      "Kirtley & O'Mahony (2023)"
+     ],
+     "note": "Kirtley & O'Mahony has an informant quote in Table 5 ('we're getting a lot of inbound requests [for other applications]') after press coverage, which is data, not an author claim. McDonald & Gao note media coverage attracted the wrong users."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Shah & Tripsas (2007)",
+     "title": "The Accidental Entrepreneur: The Emergent and Collective Process of User Entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+     "page": "n/a (no page markers in Markdown)",
+     "quote": "In fact, some user-innovators received unsolicited requests from others wishing to purchase their innovations, enabling them to assess willingness to pay.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [],
+   "summary": "Shah & Tripsas say some user-innovators got unsolicited purchase requests once others saw their innovations, which is close to visible work drawing an opening, but not about a venture's success bringing peers or clients with a new opportunity. No paper read states the theme."
+  },
+  {
+   "id": "a-new-team-member-changed-the-focus",
+   "verdict": "not stated",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "pivot new team member hire changed direction",
+     "hits": 12,
+     "kept": [
+      "Weathering the pivot (2025) JBVI",
+      "Chandler, Honig & Wiklund (2005) JBV",
+      "It's all about Timing: founder exits and new member additions (ETP)"
+     ],
+     "note": "All abstract only except Burnell et al. (2023), which is about business model experimentation."
+    },
+    {
+     "where": "litreview full text",
+     "query": "new team member joined changed venture direction",
+     "hits": 8,
+     "kept": [],
+     "note": "Cases and network papers; none on a joiner redirecting a venture."
+    },
+    {
+     "where": "project papers",
+     "query": "grep new team member | new hire | joined the team | arrival of | team composition",
+     "hits": 20,
+     "kept": [],
+     "note": "Reijonen & Heroum describe a person joining a team (case data); Garud et al. (2011) list people joining 3M teams; no sentence says a new member redirected the venture."
+    }
+   ],
+   "quotes": [],
+   "to_get": [
+    "Chandler, Honig & Wiklund (2005) Antecedents, moderators, and performance consequences of membership change in new venture teams, 10.1016/j.jbusvent.2004.09.001 — abstract only",
+    "Weathering the pivot: Stability and turnover in new venture teams (2025, JBVI), 10.1016/j.jbvi.2025.e00518 — abstract only",
+    "It's all about Timing: Age-Dependent Consequences of Founder Exits and New Member Additions (ETP), 10.1111/etap.12148 — abstract only"
+   ],
+   "summary": "No held paper says a new team member changed a venture's focus. Team-change papers exist in the catalogs but only as abstracts."
+  },
+  {
+   "id": "slack-time",
+   "verdict": "leans on it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "slack time exploration serendipity",
+     "hits": 30,
+     "kept": [
+      "Garud et al. (2011)",
+      "Otto et al. (2024)"
+     ],
+     "note": "10 full text, mostly serendipity papers already held."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "idle time creativity discovery",
+     "hits": 30,
+     "kept": [
+      "Unexpected Interruptions, Idle Time, and Creativity (Org Sci)"
+     ],
+     "note": "Closest match to unplanned idle time; abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "organizational slack serendipity",
+     "hits": 30,
+     "kept": [],
+     "note": "Budgetary slack noise; no new held paper."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "slack time innovation",
+     "hits": 30,
+     "kept": [
+      "Agrawal et al. (2018) Slack Time and Innovation, Org Sci",
+      "In praise of slack: Time is of the essence (AME 2001)"
+     ],
+     "note": "0 full text."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "unexpected interruptions idle time creativity",
+     "hits": 30,
+     "kept": [
+      "Unexpected Interruptions, Idle Time, and Creativity (Org Sci)"
+     ],
+     "note": "Abstract only."
+    },
+    {
+     "where": "litreview full text",
+     "query": "slack time exploration serendipity unexpected discovery",
+     "hits": 6,
+     "kept": [
+      "Otto et al. (2024)",
+      "Fultz & Hmieleski (2025)"
+     ],
+     "note": "Fultz & Hmieleski use slack only as a moderator; Otto et al. mention dedicated slack time for exploration."
+    },
+    {
+     "where": "project papers",
+     "query": "grep slack | idle | free time | spare time | unstructured time | free space | 15% | time to explore",
+     "hits": 60,
+     "kept": [
+      "Garud et al. (2011)",
+      "Soto in Copeland et al. (2023)",
+      "Smith & Hilbolling (2026)",
+      "Otto et al. (2024)",
+      "Cunha et al. (2010)"
+     ],
+     "note": "All describe planned or granted free time (3M 15% option, structured unstructured time, time to explore). None says unplanned free time (a cancelled job, an idle day) made room for a chance input."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Garud et al. (2011)",
+     "title": "Complexity Arrangements for Sustained Innovation: Lessons from 3M Corporation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+     "page": "758",
+     "quote": "We conceptualize the different combinations of practices – manifest structure (e.g., products, patents and platforms), relational processes (e.g., interactions between people within and across platforms and businesses), temporal dynamics (e.g., moments of serendipity enabled by the 15% option) and regulative guidelines (e.g., 30% stretch objective) – that are activated at various stages of an innovation journey at 3M as representing complexity arrangements.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Garud et al. (2011)",
+     "title": "Complexity Arrangements for Sustained Innovation: Lessons from 3M Corporation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+     "page": "754",
+     "quote": "For instance, the 15% exploration time, bootlegging and Genesis Grants made it possible for the scientists to follow up on ideas and to experiment with different applications even when no new products were readily apparent and the division itself was languishing.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Garud et al. (2011)",
+     "title": "Complexity Arrangements for Sustained Innovation: Lessons from 3M Corporation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+     "page": "746–747 (boxed quote; page headers on both sides)",
+     "quote": "Some use less than that; some use none at all… The number is not so important as the message, which is this: the system has some slack in it.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Soto (2023), chapter 11 in Copeland et al. (eds.)",
+     "title": "Serendipity Science: An Emerging Field and Its Methods (ch. 11 'Serendipity Across Contexts: From Offices to Post-conflict Settings')",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.md",
+     "page": "216",
+     "quote": "Casual encounters can develop into starting new projects, and goal-oriented work can be interspersed with practices such as structuring unstructured time (Haas and Mortensen 2016;L a r s o n 2020), which are more conducive to serendipity.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Smith & Hilbolling (2026)",
+     "title": "Demystifying serendipity: How mundane practices enable the identification and pursuit of extraordinary discoveries",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Smith and Hilbolling - 2026 - Demystifying serendipity - How mundane practices enable the identification and pursuit of extraordinary discoveries.md",
+     "page": "n/a (no page markers; literature review near start of article, pp. 709–740)",
+     "quote": "For instance, serendipity is more likely to occur when organizations allow their employees to work in a more sloppy,  untidy,  autonomous,  and  directionless  manner  (Cunha  et  al.,  2010;  De  Rond,  2014; Ferguson, 1999; Merton and Barber, 2004), allowing them time to explore, experiment, and pay persistent attention to 'loose ends' (Cunha et al., 2010; Merton and Barber, 2004: 192).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Otto et al. (2024)",
+     "title": "Finding Creativity in Predictability: Seizing Kairos in Chronos Through Temporal Work in Complex Innovation Processes",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Otto et al - 2024 - Finding Creativity in Predictability Seizing Kairos in Chronos Through Temporal Work in Complex Innovation Processes.md",
+     "page": "1811",
+     "quote": "One important mechanism is creating narratives of innovation that help an organiza - tion to generate shared temporal orientations (Standifer and Bluedorn 2006 ) between multiple actors, which can coordinate a joint understanding of the organization’s past, present, and future innovation journey as a strategy to bring latent ideas to the forefront, or to grant actors dedicated slack time for exploration (Garud et al. 2011 ).",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Agrawal, Catalini, Goldfarb & Luo (2018) Slack Time and Innovation, Organization Science, 10.1287/orsc.2018.1215 — abstract only (cited by Otto et al. 2024)",
+    "Unexpected Interruptions, Idle Time, and Creativity: Evidence from a Natural Experiment, Organization Science, 10.1287/orsc.2023.1660 — abstract only; closest to unplanned idle time",
+    "In praise of slack: Time is of the essence (2001), Academy of Management Executive, 10.5465/ame.2001.5229658 — abstract only"
+   ],
+   "summary": "Held papers say granted free time enables serendipity (Garud et al.'s 3M '15% option' produces 'moments of serendipity'; Soto calls structured unstructured time 'more conducive to serendipity'), but none says unplanned idle time from a cancelled job or empty day did so. The Org Science paper on unexpected interruptions and idle time is the one to get; until then the theme only leans on the literature."
+  },
+  {
+   "id": "readiness-to-take-opportunities",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurial alertness opportunity",
+     "hits": 30,
+     "kept": [
+      "Tang, Kacmar & Busenitz (2012) JBV (held)",
+      "Gaglio & Katz (2001) (held)",
+      "Kirzner (1997) (project)"
+     ],
+     "note": "6 full text; alertness is the established disposition construct."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "openness to experience serendipity",
+     "hits": 30,
+     "kept": [
+      "Austin et al. (2012)",
+      "Busch & Barkema (2020)",
+      "Busch (2023)"
+     ],
+     "note": "14 full text, all already in the project set."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "prepared mind chance opportunity",
+     "hits": 30,
+     "kept": [],
+     "note": "Noise; 2 full text, not relevant."
+    },
+    {
+     "where": "litreview full text",
+     "query": "readiness to seize unexpected opportunities courage",
+     "hits": 5,
+     "kept": [],
+     "note": "Textbooks and the Copeland volume."
+    },
+    {
+     "where": "project papers",
+     "query": "grep willingness to | readiness | ready to | openness to | open to | courage | seize | attitude | fear",
+     "hits": 120,
+     "kept": [
+      "Mirvahedi & Morrish (2017)",
+      "Kirzner (1997)",
+      "Brownell et al. (2024)",
+      "Merton & Barber (2004)",
+      "Cunha et al. (2010)",
+      "Balzano (2022)",
+      "Reijonen & Heroum (2026)",
+      "Engel et al. (2017)"
+     ],
+     "note": "Several papers state a disposition of readiness/openness to seize chance openings; Merton & Barber and Cunha et al. add courage. Brownell et al. pair openness with self-efficacy to act."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Mirvahedi & Morrish (2017)",
+     "title": "The Role of Serendipity in Opportunity Exploration",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Mirvahedi and Morrish - 2017 - The Role of Serendipity in Opportunity Exploration.md",
+     "page": "192",
+     "quote": "Entrepreneurial serendipity happens continuously when the mind is ready to seize any opportunity.",
+     "match": "states it"
+    },
+    {
+     "paper": "Kirzner (1997)",
+     "title": "Entrepreneurial Discovery and the Competitive Market Process: An Austrian Approach",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Kirzner - 1997 - Entrepreneurial Discovery and the Competitive Market Process An Austrian Approach.md",
+     "page": "72",
+     "quote": "Entrepreneurial  alertness  \n refers  to an attitude  of receptiveness  to  \n available  (but  hitherto  overlooked)  op -\n portunities.",
+     "match": "states it"
+    },
+    {
+     "paper": "Brownell et al. (2024)",
+     "title": "Choice or Chance: How Successful Entrepreneurs Talk About Luck",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+     "page": "1702",
+     "quote": "Second, luck exists by way of entrepreneurs being open to opportunities around them, which included both awareness of these opportunities and self-efficacy to act.",
+     "match": "states it"
+    },
+    {
+     "paper": "Merton & Barber (2004)",
+     "title": "The Travels and Adventures of Serendipity (ch. 'The Diverse Significance of Serendipity in Science')",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Merton and Barber - 2004 - The Diverse Significance of Serendipity in Science.md",
+     "page": "171",
+     "quote": "Luck or chance, according to these formulations, does not favor people at random; rather, it is prepared minds who are able to beneﬁt from luck, and to preparedness may be linked such qualities as alertness, ﬂexibility, courage, and assiduity.",
+     "match": "states it"
+    },
+    {
+     "paper": "Balzano (2022)",
+     "title": "Serendipity in Management Studies: A Literature Review and Future Research Directions",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Balzano - 2022 - Serendipity in Management Studies A Literature Review and Future Research Directions.md",
+     "page": "135",
+     "quote": "Similarly, Neugarten (2006) concluded that serendipity is related to openness towards the new and readiness to embrace unexpected outcomes is a distinctive symptom of competitive intelligence, which can prevent strategic surprise.",
+     "match": "states it"
+    },
+    {
+     "paper": "Cunha et al. (2010)",
+     "title": "On Serendipity and Organizing",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Cunha et al - 2010 - On Serendipity and Organizing.md",
+     "page": "320",
+     "quote": "Preparedness itself, they argue, is linked with qualities such as alertness, ﬂexibility, courage, and assiduity.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Reijonen & Heroum (2026)",
+     "title": "Critical events and the interplay between serendipity and effectuation in an unforeseen venture creation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Reijonen and Heroum - 2026 - Critical Events and the Interplay between Serendipity and Effectuation in an Unforeseen Venture Creation.md",
+     "page": "83–85 (between printed headers 82 and 86)",
+     "quote": "In Sam's case, his desire to do what others were not doing and his willingness to experiment formed the basis of a prepared mind, enabling him to seize the moment and amplify the effects in a niche market previously unknown to him.",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Engel et al. (2017)",
+     "title": "Toward a Dynamic Process Model of Entrepreneurial Networking Under Uncertainty",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Engel et al - 2017 - Toward a Dynamic Process Model of Entrepreneurial Networking Under Uncertainty.md",
+     "page": "35",
+     "quote": "Accordingly, we propose that entre-\npreneurial networking requires a more altruistic approach to interpersonal interactions and openness to unexpected contingencies\nas networking activities stimulate serendipitous goal formation and transformation.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Tang, Kacmar & Busenitz (2012) Entrepreneurial alertness in the pursuit of new opportunities, JBV, 10.1016/j.jbusvent.2010.07.001 — held in litreview full text but not read here",
+    "Gaglio & Katz (2001) The Psychological Basis of Opportunity Identification: Entrepreneurial Alertness, 10.1023/a:1011132102464 — held in litreview full text but not read here",
+    "Neugarten (2006) — cited by Balzano (2022) for 'readiness to embrace unexpected outcomes'; not in catalogs"
+   ],
+   "summary": "Several papers state a readiness disposition directly: Mirvahedi & Morrish say entrepreneurial serendipity happens 'when the mind is ready to seize any opportunity', Kirzner defines alertness as 'an attitude of receptiveness', and Brownell et al. tie luck to openness plus self-efficacy to act. Merton & Barber add courage to the prepared mind, which covers the 'even when scary' part."
+  },
+  {
+   "id": "results-no-outcome-code-names",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "serendipity outcomes legitimacy validation",
+     "hits": 15,
+     "kept": [
+      "Fultz & Hmieleski (2025)",
+      "Busch (2024)"
+     ],
+     "note": "6 with full text; all serendipity papers already in the project set; none names validation or legitimacy as an outcome."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "early market validation entrepreneurs signal demand",
+     "hits": 15,
+     "kept": [],
+     "note": "All abstract only; signalling-to-investors papers, not chance events."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "serendipity legitimacy reputation goodwill outcome",
+     "hits": 30,
+     "kept": [
+      "Rao et al. (2008) Fruits of Legitimacy (abstract only)"
+     ],
+     "note": "Goodwill hits are accounting/CSR; nothing on goodwill from chance events."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "customer validation demand proof early venture",
+     "hits": 30,
+     "kept": [
+      "Stevenson et al. (2022) Failed but validated? (abstract only)"
+     ],
+     "note": "0 with full text."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurial legitimacy new venture early stakeholders",
+     "hits": 30,
+     "kept": [
+      "Fisher et al. (2017)",
+      "Garud et al. (2014)"
+     ],
+     "note": "Legitimacy papers held, but they treat legitimacy as something built by storytelling, not as a result of a chance event."
+    },
+    {
+     "where": "litreview full text",
+     "query": "chance event legitimacy validation outcome",
+     "hits": 12,
+     "kept": [
+      "Busch & Grimes (2023)"
+     ],
+     "note": "Excerpts define serendipity as process and outcome; no legitimacy/validation outcome."
+    },
+    {
+     "where": "litreview full text",
+     "query": "unexpected demand validation of the market",
+     "hits": 12,
+     "kept": [
+      "Eisenmann et al. (2013)",
+      "Blank & Eckhardt (2023)"
+     ],
+     "note": "Lean-startup validation is deliberate testing, not chance; not used."
+    },
+    {
+     "where": "litreview full text",
+     "query": "serendipity outcome legitimacy",
+     "hits": 10,
+     "kept": [],
+     "note": "Legitimacy here means legitimacy of serendipity as a concept in science (Merton & Barber; Copeland et al.)."
+    },
+    {
+     "where": "project papers",
+     "query": "grep legitima|validat|goodwill|reputation|viral|word of mouth|demand",
+     "hits": 40,
+     "kept": [
+      "Klyver et al. (2025)",
+      "Shah & Tripsas (2007)",
+      "Engel et al. (2017)"
+     ],
+     "note": "Klyver: legitimacy/referrals arise from stranger ties formed planned or serendipitously. Shah & Tripsas: unsolicited interest from others validates commercial potential. Engel: goodwill from helping new ties (not chance). Nothing on a hidden reach penalty or a demand surge that broke a site."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Klyver et al. (2025)",
+     "title": "With help from strangers: Entrepreneurs' networking for serendipity",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Klyver et al - 2025 - With Help from Strangers Entrepreneurs Networking for Serendipity.md",
+     "page": "1",
+     "quote": "More specifically, we find that entrepreneurs, either through planning or by relying on serendipity, seek to form ties with strangers in their search for networking benefits such as learning, legitimacy, referrals, and identity, and that such tie formations take different path depending on how they were originally initiated.",
+     "match": "states it"
+    },
+    {
+     "paper": "Klyver et al. (2025)",
+     "title": "With help from strangers: Entrepreneurs' networking for serendipity",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Klyver et al - 2025 - With Help from Strangers Entrepreneurs Networking for Serendipity.md",
+     "page": "11",
+     "quote": "The three types of networking benefits emerged independent of whether the tie formation was proactively planned or the product of proactively pursued serendipity.",
+     "match": "states it"
+    },
+    {
+     "paper": "Klyver et al. (2025)",
+     "title": "With help from strangers: Entrepreneurs' networking for serendipity",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Klyver et al - 2025 - With Help from Strangers Entrepreneurs Networking for Serendipity.md",
+     "page": "11",
+     "quote": "The entrepreneurs also emphasized how previous strangers opened doors to third parties through legitimacy and referrals.",
+     "match": "states it"
+    },
+    {
+     "paper": "Shah & Tripsas (2007)",
+     "title": "The accidental entrepreneur: The emergent and collective process of user entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+     "page": "132",
+     "quote": "Members  of  these  communities,  whether  local parenting groups or online, often embraced a benefi  cial  innovation  introduced  by  another  member, thereby  validating  its  commercial  potential-often before the user innovator had even thought of commercializing the product.",
+     "match": "states it"
+    },
+    {
+     "paper": "Shah & Tripsas (2007)",
+     "title": "The accidental entrepreneur: The emergent and collective process of user entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+     "page": "130",
+     "quote": "In fact, some user-innovators received unsolicited requests from others wishing to purchase their innovations, enabling them to assess willingness to pay.",
+     "match": "states it"
+    },
+    {
+     "paper": "Engel et al. (2017)",
+     "title": "Toward a dynamic process model of entrepreneurial networking under uncertainty",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Engel et al - 2017 - Toward a Dynamic Process Model of Entrepreneurial Networking Under Uncertainty.md",
+     "page": "45",
+     "quote": "Even without substantive learning, the simple act of ﬁnding out\nwhat other people need or what motivates them is an integral part of establishing interpersonal knowledge, fostering\ntrust and goodwill with a new tie ( Haynes et al., 2015; Larson, 1992; van Gelderen, 2013; Vissa, 2012 ).",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Stevenson, Allen & Wang (2022) Failed but validated? The effect of market validation on persistence and performance after a crowdfunding failure, JBV, https://doi.org/10.1016/j.jbusvent.2021.106175 — abstract only",
+    "Rao, Chandy & Prabhu (2008) The fruits of legitimacy: Why some new ventures gain more from innovation than others, Journal of Marketing, https://doi.org/10.1509/jmkg.72.4.058 — abstract only"
+   ],
+   "summary": "Split the theme: legitimacy (with referrals) as a result of a chance tie is stated by Klyver et al. (2025), and market validation from unsolicited interest is stated by Shah & Tripsas (2007), though there it happens before founding. Goodwill/community engagement only leans on Engel et al. (2017) and is not tied to chance, and the hidden reach penalty and the site-breaking demand surge are not stated anywhere (they may fit the existing harm-or-loss and growth codes)."
+  },
+  {
+   "id": "venture-inside-or-drawing-on-an-existing-firm",
+   "verdict": "states it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "corporate entrepreneurship spin-off opportunity discovery serendipity",
+     "hits": 15,
+     "kept": [
+      "Bruneel et al. (2013) (abstract only)",
+      "Abetti (2002) (abstract only)"
+     ],
+     "note": "3 with full text, all serendipity papers already in project set."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "parent firm resources spinoff venture opportunity recognition",
+     "hits": 15,
+     "kept": [],
+     "note": "0 with full text; finance and spinout-performance papers."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "corporate venturing serendipity",
+     "hits": 30,
+     "kept": [
+      "Graebner (2004)",
+      "Garud et al. (2018)"
+     ],
+     "note": "13 with full text, mostly serendipity papers; none on ventures inside a parent firm beyond Garud work."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "spin-off entrepreneurs prior employer opportunity",
+     "hits": 30,
+     "kept": [
+      "Gompers et al. (2005) (abstract only)"
+     ],
+     "note": "1 with full text (Andries et al.), not relevant."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "employee spinout knowledge parent firm opportunity",
+     "hits": 30,
+     "kept": [
+      "Kaul et al. (2024)",
+      "Bahoo-Torodi (2024)",
+      "Shah et al. (2019)"
+     ],
+     "note": "All abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "intrapreneurship serendipity",
+     "hits": 30,
+     "kept": [],
+     "note": "10 with full text, all already-known serendipity papers."
+    },
+    {
+     "where": "litreview full text",
+     "query": "serendipity corporate venture parent company resources",
+     "hits": 12,
+     "kept": [
+      "Busch & Grimes (2023)"
+     ],
+     "note": "Haier micro-enterprise example."
+    },
+    {
+     "where": "litreview full text",
+     "query": "spin-off from employer opportunity discovered at work",
+     "hits": 12,
+     "kept": [
+      "Buenstorf (2007)"
+     ],
+     "note": "Read in full; states that firms create (sometimes serendipitous) opportunities their employees pursue as spinoffs."
+    },
+    {
+     "where": "project papers",
+     "query": "grep spin-off|spinout|corporate entrepreneurship|corporate venturing|intrapreneur|internal venture",
+     "hits": 25,
+     "kept": [
+      "Garud et al. (2011)",
+      "Busch & Grimes (2023)",
+      "Shah & Tripsas (2007)",
+      "Bhave (1994)"
+     ],
+     "note": "Garud 2011: 3M intrapreneurs stumbled onto discoveries and used company resources. Bhave only calls internal corporate venturing bureaucratized entrepreneurship (not used)."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Buenstorf (2007)",
+     "title": "Creation and pursuit of entrepreneurial opportunities: An evolutionary economics perspective",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49-01-docling.md",
+     "page": "328",
+     "quote": "Likewise, a high-technology firm may run research facilities (such as the Bell Labs or Xerox Õ s PARC) that are independent of the company Õ s targeted development efforts, but whose results nonetheless open up new entrepreneurial opportunities.",
+     "match": "states it"
+    },
+    {
+     "paper": "Buenstorf (2007)",
+     "title": "Creation and pursuit of entrepreneurial opportunities: An evolutionary economics perspective",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49-01-docling.md",
+     "page": "328",
+     "quote": "It is by no means guaranteed, however, that such ''serendipitous opportunities'' are also discovered by their creators.",
+     "match": "states it"
+    },
+    {
+     "paper": "Buenstorf (2007)",
+     "title": "Creation and pursuit of entrepreneurial opportunities: An evolutionary economics perspective",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49-01-docling.md",
+     "page": "331",
+     "quote": "If employees detect promising opportunities that are inconsistent with the business conception and rejected by the firm Õ s leadership, they may decide to leave the firm and pursue the opportunity on their own in a spinoff.",
+     "match": "states it"
+    },
+    {
+     "paper": "Buenstorf (2007)",
+     "title": "Creation and pursuit of entrepreneurial opportunities: An evolutionary economics perspective",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49-01-docling.md",
+     "page": "332",
+     "quote": "They may also be exposed to entrepreneurial opportunities - possibly ones created by the firm Õ s own activities -that the firm itself is unable or unwilling to pursue.",
+     "match": "states it"
+    },
+    {
+     "paper": "Buenstorf (2007)",
+     "title": "Creation and pursuit of entrepreneurial opportunities: An evolutionary economics perspective",
+     "text": "/Users/vyassreenivas/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49/Buenstorf-2007-Creation-and-Pursuit-of-Entrepreneurial-Opportunit-105889024c49-01-docling.md",
+     "page": "332",
+     "quote": "Thus, existing firm organizations are a source of both entrepreneurial opportunities and potential entrepreneurs.",
+     "match": "states it"
+    },
+    {
+     "paper": "Garud, Gehman & Kumaraswamy (2011)",
+     "title": "Complexity arrangements for sustained innovation: Lessons from 3M Corporation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+     "page": "747",
+     "quote": "A content analysis of 17 narratives from 3M’s Chronicle of innovations booklet highlighted themes such as the ways in which intrapreneurs had stumbled onto discoveries, outsmarted managers, cleverly reinterpreted rules to pursue projects, and used the 15% exploration option to bootleg company-wide resources.",
+     "match": "states it"
+    },
+    {
+     "paper": "Busch & Grimes (2023)",
+     "title": "Serendipity in entrepreneurship, strategy, and innovation: A review and conceptualisation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Busch and Grimes - 2023 - Serendipity in Entrepreneurship Strategy and Innovation A Review and Conceptualisation.md",
+     "page": "84",
+     "quote": "For example, companies such as white goods company Haier “place bets” and develop (decentralised)\nstructures that allow for investment into unexpectedly emerging ideas (Gyori et al,\n2019).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Busch & Grimes (2023)",
+     "title": "Serendipity in entrepreneurship, strategy, and innovation: A review and conceptualisation",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Busch and Grimes - 2023 - Serendipity in Entrepreneurship Strategy and Innovation A Review and Conceptualisation.md",
+     "page": "84",
+     "quote": "Haier’s “micro-enterprise” model encourages employees to leverage company\nresources to spot and develop new ideas.",
+     "match": "states it"
+    },
+    {
+     "paper": "Shah & Tripsas (2007)",
+     "title": "The accidental entrepreneur: The emergent and collective process of user entrepreneurship",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+     "page": "136",
+     "quote": "For instance, user entrepreneurs typically lack the status and access to resources that can accompany individuals founding spin-offs  from  established  fi  rms.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Bruneel, Van de Velde & Clarysse (2013) Impact of the type of corporate spin-off on growth, ETP, https://doi.org/10.1111/j.1540-6520.2012.00517.x — abstract only",
+    "Gompers, Lerner & Scharfstein (2005) Entrepreneurial spawning: Public corporations and the genesis of new ventures, Journal of Finance, https://doi.org/10.1111/j.1540-6261.2005.00740.x — abstract only",
+    "Kaul, Ganco & Raffiee (2024) When subjective judgments lead to spinouts, AMR, https://doi.org/10.5465/amr.2020.0113 — abstract only",
+    "Bahoo-Torodi (2024) Spawned by opportunity or out of necessity? Employee spinouts, SEJ, https://doi.org/10.1002/sej.1511 — abstract only",
+    "Shah, Agarwal & Echambadi (2019) Jewels in the crown: Motivations and team building of employee entrepreneurs, SMJ, https://doi.org/10.1002/smj.3027 — abstract only",
+    "Abetti (2002) From science to technology to products and profits: Superconductivity at GE and Intermagnetics General, JBV, https://doi.org/10.1016/s0883-9026(00)00049-5 — abstract only"
+   ],
+   "summary": "Stated: Buenstorf (2007) says existing firms create opportunities, some serendipitous, that employees pursue in spinoffs, and Garud et al. (2011) and Busch & Grimes (2023) describe employees inside a firm stumbling onto discoveries and using company resources to develop them. Shah & Tripsas (2007) add that spinoff founders carry status and resources from their parent firm, so a background code for an existing firm's ideas, staff, or resources has paper backing."
+  },
+  {
+   "id": "founding-as-a-learning-exercise",
+   "verdict": "leans on it",
+   "searches": [
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurial learning motive start venture to learn",
+     "hits": 15,
+     "kept": [],
+     "note": "0 with full text; nothing on founding in order to learn."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "experimental entrepreneurship learning by doing",
+     "hits": 15,
+     "kept": [
+      "Koning et al. (2022)"
+     ],
+     "note": "A/B-testing experimentation inside start-ups, not a founding motive."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "learning motivation to start a business",
+     "hits": 30,
+     "kept": [
+      "Birley & Westhead (1994)",
+      "Dubini (1989)"
+     ],
+     "note": "Start-up reason taxonomies, abstract only."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "entrepreneurship as experiment trial",
+     "hits": 30,
+     "kept": [],
+     "note": "0 with full text."
+    },
+    {
+     "where": "abstract catalogs",
+     "query": "serial entrepreneurs first venture learning experience",
+     "hits": 30,
+     "kept": [
+      "(1986) To really learn about entrepreneurship, let's study habitual entrepreneurs"
+     ],
+     "note": "Abstract only."
+    },
+    {
+     "where": "litreview full text",
+     "query": "start a company to learn how to build one",
+     "hits": 12,
+     "kept": [],
+     "note": "Practitioner books only."
+    },
+    {
+     "where": "litreview full text",
+     "query": "entrepreneurial learning motive practice venture",
+     "hits": 12,
+     "kept": [],
+     "note": "Reference-list hits only."
+    },
+    {
+     "where": "litreview full text",
+     "query": "students start ventures to learn entrepreneurship experiential",
+     "hits": 10,
+     "kept": [
+      "Vogel (2017)",
+      "Corbett (2005)"
+     ],
+     "note": "Corbett treats learning inside opportunity identification, not as a motive."
+    },
+    {
+     "where": "project papers",
+     "query": "grep learning by doing|learn how to start|experiential learning|training ground|stepping stone|as practice",
+     "hits": 20,
+     "kept": [
+      "Vogel (2017)",
+      "Baker et al. (2003)"
+     ],
+     "note": "Vogel: courses have students found ventures for experiential learning. Baker: a professor learned how to start a firm before founding (learning precedes founding; not a motive). Buenstorf (2007) calls incumbents training grounds for spinoff founders, which is learning by employment, not by founding."
+    }
+   ],
+   "quotes": [
+    {
+     "paper": "Vogel (2017)",
+     "title": "From venture idea to venture opportunity",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Vogel - 2017 - From Venture Idea to Venture Opportunity.md",
+     "page": "965",
+     "quote": "The proposed framework can also be of value in the educational arena, as more and more entrepreneurship courses engage in experiential learning by requiring that students develop their own ventures (e.g., Kuratko, 2005).",
+     "match": "leans on it"
+    },
+    {
+     "paper": "Baker, Miner & Eesley (2003)",
+     "title": "Improvising firms: Bricolage, account giving and improvisational competencies in the founding process",
+     "text": "/Users/vyassreenivas/Projects/research-projects/serendipity_entrepreneurial_process/papers/md/Baker et al - 2003 - Improvising Firms Bricolage Account Giving and Improvisational Competencies in the Founding Process.md",
+     "page": "262",
+     "quote": "He deliberately set about learning how to start a ﬁrm and collected information on which of the many potential applications of his inventions to commercialize.",
+     "match": "leans on it"
+    }
+   ],
+   "to_get": [
+    "Birley & Westhead (1994) A taxonomy of business start-up reasons and their impact on firm growth and size, JBV, https://doi.org/10.1016/0883-9026(94)90024-8 — abstract only",
+    "Dubini (1989) The influence of motivations and environment on business start-ups, JBV, https://doi.org/10.1016/0883-9026(89)90031-1 — abstract only",
+    "(1986) To really learn about entrepreneurship, let's study habitual entrepreneurs, JBV, https://doi.org/10.1016/0883-9026(86)90001-7 — abstract only"
+   ],
+   "summary": "No paper read in full says a founder started a venture in order to learn how to build one. Vogel (2017) comes closest by noting that courses have students found ventures as experiential learning, so this theme can only become a code if a start-up-motives paper (e.g., Birley & Westhead 1994) is obtained and states it."
+  }
+ ]
+}

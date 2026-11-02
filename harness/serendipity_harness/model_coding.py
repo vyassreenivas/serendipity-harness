@@ -33,6 +33,7 @@ Output, in the run folder under model_coding/<calls>/:
 """
 import csv
 import json
+import re
 
 from pydantic import BaseModel, ValidationError
 
@@ -107,7 +108,7 @@ def codebook_from(cb: dict) -> dict:
         name = g["group"]
         listed = g.get("codes") or sorted(
             (i for i, c in codes.items() if c["group"] == name and c.get("core") and i not in g.get("exclude", [])),
-            key=lambda i: ([int(x) for x in codes[i].get("added_in", "0").split(".")], int(i.split("-")[1])))
+            key=lambda i: ([int(x) for x in re.findall(r"\d+", codes[i].get("added_in", "0"))], int(i.split("-")[1])))
         # A code added in a later version ("added_in") comes after the group's earlier codes, so their numbers stay.
         groups.append({"name": name, "title": g.get("name", name.capitalize()),
                        "asks": g.get("asks", asks.get(name, "")), "pick_one": g.get("pick_one"),
@@ -119,7 +120,7 @@ def codebook_from(cb: dict) -> dict:
 
 def code_line(c: dict) -> str:
     return (f"- {c['id']} | {c['label']} | Code it when: {c['applies_when']} | "
-            f"Not when: {c['does_not_apply_when']} | Meaning: {c.get('definition', '')}")
+            f"Don't use it when: {c['does_not_apply_when']} | Meaning: {c.get('definition', '')}").replace("\n", " ")
 
 
 def group_text(g: dict, cb: dict, n: int) -> str:
@@ -133,7 +134,7 @@ def group_text(g: dict, cb: dict, n: int) -> str:
     if g["anomaly"]:
         a = g["anomaly"]
         lines.append(f"- {a['id']} | None of these fits | Use when: {a['applies_when']} | "
-                     f"Not when: {a['does_not_apply_when']}")
+                     f"Don't use it when: {a['does_not_apply_when']}")
     return "\n".join(lines)
 
 
@@ -142,7 +143,7 @@ def system_prompt(cb: dict) -> str:
     new = cb["new"]
     blocks.append(f"Something else: is there something relevant that no group asks about?\n"
                   f"- {new['id']} | Something no group asks about | Use when: {new['applies_when']} | "
-                  f"Not when: {new['does_not_apply_when']}")
+                  f"Don't use it when: {new['does_not_apply_when']}")
     template = (HARNESS / "prompts" / "coder.md").read_text(encoding="utf-8")
     return template.replace("{codebook}", "\n\n".join(blocks)).replace("{new_id}", new["id"])
 

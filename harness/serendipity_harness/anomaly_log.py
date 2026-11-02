@@ -18,6 +18,12 @@ earlier entries, so `add` can be rerun. `set` records a decision: a theme is "op
 a codebook version) or "dropped" (with a reason). Open themes carry forward to the
 next round; those still open at the end are reported as findings.
 
+A theme can be split or merged by regrouping its anomalies in the themes file. A
+theme made from others lists their ids under "from", with the reason under "why".
+`add` records this: the new theme keeps "from" and "why", and an old theme left
+with no anomalies is kept as "regrouped", pointing to the themes it went "into",
+so the log shows where every theme came from.
+
 A theme is adopted when it meets three rules, and `set --note` says how: it is one
 clear idea, with a definition and lines for when to use it and when not to
 (MacQueen et al. 1998); it bears on the research question (Fife and Gossner 2024);
@@ -52,6 +58,7 @@ from pathlib import Path
 from .runlog import HARNESS, ROOT, sha256
 
 STATUSES = ("open", "adopted", "dropped")
+ORDER = STATUSES + ("regrouped",)  # set by `add`, not by `set`
 
 
 def log_path() -> Path:
@@ -72,7 +79,7 @@ def save(log: dict) -> None:
     p = log_path()
     p.write_text(json.dumps(log, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     cols = ["theme_id", "name", "group", "status", "code", "version", "first_round", "interviews",
-            "anomalies", "by_round", "searches", "papers", "what", "note"]
+            "anomalies", "by_round", "searches", "papers", "from", "into", "what", "note"]
     with open(p.with_suffix(".csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(cols)
@@ -83,7 +90,8 @@ def save(log: dict) -> None:
             w.writerow([t["id"], t["name"], t["group"], t["status"], t.get("code", ""), t.get("version", ""),
                         t["first_round"], len({a["case_id"] for a in t["anomalies"]}), len(t["anomalies"]),
                         "; ".join(f"round {k}: {len(v)}" for k, v in by_round.items()),
-                        len(t.get("searches", [])), "; ".join(t["papers"]), t["what"], t.get("note", "")])
+                        len(t.get("searches", [])), "; ".join(t["papers"]), "; ".join(t.get("from", [])),
+                        "; ".join(t.get("into", [])), t["what"], t.get("note", "")])
 
 
 def slug(name: str) -> str:
@@ -160,6 +168,18 @@ def add(work: Path, round_no: int, coders: list[str], codebook: str) -> list[str
             log["themes"].append(entry)
             by_id[t["id"]] = entry
         entry["anomalies"] += [dict(a, round=round_no) for a in mine]
+        if t.get("from"):
+            entry.update({"from": t["from"], "why": t.get("why", "")})
+    for t in themes:
+        for old_id in t.get("from", []):
+            old = by_id.get(old_id)
+            if old is None or old_id == t["id"] or old["anomalies"]:
+                continue
+            if old["status"] != "regrouped":
+                old["status"] = "regrouped"
+                old["history"].append({"date": date.today().isoformat(), "status": "regrouped",
+                                       "code": "", "version": "", "note": t.get("why", "")})
+            old["into"] = sorted(set(old.get("into", [])) | {t["id"]})
     log["themes"] = [t for t in log["themes"] if t["anomalies"] or t["status"] != "open"]
     save(log)
     return []
@@ -200,9 +220,10 @@ def show() -> None:
     for r in log["rounds"]:
         print(f'round {r["round"]} ({r["coder"]}, codebook {r["codebook"]}): {r["anomalies"]} anomalies '
               f'in {r["interviews"]} interviews')
-    for t in sorted(log["themes"], key=lambda t: (STATUSES.index(t["status"]), -len({a["case_id"] for a in t["anomalies"]}))):
+    for t in sorted(log["themes"], key=lambda t: (ORDER.index(t["status"]), -len({a["case_id"] for a in t["anomalies"]}))):
         n = len({a["case_id"] for a in t["anomalies"]})
-        extra = f' -> {t["code"]} in v{t["version"]}' if t["status"] == "adopted" else ""
+        extra = (f' -> {t["code"]} in v{t["version"]}' if t["status"] == "adopted"
+                 else f' -> {", ".join(t["into"])}' if t["status"] == "regrouped" else "")
         print(f'  {t["status"]:8} {n:3} interviews  {t["group"]:24} {t["name"]}{extra}')
 
 
@@ -230,8 +251,12 @@ def main() -> None:
     sub.add_parser("show")
     args = ap.parse_args()
     if args.cmd == "add":
-        cfg = tomllib.loads((HARNESS / "project.toml").read_text(encoding="utf-8"))
-        codebook = json.loads((ROOT / cfg["coding"]["codebook"]).read_text(encoding="utf-8"))["version"]
+        round_file = args.work / "round.json"  # the codebook the round was set up with (rounds.py)
+        if round_file.exists():
+            codebook = json.loads(round_file.read_text(encoding="utf-8"))["codebook_version"]
+        else:
+            cfg = tomllib.loads((HARNESS / "project.toml").read_text(encoding="utf-8"))
+            codebook = json.loads((ROOT / cfg["coding"]["codebook"]).read_text(encoding="utf-8"))["version"]
         problems = add(args.work, args.round, args.coders or coders_in(args.work), codebook)
         for p in problems:
             print(p)

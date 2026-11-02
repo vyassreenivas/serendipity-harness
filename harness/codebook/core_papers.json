@@ -1,5 +1,5 @@
 {
- "about": "The core papers: the smallest set of the works read that states every code in the codebook, with each code stated by two of them wherever two works state it, and with the four works the definitions and types come from (Busch 2024, Dew 2009, Merton and Barber 2004, Yaqub 2018). Found by integer programming over the links in the paper list on 26 Oct 2026; paper_list.py checks the coverage on every build. Each line says what the work argues, then what it gives the codebook under each sub-question the table lists for it.",
+ "about": "The core papers: the smallest set of the works read that states every code in the codebook, with each code stated by two of them wherever two works state it, and with the four works the definitions and types come from (Busch 2024, Dew 2009, Merton and Barber 2004, Yaqub 2018). Found by integer programming over the links in the paper list on 26 Oct 2026; paper_list.py checks the coverage on every build. Each line says what the work argues, then what it gives the codebook under each sub-question the table lists for it. Version 2.0 adds two works so that its new codes are each stated by at least one core paper: Davidsson (2015) and Austin et al. (2012).",
  "papers": [
   {
    "key": "busch2023-0bee54",
@@ -70,6 +70,16 @@
    "key": "graebner2004-87c1a8",
    "short": "Graebner (2004)",
    "why": "Company acquisitions that brought benefits nobody planned, seen as lucky only later. Supports new markets and changes of direction (SQ4), and value seen only in hindsight (SQ6)."
+  },
+  {
+   "key": "austin2012-0c5916",
+   "short": "Austin et al. (2012)",
+   "why": "A study of twenty artists and business teams who stay open to accidents, rely on them and even provoke them, while noting that most accidents bring nothing of value. Supports what results, including costly accidents (SQ4). Added for codebook version 2.0."
+  },
+  {
+   "key": "davidsson2015-c4ba86",
+   "short": "Davidsson (2015)",
+   "why": "Separates the outside changes that enable new ventures, such as new technology or new rules, from the opportunities founders build on them. Supports changes in technology, rules or markets as a start (SQ2). Added for codebook version 2.0."
   }
  ]
 }

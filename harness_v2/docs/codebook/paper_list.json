@@ -1,5 +1,6 @@
 {
- "built": "2026-10-26",
+ "version": "2.0",
+ "built": "2026-10-29",
  "read": 113,
  "works": 100,
  "used": [
@@ -8,6 +9,11 @@
    "text": "Discovery and creation: alternative theories of entrepreneurial action. Strategic Entrepreneurship Journal, 1(1-2), 11-26.",
    "url": "https://doi.org/10.1002/sej.4",
    "l1": [
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
     {
      "no": "3.1",
      "label": "Relevant expertise",
@@ -116,6 +122,11 @@
     {
      "no": "1.4",
      "label": "Surprise",
+     "leans": false
+    },
+    {
+     "no": "6.5",
+     "label": "Harm or loss (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -260,6 +271,11 @@
     {
      "no": "6.3",
      "label": "Growth and results",
+     "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -517,6 +533,11 @@
      "no": "5.3",
      "label": "Changed the venture's direction",
      "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
+     "leans": false
     }
    ],
    "l2": [
@@ -638,6 +659,21 @@
    "why": "Agent-based simulation of regional venture formation treats serendipity as taking in found knowledge; it works best in knowledge-rich regions. Simulated, not founder evidence."
   },
   {
+   "short": "Cattani (2005)",
+   "text": "Preadaptation, Firm Heterogeneity, and Technological Performance: A Study on the Evolution of Fiber Optics, 1970–1995. Organization Science, 16(6), 563-580.",
+   "url": "https://doi.org/10.1287/orsc.1050.0145",
+   "l1": [
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    }
+   ],
+   "l2": [],
+   "key": "cattani2005-691ffb",
+   "why": "Fiber optics patents: knowledge built without foreseeing its later use raised performance, but only for firms that reused it. Frames luck versus foresight."
+  },
+  {
    "short": "Cohen and Levinthal (1990)",
    "text": "Absorptive Capacity: A New Perspective on Learning and Innovation. Administrative Science Quarterly, 35(1), 128.",
    "url": "https://doi.org/10.2307/2393553",
@@ -733,6 +769,16 @@
      "leans": false
     },
     {
+     "no": "6.5",
+     "label": "Harm or loss (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "7.1",
      "label": "Putting themselves in chance's way",
      "leans": false
@@ -811,6 +857,11 @@
      "no": "6.4",
      "label": "Nothing came of it",
      "leans": false
+    },
+    {
+     "no": "6.5",
+     "label": "Harm or loss (added in 2.0; sentence not yet read)",
+     "leans": false
     }
    ],
    "l2": [
@@ -855,6 +906,11 @@
      "no": "5.3",
      "label": "Changed the venture's direction",
      "leans": false
+    },
+    {
+     "no": "6.5",
+     "label": "Harm or loss (added in 2.0; sentence not yet read)",
+     "leans": false
     }
    ],
    "l2": [
@@ -882,6 +938,21 @@
    "l2": [],
    "key": "daniels2019-9c36de",
    "why": "Survey data from 85 countries on whether success is put down to luck or hard work; background on how people credit luck."
+  },
+  {
+   "short": "Davidsson (2015)",
+   "text": "Entrepreneurial opportunities and the entrepreneurship nexus: A re-conceptualization. Journal of Business Venturing, 30(5), 674-695.",
+   "url": "https://doi.org/10.1016/j.jbusvent.2015.01.002",
+   "l1": [
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    }
+   ],
+   "l2": [],
+   "key": "davidsson2015-c4ba86",
+   "why": "Reviews 210 papers, finds 'opportunity' too vague, and proposes external enablers, new venture ideas and opportunity confidence. Background on defining what founders act on."
   },
   {
    "short": "de Rond (2014)",
@@ -1248,6 +1319,11 @@
      "leans": true
     },
     {
+     "no": "2.7",
+     "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "3.1",
      "label": "Relevant expertise",
      "leans": false
@@ -1270,6 +1346,11 @@
     {
      "no": "6.3",
      "label": "Growth and results",
+     "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -1324,6 +1405,11 @@
    "url": "https://doi.org/10.1016/s0048-7333(02)00100-2",
    "l1": [
     {
+     "no": "2.7",
+     "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "5.4",
      "label": "Moved the venture forward",
      "leans": false
@@ -1341,6 +1427,16 @@
     {
      "no": "2.1",
      "label": "Something odd was noticed",
+     "leans": false
+    },
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
+     "no": "2.9",
+     "label": "Came across information by chance (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -1371,6 +1467,11 @@
    "text": "Entrepreneurial Storytelling, Future Expectations, and the Paradox of Legitimacy. Organization Science, 25(5), 1479-1492.",
    "url": "https://doi.org/10.1287/orsc.2014.0915",
    "l1": [
+    {
+     "no": "2.7",
+     "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
     {
      "no": "5.3",
      "label": "Changed the venture's direction",
@@ -1420,6 +1521,11 @@
      "no": "1.6",
      "label": "Value",
      "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
+     "leans": false
     }
    ],
    "l2": [],
@@ -1455,6 +1561,21 @@
    "l2": [],
    "key": "graebner2004-87c1a8",
    "why": "Case study of eight technology acquisitions separating expected value from serendipitous value, unplanned gains such as new markets and directions found by acquired leaders."
+  },
+  {
+   "short": "Granovetter (1973)",
+   "text": "The Strength of Weak Ties.",
+   "url": "",
+   "l1": [
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
+     "leans": false
+    }
+   ],
+   "l2": [],
+   "key": "granovetter1973-32994d",
+   "why": "Shows weak ties bridge social groups and carry new information, such as job leads, which supports the network and chance-meeting route to opportunities."
   },
   {
    "short": "Grimes (2018)",
@@ -1595,6 +1716,11 @@
      "no": "4.3",
      "label": "Acting on it",
      "leans": false
+    },
+    {
+     "no": "6.5",
+     "label": "Harm or loss (added in 2.0; sentence not yet read)",
+     "leans": false
     }
    ],
    "l2": [
@@ -1627,6 +1753,11 @@
     {
      "no": "5.3",
      "label": "Changed the venture's direction",
+     "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
      "leans": false
     }
    ],
@@ -1663,8 +1794,18 @@
      "leans": false
     },
     {
+     "no": "2.9",
+     "label": "Came across information by chance (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "4.3",
      "label": "Acting on it",
+     "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -1683,6 +1824,26 @@
    ],
    "key": "krumboltz1998-d53ff4",
    "why": "Argues unplanned events are everyday and serendipity needs action to create, notice and use them; a contrast between luck and action."
+  },
+  {
+   "short": "Lane et al. (2020)",
+   "text": "Engineering serendipity: When does knowledge sharing lead to knowledge production?. Strategic Management Journal, 42(6), 1215-1244.",
+   "url": "https://doi.org/10.1002/smj.3256",
+   "l1": [
+    {
+     "no": "2.9",
+     "label": "Came across information by chance (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
+     "no": "6.6",
+     "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
+     "leans": false
+    }
+   ],
+   "l2": [],
+   "key": "lane2020-d1934e",
+   "why": "Field experiment on engineered chance encounters among 15,817 scientist pairs; they yield collaboration mainly when partners share some knowledge. Setting is science, not founders."
   },
   {
    "short": "Liu and de Rond (2016)",
@@ -1721,6 +1882,26 @@
    ],
    "key": "liu2016-734969",
    "why": "Review of luck in management research in six perspectives; the serendipity section ties luck to noticing and combining chance events, with types."
+  },
+  {
+   "short": "Ma (2002)",
+   "text": "Competitive advantage: what’s luck got to do with it?. Management Decision, 40(6), 525-536.",
+   "url": "https://doi.org/10.1108/00251740210433927",
+   "l1": [
+    {
+     "no": "2.7",
+     "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    }
+   ],
+   "l2": [],
+   "key": "ma2002-d85f40",
+   "why": "Proposes four types of business luck (pure, prepared, useful weeds, skunk work), separating passive chance from proactive preparation; firm-level, with some founder examples."
   },
   {
    "short": "McFarlane and Carter (2016)",
@@ -1797,6 +1978,11 @@
      "leans": false
     },
     {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "3.1",
      "label": "Relevant expertise",
      "leans": false
@@ -1829,6 +2015,16 @@
     {
      "no": "2.4",
      "label": "A passing remark",
+     "leans": false
+    },
+    {
+     "no": "2.7",
+     "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
+     "no": "2.9",
+     "label": "Came across information by chance (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -1980,6 +2176,11 @@
    "url": "https://doi.org/10.2307/2393104",
    "l1": [
     {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "7.3",
      "label": "No fixed plan",
      "leans": false
@@ -2007,6 +2208,11 @@
    "text": "Of strategies, deliberate and emergent. Strategic Management Journal, 6(3), 257-272.",
    "url": "https://doi.org/10.1002/smj.4250060306",
    "l1": [
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
     {
      "no": "4.4",
      "label": "Changing the plan",
@@ -2052,6 +2258,11 @@
     {
      "no": "2.5",
      "label": "An unasked-for offer or request",
+     "leans": false
+    },
+    {
+     "no": "2.7",
+     "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
      "leans": false
     },
     {
@@ -2656,6 +2867,11 @@
    "url": "https://doi.org/10.1287/orsc.11.4.448.14602",
    "l1": [
     {
+     "no": "2.9",
+     "label": "Came across information by chance (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
+    {
      "no": "4.2",
      "label": "Connecting the dots",
      "leans": false
@@ -2839,7 +3055,13 @@
    "short": "Van Lent et al. (2022)",
    "text": "Historiography and the excavation of nascent business venturing. Small Business Economics, 61(1), 285-303.",
    "url": "https://doi.org/10.1007/s11187-022-00691-w",
-   "l1": [],
+   "l1": [
+    {
+     "no": "2.8",
+     "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+     "leans": false
+    }
+   ],
    "l2": [
     {
      "no": "R2",
@@ -2896,6 +3118,11 @@
    "text": "CROSSROADS—Identifying Viable “Need–Solution Pairs”: Problem Solving Without Problem Formulation. Organization Science, 27(1), 207-221.",
    "url": "https://doi.org/10.1287/orsc.2015.1023",
    "l1": [
+    {
+     "no": "2.9",
+     "label": "Came across information by chance (added in 2.0; sentence not yet read)",
+     "leans": false
+    },
     {
      "no": "3.3",
      "label": "Idea grew from their work",
@@ -3040,13 +3267,6 @@
    "why": "Argues above-normal returns come from better expectations of a resource's future value or from luck; background on luck versus foresight in firm performance."
   },
   {
-   "short": "Cattani (2005)",
-   "text": "Preadaptation, Firm Heterogeneity, and Technological Performance: A Study on the Evolution of Fiber Optics, 1970–1995. Organization Science, 16(6), 563-580.",
-   "url": "https://doi.org/10.1287/orsc.1050.0145",
-   "key": "cattani2005-691ffb",
-   "why": "Fiber optics patents: knowledge built without foreseeing its later use raised performance, but only for firms that reused it. Frames luck versus foresight."
-  },
-  {
    "short": "Clough et al. (2019)",
    "text": "Turning Lead into Gold: How Do Entrepreneurs Mobilize Resources to Exploit Opportunities?. Academy of Management Annals, 13(1), 240-271.",
    "url": "https://doi.org/10.5465/annals.2016.0132",
@@ -3059,13 +3279,6 @@
    "url": "https://doi.org/10.2307/2392088",
    "key": "cohen1972-f377b5",
    "why": "Simulation of organizations where choices, problems and solutions meet by timing, not plan; background for solutions finding problems rather than goal-driven search."
-  },
-  {
-   "short": "Davidsson (2015)",
-   "text": "Entrepreneurial opportunities and the entrepreneurship nexus: A re-conceptualization. Journal of Business Venturing, 30(5), 674-695.",
-   "url": "https://doi.org/10.1016/j.jbusvent.2015.01.002",
-   "key": "davidsson2015-c4ba86",
-   "why": "Reviews 210 papers, finds 'opportunity' too vague, and proposes external enablers, new venture ideas and opportunity confidence. Background on defining what founders act on."
   },
   {
    "short": "Davis et al. (2009)",
@@ -3117,13 +3330,6 @@
    "why": "Review of innovation as invention, development and implementation; notes chance starts, shifting plans and shelved ideas gaining value later. Background on unplanned venture paths."
   },
   {
-   "short": "Granovetter (1973)",
-   "text": "The Strength of Weak Ties.",
-   "url": "",
-   "key": "granovetter1973-32994d",
-   "why": "Shows weak ties bridge social groups and carry new information, such as job leads, which supports the network and chance-meeting route to opportunities."
-  },
-  {
    "short": "Hargadon and Douglas (2001)",
    "text": "When Innovations Meet Institutions Edison and the Design of the Electric Light.",
    "url": "",
@@ -3145,25 +3351,11 @@
    "why": "Separates lasting skill from luck in private equity and venture capital funds; venture returns are mostly luck. Background on luck, not about founders."
   },
   {
-   "short": "Lane et al. (2020)",
-   "text": "Engineering serendipity: When does knowledge sharing lead to knowledge production?. Strategic Management Journal, 42(6), 1215-1244.",
-   "url": "https://doi.org/10.1002/smj.3256",
-   "key": "lane2020-d1934e",
-   "why": "Field experiment on engineered chance encounters among 15,817 scientist pairs; they yield collaboration mainly when partners share some knowledge. Setting is science, not founders."
-  },
-  {
    "short": "Liu and Tsay (2023)",
    "text": "A normative theory of luck. Frontiers in Psychology, 14.",
    "url": "https://doi.org/10.3389/fpsyg.2023.1157527",
    "key": "liu2024-c28da6",
    "why": "Chance-model theory of luck showing high performance can reflect luck rather than merit, illustrated with citations. Background on mistaking luck for skill in success stories."
-  },
-  {
-   "short": "Ma (2002)",
-   "text": "Competitive advantage: what’s luck got to do with it?. Management Decision, 40(6), 525-536.",
-   "url": "https://doi.org/10.1108/00251740210433927",
-   "key": "ma2002-d85f40",
-   "why": "Proposes four types of business luck (pure, prepared, useful weeds, skunk work), separating passive chance from proactive preparation; firm-level, with some founder examples."
   },
   {
    "short": "March (1991)",
@@ -3215,7 +3407,7 @@
    "why": "Review of how entrepreneurs judge whether an opportunity suits them, using rule-based reasoning; background on opportunity evaluation, with nothing on chance or serendipity."
   }
  ],
- "links": 326,
+ "links": 361,
  "leans": 10,
  "core": {
   "papers": [
@@ -3430,6 +3622,16 @@
       "leans": false
      },
      {
+      "no": "2.7",
+      "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+      "leans": false
+     },
+     {
+      "no": "2.9",
+      "label": "Came across information by chance (added in 2.0; sentence not yet read)",
+      "leans": false
+     },
+     {
       "no": "3.1",
       "label": "Relevant expertise",
       "leans": false
@@ -3619,6 +3821,11 @@
       "leans": false
      },
      {
+      "no": "2.7",
+      "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+      "leans": false
+     },
+     {
       "no": "3.1",
       "label": "Relevant expertise",
       "leans": false
@@ -3733,6 +3940,11 @@
       "leans": true
      },
      {
+      "no": "2.7",
+      "label": "An outside crisis or disaster (added in 2.0; sentence not yet read)",
+      "leans": false
+     },
+     {
       "no": "3.1",
       "label": "Relevant expertise",
       "leans": false
@@ -3755,6 +3967,11 @@
      {
       "no": "6.3",
       "label": "Growth and results",
+      "leans": false
+     },
+     {
+      "no": "6.6",
+      "label": "Resources, contacts or knowledge (added in 2.0; sentence not yet read)",
       "leans": false
      },
      {
@@ -4218,11 +4435,62 @@
      "SQ4",
      "SQ6"
     ]
+   },
+   {
+    "short": "Austin et al. (2012)",
+    "text": "Accidental Innovation: Supporting Valuable Unpredictability in the Creative Process. Organization Science, 23(5), 1505-1522.",
+    "url": "https://doi.org/10.1287/orsc.1110.0681",
+    "l1": [
+     {
+      "no": "1.4",
+      "label": "Surprise",
+      "leans": false
+     },
+     {
+      "no": "6.5",
+      "label": "Harm or loss (added in 2.0; sentence not yet read)",
+      "leans": false
+     },
+     {
+      "no": "7.2",
+      "label": "Cheap to try",
+      "leans": false
+     }
+    ],
+    "l2": [],
+    "key": "austin2012-0c5916",
+    "why": "A study of twenty artists and business teams who stay open to accidents, rely on them and even provoke them, while noting that most accidents bring nothing of value. Supports what results, including costly accidents (SQ4). Added for codebook version 2.0.",
+    "sq": [
+     "SQ4"
+    ]
+   },
+   {
+    "short": "Davidsson (2015)",
+    "text": "Entrepreneurial opportunities and the entrepreneurship nexus: A re-conceptualization. Journal of Business Venturing, 30(5), 674-695.",
+    "url": "https://doi.org/10.1016/j.jbusvent.2015.01.002",
+    "l1": [
+     {
+      "no": "2.8",
+      "label": "A change in technology, rules or platforms (added in 2.0; sentence not yet read)",
+      "leans": false
+     }
+    ],
+    "l2": [],
+    "key": "davidsson2015-c4ba86",
+    "why": "Separates the outside changes that enable new ventures, such as new technology or new rules, from the opportunities founders build on them. Supports changes in technology, rules or markets as a start (SQ2). Added for codebook version 2.0.",
+    "sq": [
+     "SQ2"
+    ]
    }
   ],
-  "codes": 47,
+  "codes": 52,
   "missing": [],
-  "single": [],
+  "single": [
+   "2.8",
+   "2.9",
+   "6.5",
+   "6.6"
+  ],
   "question": "How does serendipity shape the entrepreneurial process, from the first idea to the developing venture?",
   "sub_questions": [
    {

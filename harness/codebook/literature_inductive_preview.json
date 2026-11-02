@@ -1,0 +1,1101 @@
+{
+ "about": "1 November 2026. A preview of the inductive analysis of the 27 round-3 anomalies that version 4.0 leaves open (the full analysis waits for the full-corpus run). The anomalies were grouped into patterns P1-P4; D1-D5 are ideas already held by drafted codes from version 1.0 that cover other open anomalies. Held papers most likely to state each were read in full against them. Verdicts: 'states it', 'leans on it', 'not stated'. Quotes were checked against the Markdown text: all match word for word, or 84-93% where page headers or copyright lines break the sentence. Pages are printed pages. The Copeland et al. (2023) book was read by chapter: chapters 4, 5, 11 and 12 only.",
+ "patterns": {
+  "P1a": "A chance event (or acting openly on one) leaves goodwill, an audience or helpers as a result, short of sales or a specific opportunity.",
+  "P1b": "Such a stock built earlier makes later chance events more likely or more valuable: a loop over time.",
+  "P2": "As the venture matures, the founder deliberately cuts exposure to chance because openness has costs.",
+  "P3": "Success credited to neither luck nor effort: the founder cannot explain it.",
+  "P4": "Mixed results of chance: a good event whose result is overload, or a chance contact followed up that yields nothing.",
+  "D1": "Idea out of the blue (drafted code trigger-27).",
+  "D2": "Capability to exploit chance (drafted code background-13).",
+  "D3": "Privilege and life circumstances (drafted code background-33).",
+  "D4": "Reputation and favourable position (drafted code background-34).",
+  "D5": "Chance redirects a person's career path (drafted code role-20)."
+ },
+ "open_anomalies_by_pattern": {
+  "P1": [
+   "A10",
+   "A15",
+   "A25",
+   "A28",
+   "A39",
+   "A40",
+   "A51",
+   "A53",
+   "A54",
+   "A55"
+  ],
+  "P2": [
+   "A61"
+  ],
+  "P3": [
+   "A11",
+   "A68"
+  ],
+  "P4": [
+   "A34",
+   "A46"
+  ],
+  "D1": [
+   "A02",
+   "A30",
+   "A33",
+   "A56"
+  ],
+  "D2_D3": [
+   "A08",
+   "A19",
+   "A22",
+   "A49",
+   "A57",
+   "A62"
+  ],
+  "D5": [
+   "A04"
+  ],
+  "other": [
+   "A13"
+  ]
+ },
+ "reads": [
+  {
+   "papers": [
+    {
+     "paper": "Busch & Barkema 2020/2022, Planned Luck: How Incubators Can Facilitate Serendipity for Nascent Entrepreneurs Through Fostering Network Embeddedness (ETP 46(4) 884-919)",
+     "file": "Busch and Barkema - 2020 - Planned Luck - How Incubators Can Facilitate Serendipity.md",
+     "read_in_full": true,
+     "parts_read": "all (body, tables, notes, references, bios)"
+    },
+    {
+     "paper": "Cunha, Rego, Clegg & Lindsay 2015, The Dialectics of Serendipity (EMJ 33, 9-18)",
+     "file": "Cunha et al - 2015 - The Dialectics of Serendipity.md",
+     "read_in_full": true,
+     "parts_read": "all (body, tables, appendix, references); source text has collapsed word spaces, quotes below restore spacing only"
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "P1a",
+     "verdict": "not stated",
+     "quote": "Members were also celebrated for their own projects, and individual achievements, such as new product launches, were highlighted in front of people in the room or online.",
+     "page": "902",
+     "in_context": "Incubator staff publicise members' launches to the community (Elevating Commitment).",
+     "why": "Visibility of success is produced by the incubator, not left behind by a chance event or by acting openly on one; no chance-to-stock link."
+    },
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "This attention helped people develop their own standing, legitimacy, and trust in each other’s capabilities (source: observation).",
+     "page": "902",
+     "in_context": "Publicised achievements build members' standing; paired with 'it helps people to know what they're up to'.",
+     "why": "Visibility builds reputation that plausibly feeds later encounters, but the paper never says this stock makes later chance more likely or more valuable over time; closer to D4/'putting yourself in chance's way'."
+    },
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Although not the focus of this study, we observed the team’s ability to leverage individual reputation and the initial acceptance of the leadership team in order to establish the conditions.",
+     "page": "908",
+     "in_context": "Founders' pre-existing reputation ('created an aspect of trust', p.893) let them set up the serendipity-enabling community.",
+     "why": "Reputation enables the conditions for serendipity, not explicitly a multiplier of the founders' own lucky breaks; incubator-level, carries over loosely."
+    },
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "T- Hub not only provided these conditions to facilitate unexpected encounters and bisociations, that is, serendipity, but also helped its members turn these random encounters into real opportunities.",
+     "page": "903",
+     "in_context": "Followed by 'it developed an adjacent funding arm and other means that helped turn encounters or ideas into tangible projects'; repeated p.906 ('helped them turn these opportunities into practice, for example, via funding of emergent ideas').",
+     "why": "Money and support infrastructure determine whether chance encounters become value; carry-over caveat: capability is supplied by the incubator, not the founder's own."
+    },
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "P4",
+     "verdict": "leans on it",
+     "quote": "We define cultivating serendipity as “the deliberate effort to create conditions enabling so far unknown, potentially valuable relationships, and related benefits (and costs), to emerge.”",
+     "page": "906",
+     "in_context": "Formal definition in the emerging theoretical logic section.",
+     "why": "Acknowledges serendipity brings costs alongside benefits, but gives no mixed-outcome examples (overload, dead-end contacts)."
+    },
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "He mostly spends time with other red members, as he feels that other members are quite literally “too green” for him.",
+     "page": "891 (Table 1)",
+     "in_context": "Later-stage 'red' member narrows his interactions; leaders later built a separate area for mature members (p.904); future research asks 'When does the process of cultivating serendipity distract rather than support?' (p.910).",
+     "why": "Data show mature members restricting exposure and the paper raises distraction costs, but it never theorises deliberate rationing of chance as ventures mature."
+    },
+    {
+     "paper": "Busch & Barkema 2020",
+     "pattern": "D5",
+     "verdict": "leans on it",
+     "quote": "Now I met someone recently who deals with social issues, and [now] I want to change my business to do something with some [social] change, not just technology.",
+     "page": "893",
+     "in_context": "Member quote illustrating pivoting under goal ambiguity; p.909 also notes incubator connections may lead entrepreneurs to exit for 'more interesting opportunities'.",
+     "why": "Chance encounter redirects the venture (and possibly the founder's path), but framed as venture pivot, not career redirection."
+    },
+    {
+     "paper": "Cunha et al 2015",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "For the observer unable to transform luck into serendipitous discovery, luck itself amounts to nothing useful.",
+     "page": "10",
+     "in_context": "Opening framing; preparation section adds 'good preparation can be a requirement for exploring serendipitous opportunities' (p.10).",
+     "why": "Capability/preparation decides whether a chance event yields value; organisation-level (Honda), carries over to ventures."
+    },
+    {
+     "paper": "Cunha et al 2015",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "Too much preparation focuses the organization on its a priori predictions, impeding attention to fortuitous opportunities, whereas too much openness will cause drifting (Ciborra, 2002), making it difficult to discern happenstance from opportunity.",
+     "page": "16",
+     "in_context": "Conclusion; also p.11 'the possibility of drifting from opportunity to opportunity without a focus, potentially investing resources in options devoid of synergistic or cumulative potential' and p.13 'not every opportunity is a relevant opportunity'.",
+     "why": "Openness to chance has costs and needs filtering, but it is a standing balance, not a deliberate cut in exposure as the venture matures; firm-level."
+    },
+    {
+     "paper": "Cunha et al 2015",
+     "pattern": "P4",
+     "verdict": "leans on it",
+     "quote": "In other words, more needs to be known about when, how and why some serendipitous events gain strategic momentum whereas others evanesce or are countered rather than encouraged.",
+     "page": "16",
+     "in_context": "Limitations/future research; also flags negative outcomes ('zemblanity').",
+     "why": "Names the possibility that chance events fizzle or turn negative but offers no account or examples."
+    },
+    {
+     "paper": "Cunha et al 2015",
+     "pattern": "P3",
+     "verdict": "leans on it",
+     "quote": "Serendipity in organizations has often been perceived as a mysterious occurrence.",
+     "page": "9 (abstract)",
+     "in_context": "The paper argues against this view: serendipity is 'a practical accomplishment rather than an organizational form of mystery'.",
+     "why": "Names the 'mystery' attribution only to reject it; does not discuss actors crediting success to neither luck nor effort."
+    },
+    {
+     "paper": "Cunha et al 2015",
+     "pattern": "D5",
+     "verdict": "leans on it",
+     "quote": "Serendipitous encounters are not minor anomalies in this template, but potential juncture points – strategic bifurcations that may push strategizing processes in unexpected directions.",
+     "page": "14",
+     "in_context": "Template 2 (serendipity as openness), Honda's US entry.",
+     "why": "Chance redirects firm strategy, not a person's career path."
+    },
+    {
+     "paper": "Cunha et al 2015",
+     "pattern": "P1b",
+     "verdict": "not stated",
+     "quote": "Instead of investing in diversified areas, a focus on areas of competence may lead to a progressively deeper knowledge base that can reveal unexpected opportunities.",
+     "page": "10",
+     "in_context": "Preparation perspective: accumulated competence over time surfaces new opportunities.",
+     "why": "An accumulating stock that raises later chance, but the stock is competence/knowledge (D2), not goodwill, audience or reputation; nothing on visibility."
+    }
+   ],
+   "leads": [
+    {
+     "for": "P1",
+     "cited_in": "Busch & Barkema 2020; Cunha et al 2015 (Denrell, Fang & Winter 2003)",
+     "ref": "Denrell, J., Fang, C., & Liu, C. (2015). Perspective—Chance explanations in the management sciences. Organization Science, 26(3), 923-940.",
+     "held": true,
+     "why": "Not read here; likely discusses cumulative advantage / path dependence in which early luck compounds, the closest general form of P1b. File: Denrell et al - 2015 - Chance Explanations in the Management Sciences.md"
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch & Barkema 2020",
+     "ref": "Liu, C., & de Rond, M. (2016). Good night, and good luck: Perspectives on luck in management scholarship. Academy of Management Annals, 10(1), 409-451.",
+     "held": true,
+     "why": "Not read here; review likely covers luck amplified by prior status/cumulative advantage (P1b/D4). File: Liu and de Rond - 2016 - Good Night, and Good Luck - Perspectives on Luck in Management Scholarship.md"
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch & Barkema 2020",
+     "ref": "Busch, C. (2020). The serendipity mindset. Penguin Random House (book).",
+     "held": false,
+     "why": "Popular book likely on 'serendipity hooks' and sharing openly to attract chance; not in papers/md and no paper.yaml hit. Newer held Busch work (Busch 2023 Towards a Theory of Serendipity; Busch & Grimes 2023 review) may cover the same ground."
+    }
+   ]
+  },
+  {
+   "papers": [
+    {
+     "paper": "Busch (2023) Towards a Theory of Serendipity: A Systematic Review and Conceptualization, Journal of Management Studies",
+     "file": "papers/md/Busch - 2023 - Towards a Theory of Serendipity.md",
+     "read_in_full": true,
+     "parts_read": "all (text, Table I, figures, notes, references)"
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Busch 2023",
+     "pattern": "P1a",
+     "verdict": "not stated",
+     "quote": "Social networks can support the emergence of fortunate encounters if they increase the amount and/or diversity of interactions",
+     "page": "23-24",
+     "in_context": "Social embedding as an organization-level enabler of serendipity.",
+     "why": "Only says networks make chance more likely (the D4/'chance's way' side); nowhere says a chance event leaves goodwill, an audience or helpers behind as a result."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "P1b",
+     "verdict": "leans on",
+     "quote": "Inventions that emerge during serendipitous moments can accumulate and be maintained in technology platforms to become solutions to problems in the future.",
+     "page": "8 (Table I, summarising Garud et al. 2011)",
+     "in_context": "Table I summary of Garud et al. (2011) on 3M; Busch's own model adds that materialization 'in itself opens up new (infinite) latent possibilities' (p. 19).",
+     "why": "An accumulating stock from past serendipity that feeds later serendipity, but the stock is inventions inside a firm, not visibility/goodwill/audience; carry-over to founders is by analogy only."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "P2",
+     "verdict": "leans on",
+     "quote": "Openness to accident may be especially salient in early stages in a product life cycle, when costs of unproductive accidents can be more easily controlled, or later in such life cycles when novelty might be particularly valuable",
+     "page": "5 (Table I, summarising Austin et al. 2012)",
+     "in_context": "Table I summary of Austin et al. (2012) on makers; also boundary condition that alertness is higher in early project phases (p. 25-26) and Murayama's serendipity-efficiency trade-off (p. 11).",
+     "why": "Says openness to chance has costs and waxes and wanes with stage, but about makers/product life cycle, not a founder deliberately cutting exposure as the venture matures."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "D1",
+     "verdict": "leans on",
+     "quote": "what might appear like a spontaneous idea is often the result of previously forgotten insights that help social actors make sense of events",
+     "page": "34 (note 4)",
+     "in_context": "Note on time lag (incubation) between serendipity trigger and association.",
+     "why": "Addresses ideas that seem to come from nowhere, but reframes them as delayed association to a forgotten trigger rather than stating idea-out-of-the-blue as a form."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "Even if social actors recognize and bracket weak cues, they need to (be able to) put the potential serendipitous opportunity into effect (i.e., enact it) in the organizational context",
+     "page": "18",
+     "in_context": "Materialization step; reinforced by resource integration mechanisms (p. 23) and the counterfactual of 'the company failing to invest due to resource constraints' (p. 27).",
+     "why": "Ability and resources to enact decide whether a chance event becomes value; stated for organizations, carries over to ventures (Fultz and Hmieleski on new ventures is cited)."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "D3",
+     "verdict": "states it",
+     "quote": "For example, exceptional performers might have started out with specific privileges (or 'blind' luck) that are amplified over time",
+     "page": "30",
+     "in_context": "Discussion of path dependence; continues that 'in different cultures or socio-economic strata exist different levels of what individuals consider their realm of possibility' (p. 31).",
+     "why": "Privilege and socio-economic background shape what one can make of chance; brief, flagged for future research."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "D4",
+     "verdict": "leans on",
+     "quote": "In these cross-organizational roles, acquired leaders have the visibility to discover unexpected synergies as well as the status to bring these synergies to fruition.",
+     "page": "9 (Table I, summarising Graebner 2004)",
+     "in_context": "Table I summary of Graebner (2004) on technology acquisitions; power dynamics section (p. 24) adds that ideas of actors without power may not be materialized.",
+     "why": "Position and status make serendipity more likely and more valuable, but for acquired leaders inside firms; carry-over to founders' reputation is indirect."
+    },
+    {
+     "paper": "Busch 2023",
+     "pattern": "D5",
+     "verdict": "states it",
+     "quote": "even unexpected events that at first glance appear to be 'unlucky' might lead to the identification of new opportunities, for example, when an unexpected bankruptcy triggers the establishment of a new, more successful company by the same entrepreneur",
+     "page": "35 (note 12)",
+     "in_context": "Note distinguishing luck from serendipity; note 4 (p. 34) also gives a stranger on a train telling person A of a job they take.",
+     "why": "A chance event redirecting an entrepreneur into a new venture; stated only as an illustrative footnote."
+    }
+   ],
+   "leads": [
+    {
+     "for": "P1",
+     "cited_in": "Busch 2023",
+     "ref": "Liu, C. and de Rond, M. (2016). Good night and good luck: perspectives on luck in management scholarship. Academy of Management Annals, 10, 409-51.",
+     "held": true,
+     "why": "Cited for path dependence where early luck/privilege is amplified over time; most likely source of a cumulative-advantage loop (P1b), though about luck generally, not visibility."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch 2023",
+     "ref": "Busch, C. and Barkema, H. G. (2022a). Planned luck: how incubators can facilitate serendipity for nascent entrepreneurs through fostering network embeddedness. Entrepreneurship Theory & Practice, 46, 884-919.",
+     "held": true,
+     "why": "Founder-level study of network embeddedness that yields serendipity; may describe networks/goodwill built over time (held as 'Busch and Barkema - 2020 - Planned Luck')."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch 2023",
+     "ref": "Engel, Y., Kaandorp, M. and Elfring, T. (2017). Toward a dynamic process model of entrepreneurial networking under uncertainty. Journal of Business Venturing, 32, 35-51.",
+     "held": true,
+     "why": "Effectual networking changes the portfolio of committed ties, generating further contingencies: a loop where chance-driven ties feed later chance."
+    }
+   ]
+  },
+  {
+   "papers": [
+    {
+     "paper": "Busch and Grimes 2023",
+     "file": "Busch and Grimes - 2023 - Serendipity in Entrepreneurship, Strategy, and Innovation - A Review and Conceptualisation.md",
+     "read_in_full": true,
+     "parts_read": "all (body pp. 69-89; reference list skimmed for leads)"
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "file": "Krumboltz - 1998 - Serendipity Is Not Serendipitous.md",
+     "read_in_full": true,
+     "parts_read": "all"
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "It potentially gives access to resources (e.g., ﬁnancial resources; Batjargal et al. 2013), status and legitimacy (Burt 1997), emotional support (Ozcan and Eisenhardt 2009; Schutjens and Stam 2003; Shane 2003), and learning beneﬁts (Busch 2014)—all of which can be conducive to the surfacing of serendipity.",
+     "page": "76",
+     "in_context": "'Expanded networks' enabler: social embeddedness (ties, status, legitimacy) makes serendipity triggers more likely.",
+     "why": "Existing networks/status raise chance; nothing says chance leaves the stock or that it accumulates in a loop. This is the 'networks make chance likely' version, not our P1. Elsewhere only a vague note that 'there can be feedback effects' (fn 4, p. 85) and that the value of networks is 'only recognised post-hoc' (p. 77)."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "It potentially gives access to resources (e.g., ﬁnancial resources; Batjargal et al. 2013), status and legitimacy (Burt 1997), emotional support (Ozcan and Eisenhardt 2009; Schutjens and Stam 2003; Shane 2003), and learning beneﬁts (Busch 2014)—all of which can be conducive to the surfacing of serendipity.",
+     "page": "76",
+     "in_context": "Same expanded-networks passage, applied to entrepreneurs and incubators.",
+     "why": "Status/legitimacy aids serendipity, but it does not say reputation multiplies lucky breaks."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "inexperienced founders tend to be more open to new information and demonstrate a high level of alertness, whereas more experienced ones tend to develop a high degree of focus which limits “distractions”",
+     "page": "75",
+     "in_context": "Curiosity/alertness enabler, citing Busenitz 1996; also p. 84 notes openness raises 'information overload' and calls for filtering ('flash' gut-feel vs systematic evaluations).",
+     "why": "Founder openness falls with experience and openness has filtering costs, but framed as a bias/experience effect and organisational filtering, not a maturing founder deliberately rationing exposure."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "P3",
+     "verdict": "leans on it",
+     "quote": "Research has shown that much of success is “unexplained variance”— it cannot be explained by traditional factors on which management tends to focus",
+     "page": "73",
+     "in_context": "Illusion-of-control bias section.",
+     "why": "Researchers' claim about firm performance variance, not a founder saying they cannot credit luck or effort."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "P4",
+     "verdict": "leans on it",
+     "quote": "However, social actors may recognise new serendipitous opportunities for innovation, and yet still fail to enact that opportunity",
+     "page": "83",
+     "in_context": "Bridge from bisociation to enactment; also p. 84 openness risks information overload; p. 88 'zemblanity'.",
+     "why": "Chance noticed but yielding nothing because not enacted; no case of a good chance event producing harmful overload."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "D1",
+     "verdict": "states it",
+     "quote": "Speciﬁcally, the brain’s neural network tends to unconsciously integrate varieties of pieces of information over time (Ritter and Dijksterhuis 2015; V an Gaal et al. 2012)—and then, suddenly, a “eureka moment” occurs",
+     "page": "79",
+     "in_context": "Bisociation step; 'aha' or eureka moments, Archimedes in the bath (p. 71), incubation periods.",
+     "why": "Describes the sudden, unbidden insight directly, though it adds it rests on earlier forgotten inputs."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "Such failure can often be attributed to the fact that the process of innovation is fundamentally a social and organisational one, requiring “buy-in” and thus constrained by existing patterns of decision making and resource allocation.",
+     "page": "83",
+     "in_context": "Enactment step; also skills/self-efficacy for improvisation (p. 76) and absorptive capacity (p. 86).",
+     "why": "Turning a recognised chance opportunity into value depends on resources and capability; mostly stated for organisations, carries over to ventures."
+    },
+    {
+     "paper": "Busch and Grimes 2023",
+     "pattern": "D3",
+     "verdict": "states it",
+     "quote": "the possibility to encounter serendipity is not equally distributed, as ﬁnancial and other pressures can sap attention",
+     "page": "88",
+     "in_context": "Future research on serendipity and inequality: 'Blind luck, social connections, inherited wealth masking as skill' and 'the birth lottery'.",
+     "why": "Directly says money and life circumstances shape access to serendipity (stated as a research avenue, not a finding)."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "P1a",
+     "verdict": "leans on it",
+     "quote": "the impact of these unplanned events caused a major change in their career directions, revitalized their career interests, altered their self-concepts, increased self-confidence, and established important contacts with significant professionals.",
+     "page": "390",
+     "in_context": "Summary of Williams et al. (1998) findings on 13 counseling psychologists.",
+     "why": "An unplanned event leaves contacts (helpers) as a result short of a specific opportunity, but no audience/goodwill and no later loop; academics' careers, carry-over to founders needed."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "Dr. X must have distinguished herself in some notable way, and the former professor's comment cannot possibly be considered a chance comment unless she just utters words at random.",
+     "page": "390",
+     "in_context": "Dissecting a 'chance' encounter with a former professor that changed Dr X's career.",
+     "why": "Earlier visible distinction made the chance encounter valuable, but it is not framed as a stock accumulating from chance over time; closer to D4."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Dr. X must have distinguished herself in some notable way, and the former professor's comment cannot possibly be considered a chance comment unless she just utters words at random.",
+     "page": "390",
+     "in_context": "Same Dr X example; p. 392 also asks clients 'What did they do to impress the people they met there?'",
+     "why": "Prior reputation shapes the payoff of an encounter, single case, no multiplier claim."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "The hours that I am spending writing this response are hours that I am not preparing for class, counseling students, or writing research proposals.",
+     "page": "390",
+     "in_context": "Author on 20-30 surprise emails a day, each needing a decision, and responding to one invitation.",
+     "why": "Responding to chance has opportunity costs, but no claim of deliberately cutting exposure as one matures."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "D2",
+     "verdict": "leans on it",
+     "quote": "What actions had they taken in advance so that they were prepared to take advantage of the unplanned event?",
+     "page": "392",
+     "in_context": "Counselling method; closes with 'Serendipity requires action ... to capitalize on unplanned events in a timely manner.'",
+     "why": "Preparation and action decide whether chance pays off; about actions, not skill, infrastructure or money."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "D3",
+     "verdict": "leans on it",
+     "quote": "No one can legitimately claim that his or her life was selfmanaged in its entirety unless we can find someone who chose his or her own parents, place of birth, and mother tongue.",
+     "page": "391",
+     "in_context": "Normalising unplanned events for clients.",
+     "why": "Birth circumstances shape a life, but not tied to ability to act on chance."
+    },
+    {
+     "paper": "Krumboltz 1998",
+     "pattern": "D5",
+     "verdict": "states it",
+     "quote": "the impact of these unplanned events caused a major change in their career directions, revitalized their career interests, altered their self-concepts, increased self-confidence, and established important contacts with significant professionals.",
+     "page": "390",
+     "in_context": "Whole commentary: unplanned events redirect careers (also Scott Adams/Dilbert example, p. 391).",
+     "why": "Direct statement that chance changes career direction; about careers generally, carries to founders."
+    }
+   ],
+   "leads": [
+    {
+     "for": "P1",
+     "cited_in": "Busch and Grimes 2023",
+     "ref": "Liu, C., and M. de Rond. 2016. Good night and good luck: Perspectives on luck in management scholarship. Academy of Management Annals 10 (1): 1-56.",
+     "held": true,
+     "why": "Not read here; luck review likely covering cumulative advantage / Matthew effect (early luck compounding), the nearest established form of P1b. Held in papers/md."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch and Grimes 2023",
+     "ref": "Denrell, J., C. Fang, and C. Liu. 2015. Perspective-chance explanations in the management sciences. Organization Science 26 (3): 923-940.",
+     "held": true,
+     "why": "Not read here; chance explanations incl. path dependence/cumulative advantage could support P1b loop. Held in papers/md."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch and Grimes 2023",
+     "ref": "Busch, C. 2020a. The Serendipity Mindset: The Art and Science of Creating Good Luck. New York: Penguin Random House.",
+     "held": false,
+     "why": "Trade book the chapter leans on most; reportedly discusses 'serendipity hooks' and putting interests out publicly, possibly the closest to P1a/P1b. Not in papers/md or litreview library."
+    }
+   ]
+  },
+  {
+   "papers": [
+    {
+     "paper": "Andel 1994",
+     "file": "Andel - 1994 - Anatomy of the Unsought Finding.md",
+     "read_in_full": true,
+     "parts_read": "all (sections 1-11 and references)"
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "file": "Cunha et al - 2010 - On Serendipity and Organizing.md",
+     "read_in_full": true,
+     "parts_read": "all (text and references)"
+    },
+    {
+     "paper": "Denrell et al 2013",
+     "file": "Denrell et al - 2013 - Inferring Superior Capabilities from Sustained Superior Performance.md",
+     "read_in_full": true,
+     "parts_read": "all (online appendices not in file)"
+    },
+    {
+     "paper": "Merton and Barber 2004 (Victorian Opinion)",
+     "file": "Merton and Barber - 2004 - Accidental Discovery in Science Victorian Opinion.md",
+     "read_in_full": true,
+     "parts_read": "all of this chapter only (pp. 43-60); other book chapters not assigned"
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Andel 1994",
+     "pattern": "D1",
+     "verdict": "states it",
+     "quote": "(The greatest part of Invention being but a luckey bitt of chance, for the most part not in our own power, and like the wind, the Spirit of Invention bloweth where and when it listeth, and we scarce know whence it came or wether 'tis gone.)",
+     "page": "634",
+     "in_context": "Hooke (1679) quoted in the 'Chance' section; Andel also lists 'Playing' and 'Dream' as patterns of 'le hasard intime' (pp. 642-643).",
+     "why": "Invention arriving unbidden, from nowhere, as a personal event; but Andel's own epilogue (p. 646) argues brainwaves are preceded by a 'very general schematic anticipation', so he quotes D1 then qualifies it."
+    },
+    {
+     "paper": "Andel 1994",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "Serendipitous luck may come unexpectedly, but it does so only in a mind 'prepared' by previous interest, thought and/or experience, as in the examples of pseudoserendipity, e.g.. Fleming.",
+     "page": "646",
+     "in_context": "Epilogue endorsing Selz; he then says the view is 'disputable' for cases of pure serendipity.",
+     "why": "Prior knowledge/experience decides whether chance yields a finding; capability here is cognitive, not money or infrastructure."
+    },
+    {
+     "paper": "Andel 1994",
+     "pattern": "P4",
+     "verdict": "leans on it",
+     "quote": "Negative serendipity (Barber et al., op. cit.): A surprising fact or relation is seen but not (optimally) investigated by the discoverer, Columbus' 'New World', for example",
+     "page": "639",
+     "in_context": "Three 'appearances' of serendipity; Honda's ignored small-motorcycle demand (p. 638) is called 'a missed chance'.",
+     "why": "A chance event with a poor result, but because it was not followed up, not because follow-up yielded nothing or the success caused overload."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "Hence, in each case, serendipity was not the result of an isolated moment of accident but of curiosity coupled with organizational capability to make something good of the unknown.",
+     "page": "320",
+     "in_context": "After Columbus (sponsors, ships), Fleming (funded lab) and de Mestral (instrument and weaving infrastructure).",
+     "why": "Explicitly says capability, infrastructure and resources turn a chance event into value; carry-over from discoverers/firms to founders is direct."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "D3",
+     "verdict": "leans on it",
+     "quote": "For Fleming, there were the resources of a well-funded and organized laboratory, and all the prestige and forms of capital that Cambridge could deploy",
+     "page": "320",
+     "in_context": "Same passage listing what each discoverer had to draw on.",
+     "why": "Resources and capital shape acting on chance, but these are institutional endowments, not personal privilege or life circumstances. (The paper misplaces Fleming at Cambridge; he worked at St Mary's, London.)"
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Is the discoverer in an inﬂuential position at the creative moment or in receipt of support from powerful actors? All these factors may inﬂuence the fate of a discovery: it is not just the merit of the discovery that counts per se but also the context in which it emerges.",
+     "page": "325",
+     "in_context": "Teamworking section; p. 326 adds that impedance comes from 'the lack of visibility and/or credibility of the person who made the discovery'.",
+     "why": "Favourable position and visibility raise the value of a chance discovery inside an organization; it is about a discovery's fate, not multiplying the number of lucky breaks."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "D5",
+     "verdict": "states it",
+     "quote": "it is clear that serendipity or chance can play a major part in developing individuals' careers and their ability to generate theoretical ideas.",
+     "page": "320",
+     "in_context": "Quoting Mansfield (2006, p. 746) on management scholars; also cites Guindon & Hanna (2002) on synchronicity in career development (p. 323).",
+     "why": "Chance shaping careers stated directly, though quoted from another author and about academics; carries over to founders only by analogy. Characters in the quote rendered as /C213 in the file were normalised to an apostrophe."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "D1",
+     "verdict": "leans on it",
+     "quote": "These moments sometimes lead to discoveries with human and commercial value, but they can still be perceived as mysterious, sudden acts of awareness, or instant revelations, ''Eureka'' or ''Aha! moments''.",
+     "page": "323",
+     "in_context": "Abduction stream; Kekulé's fireplace snakes given as an example on the same page.",
+     "why": "Names the sudden-insight experience but explains it as bisociation/abduction, i.e. the authors treat it as appearance rather than endorse ideas arriving unbidden."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "Good serendipitous circles can be institutionalized. Implementation increases the further receptivity of the organization to serendipity.",
+     "page": "327",
+     "in_context": "After discussing the politics of whether a chance discovery is adopted; p. 326 adds 'If good although unconventional ideas are protected and implemented with some regularity, the soil may be fertile for more cases of serendipity.'",
+     "why": "A loop over time: acting on chance leaves something that makes later serendipity likelier. But the stock is internal legitimacy/alertness of an organization, not an external audience, goodwill or reputation; carry-over to a founder is a stretch."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "P1a",
+     "verdict": "leans on it",
+     "quote": "When information ﬂows freely, associations may be established between pieces of information not previously articulated, and relationships may emerge between people who were previously not connected, which facilitates the nurturing of social capital and enhances further exchanges.",
+     "page": "324",
+     "in_context": "Creative compartments; same section says 'Serendipity travels in good social networks' (p. 324).",
+     "why": "Open exchange leaves new relationships/social capital that feed further exchanges, but the trigger is free information flow, not a chance event, and the rest of the section is 'networks make chance more likely' (D4-type), not chance building a stock."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "''Happy accidents'' are ''happy'' only post hoc, which means that the facilitation of serendipity will potentially result in the increase of errors – including those of the ''unhappy'' type.",
+     "page": "327",
+     "in_context": "Caveat that organizations should not rely on serendipity; p. 324 (via Miyazaki 1999) says serendipity matters more 'at the beginning of an exploratory effort, when alertness and mindfulness are higher'.",
+     "why": "Names the cost of openness to chance and its waning with maturity, but at organization-design level and with no deliberate rationing by the actor; the paper mostly argues for more openness."
+    },
+    {
+     "paper": "Cunha et al 2010",
+     "pattern": "P4",
+     "verdict": "leans on it",
+     "quote": "There is a signiﬁcant point here: in serendipity, enactment is crucial because surprises can happen and nothing be made of them.",
+     "page": "321",
+     "in_context": "On enactment; the research agenda (p. 328) calls for studying modest serendipities 'including, of course, those that failed'.",
+     "why": "Chance events with null results acknowledged, but no overload case and nothing on follow-ups that came to nothing."
+    },
+    {
+     "paper": "Denrell et al 2013",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "strong, sustained superior performance may result from historical accidents, where certain actors happened to be at the right place at the right time. Their initial superior performance later set the stage for superior subsequent performance (Rumelt, 1984).",
+     "page": "194",
+     "in_context": "Discussion; the model has past success raise the probability of later success through status dynamics, network externalities, switching costs, first-mover advantages (pp. 183-184).",
+     "why": "A chance-started loop over time at firm level; but what accumulates is performance advantage (closer to sales/market position), and the loop raises later success, not the likelihood or value of later chance events as such."
+    },
+    {
+     "paper": "Denrell et al 2013",
+     "pattern": "P1a",
+     "verdict": "leans on it",
+     "quote": "Because the effect of past performance is stochastic, the model is compatible with scenarios in which the stock of cumulative advantage disappears or deteriorates.",
+     "page": "185",
+     "in_context": "Model setup; p. 183: 'In the extreme, even a single lucky break could lead to sustained superior performance if first-mover advantages are strong'.",
+     "why": "Chance leaves a 'stock of cumulative advantage', but the stock is generic incumbency advantage produced by superior performance, not goodwill, audience or helpers short of sales."
+    },
+    {
+     "paper": "Denrell et al 2013",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Superior performing incumbents continue to enjoy superior performance due to mechanisms such as first-mover-advantages (Lieberman and Montgomery, 1988), time-compression diseconomies (Dierickx and Cool, 1989), switching costs (Klemperer, 1995), network externalities (Katz and Shapiro, 1987; Farrell and Saloner, 1988), learning curves (Argote, 1999), and status dynamics (Podolny, 1993).",
+     "page": "183",
+     "in_context": "'High church' account of sustained performance.",
+     "why": "Status/position amplifies prior (possibly lucky) success; it is a list of mechanisms for firms, not a statement that reputation multiplies lucky breaks for individuals."
+    },
+    {
+     "paper": "Denrell et al 2013",
+     "pattern": "D2",
+     "verdict": "leans on it",
+     "quote": "An interesting possibility is that firms might be more or less able to take advantage of lucky events.",
+     "page": "193",
+     "in_context": "Robustness subsection 'Capable firms benefit more from luck', modelled as higher W for high-capability firms.",
+     "why": "Capability determining the value extracted from luck, but raised only as a robustness scenario, not argued as a finding."
+    },
+    {
+     "paper": "Denrell et al 2013",
+     "pattern": "P3",
+     "verdict": "leans on it",
+     "quote": "For example, managers trying to evaluate performance need to judge whether observed performance indicates superior skills, effort, or simply chance.",
+     "page": "194",
+     "in_context": "Managerial implications; the paper's point is that path-dependent cumulative advantage is a third explanation besides capability and luck.",
+     "why": "About observers' inability to infer causes of success, not a founder saying they cannot explain it; offers a candidate account (cumulative advantage) for success credited to neither luck nor effort."
+    },
+    {
+     "paper": "Merton and Barber 2004 (Victorian Opinion)",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "But the important point to notice is that the value of the accident depends on the kind of man, on the kind of mind, by whom or by which it is ﬁrst observed. If the soil is not suf ﬁciently prepared, the seed will not grow.",
+     "page": "45",
+     "in_context": "Quoting an anonymous 1876 Chambers's Journal article; also Jevons (p. 45) that the industrious physicist 'will meet with fortunate accidents, and will turn them to good account' and Whewell (p. 44) 'Such accidents never happen to common men'.",
+     "why": "Value from chance depends on the finder's preparation; capability is mental, not material, and is about scientists/inventors."
+    },
+    {
+     "paper": "Merton and Barber 2004 (Victorian Opinion)",
+     "pattern": "P3",
+     "verdict": "leans on it",
+     "quote": "a single fundamental tension in the concept of accidental discovery: a tension between the attribution of credit for an unexpected discovery to the discoverer on the one hand, and to auspicious external circumstances on the other.",
+     "page": "58",
+     "in_context": "After 'Vebna' (c. pp. 54-55, page marker missing) uses serendipity to 'circumvent the question of whether it has some inner quality or merely outward circumstances' and Lang's 'faculty'/'luck'; p. 58-59 adds that modesty makes people understate their own gifts and stress luck.",
+     "why": "Describes refusing to attribute a find to either self or luck, and attribution norms that shape such talk; applies to trivial book finds, not venture success."
+    },
+    {
+     "paper": "Merton and Barber 2004 (Victorian Opinion)",
+     "pattern": "D1",
+     "verdict": "leans on it",
+     "quote": "Thousands of men had seen light reﬂected from distant windows, and variations in the light according to the angle of reﬂection, but a well-prepared mind on one occasion suddenly drew from this phenomenon an idea which established the beautiful science of the Polarization of Light.",
+     "page": "45",
+     "in_context": "Chambers's Journal quote; Gore (1878, p. 46) counters that 'great ones rarely come unawares'.",
+     "why": "A sudden idea, but triggered by an outside observation and credited to preparation, not an unbidden personal insight."
+    }
+   ],
+   "leads": [
+    {
+     "for": "P1",
+     "cited_in": "Denrell et al 2013",
+     "ref": "DiPrete, T.A., Eirich, G.M. (2006). Cumulative advantage as a mechanism for inequality: a review of theoretical and empirical developments. Annual Review of Sociology 32: 271-298.",
+     "held": false,
+     "why": "Reviews Matthew-effect/cumulative advantage, including status and recognition accumulating from early (possibly chance) success; closest general statement of P1b's loop."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Denrell et al 2013",
+     "ref": "Denrell, J. (2004). Random walks and sustained competitive advantage. Management Science 50: 922-934.",
+     "held": true,
+     "why": "Formal model of chance events accumulating into lasting advantage; held as 'Denrell - 2004 - Random Walks and Sustained Competitive Advantage.md'. Likely about performance stock, not audience/goodwill."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Cunha et al 2010",
+     "ref": "Plowman, D.A., Baker, L.T., Kulkarni, M., Solansky, S.T., Travis, D. (2007). Radical change accidentally: the emergence and amplification of small change. Academy of Management Journal 50: 515-543.",
+     "held": true,
+     "why": "Small unplanned actions amplified by feedback, including outside attention, into larger change; held as 'Plowman et al - 2007 - Radical Change Accidentally ... .md'. Candidate for P1a/P1b at organization level."
+    }
+   ]
+  },
+  {
+   "papers": [
+    {
+     "paper": "Soto 2023, Ch. 11 'Serendipity Across Contexts: From Offices to Post-conflict Settings' (in Copeland, Ross & Sand eds., Serendipity Science)",
+     "file": "Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.md",
+     "read_in_full": true,
+     "parts_read": "Ch. 11 in full incl. references and bio (pp. 205-223)"
+    },
+    {
+     "paper": "Erdelez 2023, Ch. 12 'Epilogue' (information encountering; emotions and dark side of serendipity)",
+     "file": "Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.md",
+     "read_in_full": true,
+     "parts_read": "Ch. 12 in full incl. references (pp. 225-230)"
+    },
+    {
+     "paper": "Busch & Grimes 2023, Ch. 5 'Serendipity in Entrepreneurship, Strategy, and Innovation - A Review and Conceptualisation'",
+     "file": "Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.md",
+     "read_in_full": true,
+     "parts_read": "Ch. 5 in full incl. references (pp. 69-99)"
+    },
+    {
+     "paper": "Cunha & Berti 2023, Ch. 4 'Serendipity in Management and Organization Studies'",
+     "file": "Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.md",
+     "read_in_full": true,
+     "parts_read": "Ch. 4 in full incl. references (pp. 49-67)"
+    }
+   ],
+   "not_read": "Chs. 1-3, 6-10 (introduction, Mongolian language, knowledge organisation, philosophy of science, ignorance studies, personalization systems, serendipitous cognition, vaccination/moral luck) were not read; no judgments drawn from them. No separate chapter on information encountering exists other than Erdelez's Epilogue; the book has no chapter near p. 237 (Epilogue ends p. 230, index pp. 231-234).",
+   "claims": [
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "P1a",
+     "verdict": "leans on it",
+     "quote": "To repay me for all I had done, he introduced me to someone, Sid Shah, who he thought I could work on this with further and in fact the two of us co-founded Spark Collaboration six months later.",
+     "page": "213",
+     "in_context": "Soto's blog post unexpectedly went viral; he gave free advice and a free pilot to a chance contact (coincidentally in his hometown), whose goodwill later produced the co-founder introduction.",
+     "why": "Narrative of goodwill left by openly acting on a chance contact that later pays off; told as personal story, not stated as a general claim, and goodwill converts into a specific opportunity."
+    },
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "Similarly, my own professional profile likely served to reinforce people's willingness to engage and gave me the confidence to go out on limbs with unexpected returns, knowing that if I fell, I would have many opportunities to try something new.",
+     "page": "214",
+     "in_context": "Soto reflects that Nesta's reputation and his own profile shaped the scale of the RCT serendipity; also recounts initiatives worldwide started by strangers who had read the blog post and finding an HBR article mentioning them by accident.",
+     "why": "Earlier-built reputation makes later chance more likely/valuable, but framed as accumulated privilege (closer to D4), not as a stock produced by earlier chance events."
+    },
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "the point is that we can all experience serendipity, but the multiplier will vary based on the skills, resources, and networks we are multiplying it with.",
+     "page": "215",
+     "in_context": "Glossing his mentor's line 'Serendipity is a multiplier'.",
+     "why": "Says skills and resources determine how much value a chance event yields."
+    },
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "D3",
+     "verdict": "states it",
+     "quote": "It is these contexts that shape one's ability to explore paths, especially those that appear unlikely to provide an immediate return, and when they are explored, the potential scale of impact of any serendipitous discoveries made along the way.",
+     "page": "207",
+     "in_context": "Arguing that life trajectory and social contexts (and the inequities they reflect) condition serendipity; later quotes Busch on 'structural poverty' and 'extremely low base serendipity potential' (p. 215).",
+     "why": "Directly ties life circumstances/privilege to ability to act on chance and its scale; illustrated by his own waiter/clerical jobs while giving a free pilot."
+    },
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "D4",
+     "verdict": "states it",
+     "quote": "In the case of RCTs, Nesta is a very well-known organisation in the UK: if I had the same experience and published my blog post elsewhere it is unlikely that it would have received the attention that it did.",
+     "page": "214",
+     "in_context": "Followed by 'I see professional position as a form of accumulated privilege'; conclusion says effects differ 'across hierarchies' because of the networks one has access to (p. 220).",
+     "why": "Reputation and favourable network position multiply the payoff of a chance event."
+    },
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "D5",
+     "verdict": "leans on it",
+     "quote": "I thought this was an amazing finish to my time at Nesta, without realising it was simultaneously very much the beginning of something new.",
+     "page": "213",
+     "in_context": "The unexpected response to his blog post led to 70 calls, the pharma pilot and co-founding Spark Collaboration; he calls his own path a 'crablike trajectory'.",
+     "why": "Autobiographical example of chance redirecting a career into founding a venture; not stated as a general claim."
+    },
+    {
+     "paper": "Soto 2023 (Ch. 11)",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "individuals and organisations often (inadvertently) benefit from alternating between two modes: openness to discovery of the unknown and progress on the known.",
+     "page": "216",
+     "in_context": "Northern Ireland cross-community initiatives mixed goal-oriented work with serendipity-friendly interaction.",
+     "why": "Balancing openness against goal progress, but not deliberate rationing as a venture matures nor framed around costs of openness."
+    },
+    {
+     "paper": "Erdelez 2023 (Ch. 12)",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "The common thread in these findings is that positive outcomes with serendipity can encourage people to be more open to it and, therefore, become 'luckier' than others.",
+     "page": "227",
+     "in_context": "From her interviews with 'serendipity-prone' information encounterers; adds that the more one experiences serendipity the more one anticipates it (p. 228).",
+     "why": "A loop over time from past chance to later chance, but the stock is a disposition/openness, not an audience, goodwill or reputation."
+    },
+    {
+     "paper": "Erdelez 2023 (Ch. 12)",
+     "pattern": "D5",
+     "verdict": "states it",
+     "quote": "such as a doctoral student who stumbled upon a book in the library stacks that changed the direction of his dissertation and ultimately shaped his research career.",
+     "page": "228",
+     "in_context": "Example of the most profound happiness coming from serendipity with long-run outcomes.",
+     "why": "Chance encounter redirects a career path; carry-over from a scholar to founders is plausible but not about ventures."
+    },
+    {
+     "paper": "Busch & Grimes 2023 (Ch. 5)",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "inexperienced founders tend to be more open to new information and demonstrate a high level of alertness, whereas more experienced ones tend to develop a high degree of focus which limits \"distractions\" (Busenitz 1996).",
+     "page": "75",
+     "in_context": "Curiosity and alertness vary with domain experience; also (p. 84) welcoming peripheral insights raises the risk of information overload, so firms must filter to balance clarity with unexpected value.",
+     "why": "Openness to chance falls with experience and has costs requiring filtering, but not stated as a founder deliberately cutting exposure as the venture matures."
+    },
+    {
+     "paper": "Busch & Grimes 2023 (Ch. 5)",
+     "pattern": "P3",
+     "verdict": "leans on it",
+     "quote": "Research has shown that much of success is \"unexplained variance\"— it cannot be explained by traditional factors on which management tends to focus (Liu and de Rond 2016; McGahan and Porter 2002",
+     "page": "73",
+     "in_context": "Discussion of the illusion of control; serendipity is often 'airbrushed out' of narratives.",
+     "why": "Researcher-level claim that success is often unexplained; not about founders themselves crediting neither luck nor effort."
+    },
+    {
+     "paper": "Busch & Grimes 2023 (Ch. 5)",
+     "pattern": "D1",
+     "verdict": "leans on it",
+     "quote": "Thus, what appears to be a spontaneous creative idea often is the result of previously forgotten insights and ideas that emerge to help social actors \"connect the dots\" in a particular moment.",
+     "page": "79",
+     "in_context": "Bisociation step: eureka moments after incubation; also 'thunderbolt serendipity' (p. 71) where a problem-solution dyad arrives unexpectedly without search.",
+     "why": "Recognises sudden unbidden ideas but explains them as incubated, and its examples are triggered by external observation rather than pure inner insight."
+    },
+    {
+     "paper": "Busch & Grimes 2023 (Ch. 5)",
+     "pattern": "D2",
+     "verdict": "leans on it",
+     "quote": "However, social actors may recognise new serendipitous opportunities for innovation, and yet still fail to enact that opportunity (Busch 2022; Ross 2022). Such failure can often be attributed to the fact that the process of innovation is fundamentally a social and organisational one, requiring \"buy-in\" and thus constrained by existing patterns of decision making and resource allocation.",
+     "page": "83",
+     "in_context": "Enactment step; also frames cultivating serendipity as a dynamic capability / absorptive capacity (pp. 85-86).",
+     "why": "Capability and resource allocation decide whether chance becomes value; stated mainly at organisation level (carry-over to founders)."
+    },
+    {
+     "paper": "Busch & Grimes 2023 (Ch. 5)",
+     "pattern": "D3",
+     "verdict": "states it",
+     "quote": "Blind luck, social connections, inherited wealth masking as skill (Piketty 2014), or unintended consequences often play a major role in success, and the possibility to encounter serendipity is not equally distributed, as financial and other pressures can sap attention (Mandi et al. 2013)",
+     "page": "88",
+     "in_context": "Future research on serendipity and inequality; asks how base serendipity levels could be improved for those 'that did not win the birth lottery'.",
+     "why": "Wealth, inheritance and financial pressure shape the ability to encounter and act on serendipity."
+    },
+    {
+     "paper": "Busch & Grimes 2023 (Ch. 5)",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "It potentially gives access to resources (e.g., financial resources; Batjargal et al. 2013), status and legitimacy (Burt 1997), emotional support (Ozcan and Eisenhardt 2009; Schutjens and Stam 2003; Shane 2003), and learning benefits (Busch 2014)—all of which can be conducive to the surfacing of serendipity.",
+     "page": "76",
+     "in_context": "'Expanded networks' as a systemic enabler of serendipity triggers; social embeddedness.",
+     "why": "Network position and status make serendipity likelier, but not that reputation multiplies lucky breaks per se."
+    },
+    {
+     "paper": "Cunha & Berti 2023 (Ch. 4)",
+     "pattern": "P2",
+     "verdict": "leans on it",
+     "quote": "But organismic organizations are also exposing themselves to drift, chasing one opportunity after another or tackling threats reactively rather than systematically.",
+     "page": "51",
+     "in_context": "Table 4.1 lists drift and zemblanity as problems of embracing serendipity; p. 61 adds 'In some contexts, it may be better to avoid the sort of experiments leading to serendipity rather than embrace them.'",
+     "why": "Names the costs of openness to chance, at organisation level, but not deliberate rationing by a founder as the venture matures."
+    },
+    {
+     "paper": "Cunha & Berti 2023 (Ch. 4)",
+     "pattern": "P4",
+     "verdict": "leans on it",
+     "quote": "Most of these serendipitous strategies will probably not succeed—even though the data on this would be hard to gather because of retrospective narration of the serendipitous process (Ross and Vallée-Tourangeau 2020), which erases failure.",
+     "page": "50",
+     "in_context": "On provoking serendipity probabilistically; p. 56: 'Sensitivity may bear fruit or it may not.'",
+     "why": "Efforts to court chance often yield nothing; about strategies rather than a specific chance contact followed up, and no overload case."
+    },
+    {
+     "paper": "Cunha & Berti 2023 (Ch. 4)",
+     "pattern": "D2",
+     "verdict": "leans on it",
+     "quote": "Organizations may need to be able to respond to serendipity, as responding will be important to transform potentiality into discovery. Serendipity therefore requires not only perspicacity but also action and agency.",
+     "page": "58",
+     "in_context": "Responding to serendipitous opportunities via improvisation, bricolage, learning from errors; cites Baker & Nelson and Busch & Barkema on entrepreneurs scaling via bricolage.",
+     "why": "Capability to respond determines whether chance becomes value; organisation level, carries over to ventures."
+    }
+   ],
+   "leads": [
+    {
+     "for": "P1",
+     "cited_in": "Soto 2023 (Ch. 11)",
+     "ref": "Grant, A. 2013. Give and Take: A Revolutionary Approach to Success. Viking/Penguin (book, not a journal).",
+     "held": false,
+     "why": "Cited for dormant ties; argues giving builds goodwill that returns later, the closest cited source to P1a/P1b's goodwill loop (not checked in text here)."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Busch & Grimes 2023 (Ch. 5); Cunha & Berti 2023 (Ch. 4)",
+     "ref": "Busch, C., and H.G. Barkema. 2020/2022. Planned luck: How incubators can facilitate serendipity for nascent entrepreneurs through fostering network embeddedness. Entrepreneurship Theory and Practice.",
+     "held": true,
+     "why": "Entrepreneur-level study of network embeddedness and serendipity over time; may treat accumulated ties as feeding later serendipity (likely D4-side, check)."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Soto 2023 (Ch. 11)",
+     "ref": "Maddox, A. 2015. Serendipity: Social Mobility Across Social Networks and Networked Digital Technologies. SSRN working paper 2756287.",
+     "held": false,
+     "why": "Links serendipity to networked digital visibility and mobility; possible source on visibility as a stock (title only seen)."
+    }
+   ]
+  },
+  {
+   "papers": [
+    {
+     "paper": "Liu & de Rond 2016, Good Night, and Good Luck: Perspectives on Luck in Management Scholarship, Academy of Management Annals 10(1)",
+     "file": "Liu and de Rond - 2016 - Good Night, and Good Luck - Perspectives on Luck in Management Scholarship.md",
+     "read_in_full": true,
+     "parts_read": "all (text, notes, references)"
+    },
+    {
+     "paper": "Denrell, Fang & Liu 2015, Chance Explanations in the Management Sciences, Organization Science 26(3)",
+     "file": "Denrell et al - 2015 - Chance Explanations in the Management Sciences.md",
+     "read_in_full": true,
+     "parts_read": "all (text, Table 1, endnotes, references)"
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "P1a",
+     "verdict": "not stated",
+     "quote": "",
+     "page": "",
+     "in_context": "No passage says a chance event, or acting openly on one, leaves goodwill, an audience or helpers behind.",
+     "why": "What luck leaves behind in this paper is skill, training, wealth or undeserved credit, never an audience or goodwill stock."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "The slight advantage gained due to factors beyond one’s control is usually augmented in a path dependent, richget-richer process, that is, a “Matthew Effect” (Merton, 1968).",
+     "page": "423",
+     "in_context": "Luck as Counterfactual: Canadian hockey birth-date example; early luck leads to better teammates, training and game time, so skill and performance compound.",
+     "why": "This is generic cumulative advantage in skill and performance. Nothing in it is a visibility or goodwill stock that makes later chance events more likely; it lists status hierarchy and cultural markets as cases only in passing."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "a common theme among these perspectives is that people’s systematic underestimation of (good) luck tends to create a positive feedback loop for only a select few that end up taking all the credit for achievement, for having created opportunities and accumulating wealth even when undeserving",
+     "page": "412",
+     "in_context": "Introduction, motivating luck as Leveler: misattributed luck gives a few people credit (reputation), which then brings more reward.",
+     "why": "This is the closest the paper comes to luck feeding a reputation that pays off later. But the loop is about credit and wealth for executives, not about a stock that makes later chance events more likely, so it fits D4 better than P1b."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Top performers have been shown to be lucky for having beneﬁtted from rich-get-richer dynamics that boosted their initial fortune.",
+     "page": "426",
+     "in_context": "Counterfactual future directions: extreme success is early luck amplified, so top performers are poor models to imitate.",
+     "why": "The claim is that initial fortune gets amplified. It does not say that reputation or position brings more lucky breaks later."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Other studies emphasize that such serendipity should be attributed less to the actors and more to the network structure the actors are embedded in.",
+     "page": "438",
+     "in_context": "Serendipity future directions, citing Simonton 2003 and network studies: network position gives access to the pieces of a discovery.",
+     "why": "Network position enables serendipity, which is close to favourable position. It is about scientists, carries over to founders only by analogy, and says nothing about reputation."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "D2",
+     "verdict": "states it",
+     "quote": "Good and bad luck befalls to all, but only some can maximize the return on luck.",
+     "page": "432",
+     "in_context": "Opens Luck as Serendipity: the focus is on traits that let people or firms see and use what others do not.",
+     "why": "This says directly that capability decides whether chance turns into value. The same section applies it to entrepreneurs (Dew 2009) and to Gates and Honda."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "D3",
+     "verdict": "states it",
+     "quote": "This series of lucky incidents Gates referred to (Gates, 1995) started with his wealthy family sending him to a private school with computers (rare equipment in the 1970s)",
+     "page": "436",
+     "in_context": "Third serendipity variant: Gates' wealthy family, private school and his mother's IBM connection set up the lucky breaks he then acted on.",
+     "why": "A founder case in which family wealth and connections shape access to chance and the ability to act on it. The paper also cites Piketty on inherited wealth (p. 431)."
+    },
+    {
+     "paper": "Liu & de Rond 2016",
+     "pattern": "D5",
+     "verdict": "leans on it",
+     "quote": "it is sensible to predict that a large fraction of the current professional hockey players would have had to settle in different career paths.",
+     "page": "423",
+     "in_context": "Counterfactual argument: a different age cut-off would have redirected careers. The paper also cites March & March 'almost random careers' (p. 420).",
+     "why": "This is a counterfactual about career paths in sport and management, not an episode of chance redirecting a person toward founding."
+    },
+    {
+     "paper": "Denrell, Fang & Liu 2015",
+     "pattern": "P1a",
+     "verdict": "not stated",
+     "quote": "",
+     "page": "",
+     "in_context": "The closest passage is a random product success amplified by social influence (p. 937), but what it produces is demand.",
+     "why": "P1a excludes sales. No passage speaks of goodwill, helpers or an audience as a by-product of a chance event."
+    },
+    {
+     "paper": "Denrell, Fang & Liu 2015",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "firms that have captured many opportunities so far are more likely to capture the next opportunity.",
+     "page": "928",
+     "in_context": "Section 4.1.1, reporting Bottazzi & Secchi 2003: growth shocks follow preferential attachment over opportunities and explain the Laplace growth-rate distribution.",
+     "why": "This is the closest formal statement of a loop over chance opportunities. But the mechanism is an abstract urn or preferential-attachment process with no visibility, audience or goodwill named, and it concerns firms."
+    },
+    {
+     "paper": "Denrell, Fang & Liu 2015",
+     "pattern": "P1b",
+     "verdict": "leans on it",
+     "quote": "understanding how social influence operates and how it reinforces the impact of past lucky breaks can help managers devise marketing strategies (Watts and Hasker 2006). Even if initial product success is largely random, managers can promote demand by managing social influence for the products that happen to take off.",
+     "page": "937",
+     "in_context": "Section 6.1, on the role of management: amplify random early product success with viral or big-seed marketing.",
+     "why": "Social influence, close to an audience, amplifies a past lucky break. But what grows is demand for that same product, not a stock that makes new chance events more likely or valuable. The paper also gives the general mechanism on p. 926: 'a reinforcement process that increases the future probability of outcomes that were realized in the past'."
+    },
+    {
+     "paper": "Denrell, Fang & Liu 2015",
+     "pattern": "D4",
+     "verdict": "leans on it",
+     "quote": "Nodes that happen to have more connections will attract more new connections and become hubs in a network where most nodes have only a small number of connections.",
+     "page": "932",
+     "in_context": "Section 4.3.1, popularity distributions: rich-get-richer preferential attachment explains skewed popularity.",
+     "why": "A favourable network position draws in more ties, which is a lean toward position multiplying breaks. It explains popularity distributions; it does not discuss founders or chance encounters."
+    }
+   ],
+   "leads": [
+    {
+     "for": "P1",
+     "cited_in": "Liu & de Rond 2016; Denrell et al 2015 (indirectly via Price 1976)",
+     "ref": "Merton, R. K. (1968). The Matthew effect in science: The reward and communication systems of science. Science, 159(3810), 55-63.",
+     "held": false,
+     "why": "This is the source of the accumulating-recognition idea: eminent scientists' visibility makes later work noticed and credited more. It is the closest to reputation as a stock that raises later payoffs. Not in papers/md (only Merton & Barber 2004 chapters are held), and the litreview grep finds no copy."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Liu & de Rond 2016; Denrell et al 2015",
+     "ref": "Salganik, M. J., Dodds, P. S., & Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. Science, 311(5762), 854-856.",
+     "held": false,
+     "why": "Shows that early random popularity, made visible to others, compounds through social influence. This is visibility feeding later success, though at product level. Not held."
+    },
+    {
+     "for": "P1",
+     "cited_in": "Liu & de Rond 2016; Denrell et al 2015",
+     "ref": "Lynn, F. B., Podolny, J. M., & Tao, L. (2009). A sociological (de)construction of the relationship between status and quality. American Journal of Sociology, 115(3), 755-804.",
+     "held": false,
+     "why": "Status as an accumulating stock that is partly decoupled from quality and brings further rewards. Closest to reputation compounding over time. Not held."
+    }
+   ]
+  }
+ ]
+}

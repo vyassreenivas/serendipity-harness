@@ -37,8 +37,8 @@ from itertools import combinations
 from pathlib import Path
 
 from .anomaly_log import checked_dir, coders_in
-from .coded_pages import _Run, check
-from .model_coding import UNCLEAR, WHOLE, load_codebook, met, ticked_in
+from .coded_pages import check
+from .model_coding import UNCLEAR, WHOLE, met, ticked_in
 from .runlog import sha256
 
 
@@ -262,8 +262,8 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 
 def build(work: Path) -> dict:
-    from .coded_pages import numbering
-    cb = load_codebook(_Run())
+    from .coded_pages import numbering, use_round
+    cb = use_round(work)
     num, level2 = numbering(cb)
     num.update({r["id"]: r["no"] for r in level2})
     cases = json.loads((work / "cases.json").read_text(encoding="utf-8"))

@@ -1,0 +1,320 @@
+{
+ "about": "Full-read check (31 Oct 2026) of the papers said to state round 2's themes: each paper read start to finish by a fresh reader, each claim judged in context, pages checked (Brownell, Liu and de Rond, Balzano and Garud against the PDF). Overrides literature_round2.json where they differ. No code adopted here.",
+ "readers": {
+  "brownell": {
+   "paper": "Brownell, Cardon, Bolinger & Covin (2024). Choice or chance: How successful entrepreneurs talk about luck. Journal of Small Business Management 62(3), 1684-1717.",
+   "read_in_full": true,
+   "page_note": "The PDF could not be rendered here (no poppler). Pages come from the running heads in the Markdown. The extractor puts each header at the END of its page; this is confirmed because the first-page header follows the abstract and the last header, 1717, would otherwise head an empty page. On that mapping every proposed page is one too low.",
+   "claims": [
+    {
+     "code": "An event that only set the venture back",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "1688",
+     "in_context": "The proposed quote is quoted accurately (the ellipsis stands for 'while'), but it is the authors' framing of earlier literature (Cardon et al., 2011; Zunino et al., 2022) about venture failure in general, not a finding about founders' stories, so on its own it only leans on the code. The paper sets bad luck aside ('focuses on good luck'). Its only direct support is one sentence in the third limitation, which reports instances in its own data where bad luck prevented success. The support is thin.",
+     "better_quote": {
+      "quote": "there are instances in our data suggesting both that new ventures can and do succeed despite suffering bad luck and that bad luck can prevent new venture success.",
+      "page": "1711"
+     },
+     "distinct": "Yes, distinct. The sentence itself separates bad luck that blocks success (this code) from success despite bad luck (persistence or reframing)."
+    },
+    {
+     "code": "A setback retold as fortunate",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "1711",
+     "in_context": "The quote is exact, but it is the authors' conjecture in the limitations section. They call it a 'conjecture [that] goes beyond our data', which is not a finding. It still states the reframing idea plainly: an event first seen as bad luck is later retold as good luck.",
+     "better_quote": null,
+     "distinct": "Yes, distinct from the purely negative setback code and from crediting persistence. The core is the re-evaluation of bad luck as good, not the setback or the grit."
+    },
+    {
+     "code": "Credit to persistence or work, without setting it against luck",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "1711",
+     "in_context": "The quote is exact. It is the authors' own description of their perseverance theme (a finding), given in the third limitation. Across the paper, perseverance is presented as part of luck ('luck is a function of perseverance or persistence', p. 1702), not set against it, which fits the 'without setting it against luck' condition.",
+     "better_quote": null,
+     "distinct": "Yes, distinct from the existing effort-as-opposed-to-luck code, because Brownell et al. fold persistence into luck rather than contrast the two. The quote's 'despite earlier setbacks' wording overlaps a little with setback codes, so code the credit to persistence, not the setback."
+    },
+    {
+     "code": "Readiness to take opportunities",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "1703",
+     "in_context": "The quote is exact and is the authors' main finding (dimension 2, 'openness to opportunities') as summarised in the Discussion. Their openness, though, joins awareness (noticing, alertness) with self-efficacy (believing you can act). Only the self-efficacy half matches 'readiness to take', and the awareness half could pull in alertness codes.",
+     "better_quote": {
+      "quote": "Said differently, even when the same objective advantages exist, and one is able to recognize the opportunities those advantages lead to, some individuals are willing to exert effort and seize those opportunities, while others are not.",
+      "page": "1702"
+     },
+     "distinct": "Mostly distinct from 'Putting themselves in chance's way'. That code needs described actions that raise exposure, while this one is an attitude of willingness to seize openings, which Brownell et al. separate from both noticing and the circumstances. Do not let the awareness half of 'openness' leak in."
+    }
+   ]
+  },
+  "luck": {
+   "papers": [
+    {
+     "paper": "A",
+     "identity": "Liu, C. & Tsay, C.-J., 'A normative theory of luck', Frontiers in Psychology 14:1157527, published 10 Nov 2023 (doi 10.3389/fpsyg.2023.1157527). The file name says 2024; the article itself says 2023. Article pages 01-17.",
+     "read_in_full": true
+    },
+    {
+     "paper": "B",
+     "identity": "Liu, C. & de Rond, M. (2016), 'Good Night, and Good Luck: Perspectives on Luck in Management Scholarship', The Academy of Management Annals 10(1), 409-451 (doi 10.1080/19416520.2016.1120971). Page footers are kept in the Markdown, so pages can be checked.",
+     "read_in_full": true
+    },
+    {
+     "paper": "C",
+     "identity": "Confirmed: NOT Lee 2006. The text is Robert A. Baron (Rensselaer Polytechnic Institute), 'Cognitive mechanisms in entrepreneurship: Why and when entrepreneurs think differently than other people'. The text carries '1998 Elsevier Science Inc.', the JBV-style Executive Summary, and Hatten 1997 / Roese 1997 as its latest citations, all consistent with Journal of Business Venturing 13 (1998) 275-294. The Markdown does not print the journal name, volume or any page numbers. The library folder is mislabelled.",
+     "read_in_full": true
+    }
+   ],
+   "claims": [
+    {
+     "paper": "A",
+     "code": "An event that only set the venture back",
+     "verdict": "leans on it",
+     "page_ok": true,
+     "page": "3 (Frontiers article page 03). The quote is exact.",
+     "in_context": "The sentence is in the 'primer on chance models'. It retells Levinthal's (1991) random-walk model, which reproduces the rise-then-fall of firm failure rates by age with no learning or capability differences. The 'negative shocks' are abstract random performance steps in a population-level simulation, not identifiable chance events in a venture's history. The point is that luck can replace 'liability of newness' as an explanation for an aggregate curve. The paper never discusses founders' accounts of setbacks. It never sets a purely harmful event against events that start, redirect or advance a venture. Elsewhere it even notes that 'an unlucky event can be a blessing in disguise' (p. 3). So the paper supports the general idea that bad luck can force a firm to exit, but it does not state the code's idea that one event played a purely negative role in a venture.",
+     "better_quote": null,
+     "distinct": "Yes, distinct from the serendipity and redirection codes, because the code is about a chance event whose only role was harm. Paper A offers no better sentence. A more concrete one sits in Paper B, p. 417: 'An innovative firm might be unlucky and launch a product “on budget and on schedule” only for this to coincide with a recession;'. That sentence is closer to an event-level setback, though it is still hypothetical and not about founders' own accounts."
+    },
+    {
+     "paper": "B",
+     "code": "Credit to persistence or work, without setting it against luck",
+     "verdict": "leans on it",
+     "page_ok": false,
+     "page": "416, not 415. The quote is exact, but it falls after the '415' footer and before the '416' footer.",
+     "in_context": "The sentence is in the 'Future directions' part of 'Luck as Attribution'. It is a speculative question about how aspirations interact with luck attributions. The sentence before it says that people with high aspirations attribute perceived failures to (bad) luck. This sentence is the other half of that asymmetry: low aspirations lead to perceived successes credited to skill and hard work. Read as a whole, Paper B always frames skill and effort attributions against luck. The fuller statement on p. 414 makes the same contrast inside one sentence. So the paper's idea is the contrast of effort with luck, which is the existing code, not credit to work standing on its own. The paper never mentions persistence, grinding or listening, and it does not discuss founders' accounts.",
+     "better_quote": {
+      "quote": "For example, when evaluating own performances, self-serving bias suggests that people tend to attribute their successes to skill or effort and consider failures to be bad luck (Miller & Ross, 1975).",
+      "page": "414"
+     },
+     "distinct": "The new code is distinct in principle, but Paper B does not back it. B's version of the idea always carries the contrast with luck, so it supports the existing code ('credits effort explicitly AS OPPOSED TO luck') more than the new non-contrastive one. Even the better quote sets success against bad luck in failure."
+    },
+    {
+     "paper": "C",
+     "code": "Credit to persistence or work, without setting it against luck",
+     "verdict": "states it",
+     "page_ok": true,
+     "page": "284 is plausible but cannot be confirmed from this Markdown, which has no page numbers. By position in the text, the passage falls about half-way through the body, around pp. 284-285. The quote is exact up to the ellipsis; the full list reads 'their own skill, talent, good judgment, or hard work'.",
+     "in_context": "The quote fairly gives part (1) of the self-serving bias: positive outcomes are credited to internal causes, including one's own hard work. Part (2) credits negative outcomes to external causes. Luck appears only once, as the external cause that depressed people credit for their successes. So crediting one's own work for success is stated without being set against luck. However, this sentence is about 'most persons', not entrepreneurs, and Baron treats the tendency as a bias. A few sentences later Baron applies it to entrepreneurs directly (the better quote), and H6 says entrepreneurs are more likely than others to attribute positive outcomes to internal causes. Baron does not discuss persistence as a credited cause. He does discuss entrepreneurs' 'legendary tenacity', but under escalation of commitment, which is a different idea.",
+     "better_quote": {
+      "quote": "Second, it has also frequently been noted that entrepreneurs tend to perceive their own abilities, dedication, and effort as crucial to success: this is one reason why, when asked to estimate the likelihood that their business will succeed, entrepreneurs vastly overestimate the odds (e.g., Cooper, Dunkelberg, and Woo 1988; Kahneman and Lovallo 1994).",
+      "page": "about 284-285 (unverified; the Markdown has no page numbers; it appears just before H6)"
+     },
+     "distinct": "Yes. Baron's framing is internal versus external causes, not effort versus luck, and the entrepreneur sentence credits dedication and effort with no luck contrast. That fits the new code and separates it from the existing 'as opposed to luck' code. Two caveats: Baron writes about a cognitive bias (attributions, possibly inflated), not about founders' interview accounts, and he does not mention 'listening'."
+    }
+   ]
+  },
+  "intuition_firm": {
+   "papers": [
+    {
+     "paper": "A. Busch & Grimes 2023, 'Serendipity in Entrepreneurship, Strategy, and Innovation - A Review and Conceptualisation', Chapter 5 in S. Copeland et al. (eds.), Serendipity Science, Springer, doi 10.1007/978-3-031-33529-7_5. NOT Journal of Management Studies (their JMS paper is Busch 2022, cited inside).",
+     "read_in_full": true,
+     "pages": "69-99 (main text 69-89, references 89-99)"
+    },
+    {
+     "paper": "B. Nguyen, Le & Nguyen 2024, 'Serendipity as a strategic advantage', Encyclopedia.pub entry 12127 (summarises Napier & Vuong 2013).",
+     "read_in_full": true,
+     "pages": "No page range stated anywhere in the text; cite as an unpaginated online encyclopedia entry."
+    },
+    {
+     "paper": "C. Buenstorf 2007, 'Creation and Pursuit of Entrepreneurial Opportunities: An Evolutionary Economics Perspective', Small Business Economics, doi 10.1007/s11187-006-9039-5.",
+     "read_in_full": true,
+     "pages": "The Markdown (all three versions) carries no page markers, so no page can be checked from it. Published range is, from memory and unverified, vol. 29, pp. 323-336; check against the PDF."
+    },
+    {
+     "paper": "D. Garud, Gehman & Kumaraswamy 2011, 'Complexity Arrangements for Sustained Innovation: Lessons from 3M Corporation', Organization Studies 32(6).",
+     "read_in_full": true,
+     "pages": "737-767 (main text 737-761, notes 762, references 762-767). The Markdown repeats many pages twice; the duplicates were removed before reading."
+    }
+   ],
+   "claims": [
+    {
+     "paper": "A (Busch & Grimes 2023)",
+     "code": "Acting on intuition",
+     "verdict": "states it",
+     "page_ok": true,
+     "page": "80 (intuition sentence); 84 (flash-evaluation sentence)",
+     "in_context": "Both quotes are exact. p. 80 is the authors' own claim, but it sits under Step 2 'Bisociation' (analogous thinking). There intuition is a filter that helps form links ('the unintentional ability to create links between information'). It is about connecting the dots, not about judging or acting on the input, so on its own it only leans on the code. p. 84 is a view the authors report from Napier & Vuong 2013, in the 'Systematic Evaluations' paragraph under Step 3 'Enactment'. It does state gut-feeling judgment of unexpected information, set against analytical evaluation. The chapter's own stress, though, is on systematic evaluation as the organisational enabler, not on gut feeling. Read as a whole, A states the gut-feeling evaluation idea through a report of Napier & Vuong, not as its own argument.",
+     "better_quote": {
+      "quote": "Whereas a flash evaluation is a quick assessment that is based on a gut feeling about the new, unexpected information, a systematic evaluation is a more comprehensive analytical assessment that includes criteria such as risk tolerance, timing, and additional information that helps invalidate or substantiate the unexpected information (Napier and Vuong 2013).",
+      "page": "84"
+     },
+     "distinct": "Partly distinct. The existing mechanism codes say what the founder did (noticed, connected, acted, changed plan, followed traction). This code says on what basis they judged: gut versus research. It is better treated as a qualifier that will nearly always co-occur with 'acting on it', not as a separate step. The p. 80 sense (intuition forms links) overlaps 'connecting the dots', so define the code as the judgment/decision made on gut feel without checking, and exclude intuitive linking."
+    },
+    {
+     "paper": "B (Nguyen et al. 2024)",
+     "code": "Acting on intuition",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "none: unpaginated encyclopedia entry; section '3. Evaluating the information'",
+     "in_context": "Exact quote. It reports Napier & Vuong's framework: flash evaluation ('quick, almost gut feeling assessment') comes first, and systematic evaluation follows only 'Suppose the flash evaluation cannot assess the unexpected information'. That implies the gut assessment can be enough on its own. It covers judging, not acting. Acting is a separate stage 4 that is not tied to gut feel. The entry is a secondary summary, so it is weaker backing than Napier & Vuong 2013 itself.",
+     "better_quote": {
+      "quote": "Suppose the ﬂash evaluation cannot assess the unexpected information. In that case, it will be assessed by a more systematic evaluation which includes an analytical assessment that leads to a clearer veriﬁcation of the information’s potential value.",
+      "page": "unpaginated (section 3)"
+     },
+     "distinct": "Same as for A: distinct as the basis of judgment (gut vs analysis), but it overlaps 'acting on it' and would usually be double-coded with it."
+    },
+    {
+     "paper": "C (Buenstorf 2007)",
+     "code": "A venture inside or drawing on an existing firm",
+     "verdict": "leans on it",
+     "page_ok": false,
+     "page": "unverifiable from the Markdown (no page markers). The quotes sit in section 3 (Bell Labs/PARC, 'serendipitous opportunities') and section 4 (spinoff sentence; 'Thus, existing firm organizations...' closes section 4).",
+     "in_context": "All three quotes are exact and are the author's own claims. 'serendipitous opportunities' (in his scare quotes) means opportunities a firm's or researcher's activity creates as a by-product, which their creators may not discover or pursue. The spinoff sentence describes employees who LEAVE the firm to pursue an opportunity the firm rejects. That is the opposite of building a venture inside the firm. The section-4 conclusion means firms create opportunities and train future founders through on-the-job learning. So C backs 'the firm was the source of the chance opportunity and of the founder's skills' (spinoff founders 'learn valuable lessons during their prior employment and are able to transfer their knowledge to the new firm', section 5). It does not back 'the venture was built inside the firm or used its staff and contacts'. Corporate entrepreneurship comes up only in note 5, with no link to chance.",
+     "better_quote": {
+      "quote": "They may also be exposed to entrepreneurial opportunities - possibly ones created by the firm’s own activities -that the firm itself is unable or unwilling to pursue.",
+      "page": "unverifiable (end of section 4)"
+     },
+     "distinct": "C's idea is mostly the same as 'Idea grew from their work' plus 'relevant expertise' (a chance opportunity met at the employer, and skills learned there). The only extra part is the spinoff: leaving the employer to pursue it. If the code is kept, C supports a 'spinoff from employer' reading at most."
+    },
+    {
+     "paper": "D (Garud, Gehman & Kumaraswamy 2011)",
+     "code": "A venture inside or drawing on an existing firm",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "762 (note 5), not 747",
+     "in_context": "The words are exact, but the quote stitches together a list from note 5 on p. 762: 'A content analysis of 17 narratives from 3M’s Chronicle of innovations booklet highlighted themes such as the ways in which intrapreneurs had stumbled onto discoveries, outsmarted managers, cleverly reinterpreted rules to pursue projects, and used the 15% exploration option to bootleg company-wide resources.' It is the authors' finding about 3M's internal stories. Page 747 has only the definition of bootlegging. The whole paper makes the idea central: employees use corporate time, resources, other divisions' facilities and staff, and the technology platforms to pursue serendipitous ideas inside the firm (e.g., BEF: 'over 150 people from across 3M working on the BEF and DBEF projects at no cost to the division', p. 754). Caveat: these are intrapreneurs in one large corporation, not independent founders.",
+     "better_quote": {
+      "quote": "Specifically, drawing on the two journeys and our interviews, it became apparent that the 15% option was not meant to stipulate a mechanistic allocation of 15% of every day, week or month to experimentation. Instead, the option afforded 3M employees an ability to leverage ser - endipitous moments – moments that cannot be scheduled by the clock or the calendar (Hassard 1996) – whenever they occurred.",
+      "page": "757"
+     },
+     "distinct": "Distinct from 'Idea grew from their work' if defined as the VEHICLE, not the ORIGIN. 'Idea grew from their work' codes where the chance input came from (the day job). This code should capture that the venture was pursued inside the employer, or with the employer's time, money, facilities, staff or customers (intrapreneurship, bootlegging, corporate venture, sanctioned spinout). D supports exactly that. Two alternative sentences: p. 738 'Possibilities for creating opportune moments were enhanced by practices that fostered ongoing interactions between employees who could use the company’s diverse resources to further their initiatives.' and p. 758 'Informal practices such as the 15% option and bootlegging enabled 3M employees to tap these corporate resources.' Exclude cases where the founder only carried knowledge or contacts out of a former job, which are already 'relevant expertise', 'Idea grew from their work' or 'their network brought it'. Expect this code to be rare in independent-founder interviews."
+    },
+    {
+     "paper": "A (Busch & Grimes 2023)",
+     "code": "A venture inside or drawing on an existing firm",
+     "verdict": "leans on it",
+     "page_ok": true,
+     "page": "84 (continues onto 85)",
+     "in_context": "Exact quote, page right. It is an example inside the 'Systematic Evaluations' paragraph, used to show how firms filter and fund unexpected ideas ('Investment committees then bet on the best ideas'). The preceding sentence ties it to 'investment into unexpectedly emerging ideas', and p. 85 adds the potato-washing-machine case. So A illustrates employees developing a chance find with company resources, but only as an example of evaluation structures, not as a claim about where ventures sit. The quoted sentence itself does not mention chance. p. 83 (Graebner 2004) on acquisitions and dual parent/subsidiary roles is related but is also about internal enactment, not venture setting.",
+     "better_quote": {
+      "quote": "For example, employees within the organisation spotted that farmers unexpectedly used their washing machine to wash potatoes—which resulted in a potato washing machine.",
+      "page": "85"
+     },
+     "distinct": "Same as for D: distinct from 'Idea grew from their work' only if defined as the vehicle or resources used to pursue the find inside an existing firm, not the origin of the idea."
+    }
+   ]
+  },
+  "readiness": {
+   "papers": [
+    {
+     "paper": "Mirvahedi and Morrish 2017, The role of serendipity in opportunity exploration, JRME 19(2)",
+     "read_in_full": true,
+     "pages": "182-200 (abstract to appendix and author notes)"
+    },
+    {
+     "paper": "Kirzner 1997, Entrepreneurial discovery and the competitive market process: An Austrian approach, JEL 35(1)",
+     "read_in_full": true,
+     "pages": "60-85 (sections I-VI and references)"
+    },
+    {
+     "paper": "Merton and Barber 2004, The Travels and Adventures of Serendipity, ch. 9 'The Diverse Significance of Serendipity in Science'",
+     "read_in_full": true,
+     "pages": "158-198 (whole chapter file, through the Hilsman discussion)"
+    },
+    {
+     "paper": "Balzano 2022, Serendipity in management studies: a literature review and future research directions, Management Decision 60(13)",
+     "read_in_full": true,
+     "pages": "130-152 (abstract to references and author note)"
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Mirvahedi and Morrish 2017",
+     "verdict": "states it",
+     "page_ok": true,
+     "page": "192",
+     "in_context": "Quote is exact and the authors' own claim. It is how they tell their new 'entrepreneurial serendipity' pattern apart from Galilean serendipity: the difference is 'mental readiness'. Galilean serendipity happens when 'there is no readiness or purpose to receive business idea and opportunity'. The next sentences separate the attitude from action: 'entrepreneurs may either actively search for new opportunities or find it without actively searching', and the pattern 'comes to prepared minds (Van Andel, 1994)'. Caveat: here 'readiness' partly means wanting to start some business (being in the market for any opportunity), not only courage in the face of risk. The paper never mentions fear. Its practical advice (p. 196, and abstract p. 182) lists 'being alert to changes in the environment' among ways entrepreneurs can 'expose themselves to serendipity', which blurs attitude with exposure.",
+     "better_quote": null,
+     "distinct": "Yes. The paper says the ready mind finds openings 'either' with active search 'or ... without actively searching', so readiness is an attitude separate from the exposure-raising actions that 'Putting themselves in chance's way' covers (networks, which the paper treats as a separate source of serendipity on pp. 195-196)."
+    },
+    {
+     "paper": "Kirzner 1997",
+     "verdict": "states it",
+     "page_ok": true,
+     "page": "72",
+     "in_context": "Quote is exact and is Kirzner's own definition. In context, alertness is a 'natural' human disposition. It explains why overlooked opportunities get noticed: the cause is not 'any implausible series of happy accidents' and not deliberate search. Kirzner explicitly sets discovery 'midway between' deliberate search and 'sheer windfall gain generated by pure chance'. So the attitude is a condition for discovering opportunities nobody was looking for, which fits the unsought-discovery view of serendipity. But Kirzner never uses the word serendipity and does not frame this as luck. He also links the attitude to 'boldness and imagination' (pp. 64, 70, 72, 73), which covers the 'even when scary' part.",
+     "better_quote": {
+      "quote": "An entrepreneurial attitude is one which is always ready to be surprised, always ready to take the steps needed to profit by such surprises.",
+      "page": "72"
+     },
+     "distinct": "Yes. On the same page Kirzner says the entrepreneur works 'without knowing what to look for, without deploying any deliberate search technique'. The attitude is defined apart from any search behaviour."
+    },
+    {
+     "paper": "Merton and Barber 2004 (ch. 9)",
+     "verdict": "states it",
+     "page_ok": true,
+     "page": "171",
+     "in_context": "Quote is exact, but it reports a view rather than stating the authors' own. Merton and Barber are analysing how scientists use the label 'serendipity' to praise or to belittle someone's merit. The quoted sentence describes 'these formulations', the praising version, in which luck is tied to admired qualities. It is set against a belittling version that ties luck to 'passivity, irresponsibility'. Across the chapter, 'preparedness' mostly means trained knowledge (Whitney, Seegal, Hilsman, McDonald), not attitude. The attitudinal qualities come from the authors they report: Rosenau's 'determined sailor, who is not afraid to seek', Luria's 'receptive eye', and Seegal's flexibility and self-confidence. Page: the sentence falls early on p. 171 (the p. 171 running head comes just before 'be counted on to perform reliably').",
+     "better_quote": {
+      "quote": "Chance discoveries, then, depend on an impressive list of estimable qualities in a scientist: enterprise, courage, curiosity, imagination, determination, assiduity, and alertness",
+      "page": "178 (the authors' summary of Rosenau 1935; inferred from the running heads and footnote placement)"
+     },
+     "distinct": "Partly. The chapter itself separates attitude from behaviour. It says Luria urges untidiness 'as part of a procedure for work rather than as the component of a psychological state', calling it 'the patterned counterpart to the subjective flexibility' Seegal described (p. 193). But the lists of qualities it reports mix attitude (alertness, courage, flexibility) with conduct (assiduity, toil, training). So it supports the distinction without being clean evidence for it."
+    },
+    {
+     "paper": "Balzano 2022",
+     "verdict": "states it",
+     "page_ok": false,
+     "page": "136",
+     "in_context": "The quoted words appear in the paper, but the full sentence is ungrammatical: 'Similarly, Neugarten (2006) concluded that serendipity is related to openness towards the new and readiness to embrace unexpected outcomes is a distinctive symptom of competitive intelligence, which can prevent strategic surprise.' The ellipsis drops the clause that makes readiness 'a distinctive symptom of competitive intelligence'. The view is Neugarten's, reported second-hand, and Neugarten 2006 is a foresight paper. The sentence is on p. 136, not p. 135: the p. 135 footer comes before it. It is a weak sentence to cite. A clearer statement is on p. 139, in the review's foreign-market-entry section. There Balzano reports that 'the entrepreneurial attitude of managers who are able to identify and exploit such events is the determinant (e.g. Crick and Spence, 2005)' and then adds in his own voice that managers 'should be ready'. The conclusion (p. 145) also says serendipity 'requires a good synthesis of preparation and openness through generative doubt' (after Cunha et al.). Most of the review's 'conditions favouring serendipity' are organisational or behavioural (networks, improvisation, cross-organisational roles), not attitudes.",
+     "better_quote": {
+      "quote": "Indeed, managers should be ready for new international opportunities that emerge and promptly adapt their strategies accordingly.",
+      "page": "139"
+     },
+     "distinct": "Yes. On p. 139 Balzano contrasts 'the entrepreneurial attitude of managers' with the fortuitous events themselves, and separately reports 'pronounced opportunity searches' (Kiss et al. 2020) as a different factor. The rest of the review mostly treats conditions as actions or structures, which belong with 'Putting themselves in chance's way'."
+    }
+   ],
+   "recommendation": "new code",
+   "why": "All four papers name a disposition (readiness, receptiveness, alertness, openness, courage) as a condition for gaining from unsought openings. Two of them (Mirvahedi and Morrish p. 192; Kirzner p. 72) say outright that it works with or without deliberate search. Merton and Barber (p. 193) separate a 'procedure for work' from a 'psychological state'. That is the line between this code and 'Putting themselves in chance's way', which covers described actions and explicitly excludes a founder who only voices openness. Widening that code would erase the distinction the papers draw and the one its own exclusion clause draws. A separate code captures what the exclusion now leaves uncoded. The strongest support is Kirzner p. 72 ('always ready to be surprised, always ready to take the steps needed to profit by such surprises') and Mirvahedi and Morrish p. 192, both in the authors' own voice. Use Balzano p. 139 rather than the garbled Neugarten sentence (which is on p. 136, not 135). Cite Merton and Barber as reported views. Coding cautions: (1) Merton and Barber's 'prepared mind' mostly means knowledge or training, which is a different idea from attitude. (2) Kirzner does not call alertness luck. (3) Mirvahedi and Morrish's 'readiness' includes wanting to start any business. (4) None of the papers mention fear explicitly; the nearest they come is boldness (Kirzner) and courage (Merton and Barber reporting others). So the 'even when scary' part is supported only indirectly."
+  },
+  "validation": {
+   "papers": [
+    {
+     "paper": "Shah, S. K., & Tripsas, M. (2007). The accidental entrepreneur: the emergent and collective process of user entrepreneurship. Strategic Entrepreneurship Journal, 1, 123-140. doi:10.1002/sej.15",
+     "read_in_full": true,
+     "journal_pages": "123-140 (PDF pages 1-18 map to journal pages 123-140; page placement of quotes checked against the PDF text with pypdf)"
+    },
+    {
+     "paper": "Klyver, K., Solvell, I., & Winterstorm Varlander, S. (2025). With help from strangers: entrepreneurs' networking for serendipity. Journal of Business Research, 200, 115586. doi:10.1016/j.jbusres.2025.115586",
+     "read_in_full": true,
+     "journal_pages": "Article 115586, pp. 1-16 (article-number pagination; no continuous volume page range printed). Page numbers taken from the running footer 'Journal of Business Research 200 (2025) 115586 N'."
+    }
+   ],
+   "claims": [
+    {
+     "paper": "Shah and Tripsas 2007",
+     "code": "Validation",
+     "verdict": "states it",
+     "page_ok": true,
+     "page": "p. 130 (first quote); p. 132 (second quote)",
+     "in_context": "Both quotes are exact (second quote drops ', whether local parenting groups or online,' at the ellipsis, which does not change its meaning). p. 130 closes the account of public use: once others saw the user's homemade product they gave feedback and asked to buy it, and 'often unintentionally' these signals showed the user that a useful idea could be a commercial opportunity; unsolicited purchase requests let users 'assess willingness to pay'. p. 132: community members adopting a member's innovation validates its commercial potential 'often before the user innovator had even thought of commercializing the product'. The paper's whole frame is the 'accidental' entrepreneur whose demand evidence arrives before any plan to found a firm, so validation is stated as the result of unplanned exposure. Table 4 (p. 131) heads its examples 'Public exposure creates interest in adoption, documenting demand...' (e.g., Clean Shopper: 'I knew there was a demand for the product'). The first quote fits the declined-offer interview cases closely. Caveat: in the paper the validation nearly always leads straight into founding the firm, so it is presented as the step that turns an idea into a perceived opportunity.",
+     "better_quote": {
+      "quote": "Thus signals gathered from other users, often unintentionally, led a user-innovator to see that 'just' a useful idea could be a commercial opportunity.",
+      "page": "130"
+     },
+     "distinct": "Distinct from Growth and results: the paper's evidence is interest and unsolicited offers before any sales or firm (proof, not revenue). Partly overlaps New knowledge: on p. 132 the paper treats 'a sense of demand from the market feedback' as one of the user's information asymmetries, so the coding rule should keep demand evidence under Validation and other learning under New knowledge. Largest overlap is with 'a new market or opportunity': in the paper validation is what makes the user see the opportunity, so code Validation when the event gives proof of demand for something the founder already has, and new market/opportunity when it reveals a new thing to sell or a new customer group. Not about New contacts."
+    },
+    {
+     "paper": "Klyver et al. 2025",
+     "code": "Legitimacy or goodwill",
+     "verdict": "leans on it",
+     "page_ok": true,
+     "page": "p. 1 (abstract quote; the same sentence recurs in the Conclusion, p. 15); p. 11 (both Section 4.3 quotes)",
+     "in_context": "All three quotes are exact and the pages are right. But read as a whole, the paper's 'legitimacy' is never defined or shown as credibility, trust or goodwill; it is bundled into one category, 'legitimacy/referrals', described as previous strangers opening doors to third parties, chiefly introductions to new customers (p. 11; Table 3 quotes on p. 12 are almost all referrals and connections). The p. 1 sentence lists legitimacy as a benefit entrepreneurs seek, not one shown to follow a chance event. The p. 11 'independent of whether...planned or...serendipity' sentence does let legitimacy/referrals follow serendipitous tie formation, but the authors' serendipity is 'proactively pursued' networking with strangers, not an unplanned event, and their goal is tie formation. The one data excerpt that reads as credibility (Table 2, dyad 4, p. 7: 'Most people believe young companies or startups can't really deliver... so she believed in us', coded Legitimacy/Identity) comes from a planned tie; the serendipitous dyad coded Legitimacy (dyad 21, p. 9) is about being introduced to mentors. Nothing in the paper covers public or community goodwill after a setback. The idea is next to the paper's point, not stated by it.",
+     "better_quote": null,
+     "distinct": "In this paper, legitimacy is not distinct from New contacts: the authors merge it with referrals and illustrate it with introductions and new clients, so citing it would back New contacts more than credibility. A Legitimacy or goodwill code can still be told apart in the interviews (trust, credibility, public support with no new named tie, no knowledge gained, no sales), but this paper cannot be what backs that difference. Not about New knowledge (the paper's separate 'learning' benefit) or Growth and results. Identity (confidence, inspiration) is a third separate benefit in the paper and should not be put under goodwill."
+    }
+   ]
+  }
+ },
+ "pages_checked_against_pdf": {
+  "Brownell et al. 2024": "each proposed page was one too low: 1688, 1711, 1703 (and 1702 for the better readiness quote)",
+  "Liu and de Rond 2016": "p. 416, not 415",
+  "Balzano 2022": "Neugarten sentence p. 136; Balzano's own sentence p. 139",
+  "Garud et al. 2011": "'stumbled onto discoveries' is note 5 on the 762 spread, not p. 747; 'leverage serendipitous moments' on the 756-757 spread"
+ }
+}

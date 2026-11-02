@@ -1,0 +1,138 @@
+{
+ "about": "Changes from codebook version 1.0 to 2.1, after round 1 (25 interviews coded by the model). Replaces the draft version 2.0, whose papers had not been read in full. Rule (decided 30 Oct 2026): during the calibration rounds a theme becomes a code only if a paper read in full states it, or, where papers only lean on it, by widening or splitting a code along lines the papers draw. Themes no paper states stay anomalies for the inductive analysis at the end (Hsieh and Shannon 2005). Every paper listed was read in full; pages are given in each 'why'. Examples are cases from the papers, never interview text.",
+ "from": "1.0",
+ "to": "2.1",
+ "codes": [
+  {
+   "id": "trigger-11",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "outside-crisis-or-disaster",
+   "why": "Round 1 anomalies A22 (first client after a hurricane) and A29 (the 2008 downturn). Stated by Ma 2002 (pp. 526, 529-531), Williams and Shepherd 2016 (pp. 2069, 2080) and Giones et al. 2020 (pp. 3, 5); Garud et al. 2014 (p. 1485) for the threat side. Merton and Barber's Afterword and Mirvahedi and Morrish 2017, attached by the model, do not state it and were dropped.",
+   "papers": ["ma2002-d85f40", "williams2016-33cdbd", "giones2020-c03be2", "garud2014-a2d9b1"],
+   "label": "An outside crisis or disaster",
+   "definition": "A sudden, widely shared event outside the venture, such as a recession, market crash, pandemic, natural disaster or war, opened an opportunity, forced a change or threatened the venture.",
+   "applies_when": "The founder names the event as a reason the venture began, changed course or nearly failed. For example (Williams and Shepherd 2016, p. 2082): after the Haiti earthquake, locals started ventures clearing rubble from streets.",
+   "does_not_apply_when": "The event is only background or a date; the cause named is a new technology, rule or platform (trigger-12); or the misfortune hit only the founder, such as losing a job (trigger-10)."
+  },
+  {
+   "id": "trigger-12",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "change-in-technology-rules-or-platforms",
+   "why": "Round 1 anomalies A02 and A24 (AI matured), A27 (an iOS update), A31 (a supplier ended a tool) and A34 (a search-engine update). Openings stated by Davidsson 2015 (pp. 675, 684), Davidsson et al. 2020 and Ma 2002 (p. 529); setbacks from platforms stated by Cutolo and Kenney 2021 (pp. 588, 591-592) and Ma 2002 (p. 531). Garud et al. 2011 (p. 753) gives the example.",
+   "papers": ["davidsson2015-c4ba86", "davidsson2020-f72f71", "ma2002-d85f40", "cutolo2021-c6be10", "garud2011-65d6ed"],
+   "label": "A change in technology, rules or platforms",
+   "definition": "A change outside the founder's control, such as a technology maturing, a rule changing, or a platform or supplier the venture relies on changing its policy, algorithm or product, opened a door or set the venture back.",
+   "applies_when": "The founder names a specific outside change and ties it to a turn in the story. For example (Garud et al. 2011, p. 753): 3M's light film found its use only when backlit laptop screens arrived; 'the niche found us.'",
+   "does_not_apply_when": "It was a sudden, widely shared crisis (trigger-11); the change was the founder's own action or one customer's choice; or it is a vague trend with no named change."
+  },
+  {
+   "id": "trigger-20",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "information-found-by-chance",
+   "why": "Round 1 anomalies A15 (an article), A18 (stumbling on a supplier's website), A32 (a news story) and A10 (a shop that kept catching the founder's eye). Stated by von Hippel and von Krogh 2016 (pp. 207-208) and Shane 2000 (p. 451); Garud et al. 2011 (p. 750) and Krumboltz 1998 (p. 391) give cases. Browsing with no target counts, since the founder was not searching for that information.",
+   "papers": ["vonhippel2016-a67f44", "shane2000-cc1be0", "garud2011-65d6ed", "krumboltz1998-d53ff4"],
+   "label": "Came across information by chance",
+   "definition": "While doing something else, the founder came across outside information they had not sought, such as an article, a website, a product, a technique, a talk or a sight, and saw what it could mean for them.",
+   "applies_when": "The founder names the source and says they were not looking for it. For example (von Hippel and von Krogh 2016, pp. 207-208): carrying suitcases through an airport, Sadow saw a worker roll a machine on a wheeled skid, and put wheels on luggage.",
+   "does_not_apply_when": "The founder was searching for this kind of information; a person said it to the founder in conversation (trigger-17); or the idea came from the founder's own thoughts."
+  },
+  {
+   "id": "trigger-10",
+   "group": "trigger",
+   "source": "literature",
+   "from_theme": "personal-misfortune",
+   "why": "Round 1 anomaly A33 (a layoff). Stated by Harmeling and Sarasvathy 2013 (pp. 715, 721, 726), which separates a personal contingency from a historical one; Busch 2023 (p. 35, note 12) and Sarasvathy 2001 (p. 247) lean on it.",
+   "papers": ["harmeling2013-ddb167", "busch2023-0bee54", "sarasvathy2001-f6e40d"],
+   "label": "A personal misfortune",
+   "definition": "An unwanted event in the founder's own life, such as losing a job, illness, bankruptcy or hardship, set off a sequence that led to an opportunity the founder had not planned.",
+   "applies_when": "The founder tells a personal setback as the starting point, then how acting on it revealed an unexpected need, idea or opening. For example (Harmeling and Sarasvathy 2013, p. 721): after being mugged, a teacher founded a programme teaching business to troubled youth.",
+   "does_not_apply_when": "The setback hit many people at once (trigger-11); it only pushed the founder into the same work done for themselves, with no surprise; or hardship is mentioned only as background."
+  },
+  {
+   "id": "background-02",
+   "group": "background",
+   "source": "literature",
+   "from_theme": "idea-from-the-founder-s-own-experience",
+   "why": "Revised for round 1 anomaly A05 (a care package that was hard to send). Widened to a need from the founder's own life as a user or customer. Shah and Tripsas 2007 (pp. 123, 129) state that user entrepreneurs start from a need met in day-to-day life; the need is a condition, not the trigger, which comes later.",
+   "label": "A problem already in mind",
+   "definition": "Before the event, the founder was already carrying a specific problem, need or strong interest, including a frustration from their own life as a user or customer, and the chance input mattered because it connected to it.",
+   "applies_when": "The founder says they were already wrestling with a particular problem or unmet need. For example (Shah and Tripsas 2007, p. 123): parents 'experienced a need in their day-to-day lives' and built a solution before thinking of a business.",
+   "does_not_apply_when": "The founder credits general expertise without a specific problem (background-01), or the need came from their job (background-11). The frustration itself is not the trigger; code the chance event separately."
+  },
+  {
+   "id": "background-06",
+   "group": "background",
+   "source": "literature",
+   "from_theme": "outsider-or-naive-start",
+   "why": "Round 1 anomalies A23 (never having worked in a law firm) and A26 (naivety told as an advantage). Stated by March 1991 (pp. 85-86), Shah and Tripsas 2007 (p. 133) and Jeppesen and Lakhani 2010 (pp. 1017, 1019); Jeppesen and Lakhani caution that winning outsiders are expert elsewhere (p. 1030).",
+   "papers": ["march1991-2654b9", "shah2007-30af0c", "jeppesen2010-88b434"],
+   "label": "An outsider's advantage",
+   "definition": "The founder presents being new to the industry, or not knowing its rules, assumptions or difficulty, as something that helped them see or build the opportunity differently from insiders.",
+   "applies_when": "The founder credits their outsider status or naivety for a fresh approach. For example (Jeppesen and Lakhani 2010, p. 1019): outsiders have 'a useful ignorance of prevailing assumptions and theories' that lets them try novel solutions.",
+   "does_not_apply_when": "Inexperience is only mentioned, or told as an obstacle overcome; or the advantage came from expertise carried over from a neighbouring field (background-01)."
+  },
+  {
+   "id": "account-22",
+   "group": "account",
+   "source": "literature",
+   "from_theme": "the-opportunity-found-them",
+   "why": "Round 1 anomaly A11 (the founder tells the start as the opportunity finding them). Stated by Shah and Tripsas 2007 (pp. 126, 131) and Mirvahedi and Morrish 2017 (p. 190). The model attached Baker and Nelson 2003, Garud et al. 2011 and Reijonen 2023; they were not read for this code and were replaced.",
+   "papers": ["shah2007-30af0c", "mirvahedi2017-ff1fb5"],
+   "label": "The opportunity found them",
+   "definition": "The founder tells the start as something that came to them, such as people asking to buy or an offer, while they were not looking for a business, and does not call it luck.",
+   "applies_when": "The founder says the venture happened to them or found them. For example (Shah and Tripsas 2007, p. 131): 'I was approached by mothers wanting to know where they could buy one… so I started a company.'",
+   "does_not_apply_when": "The founder searched for an opportunity, or explains the start as luck or chance (account-08)."
+  },
+  {
+   "id": "account-40",
+   "group": "account",
+   "source": "literature",
+   "from_theme": "effort-only-account",
+   "why": "Round 1 anomaly A20 (results credited wholly to work put in). Stated by Brownell et al. 2024 (p. 1698: founders ranged from 'it's not luck at all' to luck as most of it) and Merton and Barber 2004, 'A Note on Serendipity in the Humanities' (p. 225). Taken from the drafted rival code 'Effort and persistence over luck' and moved to the account group, since the papers treat it as a way of telling, not as proof that luck played no part.",
+   "papers": ["brownell2024-a83b1a", "merton2004-7b63d1"],
+   "label": "Credited to effort, not luck",
+   "definition": "The founder explains a success by their own work, persistence or skill, and says or clearly implies that luck played no part.",
+   "applies_when": "The founder contrasts effort with luck. For example (Brownell et al. 2024, p. 1698): asked about luck, a founder replied, 'Ah no, it's not luck at all.'",
+   "does_not_apply_when": "The founder splits credit between luck and effort (account-09), says 'you make your own luck', or praises hard work without setting it against luck."
+  },
+  {
+   "id": "outcome-30",
+   "group": "outcome",
+   "source": "literature",
+   "from_theme": "harmful-result",
+   "why": "Round 1 anomalies A28 (a sales channel lost), A30 (survival threatened) and A35 (income halved). Brownell et al. 2024 define luck as having beneficial or harmful consequences (p. 1685) and say bad luck can prevent new venture success (p. 1711); Giustiniano et al. 2016 (p. 8) name the harmful side zemblanity. The papers the model attached only lean on it and were dropped.",
+   "papers": ["brownell2024-a83b1a", "giustiniano2016-0b0ee9"],
+   "label": "Harm or loss",
+   "definition": "An unplanned event outside the founder's control cost the venture something concrete: sales, income, a channel, money or its chances of survival.",
+   "applies_when": "The founder says a surprise hurt the venture in concrete terms, even if they later recovered. For example (Brownell et al. 2024, p. 1711): bad luck can prevent a new venture's success.",
+   "does_not_apply_when": "The only cost was time or focus; a chance was simply missed; or the loss came from the founder's own planned choice with no unexpected event."
+  },
+  {
+   "id": "outcome-14",
+   "group": "outcome",
+   "source": "literature",
+   "from_theme": "resources-contacts-or-knowledge-as-the-result",
+   "why": "Round 1 anomaly A03 (new contacts on social media). The papers keep contacts and knowledge apart (Klyver et al. 2025, p. 11; Lane et al. 2020, p. 1223), so the draft's merged code was split. Granovetter 1973 (p. 1372) and Soto's chapter in Copeland et al. 2023 (p. 213) state contacts as what chance brings. Resources such as a supplier or a loan have no paper that states them and stay anomalies.",
+   "papers": ["granovetter1973-32994d", "klyver2025-7a51e3", "krumboltz1998-d53ff4", "copeland2023-f96149"],
+   "label": "New contacts",
+   "definition": "What came of the unexpected event was a new or revived contact the founder could draw on later, rather than a product, a market or growth.",
+   "applies_when": "The story names a contact that came from the event and was used later. For example (Copeland et al. 2023, p. 213): a chance contact introduced the writer to someone, and the two co-founded a venture six months later.",
+   "does_not_apply_when": "The contact led straight to the product, a customer or sales (use those codes), or the network only made the event possible (a condition)."
+  },
+  {
+   "id": "outcome-17",
+   "group": "outcome",
+   "source": "literature",
+   "from_theme": "resources-contacts-or-knowledge-as-the-result",
+   "why": "Round 1 anomaly A14 (customer calls full of ideas). Split from the draft's merged code. Stated by Lane et al. 2020 (p. 1239) and Klyver et al. 2025 (p. 11); Fultz and Hmieleski 2025 (p. 1572) call new knowledge serendipity's main output.",
+   "papers": ["lane2020-d1934e", "klyver2025-7a51e3", "fultz2025-202492"],
+   "label": "New knowledge",
+   "definition": "What came of the unexpected event was knowledge, advice or ideas the founder used later, rather than a product, a market or growth.",
+   "applies_when": "The founder says the event taught them something they then used. For example (Lane et al. 2020, p. 1239): scientists who met by chance learned about outside work and used it in their own research.",
+   "does_not_apply_when": "The idea itself became the product (outcome-01), or the event changed the founder's whole way of seeing things rather than adding know-how."
+  }
+ ]
+}

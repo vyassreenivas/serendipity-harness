@@ -1,6 +1,6 @@
 """Export the codebook (both levels) as JSON for codebook_simple.js.
 
-Usage: python codebook_simple.py codebook_review.xlsx codebook_simple.json
+Usage: python codebook_simple.py codebook_review.xlsx codebook_simple.json [CODEBOOK_JSON]
        node codebook_simple.js codebook_simple.json codebook_simple.docx
 
 The codebook as a reader sees it, not a coding guide. Codes are numbered by
@@ -10,6 +10,9 @@ workbook's Description) and the papers that state it; the group's anomaly code
 last. Level 2: the definitions, rival explanations, types and judgments, each
 with its rule over level-1 codes. The coding page holds the coders' instructions.
 Wording comes from the workbook; the levels come from harness/codebook/levels.json.
+With a later codebook version (CODEBOOK_JSON), its added and revised codes are
+included and marked with the version that added them; an inductive code says
+so in place of papers.
 """
 import json
 import sys
@@ -18,6 +21,7 @@ from pathlib import Path
 
 from export import LEVELS
 from levels import NEW, SUB_QUESTIONS, level1, level1_ids, numbers, rule_equation, rule_evidence
+from version import apply
 from workbook import evidence_for, load_draft, state_from_workbook
 
 KINDS = [("definition", "Definitions of serendipity", "D"), ("rival", "Rival explanations (Busch 2024, p. 29)", "R"),
@@ -29,15 +33,19 @@ def cites(ev, n=3):
     return "; ".join(shorts[:n]) + (f"; + {len(shorts) - n} more" if len(shorts) > n else "")
 
 
-def build(xlsx: str, out: str) -> None:
+def build(xlsx: str, out: str, version_file: str = "") -> None:
     state, draft = state_from_workbook(xlsx), load_draft()
+    version = apply(state, draft, version_file) if version_file else "1.0"
     ticked = set(level1_ids(state, draft))
-    ev = {c: [e for e in evidence_for(draft[c]) if e["chosen"] and not e.get("none")] for c in ticked}
+    ev = {c: [e for e in evidence_for(draft[c]) if (e["chosen"] or draft[c].get("unread")) and not e.get("none")]
+          for c in ticked}
+    added = lambda c: f" (added in {draft[c]['added_in']})" if draft[c].get("added_in") else ""
     groups, num = [], numbers(state, draft)
     for gi, g in enumerate(level1(state, draft), 1):
         p = g["pick_one"]
-        entry = lambda c: {"no": num[c], "id": c, "label": state[c]["Label"], "captures": state[c]["Description"],
-                           "papers": cites(ev[c]), "n_papers": len({e["short"] for e in ev[c]})}
+        entry = lambda c: {"no": num[c], "id": c, "label": state[c]["Label"] + added(c), "captures": state[c]["Description"],
+                           "papers": cites(ev[c]) or "No paper yet: an inductive code, from the interviews",
+                           "n_papers": len({e["short"] for e in ev[c]})}
         groups.append({"no": gi, "name": g["name"], "sq": g["sq"], "sq_text": SUB_QUESTIONS[g["sq"]], "asks": g["asks"],
                        "pick_one": {"name": p["name"], "asks": p["asks"], "options": [entry(c) for c in p["codes"]]} if p else None,
                        "codes": [entry(c) for c in g["codes"]],
@@ -56,7 +64,7 @@ def build(xlsx: str, out: str) -> None:
         sq.setdefault(g["sq"], {"sq": g["sq"], "text": g["sq_text"], "groups": [], "codes": 0})
         sq[g["sq"]]["groups"].append(f"{g['no']}. {g['name']}")
         sq[g["sq"]]["codes"] += len(g["codes"]) + (len(g["pick_one"]["options"]) if g["pick_one"] else 0)
-    data = {"built": date.today().isoformat(), "source": xlsx, "structure": list(sq.values()),
+    data = {"version": version, "built": date.today().isoformat(), "source": xlsx, "structure": list(sq.values()),
             "level1": groups, "level2": level2,
             "new": {"no": f"{len(groups) + 1}.A", "id": NEW["id"], "captures": NEW["applies_when"]},
             "counts": {"level1": len(ticked), "groups": len(groups), "anomaly": sum(1 for g in groups if g["anomaly"]) + 1,
@@ -67,4 +75,4 @@ def build(xlsx: str, out: str) -> None:
 
 
 if __name__ == "__main__":
-    build(sys.argv[1], sys.argv[2])
+    build(*sys.argv[1:4])

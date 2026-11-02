@@ -148,6 +148,8 @@ order_seed = 20261010
 # How many interviews the model codes, taken from the start of the worksheet
 # order. 0 means all of them.
 model_sample = 5
+# The Starter Story interviews that coding rounds draw from (rounds.py).
+corpus_dir = "outputs/starter_story_interviews_txt"
 # The frozen codebook the model codes with.
 codebook = "harness/codebook/codebook_v1.0.json"
 # How the model is called. "interview": one call codes a whole interview.

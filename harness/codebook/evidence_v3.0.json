@@ -1,0 +1,78 @@
+{
+ "about": "For each code added or revised in codebook version 3.0, a sentence from each paper that states it, with its printed page. Every paper was read in full (the full-read check of 31 Oct 2026, literature_round2_fullread.json); pages were checked against the PDF where the Markdown has none. 'text' is the Markdown reading copy that serendipity_harness.evidence checks the quote against.",
+ "codebook": "3.0",
+ "papers": {
+  "baron1998": {
+   "short": "Baron (1998)",
+   "title": "Cognitive mechanisms in entrepreneurship: Why and when entrepreneurs think differently than other people (Journal of Business Venturing 13, 275–294)"
+  }
+ },
+ "codes": {
+  "role-23": [
+   {
+    "paper": "brownell2024-a83b1a",
+    "page": "1711",
+    "text": "papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+    "quote": "there are instances in our data suggesting both that new ventures can and do succeed despite suffering bad luck and that bad luck can prevent new venture success."
+   }
+  ],
+  "mechanism-19": [
+   {
+    "paper": "busch2023-8da56d",
+    "page": "84",
+    "text": "papers/md/Busch and Grimes - 2023 - Serendipity in Entrepreneurship, Strategy, and Innovation - A Review and Conceptualisation.md",
+    "quote": "Whereas a flash evaluation is a quick assessment that is based on a gut feeling about the new, unexpected information, a systematic evaluation is a more comprehensive analytical assessment"
+   },
+   {
+    "paper": "nguyen2024-21848b",
+    "page": "section 3 (unpaginated encyclopedia entry)",
+    "text": "papers/md/Nguyen et al - 2024 - Serendipity as a Strategic Advantage.md",
+    "quote": "Initially, an individual does a quick, almost gut feeling assessment of the unusual information."
+   }
+  ],
+  "background-35": [
+   {
+    "paper": "garud2011-65d6ed",
+    "page": "757",
+    "text": "papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+    "quote": "Instead, the option afforded 3M employees an ability to leverage serendipitous moments – moments that cannot be scheduled by the clock or the calendar (Hassard 1996) – whenever they occurred."
+   }
+  ],
+  "outcome-40": [
+   {
+    "paper": "shah2007-30af0c",
+    "page": "130",
+    "text": "papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+    "quote": "In fact, some user-innovators received unsolicited requests from others wishing to purchase their innovations, enabling them to assess willingness to pay."
+   }
+  ],
+  "condition-73": [
+   {
+    "paper": "kirzner1997-178322",
+    "page": "72",
+    "text": "papers/md/Kirzner - 1997 - Entrepreneurial Discovery and the Competitive Market Process An Austrian Approach.md",
+    "quote": "An entrepreneurial attitude is one which is always ready to be surprised, always ready to take the steps needed to profit by such surprises."
+   },
+   {
+    "paper": "mirvahedi2017-ff1fb5",
+    "page": "192",
+    "text": "papers/md/Mirvahedi and Morrish - 2017 - The Role of Serendipity in Opportunity Exploration.md",
+    "quote": "Entrepreneurial serendipity happens continuously when the mind is ready to seize any opportunity."
+   }
+  ],
+  "account-40": [
+   {
+    "paper": "brownell2024-a83b1a",
+    "page": "1711",
+    "text": "papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+    "quote": "We primarily find the former experience reflected in the perseverance theme, wherein entrepreneurs often mentioned that their success occurred because they were able to persist despite earlier setbacks."
+   },
+   {
+    "paper": "baron1998",
+    "page": "about 284–285 (the Markdown has no page numbers)",
+    "text": "~/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/lee-2006-aspirations-market-offerings-and-the-pursuit-of-entrepreneurial-opportunities-321142c1a18b/lee-2006-aspirations-market-offerings-and-the-pursuit-of-entrepreneurial-opportunities-321142c1a18b-01-docling.md",
+    "quote": "Second, it has also frequently been noted that entrepreneurs tend to perceive their own abilities, dedication, and effort as crucial to success"
+   }
+  ]
+ }
+}

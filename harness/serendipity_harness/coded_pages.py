@@ -8,7 +8,7 @@ interview's numbered segments). Each reply goes through the same checks as
 model_coding (Checker, check_interview); what they remove is recorded. Level 2 is
 then worked out story by story from the checked ticks.
 
-Each page shows every code on the left (36 level-1 codes by group, the anomaly
+Each page shows every code on the left (the level-1 codes by group, the anomaly
 codes, and the 11 level-2 items), marked with the stories that use it (S1, S2;
 W for the whole journey), and the stories with the level-2 items each meets.
 On the right is the interview, each coded segment highlighted and tagged with
@@ -23,7 +23,7 @@ import sys
 import tomllib
 from pathlib import Path
 
-from .model_coding import WHOLE, Checker, InterviewCoding, check_interview, load_codebook, met, ticked_in
+from .model_coding import WHOLE, Checker, InterviewCoding, check_interview, codebook_from, met, ticked_in
 from .runlog import HARNESS
 
 E = html.escape
@@ -54,8 +54,19 @@ def numbering(cb: dict) -> tuple[dict, list[dict]]:
     return num, level2
 
 
+_round_codebook = None  # set by use_round
+
+
 def cb_path() -> str:
-    return _Run().config()["coding"]["codebook"].removeprefix("harness/")
+    return _round_codebook or _Run().config()["coding"]["codebook"].removeprefix("harness/")
+
+
+def use_round(work: Path) -> dict:
+    """The codebook a round was set up with (its round.json, written by rounds.py), else project.toml's."""
+    global _round_codebook
+    r = work / "round.json"
+    _round_codebook = json.loads(r.read_text(encoding="utf-8"))["codebook"].removeprefix("harness/") if r.exists() else None
+    return codebook_from(json.loads((HARNESS / cb_path()).read_text(encoding="utf-8")))
 
 
 def check(cb: dict, case_id: str, segments: list[dict], reply: dict) -> dict:
@@ -147,7 +158,7 @@ def page(cb: dict, num: dict, level2: list[dict], case: dict, segments: list[dic
 
 
 def build(work: Path, out: Path) -> None:
-    cb = load_codebook(_Run())
+    cb = use_round(work)
     num, level2 = numbering(cb)
     out.mkdir(parents=True, exist_ok=True)
     cases = json.loads((work / "cases.json").read_text(encoding="utf-8"))

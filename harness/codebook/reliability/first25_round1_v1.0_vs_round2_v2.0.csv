@@ -1,0 +1,35 @@
+no,code,label,both,only_a,only_b,neither,agree,kappa,ac1,wording_changed
+1.5,definition-07,Agency: acted on it,23,2,0,0,0.92,0.0,0.91,True
+1.4,definition-09,Surprise,18,1,2,4,0.88,0.65,0.82,True
+1.6,definition-13,Value,24,1,0,0,0.96,0.0,0.96,True
+2.1,trigger-01,Something odd was noticed,4,5,0,16,0.8,0.51,0.67,True
+2.2,trigger-04,A mistake or accident,0,0,0,25,1.0,,1.0,True
+2.3,trigger-14,A chance meeting,1,0,0,24,1.0,1.0,1.0,True
+2.4,trigger-17,A passing remark,3,2,1,19,0.88,0.59,0.83,True
+2.5,trigger-18,An unasked-for offer or request,7,2,0,16,0.92,0.82,0.86,True
+2.6,trigger-24,An unexpected market signal,15,4,0,6,0.84,0.64,0.72,True
+4.1,mechanism-02,Noticing it,5,3,1,16,0.84,0.61,0.73,True
+4.2,mechanism-06,Connecting the dots,24,0,0,1,1.0,1.0,1.0,True
+4.3,mechanism-22,Acting on it,25,0,0,0,1.0,,1.0,True
+4.4,mechanism-23,Changing the plan,10,1,1,13,0.92,0.84,0.84,True
+4.5,mechanism-27,Following what took off,10,5,0,10,0.8,0.62,0.6,True
+3.1,background-01,Relevant expertise,8,7,1,9,0.68,0.39,0.36,True
+3.2,background-02,A problem already in mind,10,5,4,6,0.64,0.26,0.3,True
+3.3,background-11,Idea grew from their work,12,8,1,4,0.64,0.26,0.35,True
+3.4,background-17,Their network brought it,11,4,0,10,0.84,0.69,0.68,True
+5.1,role-01,Started the venture,22,3,0,0,0.88,0.0,0.86,True
+5.2,role-02,Accidental founder,3,1,0,21,0.96,0.83,0.95,True
+5.3,role-08,Changed the venture's direction,4,0,0,21,1.0,1.0,1.0,True
+5.4,role-16,Moved the venture forward,14,2,3,6,0.8,0.56,0.64,True
+6.1,outcome-01,A new product or service,24,0,0,1,1.0,1.0,1.0,True
+6.2,outcome-03,A new market or opportunity,5,6,2,12,0.68,0.32,0.41,True
+6.3,outcome-05,Growth and results,19,1,1,4,0.92,0.75,0.88,True
+6.4,outcome-25,Nothing came of it,1,1,0,23,0.96,0.65,0.95,True
+8.1,account-08,Credited to luck,11,0,1,13,0.96,0.92,0.92,True
+8.2,account-09,"Part luck, part effort",1,2,0,22,0.92,0.47,0.91,True
+8.3,account-18,Only clear in hindsight,1,0,0,24,1.0,1.0,1.0,True
+7.1,condition-04,Putting themselves in chance's way,13,5,0,7,0.8,0.59,0.62,True
+7.2,condition-17,Cheap to try,12,4,0,9,0.84,0.68,0.68,True
+7.3,condition-22,No fixed plan,7,3,1,14,0.84,0.66,0.7,True
+7.4,condition-35,Little money or resources,4,6,0,15,0.76,0.44,0.6,True
+,anomalies,anomaly count per interview,35,,15,,0.32,,,

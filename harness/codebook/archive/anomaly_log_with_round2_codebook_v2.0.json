@@ -1,0 +1,1822 @@
+{
+ "about": "Anomaly themes across coding rounds. Written by serendipity_harness.anomaly_log; decisions are made with its `set` command, not by editing this file.",
+ "rounds": [
+  {
+   "round": 1,
+   "coder": "model",
+   "codebook": "1.0",
+   "added": "2026-10-29",
+   "work": "harness_v2/outputs/session_coding_20261027",
+   "interviews": 19,
+   "anomalies": 35,
+   "themes_sha256": "0e4726a6590fe4e829ef7f7d4256215cad24854d111fcfc268acdcb9475e9893"
+  },
+  {
+   "round": 2,
+   "coder": "model",
+   "codebook": "2.0",
+   "added": "2026-10-29",
+   "work": "harness_v2/outputs/round2_codebook_v2.0",
+   "interviews": 30,
+   "anomalies": 50,
+   "themes_sha256": "b3894e931b723f1a02c902f71738953ec4fef96232db367998a426a597b2eab1"
+  }
+ ],
+ "themes": [
+  {
+   "id": "information-found-by-chance",
+   "name": "Information found by chance",
+   "group": "Trigger",
+   "what": "The founder comes across an article, a website or a technique while doing something else, and it sparks the idea.",
+   "status": "adopted",
+   "first_round": 1,
+   "papers": [
+    "garud2011-65d6ed",
+    "krumboltz1998-d53ff4",
+    "lane2020-d1934e",
+    "merton2004-abf53f",
+    "shane2000-cc1be0",
+    "vonhippel2016-a67f44"
+   ],
+   "anomalies": [
+    {
+     "case_id": "how-we-built-our-discount-mattress-compa-2ebca3",
+     "story": "the domain squatting article",
+     "code": "ANO-TRG",
+     "segments": [
+      19
+     ],
+     "coder": "model",
+     "no": "A15",
+     "round": 1
+    },
+    {
+     "case_id": "jetprint-8cb871",
+     "story": "stumbling on Printful",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A18",
+     "round": 1
+    },
+    {
+     "case_id": "my-media-pal-bf2757",
+     "story": "discovering SEO",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A21",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "layoff and the blogging article",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A32",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "adopted",
+     "code": "2.9",
+     "version": "2.0",
+     "note": "Meets the three rules: one clear idea; bears on the research question; no trigger names information found by chance. Drafted code trigger-20, 6 papers."
+    }
+   ],
+   "code": "2.9",
+   "version": "2.0",
+   "note": "Meets the three rules: one clear idea; bears on the research question; no trigger names information found by chance. Drafted code trigger-20, 6 papers.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "codebook v1.0 drafted codes (papers read in full when v1.0 was built)",
+     "query": "trigger-20",
+     "hits": 6,
+     "kept": [
+      "garud2011-65d6ed",
+      "krumboltz1998-d53ff4",
+      "lane2020-d1934e",
+      "merton2004-abf53f",
+      "shane2000-cc1be0",
+      "vonhippel2016-a67f44"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "external-shock-or-platform-change",
+   "name": "External shock or platform change",
+   "group": "Trigger",
+   "what": "Something outside the venture changes suddenly: a recession, a platform's policy or algorithm, a supplier ending a tool.",
+   "status": "regrouped",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "regrouped",
+     "code": "",
+     "version": "",
+     "note": "Split from outside timing (its technology-change half) and merged with external shock, once the study covered setbacks: both are outside changes in technology, rules or platforms."
+    }
+   ],
+   "into": [
+    "change-in-technology-rules-or-platforms",
+    "outside-crisis-or-disaster"
+   ]
+  },
+  {
+   "id": "idea-from-the-founder-s-own-experience",
+   "name": "Idea from the founder's own experience",
+   "group": "Trigger",
+   "what": "The idea comes from the founder's own errand, thought or idle play, with no outside input.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [
+    "shah2007-30af0c"
+   ],
+   "anomalies": [
+    {
+     "case_id": "happy-box-store-1512ba",
+     "story": "the care package for Ariel",
+     "code": "ANO-TRG",
+     "segments": [
+      3
+     ],
+     "coder": "model",
+     "no": "A05",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the fish-tank tubing prototype",
+     "code": "ANO-TRG",
+     "segments": [
+      7
+     ],
+     "coder": "model",
+     "no": "A06",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the blind-cord prototype",
+     "code": "ANO-TRG",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A07",
+     "round": 1
+    },
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "the corner shop",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A10",
+     "round": 1
+    },
+    {
+     "case_id": "minimalist-phone-app-966d2c",
+     "story": "the idea during covid",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A01",
+     "round": 2
+    },
+    {
+     "case_id": "i-turned-my-plant-passion-into-a-1-2m-ye-56966a",
+     "story": "burnout and the market gap",
+     "code": "ANO-TRG",
+     "segments": [
+      3,
+      5
+     ],
+     "coder": "model",
+     "no": "A03",
+     "round": 2
+    },
+    {
+     "case_id": "how-3-college-friends-created-the-openta-af2e17",
+     "story": "the founding idea",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A04",
+     "round": 2
+    },
+    {
+     "case_id": "how-i-started-a-gift-box-business-for-no-7ae052",
+     "story": "the shower idea",
+     "code": "ANO-TRG",
+     "segments": [
+      3,
+      5
+     ],
+     "coder": "model",
+     "no": "A07",
+     "round": 2
+    },
+    {
+     "case_id": "happy-box-store-1512ba",
+     "story": "care package idea",
+     "code": "ANO-TRG",
+     "segments": [
+      3
+     ],
+     "coder": "model",
+     "no": "A32",
+     "round": 2
+    },
+    {
+     "case_id": "parr-business-law-bbc313",
+     "story": "the Airbnb lawyer experience",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A45",
+     "round": 2
+    }
+   ],
+   "history": [],
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "litreview full text + Paper list abstracts (base, FT50, R&T)",
+     "query": "user entrepreneurship; user entrepreneurs; personal frustration as source of idea",
+     "hits": 6,
+     "kept": [
+      "shah2007-30af0c"
+     ],
+     "note": "Shah and Tripsas 2007 state it: users 'experienced a need in their day-to-day lives, created a solution' and became accidental entrepreneurs. No drafted trigger names it; Shah 2007 already supports background-02, background-11 and role-02."
+    }
+   ]
+  },
+  {
+   "id": "unsought-publicity-from-a-third-party-or-platform",
+   "name": "Unsought publicity from a third party or platform",
+   "group": "Trigger",
+   "what": "A YouTuber, an influencer or a platform (App Store, Shopify) promotes the product on its own initiative, with no request or offer to the founder.",
+   "status": "adopted",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "aceternity-ui-ac6cc3",
+     "story": "the launch and Fireship video",
+     "code": "ANO-TRG",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A01",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "rebuilding with influencers",
+     "code": "ANO-TRG",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A08",
+     "round": 1
+    },
+    {
+     "case_id": "i-built-a-timer-app-that-generates-66k-y-584f72",
+     "story": "the App Store feature",
+     "code": "ANO-TRG",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A17",
+     "round": 1
+    },
+    {
+     "case_id": "jetprint-8cb871",
+     "story": "the Shopify feature",
+     "code": "ANO-TRG",
+     "segments": [
+      3,
+      9
+     ],
+     "coder": "model",
+     "no": "A19",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "adopted",
+     "code": "2.10",
+     "version": "2.0",
+     "note": "Meets the three rules: one clear idea; bears on the research question; 2.5 is an offer made to the founder, while promotion is aimed at someone else's audience. Inductive: no paper read states it as a trigger. Two of four cases are clean; to be judged mainly on round 2."
+    }
+   ],
+   "code": "2.10",
+   "version": "2.0",
+   "note": "Meets the three rules: one clear idea; bears on the research question; 2.5 is an offer made to the founder, while promotion is aimed at someone else's audience. Inductive: no paper read states it as a trigger. Two of four cases are clean; to be judged mainly on round 2.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "codebook v1.0 drafted codes (papers read in full when v1.0 was built)",
+     "query": "outcome-28, trigger-19, rival-29",
+     "hits": 3,
+     "kept": [],
+     "note": "Copeland 2023 states unplanned spread as an outcome and engineered (algorithmic) serendipity as a rival; Balzano 2022 and Meyer 2002 state tip-offs to the founder. None states unsought promotion as a trigger."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "unsolicited media coverage startup serendipity",
+     "hits": 0,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "platform featuring app store unexpected growth",
+     "hits": 0,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "influencer endorsement unexpected new venture",
+     "hits": 0,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "word of mouth serendipity entrepreneur",
+     "hits": 0,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "media coverage new venture",
+     "hits": 10,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "app store featuring",
+     "hits": 10,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "third-party endorsement new venture",
+     "hits": 10,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "journal abstract catalogues (Paper list: base, FT50, R&T)",
+     "query": "unsolicited publicity",
+     "hits": 10,
+     "kept": [],
+     "note": "No hit states promotion by others as a chance event that starts or changes a venture; none held in full text. Abstract-only leads on media coverage and endorsement of new ventures (e.g. 'The Valorising Pitch', 'Interorganizational endorsements and the performance of entrepreneurial ventures') are about sought coverage."
+    },
+    {
+     "date": "2026-10-29",
+     "where": "full texts held (litreview)",
+     "query": "unexpected media coverage or platform feature brings customers to a startup",
+     "hits": 6,
+     "kept": [],
+     "note": "No hit states it."
+    }
+   ]
+  },
+  {
+   "id": "outside-timing-or-circumstance",
+   "name": "Outside timing or circumstance",
+   "group": "Condition",
+   "what": "A wider change or a life event makes the moment right: maturing technology, a market turning to the founder's skills, a hurricane cleanup, a layoff.",
+   "status": "regrouped",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "regrouped",
+     "code": "",
+     "version": "",
+     "note": "Split from outside timing (its technology-change half) and merged with external shock, once the study covered setbacks: both are outside changes in technology, rules or platforms."
+    }
+   ],
+   "into": [
+    "change-in-technology-rules-or-platforms",
+    "outside-crisis-or-disaster",
+    "personal-misfortune"
+   ]
+  },
+  {
+   "id": "resources-contacts-or-knowledge-as-the-result",
+   "name": "Resources, contacts or knowledge as the result",
+   "group": "Outcome",
+   "what": "What comes of it is a supplier, a network of contacts, customer insights or new connections, not a product, market or growth.",
+   "status": "adopted",
+   "first_round": 1,
+   "papers": [
+    "balzano2022-f16721",
+    "busch2020-10a2b8",
+    "copeland2023-f96149",
+    "fultz2025-202492",
+    "klyver2025-7a51e3",
+    "granovetter1973-32994d",
+    "krumboltz1998-d53ff4",
+    "giustiniano2016-0b0ee9",
+    "lane2020-d1934e"
+   ],
+   "anomalies": [
+    {
+     "case_id": "crazyfitnessguy-bbff4b",
+     "story": "consistent branding on social media",
+     "code": "ANO-OUT",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A03",
+     "round": 1
+    },
+    {
+     "case_id": "how-three-friends-launched-2-4m-t-shirt-a975d9",
+     "story": "Matt's dad's printer",
+     "code": "ANO-OUT",
+     "segments": [
+      7
+     ],
+     "coder": "model",
+     "no": "A13",
+     "round": 1
+    },
+    {
+     "case_id": "how-three-friends-launched-2-4m-t-shirt-a975d9",
+     "story": "the customer calls",
+     "code": "ANO-OUT",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A14",
+     "round": 1
+    },
+    {
+     "case_id": "how-we-built-our-discount-mattress-compa-2ebca3",
+     "story": "the Las Vegas outlet loan",
+     "code": "ANO-OUT",
+     "segments": [
+      5,
+      7
+     ],
+     "coder": "model",
+     "no": "A16",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "adopted",
+     "code": "6.6",
+     "version": "2.0",
+     "note": "Meets the three rules: one clear idea; bears on the research question; the outcome codes name a product, a market, growth or nothing. One code from drafted codes outcome-13, outcome-14 and outcome-17."
+    }
+   ],
+   "code": "6.6",
+   "version": "2.0",
+   "note": "Meets the three rules: one clear idea; bears on the research question; the outcome codes name a product, a market, growth or nothing. One code from drafted codes outcome-13, outcome-14 and outcome-17.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "codebook v1.0 drafted codes (papers read in full when v1.0 was built)",
+     "query": "outcome-13, outcome-14, outcome-17",
+     "hits": 9,
+     "kept": [
+      "balzano2022-f16721",
+      "busch2020-10a2b8",
+      "copeland2023-f96149",
+      "fultz2025-202492",
+      "klyver2025-7a51e3",
+      "granovetter1973-32994d",
+      "krumboltz1998-d53ff4",
+      "giustiniano2016-0b0ee9",
+      "lane2020-d1934e"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "harmful-result",
+   "name": "Harmful result",
+   "group": "Outcome",
+   "what": "The event costs the venture: a lost channel, half of income gone, survival threatened.",
+   "status": "adopted",
+   "first_round": 1,
+   "papers": [
+    "austin2012-0c5916",
+    "copeland2023-f96149",
+    "cunha2010-5a18d7",
+    "cunha2015-c88a52",
+    "kirzner1997-178322"
+   ],
+   "anomalies": [
+    {
+     "case_id": "strive-bfc38d",
+     "story": "the reddit guide",
+     "code": "ANO-OUT",
+     "segments": [
+      9,
+      11
+     ],
+     "coder": "model",
+     "no": "A28",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "Google updates",
+     "code": "ANO-OUT",
+     "segments": [
+      3,
+      13
+     ],
+     "coder": "model",
+     "no": "A35",
+     "round": 1
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "the 2008 downturn",
+     "code": "ANO-ROL",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A30",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "adopted",
+     "code": "6.5",
+     "version": "2.0",
+     "note": "Meets the three rules: one clear idea; bears on the research question; the study covers bad surprises; no outcome code names harm. Drafted code outcome-30."
+    }
+   ],
+   "code": "6.5",
+   "version": "2.0",
+   "note": "Meets the three rules: one clear idea; bears on the research question; the study covers bad surprises; no outcome code names harm. Drafted code outcome-30.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "codebook v1.0 drafted codes (papers read in full when v1.0 was built)",
+     "query": "outcome-30",
+     "hits": 5,
+     "kept": [
+      "austin2012-0c5916",
+      "copeland2023-f96149",
+      "cunha2010-5a18d7",
+      "cunha2015-c88a52",
+      "kirzner1997-178322"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "outsider-or-naive-start",
+   "name": "Outsider or naive start",
+   "group": "Background and account",
+   "what": "Not knowing an industry is told as an advantage: never having worked in a law firm, naivety as a superpower.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "parr-business-law-bbc313",
+     "story": "the Airbnb business's lawyer",
+     "code": "ANO-BKG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A23",
+     "round": 1
+    },
+    {
+     "case_id": "plate-crate-b3b988",
+     "story": "googling for a side hustle",
+     "code": "ANO-ACC",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A26",
+     "round": 1
+    },
+    {
+     "case_id": "plate-crate-b3b988",
+     "story": "the baseball box search",
+     "code": "ANO-CND",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A46",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "the-opportunity-found-them",
+   "name": "The opportunity found them",
+   "group": "Account",
+   "what": "The founder tells the start as the opportunity finding them, without using luck words.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "the corner shop",
+     "code": "ANO-ACC",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A11",
+     "round": 1
+    },
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "the shop that found us",
+     "code": "ANO-ACC",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A37",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "effort-only-account",
+   "name": "Effort-only account",
+   "group": "Account",
+   "what": "The founder credits results wholly to work put in, with no role for chance.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [
+    "brownell2024-a83b1a"
+   ],
+   "anomalies": [
+    {
+     "case_id": "luminesce-diamonds-350ae8",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      3,
+      13
+     ],
+     "coder": "model",
+     "no": "A20",
+     "round": 1
+    },
+    {
+     "case_id": "how-i-solved-my-own-problem-and-turned-i-5bb421",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A20",
+     "round": 2
+    },
+    {
+     "case_id": "savewise-e4464a",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      7,
+      11
+     ],
+     "coder": "model",
+     "no": "A23",
+     "round": 2
+    },
+    {
+     "case_id": "how-we-built-our-discount-mattress-compa-2ebca3",
+     "story": "the Craigslist tip over tea",
+     "code": "ANO-ACC",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A38",
+     "round": 2
+    }
+   ],
+   "history": [],
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "litreview full text + Paper list abstracts (base, FT50, R&T)",
+     "query": "attribution luck; self-serving attribution; entrepreneurs attribute success to effort not luck",
+     "hits": 6,
+     "kept": [
+      "brownell2024-a83b1a"
+     ],
+     "note": "Brownell et al. 2024, p. 1698: entrepreneurs ranged from 'it's not luck at all' to luck as the majority. Drafted code rival-16 'Effort and persistence over luck' (daniels2019, merton2004, rosenman1988) states the theme."
+    }
+   ]
+  },
+  {
+   "id": "breakthroughs-noticed-by-founders-close-to-customers",
+   "name": "Breakthroughs noticed by founders close to customers",
+   "group": "Account",
+   "what": "A general theory from the founder: things start working through unplanned shifts that only founders close to customers notice.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "perfect-live-beyond-concierge-flawless-l-39a3bf",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A25",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "limiting-exposure-to-chance",
+   "name": "Limiting exposure to chance",
+   "group": "Condition",
+   "what": "The founder deliberately screens out incoming opportunities to stay focused.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "whole journey",
+     "code": "ANO-CND",
+     "segments": [
+      15,
+      21
+     ],
+     "coder": "model",
+     "no": "A12",
+     "round": 1
+    },
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "whole journey",
+     "code": "ANO-CND",
+     "segments": [
+      13,
+      15,
+      21
+     ],
+     "coder": "model",
+     "no": "A36",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "a-mission-that-draws-people",
+   "name": "A mission that draws people",
+   "group": "Background",
+   "what": "A nonprofit status and a resonant vision draw volunteers and trust.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "foundation-for-a-human-internet-31f60d",
+     "story": "Harvard exposure and volunteers",
+     "code": "ANO-BKG",
+     "segments": [
+      9,
+      15
+     ],
+     "coder": "model",
+     "no": "A04",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "find-improved-the-product",
+   "name": "Find improved the product",
+   "group": "Role",
+   "what": "A chance find fixed the product's core design after founding, without growth or a change of direction.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the blind-cord prototype",
+     "code": "ANO-ROL",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A09",
+     "round": 1
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "change-in-technology-rules-or-platforms",
+   "name": "Change in technology, rules or platforms",
+   "group": "Trigger",
+   "what": "A change outside the founder's control in technology, rules or a platform the venture depends on opens a door or causes a setback: AI maturing, an iOS or search-engine update, a supplier dropping a tool.",
+   "status": "adopted",
+   "first_round": 1,
+   "papers": [
+    "alvarez2007-c77d51",
+    "cattani2005-691ffb",
+    "davidsson2015-c4ba86",
+    "garud2011-65d6ed",
+    "ma2002-d85f40",
+    "mcmullen2006-78cdcc",
+    "mintzberg1985-9d4ec0",
+    "mintzberg1985-df70c8",
+    "vanlent2023-afed1a"
+   ],
+   "anomalies": [
+    {
+     "case_id": "chat-agency-ai-a60f15",
+     "story": "design background meets LLM interfaces",
+     "code": "ANO-CND",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A02",
+     "round": 1
+    },
+    {
+     "case_id": "perfect-live-beyond-concierge-flawless-l-39a3bf",
+     "story": "AI timing",
+     "code": "ANO-CND",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A24",
+     "round": 1
+    },
+    {
+     "case_id": "plate-crate-b3b988",
+     "story": "iOS-14 change",
+     "code": "ANO-TRG",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A27",
+     "round": 1
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "Aviary editor discontinued",
+     "code": "ANO-TRG",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A31",
+     "round": 1
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "Google updates",
+     "code": "ANO-TRG",
+     "segments": [
+      3,
+      13,
+      15
+     ],
+     "coder": "model",
+     "no": "A34",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "adopted",
+     "code": "2.8",
+     "version": "2.0",
+     "note": "Meets the three rules: one clear idea; bears on the research question; no trigger names a change in the world outside the founder. Drafted code trigger-12, widened to setbacks and platforms."
+    }
+   ],
+   "from": [
+    "outside-timing-or-circumstance",
+    "external-shock-or-platform-change"
+   ],
+   "why": "Split from outside timing (its technology-change half) and merged with external shock, once the study covered setbacks: both are outside changes in technology, rules or platforms.",
+   "code": "2.8",
+   "version": "2.0",
+   "note": "Meets the three rules: one clear idea; bears on the research question; no trigger names a change in the world outside the founder. Drafted code trigger-12, widened to setbacks and platforms.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "codebook v1.0 drafted codes (papers read in full when v1.0 was built)",
+     "query": "trigger-12",
+     "hits": 9,
+     "kept": [
+      "alvarez2007-c77d51",
+      "cattani2005-691ffb",
+      "davidsson2015-c4ba86",
+      "garud2011-65d6ed",
+      "ma2002-d85f40",
+      "mcmullen2006-78cdcc",
+      "mintzberg1985-9d4ec0",
+      "mintzberg1985-df70c8",
+      "vanlent2023-afed1a"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "outside-crisis-or-disaster",
+   "name": "Outside crisis or disaster",
+   "group": "Trigger",
+   "what": "A sudden, large outside event, such as a recession or a hurricane, opens an opportunity or threatens the venture.",
+   "status": "adopted",
+   "first_round": 1,
+   "papers": [
+    "fultz2025-202492",
+    "garud2003-926111",
+    "garud2014-a2d9b1",
+    "ma2002-d85f40",
+    "merton2004-abf53f",
+    "mirvahedi2017-ff1fb5"
+   ],
+   "anomalies": [
+    {
+     "case_id": "my-media-pal-bf2757",
+     "story": "the first SEO client",
+     "code": "ANO-CND",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A22",
+     "round": 1
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "the 2008 downturn",
+     "code": "ANO-TRG",
+     "segments": [
+      5,
+      15
+     ],
+     "coder": "model",
+     "no": "A29",
+     "round": 1
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-10-29",
+     "status": "adopted",
+     "code": "2.7",
+     "version": "2.0",
+     "note": "Meets the three rules: one clear idea; bears on the research question; the study covers bad surprises. Drafted code trigger-11. Two cases."
+    }
+   ],
+   "from": [
+    "outside-timing-or-circumstance",
+    "external-shock-or-platform-change"
+   ],
+   "why": "Split from outside timing (the hurricane) and external shock (the recession): sudden, large events rather than changes in technology or rules.",
+   "code": "2.7",
+   "version": "2.0",
+   "note": "Meets the three rules: one clear idea; bears on the research question; the study covers bad surprises. Drafted code trigger-11. Two cases.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "codebook v1.0 drafted codes (papers read in full when v1.0 was built)",
+     "query": "trigger-11",
+     "hits": 6,
+     "kept": [
+      "fultz2025-202492",
+      "garud2003-926111",
+      "garud2014-a2d9b1",
+      "ma2002-d85f40",
+      "merton2004-abf53f",
+      "mirvahedi2017-ff1fb5"
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "personal-misfortune",
+   "name": "Personal misfortune",
+   "group": "Trigger",
+   "what": "A setback in the founder's own life, such as losing a job, sets off the venture.",
+   "status": "open",
+   "first_round": 1,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "layoff and the blogging article",
+     "code": "ANO-CND",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A33",
+     "round": 1
+    },
+    {
+     "case_id": "the-simple-biz-25084c",
+     "story": "Dane disappears",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A16",
+     "round": 2
+    },
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "father's death",
+     "code": "ANO-TRG",
+     "segments": [
+      11,
+      13
+     ],
+     "coder": "model",
+     "no": "A33",
+     "round": 2
+    }
+   ],
+   "history": [],
+   "from": [
+    "outside-timing-or-circumstance"
+   ],
+   "why": "Split from outside timing: a personal event, not a change in the world.",
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "litreview full text + Paper list abstracts (base, FT50, R&T)",
+     "query": "job loss; unemployment entrepreneurship; necessity entrepreneurship",
+     "hits": 6,
+     "kept": [],
+     "note": "Necessity-entrepreneurship papers found but not yet read. Drafted code trigger-10 'Personal misfortune turned into a venture' (busch2023, harmeling2013, sarasvathy2001) states the theme."
+    }
+   ]
+  },
+  {
+   "id": "setback-retold-as-a-turning-point",
+   "name": "Setback retold as a turning point",
+   "group": "Account",
+   "what": "The founder retells a setback, such as a layoff, a lost client, a failure or a slow start, as the moment that made the business.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [
+    "brownell2024-a83b1a",
+    "coad2021-769c65"
+   ],
+   "anomalies": [
+    {
+     "case_id": "how-3-college-friends-created-the-openta-af2e17",
+     "story": "covid pandemic",
+     "code": "ANO-ACC",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A06",
+     "round": 2
+    },
+    {
+     "case_id": "salt-water-digital-9fc994",
+     "story": "the layoff",
+     "code": "ANO-ACC",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A10",
+     "round": 2
+    },
+    {
+     "case_id": "woo-branding-320506",
+     "story": "the lost B2B client",
+     "code": "ANO-ACC",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A12",
+     "round": 2
+    },
+    {
+     "case_id": "the-simple-biz-25084c",
+     "story": "2008 recession diversification",
+     "code": "ANO-ACC",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A19",
+     "round": 2
+    },
+    {
+     "case_id": "how-a-therapist-increased-her-income-cre-a36b3b",
+     "story": "Encourage Play to coping skills",
+     "code": "ANO-ACC",
+     "segments": [
+      5,
+      9,
+      15
+     ],
+     "coder": "model",
+     "no": "A27",
+     "round": 2
+    },
+    {
+     "case_id": "wealth-ideas-agency-1b7d58",
+     "story": "first client from failed business skills",
+     "code": "ANO-ACC",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A29",
+     "round": 2
+    },
+    {
+     "case_id": "on-starting-a-rv-membership-service-with-3ce864",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A44",
+     "round": 2
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "the Google updates",
+     "code": "ANO-ACC",
+     "segments": [
+      3,
+      13,
+      15
+     ],
+     "coder": "model",
+     "no": "A50",
+     "round": 2
+    }
+   ],
+   "history": [],
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "litreview full text + Paper list abstracts (base, FT50, R&T)",
+     "query": "blessing in disguise; turning point; reframed failure",
+     "hits": 6,
+     "kept": [
+      "brownell2024-a83b1a"
+     ],
+     "note": "No new paper found. Brownell et al. 2024, p. 1711: a venture that capitalises on an event first seen as bad luck 'might later reframe that event as good luck'. Drafted code account-19 states the theme (brownell2024, garud2018, ma2002, sotosimeone2021)."
+    },
+    {
+     "date": "2026-10-30",
+     "where": "litreview full text (p-769c654c0b76)",
+     "query": "Coad and Storey 2021, cited by Soto-Simeone et al. 2021",
+     "hits": 1,
+     "kept": [
+      "coad2021-769c65"
+     ],
+     "note": "Read in full. p. 545: failed entrepreneurs 'frequently repackage their misfortunes as a learning opportunity, even if they didn't learn anything' (citing Ries 2011); also 'victory in the jaws of defeat'. A claim about failed founders' self-reports, not tested in the paper. Supports the self-serving side; Soto-Simeone et al. 2021 give the reappraisal side."
+    }
+   ]
+  },
+  {
+   "id": "the-venture-threatened-or-reshaped",
+   "name": "The venture threatened or reshaped",
+   "group": "Role",
+   "what": "The event neither started, redirected nor advanced the venture: it threatened its survival, changed who ran it or changed how the founder works.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "the-simple-biz-25084c",
+     "story": "Dane disappears",
+     "code": "ANO-ROL",
+     "segments": [
+      5,
+      9
+     ],
+     "coder": "model",
+     "no": "A17",
+     "round": 2
+    },
+    {
+     "case_id": "how-i-grew-my-made-in-the-usa-bedding-br-0ec6d3",
+     "story": "launch with no sales",
+     "code": "ANO-ROL",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A24",
+     "round": 2
+    },
+    {
+     "case_id": "the-canvas-works-973900",
+     "story": "the 2008 downturn",
+     "code": "ANO-ROL",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A48",
+     "round": 2
+    },
+    {
+     "case_id": "the-wayward-home-87f767",
+     "story": "the Google updates",
+     "code": "ANO-ROL",
+     "segments": [
+      13,
+      15
+     ],
+     "coder": "model",
+     "no": "A49",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "unbidden-attention-at-the-edge-of-2-10",
+   "name": "Unbidden attention at the edge of 2.10",
+   "group": "Trigger",
+   "what": "Others' attention came unasked but outside the wording of 2.10: peers noticing results, influencers joining the founder's own affiliate programme, a search engine ranking the founder's post.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "wealth-ideas-agency-1b7d58",
+     "story": "pivot to serving agencies",
+     "code": "ANO-TRG",
+     "segments": [
+      13
+     ],
+     "coder": "model",
+     "no": "A28",
+     "round": 2
+    },
+    {
+     "case_id": "on-starting-a-rv-membership-service-with-3ce864",
+     "story": "YouTuber affiliates",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A43",
+     "round": 2
+    },
+    {
+     "case_id": "strive-bfc38d",
+     "story": "reddit guide",
+     "code": "ANO-TRG",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A47",
+     "round": 2
+    }
+   ],
+   "history": [],
+   "searches": [
+    {
+     "date": "2026-10-29",
+     "where": "litreview full text + Paper list abstracts (base, FT50, R&T)",
+     "query": "media coverage; word of mouth; publicity; influencer endorsement",
+     "hits": 6,
+     "kept": [],
+     "note": "No held paper describes unsought promotion as a trigger. Leads to read: Teixeira and Brown 2018 (first customers of Airbnb, Etsy, Uber). Copeland 2023 has it only as an outcome (outcome-28). trigger-28 stays inductive."
+    }
+   ]
+  },
+  {
+   "id": "legal-claim-from-a-third-party",
+   "name": "Legal claim from a third party",
+   "group": "Trigger",
+   "what": "An outsider's lawsuit or legal action forces a change.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-3-college-friends-created-the-openta-af2e17",
+     "story": "the lawsuit",
+     "code": "ANO-TRG",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A05",
+     "round": 2
+    },
+    {
+     "case_id": "salt-water-digital-9fc994",
+     "story": "the rebrand",
+     "code": "ANO-TRG",
+     "segments": [
+      7
+     ],
+     "coder": "model",
+     "no": "A11",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "sudden-free-time",
+   "name": "Sudden free time",
+   "group": "Condition",
+   "what": "A cancelled job or a lost job leaves the founder with time that lets the idea surface or be worked on.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "minimalist-phone-app-966d2c",
+     "story": "the idea during covid",
+     "code": "ANO-CND",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A02",
+     "round": 2
+    },
+    {
+     "case_id": "the-simple-biz-25084c",
+     "story": "the cancelled job and the pallets",
+     "code": "ANO-CND",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A15",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "setback-from-a-supplier-or-the-founder-s-own-choice",
+   "name": "Setback from a supplier or the founder's own choice",
+   "group": "Trigger",
+   "what": "An operational setback: a carrier's delay, or a cost-saving choice that backfires.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "chisos-boot-company-55829b",
+     "story": "FedEx freight hold-up",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A13",
+     "round": 2
+    },
+    {
+     "case_id": "savewise-e4464a",
+     "story": "the .xyz domain",
+     "code": "ANO-TRG",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A21",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "another-person-s-decision-changes-the-founder-s-situation",
+   "name": "Another person's decision changes the founder's situation",
+   "group": "Trigger",
+   "what": "Someone else's decision, such as a boss starting a new venture or a teacher's instruction, changes the founder's situation and sets the story off.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "social-ktchn-a00d24",
+     "story": "Camila's marketing role",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A09",
+     "round": 2
+    },
+    {
+     "case_id": "crazyfitnessguy-bbff4b",
+     "story": "starting the website",
+     "code": "ANO-TRG",
+     "segments": [
+      3
+     ],
+     "coder": "model",
+     "no": "A31",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "disaster-as-the-setting-for-a-chance",
+   "name": "Disaster as the setting for a chance",
+   "group": "Condition",
+   "what": "A disaster put the founder where a chance encounter happened; coded as a condition, not as the trigger 2.7.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "my-media-pal-bf2757",
+     "story": "first client referral",
+     "code": "ANO-CND",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A41",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "a-customer-s-misfortune-scatters-contacts",
+   "name": "A customer's misfortune scatters contacts",
+   "group": "Trigger",
+   "what": "A client firm's near collapse moved known contacts into new firms, which became customers.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "i-run-a-family-plumbing-business-that-ma-50e7ad",
+     "story": "the contractor collapse",
+     "code": "ANO-TRG",
+     "segments": [
+      9
+     ],
+     "coder": "model",
+     "no": "A25",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "change-in-a-market-outside-the-venture",
+   "name": "Change in a market outside the venture",
+   "group": "Trigger",
+   "what": "An outside supply event, such as a famous mine closing, shifts demand.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "luminesce-diamonds-350ae8",
+     "story": "pink diamonds after Argyle closure",
+     "code": "ANO-TRG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A40",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "adversity-as-a-push",
+   "name": "Adversity as a push",
+   "group": "Condition",
+   "what": "Losing a customer pushed the founder to look again at suppliers and buyers.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "the-simple-biz-25084c",
+     "story": "2008 recession diversification",
+     "code": "ANO-CND",
+     "segments": [
+      15
+     ],
+     "coder": "model",
+     "no": "A18",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "lessons-from-past-failures",
+   "name": "Lessons from past failures",
+   "group": "Condition",
+   "what": "Past failures taught the founder to launch fast and test.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "aceternity-ui-ac6cc3",
+     "story": "blogs to component library",
+     "code": "ANO-CND",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A30",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "competing-life-commitments",
+   "name": "Competing life commitments",
+   "group": "Condition",
+   "what": "Another commitment, such as waiting for a military call-up, made the founder neglect the venture.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "story": "the website switch",
+     "code": "ANO-CND",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A34",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "a-skill-that-built-the-audience",
+   "name": "A skill that built the audience",
+   "group": "Background",
+   "what": "A skill of the founder's built the following that later drew requests.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "how-narrowing-my-focus-helped-me-doubled-892803",
+     "story": "Instagram becomes the business",
+     "code": "ANO-BKG",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A35",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "founding-to-learn",
+   "name": "Founding to learn",
+   "group": "New",
+   "what": "The venture was started mainly as a way to learn, not to build a business.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "i-built-a-productivity-taskbar-app-that-fe7682",
+     "story": "the idea",
+     "code": "ANO-NEW",
+     "segments": [
+      5,
+      21
+     ],
+     "coder": "model",
+     "no": "A39",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "founding-told-second-hand",
+   "name": "Founding told second-hand",
+   "group": "New",
+   "what": "The founding is told by someone who did not live it, which bears on how far its surprise and search state can be trusted.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "i-run-a-family-plumbing-business-that-ma-50e7ad",
+     "story": "whole journey",
+     "code": "ANO-NEW",
+     "segments": [
+      3,
+      5,
+      7,
+      9
+     ],
+     "coder": "model",
+     "no": "A26",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "self-critical-account-of-pivots",
+   "name": "Self-critical account of pivots",
+   "group": "Account",
+   "what": "The founder credits pivots with building the business but warns others against pivoting.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "my-media-pal-bf2757",
+     "story": "whole journey",
+     "code": "ANO-ACC",
+     "segments": [
+      9,
+      13,
+      21
+     ],
+     "coder": "model",
+     "no": "A42",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "a-name-or-identity-as-the-result",
+   "name": "A name or identity as the result",
+   "group": "Outcome",
+   "what": "What came of it was the business's name or identity.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "social-ktchn-a00d24",
+     "story": "the name",
+     "code": "ANO-OUT",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A08",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "goodwill-as-the-result",
+   "name": "Goodwill as the result",
+   "group": "Outcome",
+   "what": "What came of it was an audience's goodwill and engagement.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "chisos-boot-company-55829b",
+     "story": "FedEx freight hold-up",
+     "code": "ANO-OUT",
+     "segments": [
+      5
+     ],
+     "coder": "model",
+     "no": "A14",
+     "round": 2
+    }
+   ],
+   "history": []
+  },
+  {
+   "id": "demand-that-overwhelms",
+   "name": "Demand that overwhelms",
+   "group": "Outcome",
+   "what": "A sudden rush of demand overloaded the operation, with no stated gain or loss.",
+   "status": "open",
+   "first_round": 2,
+   "papers": [],
+   "anomalies": [
+    {
+     "case_id": "savewise-e4464a",
+     "story": "Black Friday crash",
+     "code": "ANO-OUT",
+     "segments": [
+      11
+     ],
+     "coder": "model",
+     "no": "A22",
+     "round": 2
+    }
+   ],
+   "history": []
+  }
+ ]
+}

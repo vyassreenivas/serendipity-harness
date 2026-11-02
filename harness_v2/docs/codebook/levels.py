@@ -30,7 +30,8 @@ def level1(state: dict, draft: dict) -> list[dict]:
         name = g["group"]
         codes = g.get("codes") or sorted(
             (i for i in draft if draft[i]["group"] == name and state[i]["Status"] == "core" and i not in g.get("exclude", [])),
-            key=lambda i: int(i.split("-")[1]))
+            key=lambda i: ([int(x) for x in draft[i].get("added_in", "0").split(".")], int(i.split("-")[1])))
+        # a code added in a later version comes after the group's earlier codes, so their numbers stay
         anomaly = None if name == "parts" else ANOMALY_BY_GROUP.get(name)
         groups.append({"group": name, "sq": g["sq"], "name": g.get("name", name.capitalize()),
                        "asks": g.get("asks", ASKS.get(name, "")), "pick_one": g.get("pick_one"),

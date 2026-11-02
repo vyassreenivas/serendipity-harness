@@ -1,5 +1,6 @@
 {
- "built": "2026-10-26",
+ "version": "2.0",
+ "built": "2026-10-29",
  "source": "codebook_review.xlsx",
  "structure": [
   {
@@ -16,7 +17,7 @@
    "groups": [
     "2. Trigger"
    ],
-   "codes": 6
+   "codes": 10
   },
   {
    "sq": "SQ3",
@@ -34,7 +35,7 @@
     "5. Role",
     "6. Outcome"
    ],
-   "codes": 8
+   "codes": 10
   },
   {
    "sq": "SQ5",
@@ -173,6 +174,38 @@
      "captures": "Customers or users responded in a way the founder did not expect: surprising demand, unexpected uses, or feedback showing the plan was wrong.",
      "papers": "Garud et al. (2018); Shah and Tripsas (2007); Denrell et al. (2015); + 1 more",
      "n_papers": 4
+    },
+    {
+     "no": "2.7",
+     "id": "trigger-11",
+     "label": "An outside crisis or disaster (added in 2.0)",
+     "captures": "A sudden, large event outside the venture, such as a recession, a pandemic or a natural disaster, opened an opportunity or threatened the venture.",
+     "papers": "Garud and Karnøe (2003); Ma (2002); Merton and Barber (2004); + 3 more",
+     "n_papers": 6
+    },
+    {
+     "no": "2.8",
+     "id": "trigger-12",
+     "label": "A change in technology, rules or platforms (added in 2.0)",
+     "captures": "Something outside the founder's control changed: a technology matured, a rule changed, or a platform or supplier the venture relied on changed its policy, algorithm or product. It opened a door or caused a setback.",
+     "papers": "Ma (2002); Cattani (2005); Davidsson (2015); + 6 more",
+     "n_papers": 9
+    },
+    {
+     "no": "2.9",
+     "id": "trigger-20",
+     "label": "Came across information by chance (added in 2.0)",
+     "captures": "While doing something else, the founder came across information from outside, such as an article, a website, a technique, a talk, a product or a sight, and saw what it could mean for them.",
+     "papers": "Garud et al. (2011); Merton and Barber (2004); Shane (2000); + 3 more",
+     "n_papers": 6
+    },
+    {
+     "no": "2.10",
+     "id": "trigger-28",
+     "label": "Unsought promotion by others (added in 2.0)",
+     "captures": "A person, outlet or platform promoted the product on its own initiative, such as a YouTuber's video, an influencer's post or a platform's feature, without the founder asking or offering anything.",
+     "papers": "No paper yet: an inductive code, from the interviews",
+     "n_papers": 0
     }
    ],
    "anomaly": {
@@ -368,6 +401,22 @@
      "label": "Nothing came of it",
      "captures": "The unexpected opportunity was missed, dismissed, dropped or forgotten.",
      "papers": "Busch (2024); Smith and Hilbolling (2025); Cunha et al. (2010); + 6 more",
+     "n_papers": 9
+    },
+    {
+     "no": "6.5",
+     "id": "outcome-30",
+     "label": "Harm or loss (added in 2.0)",
+     "captures": "The unexpected event cost the venture: lost sales, income or a channel, a costly mistake, or a threat to its survival.",
+     "papers": "Austin et al. (2012); Copeland et al. (2023); Cunha et al. (2015); + 2 more",
+     "n_papers": 5
+    },
+    {
+     "no": "6.6",
+     "id": "outcome-40",
+     "label": "Resources, contacts or knowledge (added in 2.0)",
+     "captures": "What came of the unexpected event was something the founder could use later: a supplier, partner, funding or other resource, new contacts, or knowledge and ideas, rather than a product, a market or growth.",
+     "papers": "Busch and Barkema (2020); Klyver et al. (2025); Balzano (2022); + 6 more",
      "n_papers": 9
     }
    ],
@@ -569,7 +618,7 @@
   "captures": "Relevant to the research question, but no group asks about it"
  },
  "counts": {
-  "level1": 36,
+  "level1": 42,
   "groups": 8,
   "anomaly": 8,
   "level2": 11

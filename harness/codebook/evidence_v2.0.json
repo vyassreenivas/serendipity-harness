@@ -1,0 +1,259 @@
+{
+ "about": "For each code added or revised in codebook version 2.0, a sentence from each paper that states it, with its page. Every paper was read in full. Quotes are copied from the paper and checked against its text by serendipity_harness.evidence; 'text' is the Markdown reading copy that check uses (papers/md in this project, or the literature library at ~/Projects/litreview). 'papers' gives the reference for papers not in paper_metadata.json, taken from the paper's first page or the library record.",
+ "codebook": "codebook_v2.0.json",
+ "papers": {
+  "williams2016-33cdbd": {
+   "short": "Williams and Shepherd (2016)",
+   "title": "Building Resilience or Providing Sustenance: Different Paths of Emergent Ventures in the Aftermath of the Haiti Earthquake",
+   "doi": "10.5465/amj.2015.0682"
+  },
+  "giones2020-c03be2": {
+   "short": "Giones et al. (2020)",
+   "title": "Revising entrepreneurial action in response to exogenous shocks: Considering the COVID-19 pandemic",
+   "doi": "10.1016/j.jbvi.2020.e00186"
+  },
+  "cutolo2021-c6be10": {
+   "short": "Cutolo and Kenney (2021)",
+   "title": "Platform-Dependent Entrepreneurs: Power Asymmetries, Risks, and Strategies in the Platform Economy",
+   "doi": "10.5465/amp.2019.0103"
+  },
+  "davidsson2020-f72f71": {
+   "short": "Davidsson et al. (2020)",
+   "title": "External enablement of new venture creation: A framework",
+   "doi": "10.5465/amp.2017.0163"
+  },
+  "jeppesen2010-88b434": {
+   "short": "Jeppesen and Lakhani (2010)",
+   "title": "Marginality and Problem-Solving Effectiveness in Broadcast Search",
+   "doi": "10.1287/orsc.1090.0491"
+  }
+ },
+ "codes": {
+  "trigger-11": [
+   {
+    "paper": "ma2002-d85f40",
+    "page": "529",
+    "text": "papers/md/Ma - 2002 - Competitive Advantage What's Luck Got to Do with It.md",
+    "quote": "Certain unique historical events can bring luck to a firm, especially international events, political, economic, and military, etc."
+   },
+   {
+    "paper": "williams2016-33cdbd",
+    "page": "2080",
+    "text": "~/Projects/litreview/library/papers/p-33cdbd8c9ffb-building-resilience-or-providing-sustenance-different-paths-of-emergent/document.md",
+    "quote": "there were many immediate unmet potential opportunities to alleviate suffering (POTAS)."
+   },
+   {
+    "paper": "giones2020-c03be2",
+    "page": "3",
+    "text": "~/Projects/litreview/library/papers/p-c03be244b1d5-revising-entrepreneurial-action-in-response-to-exogenous-shocks-consider/document.md",
+    "quote": "By and large, the COVID-19 economic crisis was an unknown (Loch et al., 2008) which appeared rapidly and that poses an existential threat to many ventures."
+   },
+   {
+    "paper": "garud2014-a2d9b1",
+    "page": "1485",
+    "text": "papers/md/Garud et al - 2014 - Entrepreneurial Storytelling, Future Expectations, and the Paradox of Legitimacy.md",
+    "quote": "We label the loss of legitimacy that accrues to a venture because of shifts in collective expectations as a legitimacy jolt."
+   }
+  ],
+  "trigger-12": [
+   {
+    "paper": "davidsson2015-c4ba86",
+    "page": "675",
+    "text": "papers/md/Davidsson - 2015 - Entrepreneurial Opportunities and the Entrepreneurship Nexus.md",
+    "quote": "such as regulatory changes, technological breakthroughs, and demographic shifts"
+   },
+   {
+    "paper": "davidsson2020-f72f71",
+    "page": "4 (author manuscript)",
+    "text": "~/Projects/litreview/transfer/paper-library-2026-09-07/Markdown/davidsson-2020-2018-Academy-of-Management-f72f714b1584/davidsson-2020-2018-Academy-of-Management-f72f714b1584-11-builtin.md",
+    "quote": "the influence on entrepreneurial action and outcomes exerted by external conditions like new technologies, regulatory or demographic shifts"
+   },
+   {
+    "paper": "ma2002-d85f40",
+    "page": "529",
+    "text": "papers/md/Ma - 2002 - Competitive Advantage What's Luck Got to Do with It.md",
+    "quote": "Changes in technology often provide lucky breaks for small yet ambitious firms to challenge large established incumbents."
+   },
+   {
+    "paper": "cutolo2021-c6be10",
+    "page": "592",
+    "text": "~/Projects/litreview/library/papers/p-c6be10675108-platform-dependent-entrepreneurs-power-asymmetries-risks-and-strategies/document.md",
+    "quote": "For PDEs, ranking and recommendation systems are both critical for success and perilous, as they are based on algorithms that can be changed unilaterally."
+   },
+   {
+    "paper": "garud2011-65d6ed",
+    "page": "753",
+    "text": "papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+    "quote": "With our optical lighting film we never found its niche, the niche found us."
+   }
+  ],
+  "trigger-20": [
+   {
+    "paper": "vonhippel2016-a67f44",
+    "page": "207",
+    "text": "papers/md/von Hippel and von Krogh - 2016 - Identifying Viable Need-Solution Pairs Problem Solving Without Problem Formulation.md",
+    "quote": "one may serendipitously discover a new solution and assess it to be worth adopting although the “problem” it would address had not previously been in mind as an object of search or even awareness."
+   },
+   {
+    "paper": "shane2000-cc1be0",
+    "page": "451",
+    "text": "papers/md/Shane - 2000 - Prior Knowledge and the Discovery of Entrepreneurial Opportunities.md",
+    "quote": "through recognition of the value of new information that they happen to receive through other means."
+   },
+   {
+    "paper": "garud2011-65d6ed",
+    "page": "750",
+    "text": "papers/md/Garud et al - 2011 - Complexity Arrangements for Sustained Innovation Lessons from 3M Corporation.md",
+    "quote": "I came across a distribution system for light (patented by Loren Whitehead) that conducted light within a rectangular or square tube by total internal reflection."
+   },
+   {
+    "paper": "krumboltz1998-d53ff4",
+    "page": "391",
+    "text": "papers/md/Krumboltz - 1998 - Serendipity Is Not Serendipitous.md",
+    "quote": "received inspiration to submit cartoon samples after writing to someone named in the closing credits of a TV program he just happened to be watching."
+   }
+  ],
+  "trigger-10": [
+   {
+    "paper": "harmeling2013-ddb167",
+    "page": "726",
+    "text": "papers/md/Harmeling and Sarasvathy - 2013 - When Contingency Is a Resource Educating Entrepreneurs in the Balkans the Bronx and Beyond.md",
+    "quote": "One started in response to a personal contingency (the mugging in New York City), the other in response to a historical one (the Croatian war)."
+   },
+   {
+    "paper": "busch2023-0bee54",
+    "page": "35 (note 12)",
+    "text": "papers/md/Busch - 2023 - Towards a Theory of Serendipity.md",
+    "quote": "for example, when an unexpected bankruptcy triggers the establishment of a new, more successful company by the same entrepreneur"
+   },
+   {
+    "paper": "sarasvathy2001-f6e40d",
+    "page": "247",
+    "text": "papers/md/Sarasvathy - 2001 - Causation and Effectuation.md",
+    "quote": "an unexpected misfortune might have forced her to earn a living on her own."
+   }
+  ],
+  "background-02": [
+   {
+    "paper": "shah2007-30af0c",
+    "page": "123",
+    "text": "papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+    "quote": "individuals experienced a need in their day-to-day lives, created a solution to that need, had a passionate desire to share their solution with others, and eventually commercialized the solution."
+   }
+  ],
+  "background-06": [
+   {
+    "paper": "march1991-2654b9",
+    "page": "86",
+    "text": "papers/md/March - 1991 - Exploration and Exploitation in Organizational Learning.md",
+    "quote": "the development of knowledge may depend on maintaining an influx of the naive and ignorant"
+   },
+   {
+    "paper": "shah2007-30af0c",
+    "page": "133",
+    "text": "papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+    "quote": "This ability to bring a novel approach to the problem, without the constraints of existing logics, increases the likelihood of finding new opportunities."
+   },
+   {
+    "paper": "jeppesen2010-88b434",
+    "page": "1017",
+    "text": "papers/md/Jeppesen and Lakhani - 2010 - Marginality and Problem-Solving Effectiveness in Broadcast Search.md",
+    "quote": "In this case, marginality becomes an asset because the individuals are not burdened by prior assumptions about effective problem-solving approaches."
+   }
+  ],
+  "account-22": [
+   {
+    "paper": "shah2007-30af0c",
+    "page": "126",
+    "text": "papers/md/Shah and Tripsas - 2007 - The Accidental Entrepreneur - The Emergent and Collective Process of User Entrepreneurship.md",
+    "quote": "Users are often 'accidental' entrepreneurs who happen upon an idea through their own use and then share it with others"
+   },
+   {
+    "paper": "mirvahedi2017-ff1fb5",
+    "page": "190",
+    "text": "papers/md/Mirvahedi and Morrish - 2017 - The Role of Serendipity in Opportunity Exploration.md",
+    "quote": "Both opportunities came out of the blue and neither had originally intended to be in business."
+   }
+  ],
+  "account-40": [
+   {
+    "paper": "brownell2024-a83b1a",
+    "page": "1698",
+    "text": "papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+    "quote": "Ah no, it’s not luck at all"
+   },
+   {
+    "paper": "merton2004-7b63d1",
+    "page": "225",
+    "text": "papers/md/Merton and Barber - 2004 - A Note on Serendipity in the Humanities.md",
+    "quote": "Mr. Lewis’ persistence, however, has been greater than his luck."
+   }
+  ],
+  "outcome-30": [
+   {
+    "paper": "brownell2024-a83b1a",
+    "page": "1685",
+    "text": "papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+    "quote": "Luck refers to any event that involves chance, has consequences (either beneficial or harmful), and occurs outside of the control of the affected individual or entity"
+   },
+   {
+    "paper": "brownell2024-a83b1a",
+    "page": "1711",
+    "text": "papers/md/Brownell et al - 2024 - Choice or Chance - How Successful Entrepreneurs Talk About Luck.md",
+    "quote": "that bad luck can prevent new venture success."
+   },
+   {
+    "paper": "giustiniano2016-0b0ee9",
+    "page": "8",
+    "text": "papers/md/Giustiniano et al - 2016 - Organizational Zemblanity.md",
+    "quote": "the faculty of making unhappy, unlucky and expected discoveries by design"
+   }
+  ],
+  "outcome-14": [
+   {
+    "paper": "granovetter1973-32994d",
+    "page": "1372",
+    "text": "papers/md/Granovetter - 1973 - The Strength of Weak Ties.md",
+    "quote": "Chance meetings or mutual friends operated to reactivate such ties. It is remarkable that people receive crucial information from individuals whose very existence they have forgotten."
+   },
+   {
+    "paper": "copeland2023-f96149",
+    "page": "213",
+    "text": "papers/md/Copeland et al - 2023 - Serendipity Science An Emerging Field and Its Methods.md",
+    "quote": "he introduced me to someone, Sid Shah, who he thought I could work on this with further and in fact the two of us co-founded Spark Collaboration six months later."
+   },
+   {
+    "paper": "klyver2025-7a51e3",
+    "page": "11",
+    "text": "papers/md/Klyver et al - 2025 - With Help from Strangers Entrepreneurs Networking for Serendipity.md",
+    "quote": "We identified three key benefits of networking with strangers: learning (knowledge and information), legitimacy/referrals"
+   },
+   {
+    "paper": "krumboltz1998-d53ff4",
+    "page": "390",
+    "text": "papers/md/Krumboltz - 1998 - Serendipity Is Not Serendipitous.md",
+    "quote": "established important contacts with significant professionals."
+   }
+  ],
+  "outcome-17": [
+   {
+    "paper": "lane2020-d1934e",
+    "page": "1239",
+    "text": "papers/md/Lane et al - 2020 - Engineering Serendipity - When Does Knowledge Sharing Lead to Knowledge Production.md",
+    "quote": "This suggests that the knowledge sharing intervention enabled pairs from different fields to learn about “outside” work, which they subsequently integrated into their own future research."
+   },
+   {
+    "paper": "klyver2025-7a51e3",
+    "page": "11",
+    "text": "papers/md/Klyver et al - 2025 - With Help from Strangers Entrepreneurs Networking for Serendipity.md",
+    "quote": "We identified three key benefits of networking with strangers: learning (knowledge and information), legitimacy/referrals"
+   },
+   {
+    "paper": "fultz2025-202492",
+    "page": "1572",
+    "text": "papers/md/Fultz and Hmieleski - 2025 - Cultivating and Harnessing Unexpected Opportunities.md",
+    "quote": "Serendipity’s main ‘‘output’’ is new knowledge"
+   }
+  ]
+ }
+}

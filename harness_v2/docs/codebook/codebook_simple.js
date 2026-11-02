@@ -60,7 +60,7 @@ function codeTable(g) {
 const total = D.structure.reduce((n, s) => n + s.codes, 0);
 const children = [
   new Paragraph({ children: [new TextRun({ text: "Serendipity codebook", bold: true, size: 36, color: NAVY })], spacing: { after: 40 } }),
-  P([t(`Version 1.0. Vyas Sreenivas and Ravi S. Kudesia. Built ${D.built} from the codebook workbook. The codebook trail lists every paper and sentence behind each code.`, { color: GREY })]),
+  P([t(`Version ${D.version || "1.0"}. Vyas Sreenivas and Ravi S. Kudesia. Built ${D.built} from the codebook workbook. The codebook trail lists every paper and sentence behind each code.`, { color: GREY })]),
   H("How the codebook is organised", HeadingLevel.HEADING_1),
   P([t("The research question is broken into six sub-questions. Each sub-question is answered by one or two groups, and each group asks one question of an interview. A group holds the codes that answer it. Codes are numbered by group: 2.3 is the third code of group 2.")]),
   table([1300, 4060, 2800, 1200], ["Sub-question", "", "Groups", "Codes"],
@@ -92,7 +92,7 @@ D.level2.forEach((part) => {
 });
 
 const doc = new Document({
-  creator: "Vyas Sreenivas", title: "Serendipity codebook, version 1.0",
+  creator: "Vyas Sreenivas", title: `Serendipity codebook, version ${D.version || "1.0"}`,
   styles: { default: { document: { run: { font: "Calibri", size: 20 } } },
     paragraphStyles: [
       { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", quickFormat: true, run: { size: 28, bold: true, color: NAVY, font: "Calibri" }, paragraph: { spacing: { before: 320, after: 120 }, outlineLevel: 0 } },
@@ -103,7 +103,7 @@ const doc = new Document({
     properties: { page: { size: { width: 12240, height: 15840 },
       margin: { top: 1080, bottom: 1080, left: 1440, right: 1440 } } },
     footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.RIGHT,
-      children: [new TextRun({ text: "Serendipity codebook, version 1.0  ·  page ", size: 16, color: "888888" }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: "888888" })] })] }) },
+      children: [new TextRun({ text: `Serendipity codebook, version ${D.version || "1.0"}  ·  page `, size: 16, color: "888888" }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: "888888" })] })] }) },
     children,
   }],
 });

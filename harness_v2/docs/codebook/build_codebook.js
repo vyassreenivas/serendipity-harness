@@ -47,7 +47,7 @@ data.groups.forEach((g, i) => {
     children.push(new Paragraph({ keepNext: true, spacing: { before: 140, after: 40 }, children: [T(c.label, { bold: true, color: NAVY, size: 23 }), T(`   ${c.id}`, { color: GREY, size: 18 })] }));
     if (c.definition) children.push(P([T(c.definition)], { keepNext: true, spacing: { after: 40 } }));
     children.push(P([T("Code it when: ", { bold: true }), T(c.applies_when)], { keepNext: true, spacing: { after: 40 } }));
-    if (c.does_not_apply_when) children.push(P([T("Not when: ", { bold: true }), T(c.does_not_apply_when)], { keepNext: c.sources.length > 0, spacing: { after: 40 } }));
+    if (c.does_not_apply_when) children.push(P([T("Don't use it when: ", { bold: true }), T(c.does_not_apply_when)], { keepNext: c.sources.length > 0, spacing: { after: 40 } }));
     if (c.sources.length) {
       children.push(P([T("Evidence from the papers", { bold: true, size: 19, color: GREY })], { keepNext: true, spacing: { before: 40, after: 20 } }));
       c.sources.forEach((s) => {

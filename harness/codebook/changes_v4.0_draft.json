@@ -1,0 +1,696 @@
+{
+ "about": "Draft, 31 October 2026. The first part of version 4.0, built from version 3.0 and the round-3 anomalies: three widenings and three boundary fixes agreed with Vyas. The new codes stated by papers read in full (literature_round3.json), and the open-anomaly list, are added before the version is final. Widenings follow the lines papers draw where they only lean on a theme; their papers lists stay as they were, since no new paper states the wider meaning. Boundary fixes change no code's meaning: each clarifies wording or adds an example so that coders tick, or leave off, a code that already covered the case. Interviews are named by id and segments, never by story names.",
+ "from": "3.0",
+ "to": "4.0-draft",
+ "codes": [
+  {
+   "id": "trigger-18",
+   "group": "trigger",
+   "source": "literature",
+   "change": "widen",
+   "from_theme": "unsought-publicity-from-a-third-party-or-platform",
+   "why": "Round 3: four cases where a YouTuber, an influencer, Apple or Shopify promoted the product on their own initiative, which no trigger code named. Agarwal et al. (2023) lean on unsought promotion; no paper read in full states it, so the existing code for unsought approaches is widened to take promotion to someone's own audience, rather than a new code added.",
+   "label": "An unasked-for offer, request or promotion",
+   "definition": "Someone approached the founder, unsought, with an offer, order, invitation or unusual request, or promoted the product to their own audience, and this started or changed the venture.",
+   "applies_when": "The founder received an unexpected message, contract, partnership proposal or product request, or found that someone had featured the product without being asked, and acted on it. For example: 'A hotel emailed asking if we could make 500.' Or: 'A big YouTuber reviewed it without us knowing, and we built on the traffic.'",
+   "does_not_apply_when": "Many customers showed a pattern. Use \"An unexpected market signal\".\nThe founder paid for or asked for the coverage. Leave this code off.\nThe founder did nothing with it; it is told as a windfall. Use \"Pure luck, no action\".",
+   "extends": {
+    "was": "an offer or request made to the founder",
+    "now": "also unsought promotion of the product to someone else's audience"
+   },
+   "absorbs": [
+    {
+     "anomaly": "R3-A52",
+     "round": 3,
+     "interview": "aceternity-ui-ac6cc3",
+     "segments": [
+      9
+     ],
+     "was": "ANO-TRG",
+     "comment": "A YouTuber featured the product unasked."
+    },
+    {
+     "anomaly": "R3-A58",
+     "round": 3,
+     "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "segments": [
+      13
+     ],
+     "was": "ANO-TRG",
+     "comment": "An influencer posted a video on the product unasked."
+    },
+    {
+     "anomaly": "R3-A63",
+     "round": 3,
+     "interview": "i-built-a-timer-app-that-generates-66k-y-584f72",
+     "segments": [
+      11
+     ],
+     "was": "ANO-TRG",
+     "comment": "Apple featured the app in the App Store unasked."
+    },
+    {
+     "anomaly": "R3-A64",
+     "round": 3,
+     "interview": "jetprint-8cb871",
+     "segments": [
+      3,
+      9
+     ],
+     "was": "ANO-TRG",
+     "comment": "Shopify featured the app unasked."
+    }
+   ]
+  },
+  {
+   "id": "outcome-05",
+   "group": "outcome",
+   "source": "literature",
+   "change": "widen",
+   "from_theme": "results-no-outcome-code-names",
+   "why": "Round 3: two cases where the result of a chance event was lower costs or fewer rivals, which no outcome code named. No paper read in full states these as results of chance; they are financial results of the same kind as growth and profit, so the existing code is widened.",
+   "label": "Growth and results",
+   "definition": "The founder credits the unexpected event, and what they did with it, with growth, sales, revenue, profit, lower costs or fewer rivals.",
+   "applies_when": "The founder links business results to the event. For example: 'That channel is now 60% of our revenue.' Or: 'The lockdown closed half our competitors.'",
+   "does_not_apply_when": "The founder describes no measurable or stated result. Leave this code off.\nOthers showed they wanted it, but no sales or growth followed. Use \"Proof of demand\".",
+   "extends": {
+    "was": "growth, sales, revenue or profit",
+    "now": "also lower costs and fewer rivals"
+   },
+   "absorbs": [
+    {
+     "anomaly": "R3-A27",
+     "round": 3,
+     "interview": "how-3-college-friends-created-the-openta-af2e17",
+     "segments": [
+      15
+     ],
+     "was": "ANO-OUT",
+     "comment": "The COVID shutdown thinned out rivals."
+    },
+    {
+     "anomaly": "R3-A32",
+     "round": 3,
+     "interview": "how-i-started-a-gift-box-business-for-no-7ae052",
+     "segments": [
+      9
+     ],
+     "was": "ANO-OUT",
+     "comment": "Influencer collaborations cut marketing costs."
+    }
+   ]
+  },
+  {
+   "id": "trigger-20",
+   "group": "trigger",
+   "source": "literature",
+   "change": "widen",
+   "from_theme": "a-gap-found-while-searching",
+   "why": "Round 3: one case where the founder, searching for wholesale goods, came across a platform they had not sought. The code left off any find made while searching. Yaqub (2018) and Kim et al. (2021) lean on discovering something other than what one was looking for, so the code is widened to take finds made while searching for something else.",
+   "label": "Came across information by chance",
+   "definition": "While doing something else, or searching for something else, the founder came across outside information they had not sought, such as an article, a website, a product, a technique, a talk or a sight, and saw what it could mean for them.",
+   "applies_when": "The founder names the source and says they were not looking for it. For example (von Hippel and von Krogh 2016, pp. 207-208): carrying suitcases through an airport, Sadow saw a worker roll a machine on a wheeled skid, and put wheels on luggage.",
+   "does_not_apply_when": "A person said it to the founder in conversation. Use \"A passing remark\".\nThe founder found what they were searching for. Leave this code off.\nThe idea came from the founder's own thoughts. Leave this code off.",
+   "extends": {
+    "was": "not while searching",
+    "now": "also while searching for something else"
+   },
+   "absorbs": [
+    {
+     "anomaly": "R3-A31",
+     "round": 3,
+     "interview": "how-i-started-a-gift-box-business-for-no-7ae052",
+     "segments": [
+      7
+     ],
+     "was": "ANO-TRG",
+     "comment": "Found Faire while sourcing wholesale goods."
+    }
+   ]
+  },
+  {
+   "id": "outcome-40",
+   "group": "outcome",
+   "source": "literature",
+   "change": "boundary fix",
+   "from_theme": "results-no-outcome-code-names",
+   "why": "Round 3: a coder logged awareness and sharing without sales as an anomaly. The code already covers 'eager uptake by others ... even if no sale followed'; the example makes clear that sharing counts. Meaning unchanged.",
+   "label": "Proof of demand",
+   "definition": "The chance event showed the founder that people wanted the offering, before or without sales.",
+   "applies_when": "Offers, requests or eager uptake by others, such as sharing it or spreading the word, told the founder there was demand, even if no sale followed. For example (Shah and Tripsas 2007, p. 130): user-innovators 'received unsolicited requests from others wishing to purchase their innovations'.",
+   "does_not_apply_when": "Sales or measured growth followed. Use \"Growth and results\".\nIt showed a new group of customers or a new use. Use \"A new market or opportunity\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A05",
+     "round": 3,
+     "interview": "i-built-a-tool-that-helps-blur-sensitive-b6c6ab",
+     "segments": [
+      11
+     ],
+     "was": "ANO-OUT",
+     "comment": "A Hacker News post brought awareness and sharing, few sales."
+    }
+   ]
+  },
+  {
+   "id": "trigger-24",
+   "group": "trigger",
+   "source": "literature",
+   "change": "boundary fix",
+   "from_theme": "own-experiment-suddenly-worked",
+   "why": "Round 3: a coder logged the founder's own lead funnel suddenly drawing far more clients than expected as an anomaly, reading 'market signal' as something from outside. Prospects responding far beyond expectation is surprising demand, which the code already covers; the example makes that clear. Meaning unchanged.",
+   "label": "An unexpected market signal",
+   "definition": "Customers or users responded in a way the founder did not expect: surprising demand, unexpected uses, or feedback showing the plan was wrong.",
+   "applies_when": "The founder describes a demand spike, a surprising best-seller, or users doing something unforeseen, which pointed to a new path. For example: 'One product we added as an extra outsold everything else.' Or: 'Our own ad test suddenly filled the calendar with leads.'",
+   "does_not_apply_when": "The surge came from a crisis, such as COVID. Use \"An outside crisis or disaster\".\nThe surge came from a new technology, rule or platform. Use \"A change in technology, rules or platforms\".\nOne customer asked for it directly. Use \"An unasked-for offer, request or promotion\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A50",
+     "round": 3,
+     "interview": "wealth-ideas-agency-1b7d58",
+     "segments": [
+      11,
+      15
+     ],
+     "was": "ANO-TRG",
+     "comment": "The founder's own lead funnel suddenly drew far more clients than expected."
+    }
+   ]
+  },
+  {
+   "id": "trigger-10",
+   "group": "trigger",
+   "source": "literature",
+   "change": "boundary fix",
+   "from_theme": "personal-loss-with-no-opening",
+   "why": "Round 3: a coder logged a death in the founder's family that only hurt sales as an anomaly, because no trigger code fits a misfortune that opened nothing. Version 3.0 already records such a case under role-23 'Set the venture back' (R2-A34, the same interview). The last line now says so, so coders leave this code off instead of logging an anomaly. Meaning unchanged; still three lines.",
+   "label": "A personal misfortune",
+   "definition": "An unwanted event in the founder's own life, such as losing a job, illness, bankruptcy or hardship, set off a sequence that led to an opportunity the founder had not planned.",
+   "applies_when": "The founder tells a personal setback as the starting point, then how acting on it revealed an unexpected need, idea or opening. For example (Harmeling and Sarasvathy 2013, p. 721): after being mugged, a teacher founded a programme teaching business to troubled youth.",
+   "does_not_apply_when": "The setback hit many people at once. Use \"An outside crisis or disaster\".\nIt only pushed the founder into the same work, done for themselves, with no surprise. Leave this code off.\nHardship is only background, or only hurt the venture with no opening. Leave this code off; if it hurt the venture, use \"Set the venture back\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A59",
+     "round": 3,
+     "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "segments": [
+      11
+     ],
+     "was": "ANO-TRG",
+     "comment": "A death in the founder's family cut sales; it opened nothing."
+    }
+   ]
+  },
+  {
+   "id": "trigger-28",
+   "group": "trigger",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "setback-from-an-outside-party",
+   "why": "Round 3: seven cases where one outside party, not a widely shared crisis, hit only this venture (lawsuits, fraud, a carrier, a partner firm, a partner who vanished). No trigger fit. Mantere et al. (2013, p. 468), read in full, separate a single named outside party that harms the venture ('Nemesis') from industry-wide causes and from fate.",
+   "papers": [
+    "mantere2013"
+   ],
+   "label": "A setback from an outside party",
+   "definition": "One outside party, not a crisis shared by many, unexpectedly hit this venture: a lawsuit or legal threat, fraud, a supplier or carrier failing, or a partner who walked away or collapsed.",
+   "applies_when": "The founder names the party and what it did to the venture. For example (Mantere et al. 2013, p. 468): 'YYZmedia had two kinds of nemesis: a major investor and a subcontractor.'",
+   "does_not_apply_when": "It hit many firms at once. Use \"An outside crisis or disaster\".\nA platform or supplier changed its policy or product for everyone. Use \"A change in technology, rules or platforms\".\nThe misfortune was in the founder's own life. Use \"A personal misfortune\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A14",
+     "round": 3,
+     "interview": "woodies-sunglasses-3-5-million-per-year-28fb89",
+     "segments": [
+      13
+     ],
+     "was": "ANO-TRG",
+     "comment": "A trademark suit from a large competitor."
+    },
+    {
+     "anomaly": "R3-A26",
+     "round": 3,
+     "interview": "how-3-college-friends-created-the-openta-af2e17",
+     "segments": [
+      15
+     ],
+     "was": "ANO-TRG",
+     "comment": "A lawsuit from an outside activist."
+    },
+    {
+     "anomaly": "R3-A29",
+     "round": 3,
+     "interview": "how-we-started-a-3-3m-watch-business-sel-32ed1e",
+     "segments": [
+      11
+     ],
+     "was": "ANO-TRG",
+     "comment": "Fraud by buyers on marketplaces forced a change of channel."
+    },
+    {
+     "anomaly": "R3-A37",
+     "round": 3,
+     "interview": "salt-water-digital-9fc994",
+     "segments": [
+      7
+     ],
+     "was": "ANO-TRG",
+     "comment": "Legal action forced a rebrand."
+    },
+    {
+     "anomaly": "R3-A38",
+     "round": 3,
+     "interview": "chisos-boot-company-55829b",
+     "segments": [
+      5
+     ],
+     "was": "ANO-TRG",
+     "comment": "A carrier held up a shipment."
+    },
+    {
+     "anomaly": "R3-A48",
+     "round": 3,
+     "interview": "i-run-a-family-plumbing-business-that-ma-50e7ad",
+     "segments": [
+      9
+     ],
+     "was": "ANO-TRG",
+     "comment": "A partner firm's near-collapse."
+    },
+    {
+     "anomaly": "R3-A43",
+     "round": 3,
+     "interview": "the-simple-biz-25084c",
+     "segments": [
+      5,
+      9
+     ],
+     "was": "ANO-ROL",
+     "comment": "A partner vanished just after the start, leaving one founder."
+    }
+   ]
+  },
+  {
+   "id": "trigger-29",
+   "group": "trigger",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "a-life-change-pushed-the-start",
+   "why": "Round 3: two cases where a change in the founder's life that was not a misfortune (a pregnancy, burning out of teaching) pushed the start. trigger-10 covers only misfortunes. Markowska et al. (2023, p. 1194) and Theunissen et al. (2026, p. 2473), read in full, state that such life transitions can trigger a move into entrepreneurship.",
+   "papers": [
+    "markowska2023",
+    "theunissen2026"
+   ],
+   "label": "A life change pushed the start",
+   "definition": "A change in the founder's life that was not a misfortune, such as a pregnancy, parental leave or tiring of a career, made them rethink their work and start.",
+   "applies_when": "The founder ties the start to the life change. For example (Markowska et al. 2023, p. 1194): 'Parental leave acts as a trigger because it breaks behavioral patterns'.",
+   "does_not_apply_when": "The change was a misfortune, such as losing a job or falling ill. Use \"A personal misfortune\".\nThe change only gave time, and something else set it off. Use \"Time to spare or short of time\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A09",
+     "round": 3,
+     "interview": "growthink-f7cbb0",
+     "segments": [
+      5
+     ],
+     "was": "ANO-TRG",
+     "comment": "A partner's pregnancy and wish to leave her job set off the side business."
+    },
+    {
+     "anomaly": "R3-A20",
+     "round": 3,
+     "interview": "how-a-teacher-started-a-successful-handm-1decf7",
+     "segments": [
+      5,
+      19
+     ],
+     "was": "ANO-CND",
+     "comment": "Burnout from teaching made the founder turn a hobby into a business."
+    }
+   ]
+  },
+  {
+   "id": "mechanism-51",
+   "group": "mechanism",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "a-slow-inner-change",
+   "why": "Round 3: one case where the venture grew from a slow change in the founder during recovery, not from noticing a cue or linking an input to a need. Haynie and Shepherd (2011, p. 520) and Demetry (2017, p. 188), read in full, state that the route into a venture can be a gradual change in the person.",
+   "papers": [
+    "haynie2011",
+    "demetry2017"
+   ],
+   "label": "A slow inner change",
+   "definition": "Over months or years the founder changed as a person, in beliefs, identity or how they saw a problem, and the venture grew out of that change rather than from one cue.",
+   "applies_when": "The founder describes a gradual shift with no single moment. For example (Demetry 2017, p. 188): 'entrepreneurs do not necessarily set out to found new ventures but gradually develop a founder identity.'",
+   "does_not_apply_when": "The founder noticed one cue or event. Use \"Noticing it\".\nThe founder linked an outside input to a need. Use \"Connecting the dots\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A06",
+     "round": 3,
+     "interview": "massaggi-300c07",
+     "segments": [
+      3
+     ],
+     "was": "ANO-MEC",
+     "comment": "A slow change in how the founder saw healing, during recovery from injury."
+    }
+   ]
+  },
+  {
+   "id": "condition-74",
+   "group": "condition",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "short-of-time",
+   "why": "Round 3: five cases where time shaped what happened: a job, a deadline or a loss squeezed it, or a cancelled job or parental leave freed it. No condition fit. Agrawal et al. (2018, p. 1065) and Markowska et al. (2023, p. 1189), read in full, state both sides: without slack, ideas stay undeveloped; without time, people cannot scan or plan.",
+   "papers": [
+    "agrawal2018",
+    "markowska2023"
+   ],
+   "label": "Time to spare or short of time",
+   "definition": "How much time the founder had shaped what happened: free time made room for the chance input or for acting on it, or a job, deadline or other demands squeezed time and limited what was done.",
+   "applies_when": "The founder names the time, free or squeezed, and what it changed. For example (Agrawal et al. 2018, p. 1065): 'In the absence of slack, these ideas are likely to stay undeveloped for a longer period of time or not be developed at all'.",
+   "does_not_apply_when": "What was short was money, not time. Use \"Little money or resources\".\nThe founder only mentions being busy, with no effect told. Leave this code off.",
+   "absorbs": [
+    {
+     "anomaly": "R3-A07",
+     "round": 3,
+     "interview": "ban-unwanted-content-from-your-technolog-52294a",
+     "segments": [
+      5,
+      9
+     ],
+     "was": "ANO-CND",
+     "comment": "A full-time job limited time and slowed the venture."
+    },
+    {
+     "anomaly": "R3-A18",
+     "round": 3,
+     "interview": "audiopen-19cc39",
+     "segments": [
+      9
+     ],
+     "was": "ANO-CND",
+     "comment": "A self-imposed 12-hour deadline shaped the launch."
+    },
+    {
+     "anomaly": "R3-A60",
+     "round": 3,
+     "interview": "how-i-created-a-diy-shirt-tailor-and-rai-c02ef1",
+     "segments": [
+      11,
+      15
+     ],
+     "was": "ANO-CND",
+     "comment": "After a loss the founder stopped working on the venture and sales fell."
+    },
+    {
+     "anomaly": "R3-A42",
+     "round": 3,
+     "interview": "the-simple-biz-25084c",
+     "segments": [
+      5
+     ],
+     "was": "ANO-CND",
+     "comment": "A cancelled job left the partners free the day the idea came up."
+    },
+    {
+     "anomaly": "R3-A67",
+     "round": 3,
+     "interview": "on-starting-a-rv-membership-service-with-3ce864",
+     "segments": [
+      3
+     ],
+     "was": "ANO-CND",
+     "comment": "Maternity leave gave time to act on a proposal."
+    }
+   ]
+  },
+  {
+   "id": "account-41",
+   "group": "account",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "setback-retold-as-fortunate",
+   "why": "Round 3: four cases where the founder retold a setback (a layoff, a recession, the pandemic) as a blessing or a big break. account-18 excludes setbacks later seen differently. Castelló et al. (2023, p. 11), Mantere et al. (2013, p. 465) and Jabbouri et al. (2025, p. 1628), read in full, state that founders retell failure as a positive learning experience.",
+   "papers": [
+    "castello2023",
+    "mantere2013",
+    "jabbouri2025"
+   ],
+   "label": "Setback retold as fortunate",
+   "definition": "The founder retells a setback as a blessing, a big break or a lesson that left them or the venture better off.",
+   "applies_when": "The founder says the setback was good for them in the end. For example (Castelló et al. 2023, p. 11): 'they turn failure into a positive learning experience'.",
+   "does_not_apply_when": "An event seemed minor and only later proved a turning point. Use \"Only clear in hindsight\".\nThe setback is told as a normal part of the trade. Use \"Setback taken as routine\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A16",
+     "round": 3,
+     "interview": "on-launching-a-virtual-group-fitness-pla-200473",
+     "segments": [
+      15
+     ],
+     "was": "ANO-ACC",
+     "comment": "The pandemic forcing the leap online, called a huge blessing."
+    },
+    {
+     "anomaly": "R3-A17",
+     "round": 3,
+     "interview": "on-launching-a-virtual-group-fitness-pla-200473",
+     "segments": [
+      9
+     ],
+     "was": "ANO-ACC",
+     "comment": "Gratitude for career episodes that felt negative at the time."
+    },
+    {
+     "anomaly": "R3-A36",
+     "round": 3,
+     "interview": "salt-water-digital-9fc994",
+     "segments": [
+      5
+     ],
+     "was": "ANO-ACC",
+     "comment": "A layoff called a 'big break'."
+    },
+    {
+     "anomaly": "R3-A44",
+     "round": 3,
+     "interview": "the-simple-biz-25084c",
+     "segments": [
+      15
+     ],
+     "was": "ANO-ACC",
+     "comment": "A recession told as lemons turned into lemonade."
+    }
+   ]
+  },
+  {
+   "id": "account-42",
+   "group": "account",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "credited-to-something-other-than-luck-or-effort",
+   "why": "Round 3: two cases where the founder credited success to the team, or to providence, not to luck or their own effort. Lough and McFadden (2023, p. 9), read in full, name both among founders' attributions. Two further cases in this theme (credit to the product's design, and to statistics) are not stated by any paper and stay open.",
+   "papers": [
+    "lough2023"
+   ],
+   "label": "Credited to the team or to God",
+   "definition": "The founder credits the result to something other than their own effort or luck: the people around them, or God or providence.",
+   "applies_when": "The founder names the team or a higher power as the reason. For example (Lough and McFadden 2023, p. 9): founders gave 'attribution of success to a broader team beyond the founder's own skill nor luck'.",
+   "does_not_apply_when": "The founder credits luck. Use \"Credited to luck\".\nThe founder credits their own effort. Use \"Credited to their own effort\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A24",
+     "round": 3,
+     "interview": "olidrel-hub-f73389",
+     "segments": [
+      5
+     ],
+     "was": "ANO-ACC",
+     "comment": "The idea told as answering prayers."
+    },
+    {
+     "anomaly": "R3-A47",
+     "round": 3,
+     "interview": "ediiie-cdb4e2",
+     "segments": [
+      15
+     ],
+     "was": "ANO-ACC",
+     "comment": "Growth credited to having the right people in the team."
+    }
+   ]
+  },
+  {
+   "id": "account-43",
+   "group": "account",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "told-as-born-to-it",
+   "why": "Round 3: three cases where the founder explained their path by an inborn trait, their upbringing or a family heritage found later. Lough and McFadden (2023, pp. 11-12), read in full, state this as a theme of founders' accounts.",
+   "papers": [
+    "lough2023"
+   ],
+   "label": "Told as born to it",
+   "definition": "The founder explains their path by an inborn trait, their upbringing or a family heritage.",
+   "applies_when": "The founder gives the trait or family as the reason for the path. For example (Lough and McFadden 2023, pp. 11-12): 'founders reported owing their inherent intelligence and other aptitudes to their biological inheritance.'",
+   "does_not_apply_when": "Family is only background, not given as the reason. Leave this code off.\nThe founder credits their own effort. Use \"Credited to their own effort\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A03",
+     "round": 3,
+     "interview": "startup-marketing-agency-5a2c1d",
+     "segments": [
+      3
+     ],
+     "was": "ANO-ACC",
+     "comment": "Entrepreneurship told as being in the founder's DNA."
+    },
+    {
+     "anomaly": "R3-A21",
+     "round": 3,
+     "interview": "how-a-teacher-started-a-successful-handm-1decf7",
+     "segments": [
+      5
+     ],
+     "was": "ANO-ACC",
+     "comment": "A family heritage in jewellery, found later, told as fitting the path."
+    },
+    {
+     "anomaly": "R3-A41",
+     "round": 3,
+     "interview": "chisos-boot-company-55829b",
+     "segments": [
+      3
+     ],
+     "was": "ANO-BKG",
+     "comment": "Curiosity and creativity credited to the parents' trades."
+    }
+   ]
+  },
+  {
+   "id": "account-44",
+   "group": "account",
+   "source": "literature",
+   "change": "new",
+   "from_theme": "setback-taken-as-routine",
+   "why": "Round 3: one case where the founder told an algorithm change that hurt the venture as a normal hazard of the trade, crediting neither luck nor effort. Castelló et al. (2023, p. 10) and Jabbouri et al. (2025, p. 1629), read in full, state that founders normalise failure as part of the work.",
+   "papers": [
+    "castello2023",
+    "jabbouri2025"
+   ],
+   "label": "Setback taken as routine",
+   "definition": "The founder tells a setback as a normal hazard of the trade, crediting neither luck nor effort.",
+   "applies_when": "The founder says such setbacks just happen in their line of work. For example (Castelló et al. 2023, p. 10): 'entrepreneurs also normalize failure as an intrinsic element of entrepreneurship.'",
+   "does_not_apply_when": "The founder retells the setback as good for them. Use \"Setback retold as fortunate\".\nThe founder calls it bad luck. Use \"Credited to luck\".",
+   "absorbs": [
+    {
+     "anomaly": "R3-A69",
+     "round": 3,
+     "interview": "the-wayward-home-87f767",
+     "segments": [
+      3,
+      13
+     ],
+     "was": "ANO-ACC",
+     "comment": "A search-engine update that hurt traffic, told as part of blogging."
+    }
+   ]
+  },
+  {
+   "id": "trigger-12",
+   "group": "trigger",
+   "source": "literature",
+   "change": "widen",
+   "from_theme": "a-slow-or-indirect-market-change",
+   "why": "Round 3: four cases where a gradual or indirect outside change shaped the venture (rising ad costs, a shift to part-time work, a mine closing, a disaster's aftermath). The code left off changes without a sudden named event. Davidsson et al. (2020, p. 317) and Kimjeon and Davidsson (2022, p. 659), read in full, state that outside changes that enable ventures can be gradual as well as sudden, and can shape a venture as well as trigger it.",
+   "papers": [
+    "davidsson2020",
+    "kimjeon2022"
+   ],
+   "label": "A change in technology, rules, markets or platforms",
+   "definition": "A change outside the founder's control, sudden or gradual, such as a technology maturing, a rule changing, a market shifting, a supply source closing, or a platform or supplier changing its policy, algorithm or product, opened a door, shaped the setting or set the venture back.",
+   "applies_when": "The founder names a specific outside change and ties it to a turn in the story. For example (Davidsson et al. 2020, p. 317): some enablers 'develop in a slow and measured manner.'",
+   "does_not_apply_when": "It was a sudden crisis that hit many people. Use \"An outside crisis or disaster\".\nThe change was the founder's own action or one customer's choice. Leave this code off.\nNothing is named, only that times were changing. Leave this code off.",
+   "extends": {
+    "was": "a named change",
+    "now": "also a gradual or indirect change, and one that shaped the setting"
+   },
+   "absorbs": [
+    {
+     "anomaly": "R3-A23",
+     "round": 3,
+     "interview": "cartfox-d9ab29",
+     "segments": [
+      3,
+      5
+     ],
+     "was": "ANO-CND",
+     "comment": "Rising ad costs and competition pushed diversification."
+    },
+    {
+     "anomaly": "R3-A35",
+     "round": 3,
+     "interview": "intch-professional-networking-app-for-th-6a5949",
+     "segments": [
+      7
+     ],
+     "was": "ANO-TRG",
+     "comment": "A shift toward part-time work and layoffs."
+    },
+    {
+     "anomaly": "R3-A65",
+     "round": 3,
+     "interview": "luminesce-diamonds-350ae8",
+     "segments": [
+      5
+     ],
+     "was": "ANO-TRG",
+     "comment": "A mine closing made a stone scarce and popular."
+    },
+    {
+     "anomaly": "R3-A66",
+     "round": 3,
+     "interview": "my-media-pal-bf2757",
+     "segments": [
+      9
+     ],
+     "was": "ANO-CND",
+     "comment": "Repair work after a hurricane set the scene for the first client."
+    }
+   ]
+  },
+  {
+   "id": "account-01",
+   "group": "account",
+   "source": "literature",
+   "change": "widen",
+   "from_theme": "story-smoothed-in-hindsight",
+   "why": "Round 3: one case where the founder remarked that the path only looks like a planned arc afterwards. The code covered telling the path as planned, not remarking on it. Dimov (2011, p. 58), read in full, states that a venture's history read backward looks unlike the same history lived forward.",
+   "papers": [
+    "dimov2011"
+   ],
+   "label": "Told as if planned",
+   "definition": "Looking back, the founder tells an unplanned, chance-filled path as an orderly plan, or remarks that it only looks orderly looking back.",
+   "applies_when": "The story is told as linear or intended while the details show unplanned turns, or the founder says so. For example (Dimov 2011, p. 58): 'constructing its history forward is quite different from reading it backward.'",
+   "does_not_apply_when": "The founder credits their own skill but tells the events in order. Use \"Credited to their own effort\".\nOne event seemed minor and only later proved a turning point. Use \"Only clear in hindsight\".",
+   "extends": {
+    "was": "telling the path as planned",
+    "now": "also remarking that it only looks planned looking back"
+   },
+   "absorbs": [
+    {
+     "anomaly": "R3-A12",
+     "round": 3,
+     "interview": "these-childhood-friends-designed-a-1-2m-5c6985",
+     "segments": [
+      15
+     ],
+     "was": "ANO-ACC",
+     "comment": "The founder says the story only looks like a destined arc afterwards."
+    }
+   ]
+  }
+ ]
+}

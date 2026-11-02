@@ -34,15 +34,15 @@ def overview(path):
             ("us", "Review: codes fit their quotes\nand their literature"),
         ], "frozen codebook"),
         ("2  Code the interviews", "Stage 3", [
-            ("model", "Code a round of\n25 interviews"),
-            ("us", "Code the same round by hand"),
-            ("program", "Compare: agreement\nand anomalies"),
-            ("us", "Reconcile; revise\nthe codebook"),
-            ("model", "When agreement holds: code\nthe whole corpus; we spot-check"),
+            ("model", "Code 25 new interviews;\nrecode earlier ones blind"),
+            ("program", "Compare old and new\ncoding; list anomalies"),
+            ("us", "Check each round's anomalies\nagainst the literature"),
+            ("us", "Revise the codebook\nfrom papers read in full"),
+            ("model", "When rounds settle: code\nthe whole corpus; we spot-check"),
         ], "coded interviews"),
         ("3  Analyse", "Stage 4", [
-            ("program", "Count codes and patterns"),
-            ("us", "Study the anomalies: what\nthe literature does not explain"),
+            ("program", "Count codes; trace anomalies\nacross versions"),
+            ("us", "Study the anomalies no\npaper explains"),
             ("us", "Interpret and build theory"),
         ], "findings"),
     ]
@@ -91,7 +91,8 @@ def legend(ax, x, y):
 def lanes(phase, path):
     steps = phase["steps"]
     n = len(steps)
-    cw, bw, bh, x0 = 1.18, 1.06, 0.9, 1.45      # column width, box width and height, first box
+    # column width, box width and height, first box; fewer steps get wider boxes and larger text
+    cw, bw, bh, x0, wrap, fs = (1.6, 1.46, 0.9, 1.45, 21, 6.6) if n <= 6 else (1.18, 1.06, 0.9, 1.45, 17, 5.4)
     rows = {"us": 2.4, "model": 1.3, "program": 0.2}
     width = x0 + 0.1 + n * cw
     fig, ax = plt.subplots(figsize=(width * 0.92, 3.6))
@@ -108,10 +109,10 @@ def lanes(phase, path):
         ax.add_patch(FancyBboxPatch((x, y), bw, bh, boxstyle="round,pad=0.01,rounding_size=0.06", fc=FILL[s["who"]],
                                     ec=CHECK if s.get("check") else "none", lw=1.6))
         ax.text(x + 0.06, y + bh - 0.1, str(k + 1), fontsize=7, weight="bold", color=GREY, va="top")
-        ax.text(x + bw / 2, y + bh / 2 - 0.04, "\n".join(textwrap.wrap(s["what"], 17)), fontsize=5.4, color=INK,
+        ax.text(x + bw / 2, y + bh / 2 - 0.04, "\n".join(textwrap.wrap(s["what"], wrap)), fontsize=fs, color=INK,
                 ha="center", va="center", linespacing=1.08)
         if s.get("check"):
-            ax.text(x + bw - 0.06, y + bh - 0.1, "we decide", fontsize=5.2, color=CHECK, ha="right", va="top", weight="bold")
+            ax.text(x + bw - 0.06, y + bh - 0.1, s.get("label", "we decide"), fontsize=5.2, color=CHECK, ha="right", va="top", weight="bold")
         if prev:
             px, py = prev
             ax.add_patch(FancyArrowPatch((px + bw, py + bh / 2), (x, y + bh / 2), connectionstyle="arc3,rad=0",

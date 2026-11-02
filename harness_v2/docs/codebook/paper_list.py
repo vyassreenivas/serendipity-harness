@@ -1,6 +1,6 @@
 """Export the papers behind the codebook, and the codes each one supports, as JSON for paper_list.js.
 
-Usage: python paper_list.py codebook_review.xlsx paper_list.json
+Usage: python paper_list.py codebook_review.xlsx paper_list.json [CODEBOOK_JSON]
        node paper_list.js paper_list.json paper_list.docx
 
 One row per work the model read for candidate codes (versions of one work are
@@ -9,6 +9,9 @@ supports (each level-2 item with its rule over level-1 codes), numbered as in th
 2). A link counts only where a sentence chosen by reading states the code;
 "leans on it" marks a sentence that comes close. Works that support no code in
 the codebook are listed last. Holds references and code labels only.
+With a later codebook version (CODEBOOK_JSON), its added codes are linked to
+their papers through sentences picked by fixed code, marked "not yet read" until
+chosen by reading.
 """
 import json
 import re
@@ -18,6 +21,7 @@ from pathlib import Path
 
 from export import ADDED, H, LEVELS, META, cite
 from levels import level1, numbers, rule_equation, rule_evidence
+from version import apply
 from workbook import evidence_for, load_draft, state_from_workbook
 
 WHY = json.loads(Path(__file__).with_name("paper_why.json").read_text(encoding="utf-8"))["why"]
@@ -42,8 +46,9 @@ def reference(pid: str) -> dict:
     return {"short": c["short"], "text": f"{c['title']}." + (f" {c['venue']}{vol}." if c["venue"] else ""), "url": c["url"]}
 
 
-def build(xlsx: str, out: str) -> None:
+def build(xlsx: str, out: str, version_file: str = "") -> None:
     state, draft = state_from_workbook(xlsx), load_draft()
+    version = apply(state, draft, version_file) if version_file else "1.0"
     read = sorted(p.stem for run in ("20261012-124904", ADDED["run"]) for p in (H / "runs" / run / "candidates").glob("*.json"))
     works = {}
     for pid in read:
@@ -57,8 +62,10 @@ def build(xlsx: str, out: str) -> None:
         ids = (g["pick_one"]["codes"] if g["pick_one"] else []) + g["codes"]
         for k, c in enumerate(ids, 1):
             for e in evidence_for(draft[c]):
-                if e["chosen"] and not e.get("none") and key(e) in works:
-                    works[key(e)]["l1"].append({"no": f"{gi}.{k}", "label": state[c]["Label"], "leans": bool(e.get("close"))})
+                if (e["chosen"] or draft[c].get("unread")) and not e.get("none") and key(e) in works:
+                    unread = " (added in " + draft[c]["added_in"] + "; sentence not yet read)" if not e["chosen"] else ""
+                    works[key(e)]["l1"].append({"no": f"{gi}.{k}", "label": state[c]["Label"] + unread,
+                                                "leans": bool(e.get("close"))})
     counters, num = {}, numbers(state, draft)
     label = {c: state[c]["Label"] for c in draft}
     for r in LEVELS["level2"]:
@@ -77,7 +84,7 @@ def build(xlsx: str, out: str) -> None:
             w["text"] = f"{m['book']}." + (f" {m['publisher']}." if m.get("publisher") else "")
     rows = sorted(works.values(), key=lambda w: w["short"].lower())
     used = [w for w in rows if w["l1"] or w["l2"]]
-    data = {"built": date.today().isoformat(), "read": len(read), "works": len(rows),
+    data = {"version": version, "built": date.today().isoformat(), "read": len(read), "works": len(rows),
             "used": [dict({k: v for k, v in w.items() if k != "ids"}, key=w["ids"][0], why=WHY[w["ids"][0]]) for w in used],
             "unused": [dict({k: v for k, v in w.items() if k not in ("ids", "l1", "l2")}, key=w["ids"][0], why=WHY[w["ids"][0]]) for w in rows if not (w["l1"] or w["l2"])],
             "links": sum(len(w["l1"]) for w in used), "leans": sum(x["leans"] for w in used for x in w["l1"])}
@@ -128,4 +135,4 @@ def core(used: list[dict], sq_of: dict) -> dict:
 
 
 if __name__ == "__main__":
-    build(sys.argv[1], sys.argv[2])
+    build(*sys.argv[1:4])

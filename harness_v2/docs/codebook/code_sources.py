@@ -1,6 +1,10 @@
 """Write a simple table of every code with the papers it came from and their quotes.
 
-Usage: python code_sources.py codebook_review.xlsx code_sources.html
+Usage: python code_sources.py codebook_review.xlsx code_sources.html [CODEBOOK_JSON]
+
+With a later codebook version (CODEBOOK_JSON), its added and revised codes are
+shown; their sentences are picked by fixed code until chosen by reading, and
+are marked so.
 
 One row per code: its group, its number and label, and each paper that states it
 with the sentence chosen by reading (and its page). Level-2 items follow, each
@@ -13,6 +17,7 @@ from datetime import date
 
 from export import LEVELS
 from levels import CORE_PAPERS, SUB_QUESTIONS, level1, numbers, rule_equation, rule_evidence
+from version import apply
 from workbook import evidence_for, load_draft, state_from_workbook
 
 E = html.escape
@@ -28,24 +33,28 @@ def sources(ev: list[dict]) -> str:
         page = f", p. {q['pdf_page']}" if q.get("pdf_page") else ""
         lean = ' <span class="lean">leans on it</span>' if e.get("close") else ""
         lean += ' <span class="core">core paper</span>' if e["short"] in CORE_PAPERS else ""
+        lean += ' <span class="lean">sentence picked by program, not yet read</span>' if not e.get("chosen", True) else ""
         quote = f'<q>{E(q["text"])}</q>' if q.get("text") else '<span class="none">no quote held</span>'
         items.append(f'<li><b>{E(e["short"])}</b>{page}{lean}<br>{quote}</li>')
     return f'<ul>{"".join(items)}</ul>' if items else '<span class="none">none</span>'
 
 
-def build(xlsx: str, out: str) -> None:
+def build(xlsx: str, out: str, version_file: str = "") -> None:
     state, draft = state_from_workbook(xlsx), load_draft()
+    version = apply(state, draft, version_file) if version_file else "1.0"
     num = numbers(state, draft)
     label = {c: state[c]["Label"] for c in draft}
     rows, n_codes = [], 0
     for gi, g in enumerate(level1(state, draft), 1):
         ids = (g["pick_one"]["codes"] if g["pick_one"] else []) + g["codes"]
         for k, c in enumerate(ids):
-            ev = [e for e in evidence_for(draft[c]) if e["chosen"] and not e.get("none")]
+            ev = [e for e in evidence_for(draft[c]) if (e["chosen"] or draft[c].get("unread")) and not e.get("none")]
             group = (f'<td rowspan="{len(ids)}" class="group"><b>{gi}. {E(g["name"])}</b><br>'
                      f'<span>{g["sq"]}: {E(SUB_QUESTIONS[g["sq"]])}</span></td>') if k == 0 else ""
-            rows.append(f'<tr>{group}<td class="code"><span class="no">{num[c]}</span> {E(label[c])}</td>'
-                        f'<td>{sources(ev)}</td></tr>')
+            added = f' <span class="core">added in {draft[c]["added_in"]}</span>' if draft[c].get("added_in") else ""
+            body = sources(ev) if ev else '<span class="none">No paper states it: an inductive code, from the interviews.</span>'
+            rows.append(f'<tr>{group}<td class="code"><span class="no">{num[c]}</span> {E(label[c])}{added}</td>'
+                        f'<td>{body}</td></tr>')
             n_codes += 1
     level2 = []
     for kind, title, letter in KINDS:
@@ -55,7 +64,7 @@ def build(xlsx: str, out: str) -> None:
             group = f'<td rowspan="{len(items)}" class="group"><b>{E(title)}</b></td>' if k == 1 else ""
             level2.append(f'<tr>{group}<td class="code"><span class="no">{letter}{k}</span> {E(r["name"])}'
                           f'<div class="rule">{E(rule)}</div></td><td>{sources(rule_evidence(r, draft))}</td></tr>')
-    page = PAGE.format(built=date.today().isoformat(), n=n_codes, rows="".join(rows),
+    page = PAGE.format(version=version, built=date.today().isoformat(), n=n_codes, rows="".join(rows),
                        n2=len(LEVELS["level2"]), level2="".join(level2))
     open(out, "w", encoding="utf-8").write(page)
     print(f"wrote {out}: {n_codes} level-1 codes, {len(LEVELS['level2'])} level-2 items")
@@ -83,7 +92,7 @@ ul {{ margin:0; padding-left:18px; }} li {{ margin-bottom:6px; }}
 q {{ font-style:italic; }} .core {{ font-size:11px; color:var(--head); border:1px solid var(--head); border-radius:8px; padding:0 6px; margin-left:4px; }} .lean {{ color:var(--lean); font-size:12px; margin-left:4px; }} .none {{ color:var(--muted); }}
 </style></head><body><main>
 <h1>Codebook sources</h1>
-<p class="meta">Codebook version 1.0. Each code with the papers that state it and the sentence from each, with its page. Papers in the core list come first and are tagged. Built {built}.</p>
+<p class="meta">Codebook version {version}. Each code with the papers that state it and the sentence from each, with its page. Papers in the core list come first and are tagged. Built {built}.</p>
 <h2>Level 1: what coders tick ({n} codes)</h2>
 <div class="wrap"><table><thead><tr><th>Group</th><th>Code</th><th>Papers and quotes</th></tr></thead><tbody>{rows}</tbody></table></div>
 <h2>Level 2: worked out from level-1 codes ({n2} items)</h2>
@@ -92,4 +101,4 @@ q {{ font-style:italic; }} .core {{ font-size:11px; color:var(--head); border:1p
 """
 
 if __name__ == "__main__":
-    build(sys.argv[1], sys.argv[2])
+    build(*sys.argv[1:4])

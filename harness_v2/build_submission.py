@@ -39,19 +39,21 @@ HARNESS_SKIP = ["docs/PRD.md", "docs/coding_instructions.md", "docs/technical_su
 # outputs, and one figure the appendix uses.
 V2_TAKE = ["README.md", "build_submission.py", "submission_README.md", "docs/technical_v2/*",
            "docs/codebook/*", "docs/source/tree.png"]
-V2_SKIP = ["*.bak", "docs/codebook/evidence_*_2026*.md"]
+V2_SKIP = ["*.bak", "docs/codebook/evidence_*_2026*.md", "docs/technical_v2/technical_draft.*"]
 # The runs that built codebook 1.0: setup, paper inventory, candidate codes with the
 # passages they cite, the draft and the log. Never page text, passages or calls.
 RUNS = {"20261012-124904": ["project.toml", "inventory.json", "log.jsonl", "codebook_draft.json",
                             "codebook_review.csv", "candidates/*"],
         "20261021-003947": ["project.toml", "inventory.json", "log.jsonl", "candidates/*", "inapp/*"]}
 # The reviewer package, numbered in reading order, each from the committed file it is built as.
-PACKAGE = {"1_research_question.docx": "docs/codebook/questions.docx",
-           "2_paper_list.docx": "docs/codebook/paper_list_core.docx",
-           "3_codebook.docx": "docs/codebook/codebook_simple.docx",
-           "4_technical_document.html": "docs/technical_v2/technical_draft.html",
-           "5_code_sources.html": "docs/codebook/code_sources.html",
-           "6_codebook_progression.html": "docs/codebook/codebook_progression.html"}
+PACKAGE = {"1_technical_document.docx": "docs/technical_v2/Technical_Documentation_V1.docx",
+           "2_figures.pptx": "docs/technical_v2/technical_figures.pptx",
+           "3_research_question.docx": "docs/codebook/questions.docx",
+           "4_codebook_progression.html": "docs/codebook/codebook_progression.html"}
+# The pages of the calibration rounds, under their own names so their links work. The coded
+# interviews they link to are not here: they go to reviewers only, in a confidential file.
+ROUND_PAGES = ["1_codebook_v1.html", "2_round1_coding.html", "3_paper_search.html", "4_codebook_v2.html",
+               "5_progression.html", "6_round2_coding.html", "7_codebook_v3.html", "8_round3_coding.html"]
 
 FORBIDDEN_PARTS = {"pages", "passages", "segments", "calls", "model_coding", "interviews_25", "coders",
                    "replies", "checked", "outputs", "coded", "to_code"}
@@ -95,6 +97,8 @@ def assemble(target: Path) -> None:
             copy(V2 / f, target / "harness_v2" / f)
     for name, src in PACKAGE.items():
         copy(V2 / src, target / "package" / name)
+    for name in ROUND_PAGES:
+        copy(V2 / "review" / name, target / "package" / "rounds" / name)
     shutil.copy2(V2 / "submission_README.md", target / "README.md")
     shutil.copy2(HARNESS / "requirements.txt", target / "requirements.txt")
     (target / ".gitignore").write_text(
